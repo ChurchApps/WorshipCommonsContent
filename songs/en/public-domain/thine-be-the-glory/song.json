@@ -1,0 +1,28 @@
+{
+  "id": "4ywZcq98xoX",
+  "title": "Thine Be the Glory",
+  "writer": "Edmond Budry · tr. Richard Hoyle",
+  "writerRef": "edmond-budry",
+  "year": 1923,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "D",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 28:5-6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 764,
+  "hymnalCount": 142,
+  "video": {
+    "youtube": "Tjz4yXUJrgU",
+    "title": "Thine Be the Glory (Tune: Maccabeus - 3vv+refrain) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

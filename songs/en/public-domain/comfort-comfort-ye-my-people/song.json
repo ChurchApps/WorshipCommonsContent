@@ -1,0 +1,28 @@
+{
+  "id": "HwREivBL3Bu",
+  "title": "Comfort, Comfort Ye My People",
+  "writer": "Johann Olearius · tr. Catherine Winkworth",
+  "writerRef": "johann-olearius",
+  "year": 1671,
+  "language": "English",
+  "themes": "Atonement,Christmas/Advent,Comfort",
+  "key": "F",
+  "bpm": 160,
+  "timeSignature": "6/4",
+  "scripture": "Is 40:1-8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 136,
+  "video": {
+    "youtube": "GGURM_EVT8M",
+    "title": "Comfort, Comfort, Ye My People"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

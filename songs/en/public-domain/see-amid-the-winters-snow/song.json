@@ -1,0 +1,29 @@
+{
+  "id": "tfJFA1mpBmX",
+  "title": "See Amid the Winter's Snow",
+  "writer": "Edward Caswall",
+  "writerRef": "edward-caswall",
+  "year": 1851,
+  "language": "English",
+  "themes": "Angels,Christmas/Advent,Humility",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:1-20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 177,
+  "video": {
+    "youtube": "EM508nyh6jo",
+    "title": "See Amid the Winter's Snow"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

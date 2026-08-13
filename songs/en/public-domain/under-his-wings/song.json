@@ -1,0 +1,29 @@
+{
+  "id": "wU-HdQwItwq",
+  "title": "Under His Wings",
+  "writer": "William Orcutt Cushing",
+  "writerRef": "william-orcutt-cushing",
+  "year": 1896,
+  "language": "English",
+  "themes": "Assurance,Calmness,Courage in Affliction",
+  "key": "Db",
+  "bpm": 110,
+  "timeSignature": "6/4",
+  "scripture": "Ps 17:7-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 168,
+  "video": {
+    "youtube": "qeHcf_EtZ6A",
+    "title": "Under His Wings"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "s9XWtimzgsm",
+  "title": "Jesus Liebt Mich Ganz Gewiss",
+  "writer": "Anonymous",
+  "writerRef": null,
+  "year": 1862,
+  "language": "German",
+  "themes": "Assurance,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Lukas 18:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "GZ9C6_0wlwv",
+    "title": "Jesus Loves Me"
+  },
+  "relationLabel": "German original",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

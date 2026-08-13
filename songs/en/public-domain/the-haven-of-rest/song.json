@@ -1,0 +1,27 @@
+{
+  "id": "kKWFkn8hJGR",
+  "title": "The Haven of Rest",
+  "writer": "Henry Gilmour & George Moore",
+  "writerRef": null,
+  "year": 1889,
+  "language": "English",
+  "themes": "Comfort,Assurance",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 11:28",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 212,
+  "hymnalCount": 397,
+  "video": {
+    "youtube": "xU4HgK-R6C4",
+    "title": "Bill & Gloria Gaither - The Haven of Rest [Live] ft. Glen Payne, Guy Penrod"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

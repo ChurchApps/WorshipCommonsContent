@@ -1,0 +1,26 @@
+{
+  "id": "VSDul5x0qun",
+  "title": "Mein Heiland Ruft Mir Zu",
+  "writer": "Elvina M. Hall · tr. Theodor Kübler",
+  "writerRef": null,
+  "year": 1865,
+  "language": "German",
+  "themes": "Grace,Assurance",
+  "key": "Bb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Jesaja 1:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "jezxVGT-AB_",
+    "title": "Jesus Paid It All"
+  },
+  "relationLabel": "German translation · tr. Theodor Kübler",
+  "provenance": {
+    "text": "cyber-hymnal"
+  }
+}

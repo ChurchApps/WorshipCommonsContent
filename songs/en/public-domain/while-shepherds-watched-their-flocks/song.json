@@ -1,0 +1,28 @@
+{
+  "id": "hbn517-XyXn",
+  "title": "While Shepherds Watched Their Flocks",
+  "writer": "Nahum Tate",
+  "writerRef": null,
+  "year": 1700,
+  "language": "English",
+  "themes": "Christmas",
+  "key": "C",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:8-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 456,
+  "hymnalCount": 1197,
+  "video": {
+    "youtube": "eSyUvOUZwxQ",
+    "title": "While Shepherds Watched Their Flocks By Night with Lyrics | Christmas Carol & Song"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

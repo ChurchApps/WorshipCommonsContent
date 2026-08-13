@@ -1,0 +1,28 @@
+{
+  "id": "Z1Embifvnqj",
+  "title": "Leave It There",
+  "writer": "Charles Albert Tindley",
+  "writerRef": "charles-albert-tindley",
+  "year": 1916,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "1 Peter 5:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 267,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "9nelWOiu-iI",
+    "title": "Leave It There"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

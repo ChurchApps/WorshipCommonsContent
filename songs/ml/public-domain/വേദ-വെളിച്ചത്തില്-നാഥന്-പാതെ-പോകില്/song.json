@@ -1,0 +1,27 @@
+{
+  "id": "zuoE2N1Amav",
+  "title": "വേദ വെളിച്ചത്തില്‍, നാഥന്‍ പാതെ പോകില്‍",
+  "writer": "ജോണ്‍ എച്ച്. സ്മിത്ത് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": "Trust,Assurance",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 84:11–12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "tIzXwesquh0",
+    "title": "Trust and Obey"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

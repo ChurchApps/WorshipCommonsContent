@@ -1,0 +1,29 @@
+{
+  "id": "9_0dooJiklp",
+  "title": "Built on the Rock",
+  "writer": "Nikolai Frederik Severin Grundtvig · tr. Carl D�ving",
+  "writerRef": "nikolai-frederik-severin-grundtvig",
+  "year": 1857,
+  "language": "English",
+  "themes": "Assurance,Baptism,Children",
+  "key": "F",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "Mt 7:24-25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 80,
+  "video": {
+    "youtube": "wkOo_acptjE",
+    "title": "Built on the Rock - Lutheran Service Book 645"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

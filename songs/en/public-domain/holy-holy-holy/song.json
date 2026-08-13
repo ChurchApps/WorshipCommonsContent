@@ -1,0 +1,29 @@
+{
+  "id": "Z8zZ1SBRMoo",
+  "title": "Holy, Holy, Holy",
+  "writer": "Reginald Heber",
+  "writerRef": "reginald-heber",
+  "year": 1826,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 4:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1835,
+  "video": {
+    "youtube": "zzM9P_Gqw-s",
+    "title": "Holy, Holy, Holy! Lord God Almighty (Tune: Nicea - 4vv) [with lyrics for congregations] {Robin Mark}"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

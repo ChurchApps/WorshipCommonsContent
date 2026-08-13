@@ -1,0 +1,29 @@
+{
+  "id": "fcWrAVoyjTB",
+  "title": "The Comforter Has Come",
+  "writer": "Frank Bottome",
+  "writerRef": null,
+  "year": 1890,
+  "language": "English",
+  "themes": "Church in Heaven,Church on Earth,Grace",
+  "key": "C",
+  "bpm": 95,
+  "timeSignature": "3/4",
+  "scripture": "Jn 14:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 273,
+  "video": {
+    "youtube": "sfnRwDoPijY",
+    "title": "The Comforter Has Come"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

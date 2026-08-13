@@ -1,0 +1,30 @@
+{
+  "id": "0zAZCrIP2zW",
+  "title": "As with Gladness Men of Old",
+  "writer": "William Dix & Conrad Kocher",
+  "writerRef": null,
+  "year": 1860,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 2:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 389,
+  "hymnalCount": 696,
+  "video": {
+    "youtube": "UB8rKNrlpDQ",
+    "title": "As With Gladness, Men of Old (Tune: Dix - 5vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

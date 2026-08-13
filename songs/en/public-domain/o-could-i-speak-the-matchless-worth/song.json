@@ -1,0 +1,27 @@
+{
+  "id": "nF-PNbkwDD4",
+  "title": "O Could I Speak the Matchless Worth",
+  "writer": "Samuel Medley",
+  "writerRef": "samuel-medley",
+  "year": 1789,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 45:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 178,
+  "hymnalCount": 805,
+  "video": {
+    "youtube": "A-gYVfM4axw",
+    "title": "177. O Could I Speak the Matchless Worth, Trinity Hymnal"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

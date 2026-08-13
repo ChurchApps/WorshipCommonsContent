@@ -1,0 +1,28 @@
+{
+  "id": "FfRhpTJHhew",
+  "title": "I Love to Tell the Story",
+  "writer": "Katherine Hankey & William Fischer",
+  "writerRef": null,
+  "year": 1866,
+  "language": "English",
+  "themes": "Mission,Praise",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 66:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 856,
+  "hymnalCount": 1390,
+  "video": {
+    "youtube": "OrCpKa_xOcE",
+    "title": "Alan Jackson - I Love To Tell The Story (Live)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

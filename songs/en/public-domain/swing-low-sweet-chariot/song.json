@@ -1,0 +1,28 @@
+{
+  "id": "Ss91HqMFkPh",
+  "title": "Swing Low, Sweet Chariot",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1873,
+  "language": "English",
+  "themes": "Hope,Comfort",
+  "key": "D",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "2 Kings 2:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 823,
+  "hymnalCount": 222,
+  "video": {
+    "youtube": "N195OCcgV0o",
+    "title": "Swing Low, Sweet Chariot | Hymn with Lyrics | Dementia friendly"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

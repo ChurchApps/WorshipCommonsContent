@@ -1,0 +1,28 @@
+{
+  "id": "SR0BF7n_UeU",
+  "title": "We All Believe in One True God",
+  "writer": "Medieval & Martin Luther · tr. composite",
+  "writerRef": "medieval-martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Atonement,Brotherhood,Church in Heaven",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "1Jn 5:20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 52,
+  "video": {
+    "youtube": "O9VolOFsnPI",
+    "title": "We All Believe in One True God"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

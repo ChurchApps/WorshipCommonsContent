@@ -1,0 +1,27 @@
+{
+  "id": "U5VUtmh6lUn",
+  "title": "Mein Jesu, Wie Du Willst",
+  "writer": "Benjamin Schmolck",
+  "writerRef": null,
+  "year": 1704,
+  "language": "German",
+  "themes": "Assurance,Bread,Christian Life",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Matthäus 6,10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "KBBtl52_KRr",
+    "title": "My Jesus, As Thou Wilt"
+  },
+  "relationLabel": "German original · Benjamin Schmolck, 1704",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

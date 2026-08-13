@@ -1,0 +1,30 @@
+{
+  "id": "XHeQW0SBedC",
+  "title": "Take My Life and Let It Be",
+  "writer": "Frances Havergal",
+  "writerRef": "frances-havergal",
+  "year": 1874,
+  "language": "English",
+  "themes": "Confession,Mission",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Romans 12:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 923,
+  "hymnalCount": 1384,
+  "video": {
+    "youtube": "y3gWwGDGgVA",
+    "title": "Take My Life and Let It Be | Reawaken Hymns | Official Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

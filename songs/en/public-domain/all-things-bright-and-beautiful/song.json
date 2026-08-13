@@ -1,0 +1,28 @@
+{
+  "id": "4LdUJ6NJqdP",
+  "title": "All Things Bright and Beautiful",
+  "writer": "Cecil Frances Alexander",
+  "writerRef": "cecil-frances-alexander",
+  "year": 1848,
+  "language": "English",
+  "themes": "Creation,Praise",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Genesis 1:31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 634,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "FT_oDqOEGpc",
+    "title": "All Things Bright  And Beautiful by Kidzup with lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

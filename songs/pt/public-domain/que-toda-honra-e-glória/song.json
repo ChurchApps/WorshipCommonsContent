@@ -1,0 +1,27 @@
+{
+  "id": "2yrun8jtpBS",
+  "title": "Que Toda Honra e Glória",
+  "writer": "Theodulph de Orleans",
+  "writerRef": null,
+  "year": 1851,
+  "language": "Portuguese",
+  "themes": "Easter,Praise",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Mateus 21:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "MTtlp6FEXfq",
+    "title": "All Glory, Laud, and Honor"
+  },
+  "relationLabel": "Portuguese translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "58p5F1XHI3w",
+  "title": "എന്നാത്മാവേ കേൾക്ക",
+  "writer": "ഫ്രെഡറിക്ക് ഡബ്ള്യു. ഫാബർ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2017,
+  "language": "Malayalam",
+  "themes": "Angels,Anticipation,Art and Music",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 30:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "xN0vtmWoa0t",
+    "title": "Hark, Hark, My Soul!"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

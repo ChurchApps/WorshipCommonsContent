@@ -1,0 +1,27 @@
+{
+  "id": "-fifg3XonuV",
+  "title": "നാശ പാപികളെ രക്ഷിപ്പാൻ",
+  "writer": "ഫേനി ക്രോസ്ബി",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Malayalam",
+  "themes": "Justice,Mission",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "യൂദാ: 23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "XR1cmwM8A94",
+    "title": "Rescue the Perishing"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

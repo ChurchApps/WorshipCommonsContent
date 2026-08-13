@@ -1,0 +1,29 @@
+{
+  "id": "V1_UNFfkaSN",
+  "title": "'Twas On That Dark, That Doleful Night",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1709,
+  "language": "English",
+  "themes": "Atonement,Blood,Bread",
+  "key": "F",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "1Cor 11:23-26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 382,
+  "video": {
+    "youtube": "O76OXhGVPSI",
+    "title": "'Twas on that Doleful Night"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

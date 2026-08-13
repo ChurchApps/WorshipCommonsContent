@@ -1,0 +1,27 @@
+{
+  "id": "rDoQPF-EueY",
+  "title": "Santa Biblia, para Mí",
+  "writer": "John Burton",
+  "writerRef": null,
+  "year": 1803,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "2 Timoteo 3:16-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 38,
+  "video": {
+    "youtube": "ZaphjwLuxso",
+    "title": "Santa Biblia Para Mi"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

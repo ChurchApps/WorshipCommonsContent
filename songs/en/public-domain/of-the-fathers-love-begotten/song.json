@@ -1,0 +1,30 @@
+{
+  "id": "bCPO2W4bCWe",
+  "title": "Of the Father's Love Begotten",
+  "writer": "Prudentius · tr. John Mason Neale",
+  "writerRef": null,
+  "year": 1851,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 22:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 241,
+  "video": {
+    "youtube": "AACo2zzHMbQ",
+    "title": "Of the Father's Love Begotten - Advent Hymn Lyric VIdeo"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

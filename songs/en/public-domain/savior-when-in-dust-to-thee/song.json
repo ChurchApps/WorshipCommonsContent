@@ -1,0 +1,29 @@
+{
+  "id": "ymvbuJgSNYa",
+  "title": "Savior When In Dust To Thee",
+  "writer": "Robert Grant",
+  "writerRef": null,
+  "year": 1815,
+  "language": "English",
+  "themes": "Atonement,Conscience,Contrition",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 39:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 455,
+  "video": {
+    "youtube": "Y-ug5EoB3vI",
+    "title": "Savior, When In Dust To Thee"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

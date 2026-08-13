@@ -1,0 +1,9 @@
+All the Way My Savior Leads Me — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): WorshipCommons seed transcription — https://worshipcommons.org
+Tune (tune.mid): The Cyber Hymnal — http://www.hymntime.com/tch/ (attribution required)
+Cover art (art.webp): WorshipCommons (generated) — https://worshipcommons.org
+Hymnal-count metadata: Hymnary.org — https://hymnary.org
+
+License: Public domain. See licenses/public-domain.md at the repository root.

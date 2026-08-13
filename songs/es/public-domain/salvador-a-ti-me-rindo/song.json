@@ -1,0 +1,30 @@
+{
+  "id": "JWQw4DtGRBC",
+  "title": "Salvador, a Ti Me Rindo",
+  "writer": "Judson Van DeVenter",
+  "writerRef": null,
+  "year": 1896,
+  "language": "Spanish",
+  "themes": "Confession,Trust",
+  "key": "D",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "San Lucas 14:33",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 22,
+  "video": {
+    "youtube": "-GwOB9czuHQ",
+    "title": "HA62 | Himno 277 | Salvador, a ti me rindo"
+  },
+  "parent": {
+    "id": "_lBMGxob8RU",
+    "title": "I Surrender All"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

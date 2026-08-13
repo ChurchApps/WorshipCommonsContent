@@ -1,0 +1,29 @@
+{
+  "id": "9qT3qh4r21m",
+  "title": "Jesus, King of Glory",
+  "writer": "W. Hope Davison",
+  "writerRef": null,
+  "year": 1880,
+  "language": "English",
+  "themes": "Aspiration,Brotherhood,Children",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Heb 12:1-15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 74,
+  "video": {
+    "youtube": "qHlbR7mb8a8",
+    "title": "Jesus, King of glory"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "yjClZ3wM_O4",
+  "title": "The Galilean Fishers Toil",
+  "writer": "Christopher Wordsworth",
+  "writerRef": "christopher-wordsworth",
+  "year": 1865,
+  "language": "English",
+  "themes": "Comfort,Compassion,Contrition",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Lk 5:1-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "Z3ADGIz5c0w",
+    "title": "The Galilean Fishers toil...#Hymn MHB 509"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

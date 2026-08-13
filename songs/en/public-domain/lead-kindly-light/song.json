@@ -1,0 +1,28 @@
+{
+  "id": "c2laLIwpFSI",
+  "title": "Lead, Kindly Light",
+  "writer": "John Henry Newman",
+  "writerRef": "john-henry-newman",
+  "year": 1833,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 119:105",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 1357,
+  "video": {
+    "youtube": "PnIYLEXHeFk",
+    "title": "Lead, Kindly Light (2012) | The Tabernacle Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

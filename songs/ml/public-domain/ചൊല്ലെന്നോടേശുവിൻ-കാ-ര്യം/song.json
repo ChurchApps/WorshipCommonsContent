@@ -1,0 +1,27 @@
+{
+  "id": "Cimm_OHgQ_r",
+  "title": "ചൊല്ലെന്നോടേശുവിൻ കാ-ര്യം",
+  "writer": "വില്യം എച്ച്.പാർക്കർ",
+  "writerRef": null,
+  "year": 1885,
+  "language": "Malayalam",
+  "themes": "Trust,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 19:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "KiS6tOdKb6n",
+    "title": "Tell Me the Stories of Jesus"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

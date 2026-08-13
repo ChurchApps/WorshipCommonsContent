@@ -1,0 +1,29 @@
+{
+  "id": "ihlFEWgSv9K",
+  "title": "O For A Thousand Tongues",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1740,
+  "language": "English",
+  "themes": "Assurance,Atonement,Blood",
+  "key": "Ab",
+  "bpm": 200,
+  "timeSignature": "3/2",
+  "scripture": "Ps 96:1-3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 2,
+  "video": {
+    "youtube": "vFMAlhxnJrE",
+    "title": "O For a Thousand Tongues to Sing | Official Lyric Video | Reawaken Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

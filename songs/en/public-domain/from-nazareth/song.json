@@ -1,0 +1,29 @@
+{
+  "id": "vg0RZbRbitz",
+  "title": "From Nazareth",
+  "writer": "Margaret Elizabeth Munson Sangster",
+  "writerRef": "margaret-elizabeth-munson-sangster",
+  "year": 1911,
+  "language": "English",
+  "themes": "Healing,Holiness,Jesus",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Jn 1:43-51",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 4,
+  "video": {
+    "youtube": "GP4rgCfH7BY",
+    "title": "Man from Nazareth (Live)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

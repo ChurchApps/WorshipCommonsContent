@@ -1,0 +1,30 @@
+{
+  "id": "I81M_4JdgmK",
+  "title": "Grato Es Contar la Historia",
+  "writer": "Katherine Hankey",
+  "writerRef": null,
+  "year": 1866,
+  "language": "Spanish",
+  "themes": "Mission,Praise",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 66:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 36,
+  "video": {
+    "youtube": "S6nzcXFy97A",
+    "title": "HA62 | Himno 329 | Grato es contar la historia"
+  },
+  "parent": {
+    "id": "FfRhpTJHhew",
+    "title": "I Love to Tell the Story"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "8kbpee9sEfo",
+  "title": "Ha Az Úrral Járunk",
+  "writer": "John H. Sammis · tr. Anna Piroska Williams",
+  "writerRef": null,
+  "year": 1973,
+  "language": "Hungarian",
+  "themes": "Trust,Assurance",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Zsoltárok 34:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "tIzXwesquh0",
+    "title": "Trust and Obey"
+  },
+  "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1973",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

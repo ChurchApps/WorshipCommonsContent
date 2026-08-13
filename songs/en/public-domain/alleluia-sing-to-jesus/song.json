@@ -1,0 +1,29 @@
+{
+  "id": "dPUvDuX1qyF",
+  "title": "Alleluia, Sing To Jesus!",
+  "writer": "William Chatterton Dix",
+  "writerRef": "william-chatterton-dix",
+  "year": 1867,
+  "language": "English",
+  "themes": "Atonement,Blood,Bread",
+  "key": "F",
+  "bpm": 130,
+  "timeSignature": "3/4",
+  "scripture": "Is 66:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 238,
+  "video": {
+    "youtube": "Wh61poqcnpA",
+    "title": "Alleluia! Sing to Jesus"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "PEM5_FSNlE9",
+  "title": "Lord Jesus Think On Me",
+  "writer": "Synesius of Cyrene · tr. Allen William Chatfield",
+  "writerRef": null,
+  "year": 1876,
+  "language": "English",
+  "themes": "Anticipation,Aspiration,Christian Life",
+  "key": "Ab",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "Ps 51:6-12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 145,
+  "video": {
+    "youtube": "gtPD24Bvn38",
+    "title": "Lord Jesus, Think on Me (Tune: Southwell - 6vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

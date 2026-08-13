@@ -1,0 +1,31 @@
+{
+  "id": "hL6IUnDadWy",
+  "title": "Ein feste Burg ist unser Gott",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1529,
+  "language": "German",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 46",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 120,
+  "video": {
+    "youtube": "nDdHtOSHIXE",
+    "title": "The Wartburg Choir: Ein feste Burg ist unser Gott, arr. W. B. Olds"
+  },
+  "parent": {
+    "id": "9jxQoj5H8ma",
+    "title": "A Mighty Fortress Is Our God"
+  },
+  "relationLabel": "German original · Martin Luther, 1529",
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

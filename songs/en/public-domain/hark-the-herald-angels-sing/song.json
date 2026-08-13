@@ -1,0 +1,30 @@
+{
+  "id": "pSpS9dU7qHg",
+  "title": "Hark! The Herald Angels Sing",
+  "writer": "Charles Wesley & Felix Mendelssohn",
+  "writerRef": "charles-wesley-felix-mendelssohn",
+  "year": 1739,
+  "language": "English",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1471,
+  "hymnalCount": 1462,
+  "video": {
+    "youtube": "xqooC4ZG75Y",
+    "title": "Hark the Herald Angels Sing with Lyrics | Christmas Carol & Song"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

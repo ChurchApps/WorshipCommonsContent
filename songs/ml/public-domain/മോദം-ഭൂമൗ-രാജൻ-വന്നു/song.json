@@ -1,0 +1,27 @@
+{
+  "id": "obh48o6sHBU",
+  "title": "മോദം ഭൂമൗ രാജൻ വന്നു",
+  "writer": "ഐസക്ക് വാട്ട്സ്",
+  "writerRef": null,
+  "year": 1719,
+  "language": "Malayalam",
+  "themes": "Christmas,Praise",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 98:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_X94hS2ZTgf",
+    "title": "Joy to the World"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

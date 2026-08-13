@@ -1,0 +1,27 @@
+{
+  "id": "BX3MZzfDeAt",
+  "title": "Ты—Помощь Мне, Господь",
+  "writer": "Анни Хаукс",
+  "writerRef": null,
+  "year": 1872,
+  "language": "Russian",
+  "themes": "Trust,Confession",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Послание к Евреям 4:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_ALrpxFXZIG",
+    "title": "I Need Thee Every Hour"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

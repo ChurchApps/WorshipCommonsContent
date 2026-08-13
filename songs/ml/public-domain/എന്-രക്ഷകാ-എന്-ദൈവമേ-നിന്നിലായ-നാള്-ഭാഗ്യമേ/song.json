@@ -1,0 +1,27 @@
+{
+  "id": "j1P7w8tQZwn",
+  "title": "എന്‍ രക്ഷകാ! എന്‍ ദൈവമേ! നിന്നിലായ നാള്‍ ഭാഗ്യമേ",
+  "writer": "ഫിലിപ്പ് ഡോഡ്രിജ്ജ് · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1702,
+  "language": "Malayalam",
+  "themes": "Praise,Assurance",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "2 ദിനവൃ‍ത്താന്തം 15:12-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "rkI8Iz1TdSD",
+    "title": "O Happy Day"
+  },
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

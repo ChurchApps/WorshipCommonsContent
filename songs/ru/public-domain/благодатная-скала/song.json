@@ -1,0 +1,27 @@
+{
+  "id": "PvI_DDKrdVF",
+  "title": "Благодатная Скала",
+  "writer": "Август Топлади",
+  "writerRef": null,
+  "year": 1776,
+  "language": "Russian",
+  "themes": "Grace,Trust",
+  "key": "Bb",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Исайя 26:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "b13IrZfZXWm",
+    "title": "Rock of Ages"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

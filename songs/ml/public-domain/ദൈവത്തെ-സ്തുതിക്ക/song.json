@@ -1,0 +1,27 @@
+{
+  "id": "yBIHJ4uzruk",
+  "title": "ദൈവത്തെ സ്തുതിക്ക",
+  "writer": "മാർട്ടിൻ റിങ്കാർട്ട്",
+  "writerRef": null,
+  "year": 1636,
+  "language": "Malayalam",
+  "themes": "Praise,Provision",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "2 കൊരിന്ത്യർ 2:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "O56iN1F_4rL",
+    "title": "Now Thank We All Our God"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "0k1oxB8hD-a",
+  "title": "Despair Not, O Heart",
+  "writer": "Aurelius Clemens Prudentius · tr. O. T. Sanden",
+  "writerRef": "aurelius-clemens-prudentius",
+  "year": 1909,
+  "language": "English",
+  "themes": "Anticipation,Assurance,Calmness",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "Jn 14:1-4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "JOxU6ZiBJAo",
+    "title": "Traditional: Despair Not, O Heart (Arr. Danish String Quartet)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

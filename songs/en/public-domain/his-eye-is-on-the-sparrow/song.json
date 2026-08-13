@@ -1,0 +1,28 @@
+{
+  "id": "4f6vkOaKczh",
+  "title": "His Eye Is on the Sparrow",
+  "writer": "Civilla Martin & Charles Gabriel",
+  "writerRef": "civilla-martin-charles-gabriel",
+  "year": 1905,
+  "language": "English",
+  "themes": "Comfort,Provision",
+  "key": "C",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 10:29-31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1123,
+  "hymnalCount": 133,
+  "video": {
+    "youtube": "vOwgQq70XBE",
+    "title": "His Eye Is On The Sparrow | Tennessee Ernie Ford | May 4, 1961"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

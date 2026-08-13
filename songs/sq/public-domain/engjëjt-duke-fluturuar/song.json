@@ -1,0 +1,27 @@
+{
+  "id": "yZemg-xU2cI",
+  "title": "Engjëjt, Duke Fluturuar",
+  "writer": "Krishtlindje",
+  "writerRef": null,
+  "year": 1862,
+  "language": "Albanian",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Lluka 2:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "yVg78wuG3f-",
+    "title": "Angels We Have Heard on High"
+  },
+  "relationLabel": "Albanian original · Krishtlindje",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

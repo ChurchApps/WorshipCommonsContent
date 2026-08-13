@@ -1,0 +1,28 @@
+{
+  "id": "CjEkEgMxg3r",
+  "title": "The Ninety and Nine",
+  "writer": "Elizabeth Clephane & Ira Sankey",
+  "writerRef": "elizabeth-clephane-ira-sankey",
+  "year": 1874,
+  "language": "English",
+  "themes": "Grace,Provision",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Luke 15:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 245,
+  "hymnalCount": 424,
+  "video": {
+    "youtube": "3NbHZjlnWos",
+    "title": "Gaither - The Ninety and Nine (Live) ft. Guy Penrod, The Nelons"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

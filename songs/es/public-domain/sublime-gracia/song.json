@@ -1,0 +1,29 @@
+{
+  "id": "9TNnsFzTZb4",
+  "title": "Sublime Gracia",
+  "writer": "John Newton · tr. anónimo",
+  "writerRef": null,
+  "year": 1905,
+  "language": "Spanish",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Juan 9:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 512,
+  "hymnalCount": 9,
+  "video": {
+    "youtube": "Hc-8A7NA-Uk",
+    "title": "Sublime Gracia- Amazing Grace en español con letra"
+  },
+  "parent": {
+    "id": "YxPfAFYWOaG",
+    "title": "Amazing Grace"
+  },
+  "relationLabel": "Spanish translation · anonymous, early 20th c.",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

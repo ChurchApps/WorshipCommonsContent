@@ -1,0 +1,28 @@
+{
+  "id": "Bz-shWTdU5O",
+  "title": "The Bridegroom Soon Will Call Us",
+  "writer": "Johann Walther · tr. Matthias Loy",
+  "writerRef": "johann-walther",
+  "year": 1552,
+  "language": "English",
+  "themes": "Angels,Anticipation,Art and Music",
+  "key": "G",
+  "bpm": 160,
+  "timeSignature": "3/4",
+  "scripture": "Mt 25:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 21,
+  "video": {
+    "youtube": "y8qMFAecZ-4",
+    "title": "The Bridegroom Soon Will Call Us"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

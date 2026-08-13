@@ -1,0 +1,30 @@
+{
+  "id": "5p4TIM5AZrv",
+  "title": "Hosanna, Loud Hosanna",
+  "writer": "Jennette Threlfall",
+  "writerRef": null,
+  "year": 1873,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 21:15-16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 345,
+  "hymnalCount": 180,
+  "video": {
+    "youtube": "L8VgZTC0FSo",
+    "title": "Hosanna, Loud Hosanna (Lyric Video)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

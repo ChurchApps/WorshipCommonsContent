@@ -1,0 +1,30 @@
+{
+  "id": "LeNraMP2D7m",
+  "title": "Por la Justicia de Jesús",
+  "writer": "Edward Mote",
+  "writerRef": null,
+  "year": 1834,
+  "language": "Spanish",
+  "themes": "Assurance,Atonement,Blood",
+  "key": "C",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Mateo 7:25-26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1,
+  "video": {
+    "youtube": "Q8-sLlkczvc",
+    "title": "HA62 | Himno 256 | Por la justicia de Jesús"
+  },
+  "parent": {
+    "id": "wy7meh0qqDc",
+    "title": "My Hope Is Built"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

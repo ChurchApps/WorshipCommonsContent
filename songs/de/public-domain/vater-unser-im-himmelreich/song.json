@@ -1,0 +1,27 @@
+{
+  "id": "qegsIkIwkJd",
+  "title": "Vater Unser im Himmelreich",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1539,
+  "language": "German",
+  "themes": "Brotherhood,Christmas/Advent,Comfort",
+  "key": "Bb",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Matthaeus 6,9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "4976Qg6dILD",
+    "title": "Our Father Thou in Heaven Above"
+  },
+  "relationLabel": "German original · Martin Luther, 1539",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

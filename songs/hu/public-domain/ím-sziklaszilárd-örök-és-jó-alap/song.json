@@ -1,0 +1,27 @@
+{
+  "id": "ds2uetquQM9",
+  "title": "Ím, Sziklaszilárd, Örök És Jó Alap",
+  "writer": "John Rippon · tr. Anna Piroska Williams",
+  "writerRef": null,
+  "year": 1976,
+  "language": "Hungarian",
+  "themes": "Assurance,Trust",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "2/2",
+  "scripture": "Zsidók 13:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "WE26JDTfHyQ",
+    "title": "How Firm a Foundation"
+  },
+  "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1976",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

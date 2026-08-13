@@ -1,0 +1,27 @@
+{
+  "id": "JVjwsFYRJhc",
+  "title": "La Tierna Voz del Salvador",
+  "writer": "William Hunter",
+  "writerRef": null,
+  "year": 1859,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 4:18-19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 28,
+  "video": {
+    "youtube": "CBZ48XLDlQM",
+    "title": "HA62 | Himno 124 | La tierna voz del Salvador"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

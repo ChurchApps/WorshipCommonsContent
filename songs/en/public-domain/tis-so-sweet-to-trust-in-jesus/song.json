@@ -1,0 +1,28 @@
+{
+  "id": "Wolo-8OkGaW",
+  "title": "'Tis So Sweet to Trust in Jesus",
+  "writer": "Louisa Stead & William Kirkpatrick",
+  "writerRef": null,
+  "year": 1882,
+  "language": "English",
+  "themes": "Trust,Assurance",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Proverbs 3:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1034,
+  "hymnalCount": 532,
+  "video": {
+    "youtube": "-DdgkvnsHjM",
+    "title": "TIS SO SWEET TO TRUST IN JESUS"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

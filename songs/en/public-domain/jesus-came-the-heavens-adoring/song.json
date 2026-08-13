@@ -1,0 +1,29 @@
+{
+  "id": "z_VbfdWX4th",
+  "title": "Jesus Came, the Heavens Adoring",
+  "writer": "Godfrey Thring",
+  "writerRef": null,
+  "year": 1864,
+  "language": "English",
+  "themes": "Atonement,Christmas/Advent,Cloud",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Mk 13:26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 111,
+  "video": {
+    "youtube": "NQP7lyHy5pQ",
+    "title": "Jesus Came, the Heavens Adoring (#097 Common Praise 1998 - Advent)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

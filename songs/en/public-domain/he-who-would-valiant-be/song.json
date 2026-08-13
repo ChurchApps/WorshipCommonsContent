@@ -1,0 +1,29 @@
+{
+  "id": "9oQFor4ZDaK",
+  "title": "He Who Would Valiant Be",
+  "writer": "John Bunyan & Percy Dearmer",
+  "writerRef": null,
+  "year": 1684,
+  "language": "English",
+  "themes": "Anticipation,Aspiration,Christian Life",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Jn 12:26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 179,
+  "video": {
+    "youtube": "d2wEYuTgQCk",
+    "title": "He who would valiant be Hymn - Westminster Abbey"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

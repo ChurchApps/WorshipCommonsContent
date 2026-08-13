@@ -1,0 +1,29 @@
+{
+  "id": "zyNSObtFM1q",
+  "title": "O Holy, Blessed Trinity",
+  "writer": "Martin Behm · tr. Conrad Herman Louis Schuette",
+  "writerRef": "martin-behm",
+  "year": 1608,
+  "language": "English",
+  "themes": "Christian Life,Consecration,Father",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Ex 15:11-13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 27,
+  "video": {
+    "youtube": "Hg9l_hVODtQ",
+    "title": "O Holy, Blessed Trinity (Ward)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "j2pUEAoZfNF",
+  "title": "The Lily of the Valley",
+  "writer": "Charles William Fry",
+  "writerRef": null,
+  "year": 1881,
+  "language": "English",
+  "themes": "Atonement,Calmness,Christian Life",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "6/8",
+  "scripture": "Hos 14:4-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 490,
+  "video": {
+    "youtube": "QS6KMx_0NDQ",
+    "title": "The Lily of the Valley"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

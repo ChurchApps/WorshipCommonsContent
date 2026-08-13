@@ -1,0 +1,27 @@
+{
+  "id": "sTPMcrj42wN",
+  "title": "When I Can Read My Title Clear",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1707,
+  "language": "English",
+  "themes": "Hope,Assurance",
+  "key": "C",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "2 Corinthians 5:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 178,
+  "hymnalCount": 1317,
+  "video": {
+    "youtube": "w3g1BD8VI7c",
+    "title": "WHEN I CAN READ MY TITLE CLEAR (AN AMERICAN FOLK HYMN MEDLEY) (SATB Choir)  - arr. John Purifoy"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "AmR3I3-LM0h",
+  "title": "Arise, My Soul, Arise",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1742,
+  "language": "English",
+  "themes": "Assurance,Grace",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 7:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 929,
+  "video": {
+    "youtube": "Cr6vMGPxYjI",
+    "title": "Arise, My Soul, Arise #291"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

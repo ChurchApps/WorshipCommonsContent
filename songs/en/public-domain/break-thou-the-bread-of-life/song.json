@@ -1,0 +1,28 @@
+{
+  "id": "uGl0K262Hhd",
+  "title": "Break Thou the Bread of Life",
+  "writer": "Mary Lathbury & William Sherwin",
+  "writerRef": null,
+  "year": 1877,
+  "language": "English",
+  "themes": "Communion,Provision",
+  "key": "D",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "John 6:35",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 851,
+  "video": {
+    "youtube": "NQpj4TSe-Ec",
+    "title": "Break Thou the Bread of Life"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

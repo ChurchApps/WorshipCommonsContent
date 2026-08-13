@@ -1,0 +1,29 @@
+{
+  "id": "ihAaujJz9jC",
+  "title": "Come Thou Fount",
+  "writer": "Robert Robinson",
+  "writerRef": "robert-robinson",
+  "year": 1758,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "3/4",
+  "scripture": "1 Samuel 7:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 2448,
+  "video": {
+    "youtube": "4xJXzgonLdQ",
+    "title": "Come Thou Fount of Every Blessing (with lyrics) The most BEAUTIFUL hymn you've EVER heard!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "YZEMR7eub3b",
+  "title": "ദൂതര്‍ പാടി ഉന്നതേ",
+  "writer": "ജെയിംസ് ചാട്വിക്ക് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "ലൂക്കോസ് 2:13–14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "yVg78wuG3f-",
+    "title": "Angels We Have Heard on High"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

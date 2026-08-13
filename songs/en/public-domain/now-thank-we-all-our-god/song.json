@@ -1,0 +1,29 @@
+{
+  "id": "O56iN1F_4rL",
+  "title": "Now Thank We All Our God",
+  "writer": "Martin Rinkart · tr. Catherine Winkworth",
+  "writerRef": "martin-rinkart",
+  "year": 1858,
+  "language": "English",
+  "themes": "Praise,Provision",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 Thessalonians 5:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 712,
+  "hymnalCount": 759,
+  "video": {
+    "youtube": "42ZqYk1YwRA",
+    "title": "Now Thank We All Our God - Classic Christian Hymn (Choir & Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

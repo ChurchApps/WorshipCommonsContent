@@ -1,0 +1,27 @@
+{
+  "id": "R521C7A_gJG",
+  "title": "Что За Друга Мы Имеем",
+  "writer": "Джозеф Скривен",
+  "writerRef": null,
+  "year": 1855,
+  "language": "Russian",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Иоанна 15:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "DmZMgNX0L6p",
+    "title": "What a Friend We Have in Jesus"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

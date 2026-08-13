@@ -1,0 +1,28 @@
+{
+  "id": "ulOZk2Z-mRz",
+  "title": "Near the Cross",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1869,
+  "language": "English",
+  "themes": "Grace,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 1:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 851,
+  "video": {
+    "youtube": "Xrmlv806bGM",
+    "title": "Jesus, Keep Me Near the Cross (Hymn Charts with Lyrics, Contemporary)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

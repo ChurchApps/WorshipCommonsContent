@@ -1,0 +1,27 @@
+{
+  "id": "cvN5kKAeret",
+  "title": "യേശുവെ ഞാൻ സ്തുതിക്കും",
+  "writer": "ഫിലിപ്പ് പി. ബ്ലിസ്സ്",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Malayalam",
+  "themes": "Praise,Grace",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "ഗലാത്യർ 3:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "K1RTwOmvx40",
+    "title": "I Will Sing of My Redeemer"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

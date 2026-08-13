@@ -1,0 +1,27 @@
+{
+  "id": "aLLCbKB_t6u",
+  "title": "У Креста",
+  "writer": "Фанни Кросби",
+  "writerRef": null,
+  "year": 1869,
+  "language": "Russian",
+  "themes": "Grace,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Откровение 22:1-2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ulOZk2Z-mRz",
+    "title": "Near the Cross"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

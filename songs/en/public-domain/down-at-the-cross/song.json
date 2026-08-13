@@ -1,0 +1,28 @@
+{
+  "id": "AzlASNTSOkS",
+  "title": "Down at the Cross",
+  "writer": "Elisha Hoffman & John Stockton",
+  "writerRef": null,
+  "year": 1878,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "1 John 1:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 512,
+  "hymnalCount": 993,
+  "video": {
+    "youtube": "FHRB4pHvvWg",
+    "title": "DOWN AT THE CROSS by Bart Millard"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

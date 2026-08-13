@@ -1,0 +1,27 @@
+{
+  "id": "5lPhfsetG0T",
+  "title": "Zoti Yt Vjen!",
+  "writer": "Isaac Watts · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1719,
+  "language": "Albanian",
+  "themes": "Christmas,Praise",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "Lluka 2:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_X94hS2ZTgf",
+    "title": "Joy to the World"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

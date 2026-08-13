@@ -1,0 +1,30 @@
+{
+  "id": "_ALrpxFXZIG",
+  "title": "I Need Thee Every Hour",
+  "writer": "Annie Hawks & Robert Lowry",
+  "writerRef": "annie-hawks-robert-lowry",
+  "year": 1872,
+  "language": "English",
+  "themes": "Trust,Confession",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "John 15:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 745,
+  "hymnalCount": 1144,
+  "video": {
+    "youtube": "tfPZ9mRIKgs",
+    "title": "Bill & Gloria Gaither - I Need Thee Every Hour [Live] ft. Randy Owen"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

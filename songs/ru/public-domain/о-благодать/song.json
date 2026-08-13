@@ -1,0 +1,27 @@
+{
+  "id": "DHHFaharzm2",
+  "title": "О, Благодать",
+  "writer": "Джон Ньютон",
+  "writerRef": null,
+  "year": 1779,
+  "language": "Russian",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Евангелие от Иоанна 9:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "YxPfAFYWOaG",
+    "title": "Amazing Grace"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "TJQ_pSlMhfF",
+  "title": "Jeová, Sê Nosso Guia",
+  "writer": "William Williams",
+  "writerRef": null,
+  "year": 1745,
+  "language": "Portuguese",
+  "themes": "Provision,Trust",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Êxodo 13:21",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "QnYa8cJdeLc",
+    "title": "Guide Me, O Thou Great Jehovah"
+  },
+  "relationLabel": "Portuguese translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

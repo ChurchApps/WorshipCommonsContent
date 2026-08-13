@@ -1,0 +1,31 @@
+{
+  "id": "33zb6tJpfXX",
+  "title": "Castillo Fuerte",
+  "writer": "Martín Lutero · tr. Juan Bautista Cabrera",
+  "writerRef": null,
+  "year": 1885,
+  "language": "Spanish",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Salmo 46",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 43,
+  "video": {
+    "youtube": "gQOJFZaw-vw",
+    "title": "Castillo Fuerte"
+  },
+  "parent": {
+    "id": "9jxQoj5H8ma",
+    "title": "A Mighty Fortress Is Our God"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1885",
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

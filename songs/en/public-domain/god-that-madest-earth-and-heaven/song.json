@@ -1,0 +1,29 @@
+{
+  "id": "m4BD6nbs2Li",
+  "title": "God, That Madest Earth and Heaven",
+  "writer": "Reginald Heber & William Mercer & Richard Whately",
+  "writerRef": null,
+  "year": 1827,
+  "language": "English",
+  "themes": "Activity,Angels,Anticipation",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Gen 1:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 498,
+  "video": {
+    "youtube": "t1VzHv3_9uQ",
+    "title": "God That Madest Earth And Heaven Hymn - Gods Country"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

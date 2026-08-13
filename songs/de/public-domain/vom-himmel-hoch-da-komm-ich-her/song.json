@@ -1,0 +1,27 @@
+{
+  "id": "WJXQDkS2kAr",
+  "title": "Vom Himmel hoch da komm ich her",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1531,
+  "language": "German",
+  "themes": "Angels,Assurance,Atonement",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lukas 2,10-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "3QZGIUc6NAE",
+    "title": "From Heaven Above To Earth I Come"
+  },
+  "relationLabel": "German original · Martin Luther, 1531",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

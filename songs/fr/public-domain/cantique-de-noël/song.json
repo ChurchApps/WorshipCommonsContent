@@ -1,0 +1,27 @@
+{
+  "id": "Xd1RpZ4wscg",
+  "title": "Cantique de Noël",
+  "writer": "Placide Cappeau",
+  "writerRef": null,
+  "year": 1843,
+  "language": "French",
+  "themes": "Christmas,Adoration",
+  "key": "C",
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "scripture": "Luc 2.9-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ouS_znOIuUm",
+    "title": "O Holy Night"
+  },
+  "relationLabel": "French original · Placide Cappeau, 1843",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

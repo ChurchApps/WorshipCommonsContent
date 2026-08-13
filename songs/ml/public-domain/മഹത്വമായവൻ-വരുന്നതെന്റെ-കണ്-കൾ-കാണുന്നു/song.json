@@ -1,0 +1,27 @@
+{
+  "id": "-9vKx8qE_XS",
+  "title": "മഹത്വമായവൻ വരുന്നതെന്റെ കണ്‍കൾ കാണുന്നു",
+  "writer": "ജൂലിയ ഡബ്ല്യൂ. ഹൌവി",
+  "writerRef": null,
+  "year": 1861,
+  "language": "Malayalam",
+  "themes": "Justice,Hope",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "യിരെമ്യാവു 25:30",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "BVe7x5it58a",
+    "title": "Battle Hymn of the Republic"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

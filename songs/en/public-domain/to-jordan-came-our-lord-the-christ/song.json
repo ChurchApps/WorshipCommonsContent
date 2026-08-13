@@ -1,0 +1,29 @@
+{
+  "id": "TWYMIozgj2O",
+  "title": "To Jordan Came Our Lord, The Christ",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1541,
+  "language": "English",
+  "themes": "Adam,Baptism,Blood",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Mt 3:13-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 8,
+  "video": {
+    "youtube": "gmDzL03cs_E",
+    "title": "To Jordan Came the Christ, Our Lord"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "QnYa8cJdeLc",
+  "title": "Guide Me, O Thou Great Jehovah",
+  "writer": "William Williams & John Hughes",
+  "writerRef": null,
+  "year": 1745,
+  "language": "English",
+  "themes": "Provision,Trust",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Exodus 13:21",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 745,
+  "hymnalCount": 1991,
+  "video": {
+    "youtube": "K5uwi04ttjA",
+    "title": "Guide Me, O Thou Great Jehovah (Grace Community Church)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

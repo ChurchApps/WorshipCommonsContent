@@ -1,0 +1,27 @@
+{
+  "id": "EGqvYIJaJYr",
+  "title": "Nothing Between",
+  "writer": "Charles Albert Tindley",
+  "writerRef": "charles-albert-tindley",
+  "year": 1905,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 12:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 149,
+  "video": {
+    "youtube": "1h2TRFEiZoQ",
+    "title": "Nothing Between | Songs and Everlasting Joy"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite"
+  }
+}

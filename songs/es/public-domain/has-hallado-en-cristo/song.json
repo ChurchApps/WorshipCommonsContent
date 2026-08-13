@@ -1,0 +1,30 @@
+{
+  "id": "jWj-j8flDg2",
+  "title": "¿Has Hallado en Cristo?",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1878,
+  "language": "Spanish",
+  "themes": "Grace,Confession",
+  "key": "A",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "1 Juan 1:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 13,
+  "video": {
+    "youtube": "6srstccRxxU",
+    "title": "¿HAS HALLADO EN CRISTO?"
+  },
+  "parent": {
+    "id": "OqDGwwFTMc3",
+    "title": "Are You Washed in the Blood?"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Mgi_3L5QG-_",
+  "title": "There Is a Fountain",
+  "writer": "William Cowper",
+  "writerRef": "william-cowper",
+  "year": 1772,
+  "language": "English",
+  "themes": "Grace,Assurance",
+  "key": "C",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Zechariah 13:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 743,
+  "hymnalCount": 2812,
+  "video": {
+    "youtube": "nfgLAupAXpM",
+    "title": "There is a Fountain Filled With Blood - piano instrumental hymn with lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

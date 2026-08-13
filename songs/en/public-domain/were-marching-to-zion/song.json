@@ -1,0 +1,28 @@
+{
+  "id": "Ke2t4tqK59D",
+  "title": "We're Marching to Zion",
+  "writer": "Isaac Watts & Robert Lowry",
+  "writerRef": "isaac-watts-robert-lowry",
+  "year": 1867,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 87:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 1965,
+  "video": {
+    "youtube": "4-EUg3LVj6s",
+    "title": "Bill & Gloria Gaither - We're Marching to Zion [Live] ft. Jim Hill"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

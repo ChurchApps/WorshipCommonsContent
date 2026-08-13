@@ -1,0 +1,27 @@
+{
+  "id": "skP32CqkruU",
+  "title": "Send the Light",
+  "writer": "Charles Gabriel",
+  "writerRef": "charles-gabriel",
+  "year": 1890,
+  "language": "English",
+  "themes": "Mission,Hope",
+  "key": "G",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "scripture": "Acts 16:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 346,
+  "video": {
+    "youtube": "4RjmtL7nmw0",
+    "title": "Send the Light"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Nc-WYW0lflj",
+  "title": "Thine Arm, O Lord, in Days of Old",
+  "writer": "Edward Hayes Plumptre",
+  "writerRef": "edward-hayes-plumptre",
+  "year": null,
+  "language": "English",
+  "themes": "Courage in Affliction,Healing,Invitation",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lk 19:9-10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 186,
+  "video": {
+    "youtube": "Wf-8YTllrQ8",
+    "title": "Hymn 567 Thine arm, O Lord, in days of old"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

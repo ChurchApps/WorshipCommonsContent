@@ -1,0 +1,28 @@
+{
+  "id": "RpixcP49jtd",
+  "title": "My Jesus, I Love Thee",
+  "writer": "William Featherston & Adoniram Gordon",
+  "writerRef": null,
+  "year": 1864,
+  "language": "English",
+  "themes": "Adoration,Trust",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "1 John 4:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1234,
+  "hymnalCount": 1274,
+  "video": {
+    "youtube": "xvOpNk4jVis",
+    "title": "My Jesus I Love Thee - Classic Hymn  (Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

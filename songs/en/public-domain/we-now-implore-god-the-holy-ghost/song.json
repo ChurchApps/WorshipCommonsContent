@@ -1,0 +1,29 @@
+{
+  "id": "p8GA_sd6cET",
+  "title": "We Now Implore God the Holy Ghost",
+  "writer": "German & Martin Luther · tr. composite",
+  "writerRef": "german-martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Blood,Comfort,Faith",
+  "key": "F",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Jn 14:26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "GAXsmYN0hpg",
+    "title": "TLH 231 We Now Implore God the Holy Ghost"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

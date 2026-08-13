@@ -1,0 +1,27 @@
+{
+  "id": "iwzdyBiAWxv",
+  "title": "Aki Értem Megnyíltál",
+  "writer": "Augustus Toplady · tr. István Kecskeméthy",
+  "writerRef": null,
+  "year": 1776,
+  "language": "Hungarian",
+  "themes": "Grace,Trust",
+  "key": "Bb",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Zsoltárok 18:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "b13IrZfZXWm",
+    "title": "Rock of Ages"
+  },
+  "relationLabel": "Hungarian translation · tr. István Kecskeméthy",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

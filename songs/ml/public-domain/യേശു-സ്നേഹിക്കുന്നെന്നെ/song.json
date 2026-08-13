@@ -1,0 +1,27 @@
+{
+  "id": "LTzfu9JMLyI",
+  "title": "യേശു സ്നേഹിക്കുന്നെന്നെ",
+  "writer": "ഏന ബി.വാർണർ",
+  "writerRef": null,
+  "year": 1860,
+  "language": "Malayalam",
+  "themes": "Assurance,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "എഫേസ്യർ 3:17–18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "GZ9C6_0wlwv",
+    "title": "Jesus Loves Me"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "VHBus3zLP84",
+  "title": "Roca de la Eternidad",
+  "writer": "Augustus Toplady · tr. Thomas M. Westrup",
+  "writerRef": null,
+  "year": 1875,
+  "language": "Spanish",
+  "themes": "Grace,Trust",
+  "key": "Bb",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Salmos 94:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 267,
+  "hymnalCount": 45,
+  "video": {
+    "youtube": "pMdou3pUfPs",
+    "title": "HA62 | Himno 236 | Roca de la eternidad"
+  },
+  "parent": {
+    "id": "b13IrZfZXWm",
+    "title": "Rock of Ages"
+  },
+  "relationLabel": "Spanish translation · tr. Thomas M. Westrup",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

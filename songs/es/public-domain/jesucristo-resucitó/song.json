@@ -1,0 +1,27 @@
+{
+  "id": "7sk3zueMqaR",
+  "title": "Jesucristo Resucitó",
+  "writer": "Michael Weisse",
+  "writerRef": null,
+  "year": 1531,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "2 Timoteo 2:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 44,
+  "video": {
+    "youtube": "lheFB2bCuRk",
+    "title": "Jesucristo Resucitó - Himnario Bautista 115"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

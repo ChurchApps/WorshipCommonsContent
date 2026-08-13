@@ -1,0 +1,29 @@
+{
+  "id": "Qicyd_xZKhB",
+  "title": "Every Morning Mercies New",
+  "writer": "Greville Phillimore",
+  "writerRef": null,
+  "year": 1863,
+  "language": "English",
+  "themes": "Bread,Comfort,Compassion",
+  "key": "Bb",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Lam 3:22-23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 158,
+  "video": {
+    "youtube": "qLbPMJob03o",
+    "title": "Every Morning Mercies New (Praise)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

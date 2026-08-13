@@ -1,0 +1,31 @@
+{
+  "id": "iattXM4gqve",
+  "title": "Noche de Paz",
+  "writer": "Joseph Mohr · tr. Federico Fliedner",
+  "writerRef": "joseph-mohr",
+  "year": 1871,
+  "language": "Spanish",
+  "themes": "Christmas,Comfort",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "3/4",
+  "scripture": "Lucas 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 423,
+  "hymnalCount": 760,
+  "video": {
+    "youtube": "jCRsxvSs_vA",
+    "title": "Danny Gokey, David Archuleta - Noche De Paz"
+  },
+  "parent": {
+    "id": "DdnkGm4QMhD",
+    "title": "Silent Night"
+  },
+  "relationLabel": "Spanish translation · tr. Federico Fliedner, 1871",
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

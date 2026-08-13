@@ -1,0 +1,29 @@
+{
+  "id": "RfqBjrobd62",
+  "title": "What Child Is This",
+  "writer": "William C. Dix · Greensleeves",
+  "writerRef": null,
+  "year": 1865,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "Em",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Matthew 2:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 934,
+  "hymnalCount": 250,
+  "video": {
+    "youtube": "R2Un5nwlL5w",
+    "title": "What Child Is This | Choir with Lyrics | Christmas Carol | Dix/Stainer | Sunday 7pm Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

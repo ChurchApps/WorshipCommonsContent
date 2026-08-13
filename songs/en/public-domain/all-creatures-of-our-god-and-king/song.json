@@ -1,0 +1,29 @@
+{
+  "id": "RnGVNAiO92e",
+  "title": "All Creatures of Our God and King",
+  "writer": "Francis of Assisi · tr. Draper",
+  "writerRef": "francis-of-assisi",
+  "year": 1919,
+  "language": "English",
+  "themes": "Praise,Creation",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "6/4",
+  "scripture": "Psalm 148",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 315,
+  "video": {
+    "youtube": "MUZD0hgtSgE",
+    "title": "All Creatures of Our God and King • Prayers of the Saints Live"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "R38MR6K6kzF",
+  "title": "Almost Persuaded",
+  "writer": "Philip Bliss",
+  "writerRef": "philip-bliss",
+  "year": 1871,
+  "language": "English",
+  "themes": "Confession,Grace",
+  "key": "C",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Acts 26:28",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 223,
+  "hymnalCount": 918,
+  "video": {
+    "youtube": "ok0aOhHs6gY",
+    "title": "“Almost Persuaded” hymn with lyrics by Marty Robbins."
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

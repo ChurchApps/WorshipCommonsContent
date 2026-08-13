@@ -1,0 +1,30 @@
+{
+  "id": "GZ9C6_0wlwv",
+  "title": "Jesus Loves Me",
+  "writer": "Anna Warner & William Bradbury",
+  "writerRef": "anna-warner-william-bradbury",
+  "year": 1862,
+  "language": "English",
+  "themes": "Assurance,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "1 John 4:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1789,
+  "hymnalCount": 717,
+  "video": {
+    "youtube": "LD1_CPqJusg",
+    "title": "Jesus Loves Me (Hymns with lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

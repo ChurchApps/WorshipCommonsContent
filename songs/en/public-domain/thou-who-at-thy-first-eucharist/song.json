@@ -1,0 +1,29 @@
+{
+  "id": "KWRLLZGcV5b",
+  "title": "Thou, Who at Thy First Eucharist",
+  "writer": "William H. Turton",
+  "writerRef": "william-h-turton",
+  "year": 1881,
+  "language": "English",
+  "themes": "Bread,Brotherhood,Church on Earth",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Jn 17:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 81,
+  "video": {
+    "youtube": "u4FERL8Xeno",
+    "title": "O Thou Who at Thy Eucharist Didst Pray (Tune: Song 1 - 4vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

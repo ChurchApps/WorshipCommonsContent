@@ -1,0 +1,27 @@
+{
+  "id": "_5zNwS1QDJk",
+  "title": "Sel’ge Gewissheit",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1873,
+  "language": "German",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Hebraeer 10:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "German translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

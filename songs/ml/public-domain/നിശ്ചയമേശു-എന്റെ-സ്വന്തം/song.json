@@ -1,0 +1,27 @@
+{
+  "id": "_ko2nN7Bcs-",
+  "title": "നിശ്ചയമേശു എന്റെ സ്വന്തം",
+  "writer": "ഫേനി ക്രോസ്ബി",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Malayalam",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "എബ്രായര്‍ 10:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

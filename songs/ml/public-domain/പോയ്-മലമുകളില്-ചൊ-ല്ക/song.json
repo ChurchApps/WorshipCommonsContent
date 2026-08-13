@@ -1,0 +1,27 @@
+{
+  "id": "K0hOgdhwUrm",
+  "title": "പോയ്‌ മലമുകളില്‍ ചൊ-ല്ക",
+  "writer": "ജോണ്‍ ഡബ്ലിയൂ. വര്‍ക്ക്. ജൂണിയര്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2010,
+  "language": "Malayalam",
+  "themes": "Christmas,Mission",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "ലൂക്കോസ് 2:8–9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "zORl9J4kPPX",
+    "title": "Go, Tell It on the Mountain"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2010",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

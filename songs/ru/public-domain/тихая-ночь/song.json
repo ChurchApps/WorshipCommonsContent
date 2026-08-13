@@ -1,0 +1,27 @@
+{
+  "id": "bH_wiVDDrO4",
+  "title": "Тихая Ночь",
+  "writer": "Джозеф Мор",
+  "writerRef": null,
+  "year": 1816,
+  "language": "Russian",
+  "themes": "Christmas,Comfort",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "3/4",
+  "scripture": "От Луки 2:8-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "CmGjWnGTSVW",
+    "title": "Stille Nacht"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

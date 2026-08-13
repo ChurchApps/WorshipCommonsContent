@@ -1,0 +1,27 @@
+{
+  "id": "KiS6tOdKb6n",
+  "title": "Tell Me the Stories of Jesus",
+  "writer": "William Parker & Frederic Challinor",
+  "writerRef": null,
+  "year": 1885,
+  "language": "English",
+  "themes": "Trust,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Mark 10:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 179,
+  "video": {
+    "youtube": "lf5uc0aA8Yg",
+    "title": "Tell Me the Stories of Jesus LDS Primary Song Lyric Video - Vocals and Lyrics for Practice"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite"
+  }
+}

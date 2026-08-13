@@ -1,0 +1,29 @@
+{
+  "id": "Q_ikNzuX57M",
+  "title": "Out of the Deep I Cry to Thee",
+  "writer": "Martin Luther · tr. Arthur Tozel Russell",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Contrition,Cornerstone,Duty",
+  "key": "C",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "Ps 130",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 11,
+  "video": {
+    "youtube": "hI1Kj1j6MPc",
+    "title": "Grace Church Piano Postlude - Feb. 21, 2016 - \"Out of the Deep I Cry to Thee\""
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

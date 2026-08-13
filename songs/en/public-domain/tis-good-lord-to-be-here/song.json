@@ -1,0 +1,29 @@
+{
+  "id": "BSw8F2Ntg4p",
+  "title": "Tis Good, Lord, To Be Here",
+  "writer": "Joseph Armitage Robinson",
+  "writerRef": null,
+  "year": 1888,
+  "language": "English",
+  "themes": "Brevity of Life,Church in Heaven,Eternal Life",
+  "key": "E",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "Mk 9:2-13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 53,
+  "video": {
+    "youtube": "9-BlO8trHII",
+    "title": "'Tis Good Lord To Be Here | Transfiguration Hymn | Choir & Lyrics | Sunday 7pm Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

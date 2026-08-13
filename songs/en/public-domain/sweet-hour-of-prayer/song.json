@@ -1,0 +1,28 @@
+{
+  "id": "MYPLBUJ6zEO",
+  "title": "Sweet Hour of Prayer",
+  "writer": "William Walford & William Bradbury",
+  "writerRef": null,
+  "year": 1845,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "D",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 6:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 687,
+  "hymnalCount": 1502,
+  "video": {
+    "youtube": "0POs0TKMMFs",
+    "title": "Sweet Hour of Prayer (with lyrics) - The most Beautiful Hymn!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

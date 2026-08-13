@@ -1,0 +1,30 @@
+{
+  "id": "or4PaUkMEkI",
+  "title": "¿Quieres Ser Salvo de Toda Maldad?",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1899,
+  "language": "Spanish",
+  "themes": "Grace,Praise",
+  "key": "A",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Colosenses 1:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 28,
+  "video": {
+    "youtube": "JfZ0T40f6VY",
+    "title": "HA62 | Himno 290 | ¿Quieres ser salvo de toda maldad?"
+  },
+  "parent": {
+    "id": "XZ49aMGaQWb",
+    "title": "There Is Power in the Blood"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

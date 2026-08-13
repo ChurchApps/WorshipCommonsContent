@@ -1,0 +1,29 @@
+{
+  "id": "TZaJSzvHiPp",
+  "title": "Dulce Oración",
+  "writer": "William Walford · tr. anónimo",
+  "writerRef": null,
+  "year": 1900,
+  "language": "Spanish",
+  "themes": "Trust,Comfort",
+  "key": "D",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Mateo 6:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 176,
+  "hymnalCount": 25,
+  "video": {
+    "youtube": "Q7P1iT9xnvw",
+    "title": "HA62 | Himno 344 | Dulce oración"
+  },
+  "parent": {
+    "id": "MYPLBUJ6zEO",
+    "title": "Sweet Hour of Prayer"
+  },
+  "relationLabel": "Spanish translation · anonymous",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

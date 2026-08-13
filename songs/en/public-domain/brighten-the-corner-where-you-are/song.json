@@ -1,0 +1,28 @@
+{
+  "id": "BKk4WyeKrzW",
+  "title": "Brighten the Corner Where You Are",
+  "writer": "Ina Ogdon & Charles Gabriel",
+  "writerRef": "ina-ogdon-charles-gabriel",
+  "year": 1913,
+  "language": "English",
+  "themes": "Mission,Hope",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 5:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 138,
+  "video": {
+    "youtube": "_Ll_pGKGmLE",
+    "title": "Homer Rodeheaver   Brighten The Corner Where You Are"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "gspxyxVctNx",
+  "title": "Come, Thou Almighty King",
+  "writer": "Anonymous & Felice de Giardini",
+  "writerRef": null,
+  "year": 1757,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 95:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 743,
+  "hymnalCount": 1928,
+  "video": {
+    "youtube": "NT4IvKk8Yko",
+    "title": "Come Thou Almighty King (Live from Sing! '21) Keith & Kristyn Getty, Tommy Bailey"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

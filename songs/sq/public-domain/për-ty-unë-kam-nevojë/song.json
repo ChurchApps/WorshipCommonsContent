@@ -1,0 +1,27 @@
+{
+  "id": "Ucxagy1eCoa",
+  "title": "Për Ty Unë Kam Nevojë",
+  "writer": "Annie S. Hawks · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1872,
+  "language": "Albanian",
+  "themes": "Trust,Confession",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Hebrenjve 4:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_ALrpxFXZIG",
+    "title": "I Need Thee Every Hour"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

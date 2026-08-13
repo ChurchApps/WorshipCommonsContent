@@ -1,0 +1,27 @@
+{
+  "id": "IdPaG9DOCOq",
+  "title": "Ô Peuple Fidèle",
+  "writer": "John F. Wade",
+  "writerRef": null,
+  "year": 1743,
+  "language": "French",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luc 2,15–16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "e0RA7WIC3mU",
+    "title": "O Come, All Ye Faithful"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

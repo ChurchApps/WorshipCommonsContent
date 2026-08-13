@@ -1,0 +1,28 @@
+{
+  "id": "X5_3_0KmMpg",
+  "title": "Steal Away",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1872,
+  "language": "English",
+  "themes": "Hope,Comfort",
+  "key": "F",
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 24:31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 147,
+  "video": {
+    "youtube": "Wo0AOf9b6fU",
+    "title": "Fisk Jubilee Singers - Steal Away to Jesus"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

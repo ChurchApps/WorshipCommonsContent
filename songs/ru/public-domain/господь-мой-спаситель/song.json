@@ -1,0 +1,27 @@
+{
+  "id": "wWNc1NF-G31",
+  "title": "Господь, мой Спаситель",
+  "writer": "Джеймс Николсон",
+  "writerRef": null,
+  "year": 1872,
+  "language": "Russian",
+  "themes": "Confession,Grace",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Псалтирь 51:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "bVxrQdGHHXy",
+    "title": "Whiter than Snow"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

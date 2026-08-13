@@ -1,0 +1,29 @@
+{
+  "id": "5_Qa0VNPNHr",
+  "title": "Where He Leads Me",
+  "writer": "Edward William Blandy",
+  "writerRef": null,
+  "year": 1890,
+  "language": "English",
+  "themes": "Commitment,Discipleship,Guidance",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Jn 12:26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 990,
+  "video": {
+    "youtube": "e9FqFC0WA-o",
+    "title": "Where He Leads Me (I Can Hear My Saviour Calling)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

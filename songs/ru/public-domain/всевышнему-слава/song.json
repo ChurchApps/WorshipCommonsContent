@@ -1,0 +1,27 @@
+{
+  "id": "jFBRio7Epek",
+  "title": "Всевышнему Слава!",
+  "writer": "Фенни Д. Кросби",
+  "writerRef": null,
+  "year": 1875,
+  "language": "Russian",
+  "themes": "Praise,Grace",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "scripture": "Псалтирь 103:31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "yumBImJYymh",
+    "title": "To God Be the Glory"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "D0WeagNo6lR",
+  "title": "Les Anges dans Nos Campagnes",
+  "writer": "Noël",
+  "writerRef": null,
+  "year": 1862,
+  "language": "French",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Luc 2.13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "yVg78wuG3f-",
+    "title": "Angels We Have Heard on High"
+  },
+  "relationLabel": "French original · Noël",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

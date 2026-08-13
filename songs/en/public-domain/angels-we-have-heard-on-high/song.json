@@ -1,0 +1,30 @@
+{
+  "id": "yVg78wuG3f-",
+  "title": "Angels We Have Heard on High",
+  "writer": "Traditional French carol · tr. James Chadwick",
+  "writerRef": null,
+  "year": 1862,
+  "language": "English",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1112,
+  "hymnalCount": 296,
+  "video": {
+    "youtube": "WHWqj6gKS9g",
+    "title": "Angels We Have Heard On High"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

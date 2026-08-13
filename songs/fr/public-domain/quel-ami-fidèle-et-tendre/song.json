@@ -1,0 +1,27 @@
+{
+  "id": "ZXl4dEPqRCQ",
+  "title": "Quel Ami Fidèle et Tendre",
+  "writer": "Joseph M. Scriven · tr. Emile Bonnard",
+  "writerRef": null,
+  "year": 1855,
+  "language": "French",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Jean 15.13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "DmZMgNX0L6p",
+    "title": "What a Friend We Have in Jesus"
+  },
+  "relationLabel": "French translation · tr. Emile Bonnard",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

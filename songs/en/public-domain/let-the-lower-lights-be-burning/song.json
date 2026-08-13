@@ -1,0 +1,28 @@
+{
+  "id": "r8ncSC-vFxN",
+  "title": "Let the Lower Lights Be Burning",
+  "writer": "Philip Bliss",
+  "writerRef": "philip-bliss",
+  "year": 1871,
+  "language": "English",
+  "themes": "Mission,Hope",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 5:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 674,
+  "video": {
+    "youtube": "BUOMWDbT6iI",
+    "title": "Let the Lower Lights Be Burning"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

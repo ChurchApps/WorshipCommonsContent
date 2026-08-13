@@ -1,0 +1,27 @@
+{
+  "id": "AEMRE8TuFuo",
+  "title": "വാക്കു മാറാത്തതാം വിശ്വസ്ത നാഥാ",
+  "writer": "തോമസ്‌ എം ചിസ്സോം · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2000,
+  "language": "Malayalam",
+  "themes": "Trust,Provision",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "വിലാപങ്ങള്‍, 3:22–23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "bV4J-230VsE",
+    "title": "Great Is Thy Faithfulness"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2000",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

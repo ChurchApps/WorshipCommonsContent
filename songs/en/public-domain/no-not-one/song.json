@@ -1,0 +1,30 @@
+{
+  "id": "gzcZuzZR8W6",
+  "title": "No, Not One",
+  "writer": "Johnson Oatman & George Hugg",
+  "writerRef": null,
+  "year": 1895,
+  "language": "English",
+  "themes": "Comfort,Praise",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "John 15:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 245,
+  "hymnalCount": 510,
+  "video": {
+    "youtube": "4Ea5NzRueOQ",
+    "title": "No, Not One! • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

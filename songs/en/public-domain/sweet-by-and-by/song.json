@@ -1,0 +1,28 @@
+{
+  "id": "7NYY2ygcEdn",
+  "title": "Sweet By and By",
+  "writer": "Sanford Bennett & Joseph Webster",
+  "writerRef": "sanford-bennett-joseph-webster",
+  "year": 1868,
+  "language": "English",
+  "themes": "Hope,Comfort",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 21:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 578,
+  "hymnalCount": 841,
+  "video": {
+    "youtube": "0zWZu-QupWU",
+    "title": "Sweet By and By with Lyrics Sung by Bird Youmans"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "4976Qg6dILD",
+  "title": "Our Father Thou in Heaven Above",
+  "writer": "Martin Luther · tr. composite",
+  "writerRef": "martin-luther",
+  "year": 1539,
+  "language": "English",
+  "themes": "Brotherhood,Christmas/Advent,Comfort",
+  "key": "Bb",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Mt 6:9-13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 26,
+  "video": {
+    "youtube": "ZR5y1N1VFlI",
+    "title": "Lutheran Hymn   Our Father, Thou in Heaven Above"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

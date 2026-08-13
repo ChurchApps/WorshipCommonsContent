@@ -1,0 +1,29 @@
+{
+  "id": "KBBtl52_KRr",
+  "title": "My Jesus, As Thou Wilt",
+  "writer": "Benjamin Schmolck · tr. Jane Laurie Borthwick",
+  "writerRef": "benjamin-schmolck",
+  "year": 1704,
+  "language": "English",
+  "themes": "Assurance,Bread,Christian Life",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Mt 6:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 663,
+  "video": {
+    "youtube": "PGQ4YZJL7a0",
+    "title": "My Jesus, as Thou Wilt (Weekly Hymn Project)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

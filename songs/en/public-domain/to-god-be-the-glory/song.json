@@ -1,0 +1,30 @@
+{
+  "id": "yumBImJYymh",
+  "title": "To God Be the Glory",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1875,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "scripture": "John 3:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1289,
+  "hymnalCount": 289,
+  "video": {
+    "youtube": "2CeBoSQsBR0",
+    "title": "To God be the glory"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

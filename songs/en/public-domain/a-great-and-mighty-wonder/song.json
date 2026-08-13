@@ -1,0 +1,30 @@
+{
+  "id": "_rNsb2BvFqM",
+  "title": "A Great and Mighty Wonder",
+  "writer": "Germanus of Constantinople · tr. John Mason Neale",
+  "writerRef": null,
+  "year": 1862,
+  "language": "English",
+  "themes": "Angels,Art and Music,Atonement",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "1Tim 3:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 120,
+  "video": {
+    "youtube": "A_gUEfoNWDA",
+    "title": "A Great And Mighty Wonder I Hymn with Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

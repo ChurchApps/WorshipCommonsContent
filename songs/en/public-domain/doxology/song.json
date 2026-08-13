@@ -1,0 +1,28 @@
+{
+  "id": "2F9k4IkmoHX",
+  "title": "Doxology",
+  "writer": "Thomas Ken",
+  "writerRef": "thomas-ken",
+  "year": 1674,
+  "language": "English",
+  "themes": "Praise",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 100",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1532,
+  "video": {
+    "youtube": "tQUTvMtUhw4",
+    "title": "The Doxology | Anthem Lights ft. Selah"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

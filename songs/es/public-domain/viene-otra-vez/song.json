@@ -1,0 +1,27 @@
+{
+  "id": "zFtAVHXblID",
+  "title": "Viene Otra Vez",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": null,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Apocalipsis 22:20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 13,
+  "video": {
+    "youtube": "8kwl9_722bo",
+    "title": "HA62 | Himno 162 | Viene otra vez nuestro Salvador"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

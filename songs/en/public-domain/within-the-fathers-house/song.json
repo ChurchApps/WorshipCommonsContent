@@ -1,0 +1,29 @@
+{
+  "id": "DQkv1bIdchE",
+  "title": "Within the Father's House",
+  "writer": "James Russell Woodford",
+  "writerRef": "james-russell-woodford",
+  "year": 1863,
+  "language": "English",
+  "themes": "Cloud,Consecration,Day",
+  "key": "Eb",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:41-51",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 42,
+  "video": {
+    "youtube": "Q2zszDHzegE",
+    "title": "Hymn 410 Within the Father's House"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

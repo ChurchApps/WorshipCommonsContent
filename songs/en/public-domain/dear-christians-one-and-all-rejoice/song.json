@@ -1,0 +1,29 @@
+{
+  "id": "HrboFQTVKlF",
+  "title": "Dear Christians, One and All Rejoice",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1523,
+  "language": "English",
+  "themes": "Assurance,Atonement,Blood",
+  "key": "G",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "1Pt 1:6-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 37,
+  "video": {
+    "youtube": "mX309aMcVb4",
+    "title": "Dear Christians One And All Rejoice"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

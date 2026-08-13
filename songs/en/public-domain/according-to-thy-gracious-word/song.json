@@ -1,0 +1,28 @@
+{
+  "id": "0V_Mrl_V4rd",
+  "title": "According to Thy Gracious Word",
+  "writer": "James Montgomery",
+  "writerRef": "james-montgomery",
+  "year": 1825,
+  "language": "English",
+  "themes": "Communion,Grace",
+  "key": "C",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Luke 22:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 590,
+  "video": {
+    "youtube": "JnSCKObBYrM",
+    "title": "According to Thy Gracious Word - New Scottish Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

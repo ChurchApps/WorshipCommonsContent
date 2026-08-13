@@ -1,0 +1,27 @@
+{
+  "id": "XFtcnrOQBKU",
+  "title": "നാഥാ ആ പ്രഭാതം!",
+  "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Hope,Advent",
+  "key": "F",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 24:30",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "-J1bn2p-3vG",
+    "title": "My Lord, What a Morning"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

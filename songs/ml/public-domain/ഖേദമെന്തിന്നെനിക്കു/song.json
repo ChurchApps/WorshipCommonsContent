@@ -1,0 +1,27 @@
+{
+  "id": "jFUYv_-0OLh",
+  "title": "ഖേദമെന്തിന്നെനിക്കു",
+  "writer": "സിവില്ല ഡി. മാർട്ടിൻ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Comfort,Provision",
+  "key": "C",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 10:29–31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "4f6vkOaKczh",
+    "title": "His Eye Is on the Sparrow"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "yZONNh0maM2",
+  "title": "Day by Day",
+  "writer": "Carolina Sandell · tr. Andrew Skoog",
+  "writerRef": "carolina-sandell",
+  "year": 1865,
+  "language": "English",
+  "themes": "Trust,Provision",
+  "key": "Bb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Deuteronomy 33:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 72,
+  "video": {
+    "youtube": "AzrhqjzQCi4",
+    "title": "Day By Day - Hymn"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

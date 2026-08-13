@@ -1,0 +1,28 @@
+{
+  "id": "zymzzV4mrNF",
+  "title": "There Is a Balm in Gilead",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1854,
+  "language": "English",
+  "themes": "Comfort,Grace",
+  "key": "F",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Jeremiah 8:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 423,
+  "hymnalCount": 2,
+  "video": {
+    "youtube": "TQ3EjnKs1Zo",
+    "title": "There is a Balm in Gilead | Songs and Everlasting Joy"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

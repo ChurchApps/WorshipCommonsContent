@@ -1,0 +1,28 @@
+{
+  "id": "XiGH8cIi8Gc",
+  "title": "All People That on Earth Do Dwell",
+  "writer": "William Kethe · Old Hundredth",
+  "writerRef": null,
+  "year": 1561,
+  "language": "English",
+  "themes": "Praise,Adoration",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 100:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 795,
+  "video": {
+    "youtube": "5QgakrRvsX8",
+    "title": "All people that on earth do dwell Hymn - Westminster Abbey"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

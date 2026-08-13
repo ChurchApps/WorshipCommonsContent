@@ -1,0 +1,29 @@
+{
+  "id": "YxPfAFYWOaG",
+  "title": "Amazing Grace",
+  "writer": "John Newton",
+  "writerRef": "john-newton",
+  "year": 1779,
+  "language": "English",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "John 9:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1778,
+  "video": {
+    "youtube": "NIBeO5bn6fA",
+    "title": "Amazing Grace [With Lyrics]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

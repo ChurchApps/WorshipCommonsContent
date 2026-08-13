@@ -1,0 +1,29 @@
+{
+  "id": "yfSjvegf1My",
+  "title": "In Peace and Joy I Now Depart",
+  "writer": "Martin Luther · tr. Leonard Woolsey Bacon",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Assurance,Closing Songs,Comfort",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:29-32",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 8,
+  "video": {
+    "youtube": "No5yAAwEcpI",
+    "title": "Score Video: CW'93 269 In Peace and Joy I Now Depart | Lutheran Hymn Sing"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

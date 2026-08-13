@@ -1,0 +1,29 @@
+{
+  "id": "BDKnLkA4dgc",
+  "title": "Take Thou My Hand and Lead Me",
+  "writer": "Julie Katharina von Hausmann · tr. Julius Herman Edward Horstmann",
+  "writerRef": "julie-katharina-von-hausmann",
+  "year": 1862,
+  "language": "English",
+  "themes": "Bread,Calmness,Children",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Ps 25:1-22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 10,
+  "video": {
+    "youtube": "CjEbiJgS-BM",
+    "title": "Take Thou My Hand, o Father (So Nimm Denn Meine Haende)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

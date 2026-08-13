@@ -1,0 +1,27 @@
+{
+  "id": "fBFJKqUtA4Y",
+  "title": "വൻ ചെയ്തികൾക്കായ് സ്തോത്രം",
+  "writer": "ഫേനി ക്രോസ്ബി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Praise,Grace",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "scripture": "ഗലാത്യർ 1:4–5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "yumBImJYymh",
+    "title": "To God Be the Glory"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

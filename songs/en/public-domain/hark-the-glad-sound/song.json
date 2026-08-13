@@ -1,0 +1,29 @@
+{
+  "id": "5c97LZfl5Cz",
+  "title": "Hark the Glad Sound",
+  "writer": "Philip Doddridge",
+  "writerRef": "philip-doddridge",
+  "year": 1735,
+  "language": "English",
+  "themes": "Art and Music,Atonement,Christmas/Advent",
+  "key": "G",
+  "bpm": 130,
+  "timeSignature": "3/4",
+  "scripture": "Lk 4:18-19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 860,
+  "video": {
+    "youtube": "gJ08bjaGgkQ",
+    "title": "Hark, The Glad Sound (Hymn 261) - HYMNOLOGY Season 6"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ZaO9aVFh2sB",
+  "title": "യഹോവ എന്നിടയനാം",
+  "writer": "ജെസ്സി ഇർവിൻ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Trust,Provision",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/2",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 23:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "cUjsmeNrUiG",
+    "title": "The Lord's My Shepherd"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

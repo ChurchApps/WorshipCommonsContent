@@ -1,0 +1,29 @@
+{
+  "id": "cUjsmeNrUiG",
+  "title": "The Lord's My Shepherd",
+  "writer": "Scottish Psalter · Crimond",
+  "writerRef": null,
+  "year": 1650,
+  "language": "English",
+  "themes": "Trust,Provision",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/2",
+  "scripture": "Psalm 23:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 645,
+  "hymnalCount": 762,
+  "video": {
+    "youtube": "-Msh0PAJfPU",
+    "title": "The Lord’s My Shepherd, I’ll Not Want (Metropolitan Tabernacle)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9-22IDluvjc",
+  "title": "In The Bleak MidWinter",
+  "writer": "Christina Georgina Rossetti",
+  "writerRef": "christina-georgina-rossetti",
+  "year": 1872,
+  "language": "English",
+  "themes": "Angels,Christmas/Advent,Grace",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lv 26:18-19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 106,
+  "video": {
+    "youtube": "xAzQIS4-MpY",
+    "title": "In the Bleak Midwinter (Tune: Cranham - 4vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

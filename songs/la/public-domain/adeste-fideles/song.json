@@ -1,0 +1,31 @@
+{
+  "id": "yGo9po6GLcI",
+  "title": "Adeste Fideles",
+  "writer": "John F. Wade",
+  "writerRef": null,
+  "year": 1751,
+  "language": "Latin",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 2:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 342,
+  "hymnalCount": 855,
+  "video": {
+    "youtube": "uQwoCFLBiG8",
+    "title": "\"Adeste Fideles\" (O Come, All Ye Faithful) - Christian Christmas Carol [LATIN LYRICS]"
+  },
+  "parent": {
+    "id": "e0RA7WIC3mU",
+    "title": "O Come, All Ye Faithful"
+  },
+  "relationLabel": "Latin original · John F. Wade, 1751",
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

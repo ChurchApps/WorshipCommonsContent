@@ -1,0 +1,28 @@
+{
+  "id": "NYv8oVsMmC2",
+  "title": "Eternal Father, Strong to Save",
+  "writer": "William Whiting & John Dykes",
+  "writerRef": "william-whiting-john-dykes",
+  "year": 1860,
+  "language": "English",
+  "themes": "Trust,Provision",
+  "key": "C",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 107:23-30",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 389,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "bDjwUzUnNpU",
+    "title": "Eternal Father strong to save"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

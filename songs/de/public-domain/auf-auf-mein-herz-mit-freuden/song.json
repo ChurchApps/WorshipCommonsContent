@@ -1,0 +1,27 @@
+{
+  "id": "NGCyBUVwLXI",
+  "title": "Auf, Auf, Mein Herz, mit Freuden",
+  "writer": "Paul Gerhardt",
+  "writerRef": "paul-gerhardt",
+  "year": 1648,
+  "language": "German",
+  "themes": "Assurance,Atonement,Brevity of Life",
+  "key": "Eb",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "Kolosser 2,15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "zK5DcYFd8Qk",
+    "title": "Awake, My Heart, With Gladness"
+  },
+  "relationLabel": "German original · Paul Gerhardt, 1648",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

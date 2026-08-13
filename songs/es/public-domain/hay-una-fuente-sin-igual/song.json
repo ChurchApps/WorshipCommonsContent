@@ -1,0 +1,27 @@
+{
+  "id": "bhVGQ6ho6VU",
+  "title": "Hay una Fuente sin Igual",
+  "writer": "William Cowper",
+  "writerRef": "william-cowper",
+  "year": 1772,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Zacarías 13:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 21,
+  "video": {
+    "youtube": "T0z0jeySOfA",
+    "title": "Himno 286 - Hay una fuente sin igual | Himnario Adventista Nuevo"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

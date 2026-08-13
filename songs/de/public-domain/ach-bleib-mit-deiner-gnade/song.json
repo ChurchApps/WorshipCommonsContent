@@ -1,0 +1,27 @@
+{
+  "id": "cFFX-MX0iq-",
+  "title": "Ach Bleib mit Deiner Gnade",
+  "writer": "Joshua Stegmann",
+  "writerRef": null,
+  "year": 1628,
+  "language": "German",
+  "themes": "Closing Songs,Grace,Invitation",
+  "key": "Eb",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Johannes 15,10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "HEMmRmJr_7F",
+    "title": "Abide, O Dearest Jesus"
+  },
+  "relationLabel": "German original · Joshua Stegmann, 1628",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

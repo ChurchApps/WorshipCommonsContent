@@ -1,0 +1,27 @@
+{
+  "id": "jHRHPMK5Ar0",
+  "title": "Nearer, Still Nearer",
+  "writer": "Lelia Morris",
+  "writerRef": null,
+  "year": 1898,
+  "language": "English",
+  "themes": "Confession,Adoration",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "James 4:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 223,
+  "hymnalCount": 262,
+  "video": {
+    "youtube": "gCF2D98szaU",
+    "title": "Nearer, Still Nearer"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

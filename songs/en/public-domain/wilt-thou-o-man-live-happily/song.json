@@ -1,0 +1,29 @@
+{
+  "id": "oUN4NGCJU2g",
+  "title": "Wilt Thou, O Man, Live Happily",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Duty,Fear of the Lord,Integrity",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Ex 20:1-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "KNOniN4Hf28",
+    "title": "Wilt Thou, O Man, Live Happily (Ten Commandments)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

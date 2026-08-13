@@ -1,0 +1,30 @@
+{
+  "id": "X2HLioBBtmb",
+  "title": "En la Cruz",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1707,
+  "language": "Spanish",
+  "themes": "Grace,Lament",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Isaías 53:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 9,
+  "video": {
+    "youtube": "06UfT88g918",
+    "title": "En la cruz - Coros Cristianos"
+  },
+  "parent": {
+    "id": "4m8Ep0PePd0",
+    "title": "Alas! and Did My Savior Bleed"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

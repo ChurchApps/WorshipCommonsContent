@@ -1,0 +1,30 @@
+{
+  "id": "8Q9yxDtlld_",
+  "title": "Lo, How a Rose E'er Blooming",
+  "writer": "German carol · tr. Theodore Baker",
+  "writerRef": null,
+  "year": 1894,
+  "language": "English",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 11:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 421,
+  "hymnalCount": 122,
+  "video": {
+    "youtube": "kU-E46o0sp0",
+    "title": "Lo, How a Rose E'er Blooming | The Tabernacle Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

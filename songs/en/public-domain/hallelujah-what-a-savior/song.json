@@ -1,0 +1,30 @@
+{
+  "id": "1hnEmwE1b17",
+  "title": "Hallelujah! What a Savior",
+  "writer": "Philip Bliss",
+  "writerRef": "philip-bliss",
+  "year": 1875,
+  "language": "English",
+  "themes": "Grace,Adoration",
+  "key": "Bb",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 53:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 823,
+  "hymnalCount": 431,
+  "video": {
+    "youtube": "x4WVT-_Xt7M",
+    "title": "Hallelujah, What a Savior #296"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

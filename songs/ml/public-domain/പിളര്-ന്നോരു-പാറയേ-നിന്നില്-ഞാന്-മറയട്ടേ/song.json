@@ -1,0 +1,27 @@
+{
+  "id": "KEoqlynuDKb",
+  "title": "പിളര്‍ന്നോരു പാറയേ! നിന്നില്‍ ഞാന്‍ മറയട്ടേ",
+  "writer": "ഒഗസ്ടുസ് എം. ടോപാല്ടി · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1776,
+  "language": "Malayalam",
+  "themes": "Grace,Trust",
+  "key": "Bb",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 18:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "b13IrZfZXWm",
+    "title": "Rock of Ages"
+  },
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

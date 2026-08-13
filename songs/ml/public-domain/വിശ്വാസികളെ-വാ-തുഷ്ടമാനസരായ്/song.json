@@ -1,0 +1,27 @@
+{
+  "id": "UP5RjRTGSei",
+  "title": "വിശ്വാസികളെ! വാ തുഷ്ടമാനസരായ്",
+  "writer": "ക്രിസ്തുജനനാഘോഷം",
+  "writerRef": null,
+  "year": 1841,
+  "language": "Malayalam",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 2:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "e0RA7WIC3mU",
+    "title": "O Come, All Ye Faithful"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

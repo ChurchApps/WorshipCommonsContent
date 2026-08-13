@@ -1,0 +1,28 @@
+{
+  "id": "ObT5L_2ZxdN",
+  "title": "Close to Thee",
+  "writer": "Fanny Crosby & Silas Vail",
+  "writerRef": null,
+  "year": 1874,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "James 4:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 267,
+  "hymnalCount": 511,
+  "video": {
+    "youtube": "tveOMT65mO8",
+    "title": "Close To Thee (Live)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

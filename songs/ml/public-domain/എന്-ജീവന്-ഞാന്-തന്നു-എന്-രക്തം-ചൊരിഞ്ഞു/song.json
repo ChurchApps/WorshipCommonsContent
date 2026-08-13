@@ -1,0 +1,27 @@
+{
+  "id": "Cq3UB4WigaP",
+  "title": "എന്‍ ജീവന്‍ ഞാന്‍ തന്നു, എന്‍ രക്തം ചൊരിഞ്ഞു",
+  "writer": "ഫ്രാന്‍സിസ് ആര്‍. ഹേവര്‍ഗാല്‍ · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1858,
+  "language": "Malayalam",
+  "themes": "Grace,Confession",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "മര്‍ക്കോസ് 10:45",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "3tWMyiGfX2n",
+    "title": "I Gave My Life for Thee"
+  },
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

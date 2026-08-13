@@ -1,0 +1,28 @@
+{
+  "id": "V95R_kNL2at",
+  "title": "Higher Ground",
+  "writer": "Johnson Oatman & Charles Gabriel",
+  "writerRef": "johnson-oatman-charles-gabriel",
+  "year": 1898,
+  "language": "English",
+  "themes": "Hope,Trust",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Philippians 3:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 421,
+  "video": {
+    "youtube": "jYCkqCG933M",
+    "title": "Higher Ground hymn lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "-aBUn2vRAgL",
+  "title": "Cristo Divino, Hijo Unigénito",
+  "writer": "Münster Gesangbuch",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Spanish",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Juan 1:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 5,
+  "video": {
+    "youtube": "KfTPHlrnmyA",
+    "title": "53 - Cristo divino, Hijo unigénito (Pista/Letra Himnario Bautista)"
+  },
+  "parent": {
+    "id": "efSPV6ob7E5",
+    "title": "Fairest Lord Jesus"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

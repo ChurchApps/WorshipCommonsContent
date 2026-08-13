@@ -1,0 +1,27 @@
+{
+  "id": "2QGsrTCZWvm",
+  "title": "വേണം നിന്നെ സദാ",
+  "writer": "ഏനി എസ്സ്. ഹോക്ക്സ്",
+  "writerRef": null,
+  "year": 1871,
+  "language": "Malayalam",
+  "themes": "Trust,Confession",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "എബ്രായർ 4:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_ALrpxFXZIG",
+    "title": "I Need Thee Every Hour"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

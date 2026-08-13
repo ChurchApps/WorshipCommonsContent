@@ -1,0 +1,28 @@
+{
+  "id": "1-Cu5nrwBT6",
+  "title": "Tell Me the Story of Jesus",
+  "writer": "Fanny Crosby & John Sweney",
+  "writerRef": "fanny-crosby-john-sweney",
+  "year": 1880,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:10-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 302,
+  "video": {
+    "youtube": "qSDlShWZcvo",
+    "title": "Tell Me the Story of Jesus | Songs and Everlasting Joy"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

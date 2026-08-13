@@ -1,0 +1,28 @@
+{
+  "id": "_vZQ35MZdYv",
+  "title": "Low in the Grave He Lay",
+  "writer": "Robert Lowry",
+  "writerRef": "robert-lowry",
+  "year": 1874,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "Bb",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 28:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 897,
+  "hymnalCount": 535,
+  "video": {
+    "youtube": "CtxSWcfH9hk",
+    "title": "Christ Arose! (Low in the Grave He Lay)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

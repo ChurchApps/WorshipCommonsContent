@@ -1,0 +1,27 @@
+{
+  "id": "ume_0tP3DwO",
+  "title": "Wir Glauben All’ an Einen Gott",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "German",
+  "themes": "Atonement,Brotherhood,Church in Heaven",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "1 Johannes 5,20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "SR0BF7n_UeU",
+    "title": "We All Believe in One True God"
+  },
+  "relationLabel": "German original · Martin Luther, 1524",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

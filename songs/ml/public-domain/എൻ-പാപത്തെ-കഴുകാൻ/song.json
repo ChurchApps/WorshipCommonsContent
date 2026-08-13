@@ -1,0 +1,27 @@
+{
+  "id": "GbDA7QxQxrn",
+  "title": "എൻ പാപത്തെ കഴുകാൻ",
+  "writer": "റോബർട്ട് ലോറി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "എബ്രായർ 9:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "3A7uOIvq4zf",
+    "title": "Nothing but the Blood"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

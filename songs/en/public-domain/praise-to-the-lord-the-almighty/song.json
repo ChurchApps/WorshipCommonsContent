@@ -1,0 +1,30 @@
+{
+  "id": "ThsV2EUH5G6",
+  "title": "Praise to the Lord, the Almighty",
+  "writer": "Joachim Neander · tr. Catherine Winkworth",
+  "writerRef": "joachim-neander",
+  "year": 1863,
+  "language": "English",
+  "themes": "Praise,Trust",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 103:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1345,
+  "hymnalCount": 448,
+  "video": {
+    "youtube": "BNq0WtMSmIY",
+    "title": "Praise to the Lord, the Almighty (Nockels, Hymn with Lyrics, Contemporary)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

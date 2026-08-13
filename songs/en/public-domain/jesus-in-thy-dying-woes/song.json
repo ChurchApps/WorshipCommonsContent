@@ -1,0 +1,29 @@
+{
+  "id": "C15cVdRWTEt",
+  "title": "Jesus, In Thy Dying Woes",
+  "writer": "Thomas Benson Pollock",
+  "writerRef": null,
+  "year": 1870,
+  "language": "English",
+  "themes": "Atonement,Blood,Commitment",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lk 23:34",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 81,
+  "video": {
+    "youtube": "bkYS-f4vhzY",
+    "title": "“Jesus, in Your Dying Woes” Lutheran Service Book LSB #447"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

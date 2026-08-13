@@ -1,0 +1,27 @@
+{
+  "id": "ok79H-nriQb",
+  "title": "Nun Komm, der Heiden Heiland",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1523,
+  "language": "German",
+  "themes": "Anticipation,Atonement,Christmas/Advent",
+  "key": "Bb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 67,2-3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "MdTsUGTWKgb",
+    "title": "Savior Of The Nations Come"
+  },
+  "relationLabel": "German translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

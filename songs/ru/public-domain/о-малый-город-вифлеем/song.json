@@ -1,0 +1,27 @@
+{
+  "id": "cIYxMZ4hVOY",
+  "title": "О Малый Город Вифлеем",
+  "writer": "Филипп Брукс",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Russian",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Книга Михея 5:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "a19OdmA8uPt",
+    "title": "O Little Town of Bethlehem"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

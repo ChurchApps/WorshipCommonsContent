@@ -1,0 +1,27 @@
+{
+  "id": "0FgYSaTevGR",
+  "title": "Oh Ven, Emanuel",
+  "writer": "Himno latino",
+  "writerRef": null,
+  "year": 1710,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Isaías 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 13,
+  "video": {
+    "youtube": "XgSCp_GEe2k",
+    "title": "Oh ven Emanuel - Alfarero (Video Lyric)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

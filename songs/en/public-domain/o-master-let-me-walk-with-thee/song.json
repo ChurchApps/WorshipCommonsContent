@@ -1,0 +1,28 @@
+{
+  "id": "QZ5y5YTvCc7",
+  "title": "O Master, Let Me Walk with Thee",
+  "writer": "Washington Gladden",
+  "writerRef": "washington-gladden",
+  "year": 1879,
+  "language": "English",
+  "themes": "Justice,Mission",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Micah 6:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 659,
+  "video": {
+    "youtube": "-CCX5sChezQ",
+    "title": "O Master, Let Me Walk with Thee (11 am, webstream)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

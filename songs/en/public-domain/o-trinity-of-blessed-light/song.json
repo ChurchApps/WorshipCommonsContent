@@ -1,0 +1,29 @@
+{
+  "id": "7gqjDh-sHv6",
+  "title": "O Trinity of Blessed Light",
+  "writer": "Ambrose of Milan · tr. John Mason Neale",
+  "writerRef": null,
+  "year": 1543,
+  "language": "English",
+  "themes": "Evening,Father,Jesus",
+  "key": "D",
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "scripture": "Gen 1:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 59,
+  "video": {
+    "youtube": "XDuTADt0MiI",
+    "title": "O Trinity of blessed light- #29 The Hymnal 1982"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

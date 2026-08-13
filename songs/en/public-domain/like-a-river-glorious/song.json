@@ -1,0 +1,28 @@
+{
+  "id": "Ks9sL2DlMR0",
+  "title": "Like a River Glorious",
+  "writer": "Frances Havergal",
+  "writerRef": "frances-havergal",
+  "year": 1876,
+  "language": "English",
+  "themes": "Comfort,Assurance",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 26:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 456,
+  "hymnalCount": 187,
+  "video": {
+    "youtube": "bnIcKms_IUY",
+    "title": "Like A River Glorious"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

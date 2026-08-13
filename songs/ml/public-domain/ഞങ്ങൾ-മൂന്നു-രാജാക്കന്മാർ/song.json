@@ -1,0 +1,27 @@
+{
+  "id": "KzeSH-zHa1b",
+  "title": "ഞങ്ങൾ മൂന്നു രാജാക്കന്മാർ",
+  "writer": "ജോണ്‍ എച്ച്. ഹോപ്കിൻസ് ജൂനിയർ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Christmas",
+  "key": "Em",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 2:1–2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "-LD-RetNsuh",
+    "title": "We Three Kings"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

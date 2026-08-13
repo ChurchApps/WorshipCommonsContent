@@ -1,0 +1,30 @@
+{
+  "id": "V6SATFlVGNv",
+  "title": "¡Gloria! ¡Gloria!",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1869,
+  "language": "Spanish",
+  "themes": "Praise,Adoration",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 146:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 5,
+  "video": {
+    "youtube": "U0SrN4B-HTU",
+    "title": "Clapping Gloria - Mike Anderson - original version"
+  },
+  "parent": {
+    "id": "yB0FPr_vwGH",
+    "title": "Praise Him! Praise Him!"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3-XVMq6g3IX",
+  "title": "Lejos de Mi Padre Dios",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1869,
+  "language": "Spanish",
+  "themes": "Grace,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Juan 10:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 25,
+  "video": {
+    "youtube": "ezLuMymE7Dg",
+    "title": "HA62 | Himno 299 | Lejos de mi Padre Dios"
+  },
+  "parent": {
+    "id": "ulOZk2Z-mRz",
+    "title": "Near the Cross"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

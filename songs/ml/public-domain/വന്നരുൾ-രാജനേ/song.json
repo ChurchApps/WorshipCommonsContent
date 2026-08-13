@@ -1,0 +1,27 @@
+{
+  "id": "MWWba_G3kbF",
+  "title": "വന്നരുൾ രാജനേ",
+  "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "scripture": "വെളിപ്പാട് 19:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "gspxyxVctNx",
+    "title": "Come, Thou Almighty King"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

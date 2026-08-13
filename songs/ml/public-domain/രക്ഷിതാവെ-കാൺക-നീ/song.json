@@ -1,0 +1,27 @@
+{
+  "id": "v79mRAV7nUY",
+  "title": "രക്ഷിതാവെ കാൺക നീ",
+  "writer": "ജെയിംസ് മോട്ഗോമറി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2017,
+  "language": "Malayalam",
+  "themes": "Easter,Lament",
+  "key": "Em",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 26:36",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "8qB2rjGOUFb",
+    "title": "Go to Dark Gethsemane"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

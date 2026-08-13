@@ -1,0 +1,28 @@
+{
+  "id": "-G2gmV6hhA7",
+  "title": "One Day",
+  "writer": "J. Wilbur Chapman & Charles Marsh",
+  "writerRef": null,
+  "year": 1910,
+  "language": "English",
+  "themes": "Hope,Grace",
+  "key": "Bb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Titus 2:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 220,
+  "video": {
+    "youtube": "7R9YFAceXnM",
+    "title": "One Day • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

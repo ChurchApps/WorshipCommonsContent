@@ -1,0 +1,27 @@
+{
+  "id": "zyzRvidXgz7",
+  "title": "മിത്രം കണ്ടെൻ യേശുവിൽ",
+  "writer": "ചാൾസ് ഡബ്ള്യൂ. ഫ്രൈ",
+  "writerRef": null,
+  "year": 1881,
+  "language": "Malayalam",
+  "themes": "Atonement,Calmness,Christian Life",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "6/8",
+  "scripture": "ഉത്തമഗീതം 2:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "j2pUEAoZfNF",
+    "title": "The Lily of the Valley"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

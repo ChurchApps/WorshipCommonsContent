@@ -1,0 +1,27 @@
+{
+  "id": "rusubpG8v88",
+  "title": "ആരാണീ പൈതലീ നിദ്രയില്‍",
+  "writer": "വില്യം സി. ഡിക്സ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Christmas,Adoration",
+  "key": "Em",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "ലൂക്കോസ് 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "RfqBjrobd62",
+    "title": "What Child Is This"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

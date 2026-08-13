@@ -1,0 +1,29 @@
+{
+  "id": "3M7_3zkci5d",
+  "title": "Inmensa y sin Igual Piedad",
+  "writer": "Isaac Watts · tr. Anonymous",
+  "writerRef": null,
+  "year": null,
+  "language": "Spanish",
+  "themes": "Grace,Lament",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Mateo 27:45-50",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 7,
+  "video": {
+    "youtube": "1Ly-eh8qVks",
+    "title": "Himno Inmensa y sin igual piedad  Iglesia bautista"
+  },
+  "parent": {
+    "id": "4m8Ep0PePd0",
+    "title": "Alas! and Did My Savior Bleed"
+  },
+  "relationLabel": "Spanish translation · tr. Anonymous",
+  "provenance": {
+    "text": "hymnary"
+  }
+}

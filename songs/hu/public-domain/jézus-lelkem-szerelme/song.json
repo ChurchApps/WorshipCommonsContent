@@ -1,0 +1,27 @@
+{
+  "id": "7jIiz6Xier_",
+  "title": "Jézus, Lelkem Szerelme",
+  "writer": "Charles Wesley · tr. Anna Piroska Williams",
+  "writerRef": null,
+  "year": 1975,
+  "language": "Hungarian",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "2 Korinthus 1:3-5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "PBT2FmuhgUL",
+    "title": "Jesus, Lover of My Soul"
+  },
+  "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1975",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "KqeA7Ti1fof",
+  "title": "In Christ There Is No East or West",
+  "writer": "John Oxenham",
+  "writerRef": null,
+  "year": 1908,
+  "language": "English",
+  "themes": "Justice,Mission",
+  "key": "D",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Galatians 3:28",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 378,
+  "hymnalCount": 7,
+  "video": {
+    "youtube": "GG8hzY1OoM4",
+    "title": "In Christ There Is No East or West"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

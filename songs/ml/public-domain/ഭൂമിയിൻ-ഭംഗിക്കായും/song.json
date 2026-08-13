@@ -1,0 +1,27 @@
+{
+  "id": "ea76XqHjYTx",
+  "title": "ഭൂമിയിൻ ഭംഗിക്കായും",
+  "writer": "ഫോളിയറ്റ്‌ എസ്സ്. പീയർപോയന്റ്",
+  "writerRef": null,
+  "year": 1864,
+  "language": "Malayalam",
+  "themes": "Creation,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "യെശയാവു 6:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "Umvqw0Kazrh",
+    "title": "For the Beauty of the Earth"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

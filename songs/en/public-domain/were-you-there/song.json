@@ -1,0 +1,29 @@
+{
+  "id": "U0YapCDGNs9",
+  "title": "Were You There",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1899,
+  "language": "English",
+  "themes": "Easter,Lament",
+  "key": "Eb",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "scripture": "Luke 23:33",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 812,
+  "hymnalCount": 286,
+  "video": {
+    "youtube": "lleK1Z_k69U",
+    "title": "Were You There - Good Friday Hymn Sing Along with Lyrics Onscreen"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

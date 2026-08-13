@@ -1,0 +1,27 @@
+{
+  "id": "0c2oKIzEmf4",
+  "title": "ആട്ടിടയർ രാത്രികാലെ",
+  "writer": "നാഹും ടെയ്റ്റ്",
+  "writerRef": null,
+  "year": 1700,
+  "language": "Malayalam",
+  "themes": "Christmas",
+  "key": "C",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "ലൂക്കോസ് 2:8–9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "hbn517-XyXn",
+    "title": "While Shepherds Watched Their Flocks"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

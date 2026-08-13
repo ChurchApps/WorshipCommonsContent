@@ -1,0 +1,30 @@
+{
+  "id": "GewWFBLDxRd",
+  "title": "He Leadeth Me",
+  "writer": "Joseph Gilmore & William Bradbury",
+  "writerRef": null,
+  "year": 1862,
+  "language": "English",
+  "themes": "Trust,Provision",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 23:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 812,
+  "hymnalCount": 1453,
+  "video": {
+    "youtube": "r5qkYQ8hI6Q",
+    "title": "He Leadeth Me | 2 Hours of Relaxing Piano Hymns with lyrics | 30 Peaceful Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

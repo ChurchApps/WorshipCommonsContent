@@ -1,0 +1,27 @@
+{
+  "id": "VKXsl4BlMT8",
+  "title": "ദുഖിപ്പോരെ മുറിവേറ്റവരെ",
+  "writer": "ജോസഫ് ഹാർട്ട് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Grace,Confession",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 11:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "Es1TAgZiT3P",
+    "title": "Come, Ye Sinners, Poor and Needy"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

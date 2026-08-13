@@ -1,0 +1,29 @@
+{
+  "id": "xN0vtmWoa0t",
+  "title": "Hark, Hark, My Soul!",
+  "writer": "Frederick William Faber",
+  "writerRef": "frederick-william-faber",
+  "year": 1854,
+  "language": "English",
+  "themes": "Angels,Anticipation,Art and Music",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 662,
+  "video": {
+    "youtube": "4n4F8xK5Nl4",
+    "title": "Hark Hark My Soul | Frederick William Faber | Hymn | Harmony Of A Decade"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

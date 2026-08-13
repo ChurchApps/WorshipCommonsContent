@@ -1,0 +1,27 @@
+{
+  "id": "pv2bzURNrYt",
+  "title": "Majestic Sweetness Sits Enthroned",
+  "writer": "Samuel Stennett",
+  "writerRef": "samuel-stennett",
+  "year": 1787,
+  "language": "English",
+  "themes": "Adoration,Grace",
+  "key": "C",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Song of Solomon 5:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 223,
+  "hymnalCount": 999,
+  "video": {
+    "youtube": "D692P5618DI",
+    "title": "Majestic Sweetness Sits Enthroned"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

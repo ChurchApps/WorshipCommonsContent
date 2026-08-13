@@ -1,0 +1,29 @@
+{
+  "id": "597seyeUO-c",
+  "title": "That Men a godly Life Might Live",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Charity,Christian Home/Family,Christmas/Advent",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Ex 20:1-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "CBa_5SPclkc",
+    "title": "That Men a Godly Life Might Live (Old 100th)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

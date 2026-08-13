@@ -1,0 +1,30 @@
+{
+  "id": "zkHZHwcaG5q",
+  "title": "I Heard the Bells on Christmas Day",
+  "writer": "Henry Wadsworth Longfellow & John Calkin",
+  "writerRef": null,
+  "year": 1863,
+  "language": "English",
+  "themes": "Christmas,Hope",
+  "key": "Eb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 143,
+  "video": {
+    "youtube": "M7670CXvPX0",
+    "title": "Casting Crowns - I Heard The Bells on Christmas Day Live"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

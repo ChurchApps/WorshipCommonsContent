@@ -1,0 +1,28 @@
+{
+  "id": "-J1bn2p-3vG",
+  "title": "My Lord, What a Morning",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1872,
+  "language": "English",
+  "themes": "Hope,Advent",
+  "key": "F",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 24:29-31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 267,
+  "hymnalCount": 220,
+  "video": {
+    "youtube": "HRuKqHokbTU",
+    "title": "My Lord What a Morning"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "w8Pjd1oK3GW",
+  "title": "Beautiful Savior",
+  "writer": "German Jesuits · tr. Joseph August Seiss",
+  "writerRef": null,
+  "year": 1677,
+  "language": "English",
+  "themes": "Crown,Jesus,Joy",
+  "key": "Eb",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "So 6:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 146,
+  "video": {
+    "youtube": "bhrA-myM44s",
+    "title": "Beautiful Savior - Hymn Sing-Along [with Lyrics Onscreen]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "slc6RY131di",
+  "title": "സ്വർഗ്ഗസൗധങ്ങൾക്കെൻ",
+  "writer": "ഐസക്ക് വാട്ട്സ്",
+  "writerRef": null,
+  "year": 1707,
+  "language": "Malayalam",
+  "themes": "Hope,Assurance",
+  "key": "C",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "യെശയ്യാവ്‌ 25:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "sTPMcrj42wN",
+    "title": "When I Can Read My Title Clear"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "M-dv3UD_6NQ",
+  "title": "We Give Thee But Thine Own",
+  "writer": "William Walsham How",
+  "writerRef": "william-walsham-how",
+  "year": 1864,
+  "language": "English",
+  "themes": "Angels,Gratitude,Harvest",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "1Chr 29:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 545,
+  "video": {
+    "youtube": "jC4O8JPMEQ4",
+    "title": "670 SDA Hymnal - We Give Thee But Thine Own (Singing w/ Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

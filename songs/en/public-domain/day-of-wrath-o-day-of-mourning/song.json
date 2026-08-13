@@ -1,0 +1,29 @@
+{
+  "id": "yJB5heTMuMd",
+  "title": "Day of Wrath, O Day of Mourning",
+  "writer": "Thomas of Celano · tr. William Josiah Irons",
+  "writerRef": "thomas-of-celano",
+  "year": 1848,
+  "language": "English",
+  "themes": "Anticipation,Atonement,Brevity of Life",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Rev 6:12-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 111,
+  "video": {
+    "youtube": "d9Rde7iKrB0",
+    "title": "Day of Wrath! O Day of Mourning! (Dies Irae)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

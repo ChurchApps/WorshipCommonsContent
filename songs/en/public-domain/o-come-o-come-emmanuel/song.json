@@ -1,0 +1,30 @@
+{
+  "id": "EKHqtYfDRue",
+  "title": "O Come, O Come, Emmanuel",
+  "writer": "Latin antiphons · tr. John Mason Neale",
+  "writerRef": null,
+  "year": 1851,
+  "language": "English",
+  "themes": "Advent,Hope",
+  "key": "Em",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1145,
+  "hymnalCount": 565,
+  "video": {
+    "youtube": "7xtpJ4Q_Q-4",
+    "title": "O Come, O Come Emmanuel - Traditional Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

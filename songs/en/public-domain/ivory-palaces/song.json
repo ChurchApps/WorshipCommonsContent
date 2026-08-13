@@ -1,0 +1,27 @@
+{
+  "id": "XJ3ZtC5HW9y",
+  "title": "Ivory Palaces",
+  "writer": "Henry Barraclough",
+  "writerRef": null,
+  "year": 1915,
+  "language": "English",
+  "themes": "Grace,Adoration",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 45:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 212,
+  "hymnalCount": 126,
+  "video": {
+    "youtube": "VyMIpGzflY0",
+    "title": "Ivory Palaces"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

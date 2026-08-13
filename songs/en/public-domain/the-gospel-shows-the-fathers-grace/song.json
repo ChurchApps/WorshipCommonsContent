@@ -1,0 +1,29 @@
+{
+  "id": "P_Y651Fcd0R",
+  "title": "The Gospel Shows The Father's Grace",
+  "writer": "Matthias Loy",
+  "writerRef": null,
+  "year": 1863,
+  "language": "English",
+  "themes": "Assurance,Atonement,Consolation",
+  "key": "F",
+  "bpm": 140,
+  "timeSignature": "6/4",
+  "scripture": "Jn 3:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 18,
+  "video": {
+    "youtube": "EZAM-mIW5aY",
+    "title": "LSB 580 - The Gospel Shows the Father's Grace"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

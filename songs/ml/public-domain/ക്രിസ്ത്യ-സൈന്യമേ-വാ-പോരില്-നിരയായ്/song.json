@@ -1,0 +1,27 @@
+{
+  "id": "owuZg58mjG0",
+  "title": "ക്രിസ്ത്യ സൈന്യമേ! വാ! പോരില്‍ നിരയായ്",
+  "writer": "സബൈന്‍ ബാറിംഗ്-ഗവ്ള്‍ഡ്",
+  "writerRef": null,
+  "year": 1865,
+  "language": "Malayalam",
+  "themes": "Mission,Trust",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "2 ദിനവൃത്താന്തം 20:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "K864gyKDZh3",
+    "title": "Onward, Christian Soldiers"
+  },
+  "relationLabel": "Malayalam original · സബൈന്‍ ബാറിംഗ്-ഗവ്ള്‍ഡ്, 1865",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

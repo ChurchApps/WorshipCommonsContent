@@ -1,0 +1,28 @@
+{
+  "id": "MKlAtWuuUz_",
+  "title": "The Strife Is O'er",
+  "writer": "Latin hymn · tr. Francis Pott",
+  "writerRef": null,
+  "year": 1861,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "C",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 15:55",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 378,
+  "hymnalCount": 540,
+  "video": {
+    "youtube": "BeZVkRstr7M",
+    "title": "The Strife is O'er Hymn lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

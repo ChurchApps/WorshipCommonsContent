@@ -1,0 +1,30 @@
+{
+  "id": "2zMeQ2kdb2n",
+  "title": "Pass Me Not, O Gentle Savior",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1868,
+  "language": "English",
+  "themes": "Confession,Grace",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Luke 18:38",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 687,
+  "hymnalCount": 1083,
+  "video": {
+    "youtube": "FExofOqBJgw",
+    "title": "🎵 'Pass Me Not, O Gentle Savior' - Beautiful Hymn of Grace and Mercy 🙏"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tMrkcWBP5iD",
+  "title": "Wär’ Gott Nicht mit Uns Diese Zeit",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "German",
+  "themes": "Christian Life,Courage in Affliction,Faithfulness",
+  "key": "A",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "124,2-3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "JlbYSn1uxEs",
+    "title": "If God Had Not Been on Our Side"
+  },
+  "relationLabel": "German original · Martin Luther, 1524",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

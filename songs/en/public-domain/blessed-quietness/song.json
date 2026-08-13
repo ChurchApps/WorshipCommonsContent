@@ -1,0 +1,27 @@
+{
+  "id": "fUASOJH1qoW",
+  "title": "Blessed Quietness",
+  "writer": "Manie Ferguson & W. S. Marshall",
+  "writerRef": null,
+  "year": 1897,
+  "language": "English",
+  "themes": "Comfort,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "John 14:27",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 198,
+  "hymnalCount": 195,
+  "video": {
+    "youtube": "ZbMXCMRK7uc",
+    "title": "Blessed Quietness"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "Nt5Jv5g_alj",
+  "title": "Come, Thou Long-Expected Jesus",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1744,
+  "language": "English",
+  "themes": "Advent,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "2/4",
+  "scripture": "Haggai 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 812,
+  "hymnalCount": 790,
+  "video": {
+    "youtube": "5lwtbnU-1Tw",
+    "title": "Come, Thou Long Expected Jesus | Celtic Worship"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "0YyJoAE9Ge4",
+  "title": "Blessed Assurance",
+  "writer": "Fanny Crosby & Phoebe Knapp",
+  "writerRef": "fanny-crosby-phoebe-knapp",
+  "year": 1873,
+  "language": "English",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Hebrews 10:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1534,
+  "hymnalCount": 1280,
+  "video": {
+    "youtube": "H1VMHEMOMZY",
+    "title": "Blessed Assurance"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

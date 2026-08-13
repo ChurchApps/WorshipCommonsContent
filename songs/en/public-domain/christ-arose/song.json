@@ -1,0 +1,29 @@
+{
+  "id": "SfCJUXo-bOS",
+  "title": "Christ Arose",
+  "writer": "Robert Lowry",
+  "writerRef": "robert-lowry",
+  "year": 1874,
+  "language": "English",
+  "themes": "Comfort,Easter,Eternal Life",
+  "key": "C",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Jn 2:19-22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 535,
+  "video": {
+    "youtube": "6BYMCZNHPmg",
+    "title": "Christ Arose! • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

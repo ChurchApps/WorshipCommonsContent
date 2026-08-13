@@ -1,0 +1,27 @@
+{
+  "id": "8M_Z9gtZIR8",
+  "title": "Redites-Moi l’Histoire",
+  "writer": "A. Katherine Hankey",
+  "writerRef": null,
+  "year": 1866,
+  "language": "French",
+  "themes": "Grace,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Ézéchiel 3:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "LGHmqUi6pBw",
+    "title": "Tell Me the Old, Old Story"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

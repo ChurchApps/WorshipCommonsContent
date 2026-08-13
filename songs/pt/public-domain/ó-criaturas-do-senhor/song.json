@@ -1,0 +1,27 @@
+{
+  "id": "xhfuYb7x-bV",
+  "title": "Ó Criaturas do Senhor",
+  "writer": "Săo Francisco",
+  "writerRef": null,
+  "year": 1919,
+  "language": "Portuguese",
+  "themes": "Praise,Creation",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "6/4",
+  "scripture": "Salmos 69:34",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "RnGVNAiO92e",
+    "title": "All Creatures of Our God and King"
+  },
+  "relationLabel": "Portuguese translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

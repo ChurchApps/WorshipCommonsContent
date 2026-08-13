@@ -1,0 +1,27 @@
+{
+  "id": "1zUUw7x4DD3",
+  "title": "Pranë Kryqit Mua Më Mbaj",
+  "writer": "Fanny Crosby · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1869,
+  "language": "Albanian",
+  "themes": "Grace,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Zekaria 13:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ulOZk2Z-mRz",
+    "title": "Near the Cross"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "kYzJQ4dmij7",
+  "title": "Nun Danket Alle Gott",
+  "writer": "Martin Rinkart",
+  "writerRef": null,
+  "year": 1636,
+  "language": "German",
+  "themes": "Praise,Provision",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "2 Korinther 2,14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "O56iN1F_4rL",
+    "title": "Now Thank We All Our God"
+  },
+  "relationLabel": "German translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

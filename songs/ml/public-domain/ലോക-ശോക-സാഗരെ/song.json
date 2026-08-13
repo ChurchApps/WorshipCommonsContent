@@ -1,0 +1,27 @@
+{
+  "id": "Oi8zDmbXFh0",
+  "title": "ലോക ശോക സാഗരെ",
+  "writer": "ജോൺസൺ ഓട്ട്മേൻ, ജൂണിയർ",
+  "writerRef": null,
+  "year": 1897,
+  "language": "Malayalam",
+  "themes": "Provision,Praise",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "സദൃശ്യവാക്യങ്ങൾ 10:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "FMffPYxulvd",
+    "title": "Count Your Blessings"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

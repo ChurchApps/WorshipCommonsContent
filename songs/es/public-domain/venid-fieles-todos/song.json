@@ -1,0 +1,29 @@
+{
+  "id": "4l6npq8Q4wL",
+  "title": "Venid, Fieles Todos",
+  "writer": "John F. Wade · tr. Juan Bautista Cabrera",
+  "writerRef": null,
+  "year": 1875,
+  "language": "Spanish",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 2:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 376,
+  "hymnalCount": 32,
+  "video": {
+    "youtube": "VXlZtXA4au4",
+    "title": "Venid fieles todos  y Ángeles cantando"
+  },
+  "parent": {
+    "id": "e0RA7WIC3mU",
+    "title": "O Come, All Ye Faithful"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

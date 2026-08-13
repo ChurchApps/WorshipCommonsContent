@@ -1,0 +1,29 @@
+{
+  "id": "Rlz6pCQ8EwL",
+  "title": "Did You Think to Pray?",
+  "writer": "Mary Kidder & William Perkins",
+  "writerRef": null,
+  "year": 1876,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1 Thessalonians 5:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 176,
+  "hymnalCount": 187,
+  "video": {
+    "youtube": "2NSFmCduZGU",
+    "title": "Did you Think to Pray?"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

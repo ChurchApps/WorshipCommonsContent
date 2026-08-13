@@ -1,0 +1,27 @@
+{
+  "id": "9ZGG4sLSIa4",
+  "title": "Wohl Dem, Der in Gottesfurcht Steht",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "German",
+  "themes": "Adam,Children,Christian Home/Family",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 128,1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "4q9f3AkM-bP",
+    "title": "Happy the Man Who Feareth God"
+  },
+  "relationLabel": "German original · Martin Luther, 1524",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

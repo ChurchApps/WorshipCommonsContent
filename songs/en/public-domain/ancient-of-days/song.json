@@ -1,0 +1,27 @@
+{
+  "id": "y42BNMlAdca",
+  "title": "Ancient of Days",
+  "writer": "William Croswell Doane & J. Albert Jeffery",
+  "writerRef": null,
+  "year": 1886,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "Bb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Daniel 7:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 198,
+  "hymnalCount": 204,
+  "video": {
+    "youtube": "V4dR_zuB3qk",
+    "title": "Ancient of Days (Live) - Ron Kenoly"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

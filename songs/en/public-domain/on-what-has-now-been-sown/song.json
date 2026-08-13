@@ -1,0 +1,29 @@
+{
+  "id": "fq-OAk1yMgA",
+  "title": "On What Has Now Been Sown",
+  "writer": "John Newton",
+  "writerRef": "john-newton",
+  "year": 1779,
+  "language": "English",
+  "themes": "Closing Songs,Fellowship,Forgiveness",
+  "key": "D",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Mk 4:26-29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 92,
+  "video": {
+    "youtube": "K9YhZxgnkL8",
+    "title": "921 On What Has Now Been Sown - The Congregation sings from The Lutheran Service Book."
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

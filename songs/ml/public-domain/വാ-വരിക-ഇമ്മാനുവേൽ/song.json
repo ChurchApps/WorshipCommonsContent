@@ -1,0 +1,27 @@
+{
+  "id": "9888-w-ZctL",
+  "title": "വാ വരിക ഇമ്മാനുവേൽ",
+  "writer": "ജോണ്‍ എം. നീൽ",
+  "writerRef": null,
+  "year": 1851,
+  "language": "Malayalam",
+  "themes": "Advent,Hope",
+  "key": "Em",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "യെശയ്യാവ് 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "EKHqtYfDRue",
+    "title": "O Come, O Come, Emmanuel"
+  },
+  "relationLabel": "Malayalam original · ജോണ്‍ എം. നീൽ, 1851",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

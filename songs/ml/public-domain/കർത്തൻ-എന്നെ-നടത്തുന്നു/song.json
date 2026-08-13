@@ -1,0 +1,27 @@
+{
+  "id": "MZlWIWGVUuA",
+  "title": "കർത്തൻ എന്നെ നടത്തുന്നു",
+  "writer": "ജോസഫ് എച്ച്. ഗിൽമോർ",
+  "writerRef": null,
+  "year": 1862,
+  "language": "Malayalam",
+  "themes": "Trust,Provision",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 23:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "GewWFBLDxRd",
+    "title": "He Leadeth Me"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

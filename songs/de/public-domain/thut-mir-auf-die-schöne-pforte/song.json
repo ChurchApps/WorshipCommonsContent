@@ -1,0 +1,27 @@
+{
+  "id": "YP17IufLx5f",
+  "title": "Thut Mir auf die Schöne Pforte",
+  "writer": "Benjamin Schmolck",
+  "writerRef": null,
+  "year": 1730,
+  "language": "German",
+  "themes": "Anticipation,Discipleship,Faith",
+  "key": "Bb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 100,4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "9NaGceGLCFm",
+    "title": "Open Now Thy Gates of Beauty"
+  },
+  "relationLabel": "German original · Benjamin Schmolck, 1730",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

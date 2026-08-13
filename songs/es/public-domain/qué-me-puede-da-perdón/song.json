@@ -1,0 +1,27 @@
+{
+  "id": "8RQimmXDZlg",
+  "title": "¿Qué Me Puede Da Perdón?",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Spanish",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Hebreos 9:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 22,
+  "video": null,
+  "parent": {
+    "id": "3A7uOIvq4zf",
+    "title": "Nothing but the Blood"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

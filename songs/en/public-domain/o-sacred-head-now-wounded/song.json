@@ -1,0 +1,30 @@
+{
+  "id": "aqNc75nXe-w",
+  "title": "O Sacred Head, Now Wounded",
+  "writer": "Paul Gerhardt · tr. James W. Alexander",
+  "writerRef": "paul-gerhardt",
+  "year": 1830,
+  "language": "English",
+  "themes": "Easter,Lament",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 53:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 654,
+  "hymnalCount": 786,
+  "video": {
+    "youtube": "wcrS8rFWMXQ",
+    "title": "O Sacred Head, Now Wounded (Hymn 271) - Hymnology (Official Video)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

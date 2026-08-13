@@ -1,0 +1,28 @@
+{
+  "id": "K0xGMwyoGsB",
+  "title": "Gloria Patri",
+  "writer": "Traditional · Henry Greatorex",
+  "writerRef": null,
+  "year": 1851,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 512,
+  "hymnalCount": 1182,
+  "video": {
+    "youtube": "QUBxpypSblw",
+    "title": "Gloria Patri (Glory Be to the Father)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

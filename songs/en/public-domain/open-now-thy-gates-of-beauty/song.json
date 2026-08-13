@@ -1,0 +1,29 @@
+{
+  "id": "9NaGceGLCFm",
+  "title": "Open Now Thy Gates of Beauty",
+  "writer": "Benjamin Schmolck · tr. Catherine Winkworth",
+  "writerRef": "benjamin-schmolck",
+  "year": 1730,
+  "language": "English",
+  "themes": "Anticipation,Discipleship,Faith",
+  "key": "Bb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 100:1-5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 156,
+  "video": {
+    "youtube": "sl9bw7ol_EA",
+    "title": "901 - Open Now Thy Gates of Beauty - The Congregation sings from The Lutheran Service Book."
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

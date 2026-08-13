@@ -1,0 +1,29 @@
+{
+  "id": "WJeCFZdJYw4",
+  "title": "Awake, My Soul, And With The Sun",
+  "writer": "Thomas Ken",
+  "writerRef": "thomas-ken",
+  "year": 1674,
+  "language": "English",
+  "themes": "Activity,Aspiration,Christian Life",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Rom 13:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 940,
+  "video": {
+    "youtube": "P6TaygvxHrc",
+    "title": "Awake, My Soul, and With the Sun (Tune: Morning Hymn - 5vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "5SZIbPOy_1y",
+  "title": "O Lord We Praise Thee",
+  "writer": "Martin Luther · tr. composite",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Atonement,Blood,Fellowship",
+  "key": "D",
+  "bpm": 160,
+  "timeSignature": "4/4",
+  "scripture": "Ps 51:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "kh6Q9U-UoIE",
+    "title": "Hymn 617: O Lord, We Praise Thee"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "zPPnVBSasc_",
+  "title": "കർത്തൃകാഹളം യുഗാന്ത്യ",
+  "writer": "ജെയിംസ് എം.ബ്ലാക്ക് · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1889,
+  "language": "Malayalam",
+  "themes": "Hope,Assurance",
+  "key": "D",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "scripture": "വെളിപ്പാടു 20:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "FvJ1-pBDj2R",
+    "title": "When the Roll Is Called Up Yonder"
+  },
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

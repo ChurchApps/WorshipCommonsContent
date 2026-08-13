@@ -1,0 +1,30 @@
+{
+  "id": "ggzFvLEr9mK",
+  "title": "Nearer, My God, to Thee",
+  "writer": "Sarah Adams & Lowell Mason",
+  "writerRef": null,
+  "year": 1841,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Genesis 28:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 876,
+  "hymnalCount": 2799,
+  "video": {
+    "youtube": "gWz4feHp0ko",
+    "title": "Nearer My God To Thee (with lyrics) - The Most BEAUTIFUL hymn you’ve EVER Heard!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

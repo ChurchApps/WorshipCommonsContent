@@ -1,0 +1,30 @@
+{
+  "id": "tF-9X45-BtM",
+  "title": "I Know That My Redeemer Lives",
+  "writer": "Samuel Medley",
+  "writerRef": "samuel-medley",
+  "year": 1775,
+  "language": "English",
+  "themes": "Easter,Assurance",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Job 19:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 467,
+  "hymnalCount": 493,
+  "video": {
+    "youtube": "9l4W0_56sAg",
+    "title": "I Know That My Redeemer Lives | Song of Farewell | Funeral Hymn | S. Soper | Catholic Choir w/Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

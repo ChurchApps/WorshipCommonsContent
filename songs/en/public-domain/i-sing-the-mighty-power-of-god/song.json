@@ -1,0 +1,30 @@
+{
+  "id": "oHR1IAZ1iIM",
+  "title": "I Sing the Mighty Power of God",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1715,
+  "language": "English",
+  "themes": "Creation,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 19:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 456,
+  "hymnalCount": 509,
+  "video": {
+    "youtube": "eeSoE1Kmmv0",
+    "title": "I Sing the Mighty Power of God"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Y9lJnH8DbAh",
+  "title": "Estad por Cristo Firmes",
+  "writer": "George Duffield · tr. Juan Bautista Cabrera",
+  "writerRef": null,
+  "year": 1878,
+  "language": "Spanish",
+  "themes": "Mission,Trust",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Efesios 6:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 132,
+  "hymnalCount": 29,
+  "video": {
+    "youtube": "B7iipUMrfYk",
+    "title": "HIMNO ESTAD POR CRISTO FIRMES"
+  },
+  "parent": {
+    "id": "k3nQG0DqnD8",
+    "title": "Stand Up, Stand Up for Jesus"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

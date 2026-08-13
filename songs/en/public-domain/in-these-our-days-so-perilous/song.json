@@ -1,0 +1,28 @@
+{
+  "id": "LlssXM6A_p_",
+  "title": "In These Our Days So Perilous",
+  "writer": "Latin & Martin Luther · tr. Richard Massie",
+  "writerRef": "latin-martin-luther",
+  "year": 1529,
+  "language": "English",
+  "themes": "Christian Life,Church on Earth,Courage in Affliction",
+  "key": "F",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "2Thess 3:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "ilzrC37qEk8",
+    "title": "Verleih uns Frieden gnädiglich / In these our days so perilous"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

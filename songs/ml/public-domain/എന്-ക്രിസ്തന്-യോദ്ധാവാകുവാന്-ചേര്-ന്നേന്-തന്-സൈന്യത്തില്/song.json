@@ -1,0 +1,27 @@
+{
+  "id": "uUc9TW1C2sd",
+  "title": "എന്‍ ക്രിസ്തന്‍ യോദ്ധാവാകുവാന്‍ ചേര്‍ന്നേന്‍ തന്‍ സൈന്യത്തില്‍",
+  "writer": "ഐസക്ക്‌ വാട്സ് · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1721,
+  "language": "Malayalam",
+  "themes": "Mission,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "1 കൊരിന്ത്യര്‍ 16:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "gLg5BJT2FtA",
+    "title": "Am I a Soldier of the Cross"
+  },
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

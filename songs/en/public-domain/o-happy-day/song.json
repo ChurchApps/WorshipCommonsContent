@@ -1,0 +1,28 @@
+{
+  "id": "rkI8Iz1TdSD",
+  "title": "O Happy Day",
+  "writer": "Philip Doddridge",
+  "writerRef": "philip-doddridge",
+  "year": 1755,
+  "language": "English",
+  "themes": "Praise,Assurance",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 40:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 467,
+  "hymnalCount": 1968,
+  "video": {
+    "youtube": "Iqx0XUmrk-A",
+    "title": "O Happy Day • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

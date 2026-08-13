@@ -1,0 +1,29 @@
+{
+  "id": "3ZKJFJN3dKb",
+  "title": "Alleluia, Alleluia! Hearts to Heaven and Voices Raise",
+  "writer": "Christopher Wordsworth",
+  "writerRef": "christopher-wordsworth",
+  "year": 1865,
+  "language": "English",
+  "themes": "Art and Music,Atonement,Blood",
+  "key": "G",
+  "bpm": 115,
+  "timeSignature": "4/4",
+  "scripture": "1Cor 15:54-57",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 236,
+  "video": {
+    "youtube": "HKqBY5Hsfik",
+    "title": "Alleluia, Alleluia! Hearts to Heaven and Voices Raise"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "--444poRqpG",
+  "title": "കേൾക്ക ദൂത സൽസ്വരം",
+  "writer": "ചാൾസ് വെസ്ലി",
+  "writerRef": null,
+  "year": 1739,
+  "language": "Malayalam",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 18:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "pSpS9dU7qHg",
+    "title": "Hark! The Herald Angels Sing"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

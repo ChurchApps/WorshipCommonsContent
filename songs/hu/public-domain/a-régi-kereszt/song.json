@@ -1,0 +1,27 @@
+{
+  "id": "ZDWnIXYfGOB",
+  "title": "A Régi Kereszt",
+  "writer": "George Bennard",
+  "writerRef": "george-bennard",
+  "year": 1913,
+  "language": "Hungarian",
+  "themes": "Grace,Comfort",
+  "key": "Bb",
+  "bpm": 69,
+  "timeSignature": "6/4",
+  "scripture": "Galaták 6:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "sdbr4rHG9yR",
+    "title": "The Old Rugged Cross"
+  },
+  "relationLabel": "Hungarian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

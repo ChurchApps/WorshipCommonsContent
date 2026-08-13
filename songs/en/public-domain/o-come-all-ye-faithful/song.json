@@ -1,0 +1,29 @@
+{
+  "id": "e0RA7WIC3mU",
+  "title": "O Come, All Ye Faithful",
+  "writer": "John F. Wade · tr. Frederick Oakeley",
+  "writerRef": null,
+  "year": 1841,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1502,
+  "hymnalCount": 855,
+  "video": {
+    "youtube": "BIdRKXtn6MQ",
+    "title": "O Come All Ye Faithful (with lyrics) - BEAUTIFUL Christmas carol / hymn"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

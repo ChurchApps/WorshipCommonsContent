@@ -1,0 +1,30 @@
+{
+  "id": "YYBp_jksUgs",
+  "title": "Fuente de la Vida Eterna",
+  "writer": "Robert Robinson",
+  "writerRef": "robert-robinson",
+  "year": 1758,
+  "language": "Spanish",
+  "themes": "Anticipation,Atonement,Blood",
+  "key": "Eb",
+  "bpm": 90,
+  "timeSignature": "3/4",
+  "scripture": "Salmos 68:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 34,
+  "video": {
+    "youtube": "gW_wIPXpMsU",
+    "title": "HA62 | Himno 281 | Fuente de la vida eterna"
+  },
+  "parent": {
+    "id": "FMd8ryghVRb",
+    "title": "Come Thou Fount Of Every Blessing"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

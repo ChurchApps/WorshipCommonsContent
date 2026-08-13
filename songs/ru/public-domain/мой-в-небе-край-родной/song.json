@@ -1,0 +1,27 @@
+{
+  "id": "Rg0LoQcogae",
+  "title": "Мой В Небе Край Родной",
+  "writer": "Т. Р. Тайлор",
+  "writerRef": null,
+  "year": 1836,
+  "language": "Russian",
+  "themes": "Assurance,Brevity of Life,Church in Heaven",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Евреям 11:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "5OQUK3saOEb",
+    "title": "I'm But A Stranger Here"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

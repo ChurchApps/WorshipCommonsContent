@@ -1,0 +1,28 @@
+{
+  "id": "BVe7x5it58a",
+  "title": "Battle Hymn of the Republic",
+  "writer": "Julia Ward Howe",
+  "writerRef": "julia-ward-howe",
+  "year": 1862,
+  "language": "English",
+  "themes": "Justice,Hope",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 19:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 645,
+  "hymnalCount": 653,
+  "video": {
+    "youtube": "iE3pSpZkKc4",
+    "title": "🔴BEST VERSION: THE BATTLE HYMN OF THE REPUBLIC"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

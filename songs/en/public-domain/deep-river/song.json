@@ -1,0 +1,28 @@
+{
+  "id": "1D_N9mA3YaA",
+  "title": "Deep River",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1876,
+  "language": "English",
+  "themes": "Hope,Comfort",
+  "key": "C",
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "scripture": "Joshua 3:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 35,
+  "video": {
+    "youtube": "EVMgiwR5igo",
+    "title": "UNT A Cappella Choir: Deep River"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

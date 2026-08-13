@@ -1,0 +1,28 @@
+{
+  "id": "uZlfcG1yIBB",
+  "title": "Love Lifted Me",
+  "writer": "James Rowe & Howard Smith",
+  "writerRef": null,
+  "year": 1912,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 14:31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 567,
+  "hymnalCount": 347,
+  "video": {
+    "youtube": "Lk5XNtNBhQY",
+    "title": "Love Lifted Me • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

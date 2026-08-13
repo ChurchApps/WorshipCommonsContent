@@ -1,0 +1,28 @@
+{
+  "id": "-LD-RetNsuh",
+  "title": "We Three Kings",
+  "writer": "John Henry Hopkins Jr.",
+  "writerRef": null,
+  "year": 1857,
+  "language": "English",
+  "themes": "Christmas",
+  "key": "Em",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 2:1-2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 587,
+  "hymnalCount": 360,
+  "video": {
+    "youtube": "ANXV46f3jo0",
+    "title": "We Three Kings of Orient Are"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

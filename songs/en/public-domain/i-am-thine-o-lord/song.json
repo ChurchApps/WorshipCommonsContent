@@ -1,0 +1,28 @@
+{
+  "id": "mxPKhsn413w",
+  "title": "I Am Thine, O Lord",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1875,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 10:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 645,
+  "hymnalCount": 844,
+  "video": {
+    "youtube": "IMrgaV9pqUo",
+    "title": "I Am Thine, O Lord with Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "wdsGfDGJ3ck",
+  "title": "മഹത്വമെന്നും വാഴും പുത്രന്",
+  "writer": "എഡ്മണ്ട് എല്‍. ബട്രി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Easter,Praise",
+  "key": "D",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "യെശയ്യാവ് 25:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "4ywZcq98xoX",
+    "title": "Thine Be the Glory"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

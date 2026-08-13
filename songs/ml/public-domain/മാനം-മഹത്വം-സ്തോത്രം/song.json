@@ -1,0 +1,27 @@
+{
+  "id": "NAiAI7vvJZi",
+  "title": "മാനം മഹത്വം സ്തോത്രം",
+  "writer": "തിയോഡോൾഫ് ഓഫ് ഓർലീൻസ്, സിർക്ക",
+  "writerRef": null,
+  "year": 1851,
+  "language": "Malayalam",
+  "themes": "Easter,Praise",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 21:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "MTtlp6FEXfq",
+    "title": "All Glory, Laud, and Honor"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

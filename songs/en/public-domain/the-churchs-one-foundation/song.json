@@ -1,0 +1,30 @@
+{
+  "id": "mp8_CK_E5qS",
+  "title": "The Church's One Foundation",
+  "writer": "Samuel Stone & Samuel Wesley",
+  "writerRef": "samuel-stone-samuel-wesley",
+  "year": 1866,
+  "language": "English",
+  "themes": "Trust,Assurance",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 3:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 634,
+  "hymnalCount": 966,
+  "video": {
+    "youtube": "w1YBYrJ8Hzg",
+    "title": "The Church’s One Foundation"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

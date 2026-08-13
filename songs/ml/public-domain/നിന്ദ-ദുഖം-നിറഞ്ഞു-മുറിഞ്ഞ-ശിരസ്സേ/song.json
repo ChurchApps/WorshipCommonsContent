@@ -1,0 +1,27 @@
+{
+  "id": "OuSc9BjR-JM",
+  "title": "നിന്ദ ദുഖം നിറഞ്ഞു മുറിഞ്ഞ ശിരസ്സേ!",
+  "writer": "ബർണാർഡ് ഓഫ് ക്ലെയർ വൊ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Easter,Lament",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 27:28-29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "aqNc75nXe-w",
+    "title": "O Sacred Head, Now Wounded"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

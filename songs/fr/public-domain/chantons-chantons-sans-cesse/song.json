@@ -1,0 +1,24 @@
+{
+  "id": "kNgu3ZkEYuO",
+  "title": "Chantons, Chantons sans Cesse",
+  "writer": "Charles F. Recordon",
+  "writerRef": null,
+  "year": 1800,
+  "language": "French",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Psaumes 57:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

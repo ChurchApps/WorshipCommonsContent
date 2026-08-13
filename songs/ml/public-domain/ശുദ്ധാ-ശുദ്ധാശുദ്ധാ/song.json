@@ -1,0 +1,27 @@
+{
+  "id": "Yux1ic43HwD",
+  "title": "ശുദ്ധാ ശുദ്ധാശുദ്ധാ",
+  "writer": "റെജിനാൾഡ് ഹെബർ",
+  "writerRef": null,
+  "year": 1826,
+  "language": "Malayalam",
+  "themes": "Adoration,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "യെശ്ശയാവു 6:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "Z8zZ1SBRMoo",
+    "title": "Holy, Holy, Holy"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

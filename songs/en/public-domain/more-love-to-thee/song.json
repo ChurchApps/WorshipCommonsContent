@@ -1,0 +1,30 @@
+{
+  "id": "znPVOl0yZza",
+  "title": "More Love to Thee",
+  "writer": "Elizabeth Prentiss & William Doane",
+  "writerRef": null,
+  "year": 1869,
+  "language": "English",
+  "themes": "Adoration,Confession",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Philippians 1:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 922,
+  "video": {
+    "youtube": "svx4MdZPZ64",
+    "title": "More Love to Thee - HBBC Chancel Choir and Orchestra"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "KUhfnjzlriK",
+  "title": "വാഴ്ത്തെൻ ദേഹി സ്വർ രാജനെ",
+  "writer": "ഹെന്‍ട്രി എഫ്. ലൈറ്റ്",
+  "writerRef": null,
+  "year": 1834,
+  "language": "Malayalam",
+  "themes": "Praise,Grace",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "2/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 103:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "JjnX-vtk8am",
+    "title": "Praise, My Soul, the King of Heaven"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

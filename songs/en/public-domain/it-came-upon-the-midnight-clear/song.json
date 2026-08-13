@@ -1,0 +1,30 @@
+{
+  "id": "r8Ybhn-Xl_b",
+  "title": "It Came Upon the Midnight Clear",
+  "writer": "Edmund Sears & Richard Willis",
+  "writerRef": "edmund-sears-richard-willis",
+  "year": 1849,
+  "language": "English",
+  "themes": "Christmas,Hope",
+  "key": "Eb",
+  "bpm": 80,
+  "timeSignature": "6/8",
+  "scripture": "Luke 2:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 703,
+  "hymnalCount": 977,
+  "video": {
+    "youtube": "HusH56d-Omw",
+    "title": "It Came Upon The Midnight Clear | Christmas Lyric Video | Reawaken Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

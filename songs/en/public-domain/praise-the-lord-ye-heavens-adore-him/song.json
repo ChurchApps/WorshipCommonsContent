@@ -1,0 +1,30 @@
+{
+  "id": "Jh-gtBsjyYA",
+  "title": "Praise the Lord! Ye Heavens, Adore Him",
+  "writer": "Foundling Hospital Collection",
+  "writerRef": null,
+  "year": 1796,
+  "language": "English",
+  "themes": "Praise,Creation",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 148:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 267,
+  "hymnalCount": 824,
+  "video": {
+    "youtube": "wxcqtO8fYK0",
+    "title": "Praise the Lord, Ye Heavens Adore Him (Tune: Austria - 3vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

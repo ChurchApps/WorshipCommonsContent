@@ -1,0 +1,27 @@
+{
+  "id": "33ORB7DvbUY",
+  "title": "Tek Kryqi i Jezusit",
+  "writer": "Elizabeth C. Clephane",
+  "writerRef": null,
+  "year": 1868,
+  "language": "Albanian",
+  "themes": "Grace,Comfort",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Galatasve 6:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "w2WwueVCM-Y",
+    "title": "Beneath the Cross of Jesus"
+  },
+  "relationLabel": "Albanian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "94a21VySU3F",
+  "title": "സഭാക്കേകാടിസ്ഥാനം",
+  "writer": "സാമുവേൽ ജെ. സ്‌റ്റോൺ",
+  "writerRef": null,
+  "year": 1866,
+  "language": "Malayalam",
+  "themes": "Trust,Assurance",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 കൊരിന്ത്യർ 3:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "mp8_CK_E5qS",
+    "title": "The Church's One Foundation"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "T0B8i41oasf",
+  "title": "All Hail the Power of Jesus' Name",
+  "writer": "Edward Perronet",
+  "writerRef": "edward-perronet",
+  "year": 1779,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Philippians 2:9-10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1258,
+  "hymnalCount": 3884,
+  "video": {
+    "youtube": "_hmtxrFgrEA",
+    "title": "All Hail the Power of Jesus' Name (Tune: Diadem - 3vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

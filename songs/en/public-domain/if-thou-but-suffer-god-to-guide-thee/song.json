@@ -1,0 +1,27 @@
+{
+  "id": "6Uk704mgwbB",
+  "title": "If Thou But Suffer God to Guide Thee",
+  "writer": "Georg Neumark · tr. Catherine Winkworth",
+  "writerRef": "georg-neumark",
+  "year": 1863,
+  "language": "English",
+  "themes": "Trust,Provision",
+  "key": "Dm",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 55:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 202,
+  "video": {
+    "youtube": "uPQUMvrGfCc",
+    "title": "If Thou But Suffer God to Guide Thee - Hymn 147 - Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite"
+  }
+}

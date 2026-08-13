@@ -1,0 +1,27 @@
+{
+  "id": "zGIzs_t5Bed",
+  "title": "Soldiers of Christ, Arise",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1749,
+  "language": "English",
+  "themes": "Mission,Trust",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Ephesians 6:10-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 198,
+  "hymnalCount": 963,
+  "video": {
+    "youtube": "44GUiMdFApA",
+    "title": "Soldiers of Christ, Arise"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite"
+  }
+}

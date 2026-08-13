@@ -1,0 +1,27 @@
+{
+  "id": "YqbVgJUReZy",
+  "title": "A Charge to Keep I Have",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1762,
+  "language": "English",
+  "themes": "Mission,Confession",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Leviticus 8:35",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 167,
+  "hymnalCount": 1477,
+  "video": {
+    "youtube": "_nQPlvT9U5c",
+    "title": "Troy Ramey - A Charge to Keep I Have"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "o7bSMF6LshM",
+  "title": "Behold, A Host, Arrayed in White",
+  "writer": "Hans Adolf Brorson · tr. composite",
+  "writerRef": "hans-adolf-brorson",
+  "year": 1760,
+  "language": "English",
+  "themes": "Anticipation,Art and Music,Blood",
+  "key": "Eb",
+  "bpm": 120,
+  "timeSignature": "6/4",
+  "scripture": "Rev 7:9-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 26,
+  "video": {
+    "youtube": "O3bq2MiCRZw",
+    "title": "Behold a Host, Arrayed in White - LSB 676 (Te Deum Conference - 2015 NE)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

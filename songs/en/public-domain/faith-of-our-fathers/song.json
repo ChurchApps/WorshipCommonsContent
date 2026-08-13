@@ -1,0 +1,30 @@
+{
+  "id": "MUIfLlOxrqc",
+  "title": "Faith of Our Fathers",
+  "writer": "Frederick Faber & Henri Hemy",
+  "writerRef": null,
+  "year": 1849,
+  "language": "English",
+  "themes": "Trust,Mission",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "3/4",
+  "scripture": "Hebrews 11:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 960,
+  "video": {
+    "youtube": "Ay9EcTD2gzs",
+    "title": "Faith of Our Fathers (with lyrics) - The most Beautiful Hymn!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

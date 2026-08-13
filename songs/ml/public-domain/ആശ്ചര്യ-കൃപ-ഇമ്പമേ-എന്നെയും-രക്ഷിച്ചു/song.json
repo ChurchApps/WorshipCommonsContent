@@ -1,0 +1,27 @@
+{
+  "id": "jsbB9ruY25N",
+  "title": "ആശ്ചര്യ കൃപ ഇമ്പമേ എന്നെയും രക്ഷിച്ചു",
+  "writer": "ജോണ്‍ ന്യൂട്ടണ്‍",
+  "writerRef": null,
+  "year": 1779,
+  "language": "Malayalam",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "യോഹന്നാന്‍ 9:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "YxPfAFYWOaG",
+    "title": "Amazing Grace"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

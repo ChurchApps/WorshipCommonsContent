@@ -1,0 +1,27 @@
+{
+  "id": "kQbeB0gQd7e",
+  "title": "O, Welch ein Heilig Werk",
+  "writer": "Charles Wesley · tr. Herbert von Berge",
+  "writerRef": null,
+  "year": 1762,
+  "language": "German",
+  "themes": "Mission,Confession",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Mose 8:35",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "YqbVgJUReZy",
+    "title": "A Charge to Keep I Have"
+  },
+  "relationLabel": "German translation · tr. Herbert von Berge",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

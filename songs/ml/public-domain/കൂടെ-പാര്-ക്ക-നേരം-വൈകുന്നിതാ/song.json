@@ -1,0 +1,27 @@
+{
+  "id": "HlphIpasytk",
+  "title": "കൂടെ പാര്‍ക്ക നേരം വൈകുന്നിതാ",
+  "writer": "ഹെന്‍ട്രി എഫ്. ലൈറ്റ് · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1847,
+  "language": "Malayalam",
+  "themes": "Comfort,Trust",
+  "key": "Eb",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "ലൂക്കൊസ് 24:29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "Ft0nnpxQbbt",
+    "title": "Abide with Me"
+  },
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

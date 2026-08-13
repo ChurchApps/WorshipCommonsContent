@@ -1,0 +1,29 @@
+{
+  "id": "IpknxR1HpFt",
+  "title": "Oh, Blest the House",
+  "writer": "Christoph Karl Ludwig von Pfeil · tr. Catherine Winkworth",
+  "writerRef": null,
+  "year": 1735,
+  "language": "English",
+  "themes": "Activity,Children,Christian Home/Family",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Josh 24:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 35,
+  "video": {
+    "youtube": "0uZ_hbUZLV8",
+    "title": "Oh, Blest the House, Whate'er Befall"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

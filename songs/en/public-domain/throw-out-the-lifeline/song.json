@@ -1,0 +1,27 @@
+{
+  "id": "ZXaGnFPWeMN",
+  "title": "Throw Out the Lifeline",
+  "writer": "Edward Ufford",
+  "writerRef": null,
+  "year": 1888,
+  "language": "English",
+  "themes": "Mission,Grace",
+  "key": "C",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luke 19:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 198,
+  "hymnalCount": 438,
+  "video": {
+    "youtube": "PjXr9tQT6bU",
+    "title": "Throw Out The Lifeline"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

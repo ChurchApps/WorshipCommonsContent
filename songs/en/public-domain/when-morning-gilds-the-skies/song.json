@@ -1,0 +1,28 @@
+{
+  "id": "y8oQf2I_aSV",
+  "title": "When Morning Gilds the Skies",
+  "writer": "German hymn · tr. Edward Caswall",
+  "writerRef": null,
+  "year": 1854,
+  "language": "English",
+  "themes": "Praise",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 5:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 428,
+  "hymnalCount": 21,
+  "video": {
+    "youtube": "pCsC0CUH34I",
+    "title": "When Morning Gilds the Skies (Tune: Laudes Domini - 5vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

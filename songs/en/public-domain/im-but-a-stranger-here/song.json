@@ -1,0 +1,29 @@
+{
+  "id": "5OQUK3saOEb",
+  "title": "I'm But A Stranger Here",
+  "writer": "Thomas Rawson Taylor",
+  "writerRef": "thomas-rawson-taylor",
+  "year": 1836,
+  "language": "English",
+  "themes": "Assurance,Brevity of Life,Church in Heaven",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Heb 11:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 667,
+  "video": {
+    "youtube": "KIv0TdmJ5uU",
+    "title": "Heaven is My Home (I'm But A Stranger Here)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

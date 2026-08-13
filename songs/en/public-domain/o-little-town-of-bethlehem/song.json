@@ -1,0 +1,30 @@
+{
+  "id": "a19OdmA8uPt",
+  "title": "O Little Town of Bethlehem",
+  "writer": "Phillips Brooks & Lewis Redner",
+  "writerRef": null,
+  "year": 1868,
+  "language": "English",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Micah 5:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1093,
+  "hymnalCount": 968,
+  "video": {
+    "youtube": "71ppzuPARXg",
+    "title": "O little town of Bethlehem"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

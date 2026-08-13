@@ -1,0 +1,30 @@
+{
+  "id": "yepIGCo6JCf",
+  "title": "Al Que en Busca de la Luz",
+  "writer": "Erdmann Neumeister · tr. Emma Bevan y Thomas Westrup",
+  "writerRef": null,
+  "year": 1718,
+  "language": "Spanish",
+  "themes": "Grace,Confession",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 15:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 15,
+  "video": {
+    "youtube": "aTo0M2SzXgo",
+    "title": "Coro agua viva \"AL QUE EN BUSCA DE LA LUZ\""
+  },
+  "parent": {
+    "id": "9uB2V6YbG56",
+    "title": "Christ Receiveth Sinful Men"
+  },
+  "relationLabel": "Spanish translation · tr. Emma Bevan y Thomas Westrup",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

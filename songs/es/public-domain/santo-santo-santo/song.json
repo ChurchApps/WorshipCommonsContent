@@ -1,0 +1,31 @@
+{
+  "id": "XRLdGZsRk3s",
+  "title": "Santo, Santo, Santo",
+  "writer": "Reginald Heber · tr. Juan Bautista Cabrera",
+  "writerRef": "reginald-heber",
+  "year": 1871,
+  "language": "Spanish",
+  "themes": "Adoration,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Apocalipsis 4:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 489,
+  "hymnalCount": 48,
+  "video": {
+    "youtube": "X57AnzP5xDw",
+    "title": "HA62 Himno 70 | Santo, Santo, Santo |"
+  },
+  "parent": {
+    "id": "Z8zZ1SBRMoo",
+    "title": "Holy, Holy, Holy"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1871",
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

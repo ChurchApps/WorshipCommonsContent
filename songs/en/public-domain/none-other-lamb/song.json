@@ -1,0 +1,29 @@
+{
+  "id": "Ijk-hPqXcQu",
+  "title": "None Other Lamb",
+  "writer": "Christina Georgina Rossetti",
+  "writerRef": "christina-georgina-rossetti",
+  "year": 1892,
+  "language": "English",
+  "themes": "Assurance,Christian Life,Comfort",
+  "key": "D",
+  "bpm": 110,
+  "timeSignature": "3/2",
+  "scripture": "Jn 1:29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 30,
+  "video": {
+    "youtube": "ldrGGn5Pb54",
+    "title": "None Other Lamb - Hymn Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

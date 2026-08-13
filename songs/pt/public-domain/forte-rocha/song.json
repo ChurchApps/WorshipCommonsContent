@@ -1,0 +1,27 @@
+{
+  "id": "8_7cdDmAMA3",
+  "title": "Forte Rocha",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1529,
+  "language": "Portuguese",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 46:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "hL6IUnDadWy",
+    "title": "Ein feste Burg ist unser Gott"
+  },
+  "relationLabel": "Portuguese translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

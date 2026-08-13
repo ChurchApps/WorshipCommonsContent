@@ -1,0 +1,27 @@
+{
+  "id": "8ed7VIIVYXi",
+  "title": "Бог Сохранит Тебя",
+  "writer": "Сивилия Мартин",
+  "writerRef": null,
+  "year": 1904,
+  "language": "Russian",
+  "themes": "Assurance,Calmness,Comfort",
+  "key": "Bb",
+  "bpm": 90,
+  "timeSignature": "6/8",
+  "scripture": "Псалом 120:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "uj5N6KdGjkI",
+    "title": "God Will Take Care of You"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

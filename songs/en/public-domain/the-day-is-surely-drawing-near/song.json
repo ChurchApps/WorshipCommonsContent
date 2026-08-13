@@ -1,0 +1,29 @@
+{
+  "id": "d0ciPRwDIpl",
+  "title": "The Day is Surely Drawing Near",
+  "writer": "Bartholom�us Ringwaldt · tr. Phillip Adam Peter",
+  "writerRef": null,
+  "year": 1565,
+  "language": "English",
+  "themes": "Anticipation,Assurance,Atonement",
+  "key": "G",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Rev 20:11-15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 35,
+  "video": {
+    "youtube": "xdyx9lVQjIU",
+    "title": "Hymn 508 The Day Is Surely Drawing Near"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

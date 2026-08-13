@@ -1,0 +1,29 @@
+{
+  "id": "CSUcCTR2wYQ",
+  "title": "Now Praise We Christ, the Holy One",
+  "writer": "Coelius Sedulius · tr. Martin Luther & Richard Massie",
+  "writerRef": "coelius-sedulius",
+  "year": 1524,
+  "language": "English",
+  "themes": "Angels,Christmas/Advent,Jesus",
+  "key": "C",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "scripture": "Lk 1:26-31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 13,
+  "video": {
+    "youtube": "IO9bYDniLiw",
+    "title": "2021 12 25 Now Praise We Christ the Holy One"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

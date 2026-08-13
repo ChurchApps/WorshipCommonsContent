@@ -1,0 +1,30 @@
+{
+  "id": "c7diJadswe8",
+  "title": "A Cristo Coronad",
+  "writer": "Matthew Bridges y Godfrey Thring",
+  "writerRef": null,
+  "year": 1851,
+  "language": "Spanish",
+  "themes": "Easter,Adoration",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Apocalipsis 19:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 16,
+  "video": {
+    "youtube": "uGSjQ_v_dp4",
+    "title": "Himno Adventista 156 - A Cristo coronad"
+  },
+  "parent": {
+    "id": "zfrKD0J-OPJ",
+    "title": "Crown Him with Many Crowns"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

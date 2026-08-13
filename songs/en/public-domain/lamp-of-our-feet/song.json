@@ -1,0 +1,29 @@
+{
+  "id": "G9p0ugoqsV_",
+  "title": "Lamp of Our Feet",
+  "writer": "Bernard Barton",
+  "writerRef": "bernard-barton",
+  "year": 1826,
+  "language": "English",
+  "themes": "Bread,Gospel,Gratitude",
+  "key": "G",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "Ps 119:105",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 297,
+  "video": {
+    "youtube": "bVjS2-fPWOA",
+    "title": "Hymn 627, Lamp of our feet"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

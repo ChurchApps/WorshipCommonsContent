@@ -1,0 +1,27 @@
+{
+  "id": "25B7ALR7CXV",
+  "title": "Наш Господь Христос Воскрес!",
+  "writer": "Чарльз Уэсли",
+  "writerRef": null,
+  "year": 1739,
+  "language": "Russian",
+  "themes": "Easter,Praise",
+  "key": "C",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Евангелие от Матфея 28:5–6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "VOCnLtgeaBd",
+    "title": "Christ the Lord Is Risen Today"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

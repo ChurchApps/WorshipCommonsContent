@@ -1,0 +1,28 @@
+{
+  "id": "-SIcNQgyQVd",
+  "title": "Bonus Carol: Good King Wenceslas",
+  "writer": "John Mason Neale",
+  "writerRef": "john-mason-neale",
+  "year": 1853,
+  "language": "English",
+  "themes": "",
+  "key": "A",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Lk 14:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "OvQx7Ieo3tk",
+    "title": "The Goldentones sing Good King Wenceslas - Advent Caroldar day 26"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

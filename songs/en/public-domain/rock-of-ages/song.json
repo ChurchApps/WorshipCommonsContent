@@ -1,0 +1,30 @@
+{
+  "id": "b13IrZfZXWm",
+  "title": "Rock of Ages",
+  "writer": "Augustus Toplady & Thomas Hastings",
+  "writerRef": null,
+  "year": 1776,
+  "language": "English",
+  "themes": "Grace,Trust",
+  "key": "Bb",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Psalm 94:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1156,
+  "hymnalCount": 3250,
+  "video": {
+    "youtube": "gM7gt_cSxjw",
+    "title": "Rock of Ages"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

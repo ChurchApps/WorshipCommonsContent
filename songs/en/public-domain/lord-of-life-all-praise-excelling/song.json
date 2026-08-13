@@ -1,0 +1,26 @@
+{
+  "id": "aZMj0FtCw0J",
+  "title": "Lord of Life, All Praise Excelling",
+  "writer": "Clement Clarke Moore",
+  "writerRef": null,
+  "year": 1808,
+  "language": "English",
+  "themes": "Christian Life,Friendship,Harvest",
+  "key": "F",
+  "bpm": 130,
+  "timeSignature": "3/4",
+  "scripture": "Mt 5:2-12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 24,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

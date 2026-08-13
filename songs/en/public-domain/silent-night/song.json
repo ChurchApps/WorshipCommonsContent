@@ -1,0 +1,30 @@
+{
+  "id": "DdnkGm4QMhD",
+  "title": "Silent Night",
+  "writer": "Joseph Mohr · tr. John F. Young",
+  "writerRef": "joseph-mohr",
+  "year": 1818,
+  "language": "English",
+  "themes": "Christmas,Comfort",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "3/4",
+  "scripture": "Luke 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1764,
+  "hymnalCount": 760,
+  "video": {
+    "youtube": "91aX3qBUm6I",
+    "title": "Silent Night (with lyrics) - The most BEAUTIFUL Christmas carol / hymn!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

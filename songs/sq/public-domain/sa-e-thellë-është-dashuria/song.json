@@ -1,0 +1,27 @@
+{
+  "id": "DpmgFB0Zev0",
+  "title": "Sa e Thellë Është Dashuria",
+  "writer": "Samuel T. Francis · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1875,
+  "language": "Albanian",
+  "themes": "Adoration,Grace",
+  "key": "Dm",
+  "bpm": 76,
+  "timeSignature": "8/4",
+  "scripture": "Efesianëve 3:17-18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "tqc4aKCrQ8k",
+    "title": "O the Deep, Deep Love of Jesus"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

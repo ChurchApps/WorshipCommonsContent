@@ -1,0 +1,29 @@
+{
+  "id": "2e5YgfqN1T-",
+  "title": "Salvation Unto Us Has Come",
+  "writer": "Paul Speratus · tr. composite",
+  "writerRef": "paul-speratus",
+  "year": 1523,
+  "language": "English",
+  "themes": "Assurance,Atonement,Baptism",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Eph 2:1-10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 22,
+  "video": {
+    "youtube": "iSmmXVYl-i8",
+    "title": "Hymn 555 Salvation Unto Us Has Come"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

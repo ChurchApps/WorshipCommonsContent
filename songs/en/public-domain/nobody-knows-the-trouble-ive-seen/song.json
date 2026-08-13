@@ -1,0 +1,27 @@
+{
+  "id": "e-aezNjkYWw",
+  "title": "Nobody Knows the Trouble I've Seen",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1867,
+  "language": "English",
+  "themes": "Lament,Hope",
+  "key": "Eb",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 25:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 35,
+  "video": {
+    "youtube": "SVKKRzemX_w",
+    "title": "Louis Armstrong - Nobody Knows the Trouble I've Seen (1962)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "art": "worshipcommons"
+  }
+}

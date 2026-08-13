@@ -1,0 +1,28 @@
+{
+  "id": "w-xC_81LKUW",
+  "title": "This Is My Father's World",
+  "writer": "Maltbie Babcock",
+  "writerRef": "maltbie-babcock",
+  "year": 1901,
+  "language": "English",
+  "themes": "Creation,Trust",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 24:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 923,
+  "hymnalCount": 398,
+  "video": {
+    "youtube": "-y93uhtTibM",
+    "title": "This is My Father's World (Hymn 31) - Hymnology (Official Video)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

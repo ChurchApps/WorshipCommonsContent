@@ -1,0 +1,29 @@
+{
+  "id": "UbFKPopRV43",
+  "title": "Rejoice, O Pilgrim Throng",
+  "writer": "Edward Hayes Plumptre",
+  "writerRef": "edward-hayes-plumptre",
+  "year": 1865,
+  "language": "English",
+  "themes": "Angels,Anticipation,Art and Music",
+  "key": "F",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "scripture": "Ps 100:1-5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 466,
+  "video": {
+    "youtube": "15JVB76d6f4",
+    "title": "2022 08 07 Rejoice O Pilgrim Throng"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

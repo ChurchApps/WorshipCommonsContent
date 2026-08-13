@@ -1,0 +1,30 @@
+{
+  "id": "c4he_Mpl0wK",
+  "title": "Se Oye un Son en Alta Esfera",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1739,
+  "language": "Spanish",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 2:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 39,
+  "video": {
+    "youtube": "ES7QS_muiuY",
+    "title": "Himno 79 Se oye un canto en alta esfera Nuevo himnario Adventista"
+  },
+  "parent": {
+    "id": "pSpS9dU7qHg",
+    "title": "Hark! The Herald Angels Sing"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

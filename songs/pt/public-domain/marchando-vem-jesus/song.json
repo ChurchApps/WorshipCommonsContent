@@ -1,0 +1,27 @@
+{
+  "id": "orlormneXN3",
+  "title": "Marchando vem Jesus!",
+  "writer": "Julia W. Howe",
+  "writerRef": null,
+  "year": 1861,
+  "language": "Portuguese",
+  "themes": "Justice,Hope",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Apocalipse 22:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "BVe7x5it58a",
+    "title": "Battle Hymn of the Republic"
+  },
+  "relationLabel": "Portuguese original · Julia W. Howe, 1861",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "I3HswxRmMP1",
+  "title": "Bën Ti Ç’të Duash",
+  "writer": "Adelaide A. Pollard · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1907,
+  "language": "Albanian",
+  "themes": "Confession,Trust",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Isaia 64:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "UR1ml-cz5-o",
+    "title": "Have Thine Own Way, Lord"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3u73jovTTKi",
+  "title": "തീര്‍ന്നു പകല്‍ കാലം രാവണയുന്നു",
+  "writer": "സബൈന്‍ ബാറിംഗ് ഗൌള്‍ഡു",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Malayalam",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 91:4–5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "in8pK-BpHRg",
+    "title": "Now the Day Is Over"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

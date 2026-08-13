@@ -1,0 +1,27 @@
+{
+  "id": "HNnL3GMuJd3",
+  "title": "Petite Ville, Bethléem",
+  "writer": "Phillips Brooks",
+  "writerRef": null,
+  "year": 1867,
+  "language": "French",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Michée 5.1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "a19OdmA8uPt",
+    "title": "O Little Town of Bethlehem"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "QiQ0d2OvLGj",
+  "title": "എല്ലാരും യേശു നാമത്തെ",
+  "writer": "എഡ്വേർഡ് പെവോനെ",
+  "writerRef": null,
+  "year": 1779,
+  "language": "Malayalam",
+  "themes": "Adoration,Praise",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "ഫിലിപ്പിയർ 2:9–11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "T0B8i41oasf",
+    "title": "All Hail the Power of Jesus' Name"
+  },
+  "relationLabel": "Malayalam original · എഡ്വേർഡ് പെവോനെ, 1779",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

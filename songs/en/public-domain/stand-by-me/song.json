@@ -1,0 +1,28 @@
+{
+  "id": "ZDxvorJI1JN",
+  "title": "Stand by Me",
+  "writer": "Charles Albert Tindley",
+  "writerRef": "charles-albert-tindley",
+  "year": 1905,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 46:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 81,
+  "video": {
+    "youtube": "hwZNL7QVJjE",
+    "title": "Ben E. King - Stand By Me (Audio)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "WL31A0hxfXT",
+  "title": "Sa Hir Madh’shtor",
+  "writer": "John Newton · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1779,
+  "language": "Albanian",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Gjoni 9:25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "YxPfAFYWOaG",
+    "title": "Amazing Grace"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

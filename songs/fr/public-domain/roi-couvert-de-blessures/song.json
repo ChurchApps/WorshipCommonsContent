@@ -1,0 +1,27 @@
+{
+  "id": "J3Y35m6f_Vh",
+  "title": "Roi Couvert de Blessures",
+  "writer": "Bernard de Clairvaux",
+  "writerRef": null,
+  "year": 1830,
+  "language": "French",
+  "themes": "Easter,Lament",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Matthieu 27.29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "aqNc75nXe-w",
+    "title": "O Sacred Head, Now Wounded"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

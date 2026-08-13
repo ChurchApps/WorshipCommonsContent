@@ -1,0 +1,27 @@
+{
+  "id": "f5e8Iv2VcWx",
+  "title": "നദീ തുല്യം ശാന്തി",
+  "writer": "ഹൊറേഷ്യോ ജി. സ്പാഫോഡ്",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Malayalam",
+  "themes": "Comfort,Assurance",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 146:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_UFqNA48X8n",
+    "title": "It Is Well with My Soul"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

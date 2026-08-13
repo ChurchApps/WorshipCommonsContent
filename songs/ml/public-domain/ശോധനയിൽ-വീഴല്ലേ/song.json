@@ -1,0 +1,27 @@
+{
+  "id": "bVJeQTjMwkp",
+  "title": "ശോധനയിൽ വീഴല്ലേ",
+  "writer": "ഹോരേഷ്യോ ആർ. പാമർ",
+  "writerRef": null,
+  "year": 1868,
+  "language": "Malayalam",
+  "themes": "Trust,Confession",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 26:41",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "KjlJMmUTjvc",
+    "title": "Yield Not to Temptation"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

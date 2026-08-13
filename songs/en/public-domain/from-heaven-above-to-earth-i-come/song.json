@@ -1,0 +1,29 @@
+{
+  "id": "3QZGIUc6NAE",
+  "title": "From Heaven Above To Earth I Come",
+  "writer": "Martin Luther · tr. Catherine Winkworth",
+  "writerRef": "martin-luther",
+  "year": 1535,
+  "language": "English",
+  "themes": "Angels,Assurance,Atonement",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:6-20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 152,
+  "video": {
+    "youtube": "Oq7zuISQ3I4",
+    "title": "From Heaven Above To Earth I Come - Classic Christmas Hymn (Lyric Video)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

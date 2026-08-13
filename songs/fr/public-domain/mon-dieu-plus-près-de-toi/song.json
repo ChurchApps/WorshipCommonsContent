@@ -1,0 +1,27 @@
+{
+  "id": "rWLjZEYBsn7",
+  "title": "Mon Dieu, Plus Près de Toi",
+  "writer": "Sarah F Adams",
+  "writerRef": null,
+  "year": 1833,
+  "language": "French",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Genèse 28.12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ggzFvLEr9mK",
+    "title": "Nearer, My God, to Thee"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

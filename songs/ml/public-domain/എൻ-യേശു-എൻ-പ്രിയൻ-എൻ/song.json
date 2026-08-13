@@ -1,0 +1,27 @@
+{
+  "id": "1POjp60XuU1",
+  "title": "എൻ യേശു എൻ പ്രിയൻ എൻ",
+  "writer": "വില്യം ആര്‍. ഫെതര്‍ സ്റ്റോണ്‍ · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1864,
+  "language": "Malayalam",
+  "themes": "Adoration,Trust",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "യോഹന്നാന്‍ 4:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "RpixcP49jtd",
+    "title": "My Jesus, I Love Thee"
+  },
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

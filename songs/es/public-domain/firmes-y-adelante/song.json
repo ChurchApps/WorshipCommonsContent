@@ -1,0 +1,29 @@
+{
+  "id": "QMuOIxvSy-M",
+  "title": "Firmes y Adelante",
+  "writer": "Sabine Baring-Gould · tr. Juan Bautista Cabrera",
+  "writerRef": null,
+  "year": 1878,
+  "language": "Spanish",
+  "themes": "Mission,Trust",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "2 Timoteo 2:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 243,
+  "hymnalCount": 43,
+  "video": {
+    "youtube": "nUwRscOrbr8",
+    "title": "225 Onward Christian Soldiers (Firmes Y Adelante) | English LLDM Hymn"
+  },
+  "parent": {
+    "id": "K864gyKDZh3",
+    "title": "Onward, Christian Soldiers"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

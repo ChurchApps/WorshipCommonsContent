@@ -1,0 +1,29 @@
+{
+  "id": "CigKhoWNvan",
+  "title": "Blessed Jesus at Thy Word",
+  "writer": "Tobias Clausnitzer · tr. Catherine Winkworth",
+  "writerRef": "tobias-clausnitzer",
+  "year": 1663,
+  "language": "English",
+  "themes": "Church on Earth,Consolation,Education",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Jn 6:67-68",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 152,
+  "video": {
+    "youtube": "dRkXFahdXJU",
+    "title": "060 SDA Hymn - Blessed Jesus, at Thy Word (Singing w/ Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

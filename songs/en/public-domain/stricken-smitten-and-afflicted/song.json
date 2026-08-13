@@ -1,0 +1,29 @@
+{
+  "id": "A06TVqIipak",
+  "title": "Stricken, Smitten, and Afflicted",
+  "writer": "Thomas Kelly",
+  "writerRef": null,
+  "year": 1804,
+  "language": "English",
+  "themes": "Atonement,Christian Life,Contrition",
+  "key": "Bb",
+  "bpm": 180,
+  "timeSignature": "6/4",
+  "scripture": "Is 53:3-6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 97,
+  "video": {
+    "youtube": "x-QFx5RRqFM",
+    "title": "Fernando Ortega, \"Stricken, Smitten And Afflicted\" (Lyric Video)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

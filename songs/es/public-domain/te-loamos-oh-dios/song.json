@@ -1,0 +1,30 @@
+{
+  "id": "OVly3mlM42j",
+  "title": "Te Loamos, ¡Oh Dios!",
+  "writer": "William Mackay",
+  "writerRef": null,
+  "year": 1863,
+  "language": "Spanish",
+  "themes": "Praise,Confession",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Habacuc 3:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 27,
+  "video": {
+    "youtube": "0nUNeczPtek",
+    "title": "Te loamos, oh Dios"
+  },
+  "parent": {
+    "id": "SvEvb5vrQYJ",
+    "title": "Revive Us Again"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

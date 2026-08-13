@@ -1,0 +1,27 @@
+{
+  "id": "jhvOjk768EF",
+  "title": "Örvendj, Világ!",
+  "writer": "Isaac Watts · tr. Anna Piroska Williams",
+  "writerRef": null,
+  "year": 2010,
+  "language": "Hungarian",
+  "themes": "Christmas,Praise",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "Lukács 2:10-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_X94hS2ZTgf",
+    "title": "Joy to the World"
+  },
+  "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 2010",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

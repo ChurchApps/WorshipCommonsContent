@@ -1,0 +1,30 @@
+{
+  "id": "WuLtqveVx1P",
+  "title": "We Gather Together",
+  "writer": "Dutch hymn · tr. Theodore Baker",
+  "writerRef": "dutch-hymn",
+  "year": 1894,
+  "language": "English",
+  "themes": "Provision,Trust",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 118:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 623,
+  "hymnalCount": 266,
+  "video": {
+    "youtube": "CqOXEf-DVkU",
+    "title": "We Gather Together"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

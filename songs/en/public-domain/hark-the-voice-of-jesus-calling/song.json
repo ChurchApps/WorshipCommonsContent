@@ -1,0 +1,29 @@
+{
+  "id": "MkXLH6Nvc3X",
+  "title": "Hark, the Voice of Jesus Calling",
+  "writer": "Daniel March",
+  "writerRef": null,
+  "year": 1868,
+  "language": "English",
+  "themes": "Activity,Charity,Christian Life",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Is 6:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 550,
+  "video": {
+    "youtube": "aZaONaAykrE",
+    "title": "Hark, the Voice of Jesus Calling Adventist Hymn 359🌷🌼"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

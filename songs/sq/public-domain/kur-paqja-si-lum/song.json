@@ -1,0 +1,27 @@
+{
+  "id": "Q9T-ucDdT53",
+  "title": "Kur Paqja, Si Lum",
+  "writer": "Horatio G. Spafford · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Albanian",
+  "themes": "Comfort,Assurance",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Psalmi 146:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_UFqNA48X8n",
+    "title": "It Is Well with My Soul"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "WI-CkLTDa99",
+  "title": "A Ke Marrë Pastrimin",
+  "writer": "Elisha A. Hoffman · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1878,
+  "language": "Albanian",
+  "themes": "Grace,Confession",
+  "key": "A",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "Zbulesa 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "OqDGwwFTMc3",
+    "title": "Are You Washed in the Blood?"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

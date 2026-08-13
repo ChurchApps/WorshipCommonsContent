@@ -1,0 +1,30 @@
+{
+  "id": "iO-FI28KsHq",
+  "title": "Abre Mis Ojos a la Luz",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1895,
+  "language": "Spanish",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 119:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 23,
+  "video": {
+    "youtube": "LaE0nQGGIbo",
+    "title": "HIMNO 357 ABRE MIS OJOS A LA LUZ"
+  },
+  "parent": {
+    "id": "DEsNtozwo9I",
+    "title": "Open My Eyes, That I May See"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

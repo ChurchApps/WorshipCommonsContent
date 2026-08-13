@@ -1,0 +1,29 @@
+{
+  "id": "ha2dCLu39iY",
+  "title": "O Lord My Soul Convicted",
+  "writer": "James Maxwell",
+  "writerRef": null,
+  "year": 1759,
+  "language": "English",
+  "themes": "Atonement,Conscience,Contrition",
+  "key": "C",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Mt 22:34-46",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "KFGJYX693RI",
+    "title": "O Lord, My Soul Convicted Stands (Baca)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

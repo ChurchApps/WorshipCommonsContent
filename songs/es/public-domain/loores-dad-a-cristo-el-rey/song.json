@@ -1,0 +1,30 @@
+{
+  "id": "Krma0GetjRo",
+  "title": "Loores Dad a Cristo el Rey",
+  "writer": "Edward Perronet · tr. Thomas Westrup",
+  "writerRef": null,
+  "year": 1779,
+  "language": "Spanish",
+  "themes": "Adoration,Praise",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Apocalipsis 19:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 25,
+  "video": {
+    "youtube": "Ge4gu-3EMA4",
+    "title": "Loores Dad a Cristo el Rey / himno con letra / piano / All Hail the Power of Jesus' Name"
+  },
+  "parent": {
+    "id": "T0B8i41oasf",
+    "title": "All Hail the Power of Jesus' Name"
+  },
+  "relationLabel": "Spanish translation · tr. Thomas Westrup",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

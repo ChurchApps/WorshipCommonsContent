@@ -1,0 +1,28 @@
+{
+  "id": "ouS_znOIuUm",
+  "title": "O Holy Night",
+  "writer": "Adolphe Adam · tr. John S. Dwight",
+  "writerRef": null,
+  "year": 1847,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "C",
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1339,
+  "hymnalCount": 72,
+  "video": {
+    "youtube": "SqIjlIjt-nI",
+    "title": "O Holy Night | Beautiful Christmas Carol | All Verses | Solo & Piano w/ Lyrics  | Sat. 5pm Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "VwHZE6K7SDK",
+  "title": "Come Down, O Love Divine",
+  "writer": "Bianco of Siena · tr. Richard Frederick Littledale",
+  "writerRef": null,
+  "year": 1434,
+  "language": "English",
+  "themes": "Aspiration,Charity,Contrition",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Acts 2:2-3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 125,
+  "video": {
+    "youtube": "wMFIj8jysOQ",
+    "title": "Come Down, O Love Divine"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

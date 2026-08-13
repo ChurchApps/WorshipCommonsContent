@@ -1,0 +1,27 @@
+{
+  "id": "pwKrjfk5zGl",
+  "title": "Debout, Sainte Cohorte",
+  "writer": "George Duffield, Jr. · tr. Ruben Saillens",
+  "writerRef": null,
+  "year": 1858,
+  "language": "French",
+  "themes": "Mission,Trust",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Éphésiens 6.12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "k3nQG0DqnD8",
+    "title": "Stand Up, Stand Up for Jesus"
+  },
+  "relationLabel": "French translation · tr. Ruben Saillens",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

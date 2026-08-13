@@ -1,0 +1,27 @@
+{
+  "id": "vdKKjcNJKBZ",
+  "title": "ദൈവത്തിന്‍ പുത്രനാം ക്രിസ്തേശുവേ",
+  "writer": "മേരി എ. ലത്ബറി · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1877,
+  "language": "Malayalam",
+  "themes": "Communion,Provision",
+  "key": "D",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "യോഹന്നാന്‍ 6:35",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "uGl0K262Hhd",
+    "title": "Break Thou the Bread of Life"
+  },
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

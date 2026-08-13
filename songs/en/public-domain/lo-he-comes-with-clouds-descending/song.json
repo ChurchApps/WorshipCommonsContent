@@ -1,0 +1,30 @@
+{
+  "id": "wG5JYb_J9-R",
+  "title": "Lo! He Comes with Clouds Descending",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1758,
+  "language": "English",
+  "themes": "Advent,Hope",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 1:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 823,
+  "video": {
+    "youtube": "w98-VuKi-4Q",
+    "title": "Lo! He comes with clouds descending | The Choir of Trinity College Cambridge"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

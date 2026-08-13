@@ -1,0 +1,28 @@
+{
+  "id": "5_NL8Xr-icD",
+  "title": "Here, O My Lord, I See Thee Face to Face",
+  "writer": "Horatius Bonar",
+  "writerRef": "horatius-bonar",
+  "year": 1855,
+  "language": "English",
+  "themes": "Communion,Grace",
+  "key": "Eb",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 11:24",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 267,
+  "hymnalCount": 355,
+  "video": {
+    "youtube": "js8sKAcRb3U",
+    "title": "Here, O My Lord, I See Thee Face To Face - Hymn 231 - Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

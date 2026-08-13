@@ -1,0 +1,30 @@
+{
+  "id": "JbvXFQ9SKPH",
+  "title": "Cristo, Eres Justo Rey",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Spanish",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Cantares de Salomón 6:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 3,
+  "video": {
+    "youtube": "e0EA66zKmes",
+    "title": "HA62 | Himno 155 | Cristo, eres justo Rey"
+  },
+  "parent": {
+    "id": "efSPV6ob7E5",
+    "title": "Fairest Lord Jesus"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

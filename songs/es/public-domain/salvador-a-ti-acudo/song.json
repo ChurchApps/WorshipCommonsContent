@@ -1,0 +1,30 @@
+{
+  "id": "SKgQ100k1FE",
+  "title": "Salvador, a Ti Acudo",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1868,
+  "language": "Spanish",
+  "themes": "Confession,Grace",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Juan 6:37",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 5,
+  "video": {
+    "youtube": "dS7yeAtwPsU",
+    "title": "Himno#186 [himnario IBG] - Salvador a ti acudo"
+  },
+  "parent": {
+    "id": "2zMeQ2kdb2n",
+    "title": "Pass Me Not, O Gentle Savior"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

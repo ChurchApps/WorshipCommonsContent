@@ -1,0 +1,28 @@
+{
+  "id": "DEsNtozwo9I",
+  "title": "Open My Eyes, That I May See",
+  "writer": "Clara Scott",
+  "writerRef": null,
+  "year": 1895,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 119:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 2,
+  "video": {
+    "youtube": "GDceaG7kFQA",
+    "title": "Open My Eyes That I May See ~ Joslin Grove Choral Society ~ lyric video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

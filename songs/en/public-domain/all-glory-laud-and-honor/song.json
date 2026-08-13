@@ -1,0 +1,30 @@
+{
+  "id": "MTtlp6FEXfq",
+  "title": "All Glory, Laud, and Honor",
+  "writer": "Theodulf of Orléans · tr. John Mason Neale",
+  "writerRef": null,
+  "year": 1851,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 21:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 587,
+  "hymnalCount": 651,
+  "video": {
+    "youtube": "mVzIr_jDkj0",
+    "title": "All Glory, Laud, And Honor"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

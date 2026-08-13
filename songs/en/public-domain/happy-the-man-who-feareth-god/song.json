@@ -1,0 +1,29 @@
+{
+  "id": "4q9f3AkM-bP",
+  "title": "Happy the Man Who Feareth God",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Adam,Children,Christian Home/Family",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 146:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 4,
+  "video": {
+    "youtube": "6w-7ADyB-d0",
+    "title": "Happy the Man Who Feareth God (Psalm 128)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

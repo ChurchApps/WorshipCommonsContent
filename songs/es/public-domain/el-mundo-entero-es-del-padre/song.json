@@ -1,0 +1,30 @@
+{
+  "id": "18IRbBtlYMv",
+  "title": "El Mundo Entero Es del Padre",
+  "writer": "Maltbie Babcock",
+  "writerRef": "maltbie-babcock",
+  "year": 1901,
+  "language": "Spanish",
+  "themes": "Creation,Trust",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Juan 1:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 7,
+  "video": {
+    "youtube": "RwoMAk975mk",
+    "title": "\"El Mundo Entero Es del Padre\" [Iglesia de Madrid] - 주의 음성은 내가 들으니"
+  },
+  "parent": {
+    "id": "w-xC_81LKUW",
+    "title": "This Is My Father's World"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

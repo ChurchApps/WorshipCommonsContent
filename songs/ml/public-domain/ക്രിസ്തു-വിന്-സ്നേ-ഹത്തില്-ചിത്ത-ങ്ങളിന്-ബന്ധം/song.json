@@ -1,0 +1,27 @@
+{
+  "id": "O997CKGbCpI",
+  "title": "ക്രിസ്തു-വിന്‍ സ്നേ-ഹത്തില്‍ ചിത്ത-ങ്ങളിന്‍ ബന്ധം",
+  "writer": "ജോണ്‍ ഫോസെറ്റ്",
+  "writerRef": null,
+  "year": 1782,
+  "language": "Malayalam",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "ഹോശേയ 11:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "PcwqBQ0pxuT",
+    "title": "Blest Be the Tie That Binds"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

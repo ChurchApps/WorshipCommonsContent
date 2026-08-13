@@ -1,0 +1,27 @@
+{
+  "id": "AXhezLOyhWl",
+  "title": "Но Я Знаю, В Кого Я Верю",
+  "writer": "Даниил Уайтл",
+  "writerRef": null,
+  "year": 1883,
+  "language": "Russian",
+  "themes": "Assurance,Calmness,Discipleship",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "2 Тим. 1: 12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "GRM0Acnno6X",
+    "title": "I Know Whom I Have Believed"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

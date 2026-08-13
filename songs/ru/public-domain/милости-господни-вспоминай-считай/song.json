@@ -1,0 +1,27 @@
+{
+  "id": "C78vEaAifO4",
+  "title": "Милости Господни Вспоминай, Считай",
+  "writer": "Джонсон Отмон мл",
+  "writerRef": null,
+  "year": 1897,
+  "language": "Russian",
+  "themes": "Provision,Praise",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Псалом 39:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "FMffPYxulvd",
+    "title": "Count Your Blessings"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

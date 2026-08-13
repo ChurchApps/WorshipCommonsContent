@@ -1,0 +1,27 @@
+{
+  "id": "bz3YL_-o8Ur",
+  "title": "Wer Nur den Lieben Gott Lässt Walten",
+  "writer": "Georg Neumark",
+  "writerRef": null,
+  "year": 1641,
+  "language": "German",
+  "themes": "Trust,Provision",
+  "key": "Dm",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 48,15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "6Uk704mgwbB",
+    "title": "If Thou But Suffer God to Guide Thee"
+  },
+  "relationLabel": "German original · Georg Neumark, 1641",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

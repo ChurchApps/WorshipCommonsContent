@@ -1,0 +1,27 @@
+{
+  "id": "frZdIG_IUUS",
+  "title": "J’ai l’Assurance de Mon Salut",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1873,
+  "language": "French",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Hébreux 10,22–23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

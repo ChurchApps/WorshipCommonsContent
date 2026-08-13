@@ -1,0 +1,27 @@
+{
+  "id": "SqZrmU0DTgP",
+  "title": "ആരാധിക്ക നാം",
+  "writer": "റോബര്‍ട്ട് ഗ്രാന്റ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Praise,Creation",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 104:1-2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "5CIUkAe-PHb",
+    "title": "O Worship the King"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

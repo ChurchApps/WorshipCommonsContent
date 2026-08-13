@@ -1,0 +1,24 @@
+{
+  "id": "pkgN0RnAmC-",
+  "title": "So Lange Jesus Bleibt der Herr",
+  "writer": "Nikolaus L. von Zinzendorf",
+  "writerRef": null,
+  "year": 1742,
+  "language": "German",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Daniel 6:26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

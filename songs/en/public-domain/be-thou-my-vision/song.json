@@ -1,0 +1,29 @@
+{
+  "id": "HLUq1nNdYTI",
+  "title": "Be Thou My Vision",
+  "writer": "Irish, 8th c. · tr. Byrne",
+  "writerRef": null,
+  "year": 1905,
+  "language": "English",
+  "themes": "Trust,Adoration",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 16:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 205,
+  "video": {
+    "youtube": "ihJAJA4ibEs",
+    "title": "BE THOU MY VISION -- My Favorite Irish Hymn! :)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

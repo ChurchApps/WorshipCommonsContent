@@ -1,0 +1,29 @@
+{
+  "id": "neEhZFfLKxU",
+  "title": "Cuán Firme Cimiento",
+  "writer": "John Rippon's Selection · tr. Vicente Mendoza",
+  "writerRef": null,
+  "year": 1908,
+  "language": "Spanish",
+  "themes": "Assurance,Trust",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "2/2",
+  "scripture": "Isaías 41:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 254,
+  "hymnalCount": 30,
+  "video": {
+    "youtube": "u2n7EgliQV4",
+    "title": "371 - Cuán firme cimiento (Pista/Letra Himnario Bautista)"
+  },
+  "parent": {
+    "id": "WE26JDTfHyQ",
+    "title": "How Firm a Foundation"
+  },
+  "relationLabel": "Spanish translation · tr. Vicente Mendoza",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

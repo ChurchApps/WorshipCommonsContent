@@ -1,0 +1,28 @@
+{
+  "id": "2_wl1TRlmko",
+  "title": "Wonderful Words of Life",
+  "writer": "Philip Bliss",
+  "writerRef": "philip-bliss",
+  "year": 1874,
+  "language": "English",
+  "themes": "Provision,Praise",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "John 6:68",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 456,
+  "hymnalCount": 690,
+  "video": {
+    "youtube": "U7x3OX6v5_o",
+    "title": "Wonderful words of life"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

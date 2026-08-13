@@ -1,0 +1,28 @@
+{
+  "id": "gSd82ZwDi0f",
+  "title": "My Song Shall Be Of Jesus",
+  "writer": "Fanny Jane Crosby & Edith Margaret Clarkson",
+  "writerRef": null,
+  "year": 1875,
+  "language": "English",
+  "themes": "Art and Music,Blood,Courage in Affliction",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Ps 34:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 36,
+  "video": {
+    "youtube": "tgh8yVcLdgM",
+    "title": "244 SDA Hymn -  My Song Shall Be Of Jesus (Singing w/ Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pbJKDVx4h1h",
+  "title": "Ride On, Ride On in Majesty",
+  "writer": "Henry Milman",
+  "writerRef": null,
+  "year": 1827,
+  "language": "English",
+  "themes": "Easter,Adoration",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Zechariah 9:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 543,
+  "video": {
+    "youtube": "uHeIX8xTpYs",
+    "title": "Ride on ride on in majesty (Hymn with lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3nQnoCAgv79",
+  "title": "Gjith’ Ju Që Besoni",
+  "writer": "John F. Wade · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1743,
+  "language": "Albanian",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Lluka 2:15-16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "e0RA7WIC3mU",
+    "title": "O Come, All Ye Faithful"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

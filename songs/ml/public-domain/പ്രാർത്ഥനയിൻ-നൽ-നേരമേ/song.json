@@ -1,0 +1,27 @@
+{
+  "id": "eBJ7fEyBGQk",
+  "title": "പ്രാർത്ഥനയിൻ നൽ നേരമേ",
+  "writer": "വില്ല്യം വാൽഫോർഡ്",
+  "writerRef": null,
+  "year": 1845,
+  "language": "Malayalam",
+  "themes": "Trust,Comfort",
+  "key": "D",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1. തെസ്സലോനിക്യർ 5:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "MYPLBUJ6zEO",
+    "title": "Sweet Hour of Prayer"
+  },
+  "relationLabel": "Malayalam original · വില്ല്യം വാൽഫോർഡ്, 1845",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

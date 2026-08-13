@@ -1,0 +1,27 @@
+{
+  "id": "4sYN0rY-0hx",
+  "title": "Sweeter as the Years Go By",
+  "writer": "Lelia Morris",
+  "writerRef": null,
+  "year": 1912,
+  "language": "English",
+  "themes": "Praise,Comfort",
+  "key": "Eb",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 34:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 198,
+  "hymnalCount": 146,
+  "video": {
+    "youtube": "3smhZRYV_FU",
+    "title": "SBBC Choir - Sweeter as the Years Go by"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "fmyzdjIOJWK",
+  "title": "Angels from the Realms of Glory",
+  "writer": "James Montgomery & Henry Smart",
+  "writerRef": null,
+  "year": 1816,
+  "language": "English",
+  "themes": "Christmas,Praise",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 498,
+  "hymnalCount": 839,
+  "video": {
+    "youtube": "7iF80qpbIGo",
+    "title": "Angels from the Realms of Glory UMH 220; FUMC Houston, 12/31/2023"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

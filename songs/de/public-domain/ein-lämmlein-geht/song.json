@@ -1,0 +1,27 @@
+{
+  "id": "T0Djz8a-nik",
+  "title": "Ein Lämmlein Geht",
+  "writer": "Paul Gerhardt",
+  "writerRef": "paul-gerhardt",
+  "year": 1648,
+  "language": "German",
+  "themes": "Anticipation,Aspiration,Assurance",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Jesaja 53,7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "dNcYuBfjM8q",
+    "title": "A Lamb Goes Uncomplaining Forth"
+  },
+  "relationLabel": "German original · Paul Gerhardt, 1648",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

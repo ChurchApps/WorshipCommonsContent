@@ -1,0 +1,28 @@
+{
+  "id": "RjRsvsCBUiM",
+  "title": "Once in Royal David's City",
+  "writer": "Cecil Frances Alexander & Henry Gauntlett",
+  "writerRef": null,
+  "year": 1848,
+  "language": "English",
+  "themes": "Christmas",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:4-7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 449,
+  "video": {
+    "youtube": "PtiCLJvyePw",
+    "title": "Once in Royal David's City / Carols from King's 2013"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

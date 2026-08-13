@@ -1,0 +1,27 @@
+{
+  "id": "555ORNE24k9",
+  "title": "Встретимся Ли Мы С Тобою",
+  "writer": "Роберт Лоури",
+  "writerRef": null,
+  "year": 1864,
+  "language": "Russian",
+  "themes": "Hope,Comfort",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Откровения 22:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_9Rr3_G8q33",
+    "title": "Shall We Gather at the River"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

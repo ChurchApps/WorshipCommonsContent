@@ -1,0 +1,29 @@
+{
+  "id": "7W77_HimRjo",
+  "title": "A Solas al Huerto",
+  "writer": "C. Austin Miles · tr. Vicente Mendoza",
+  "writerRef": null,
+  "year": 1917,
+  "language": "Spanish",
+  "themes": "Comfort",
+  "key": "A",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Juan 20:15-16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 187,
+  "hymnalCount": 23,
+  "video": {
+    "youtube": "SKUo7V5ztSk",
+    "title": "A solas Al huerto Cantado Rut Ramirez"
+  },
+  "parent": {
+    "id": "1RHhMFd3Dew",
+    "title": "In the Garden"
+  },
+  "relationLabel": "Spanish translation · tr. Vicente Mendoza, 1917",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

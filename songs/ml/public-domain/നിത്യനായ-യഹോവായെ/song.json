@@ -1,0 +1,27 @@
+{
+  "id": "AUx2VUx7q6O",
+  "title": "നിത്യനായ യഹോവായെ",
+  "writer": "വില്ല്യം വില്യംസ്",
+  "writerRef": null,
+  "year": 1745,
+  "language": "Malayalam",
+  "themes": "Provision,Trust",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "പുറപ്പാടു:13:21",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "QnYa8cJdeLc",
+    "title": "Guide Me, O Thou Great Jehovah"
+  },
+  "relationLabel": "Malayalam original · വില്ല്യം വില്യംസ്, 1745",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

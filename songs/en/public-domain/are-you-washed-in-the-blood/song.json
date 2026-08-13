@@ -1,0 +1,28 @@
+{
+  "id": "OqDGwwFTMc3",
+  "title": "Are You Washed in the Blood?",
+  "writer": "Elisha Hoffman",
+  "writerRef": "elisha-hoffman",
+  "year": 1878,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "A",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 456,
+  "hymnalCount": 546,
+  "video": {
+    "youtube": "bJWgpljckbA",
+    "title": "Alan Jackson - Are You Washed In The Blood? / I'll Fly Away (Medley/Live)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

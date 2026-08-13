@@ -1,0 +1,29 @@
+{
+  "id": "jBeRotDkxf5",
+  "title": "Cariñoso Salvador",
+  "writer": "Charles Wesley · tr. Vicente Mendoza",
+  "writerRef": null,
+  "year": 1904,
+  "language": "Spanish",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 61:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 198,
+  "hymnalCount": 49,
+  "video": {
+    "youtube": "97PRX1R_r6U",
+    "title": "HA62 | Himno 420 | Cariñoso Salvador"
+  },
+  "parent": {
+    "id": "PBT2FmuhgUL",
+    "title": "Jesus, Lover of My Soul"
+  },
+  "relationLabel": "Spanish translation · tr. Vicente Mendoza",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

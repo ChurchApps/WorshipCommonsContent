@@ -1,0 +1,29 @@
+{
+  "id": "XT3oBMocqje",
+  "title": "Come, Your Heart and Voices Raising",
+  "writer": "Paul Gerhardt · tr. composite",
+  "writerRef": "paul-gerhardt",
+  "year": 1667,
+  "language": "English",
+  "themes": "Atonement,Christian Life,Christmas/Advent",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Lk 2:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 8,
+  "video": {
+    "youtube": "r2pr86ey7gU",
+    "title": "Come, Your Hearts and Voices Raising (John A. Behnke)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

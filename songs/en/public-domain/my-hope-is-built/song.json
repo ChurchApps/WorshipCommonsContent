@@ -1,0 +1,28 @@
+{
+  "id": "wy7meh0qqDc",
+  "title": "My Hope Is Built",
+  "writer": "Edward Mote",
+  "writerRef": null,
+  "year": 1834,
+  "language": "English",
+  "themes": "Assurance,Atonement,Blood",
+  "key": "C",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "1Pt 2:5-8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1253,
+  "video": {
+    "youtube": "rkMapZB8qMk",
+    "title": "My Hope Is Built on Nothing Less"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

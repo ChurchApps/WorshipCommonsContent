@@ -1,0 +1,27 @@
+{
+  "id": "PtW0VFNVbrv",
+  "title": "Что Вину Мне Может Смыть?",
+  "writer": "Роберт Лоури · tr. Иван С. Проханов",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Russian",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Послание Евреям 9:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "3A7uOIvq4zf",
+    "title": "Nothing but the Blood"
+  },
+  "relationLabel": "Russian translation · tr. Иван С. Проханов",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rCCKfPAwiU_",
+  "title": "Lord Of Our Life",
+  "writer": "Matth�us Apelles von L�wenstern · tr. Philip Pusey",
+  "writerRef": null,
+  "year": 1644,
+  "language": "English",
+  "themes": "Christian Life,Church on Earth,Courage in Affliction",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Ps 27:1-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 229,
+  "video": {
+    "youtube": "JqdiJikX55k",
+    "title": "Score Video: LSB 659 Lord of Our Life | Lutheran Hymn Sing"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

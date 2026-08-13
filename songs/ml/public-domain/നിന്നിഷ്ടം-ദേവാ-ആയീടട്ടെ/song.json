@@ -1,0 +1,27 @@
+{
+  "id": "uByObAEl24a",
+  "title": "നിന്നിഷ്ടം ദേവാ ആയീടട്ടെ",
+  "writer": "എഡിലെയ്ഡ് എ. പൊള്ളാർഡ് · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1907,
+  "language": "Malayalam",
+  "themes": "Confession,Trust",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "യെശയ്യാവു 64:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "UR1ml-cz5-o",
+    "title": "Have Thine Own Way, Lord"
+  },
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "UzMRT60t6nj",
+  "title": "Jesus, the Very Thought of Thee",
+  "writer": "Bernard of Clairvaux · tr. Edward Caswall",
+  "writerRef": "bernard-of-clairvaux",
+  "year": 1849,
+  "language": "English",
+  "themes": "Adoration,Comfort",
+  "key": "G",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 104:34",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 434,
+  "hymnalCount": 1121,
+  "video": {
+    "youtube": "62J434N0w1c",
+    "title": "Jesus, the Very Thought of Thee"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

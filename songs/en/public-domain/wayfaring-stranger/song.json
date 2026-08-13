@@ -1,0 +1,27 @@
+{
+  "id": "_wVYrsYRNrH",
+  "title": "Wayfaring Stranger",
+  "writer": "Traditional American folk hymn",
+  "writerRef": null,
+  "year": 1858,
+  "language": "English",
+  "themes": "Hope,Lament",
+  "key": "Am",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 11:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 645,
+  "hymnalCount": 77,
+  "video": {
+    "youtube": "50-KD6dyDJw",
+    "title": "Wayfaring Stranger (With Lyrics) - feat. Heidi Loves Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "PVhYMTDUSYB",
+  "title": "Твёрдо я Верю",
+  "writer": "Фанни Кросби",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Russian",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Послание к Евреям 10:21–22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

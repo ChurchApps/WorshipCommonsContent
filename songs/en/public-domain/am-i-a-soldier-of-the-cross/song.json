@@ -1,0 +1,27 @@
+{
+  "id": "gLg5BJT2FtA",
+  "title": "Am I a Soldier of the Cross",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1724,
+  "language": "English",
+  "themes": "Mission,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 16:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 212,
+  "hymnalCount": 2194,
+  "video": {
+    "youtube": "KU5ct0iY-Ds",
+    "title": "Am I A Soldier Of The Cross (Hymn 421)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite"
+  }
+}

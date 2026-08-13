@@ -1,0 +1,30 @@
+{
+  "id": "mgz1WozT50l",
+  "title": "¡Oh Cuan Dulce Es Fiar en Cristo!",
+  "writer": "Louisa Stead",
+  "writerRef": null,
+  "year": 1882,
+  "language": "Spanish",
+  "themes": "Trust,Assurance",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Salmo 22:4-5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 27,
+  "video": {
+    "youtube": "3GPRca3W9To",
+    "title": "Oh cuan dulce es fiar en Cristo - Cuarteto OLAM"
+  },
+  "parent": {
+    "id": "Wolo-8OkGaW",
+    "title": "'Tis So Sweet to Trust in Jesus"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

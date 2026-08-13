@@ -1,0 +1,27 @@
+{
+  "id": "9fgXDgVgTVH",
+  "title": "Çdo Gjë T’vogël Dhe Të Madhe",
+  "writer": "Cecil F. Alexander · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1848,
+  "language": "Albanian",
+  "themes": "Creation,Praise",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Zanafilla 1:31",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "4LdUJ6NJqdP",
+    "title": "All Things Bright and Beautiful"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

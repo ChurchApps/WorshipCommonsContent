@@ -1,0 +1,29 @@
+{
+  "id": "efSPV6ob7E5",
+  "title": "Fairest Lord Jesus",
+  "writer": "German hymn · tr. anonymous",
+  "writerRef": null,
+  "year": 1873,
+  "language": "English",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 45:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 765,
+  "hymnalCount": 672,
+  "video": {
+    "youtube": "VCxdMl1AjLI",
+    "title": "Fairest Lord Jesus • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

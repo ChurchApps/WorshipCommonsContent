@@ -1,0 +1,29 @@
+{
+  "id": "DJiXNvQVFPH",
+  "title": "Away in a Manger",
+  "writer": "Anonymous & James R. Murray",
+  "writerRef": null,
+  "year": 1885,
+  "language": "English",
+  "themes": "Christmas,Comfort",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Luke 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1178,
+  "hymnalCount": 647,
+  "video": {
+    "youtube": "3dxzdsfJp2s",
+    "title": "Away In A Manger (with lyrics) - The most BEAUTIFUL Christmas carol / hymn!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "LGHmqUi6pBw",
+  "title": "Tell Me the Old, Old Story",
+  "writer": "Katherine Hankey & William Doane",
+  "writerRef": null,
+  "year": 1866,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 15:3-4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 577,
+  "video": {
+    "youtube": "XqSIMQaeAds",
+    "title": "Tell Me the Old, Old Story"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "DmZMgNX0L6p",
+  "title": "What a Friend We Have in Jesus",
+  "writer": "Joseph Scriven & Charles Converse",
+  "writerRef": "joseph-scriven-charles-converse",
+  "year": 1855,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Philippians 4:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1467,
+  "hymnalCount": 1987,
+  "video": {
+    "youtube": "TAyaXdvvbGU",
+    "title": "What A Friend We Have In Jesus | Lyric Video | Lydia Walker | Acoustic Hymns with Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

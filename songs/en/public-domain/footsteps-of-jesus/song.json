@@ -1,0 +1,27 @@
+{
+  "id": "SXQvx3NeAmX",
+  "title": "Footsteps of Jesus",
+  "writer": "Mary Slade & Asa Everett",
+  "writerRef": null,
+  "year": 1871,
+  "language": "English",
+  "themes": "Trust,Mission",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "1 Peter 2:21",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 300,
+  "video": {
+    "youtube": "M1y96xHIXIk",
+    "title": "Footsteps Of Jesus • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

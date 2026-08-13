@@ -1,0 +1,28 @@
+{
+  "id": "M51Wf2H0Rnl",
+  "title": "God Rest You Merry, Gentlemen",
+  "writer": "Traditional English carol",
+  "writerRef": null,
+  "year": 1760,
+  "language": "English",
+  "themes": "Christmas,Hope",
+  "key": "Em",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:10-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 651,
+  "hymnalCount": 145,
+  "video": {
+    "youtube": "o0grjzmVKBM",
+    "title": "God Rest You Merry Gentlemen | Christmas Lyric Video | Reawaken Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

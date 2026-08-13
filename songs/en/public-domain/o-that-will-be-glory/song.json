@@ -1,0 +1,28 @@
+{
+  "id": "MQniwI8BXq3",
+  "title": "O That Will Be Glory",
+  "writer": "Charles Gabriel",
+  "writerRef": "charles-gabriel",
+  "year": 1900,
+  "language": "English",
+  "themes": "Hope,Praise",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 2:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 338,
+  "video": {
+    "youtube": "41Yl1KzSNdA",
+    "title": "O That Will Be Glory"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

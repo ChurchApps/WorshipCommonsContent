@@ -1,0 +1,30 @@
+{
+  "id": "wr30qQ_nHrv",
+  "title": "Señor Jehová, Omnipotente Dios",
+  "writer": "Daniel Roberts",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Spanish",
+  "themes": "Trust,Provision",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Hechos 7:32",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 10,
+  "video": {
+    "youtube": "q4__ykcO4Wk",
+    "title": "Señor Jehová, omnipotente Dios"
+  },
+  "parent": {
+    "id": "McmQPbGN-Y5",
+    "title": "God of Our Fathers"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

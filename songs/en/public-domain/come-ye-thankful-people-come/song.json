@@ -1,0 +1,28 @@
+{
+  "id": "mmLBZNt18Mg",
+  "title": "Come, Ye Thankful People, Come",
+  "writer": "Henry Alford & George Elvey",
+  "writerRef": null,
+  "year": 1844,
+  "language": "English",
+  "themes": "Provision,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 100:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 806,
+  "video": {
+    "youtube": "5FqdCskC0QE",
+    "title": "Come, Ye Thankful People, Come (Tune: St George's Windsor - 4vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

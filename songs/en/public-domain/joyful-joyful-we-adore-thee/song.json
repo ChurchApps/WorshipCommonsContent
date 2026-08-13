@@ -1,0 +1,30 @@
+{
+  "id": "Pgwkq6hKvEa",
+  "title": "Joyful, Joyful, We Adore Thee",
+  "writer": "Henry van Dyke & Ludwig van Beethoven",
+  "writerRef": "henry-van-dyke-ludwig-van-beethoven",
+  "year": 1907,
+  "language": "English",
+  "themes": "Praise,Creation",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 71:23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1245,
+  "hymnalCount": 309,
+  "video": {
+    "youtube": "2yZVweZ2Cvg",
+    "title": "Joyful Joyful We Adore Thee | Official Lyric Video | Reawaken Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

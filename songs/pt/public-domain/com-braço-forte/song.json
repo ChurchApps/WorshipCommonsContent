@@ -1,0 +1,27 @@
+{
+  "id": "XL4dgOo4Vdw",
+  "title": "Com Braço Forte",
+  "writer": "Daniel C. Roberts",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Portuguese",
+  "themes": "Trust,Provision",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "2 Crônicas 20:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "McmQPbGN-Y5",
+    "title": "God of Our Fathers"
+  },
+  "relationLabel": "Portuguese translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

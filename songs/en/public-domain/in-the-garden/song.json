@@ -1,0 +1,28 @@
+{
+  "id": "1RHhMFd3Dew",
+  "title": "In the Garden",
+  "writer": "C. Austin Miles",
+  "writerRef": null,
+  "year": 1912,
+  "language": "English",
+  "themes": "Comfort",
+  "key": "A",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "John 20:15-16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 934,
+  "hymnalCount": 337,
+  "video": {
+    "youtube": "3_dMzucjEaw",
+    "title": "In The Garden (with lyrics) The most BEAUTIFUL hymn you've EVER heard!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

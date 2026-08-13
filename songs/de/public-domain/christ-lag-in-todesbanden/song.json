@@ -1,0 +1,27 @@
+{
+  "id": "uGa0qIUAgmN",
+  "title": "Christ Lag in Todesbanden",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "German",
+  "themes": "Atonement,Blood,Bread",
+  "key": "C",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "1 Korinther 15,55",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "vZqeaPMAlfa",
+    "title": "Christ Jesus Lay In Death's Strong Bands"
+  },
+  "relationLabel": "German original · Martin Luther, 1524",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

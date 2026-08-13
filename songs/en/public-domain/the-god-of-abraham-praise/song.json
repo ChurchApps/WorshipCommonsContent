@@ -1,0 +1,30 @@
+{
+  "id": "Iw2m-lZIc0O",
+  "title": "The God of Abraham Praise",
+  "writer": "Thomas Olivers",
+  "writerRef": "thomas-olivers",
+  "year": 1770,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "Em",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Exodus 3:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 479,
+  "video": {
+    "youtube": "OvTgzJ2nZGo",
+    "title": "The God of Abraham Praise (Grace Community Church)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

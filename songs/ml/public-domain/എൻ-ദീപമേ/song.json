@@ -1,0 +1,27 @@
+{
+  "id": "uPr5QRadh8c",
+  "title": "എൻ ദീപമേ",
+  "writer": "ജോൺ എച്ച്. ന്യൂമേൻ",
+  "writerRef": null,
+  "year": 1833,
+  "language": "Malayalam",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 119:105",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "c2laLIwpFSI",
+    "title": "Lead, Kindly Light"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

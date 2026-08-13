@@ -1,0 +1,30 @@
+{
+  "id": "b6EoPdkaDnO",
+  "title": "Ven, Jesús Muy Esperado",
+  "writer": "Charles Wesley, tr · tr. Lorenzo Alvarez",
+  "writerRef": null,
+  "year": 1744,
+  "language": "Spanish",
+  "themes": "Advent,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "2/4",
+  "scripture": "Hageo 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 12,
+  "video": {
+    "youtube": "msn0gM7SCTs",
+    "title": "Ven Jesus Muy Esperado - Hno Danny Gonzalez"
+  },
+  "parent": {
+    "id": "Nt5Jv5g_alj",
+    "title": "Come, Thou Long-Expected Jesus"
+  },
+  "relationLabel": "Spanish translation · tr. Lorenzo Alvarez",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

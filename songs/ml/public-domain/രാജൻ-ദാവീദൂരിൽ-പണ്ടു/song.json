@@ -1,0 +1,27 @@
+{
+  "id": "Fe9XP3dKB52",
+  "title": "രാജൻ ദാവീദൂരിൽ പണ്ടു",
+  "writer": "സിസിൽ എഫ്. അലക്സാണ്ടർ",
+  "writerRef": null,
+  "year": 1848,
+  "language": "Malayalam",
+  "themes": "Christmas",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "ലൂക്കോസ് 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "RjRsvsCBUiM",
+    "title": "Once in Royal David's City"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

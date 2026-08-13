@@ -1,0 +1,28 @@
+{
+  "id": "LqlezQDCgYo",
+  "title": "Ye Servants of God",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1744,
+  "language": "English",
+  "themes": "Praise,Mission",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 7:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 289,
+  "hymnalCount": 720,
+  "video": {
+    "youtube": "ptLLr_WjCz8",
+    "title": "Ye Servants of God! Your Master Proclaim (Tune: Laudate Dominum - 4vv) [lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

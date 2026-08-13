@@ -1,0 +1,29 @@
+{
+  "id": "PkS4tLdqERb",
+  "title": "All My Heart This Night Rejoices",
+  "writer": "Paul Gerhardt · tr. Catherine Winkworth",
+  "writerRef": "paul-gerhardt",
+  "year": 1656,
+  "language": "English",
+  "themes": "Angels,Christmas/Advent,Compassion",
+  "key": "G",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:8-15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 301,
+  "video": {
+    "youtube": "zzfdVU32vUc",
+    "title": "SMF - All My Heart This Night Rejoices"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3tR86sWVTNC",
+  "title": "O For a Thousand Tongues to Sing",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1739,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "3/2",
+  "scripture": "Psalm 35:28",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1123,
+  "hymnalCount": 1922,
+  "video": {
+    "youtube": "vFMAlhxnJrE",
+    "title": "O For a Thousand Tongues to Sing | Official Lyric Video | Reawaken Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

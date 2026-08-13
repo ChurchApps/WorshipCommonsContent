@@ -1,0 +1,29 @@
+{
+  "id": "BkN75xPOPqt",
+  "title": "Songs of Thankfulness and Praise",
+  "writer": "Christopher Wordsworth",
+  "writerRef": "christopher-wordsworth",
+  "year": 1862,
+  "language": "English",
+  "themes": "Art and Music,Aspiration,Baptism",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Ps 95:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 142,
+  "video": {
+    "youtube": "YOwiBa4EVdI",
+    "title": "Hymn 394 Songs of Thankfulness and Praise"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

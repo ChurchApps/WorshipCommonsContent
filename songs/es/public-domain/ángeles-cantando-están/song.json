@@ -1,0 +1,30 @@
+{
+  "id": "ISB-LWG_iPJ",
+  "title": "Ángeles Cantando Están",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1862,
+  "language": "Spanish",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 2:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 22,
+  "video": {
+    "youtube": "hxLj36-ZYlQ",
+    "title": "Himno Adventista 92 - Ángeles cantando están"
+  },
+  "parent": {
+    "id": "yVg78wuG3f-",
+    "title": "Angels We Have Heard on High"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

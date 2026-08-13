@@ -1,0 +1,29 @@
+{
+  "id": "0YJQuvg4YHF",
+  "title": "A Child of The King",
+  "writer": "Harriet Eugenia Peck Buell",
+  "writerRef": null,
+  "year": 1877,
+  "language": "English",
+  "themes": "Assurance,Atonement,Children",
+  "key": "Eb",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Rom 8:14-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 446,
+  "video": {
+    "youtube": "zL20ETnYnjw",
+    "title": "Gaither Vocal Band - Child Of The King (Live At Gaither Studios)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

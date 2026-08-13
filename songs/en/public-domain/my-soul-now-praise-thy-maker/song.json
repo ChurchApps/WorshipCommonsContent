@@ -1,0 +1,29 @@
+{
+  "id": "_iN6MBY4tp7",
+  "title": "My Soul, Now Praise Thy Maker",
+  "writer": "Johann Graumann · tr. Catherine Winkworth",
+  "writerRef": null,
+  "year": 1525,
+  "language": "English",
+  "themes": "Angels,Assurance,Atonement",
+  "key": "G",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "Ps 103:1-22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 29,
+  "video": {
+    "youtube": "1q9hj9nurYA",
+    "title": "Hymn 820 My Soul, Now Praise Your Maker"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

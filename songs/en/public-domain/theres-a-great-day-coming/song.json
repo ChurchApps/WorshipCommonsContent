@@ -1,0 +1,29 @@
+{
+  "id": "4eL_3CP28fZ",
+  "title": "There's a Great Day Coming",
+  "writer": "Will Lamartine Thompson",
+  "writerRef": "will-lamartine-thompson",
+  "year": 1886,
+  "language": "English",
+  "themes": "Anticipation,Brevity of Life,Fear of the Lord",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Mt 25:31-46",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 530,
+  "video": {
+    "youtube": "MxNZKfGLJ98",
+    "title": "There's a great day coming, a great day coming"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

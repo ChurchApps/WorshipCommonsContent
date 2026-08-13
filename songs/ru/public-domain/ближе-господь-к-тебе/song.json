@@ -1,0 +1,27 @@
+{
+  "id": "o9Bv2oInbfq",
+  "title": "Ближе, Господь, К Тебе",
+  "writer": "Сара Ф. Адамс",
+  "writerRef": null,
+  "year": 1841,
+  "language": "Russian",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "6/4",
+  "scripture": "Бытие 28:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ggzFvLEr9mK",
+    "title": "Nearer, My God, to Thee"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

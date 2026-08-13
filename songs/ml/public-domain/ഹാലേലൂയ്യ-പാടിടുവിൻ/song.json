@@ -1,0 +1,27 @@
+{
+  "id": "sdA-XilsweL",
+  "title": "ഹാലേലൂയ്യ പാടിടുവിൻ",
+  "writer": "വില്ല്യം സി. ടിക്സ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Atonement,Blood,Bread",
+  "key": "F",
+  "bpm": 130,
+  "timeSignature": "3/4",
+  "scripture": "യെശ്ശയാവ്വ് 66:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "dPUvDuX1qyF",
+    "title": "Alleluia, Sing To Jesus!"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

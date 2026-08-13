@@ -1,0 +1,27 @@
+{
+  "id": "8ytW00nXYS5",
+  "title": "In My Heart There Rings a Melody",
+  "writer": "Elton Roth",
+  "writerRef": null,
+  "year": 1924,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Ephesians 5:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 116,
+  "video": {
+    "youtube": "BqXBm5-Y_kI",
+    "title": "In My Heart There Rings a Melody - Andy Harsant [with lyrics]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "art": "worshipcommons"
+  }
+}

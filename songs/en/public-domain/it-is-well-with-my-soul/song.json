@@ -1,0 +1,29 @@
+{
+  "id": "_UFqNA48X8n",
+  "title": "It Is Well with My Soul",
+  "writer": "Horatio Spafford",
+  "writerRef": "horatio-spafford",
+  "year": 1873,
+  "language": "English",
+  "themes": "Comfort,Assurance",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 46:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 597,
+  "video": {
+    "youtube": "AHe_qmo3gX4",
+    "title": "It Is Well With My Soul"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

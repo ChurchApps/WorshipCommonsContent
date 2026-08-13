@@ -1,0 +1,29 @@
+{
+  "id": "-js8RiNRjHm",
+  "title": "Cristo Me Ama",
+  "writer": "Anna Warner · tr. anónimo",
+  "writerRef": null,
+  "year": 1880,
+  "language": "Spanish",
+  "themes": "Assurance,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "1 Juan 4:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 25,
+  "video": {
+    "youtube": "NyxAy-MGlKU",
+    "title": "Cristo Me Ama (Jesus Loves Me) - Animado Con Letras"
+  },
+  "parent": {
+    "id": "GZ9C6_0wlwv",
+    "title": "Jesus Loves Me"
+  },
+  "relationLabel": "Spanish translation · anonymous",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lRAsIHd92ys",
+  "title": "മഹത്വ പ്രഭു മരിച്ച",
+  "writer": "ഐസക്ക് വാട്ട്സ്",
+  "writerRef": null,
+  "year": 1707,
+  "language": "Malayalam",
+  "themes": "Grace,Confession",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "ഗലാത്യർ 6:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "5XkXjIIePgD",
+    "title": "When I Survey the Wondrous Cross"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "zK5DcYFd8Qk",
+  "title": "Awake, My Heart, With Gladness",
+  "writer": "Paul Gerhardt · tr. John Kelly",
+  "writerRef": "paul-gerhardt",
+  "year": 1648,
+  "language": "English",
+  "themes": "Assurance,Atonement,Brevity of Life",
+  "key": "Eb",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "Col 2:13-15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 30,
+  "video": {
+    "youtube": "7vkwarcV5kI",
+    "title": "Awake, My Heart, with Gladness"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

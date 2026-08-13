@@ -1,0 +1,28 @@
+{
+  "id": "ufz7ePBiCVt",
+  "title": "Give Me Jesus",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1845,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "F",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "scripture": "Philippians 3:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 32,
+  "video": {
+    "youtube": "9rZ8k9m2hwo",
+    "title": "Fernando Ortega - Give me Jesus"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

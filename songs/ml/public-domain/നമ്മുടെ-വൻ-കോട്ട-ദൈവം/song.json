@@ -1,0 +1,27 @@
+{
+  "id": "i0OSkbqKdQ3",
+  "title": "നമ്മുടെ വൻ കോട്ട ദൈവം",
+  "writer": "മാർട്ടിൻ ലൂഥർ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 46:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "hL6IUnDadWy",
+    "title": "Ein feste Burg ist unser Gott"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

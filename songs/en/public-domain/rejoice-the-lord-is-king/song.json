@@ -1,0 +1,28 @@
+{
+  "id": "IlEmJ2XjOpf",
+  "title": "Rejoice, the Lord Is King",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1744,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Philippians 4:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 645,
+  "hymnalCount": 802,
+  "video": {
+    "youtube": "WFYMhF2GA4E",
+    "title": "Rejoice, the Lord Is King!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

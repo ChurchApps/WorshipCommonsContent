@@ -1,0 +1,29 @@
+{
+  "id": "EI06sbxYBcb",
+  "title": "All Praise to Jesus' Hallowed Name",
+  "writer": "German & Martin Luther · tr. Richard Massie",
+  "writerRef": "german-martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Angels,Christmas/Advent,Compassion",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Jn 1:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "txs0vIZWTqE",
+    "title": "All Praise to Jesus' Hallowed Name"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

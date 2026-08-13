@@ -1,0 +1,27 @@
+{
+  "id": "q0XuyoO4IeZ",
+  "title": "പോകല്ലേ കടന്നെന്നെ നീ",
+  "writer": "ഫേനി ക്രോസ്ബി",
+  "writerRef": null,
+  "year": 1868,
+  "language": "Malayalam",
+  "themes": "Confession,Grace",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "ഉൽപ്പത്തി 18:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "2zMeQ2kdb2n",
+    "title": "Pass Me Not, O Gentle Savior"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

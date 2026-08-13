@@ -1,0 +1,27 @@
+{
+  "id": "dbmsFUmmDaW",
+  "title": "പാപ വിമോചനം നേടേണമോ?",
+  "writer": "ലൂയീസ് ഇ. ജോണ്‍സ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Grace,Praise",
+  "key": "A",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "വെളിപ്പാടു 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "XZ49aMGaQWb",
+    "title": "There Is Power in the Blood"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

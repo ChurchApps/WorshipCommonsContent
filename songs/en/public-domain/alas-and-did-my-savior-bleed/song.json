@@ -1,0 +1,28 @@
+{
+  "id": "4m8Ep0PePd0",
+  "title": "Alas! and Did My Savior Bleed",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1707,
+  "language": "English",
+  "themes": "Grace,Lament",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Romans 5:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 421,
+  "hymnalCount": 2631,
+  "video": {
+    "youtube": "MGBxvsvulGU",
+    "title": "Alas! And Did My Savior Bleed? (Hymn Charts with Lyrics, Contemporary)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

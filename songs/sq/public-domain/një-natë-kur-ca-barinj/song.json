@@ -1,0 +1,27 @@
+{
+  "id": "0Fst0Cvf2h0",
+  "title": "Një Natë, Kur Ca Barinj",
+  "writer": "Nahum Tate",
+  "writerRef": null,
+  "year": 1700,
+  "language": "Albanian",
+  "themes": "Christmas",
+  "key": "C",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Lluka 2:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "hbn517-XyXn",
+    "title": "While Shepherds Watched Their Flocks"
+  },
+  "relationLabel": "Albanian original · Nahum Tate",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

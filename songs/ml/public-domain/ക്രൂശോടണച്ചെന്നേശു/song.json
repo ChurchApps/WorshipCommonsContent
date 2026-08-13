@@ -1,0 +1,27 @@
+{
+  "id": "OAejfIa4Zrl",
+  "title": "ക്രൂശോടണച്ചെന്നേശു",
+  "writer": "ഫേനി ക്രോസ്ബി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Grace,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "വെളിപ്പാട് 22:1–2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ulOZk2Z-mRz",
+    "title": "Near the Cross"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

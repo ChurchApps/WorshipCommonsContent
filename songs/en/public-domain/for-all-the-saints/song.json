@@ -1,0 +1,29 @@
+{
+  "id": "MHG5BeaFhHD",
+  "title": "For All the Saints",
+  "writer": "William How & Ralph Vaughan Williams",
+  "writerRef": null,
+  "year": 1864,
+  "language": "English",
+  "themes": "Hope,Praise",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 12:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 423,
+  "hymnalCount": 633,
+  "video": {
+    "youtube": "8lM64ukI9D8",
+    "title": "For All the Saints | October 2023 General Conference"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

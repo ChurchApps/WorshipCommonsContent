@@ -1,0 +1,27 @@
+{
+  "id": "MtxElf3WIKl",
+  "title": "Zoti Më Zgjodhi!",
+  "writer": "Fanny Crosby · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Albanian",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Hebrenjve 10:21-22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

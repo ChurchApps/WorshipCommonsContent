@@ -1,0 +1,28 @@
+{
+  "id": "XZ49aMGaQWb",
+  "title": "There Is Power in the Blood",
+  "writer": "Lewis E. Jones",
+  "writerRef": null,
+  "year": 1899,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "A",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 12:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 692,
+  "hymnalCount": 460,
+  "video": {
+    "youtube": "Tr_PS_qe6Ks",
+    "title": "There Is Power In The Blood"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

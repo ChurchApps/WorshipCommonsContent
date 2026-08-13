@@ -1,0 +1,29 @@
+{
+  "id": "iEZ4UjyKHmq",
+  "title": "While O'er Our Guilty Land, O Lord",
+  "writer": "Samuel Davies & Brian James Dumont",
+  "writerRef": null,
+  "year": 1769,
+  "language": "English",
+  "themes": "Atonement,Children,Church on Earth",
+  "key": "F",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "scripture": "Ps 51:1-19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 77,
+  "video": {
+    "youtube": "yi4Zg8IvpXw",
+    "title": "While O'er Our Guilty Land, O Lord (Federal Street)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

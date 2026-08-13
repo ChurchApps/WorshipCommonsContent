@@ -1,0 +1,30 @@
+{
+  "id": "j_MZHyq0e2w",
+  "title": "I Stand Amazed in the Presence",
+  "writer": "Charles Gabriel",
+  "writerRef": "charles-gabriel",
+  "year": 1905,
+  "language": "English",
+  "themes": "Grace,Adoration",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "1 John 3:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1045,
+  "hymnalCount": 284,
+  "video": {
+    "youtube": "hXB78cLK2dg",
+    "title": "I Stand Amazed in the Presence | Reawaken Hymns | Official Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

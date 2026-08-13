@@ -1,0 +1,29 @@
+{
+  "id": "ftavJEy0nel",
+  "title": "Glorious Things of Thee are Spoken",
+  "writer": "John Newton",
+  "writerRef": "john-newton",
+  "year": 1779,
+  "language": "English",
+  "themes": "Anticipation,Church in Heaven,Cloud",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 87:1-7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1395,
+  "video": {
+    "youtube": "SNQOcpECk4A",
+    "title": "Glorious Things of Thee Are Spoken (Tune: Austria - 4vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1Ti12iFsqDZ",
+  "title": "Sing, O Sing, This Blessed Morn",
+  "writer": "Christopher Wordsworth",
+  "writerRef": "christopher-wordsworth",
+  "year": 1865,
+  "language": "English",
+  "themes": "Adam,Art and Music,Bride/Bridegroom",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Is 9:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 54,
+  "video": {
+    "youtube": "HNoVnzyhWCA",
+    "title": "SING, O SING THIS BLESSED MORN (SATB Choir) - Christopher Wordsworth/Stan Pethel"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

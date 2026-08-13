@@ -1,0 +1,28 @@
+{
+  "id": "NMmpqtH8urw",
+  "title": "Where Cross the Crowded Ways of Life",
+  "writer": "Frank Mason North",
+  "writerRef": null,
+  "year": 1903,
+  "language": "English",
+  "themes": "Justice,Mission",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 25:40",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 289,
+  "hymnalCount": 411,
+  "video": {
+    "youtube": "ov9HKiAdJOE",
+    "title": "Hymn 609 Where cross the crowded ways of life"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

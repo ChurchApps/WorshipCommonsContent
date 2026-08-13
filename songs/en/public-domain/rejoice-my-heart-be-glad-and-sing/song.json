@@ -1,0 +1,29 @@
+{
+  "id": "bwdPFbadm5T",
+  "title": "Rejoice, My Heart, Be Glad and Sing",
+  "writer": "Paul Gerhardt · tr. composite",
+  "writerRef": "paul-gerhardt",
+  "year": 1653,
+  "language": "English",
+  "themes": "Assurance,Christian Life,Comfort",
+  "key": "Bb",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "Ps 8:1-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "xzTrO-9ljv8",
+    "title": "Score Video: LSB 737 Rejoice, My Heart, Be Glad and Sing | Lutheran Hymn Sing"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

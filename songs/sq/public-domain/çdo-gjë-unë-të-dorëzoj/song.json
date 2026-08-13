@@ -1,0 +1,27 @@
+{
+  "id": "cMSPPwywO7K",
+  "title": "Çdo Gjë Unë Të Dorëzoj",
+  "writer": "Judson W. Van DeVenter · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1896,
+  "language": "Albanian",
+  "themes": "Confession,Trust",
+  "key": "D",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Lluka 14:33",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_lBMGxob8RU",
+    "title": "I Surrender All"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

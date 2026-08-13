@@ -1,0 +1,29 @@
+{
+  "id": "FhK6DNPC0ry",
+  "title": "Christ The Lord Is Risen Today (Lyra)",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1739,
+  "language": "English",
+  "themes": "Angels,Atonement,Blood",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Mt 28:5-6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1283,
+  "video": {
+    "youtube": "BpT3Xxts4qs",
+    "title": "Christ the Lord is risen today - Easter Hymn (Worgan)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

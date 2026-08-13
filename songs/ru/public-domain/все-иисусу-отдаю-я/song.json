@@ -1,0 +1,27 @@
+{
+  "id": "Jw1O9rzbsHQ",
+  "title": "Все Иисусу Отдаю Я",
+  "writer": "Д. В. Ван Де Вентер",
+  "writerRef": null,
+  "year": 1896,
+  "language": "Russian",
+  "themes": "Confession,Trust",
+  "key": "D",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Евангелие от Луки 20:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "_lBMGxob8RU",
+    "title": "I Surrender All"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

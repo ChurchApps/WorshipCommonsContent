@@ -1,0 +1,29 @@
+{
+  "id": "4PmxeoHe5H2",
+  "title": "Un Día",
+  "writer": "Wilbur Chapman",
+  "writerRef": null,
+  "year": 1908,
+  "language": "Spanish",
+  "themes": "Hope,Grace",
+  "key": "Bb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Gálatas 4:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 13,
+  "video": {
+    "youtube": "BjhW3vBA1QU",
+    "title": "J Balvin, Dua Lipa, Bad Bunny, Tainy - UN DIA (ONE DAY)"
+  },
+  "parent": {
+    "id": "-G2gmV6hhA7",
+    "title": "One Day"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal"
+  }
+}

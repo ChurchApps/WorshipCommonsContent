@@ -1,0 +1,30 @@
+{
+  "id": "NPdCQEzF9uO",
+  "title": "Omnipotente Padre Dios",
+  "writer": "Frederick Faber",
+  "writerRef": null,
+  "year": 1874,
+  "language": "Spanish",
+  "themes": "Trust,Mission",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "3/4",
+  "scripture": "Hebreos 11:1-2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 9,
+  "video": {
+    "youtube": "Du7o1q2u4vM",
+    "title": "Himno: Omnipotente Padre Dios"
+  },
+  "parent": {
+    "id": "MUIfLlOxrqc",
+    "title": "Faith of Our Fathers"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

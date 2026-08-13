@@ -1,0 +1,29 @@
+{
+  "id": "Kixe4GETlVG",
+  "title": "Our God, Our Help In Ages Past",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1719,
+  "language": "English",
+  "themes": "Assurance,Brevity of Life,Calmness",
+  "key": "C",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 90:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1342,
+  "video": {
+    "youtube": "yKP_XxCBDZY",
+    "title": "O God, Our Help in Ages Past (Grace Community Church)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

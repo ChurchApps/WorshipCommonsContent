@@ -1,0 +1,29 @@
+{
+  "id": "QXzidSnHZnc",
+  "title": "My Savior's Love",
+  "writer": "Charles Hutchinson Gabriel",
+  "writerRef": "charles-hutchinson-gabriel",
+  "year": 1905,
+  "language": "English",
+  "themes": "Anticipation,Atonement,Blood",
+  "key": "Ab",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "1Jn 4:9-10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 284,
+  "video": {
+    "youtube": "LYd9krIRxZE",
+    "title": "My Savior’s Love • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

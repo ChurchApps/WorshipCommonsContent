@@ -1,0 +1,27 @@
+{
+  "id": "zpvsC1cMcV3",
+  "title": "യേശുവിന്റെ സ്നേഹത്തിനെ പാടി",
+  "writer": "ഇലൈസ്സ ഇ. ഹിവിറ്റ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Hope,Praise",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "യോഹന്നാൻ 14:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "KKicIKos1rH",
+    "title": "When We All Get to Heaven"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "zCLh0FOjt3N",
+  "title": "O Chief of Cities Bethlehem",
+  "writer": "Aurelius Clemens Prudentius · tr. Nathaniel Barratt Smithers & Charles Winfred Douglas & John Patrick Crichton-Stuart Marquess of Bute",
+  "writerRef": "aurelius-clemens-prudentius",
+  "year": 1879,
+  "language": "English",
+  "themes": "Christmas/Advent,Crown,Jesus",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Mt 2:1-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 3,
+  "video": {
+    "youtube": "6pceoKCMco8",
+    "title": "O chief of cities, Bethlehem"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

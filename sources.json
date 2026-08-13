@@ -1,0 +1,38 @@
+{
+  "wc-seed": {
+    "name": "WorshipCommons seed transcription",
+    "url": "https://worshipcommons.org",
+    "licenseBasis": "Public-domain hymn texts (words and music published pre-1931) transcribed into ChordPro with inline chords for the original library — generated/imported during development, not taken from a single external source.",
+    "attribution": { "required": false }
+  },
+  "open-hymnal": {
+    "name": "Open Hymnal Project",
+    "url": "https://openhymnal.org",
+    "licenseBasis": "Each ABC source's copyright line verified public domain at import time; only fully-PD scores taken.",
+    "attribution": { "required": false, "text": "Open Hymnal Project", "link": "https://openhymnal.org" }
+  },
+  "cyber-hymnal": {
+    "name": "The Cyber Hymnal",
+    "url": "http://www.hymntime.com/tch/",
+    "licenseBasis": "Its copyright page dedicates un-noticed material to the public domain and grants reposting with attribution; pages with copyright notices or post-1930 credit years without an explicit PD dedication were excluded at import time. Salvaged via the Wayback Machine (live site is dead).",
+    "attribution": { "required": true, "text": "The Cyber Hymnal", "link": "http://www.hymntime.com/tch/" }
+  },
+  "hymnsite": {
+    "name": "HymnSite.com",
+    "url": "https://www.hymnsite.com",
+    "licenseBasis": "The site's FAQ (hymnsite.com/faq.htm) releases its umh### MIDI files with \"NO RESTRICTIONS\".",
+    "attribution": { "required": false, "text": "HymnSite.com", "link": "https://www.hymnsite.com" }
+  },
+  "hymnary": {
+    "name": "Hymnary.org",
+    "url": "https://hymnary.org",
+    "licenseBasis": "Only texts hymnary.org marks \"Copyright: Public Domain\"; also the source of the hymnal-count popularity metadata.",
+    "attribution": { "required": false, "text": "Hymnary.org", "link": "https://hymnary.org" }
+  },
+  "worshipcommons": {
+    "name": "WorshipCommons (generated)",
+    "url": "https://worshipcommons.org",
+    "licenseBasis": "Produced by WorshipCommons tooling — cover art, and lyric timings derived from the public-domain tune sources.",
+    "attribution": { "required": false }
+  }
+}

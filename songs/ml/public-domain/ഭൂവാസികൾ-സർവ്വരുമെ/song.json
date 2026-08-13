@@ -1,0 +1,27 @@
+{
+  "id": "-1kb0nJwmZR",
+  "title": "ഭൂവാസികൾ സർവ്വരുമെ",
+  "writer": "സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 1561,
+  "language": "Malayalam",
+  "themes": "Praise,Adoration",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 100:1–2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "XiGH8cIi8Gc",
+    "title": "All People That on Earth Do Dwell"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

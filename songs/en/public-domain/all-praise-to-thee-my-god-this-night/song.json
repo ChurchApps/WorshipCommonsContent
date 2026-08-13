@@ -1,0 +1,29 @@
+{
+  "id": "pFgMq3zd_lL",
+  "title": "All Praise To Thee, My God, This Night",
+  "writer": "Thomas Ken",
+  "writerRef": "thomas-ken",
+  "year": 1674,
+  "language": "English",
+  "themes": "Activity,Angels,Art and Music",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 17:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 1106,
+  "video": {
+    "youtube": "aQonZsmhP-w",
+    "title": "All Praise to Thee My God This Night -- HOTM for August 2023"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

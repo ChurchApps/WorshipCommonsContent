@@ -1,0 +1,29 @@
+{
+  "id": "rpkv__e_Nt8",
+  "title": "God, Whose Almighty Word",
+  "writer": "John Marriott",
+  "writerRef": null,
+  "year": 1813,
+  "language": "English",
+  "themes": "Father,God's Children - the Faithful,Gospel",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Mt 4:16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 467,
+  "video": {
+    "youtube": "8HShj_UCsnI",
+    "title": "God Whose Almighty Word- Hymn Sing-Along"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

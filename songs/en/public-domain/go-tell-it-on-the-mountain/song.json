@@ -1,0 +1,28 @@
+{
+  "id": "zORl9J4kPPX",
+  "title": "Go, Tell It on the Mountain",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1865,
+  "language": "English",
+  "themes": "Christmas,Mission",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 968,
+  "hymnalCount": 131,
+  "video": {
+    "youtube": "UAfIKeh04KU",
+    "title": "Go, Tell It on the Mountain (Hymn Charts with Lyrics, Contemporary)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

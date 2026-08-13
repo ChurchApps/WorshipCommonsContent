@@ -1,0 +1,29 @@
+{
+  "id": "Dsh1D_Hnreh",
+  "title": "¡Oh, Qué Amigo Nos Es Cristo!",
+  "writer": "Joseph Scriven · tr. Leandro Garza Mora",
+  "writerRef": null,
+  "year": 1904,
+  "language": "Spanish",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Filipenses 4:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 487,
+  "hymnalCount": 47,
+  "video": {
+    "youtube": "a9D18Swl7hk",
+    "title": "Oh, que amigo nos es Cristo"
+  },
+  "parent": {
+    "id": "DmZMgNX0L6p",
+    "title": "What a Friend We Have in Jesus"
+  },
+  "relationLabel": "Spanish translation · tr. Leandro Garza Mora, 1904",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

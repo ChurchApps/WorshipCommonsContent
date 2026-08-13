@@ -1,0 +1,27 @@
+{
+  "id": "rnEHQUhQ8Fx",
+  "title": "കിരീടം ചൂടിക്ക",
+  "writer": "മാത്യു ബ്രിഡ്ജസ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Easter,Adoration",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "വെളിപ്പാട് 19:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "zfrKD0J-OPJ",
+    "title": "Crown Him with Many Crowns"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

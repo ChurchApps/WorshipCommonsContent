@@ -1,0 +1,29 @@
+{
+  "id": "RvlZNSt_koB",
+  "title": "Blind Bartimaeus",
+  "writer": "Henry Wadsworth Longfellow",
+  "writerRef": "henry-wadsworth-longfellow",
+  "year": 1842,
+  "language": "English",
+  "themes": "Compassion,Faith,Healing",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "3/4",
+  "scripture": "Mk 10:46-52",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 2,
+  "video": {
+    "youtube": "3xu-6RZ7mzI",
+    "title": "Bill & Gloria Gaither - Blind Bartimaeus [Live] ft. The Bishops"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

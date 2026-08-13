@@ -1,0 +1,27 @@
+{
+  "id": "SV6g1dZr3m9",
+  "title": "Ты Познал Ли Силу Крови, О, Скажи?",
+  "writer": "Елисей Хоффман",
+  "writerRef": null,
+  "year": 1878,
+  "language": "Russian",
+  "themes": "Grace,Confession",
+  "key": "A",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "Откровение 7:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "OqDGwwFTMc3",
+    "title": "Are You Washed in the Blood?"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

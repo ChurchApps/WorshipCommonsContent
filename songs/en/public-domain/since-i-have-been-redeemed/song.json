@@ -1,0 +1,28 @@
+{
+  "id": "kTKqy40_EW9",
+  "title": "Since I Have Been Redeemed",
+  "writer": "Edwin Excell",
+  "writerRef": "edwin-excell",
+  "year": 1884,
+  "language": "English",
+  "themes": "Praise,Assurance",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 107:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 289,
+  "hymnalCount": 207,
+  "video": {
+    "youtube": "BYCHBkkY7qQ",
+    "title": "Since I Have Been Redeemed • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

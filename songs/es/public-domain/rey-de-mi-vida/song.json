@@ -1,0 +1,30 @@
+{
+  "id": "Kwgj5anhPrF",
+  "title": "Rey de Mi Vida",
+  "writer": "Jennie Hussey",
+  "writerRef": null,
+  "year": 1921,
+  "language": "Spanish",
+  "themes": "Grace,Confession",
+  "key": "C",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1 Pedro 3:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "8VpaoKng-Mc",
+    "title": "REY DE MI VIDA | Himno Majestuoso #228 | Música y Letra - 2° Edición"
+  },
+  "parent": {
+    "id": "l9H7SMXLFRG",
+    "title": "Lead Me to Calvary"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

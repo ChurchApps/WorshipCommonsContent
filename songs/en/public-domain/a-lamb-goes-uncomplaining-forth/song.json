@@ -1,0 +1,29 @@
+{
+  "id": "dNcYuBfjM8q",
+  "title": "A Lamb Goes Uncomplaining Forth",
+  "writer": "Paul Gerhardt · tr. composite",
+  "writerRef": "paul-gerhardt",
+  "year": 1648,
+  "language": "English",
+  "themes": "Anticipation,Aspiration,Assurance",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Is 53:1-12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 20,
+  "video": {
+    "youtube": "_FRRfak00g0",
+    "title": "A Lamb Goes Uncomplaining Forth"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

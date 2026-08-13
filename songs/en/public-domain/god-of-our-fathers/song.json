@@ -1,0 +1,28 @@
+{
+  "id": "McmQPbGN-Y5",
+  "title": "God of Our Fathers",
+  "writer": "Daniel Roberts & George Warren",
+  "writerRef": null,
+  "year": 1876,
+  "language": "English",
+  "themes": "Trust,Provision",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 33:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 312,
+  "hymnalCount": 492,
+  "video": {
+    "youtube": "kGxXZOs6oK4",
+    "title": "God Of Our Fathers (Hymn 431) | Grace Community Church Congregation & Orchestra"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "8wmnTjJsGd5",
+  "title": "¡Cuán Grande Amor!",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1905,
+  "language": "Spanish",
+  "themes": "Grace,Adoration",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Efesios 2:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 7,
+  "video": {
+    "youtube": "7Q5zcFLwp_0",
+    "title": "Himno - ¡Cuán Grande Amor! - Paul Bolivar"
+  },
+  "parent": {
+    "id": "j_MZHyq0e2w",
+    "title": "I Stand Amazed in the Presence"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

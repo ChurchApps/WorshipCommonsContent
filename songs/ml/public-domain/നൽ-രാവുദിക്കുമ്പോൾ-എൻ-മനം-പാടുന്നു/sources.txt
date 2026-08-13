@@ -1,0 +1,7 @@
+നൽ രാവുദിക്കുമ്പോൾ എൻ മനം പാടുന്നു — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): The Cyber Hymnal — http://www.hymntime.com/tch/ (attribution required)
+Tune (tune.mid): The Cyber Hymnal — http://www.hymntime.com/tch/ (attribution required)
+
+License: Public domain. See licenses/public-domain.md at the repository root.

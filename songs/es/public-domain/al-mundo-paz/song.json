@@ -1,0 +1,29 @@
+{
+  "id": "xfExG0mWGxu",
+  "title": "Al Mundo Paz",
+  "writer": "Isaac Watts · tr. anónimo",
+  "writerRef": null,
+  "year": 1915,
+  "language": "Spanish",
+  "themes": "Christmas,Praise",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "Salmos 98:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 398,
+  "hymnalCount": 12,
+  "video": {
+    "youtube": "muJxxGsJ3ZA",
+    "title": "AL MUNDO PAZ | Himno Majestuoso #187"
+  },
+  "parent": {
+    "id": "_X94hS2ZTgf",
+    "title": "Joy to the World"
+  },
+  "relationLabel": "Spanish translation · anonymous",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

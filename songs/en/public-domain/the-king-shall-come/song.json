@@ -1,0 +1,29 @@
+{
+  "id": "5xeNeBwIdtc",
+  "title": "The King Shall Come",
+  "writer": "John Wyeth · tr. John Brownlie",
+  "writerRef": "john-wyeth",
+  "year": 1907,
+  "language": "English",
+  "themes": "Anticipation,Christmas/Advent,Crown",
+  "key": "Ab",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Zeph 1:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 113,
+  "video": {
+    "youtube": "sq3gEtTr5lQ",
+    "title": "The King Shall Come When Morning Dawns | Advent Christian Hymn | John Brownlie | Choir w/ Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

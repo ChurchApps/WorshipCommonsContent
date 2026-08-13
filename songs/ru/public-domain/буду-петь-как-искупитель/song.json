@@ -1,0 +1,26 @@
+{
+  "id": "bEfs7TFPe4v",
+  "title": "Буду Петь, Как Искупитель",
+  "writer": "Филип П. Блисс",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Russian",
+  "themes": "Praise,Grace",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Гал. 3:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "K1RTwOmvx40",
+    "title": "I Will Sing of My Redeemer"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal"
+  }
+}

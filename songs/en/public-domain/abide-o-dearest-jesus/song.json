@@ -1,0 +1,29 @@
+{
+  "id": "HEMmRmJr_7F",
+  "title": "Abide, O Dearest Jesus",
+  "writer": "Joshua Stegmann · tr. August Crull",
+  "writerRef": null,
+  "year": 1628,
+  "language": "English",
+  "themes": "Closing Songs,Grace,Invitation",
+  "key": "Eb",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "1Jn 4:13-16",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 36,
+  "video": {
+    "youtube": "3JVBz9JowWw",
+    "title": "919. Abide, O Dearest Jesus - The Congregation sing from The LSB"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

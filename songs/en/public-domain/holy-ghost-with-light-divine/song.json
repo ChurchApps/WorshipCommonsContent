@@ -1,0 +1,29 @@
+{
+  "id": "MF4h4u0i4OY",
+  "title": "Holy Ghost, with Light Divine",
+  "writer": "Andrew Reed & Samuel Longfellow",
+  "writerRef": null,
+  "year": 1817,
+  "language": "English",
+  "themes": "Adam,Calmness,Christian Life",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Jn 14:16-17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 857,
+  "video": {
+    "youtube": "Kizfju0a0S4",
+    "title": "Holy Ghost, with Light Divine (MERCY)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

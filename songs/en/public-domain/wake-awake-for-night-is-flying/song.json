@@ -1,0 +1,29 @@
+{
+  "id": "TQqcKjqajjL",
+  "title": "Wake, Awake, for Night Is Flying",
+  "writer": "Phillipp Nicolai · tr. Catherine Winkworth",
+  "writerRef": null,
+  "year": 1599,
+  "language": "English",
+  "themes": "Anticipation,Bride/Bridegroom,Heaven",
+  "key": "C",
+  "bpm": 160,
+  "timeSignature": "4/4",
+  "scripture": "Mt 25:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 225,
+  "video": {
+    "youtube": "wdN7vC2q9Mc",
+    "title": "St. Olaf Christmas Festival (2018) - \"Wake Awake, For Night is Flying\""
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

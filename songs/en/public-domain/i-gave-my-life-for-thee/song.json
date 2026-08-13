@@ -1,0 +1,28 @@
+{
+  "id": "3tWMyiGfX2n",
+  "title": "I Gave My Life for Thee",
+  "writer": "Frances Havergal & Philip Bliss",
+  "writerRef": null,
+  "year": 1858,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "2 Corinthians 8:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 289,
+  "hymnalCount": 619,
+  "video": {
+    "youtube": "fznpu_dM9H4",
+    "title": "I Gave My Life For Thee (with lyrics) - Beautiful Easter Hymn"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

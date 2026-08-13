@@ -1,0 +1,28 @@
+{
+  "id": "Xf4KL6xgwDs",
+  "title": "We've a Story to Tell to the Nations",
+  "writer": "H. Ernest Nichol",
+  "writerRef": "h-ernest-nichol",
+  "year": 1896,
+  "language": "English",
+  "themes": "Mission,Hope",
+  "key": "C",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 28:19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 434,
+  "hymnalCount": 362,
+  "video": {
+    "youtube": "LFf_7rlMltg",
+    "title": "WE’VE STORY TO TELL TO THE NATIONS (Lyrics With Voice)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

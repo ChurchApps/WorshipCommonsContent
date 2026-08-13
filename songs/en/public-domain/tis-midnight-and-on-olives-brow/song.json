@@ -1,0 +1,29 @@
+{
+  "id": "GwOD4PN2Ob4",
+  "title": "'Tis Midnight and On Olive's Brow",
+  "writer": "William Bingham Tappan",
+  "writerRef": null,
+  "year": 1822,
+  "language": "English",
+  "themes": "Angels,Atonement,Easter Week / Passion",
+  "key": "F",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Mt 26:36-45",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 738,
+  "video": {
+    "youtube": "UrECAcBvbjY",
+    "title": "'Tis Midnight, and on Olive's Brow - A Cappella Hymn"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

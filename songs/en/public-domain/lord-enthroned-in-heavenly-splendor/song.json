@@ -1,0 +1,29 @@
+{
+  "id": "t4e67l2h7u7",
+  "title": "Lord, Enthroned in Heavenly Splendor",
+  "writer": "George Hugh Bourne",
+  "writerRef": null,
+  "year": 1874,
+  "language": "English",
+  "themes": "Atonement,Bread,Faith",
+  "key": "Bb",
+  "bpm": 150,
+  "timeSignature": "6/4",
+  "scripture": "Rev 1:5-6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 70,
+  "video": {
+    "youtube": "nxkbBakVGuM",
+    "title": "Lord, enthroned in heavenly splendor (Bryn Calfaria)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

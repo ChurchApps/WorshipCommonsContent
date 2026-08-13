@@ -1,0 +1,30 @@
+{
+  "id": "5th67Ts4R1c",
+  "title": "¡Seguridad en Cristo Jesús!",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Spanish",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Hebreos 10:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "EOYiSGb2auU",
+    "title": "Blessed Assurance / Seguridad En Cristo Jesús"
+  },
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "8qB2rjGOUFb",
+  "title": "Go to Dark Gethsemane",
+  "writer": "James Montgomery",
+  "writerRef": "james-montgomery",
+  "year": 1825,
+  "language": "English",
+  "themes": "Easter,Lament",
+  "key": "Em",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 26:36",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 212,
+  "hymnalCount": 529,
+  "video": {
+    "youtube": "vD6tcMroY0A",
+    "title": "Go to Dark Gethsemane"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

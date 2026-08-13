@@ -1,0 +1,28 @@
+{
+  "id": "inO0rOjph2E",
+  "title": "I Must Tell Jesus",
+  "writer": "Elisha Hoffman",
+  "writerRef": "elisha-hoffman",
+  "year": 1893,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1 Peter 5:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 423,
+  "hymnalCount": 438,
+  "video": {
+    "youtube": "5PbKBx870fw",
+    "title": "I Must Tell Jesus • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

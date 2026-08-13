@@ -1,0 +1,29 @@
+{
+  "id": "Pd0jANPnkds",
+  "title": "I Come, O Savior, To Thy Table",
+  "writer": "Friedrich Christian Heyder · tr. composite",
+  "writerRef": null,
+  "year": 1710,
+  "language": "English",
+  "themes": "Angels,Assurance,Atonement",
+  "key": "C",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "1Cor 11:23-29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 9,
+  "video": {
+    "youtube": "4QLFZApE6AY",
+    "title": "I Come, O Savior, to Thy Table - LSB 618"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

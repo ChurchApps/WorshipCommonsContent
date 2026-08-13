@@ -1,0 +1,28 @@
+{
+  "id": "jezxVGT-AB_",
+  "title": "Jesus Paid It All",
+  "writer": "Elvina Hall & John Grape",
+  "writerRef": null,
+  "year": 1865,
+  "language": "English",
+  "themes": "Grace,Assurance",
+  "key": "Bb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 1:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1108,
+  "hymnalCount": 983,
+  "video": {
+    "youtube": "Ymkl0t0FOcw",
+    "title": "Jesus Paid It All - Kim Walker-Smith | Worship Circle Hymns"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

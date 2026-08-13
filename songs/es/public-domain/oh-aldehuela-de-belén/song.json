@@ -1,0 +1,30 @@
+{
+  "id": "0IBPpVOJnOy",
+  "title": "¡Oh Aldehuela de Belén!",
+  "writer": "Phillips Brooks",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Spanish",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Miqueas 5:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 19,
+  "video": {
+    "youtube": "c_AVn4U21zQ",
+    "title": "Himno 88 Oh, aldehuela de Belén Nuevo himnario Adventista"
+  },
+  "parent": {
+    "id": "a19OdmA8uPt",
+    "title": "O Little Town of Bethlehem"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

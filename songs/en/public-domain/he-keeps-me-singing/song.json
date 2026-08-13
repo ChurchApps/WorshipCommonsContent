@@ -1,0 +1,30 @@
+{
+  "id": "qtJsP3tVLNR",
+  "title": "He Keeps Me Singing",
+  "writer": "Luther Bridgers",
+  "writerRef": null,
+  "year": 1910,
+  "language": "English",
+  "themes": "Praise,Comfort",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Zephaniah 3:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 334,
+  "hymnalCount": 257,
+  "video": {
+    "youtube": "2gT-f8sDBJI",
+    "title": "Bill & Gloria Gaither - He Keeps Me Singing [Live] ft. Jake Hess"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

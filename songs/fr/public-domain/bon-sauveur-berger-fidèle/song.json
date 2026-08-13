@@ -1,0 +1,27 @@
+{
+  "id": "ydmq6gN4gF8",
+  "title": "Bon Sauveur, Berger Fidèle",
+  "writer": "Dorothy A. Thrupp",
+  "writerRef": null,
+  "year": 1836,
+  "language": "French",
+  "themes": "Trust,Provision",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Jean 10:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "Uo8aHwRz1ez",
+    "title": "Savior, Like a Shepherd Lead Us"
+  },
+  "relationLabel": "French translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

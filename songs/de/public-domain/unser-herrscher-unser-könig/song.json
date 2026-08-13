@@ -1,0 +1,27 @@
+{
+  "id": "tAA3oGikNcu",
+  "title": "Unser Herrscher, Unser König",
+  "writer": "Joachim Neander",
+  "writerRef": null,
+  "year": 1680,
+  "language": "German",
+  "themes": "Praise,Trust",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 8,9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "ThsV2EUH5G6",
+    "title": "Praise to the Lord, the Almighty"
+  },
+  "relationLabel": "German original · Joachim Neander, 1680",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

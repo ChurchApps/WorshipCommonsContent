@@ -1,0 +1,30 @@
+{
+  "id": "P0524jzR6SM",
+  "title": "Levantado Fue Jesús",
+  "writer": "tr. Enrique Turrall",
+  "writerRef": null,
+  "year": 1875,
+  "language": "Spanish",
+  "themes": "Grace,Adoration",
+  "key": "Bb",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Isaías 53:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 9,
+  "video": {
+    "youtube": "a_JQQZoxKUs",
+    "title": "Levantado fue Jesús"
+  },
+  "parent": {
+    "id": "1hnEmwE1b17",
+    "title": "Hallelujah! What a Savior"
+  },
+  "relationLabel": "Spanish translation · tr. Enrique Turrall",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

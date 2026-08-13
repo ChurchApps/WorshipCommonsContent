@@ -1,0 +1,30 @@
+{
+  "id": "jFQJ2KQWIE0",
+  "title": "Tú Dejaste Tu Trono y Corona por Mí",
+  "writer": "Emily Elliott",
+  "writerRef": null,
+  "year": 1864,
+  "language": "Spanish",
+  "themes": "Christmas,Grace",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Juan 1:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 39,
+  "video": {
+    "youtube": "gVG_2FBFbB4",
+    "title": "TU DEJASTE TU TRONO Y CORONA POR MÍ | Himno Bautista #60"
+  },
+  "parent": {
+    "id": "ARrDtJwZ8PE",
+    "title": "Thou Didst Leave Thy Throne"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

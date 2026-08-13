@@ -1,0 +1,30 @@
+{
+  "id": "buVDVg2gJ-H",
+  "title": "Immortal, Invisible, God Only Wise",
+  "writer": "Walter Chalmers Smith",
+  "writerRef": "walter-chalmers-smith",
+  "year": 1867,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "G",
+  "bpm": 108,
+  "timeSignature": "3/4",
+  "scripture": "1 Timothy 1:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 876,
+  "hymnalCount": 247,
+  "video": {
+    "youtube": "PS3QinSmPHI",
+    "title": "Immortal, invisible, God only wise Hymn - St Paul's Cathedral Platinum Jubilee Service"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

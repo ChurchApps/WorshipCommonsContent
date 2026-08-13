@@ -1,0 +1,28 @@
+{
+  "id": "_eDmIYEW-T8",
+  "title": "We Plow the Fields and Scatter",
+  "writer": "Matthias Claudius · tr. Jane Campbell",
+  "writerRef": "matthias-claudius",
+  "year": 1861,
+  "language": "English",
+  "themes": "Provision,Creation",
+  "key": "Bb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 65:9-10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 245,
+  "hymnalCount": 490,
+  "video": {
+    "youtube": "YM1ZneB6oXI",
+    "title": "We Plow the Fields and Scatter | Digital Reading Session"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

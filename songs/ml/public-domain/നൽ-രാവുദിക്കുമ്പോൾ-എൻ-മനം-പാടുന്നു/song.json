@@ -1,0 +1,27 @@
+{
+  "id": "cCdLBJCDaJ4",
+  "title": "നൽ രാവുദിക്കുമ്പോൾ എൻ മനം പാടുന്നു",
+  "writer": "എഡ്വേർഡ് കേസ്വെൽ",
+  "writerRef": null,
+  "year": 1744,
+  "language": "Malayalam",
+  "themes": "Praise",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "ഇയ്യോബ് 1:21",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "y8oQf2I_aSV",
+    "title": "When Morning Gilds the Skies"
+  },
+  "relationLabel": "Malayalam original · എഡ്വേർഡ് കേസ്വെൽ, 1744",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

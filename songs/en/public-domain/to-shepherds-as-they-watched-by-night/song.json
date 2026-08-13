@@ -1,0 +1,29 @@
+{
+  "id": "FT28ljlKcM3",
+  "title": "To Shepherds As They Watched By Night",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1543,
+  "language": "English",
+  "themes": "Angels,Assurance,Blood",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Is 9:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 17,
+  "video": {
+    "youtube": "j3iLbxlmyNU",
+    "title": "To Shepherds as They Watched by Night - Christmas Song - Christian Hymn"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Gx7dtPKLv_W",
+  "title": "Moment By Moment",
+  "writer": "Daniel Webster Whittle",
+  "writerRef": "daniel-webster-whittle",
+  "year": 1893,
+  "language": "English",
+  "themes": "Assurance,Atonement,Christian Life",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Mt 28:20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 175,
+  "video": {
+    "youtube": "b7b0cf_kM8c",
+    "title": "Moment by Moment | Steps to Christ"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

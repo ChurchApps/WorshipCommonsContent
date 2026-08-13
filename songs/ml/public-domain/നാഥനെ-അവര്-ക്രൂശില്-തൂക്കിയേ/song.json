@@ -1,0 +1,27 @@
+{
+  "id": "qZvNq4rIJKA",
+  "title": "നാഥനെ അവര്‍ ക്രൂശില്‍ തൂക്കിയേ",
+  "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Easter,Lament",
+  "key": "Eb",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "scripture": "യോഹന്നാന്‍ 19:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "U0YapCDGNs9",
+    "title": "Were You There"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

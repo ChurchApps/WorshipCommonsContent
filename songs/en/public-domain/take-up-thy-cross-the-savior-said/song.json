@@ -1,0 +1,29 @@
+{
+  "id": "YpXtYylnlnU",
+  "title": "'Take Up Thy Cross', the Savior Said",
+  "writer": "Charles William Everest",
+  "writerRef": null,
+  "year": 1833,
+  "language": "English",
+  "themes": "Anticipation,Atonement,Calmness",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Mk 8:34",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 313,
+  "video": {
+    "youtube": "pKsh9ZPM0tY",
+    "title": "Take Up Your Cross (The Saviour Said) | Traditional Christian Hymn | Choir+Lyrics | Sunday 7pm Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

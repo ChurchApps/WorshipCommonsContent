@@ -1,0 +1,28 @@
+{
+  "id": "In2EpQbYi9h",
+  "title": "Just as I Am",
+  "writer": "Charlotte Elliott & William Bradbury",
+  "writerRef": null,
+  "year": 1835,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "Eb",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "John 6:37",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1187,
+  "hymnalCount": 2579,
+  "video": {
+    "youtube": "G0XjqRZ9W_8",
+    "title": "Just as I am worship video ( modern)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

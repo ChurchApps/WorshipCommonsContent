@@ -1,0 +1,27 @@
+{
+  "id": "2K4FQfS7hZs",
+  "title": "Да будет Отцу Всеблагому Хвала!",
+  "writer": "Уильям Макэй",
+  "writerRef": null,
+  "year": 1863,
+  "language": "Russian",
+  "themes": "Praise,Confession",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Псалом 85:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "SvEvb5vrQYJ",
+    "title": "Revive Us Again"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

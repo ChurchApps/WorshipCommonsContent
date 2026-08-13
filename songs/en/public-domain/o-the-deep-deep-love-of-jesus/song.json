@@ -1,0 +1,30 @@
+{
+  "id": "tqc4aKCrQ8k",
+  "title": "O the Deep, Deep Love of Jesus",
+  "writer": "Samuel Trevor Francis",
+  "writerRef": null,
+  "year": 1875,
+  "language": "English",
+  "themes": "Adoration,Grace",
+  "key": "Dm",
+  "bpm": 76,
+  "timeSignature": "8/4",
+  "scripture": "Ephesians 3:18-19",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 623,
+  "hymnalCount": 85,
+  "video": {
+    "youtube": "9hzYKovRsJ8",
+    "title": "O THE DEEP, DEEP LOVE OF JESUS - Selah"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

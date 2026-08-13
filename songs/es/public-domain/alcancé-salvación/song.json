@@ -1,0 +1,29 @@
+{
+  "id": "Qr7hwx25Ikh",
+  "title": "Alcancé Salvación",
+  "writer": "Horatio Spafford · tr. Pedro Grado",
+  "writerRef": null,
+  "year": 1905,
+  "language": "Spanish",
+  "themes": "Comfort,Assurance",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 46:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 289,
+  "hymnalCount": 15,
+  "video": {
+    "youtube": "ZYL1tKtdrFk",
+    "title": "ALCANCÉ SALVACIÓN | Himno Bautista #330 | Música y Letra"
+  },
+  "parent": {
+    "id": "_UFqNA48X8n",
+    "title": "It Is Well with My Soul"
+  },
+  "relationLabel": "Spanish translation · tr. Pedro Grado",
+  "provenance": {
+    "text": "wc-seed"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "KWOxYIWoyoY",
+  "title": "Föl, Lelkem, Itt a Nap",
+  "writer": "Charles Wesley · tr. Anna Piroska Williams",
+  "writerRef": null,
+  "year": 1975,
+  "language": "Hungarian",
+  "themes": "Assurance,Grace",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Róma 8:34",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "AmR3I3-LM0h",
+    "title": "Arise, My Soul, Arise"
+  },
+  "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1975",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

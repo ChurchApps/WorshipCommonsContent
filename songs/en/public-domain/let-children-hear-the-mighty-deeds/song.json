@@ -1,0 +1,29 @@
+{
+  "id": "rXPLoeW3pZl",
+  "title": "Let Children Hear The Mighty Deeds",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1719,
+  "language": "English",
+  "themes": "Activity,Children,Christian Home/Family",
+  "key": "A",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 78:5-8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 181,
+  "video": {
+    "youtube": "xr_PpCTRuM8",
+    "title": "Let The Children Hear the Mighty Deeds - Hymn 293"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

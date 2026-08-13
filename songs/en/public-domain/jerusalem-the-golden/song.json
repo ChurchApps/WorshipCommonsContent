@@ -1,0 +1,29 @@
+{
+  "id": "Cw8x-nJ81Hi",
+  "title": "Jerusalem the Golden",
+  "writer": "Bernard of Cluny aka. Bernard of Morlaix · tr. John Mason Neale",
+  "writerRef": null,
+  "year": 1146,
+  "language": "English",
+  "themes": "Angels,Anticipation,Brevity of Life",
+  "key": "C",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "Rev 21:18-23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 956,
+  "video": {
+    "youtube": "HJBPYXkWKUg",
+    "title": "Jerusalem the Golden"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

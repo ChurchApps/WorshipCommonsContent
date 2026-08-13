@@ -1,0 +1,24 @@
+{
+  "id": "kUBHRmZ-guK",
+  "title": "Me Voici, Seigneur, Sauveur",
+  "writer": "Edmond Pidoux",
+  "writerRef": null,
+  "year": 1879,
+  "language": "French",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "1 Samuel 2.10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

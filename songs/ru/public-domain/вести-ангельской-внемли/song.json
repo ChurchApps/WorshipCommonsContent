@@ -1,0 +1,27 @@
+{
+  "id": "N_lldrYnA2l",
+  "title": "Вести Ангельской Внемли",
+  "writer": "Чарльз Уэсли",
+  "writerRef": null,
+  "year": 1739,
+  "language": "Russian",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Евангелие от Луки 2:13–14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "pSpS9dU7qHg",
+    "title": "Hark! The Herald Angels Sing"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "4X1OUgKUnUf",
+  "title": "Let Our Gladness Have No End",
+  "writer": "Tobias Zavorka",
+  "writerRef": null,
+  "year": 1602,
+  "language": "English",
+  "themes": "Christmas/Advent,Jesus,Joy",
+  "key": "G",
+  "bpm": 160,
+  "timeSignature": "4/4",
+  "scripture": "Rom 5:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 14,
+  "video": {
+    "youtube": "t4YNj7dv1mI",
+    "title": "Sara Groves - Let Our Gladness Have No End (Official Audio)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

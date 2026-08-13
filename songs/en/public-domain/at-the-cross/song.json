@@ -1,0 +1,28 @@
+{
+  "id": "c6lqqDbza45",
+  "title": "At the Cross",
+  "writer": "Isaac Watts & Ralph Hudson",
+  "writerRef": null,
+  "year": 1885,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Romans 5:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 623,
+  "hymnalCount": 2631,
+  "video": {
+    "youtube": "X23Fu2j0HFs",
+    "title": "AT THE CROSS ( where I first saw the light ) Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

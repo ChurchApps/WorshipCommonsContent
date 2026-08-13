@@ -1,0 +1,28 @@
+{
+  "id": "3A7DVh2sbI1",
+  "title": "My Hope Is Built on Nothing Less",
+  "writer": "Edward Mote & William Bradbury",
+  "writerRef": null,
+  "year": 1834,
+  "language": "English",
+  "themes": "Assurance,Trust",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 7:24",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1245,
+  "hymnalCount": 1253,
+  "video": {
+    "youtube": "rkMapZB8qMk",
+    "title": "My Hope Is Built on Nothing Less"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

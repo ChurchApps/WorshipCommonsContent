@@ -1,0 +1,28 @@
+{
+  "id": "S2YvwEJaaXm",
+  "title": "Safe in the Arms of Jesus",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1868,
+  "language": "English",
+  "themes": "Comfort,Assurance",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Deuteronomy 33:27",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 530,
+  "video": {
+    "youtube": "akCa9fqzgQg",
+    "title": "Safe in the Arms of Jesus"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "qyjIWduhQob",
+  "title": "Engjëjt Prej Lavdisë Së Qiejve",
+  "writer": "James Montgomery · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1816,
+  "language": "Albanian",
+  "themes": "Christmas,Praise",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Lluka 2:13-14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "fmyzdjIOJWK",
+    "title": "Angels from the Realms of Glory"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

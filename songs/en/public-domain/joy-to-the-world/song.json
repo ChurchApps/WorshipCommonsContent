@@ -1,0 +1,30 @@
+{
+  "id": "_X94hS2ZTgf",
+  "title": "Joy to the World",
+  "writer": "Isaac Watts & Lowell Mason",
+  "writerRef": null,
+  "year": 1719,
+  "language": "English",
+  "themes": "Christmas,Praise",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "scripture": "Psalm 98:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1688,
+  "hymnalCount": 2054,
+  "video": {
+    "youtube": "30OaM6b48k8",
+    "title": "Joy to the World with Lyrics | Christmas Carol & Song"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

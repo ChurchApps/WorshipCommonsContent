@@ -1,0 +1,27 @@
+{
+  "id": "X3ZKi7xGqLe",
+  "title": "സുന്ദരനേശു, ഈ പ്രപഞ്ചനാഥൻ",
+  "writer": "യോസഫ് എ. സൈസ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "ഉത്തമഗീതം 6:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "efSPV6ob7E5",
+    "title": "Fairest Lord Jesus"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

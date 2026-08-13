@@ -1,0 +1,29 @@
+{
+  "id": "7Qhc6CTfvBg",
+  "title": "If God Himself Be For Me",
+  "writer": "Paul Gerhardt · tr. Richard Massie",
+  "writerRef": "paul-gerhardt",
+  "year": 1656,
+  "language": "English",
+  "themes": "Angels,Assurance,Atonement",
+  "key": "G",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "scripture": "Rom 8:31-39",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 46,
+  "video": {
+    "youtube": "673BVWwbsL8",
+    "title": "If God Himself Be for Me"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

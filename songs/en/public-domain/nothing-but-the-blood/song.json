@@ -1,0 +1,28 @@
+{
+  "id": "3A7uOIvq4zf",
+  "title": "Nothing but the Blood",
+  "writer": "Robert Lowry",
+  "writerRef": "robert-lowry",
+  "year": 1876,
+  "language": "English",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 9:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1176,
+  "hymnalCount": 666,
+  "video": {
+    "youtube": "XYgmMwAxBS8",
+    "title": "Charity Gayle - Nothing But the Blood (Live)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

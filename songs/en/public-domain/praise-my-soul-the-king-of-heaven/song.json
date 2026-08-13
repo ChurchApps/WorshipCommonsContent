@@ -1,0 +1,30 @@
+{
+  "id": "JjnX-vtk8am",
+  "title": "Praise, My Soul, the King of Heaven",
+  "writer": "Henry Lyte & John Goss",
+  "writerRef": null,
+  "year": 1834,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "2/4",
+  "scripture": "Psalm 103:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 812,
+  "hymnalCount": 593,
+  "video": {
+    "youtube": "GyRIVbdsi4c",
+    "title": "Praise, my soul the King of heaven"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

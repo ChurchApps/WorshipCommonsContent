@@ -1,0 +1,29 @@
+{
+  "id": "oZpX2J-8Sa8",
+  "title": "Souls of Men! Why Will Ye Scatter",
+  "writer": "Frederick William Faber",
+  "writerRef": "frederick-william-faber",
+  "year": 1862,
+  "language": "English",
+  "themes": "Assurance,Blood,Christian Life",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ps 103:1-22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 142,
+  "video": {
+    "youtube": "DS3_-NvpXpY",
+    "title": "Souls Of Men, Why Will Ye Scatter(ST. MABYN ) - Old Hymn Lyrics & Music"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

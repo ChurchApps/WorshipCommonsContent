@@ -1,0 +1,27 @@
+{
+  "id": "najHIg2HEFg",
+  "title": "Sunshine in My Soul",
+  "writer": "Eliza Hewitt & John Sweney",
+  "writerRef": null,
+  "year": 1887,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 97:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 234,
+  "hymnalCount": 425,
+  "video": {
+    "youtube": "I6ODNyCOxW0",
+    "title": "Sunshine In My Soul • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2tvUj0mVq7P",
+  "title": "യേശുവോടൊപ്പം ഞാൻ",
+  "writer": "ഡാനിയേൽ ഡബ്ള്യൂ വിറ്റിൽ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2016,
+  "language": "Malayalam",
+  "themes": "Assurance,Atonement,Christian Life",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "മത്തായി 28:20",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "Gx7dtPKLv_W",
+    "title": "Moment By Moment"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2016",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

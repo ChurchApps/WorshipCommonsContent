@@ -1,0 +1,28 @@
+{
+  "id": "K864gyKDZh3",
+  "title": "Onward, Christian Soldiers",
+  "writer": "Sabine Baring-Gould & Arthur Sullivan",
+  "writerRef": "sabine-baring-gould-arthur-sullivan",
+  "year": 1871,
+  "language": "English",
+  "themes": "Mission,Trust",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "2 Timothy 2:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 745,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "64K7HmLM54Y",
+    "title": "Onward Christian Soldiers"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

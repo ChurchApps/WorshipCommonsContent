@@ -1,0 +1,27 @@
+{
+  "id": "AiPkxScjLaH",
+  "title": "Qytet i Vogël, Bethlehem",
+  "writer": "Phillips Brooks · tr. Jan Foss",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Albanian",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Mikea 5:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "a19OdmA8uPt",
+    "title": "O Little Town of Bethlehem"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

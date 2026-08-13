@@ -1,0 +1,29 @@
+{
+  "id": "eygH0jOcl3-",
+  "title": "The Winds and Billows Loudly Roar",
+  "writer": "Christopher Wordsworth · tr. %%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def",
+  "writerRef": "christopher-wordsworth",
+  "year": 1865,
+  "language": "English",
+  "themes": "Calmness,Christian Life,Church on Earth",
+  "key": "Ab",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Mt 8:23-27",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "_0Z2gw85odI",
+    "title": "MUSIC: The Winds And Billows Loudly Roar Consolation Morning Song"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

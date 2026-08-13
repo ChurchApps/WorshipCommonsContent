@@ -1,0 +1,27 @@
+{
+  "id": "91QfYZrDRfZ",
+  "title": "Christum Wir Sollen Loben Schon",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "German",
+  "themes": "Angels,Christmas/Advent,Jesus",
+  "key": "C",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "scripture": "Philipper 2:6,7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "CSUcCTR2wYQ",
+    "title": "Now Praise We Christ, the Holy One"
+  },
+  "relationLabel": "German original · Martin Luther, 1524",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "PBT2FmuhgUL",
+  "title": "Jesus, Lover of My Soul",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1740,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 61:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 587,
+  "hymnalCount": 3596,
+  "video": {
+    "youtube": "NsXcCdWjsmg",
+    "title": "Jesus, Lover Of My Soul - Fernando Ortega"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
+  }
+}

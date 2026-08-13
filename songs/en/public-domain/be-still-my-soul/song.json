@@ -1,0 +1,30 @@
+{
+  "id": "4WROo6Jwv2f",
+  "title": "Be Still, My Soul",
+  "writer": "Katharina von Schlegel · tr. Jane Borthwick",
+  "writerRef": null,
+  "year": 1855,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 46:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1054,
+  "hymnalCount": 220,
+  "video": {
+    "youtube": "aFj68DbbHRI",
+    "title": "Be Still, My Soul | Traditional Christian Hymn of Healing & Comfort | FINLANDIA | Choir with Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

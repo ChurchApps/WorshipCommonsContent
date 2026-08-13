@@ -1,0 +1,27 @@
+{
+  "id": "x7PQuitv4bd",
+  "title": "Que Segurança (Nind)",
+  "writer": "Fanny Crosby · tr. George B. Nind",
+  "writerRef": null,
+  "year": 1890,
+  "language": "Portuguese",
+  "themes": "Assurance,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "9/8",
+  "scripture": "Salmos 4:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "0YyJoAE9Ge4",
+    "title": "Blessed Assurance"
+  },
+  "relationLabel": "Portuguese translation · tr. George B. Nind, 1890",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

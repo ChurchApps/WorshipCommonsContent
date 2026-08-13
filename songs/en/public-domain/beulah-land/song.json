@@ -1,0 +1,27 @@
+{
+  "id": "huxjoMyQ1HU",
+  "title": "Beulah Land",
+  "writer": "Edgar Stites & John Sweney",
+  "writerRef": null,
+  "year": 1876,
+  "language": "English",
+  "themes": "Hope,Assurance",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Isaiah 62:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 212,
+  "hymnalCount": 355,
+  "video": {
+    "youtube": "5WdeC4vWRpo",
+    "title": "Bill & Gloria Gaither - Sweet Beulah Land [Live] ft. Squire Parsons"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

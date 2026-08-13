@@ -1,0 +1,28 @@
+{
+  "id": "_9Rr3_G8q33",
+  "title": "Shall We Gather at the River",
+  "writer": "Robert Lowry",
+  "writerRef": "robert-lowry",
+  "year": 1864,
+  "language": "English",
+  "themes": "Hope,Comfort",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 22:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 512,
+  "hymnalCount": 864,
+  "video": {
+    "youtube": "v1qnjd23YQM",
+    "title": "BEAUTIFUL Hymn about Heaven - Shall We Gather At the River (With Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

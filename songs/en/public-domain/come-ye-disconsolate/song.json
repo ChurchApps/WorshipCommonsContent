@@ -1,0 +1,30 @@
+{
+  "id": "RmcfAcbelTI",
+  "title": "Come, Ye Disconsolate",
+  "writer": "Thomas Moore & Samuel Webbe",
+  "writerRef": null,
+  "year": 1816,
+  "language": "English",
+  "themes": "Comfort,Grace",
+  "key": "F",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 11:28",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 345,
+  "hymnalCount": 1135,
+  "video": {
+    "youtube": "L3jLeJQuXWc",
+    "title": "Come, Ye Disconsolate - Hymn Sing-Along [With Lyrics Onscreen]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

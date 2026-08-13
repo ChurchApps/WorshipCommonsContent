@@ -1,0 +1,29 @@
+{
+  "id": "5jIN8ClZOsh",
+  "title": "Jesus Christ Who Came to Save",
+  "writer": "Martin Luther · tr. Leonard Woolsey Bacon",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Assurance,Atonement,Jesus",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "1Cor 15:25-26",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "heqaEwwz83A",
+    "title": "ThanksGiving to our Lord and Savior Jesus Christ who came to save us and the World for Eternity."
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

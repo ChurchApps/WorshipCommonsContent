@@ -1,0 +1,29 @@
+{
+  "id": "vD20CVwCsV7",
+  "title": "Jesus Sinners Doth Receive",
+  "writer": "Erdmann Neumeister · tr. Henry Mills",
+  "writerRef": "erdmann-neumeister",
+  "year": 1718,
+  "language": "English",
+  "themes": "Anticipation,Assurance,Blood",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Lk 15:1-7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 32,
+  "video": {
+    "youtube": "82GxNSeYrZI",
+    "title": "Score Video: LSB 609 Jesus Sinners Doth Receive | Lutheran Hymn Sing"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

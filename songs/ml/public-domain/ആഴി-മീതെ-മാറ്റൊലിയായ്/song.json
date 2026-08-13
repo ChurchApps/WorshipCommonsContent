@@ -1,0 +1,27 @@
+{
+  "id": "X0I17aPt-q8",
+  "title": "ആഴി മീതെ മാറ്റൊലിയായ്",
+  "writer": "ചാൾസ് എച്ച് ഗബ്രിയേൽ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2018,
+  "language": "Malayalam",
+  "themes": "Mission,Hope",
+  "key": "G",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 43:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "skP32CqkruU",
+    "title": "Send the Light"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2018",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

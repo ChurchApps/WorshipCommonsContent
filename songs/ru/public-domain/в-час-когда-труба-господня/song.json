@@ -1,0 +1,27 @@
+{
+  "id": "OCIYRZDy2Nd",
+  "title": "В Час, Когда Труба Господня",
+  "writer": "Джеймс М. Блэк",
+  "writerRef": null,
+  "year": 1893,
+  "language": "Russian",
+  "themes": "Hope,Assurance",
+  "key": "D",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "scripture": "Откровения 20:12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "FvJ1-pBDj2R",
+    "title": "When the Roll Is Called Up Yonder"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "jY7zZ5DB4YC",
+  "title": "My Faith Looks Up to Thee",
+  "writer": "Ray Palmer & Lowell Mason",
+  "writerRef": null,
+  "year": 1830,
+  "language": "English",
+  "themes": "Trust,Confession",
+  "key": "D",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 12:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 534,
+  "hymnalCount": 2471,
+  "video": {
+    "youtube": "jeMcpnYLwJg",
+    "title": "My Faith Looks Up to Thee (Metropolitan Tabernacle)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

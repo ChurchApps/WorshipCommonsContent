@@ -1,0 +1,28 @@
+{
+  "id": "d7ew-V9o37e",
+  "title": "I Will Sing the Wondrous Story",
+  "writer": "Francis Rowley & Peter Bilhorn",
+  "writerRef": null,
+  "year": 1886,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 5:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 370,
+  "video": {
+    "youtube": "9ahjKfVb4Lc",
+    "title": "I Will Sing the Wondrous Story"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

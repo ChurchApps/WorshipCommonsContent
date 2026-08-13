@@ -1,0 +1,30 @@
+{
+  "id": "WkCVj-VmN5t",
+  "title": "Dulce Comunión",
+  "writer": "Elisha Hoffman",
+  "writerRef": "elisha-hoffman",
+  "year": 1887,
+  "language": "Spanish",
+  "themes": "Trust,Assurance",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Deuteronomio 33:27",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 35,
+  "video": {
+    "youtube": "QEM8RgVkHOk",
+    "title": "HA62 | Himno 335 | Dulce comunión"
+  },
+  "parent": {
+    "id": "MRBzXWTgxx2",
+    "title": "Leaning on the Everlasting Arms"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

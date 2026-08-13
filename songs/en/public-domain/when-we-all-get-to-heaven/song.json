@@ -1,0 +1,28 @@
+{
+  "id": "KKicIKos1rH",
+  "title": "When We All Get to Heaven",
+  "writer": "Eliza Hewitt & Emily Wilson",
+  "writerRef": null,
+  "year": 1898,
+  "language": "English",
+  "themes": "Hope,Praise",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "John 14:2-3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 634,
+  "hymnalCount": 402,
+  "video": {
+    "youtube": "qwpTceQfqGw",
+    "title": "When We All Get to Heaven (Hymns with Lyrics)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

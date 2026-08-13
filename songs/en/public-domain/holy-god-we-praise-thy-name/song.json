@@ -1,0 +1,30 @@
+{
+  "id": "x6dt0sEKLU0",
+  "title": "Holy God, We Praise Thy Name",
+  "writer": "Ignaz Franz · tr. Clarence Walworth",
+  "writerRef": "ignaz-franz",
+  "year": 1858,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "3/4",
+  "scripture": "Revelation 4:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 512,
+  "hymnalCount": 226,
+  "video": {
+    "youtube": "SuUGPniE1D4",
+    "title": "Holy God, We Praise Thy Name | Traditional Christian Hymn | Choir with Lyrics | Sunday 7pm Choir"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "zXAxxMmTDyn",
+  "title": "O Father, All Creating",
+  "writer": "John Ellerton",
+  "writerRef": "john-ellerton",
+  "year": 1876,
+  "language": "English",
+  "themes": "Christian Home/Family,Christian Life,Consecration",
+  "key": "D",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "scripture": "Gen 2:18-25",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 60,
+  "video": {
+    "youtube": "GCPv49PBBKM",
+    "title": "O Father, All-Creating"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

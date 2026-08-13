@@ -1,0 +1,27 @@
+{
+  "id": "wtYgRYgmxDP",
+  "title": "Ç’mik Na Është Jezus Krishte",
+  "writer": "Joseph M. Scriven",
+  "writerRef": null,
+  "year": 1855,
+  "language": "Albanian",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Gjoni 15:13",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "DmZMgNX0L6p",
+    "title": "What a Friend We Have in Jesus"
+  },
+  "relationLabel": "Albanian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "VGjVnNebhNI",
+  "title": "Nunca, Dios Mío",
+  "writer": "Juan Cabrera",
+  "writerRef": null,
+  "year": null,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Salmo 138:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 34,
+  "video": {
+    "youtube": "HBAWRigCV14",
+    "title": "HIMNO 15 NUNCA, DIOS MIÓ"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

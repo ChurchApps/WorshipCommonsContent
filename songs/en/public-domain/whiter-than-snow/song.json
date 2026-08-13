@@ -1,0 +1,30 @@
+{
+  "id": "bVxrQdGHHXy",
+  "title": "Whiter than Snow",
+  "writer": "James Nicholson & William Fischer",
+  "writerRef": null,
+  "year": 1872,
+  "language": "English",
+  "themes": "Confession,Grace",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 51:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 356,
+  "hymnalCount": 785,
+  "video": {
+    "youtube": "bVWOV8_PPCk",
+    "title": "Whiter Than Snow | Help in Daily Living"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

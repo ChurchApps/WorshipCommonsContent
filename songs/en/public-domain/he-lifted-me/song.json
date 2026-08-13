@@ -1,0 +1,27 @@
+{
+  "id": "AkHvStC3b64",
+  "title": "He Lifted Me",
+  "writer": "Charles Gabriel",
+  "writerRef": "charles-gabriel",
+  "year": 1905,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "Bb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 40:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 223,
+  "hymnalCount": 224,
+  "video": {
+    "youtube": "_QWOcQVpeAE",
+    "title": "He Lifted Me • Congregational"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal"
+  }
+}

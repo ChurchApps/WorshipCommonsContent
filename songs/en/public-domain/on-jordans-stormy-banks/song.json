@@ -1,0 +1,28 @@
+{
+  "id": "BSIoSn3Fq8N",
+  "title": "On Jordan's Stormy Banks",
+  "writer": "Samuel Stennett",
+  "writerRef": "samuel-stennett",
+  "year": 1787,
+  "language": "English",
+  "themes": "Hope,Assurance",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Deuteronomy 34:1-4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 289,
+  "hymnalCount": 1620,
+  "video": {
+    "youtube": "8f7Emjm6oys",
+    "title": "Keith & Kristyn Getty - On Jordan's Stormy Banks (Lyric Video)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

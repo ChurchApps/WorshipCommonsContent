@@ -1,0 +1,28 @@
+{
+  "id": "SvEvb5vrQYJ",
+  "title": "Revive Us Again",
+  "writer": "William Mackay",
+  "writerRef": null,
+  "year": 1863,
+  "language": "English",
+  "themes": "Praise,Confession",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 85:6",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 412,
+  "hymnalCount": 1497,
+  "video": {
+    "youtube": "fmIidg70inc",
+    "title": "Revive Us Again | Reawaken Hymns | Official Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "HUuee0kEMP3",
+  "title": "Suenen Dulces Himnos",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": null,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 2:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 33,
+  "video": {
+    "youtube": "7V6-0vMwvCU",
+    "title": "HA62 | Himno 18 | ¡Suenen dulces himnos!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

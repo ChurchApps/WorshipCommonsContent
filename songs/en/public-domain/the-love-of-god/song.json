@@ -1,0 +1,28 @@
+{
+  "id": "hICOjcxifEW",
+  "title": "The Love of God",
+  "writer": "Frederick Martin Lehman",
+  "writerRef": null,
+  "year": 1917,
+  "language": "English",
+  "themes": "Atonement,Children,Grace",
+  "key": "Db",
+  "bpm": 90,
+  "timeSignature": "3/4",
+  "scripture": "Rom 8:35-39",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 120,
+  "video": {
+    "youtube": "ojTQzJ3CBW0",
+    "title": "The Love Of God (Hymn 91) - HYMNOLOGY Season 6"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

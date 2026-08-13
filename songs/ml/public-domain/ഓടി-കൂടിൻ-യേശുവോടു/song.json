@@ -1,0 +1,27 @@
+{
+  "id": "3kGdSjiK5hq",
+  "title": "ഓടി കൂടിൻ യേശുവോടു",
+  "writer": "ഹെന്രി എച്ച്. മിൽമേൻ",
+  "writerRef": null,
+  "year": 1827,
+  "language": "Malayalam",
+  "themes": "Easter,Adoration",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "സെഖര്യാവു 9:9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "pbJKDVx4h1h",
+    "title": "Ride On, Ride On in Majesty"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

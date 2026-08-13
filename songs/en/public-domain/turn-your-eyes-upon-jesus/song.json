@@ -1,0 +1,28 @@
+{
+  "id": "3HZrQf5Zwr-",
+  "title": "Turn Your Eyes upon Jesus",
+  "writer": "Helen Lemmel",
+  "writerRef": null,
+  "year": 1922,
+  "language": "English",
+  "themes": "Comfort,Hope",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 12:2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 1345,
+  "hymnalCount": 29,
+  "video": {
+    "youtube": "q5x0MclH3l0",
+    "title": "Turn Your Eyes Upon Jesus"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

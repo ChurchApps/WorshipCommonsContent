@@ -1,0 +1,27 @@
+{
+  "id": "8Lm5nx0DCwY",
+  "title": "Скажи Мне Весть Благую!",
+  "writer": "Катерин Ханки",
+  "writerRef": null,
+  "year": 1866,
+  "language": "Russian",
+  "themes": "Grace,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Иезекииль 3:11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "LGHmqUi6pBw",
+    "title": "Tell Me the Old, Old Story"
+  },
+  "relationLabel": "Russian translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

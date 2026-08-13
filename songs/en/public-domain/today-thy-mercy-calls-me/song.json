@@ -1,0 +1,29 @@
+{
+  "id": "dDjYFsbXGVX",
+  "title": "Today Thy Mercy Calls Me",
+  "writer": "Oswald Allen",
+  "writerRef": null,
+  "year": 1861,
+  "language": "English",
+  "themes": "Angels,Anticipation,Blood",
+  "key": "A",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Is 1:18",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 97,
+  "video": {
+    "youtube": "LlaamLDgFu8",
+    "title": "313 Today Thy mercy calls me"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

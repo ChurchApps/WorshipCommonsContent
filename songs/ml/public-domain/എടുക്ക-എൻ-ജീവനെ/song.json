@@ -1,0 +1,27 @@
+{
+  "id": "ByfX70Azu_L",
+  "title": "എടുക്ക എൻ ജീവനെ",
+  "writer": "ഫ്രാൻസിസ് ഹേവർഗാൾ · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1874,
+  "language": "Malayalam",
+  "themes": "Confession,Mission",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "റോമർ 12:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "XHeQW0SBedC",
+    "title": "Take My Life and Let It Be"
+  },
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

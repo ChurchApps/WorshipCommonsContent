@@ -1,0 +1,29 @@
+{
+  "id": "eCjJsljN1v0",
+  "title": "Though in the Midst of Life We Be",
+  "writer": "Medieval & Martin Luther · tr. Richard Massie",
+  "writerRef": "medieval-martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Blood,Conscience,Courage in Affliction",
+  "key": "C",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "scripture": "1Sam 20:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": {
+    "youtube": "V7u-OQ_AGjw",
+    "title": "Though in Midst of Life We Be (Stark uns, Mittler, dein sind wir)"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

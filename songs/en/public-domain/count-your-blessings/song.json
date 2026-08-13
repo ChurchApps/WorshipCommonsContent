@@ -1,0 +1,28 @@
+{
+  "id": "FMffPYxulvd",
+  "title": "Count Your Blessings",
+  "writer": "Johnson Oatman & Edwin Excell",
+  "writerRef": "johnson-oatman-edwin-excell",
+  "year": 1897,
+  "language": "English",
+  "themes": "Provision,Praise",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ephesians 1:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 656,
+  "hymnalCount": 332,
+  "video": {
+    "youtube": "Hb4JBNDWhOA",
+    "title": "Count Your Blessings (Ingrid DuMosch & The London Fox Singers) - MVL - roncobb1"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

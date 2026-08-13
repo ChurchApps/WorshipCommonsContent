@@ -1,0 +1,30 @@
+{
+  "id": "T1GAOF8d44C",
+  "title": "Por la Excelsa Majestad",
+  "writer": "Folliott Pierpoint · tr. Federico Pagura",
+  "writerRef": null,
+  "year": 1864,
+  "language": "Spanish",
+  "themes": "Creation,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Santiago 1:17",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 12,
+  "video": {
+    "youtube": "zRHR-wRK8Mk",
+    "title": "Por la excelsa majestad - Himno 370 - Nuevo Himnario Adventista 🎶"
+  },
+  "parent": {
+    "id": "Umvqw0Kazrh",
+    "title": "For the Beauty of the Earth"
+  },
+  "relationLabel": "Spanish translation · tr. Federico Pagura",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

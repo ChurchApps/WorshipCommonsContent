@@ -1,0 +1,27 @@
+{
+  "id": "CoLW5obJroH",
+  "title": "Erhalt’ uns, Herr, bei deinem Wort",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1541,
+  "language": "German",
+  "themes": "Discipleship,God's Children - the Faithful,Guidance",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "Johannes 17,11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "kdHEkNmFqdd",
+    "title": "Lord, Keep Us Steadfast in Thy Word"
+  },
+  "relationLabel": "German original · Martin Luther, 1541",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

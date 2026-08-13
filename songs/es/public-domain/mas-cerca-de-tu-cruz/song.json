@@ -1,0 +1,30 @@
+{
+  "id": "yltZC7vphBF",
+  "title": "Mas Cerca de Tu Cruz",
+  "writer": "Fanny Crosby",
+  "writerRef": null,
+  "year": 1875,
+  "language": "Spanish",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Hebreos 10:22",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 6,
+  "video": {
+    "youtube": "Xn14hR1YOYQ",
+    "title": "himno 36 de sion ; Tuyo soy Jesus , Aun mas cerca de tu Cruz"
+  },
+  "parent": {
+    "id": "mxPKhsn413w",
+    "title": "I Am Thine, O Lord"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

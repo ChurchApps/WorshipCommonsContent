@@ -1,0 +1,28 @@
+{
+  "id": "_CPlBfrLraw",
+  "title": "Softly and Tenderly",
+  "writer": "Will Thompson",
+  "writerRef": "will-thompson",
+  "year": 1880,
+  "language": "English",
+  "themes": "Grace,Comfort",
+  "key": "G",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 11:28",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 823,
+  "hymnalCount": 1040,
+  "video": {
+    "youtube": "Ck58d3BMBX0",
+    "title": "Softly & Tenderly (Official Lyric Video) - Kristyn Getty, Vince Gill, Ellie Holcomb, Sierra Hull"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

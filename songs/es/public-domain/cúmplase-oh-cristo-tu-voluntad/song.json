@@ -1,0 +1,30 @@
+{
+  "id": "-8Ps6F1Q3Of",
+  "title": "Cúmplase, Oh Cristo, Tu Voluntad",
+  "writer": "Adelaide Pollard",
+  "writerRef": null,
+  "year": 1907,
+  "language": "Spanish",
+  "themes": "Confession,Trust",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Isaías 64:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 4,
+  "video": {
+    "youtube": "HWBxoMkrW7Q",
+    "title": "HA62 | Himno 260 | Cúmplase, oh Cristo, tu voluntad"
+  },
+  "parent": {
+    "id": "UR1ml-cz5-o",
+    "title": "Have Thine Own Way, Lord"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

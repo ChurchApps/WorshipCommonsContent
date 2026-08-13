@@ -1,0 +1,27 @@
+{
+  "id": "fde3aYFoCKU",
+  "title": "കർത്താവു വാഴുന്നു",
+  "writer": "ചാൾസ് വെസ്ലി",
+  "writerRef": null,
+  "year": 1744,
+  "language": "Malayalam",
+  "themes": "Praise,Hope",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "ഫിലിപ്പിയർ 4:4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "IlEmJ2XjOpf",
+    "title": "Rejoice, the Lord Is King"
+  },
+  "relationLabel": "Malayalam translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

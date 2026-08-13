@@ -1,0 +1,30 @@
+{
+  "id": "WE26JDTfHyQ",
+  "title": "How Firm a Foundation",
+  "writer": "John Rippon's Selection",
+  "writerRef": null,
+  "year": 1787,
+  "language": "English",
+  "themes": "Assurance,Trust",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "2/2",
+  "scripture": "Isaiah 41:10",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 745,
+  "hymnalCount": 2419,
+  "video": {
+    "youtube": "3vZfzYSEGwk",
+    "title": "How Firm a Foundation | Reawaken Hymns | Official Lyric Video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

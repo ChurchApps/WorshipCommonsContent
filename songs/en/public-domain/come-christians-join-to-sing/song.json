@@ -1,0 +1,28 @@
+{
+  "id": "hPzmmzBAKpz",
+  "title": "Come, Christians, Join to Sing",
+  "writer": "Christian Bateman",
+  "writerRef": null,
+  "year": 1843,
+  "language": "English",
+  "themes": "Praise",
+  "key": "G",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 95:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 578,
+  "hymnalCount": 151,
+  "video": {
+    "youtube": "xeZLDY8fJ1Y",
+    "title": "Come, Christians, Join to Sing"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

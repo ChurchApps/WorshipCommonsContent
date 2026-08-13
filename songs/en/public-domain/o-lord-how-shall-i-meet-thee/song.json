@@ -1,0 +1,29 @@
+{
+  "id": "2blPH8NzFt-",
+  "title": "O Lord, How Shall I Meet Thee",
+  "writer": "Paul Gerhardt",
+  "writerRef": "paul-gerhardt",
+  "year": 1653,
+  "language": "English",
+  "themes": "Anticipation,Assurance,Christmas/Advent",
+  "key": "Eb",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "scripture": "Mt 21:1-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 51,
+  "video": {
+    "youtube": "-lP7nVxqbhA",
+    "title": "O Lord, How Shall I Meet You by Michael D. Costello - Scrolling Score"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

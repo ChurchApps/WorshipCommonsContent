@@ -1,0 +1,27 @@
+{
+  "id": "vg4Xhel-UGn",
+  "title": "O Haupt Voll Blut und Wunden",
+  "writer": "Paul Gerhardt",
+  "writerRef": "paul-gerhardt",
+  "year": 1656,
+  "language": "German",
+  "themes": "Easter,Lament",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Matthäus 27,28-29",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "aqNc75nXe-w",
+    "title": "O Sacred Head, Now Wounded"
+  },
+  "relationLabel": "German translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

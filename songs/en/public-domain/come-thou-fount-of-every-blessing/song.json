@@ -1,0 +1,29 @@
+{
+  "id": "FMd8ryghVRb",
+  "title": "Come Thou Fount Of Every Blessing",
+  "writer": "Robert Robinson",
+  "writerRef": "robert-robinson",
+  "year": 1758,
+  "language": "English",
+  "themes": "Anticipation,Atonement,Blood",
+  "key": "Eb",
+  "bpm": 90,
+  "timeSignature": "3/4",
+  "scripture": "Ps 36:9-11",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 2448,
+  "video": {
+    "youtube": "4xJXzgonLdQ",
+    "title": "Come Thou Fount of Every Blessing (with lyrics) The most BEAUTIFUL hymn you've EVER heard!"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

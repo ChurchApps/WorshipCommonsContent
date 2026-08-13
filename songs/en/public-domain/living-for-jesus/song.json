@@ -1,0 +1,28 @@
+{
+  "id": "Ip8PZI_wv5s",
+  "title": "Living for Jesus",
+  "writer": "Thomas Chisholm & C. Harold Lowden",
+  "writerRef": null,
+  "year": 1917,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "2 Corinthians 5:15",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 434,
+  "hymnalCount": 181,
+  "video": {
+    "youtube": "pzrNMoCJhyI",
+    "title": "Living for Jesus - Marjolein van Hoef"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

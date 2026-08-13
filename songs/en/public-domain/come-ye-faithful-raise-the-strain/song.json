@@ -1,0 +1,28 @@
+{
+  "id": "dDGERqdb7mK",
+  "title": "Come, Ye Faithful, Raise the Strain",
+  "writer": "John of Damascus · tr. John Mason Neale",
+  "writerRef": "john-of-damascus",
+  "year": 1859,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Exodus 15:1",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 256,
+  "hymnalCount": 407,
+  "video": {
+    "youtube": "ZXS4TRMrspo",
+    "title": "Come, Ye Faithful, Raise The Strain"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "hymnsite",
+    "art": "worshipcommons"
+  }
+}

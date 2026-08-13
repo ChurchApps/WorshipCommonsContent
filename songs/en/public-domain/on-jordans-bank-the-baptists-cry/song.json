@@ -1,0 +1,29 @@
+{
+  "id": "DYQAL3Np-ca",
+  "title": "On Jordan's Bank the Baptist's Cry",
+  "writer": "Charles Coffin · tr. John Chandler",
+  "writerRef": "charles-coffin",
+  "year": 1736,
+  "language": "English",
+  "themes": "Baptism,Father,Healing",
+  "key": "D",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "Jn 1:19-23",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 251,
+  "video": {
+    "youtube": "pIr21lLgFpg",
+    "title": "On Jordan's Bank the Baptist's Cry (Tune: Winchester New - 5vv) [with lyrics for congregations]"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

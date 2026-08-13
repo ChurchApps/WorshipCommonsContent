@@ -1,0 +1,27 @@
+{
+  "id": "DGyVvZODdcn",
+  "title": "Vous Créatures du Seigneur",
+  "writer": "Jean-Jacques Bovet",
+  "writerRef": null,
+  "year": 1904,
+  "language": "French",
+  "themes": "Praise,Creation",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "6/4",
+  "scripture": "Psaume 69.35",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "RnGVNAiO92e",
+    "title": "All Creatures of Our God and King"
+  },
+  "relationLabel": "French original · Jean-Jacques Bovet, 1904",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

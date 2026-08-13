@@ -1,0 +1,29 @@
+{
+  "id": "kFcZeXWxTMy",
+  "title": "O That The Lord Would Guide My Ways",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1719,
+  "language": "English",
+  "themes": "Consecration,Discipleship,Duty",
+  "key": "Ab",
+  "bpm": 130,
+  "timeSignature": "3/2",
+  "scripture": "Ps 119:5",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 391,
+  "video": {
+    "youtube": "Uw-r7x4R6kU",
+    "title": "Oh That the Lord Would Guide My Way - Hymn with Lyrics"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

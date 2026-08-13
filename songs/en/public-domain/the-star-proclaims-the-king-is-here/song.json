@@ -1,0 +1,29 @@
+{
+  "id": "I9jvSW1faDj",
+  "title": "The Star Proclaims the King is Here",
+  "writer": "Coelius Sedulius · tr. John Mason Neale",
+  "writerRef": "coelius-sedulius",
+  "year": 1543,
+  "language": "English",
+  "themes": "Baptism,Christmas/Advent,Guidance",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Mt 2:1-12",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 10,
+  "video": {
+    "youtube": "7Ado6M0JzpI",
+    "title": "Hymn 399 The Star Proclaims the King Is Here"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons"
+  }
+}

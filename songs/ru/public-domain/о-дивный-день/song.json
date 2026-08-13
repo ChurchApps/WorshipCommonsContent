@@ -1,0 +1,27 @@
+{
+  "id": "rSRxCiap3T0",
+  "title": "О Дивный День!",
+  "writer": "Филипп Доддридж · tr. неизвестен",
+  "writerRef": null,
+  "year": 1702,
+  "language": "Russian",
+  "themes": "Praise,Assurance",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Псалтирь 137:3",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "rkI8Iz1TdSD",
+    "title": "O Happy Day"
+  },
+  "relationLabel": "Russian translation · tr. неизвестен",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

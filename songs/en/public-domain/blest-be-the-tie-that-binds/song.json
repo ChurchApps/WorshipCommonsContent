@@ -1,0 +1,30 @@
+{
+  "id": "PcwqBQ0pxuT",
+  "title": "Blest Be the Tie That Binds",
+  "writer": "John Fawcett",
+  "writerRef": "john-fawcett",
+  "year": 1782,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Colossians 3:14",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 445,
+  "hymnalCount": 2592,
+  "video": {
+    "youtube": "TQ0Epw1rwbc",
+    "title": "Blest be the tie that binds | lyric video"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "wc-seed",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal",
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
+  }
+}

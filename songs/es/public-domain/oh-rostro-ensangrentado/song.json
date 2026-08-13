@@ -1,0 +1,27 @@
+{
+  "id": "Y7ZPtKI3daj",
+  "title": "¡Oh Rostro Ensangrentado!",
+  "writer": "Paul Gerhardt",
+  "writerRef": "paul-gerhardt",
+  "year": 1647,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Mateo 27:28-9",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 786,
+  "video": {
+    "youtube": "6WICng2W90I",
+    "title": "Oh Rostro Ensangrentado"
+  },
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

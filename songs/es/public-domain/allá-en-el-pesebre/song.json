@@ -1,0 +1,30 @@
+{
+  "id": "E4FV2MrR96m",
+  "title": "Allá en el Pesebre",
+  "writer": "Anóimo",
+  "writerRef": null,
+  "year": 1885,
+  "language": "Spanish",
+  "themes": "Christmas,Comfort",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Lucas 2:7",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 12,
+  "video": {
+    "youtube": "m1-bz7BS1f8",
+    "title": "ALLA EN EL PESEBRE-CORO"
+  },
+  "parent": {
+    "id": "DJiXNvQVFPH",
+    "title": "Away in a Manger"
+  },
+  "relationLabel": "Spanish translation",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bBOQpDNK5AC",
+  "title": "Béni Soit le Lien",
+  "writer": "Edmond L. Budry",
+  "writerRef": null,
+  "year": 1854,
+  "language": "French",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Osée 11.4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "video": null,
+  "parent": {
+    "id": "PcwqBQ0pxuT",
+    "title": "Blest Be the Tie That Binds"
+  },
+  "relationLabel": "French original · Edmond L. Budry, 1854",
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
+  }
+}
