@@ -14,14 +14,17 @@ const ids = new Map(); // id → dir
 const foldersSeen = new Map(); // "<section>/<lang>" → Set of lowercased folder names
 const langCodes = new Set(Object.values(LANG_CODES));
 const REQUIRED = ["id", "title", "writer", "language", "license", "churchCount", "hymnalCount", "timeSignature", "provenance"];
+// user-submitted songs (exported from the bucket) have no provenance/sources.txt/writerRef
+const REQUIRED_SUBMITTED = ["id", "title", "language", "license", "status"];
 
 for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   const label = `songs/${langDir}/${section}/${folder}`;
   let song;
   try { song = readJson(path.join(dir, "song.json")); }
   catch (e) { errors.push(`${label}: unreadable song.json — ${e.message}`); continue; }
+  const submitted = !!song.submittedBy;
 
-  for (const f of REQUIRED) if (song[f] === undefined) errors.push(`${label}: song.json missing "${f}"`);
+  for (const f of submitted ? REQUIRED_SUBMITTED : REQUIRED) if (song[f] === undefined) errors.push(`${label}: song.json missing "${f}"`);
   if (song.id && !/^[A-Za-z0-9_-]{11}$/.test(song.id)) errors.push(`${label}: id "${song.id}" is not an 11-char base64url id`);
   if (song.id && ids.has(song.id)) errors.push(`${label}: duplicate id ${song.id} (also ${ids.get(song.id)})`);
   ids.set(song.id, label);
@@ -52,6 +55,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
 
   // provenance keys must resolve; assets present must have provenance and vice versa
   const assetFiles = { tune: "tune.mid", abc: "tune.abc", timing: "timing.json", art: "art.webp" };
+  if (submitted) continue; // uploads are artist artifacts — no provenance/sources.txt/writerRef
   for (const [asset, key] of Object.entries(song.provenance ?? {})) {
     if (!sources[key]) errors.push(`${label}: provenance.${asset} references unknown source "${key}"`);
     if (asset !== "text" && !fs.existsSync(path.join(dir, assetFiles[asset] ?? "?")))

@@ -12,6 +12,7 @@ const sources = readJson(path.join(ROOT, "sources.json"));
 let written = 0;
 for (const { dir } of songDirs(ROOT)) {
   const song = readJson(path.join(dir, "song.json"));
+  if (song.submittedBy) continue; // submissions carry no provenance — no sources.txt
   const text = renderSourcesTxt(song, sources);
   const target = path.join(dir, "sources.txt");
   if (!fs.existsSync(target) || fs.readFileSync(target, "utf8") !== text) {
