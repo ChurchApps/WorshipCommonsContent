@@ -18,11 +18,11 @@
     "youtube": "bJWgpljckbA",
     "title": "Alan Jackson - Are You Washed In The Blood? / I'll Fly Away (Medley/Live)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "are-you-washed-in-the-blood"
 }

@@ -18,12 +18,12 @@
     "youtube": "ZR5y1N1VFlI",
     "title": "Lutheran Hymn   Our Father, Thou in Heaven Above"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "our-father-thou-in-heaven-above"
 }

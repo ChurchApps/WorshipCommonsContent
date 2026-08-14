@@ -18,13 +18,10 @@
     "youtube": "Ge4gu-3EMA4",
     "title": "Loores Dad a Cristo el Rey / himno con letra / piano / All Hail the Power of Jesus' Name"
   },
-  "parent": {
-    "id": "T0B8i41oasf",
-    "title": "All Hail the Power of Jesus' Name"
-  },
   "relationLabel": "Spanish translation · tr. Thomas Westrup",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "all-hail-the-power-of-jesus-name"
 }

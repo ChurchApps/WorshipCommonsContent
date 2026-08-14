@@ -18,13 +18,10 @@
     "youtube": "3GPRca3W9To",
     "title": "Oh cuan dulce es fiar en Cristo - Cuarteto OLAM"
   },
-  "parent": {
-    "id": "Wolo-8OkGaW",
-    "title": "'Tis So Sweet to Trust in Jesus"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "tis-so-sweet-to-trust-in-jesus"
 }

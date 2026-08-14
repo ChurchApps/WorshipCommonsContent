@@ -18,12 +18,12 @@
     "youtube": "_FRRfak00g0",
     "title": "A Lamb Goes Uncomplaining Forth"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "a-lamb-goes-uncomplaining-forth"
 }

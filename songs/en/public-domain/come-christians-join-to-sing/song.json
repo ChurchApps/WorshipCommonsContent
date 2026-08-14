@@ -18,11 +18,11 @@
     "youtube": "xeZLDY8fJ1Y",
     "title": "Come, Christians, Join to Sing"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "come-christians-join-to-sing"
 }

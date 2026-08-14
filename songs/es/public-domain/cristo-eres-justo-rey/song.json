@@ -18,13 +18,10 @@
     "youtube": "e0EA66zKmes",
     "title": "HA62 | Himno 155 | Cristo, eres justo Rey"
   },
-  "parent": {
-    "id": "efSPV6ob7E5",
-    "title": "Fairest Lord Jesus"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "fairest-lord-jesus"
 }

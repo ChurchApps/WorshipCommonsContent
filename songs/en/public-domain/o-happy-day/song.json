@@ -18,11 +18,11 @@
     "youtube": "Iqx0XUmrk-A",
     "title": "O Happy Day • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-happy-day"
 }

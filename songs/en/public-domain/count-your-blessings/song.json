@@ -18,11 +18,11 @@
     "youtube": "Hb4JBNDWhOA",
     "title": "Count Your Blessings (Ingrid DuMosch & The London Fox Singers) - MVL - roncobb1"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "count-your-blessings"
 }

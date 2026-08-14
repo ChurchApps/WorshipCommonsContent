@@ -18,7 +18,6 @@
     "youtube": "xqooC4ZG75Y",
     "title": "Hark the Herald Angels Sing with Lyrics | Christmas Carol & Song"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "hark-the-herald-angels-sing"
 }

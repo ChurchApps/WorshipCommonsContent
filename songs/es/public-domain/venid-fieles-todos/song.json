@@ -18,12 +18,9 @@
     "youtube": "VXlZtXA4au4",
     "title": "Venid fieles todos  y Ángeles cantando"
   },
-  "parent": {
-    "id": "e0RA7WIC3mU",
-    "title": "O Come, All Ye Faithful"
-  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "adeste-fideles"
 }

@@ -15,12 +15,9 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "K1RTwOmvx40",
-    "title": "I Will Sing of My Redeemer"
-  },
   "relationLabel": "Russian translation",
   "provenance": {
     "text": "cyber-hymnal"
-  }
+  },
+  "workRef": "i-will-sing-of-my-redeemer"
 }

@@ -18,7 +18,6 @@
     "youtube": "9hzYKovRsJ8",
     "title": "O THE DEEP, DEEP LOVE OF JESUS - Selah"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-the-deep-deep-love-of-jesus"
 }

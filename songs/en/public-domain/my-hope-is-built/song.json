@@ -18,11 +18,11 @@
     "youtube": "rkMapZB8qMk",
     "title": "My Hope Is Built on Nothing Less"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "my-hope-is-built"
 }

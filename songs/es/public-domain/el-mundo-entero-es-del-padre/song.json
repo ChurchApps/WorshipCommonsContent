@@ -18,13 +18,10 @@
     "youtube": "RwoMAk975mk",
     "title": "\"El Mundo Entero Es del Padre\" [Iglesia de Madrid] - 주의 음성은 내가 들으니"
   },
-  "parent": {
-    "id": "w-xC_81LKUW",
-    "title": "This Is My Father's World"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "this-is-my-fathers-world"
 }

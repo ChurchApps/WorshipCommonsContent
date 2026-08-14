@@ -18,13 +18,10 @@
     "youtube": "Xn14hR1YOYQ",
     "title": "himno 36 de sion ; Tuyo soy Jesus , Aun mas cerca de tu Cruz"
   },
-  "parent": {
-    "id": "mxPKhsn413w",
-    "title": "I Am Thine, O Lord"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "i-am-thine-o-lord"
 }

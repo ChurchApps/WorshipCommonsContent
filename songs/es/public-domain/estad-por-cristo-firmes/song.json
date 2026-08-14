@@ -18,12 +18,9 @@
     "youtube": "B7iipUMrfYk",
     "title": "HIMNO ESTAD POR CRISTO FIRMES"
   },
-  "parent": {
-    "id": "k3nQG0DqnD8",
-    "title": "Stand Up, Stand Up for Jesus"
-  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "stand-up-stand-up-for-jesus"
 }

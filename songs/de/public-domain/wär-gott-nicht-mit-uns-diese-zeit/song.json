@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "JlbYSn1uxEs",
-    "title": "If God Had Not Been on Our Side"
-  },
   "relationLabel": "German original · Martin Luther, 1524",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "if-god-had-not-been-on-our-side"
 }

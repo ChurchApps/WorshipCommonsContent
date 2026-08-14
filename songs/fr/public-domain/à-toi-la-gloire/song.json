@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "4ywZcq98xoX",
-    "title": "Thine Be the Glory"
-  },
   "relationLabel": "French original · Edmond L. Budry, 1885",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "thine-be-the-glory"
 }

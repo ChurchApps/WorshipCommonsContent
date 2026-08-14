@@ -18,7 +18,6 @@
     "youtube": "4_fvFfPqjO4",
     "title": "When I Survey the Wondrous Cross"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "when-i-survey-the-wondrous-cross"
 }

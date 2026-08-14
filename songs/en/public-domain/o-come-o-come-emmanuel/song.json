@@ -18,7 +18,6 @@
     "youtube": "7xtpJ4Q_Q-4",
     "title": "O Come, O Come Emmanuel - Traditional Choir"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-come-o-come-emmanuel"
 }

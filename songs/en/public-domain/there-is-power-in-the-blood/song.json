@@ -18,11 +18,11 @@
     "youtube": "Tr_PS_qe6Ks",
     "title": "There Is Power In The Blood"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "there-is-power-in-the-blood"
 }

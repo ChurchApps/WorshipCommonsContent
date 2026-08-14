@@ -18,11 +18,11 @@
     "youtube": "PtiCLJvyePw",
     "title": "Once in Royal David's City / Carols from King's 2013"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "once-in-royal-davids-city"
 }

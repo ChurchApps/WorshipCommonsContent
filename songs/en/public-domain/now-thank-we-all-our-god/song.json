@@ -18,12 +18,12 @@
     "youtube": "42ZqYk1YwRA",
     "title": "Now Thank We All Our God - Classic Christian Hymn (Choir & Lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "now-thank-we-all-our-god"
 }

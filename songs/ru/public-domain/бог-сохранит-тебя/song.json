@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "uj5N6KdGjkI",
-    "title": "God Will Take Care of You"
-  },
   "relationLabel": "Russian translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "god-will-take-care-of-you"
 }

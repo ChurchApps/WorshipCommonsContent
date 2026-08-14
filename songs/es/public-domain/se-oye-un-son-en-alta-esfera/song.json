@@ -18,13 +18,10 @@
     "youtube": "ES7QS_muiuY",
     "title": "Himno 79 Se oye un canto en alta esfera Nuevo himnario Adventista"
   },
-  "parent": {
-    "id": "pSpS9dU7qHg",
-    "title": "Hark! The Herald Angels Sing"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "hark-the-herald-angels-sing"
 }

@@ -18,11 +18,11 @@
     "youtube": "v1qnjd23YQM",
     "title": "BEAUTIFUL Hymn about Heaven - Shall We Gather At the River (With Lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "shall-we-gather-at-the-river"
 }

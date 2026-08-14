@@ -18,12 +18,12 @@
     "youtube": "8lM64ukI9D8",
     "title": "For All the Saints | October 2023 General Conference"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "for-all-the-saints"
 }

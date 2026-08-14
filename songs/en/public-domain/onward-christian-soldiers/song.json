@@ -18,11 +18,11 @@
     "youtube": "64K7HmLM54Y",
     "title": "Onward Christian Soldiers"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "onward-christian-soldiers"
 }

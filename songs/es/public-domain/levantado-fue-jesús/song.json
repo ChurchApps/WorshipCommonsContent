@@ -18,13 +18,10 @@
     "youtube": "a_JQQZoxKUs",
     "title": "Levantado fue Jesús"
   },
-  "parent": {
-    "id": "1hnEmwE1b17",
-    "title": "Hallelujah! What a Savior"
-  },
   "relationLabel": "Spanish translation · tr. Enrique Turrall",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "hallelujah-what-a-savior"
 }

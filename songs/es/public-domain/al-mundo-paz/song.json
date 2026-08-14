@@ -18,12 +18,9 @@
     "youtube": "muJxxGsJ3ZA",
     "title": "AL MUNDO PAZ | Himno Majestuoso #187"
   },
-  "parent": {
-    "id": "_X94hS2ZTgf",
-    "title": "Joy to the World"
-  },
   "relationLabel": "Spanish translation · anonymous",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "joy-to-the-world"
 }

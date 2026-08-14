@@ -18,13 +18,10 @@
     "youtube": "QEM8RgVkHOk",
     "title": "HA62 | Himno 335 | Dulce comunión"
   },
-  "parent": {
-    "id": "MRBzXWTgxx2",
-    "title": "Leaning on the Everlasting Arms"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "leaning-on-the-everlasting-arms"
 }

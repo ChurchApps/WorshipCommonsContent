@@ -18,11 +18,11 @@
     "youtube": "XqSIMQaeAds",
     "title": "Tell Me the Old, Old Story"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "tell-me-the-old-old-story"
 }

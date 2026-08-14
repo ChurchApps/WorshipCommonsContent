@@ -18,12 +18,12 @@
     "youtube": "3dxzdsfJp2s",
     "title": "Away In A Manger (with lyrics) - The most BEAUTIFUL Christmas carol / hymn!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "away-in-a-manger"
 }

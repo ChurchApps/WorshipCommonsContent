@@ -18,11 +18,11 @@
     "youtube": "-y93uhtTibM",
     "title": "This is My Father's World (Hymn 31) - Hymnology (Official Video)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "this-is-my-fathers-world"
 }

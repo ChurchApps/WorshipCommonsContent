@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "SvEvb5vrQYJ",
-    "title": "Revive Us Again"
-  },
   "relationLabel": "Russian translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "revive-us-again"
 }

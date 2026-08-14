@@ -18,13 +18,10 @@
     "youtube": "uGSjQ_v_dp4",
     "title": "Himno Adventista 156 - A Cristo coronad"
   },
-  "parent": {
-    "id": "zfrKD0J-OPJ",
-    "title": "Crown Him with Many Crowns"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "crown-him-with-many-crowns"
 }

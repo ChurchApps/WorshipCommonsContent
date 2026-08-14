@@ -18,11 +18,11 @@
     "youtube": "xAzQIS4-MpY",
     "title": "In the Bleak Midwinter (Tune: Cranham - 4vv) [with lyrics for congregations]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "in-the-bleak-midwinter"
 }

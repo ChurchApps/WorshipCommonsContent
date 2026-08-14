@@ -18,14 +18,11 @@
     "youtube": "gQOJFZaw-vw",
     "title": "Castillo Fuerte"
   },
-  "parent": {
-    "id": "9jxQoj5H8ma",
-    "title": "A Mighty Fortress Is Our God"
-  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1885",
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "ein-feste-burg-ist-unser-gott"
 }

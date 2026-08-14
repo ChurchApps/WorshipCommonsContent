@@ -18,7 +18,6 @@
     "youtube": "mVzIr_jDkj0",
     "title": "All Glory, Laud, And Honor"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "all-glory-laud-and-honor"
 }

@@ -18,13 +18,10 @@
     "youtube": "gW_wIPXpMsU",
     "title": "HA62 | Himno 281 | Fuente de la vida eterna"
   },
-  "parent": {
-    "id": "FMd8ryghVRb",
-    "title": "Come Thou Fount Of Every Blessing"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "come-thou-fount-of-every-blessing"
 }

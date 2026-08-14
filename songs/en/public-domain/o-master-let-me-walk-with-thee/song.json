@@ -18,11 +18,11 @@
     "youtube": "-CCX5sChezQ",
     "title": "O Master, Let Me Walk with Thee (11 am, webstream)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-master-let-me-walk-with-thee"
 }

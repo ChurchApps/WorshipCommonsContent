@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "T0B8i41oasf",
-    "title": "All Hail the Power of Jesus' Name"
-  },
   "relationLabel": "Malayalam original · എഡ്വേർഡ് പെവോനെ, 1779",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "all-hail-the-power-of-jesus-name"
 }

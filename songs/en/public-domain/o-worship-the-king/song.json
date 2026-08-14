@@ -18,11 +18,11 @@
     "youtube": "u0a1Pq9avbg",
     "title": "O Worship the King (Grace Community Church)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-worship-the-king"
 }

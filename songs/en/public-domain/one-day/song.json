@@ -18,11 +18,11 @@
     "youtube": "7R9YFAceXnM",
     "title": "One Day • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "one-day"
 }

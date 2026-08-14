@@ -18,13 +18,10 @@
     "youtube": "-GwOB9czuHQ",
     "title": "HA62 | Himno 277 | Salvador, a ti me rindo"
   },
-  "parent": {
-    "id": "_lBMGxob8RU",
-    "title": "I Surrender All"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "i-surrender-all"
 }

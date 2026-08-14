@@ -15,12 +15,9 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "mxY11bbcqTg",
-    "title": "Standing on the Promises"
-  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014",
   "provenance": {
     "text": "cyber-hymnal"
-  }
+  },
+  "workRef": "standing-on-the-promises"
 }

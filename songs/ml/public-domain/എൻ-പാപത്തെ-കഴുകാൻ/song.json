@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "3A7uOIvq4zf",
-    "title": "Nothing but the Blood"
-  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "nothing-but-the-blood"
 }

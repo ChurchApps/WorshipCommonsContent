@@ -18,11 +18,11 @@
     "youtube": "Xrmlv806bGM",
     "title": "Jesus, Keep Me Near the Cross (Hymn Charts with Lyrics, Contemporary)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "near-the-cross"
 }

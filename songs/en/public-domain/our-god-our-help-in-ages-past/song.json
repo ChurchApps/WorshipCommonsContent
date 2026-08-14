@@ -18,12 +18,12 @@
     "youtube": "yKP_XxCBDZY",
     "title": "O God, Our Help in Ages Past (Grace Community Church)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "our-god-our-help-in-ages-past"
 }

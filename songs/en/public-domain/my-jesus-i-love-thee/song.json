@@ -18,11 +18,11 @@
     "youtube": "xvOpNk4jVis",
     "title": "My Jesus I Love Thee - Classic Hymn  (Lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "my-jesus-i-love-thee"
 }

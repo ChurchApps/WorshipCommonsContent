@@ -18,13 +18,10 @@
     "youtube": "SGRDubbNYIk",
     "title": "ME GUÍA ÉL | Himno Majestuoso #446 y Bautista #227 | Música y Letra"
   },
-  "parent": {
-    "id": "GewWFBLDxRd",
-    "title": "He Leadeth Me"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "he-leadeth-me"
 }

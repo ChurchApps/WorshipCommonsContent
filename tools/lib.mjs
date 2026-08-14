@@ -106,5 +106,19 @@ export function* songDirs(root) {
   }
 }
 
+// read <root>/works/<slug>/work.json into a map by slug. A work groups a
+// translation family: shared assets (tune.mid/tune.abc/art.webp) live in the
+// work folder; member songs point at it via song.json workRef.
+export function readWorks(root) {
+  const worksRoot = path.join(root, "works");
+  const works = new Map();
+  if (!fs.existsSync(worksRoot)) return works;
+  for (const slug of fs.readdirSync(worksRoot).filter(d => fs.statSync(path.join(worksRoot, d)).isDirectory()).sort()) {
+    const dir = path.join(worksRoot, slug);
+    works.set(slug, { ...JSON.parse(fs.readFileSync(path.join(dir, "work.json"), "utf8")), dir, folder: slug });
+  }
+  return works;
+}
+
 export const readJson = p => JSON.parse(fs.readFileSync(p, "utf8"));
 export const writeJson = (p, o) => fs.writeFileSync(p, JSON.stringify(o, null, 2) + "\n");

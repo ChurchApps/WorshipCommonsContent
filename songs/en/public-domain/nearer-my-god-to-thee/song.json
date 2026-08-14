@@ -18,7 +18,6 @@
     "youtube": "gWz4feHp0ko",
     "title": "Nearer My God To Thee (with lyrics) - The Most BEAUTIFUL hymn you’ve EVER Heard!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "nearer-my-god-to-thee"
 }

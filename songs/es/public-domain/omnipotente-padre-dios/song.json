@@ -18,13 +18,10 @@
     "youtube": "Du7o1q2u4vM",
     "title": "Himno: Omnipotente Padre Dios"
   },
-  "parent": {
-    "id": "MUIfLlOxrqc",
-    "title": "Faith of Our Fathers"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "faith-of-our-fathers"
 }

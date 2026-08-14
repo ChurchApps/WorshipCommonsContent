@@ -18,11 +18,11 @@
     "youtube": "rE6qReRGmaY",
     "title": "LEAD ME TO CALVARY (2020 1080P)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "lead-me-to-calvary"
 }

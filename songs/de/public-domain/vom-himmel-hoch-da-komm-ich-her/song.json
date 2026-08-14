@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "3QZGIUc6NAE",
-    "title": "From Heaven Above To Earth I Come"
-  },
   "relationLabel": "German original · Martin Luther, 1531",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "from-heaven-above-to-earth-i-come"
 }

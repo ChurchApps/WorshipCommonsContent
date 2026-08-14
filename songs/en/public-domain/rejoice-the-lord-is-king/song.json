@@ -18,11 +18,11 @@
     "youtube": "WFYMhF2GA4E",
     "title": "Rejoice, the Lord Is King!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "rejoice-the-lord-is-king"
 }

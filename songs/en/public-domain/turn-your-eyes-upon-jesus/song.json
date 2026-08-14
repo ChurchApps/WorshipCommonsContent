@@ -18,11 +18,11 @@
     "youtube": "q5x0MclH3l0",
     "title": "Turn Your Eyes Upon Jesus"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "turn-your-eyes-upon-jesus"
 }

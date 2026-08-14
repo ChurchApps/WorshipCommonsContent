@@ -18,11 +18,11 @@
     "youtube": "IMrgaV9pqUo",
     "title": "I Am Thine, O Lord with Lyrics"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-am-thine-o-lord"
 }

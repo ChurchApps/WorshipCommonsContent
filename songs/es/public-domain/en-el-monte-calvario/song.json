@@ -18,13 +18,10 @@
     "youtube": "TdfHIYvdDVY",
     "title": "En el Monte Calvario (¡Oh! yo siempre amaré esa cruz) / Himno con letra /  The Old Rugged Cross"
   },
-  "parent": {
-    "id": "sdbr4rHG9yR",
-    "title": "The Old Rugged Cross"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "the-old-rugged-cross"
 }

@@ -18,11 +18,11 @@
     "youtube": "FHRB4pHvvWg",
     "title": "DOWN AT THE CROSS by Bart Millard"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "down-at-the-cross"
 }

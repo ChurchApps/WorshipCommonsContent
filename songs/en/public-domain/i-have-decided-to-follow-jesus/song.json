@@ -15,9 +15,9 @@
   "churchCount": 0,
   "hymnalCount": 109,
   "video": null,
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "i-have-decided-to-follow-jesus"
 }

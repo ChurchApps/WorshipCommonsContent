@@ -18,7 +18,6 @@
     "youtube": "4Ea5NzRueOQ",
     "title": "No, Not One! • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "no-not-one"
 }

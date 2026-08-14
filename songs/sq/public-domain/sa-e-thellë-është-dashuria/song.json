@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "tqc4aKCrQ8k",
-    "title": "O the Deep, Deep Love of Jesus"
-  },
   "relationLabel": "Albanian translation · tr. Jan Foss",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "o-the-deep-deep-love-of-jesus"
 }

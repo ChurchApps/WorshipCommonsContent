@@ -18,12 +18,12 @@
     "youtube": "6w-7ADyB-d0",
     "title": "Happy the Man Who Feareth God (Psalm 128)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "happy-the-man-who-feareth-god"
 }

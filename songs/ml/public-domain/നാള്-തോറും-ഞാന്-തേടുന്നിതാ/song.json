@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "V95R_kNL2at",
-    "title": "Higher Ground"
-  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "higher-ground"
 }

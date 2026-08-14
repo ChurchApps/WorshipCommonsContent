@@ -18,13 +18,10 @@
     "youtube": "dS7yeAtwPsU",
     "title": "Himno#186 [himnario IBG] - Salvador a ti acudo"
   },
-  "parent": {
-    "id": "2zMeQ2kdb2n",
-    "title": "Pass Me Not, O Gentle Savior"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "pass-me-not-o-gentle-savior"
 }

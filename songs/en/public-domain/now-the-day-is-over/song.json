@@ -18,11 +18,11 @@
     "youtube": "Ll1sxSPhd3E",
     "title": "Now the Day Is Over (w/ lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "now-the-day-is-over"
 }

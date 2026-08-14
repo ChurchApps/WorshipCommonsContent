@@ -18,12 +18,12 @@
     "youtube": "vD6tcMroY0A",
     "title": "Go to Dark Gethsemane"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "go-to-dark-gethsemane"
 }

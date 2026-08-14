@@ -18,11 +18,11 @@
     "youtube": "vOwgQq70XBE",
     "title": "His Eye Is On The Sparrow | Tennessee Ernie Ford | May 4, 1961"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "his-eye-is-on-the-sparrow"
 }

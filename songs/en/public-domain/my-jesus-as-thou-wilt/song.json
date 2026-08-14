@@ -18,12 +18,12 @@
     "youtube": "PGQ4YZJL7a0",
     "title": "My Jesus, as Thou Wilt (Weekly Hymn Project)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "my-jesus-as-thou-wilt"
 }

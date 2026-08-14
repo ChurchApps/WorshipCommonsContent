@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "QHAD_7fPvc8",
-    "title": "All the Way My Savior Leads Me"
-  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "all-the-way-my-savior-leads-me"
 }

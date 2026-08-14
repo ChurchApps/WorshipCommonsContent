@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "y8oQf2I_aSV",
-    "title": "When Morning Gilds the Skies"
-  },
   "relationLabel": "Malayalam original · എഡ്വേർഡ് കേസ്വെൽ, 1744",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "when-morning-gilds-the-skies"
 }

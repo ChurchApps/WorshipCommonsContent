@@ -18,11 +18,11 @@
     "youtube": "O9VolOFsnPI",
     "title": "We All Believe in One True God"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "we-all-believe-in-one-true-god"
 }

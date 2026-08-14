@@ -18,12 +18,12 @@
     "youtube": "P6TaygvxHrc",
     "title": "Awake, My Soul, and With the Sun (Tune: Morning Hymn - 5vv) [with lyrics for congregations]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "awake-my-soul-and-with-the-sun"
 }

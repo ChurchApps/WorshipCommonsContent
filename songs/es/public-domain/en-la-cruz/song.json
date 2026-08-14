@@ -18,13 +18,10 @@
     "youtube": "06UfT88g918",
     "title": "En la cruz - Coros Cristianos"
   },
-  "parent": {
-    "id": "4m8Ep0PePd0",
-    "title": "Alas! and Did My Savior Bleed"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "alas-and-did-my-savior-bleed"
 }

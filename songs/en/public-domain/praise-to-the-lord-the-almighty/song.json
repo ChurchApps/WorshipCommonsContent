@@ -18,7 +18,6 @@
     "youtube": "BNq0WtMSmIY",
     "title": "Praise to the Lord, the Almighty (Nockels, Hymn with Lyrics, Contemporary)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "praise-to-the-lord-the-almighty"
 }

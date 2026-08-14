@@ -18,7 +18,6 @@
     "youtube": "hXB78cLK2dg",
     "title": "I Stand Amazed in the Presence | Reawaken Hymns | Official Lyric Video"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-stand-amazed-in-the-presence"
 }

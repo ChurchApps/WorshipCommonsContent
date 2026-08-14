@@ -18,13 +18,10 @@
     "youtube": "aTo0M2SzXgo",
     "title": "Coro agua viva \"AL QUE EN BUSCA DE LA LUZ\""
   },
-  "parent": {
-    "id": "9uB2V6YbG56",
-    "title": "Christ Receiveth Sinful Men"
-  },
   "relationLabel": "Spanish translation · tr. Emma Bevan y Thomas Westrup",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "christ-receiveth-sinful-men"
 }

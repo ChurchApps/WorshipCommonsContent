@@ -18,13 +18,10 @@
     "youtube": "0nUNeczPtek",
     "title": "Te loamos, oh Dios"
   },
-  "parent": {
-    "id": "SvEvb5vrQYJ",
-    "title": "Revive Us Again"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "revive-us-again"
 }

@@ -18,12 +18,12 @@
     "youtube": "MUZD0hgtSgE",
     "title": "All Creatures of Our God and King • Prayers of the Saints Live"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "all-creatures-of-our-god-and-king"
 }

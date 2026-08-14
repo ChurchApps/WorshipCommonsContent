@@ -18,13 +18,10 @@
     "youtube": "m1-bz7BS1f8",
     "title": "ALLA EN EL PESEBRE-CORO"
   },
-  "parent": {
-    "id": "DJiXNvQVFPH",
-    "title": "Away in a Manger"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "away-in-a-manger"
 }

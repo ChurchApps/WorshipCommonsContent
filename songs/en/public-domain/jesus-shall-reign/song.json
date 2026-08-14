@@ -18,7 +18,6 @@
     "youtube": "BE4DDB5whyk",
     "title": "Jesus Shall Reign (Official Lyric Video) - Keith & Kristyn Getty"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "jesus-shall-reign"
 }

@@ -18,13 +18,10 @@
     "youtube": "ezLuMymE7Dg",
     "title": "HA62 | Himno 299 | Lejos de mi Padre Dios"
   },
-  "parent": {
-    "id": "ulOZk2Z-mRz",
-    "title": "Near the Cross"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "near-the-cross"
 }

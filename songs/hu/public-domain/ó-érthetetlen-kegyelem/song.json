@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "YxPfAFYWOaG",
-    "title": "Amazing Grace"
-  },
   "relationLabel": "Hungarian translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "amazing-grace"
 }

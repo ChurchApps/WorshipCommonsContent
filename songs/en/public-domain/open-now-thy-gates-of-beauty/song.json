@@ -18,12 +18,12 @@
     "youtube": "sl9bw7ol_EA",
     "title": "901 - Open Now Thy Gates of Beauty - The Congregation sings from The Lutheran Service Book."
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "open-now-thy-gates-of-beauty"
 }

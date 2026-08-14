@@ -18,13 +18,10 @@
     "youtube": "Q8-sLlkczvc",
     "title": "HA62 | Himno 256 | Por la justicia de Jesús"
   },
-  "parent": {
-    "id": "wy7meh0qqDc",
-    "title": "My Hope Is Built"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "my-hope-is-built"
 }

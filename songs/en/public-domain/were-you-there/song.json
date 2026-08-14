@@ -18,12 +18,12 @@
     "youtube": "lleK1Z_k69U",
     "title": "Were You There - Good Friday Hymn Sing Along with Lyrics Onscreen"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "were-you-there"
 }

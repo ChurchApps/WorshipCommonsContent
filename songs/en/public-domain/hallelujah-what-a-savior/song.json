@@ -18,7 +18,6 @@
     "youtube": "x4WVT-_Xt7M",
     "title": "Hallelujah, What a Savior #296"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "hallelujah-what-a-savior"
 }

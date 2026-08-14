@@ -18,11 +18,11 @@
     "youtube": "TQ3EjnKs1Zo",
     "title": "There is a Balm in Gilead | Songs and Everlasting Joy"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "there-is-a-balm-in-gilead"
 }

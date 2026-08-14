@@ -18,12 +18,12 @@
     "youtube": "NT4IvKk8Yko",
     "title": "Come Thou Almighty King (Live from Sing! '21) Keith & Kristyn Getty, Tommy Bailey"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "come-thou-almighty-king"
 }

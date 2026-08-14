@@ -18,12 +18,12 @@
     "youtube": "ihJAJA4ibEs",
     "title": "BE THOU MY VISION -- My Favorite Irish Hymn! :)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "be-thou-my-vision"
 }

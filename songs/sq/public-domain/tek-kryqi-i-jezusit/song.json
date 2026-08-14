@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "w2WwueVCM-Y",
-    "title": "Beneath the Cross of Jesus"
-  },
   "relationLabel": "Albanian translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "beneath-the-cross-of-jesus"
 }

@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "8Q9yxDtlld_",
-    "title": "Lo, How a Rose E'er Blooming"
-  },
   "relationLabel": "German original · Michael Praetorius",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "lo-how-a-rose-eer-blooming"
 }

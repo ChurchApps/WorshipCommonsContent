@@ -18,14 +18,11 @@
     "youtube": "jCRsxvSs_vA",
     "title": "Danny Gokey, David Archuleta - Noche De Paz"
   },
-  "parent": {
-    "id": "DdnkGm4QMhD",
-    "title": "Silent Night"
-  },
   "relationLabel": "Spanish translation · tr. Federico Fliedner, 1871",
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "stille-nacht"
 }

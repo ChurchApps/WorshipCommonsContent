@@ -18,11 +18,11 @@
     "youtube": "OrCpKa_xOcE",
     "title": "Alan Jackson - I Love To Tell The Story (Live)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-love-to-tell-the-story"
 }

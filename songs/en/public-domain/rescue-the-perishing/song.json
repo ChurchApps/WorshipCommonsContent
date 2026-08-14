@@ -18,7 +18,6 @@
     "youtube": "m_e4RXHF6Yk",
     "title": "Rescue the perishing"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "rescue-the-perishing"
 }

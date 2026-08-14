@@ -18,11 +18,11 @@
     "youtube": "3NbHZjlnWos",
     "title": "Gaither - The Ninety and Nine (Live) ft. Guy Penrod, The Nelons"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "the-ninety-and-nine"
 }

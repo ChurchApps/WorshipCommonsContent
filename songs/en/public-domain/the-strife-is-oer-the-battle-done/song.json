@@ -18,11 +18,11 @@
     "youtube": "8qFb2p0Tu3U",
     "title": "The Strife Is O’er, the Battle Done — Traditional Easter Hymn (Public Domain)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "the-strife-is-oer-the-battle-done"
 }

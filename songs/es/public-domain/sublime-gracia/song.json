@@ -18,12 +18,9 @@
     "youtube": "Hc-8A7NA-Uk",
     "title": "Sublime Gracia- Amazing Grace en español con letra"
   },
-  "parent": {
-    "id": "YxPfAFYWOaG",
-    "title": "Amazing Grace"
-  },
   "relationLabel": "Spanish translation · anonymous, early 20th c.",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "amazing-grace"
 }

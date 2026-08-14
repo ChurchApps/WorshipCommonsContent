@@ -18,11 +18,11 @@
     "youtube": "XYgmMwAxBS8",
     "title": "Charity Gayle - Nothing But the Blood (Live)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "nothing-but-the-blood"
 }

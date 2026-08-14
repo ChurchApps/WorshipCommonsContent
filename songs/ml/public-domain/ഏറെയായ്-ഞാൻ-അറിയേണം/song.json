@@ -15,12 +15,9 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "HXV9tBaJvp3",
-    "title": "More About Jesus"
-  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2018",
   "provenance": {
     "text": "cyber-hymnal"
-  }
+  },
+  "workRef": "more-about-jesus"
 }

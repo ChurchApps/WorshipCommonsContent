@@ -18,13 +18,10 @@
     "youtube": "7Q5zcFLwp_0",
     "title": "Himno - ¡Cuán Grande Amor! - Paul Bolivar"
   },
-  "parent": {
-    "id": "j_MZHyq0e2w",
-    "title": "I Stand Amazed in the Presence"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "i-stand-amazed-in-the-presence"
 }

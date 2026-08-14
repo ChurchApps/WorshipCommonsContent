@@ -18,7 +18,6 @@
     "youtube": "3vZfzYSEGwk",
     "title": "How Firm a Foundation | Reawaken Hymns | Official Lyric Video"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "how-firm-a-foundation"
 }

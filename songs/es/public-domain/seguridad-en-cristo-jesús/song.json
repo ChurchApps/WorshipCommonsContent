@@ -18,13 +18,10 @@
     "youtube": "EOYiSGb2auU",
     "title": "Blessed Assurance / Seguridad En Cristo Jesús"
   },
-  "parent": {
-    "id": "0YyJoAE9Ge4",
-    "title": "Blessed Assurance"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "blessed-assurance"
 }

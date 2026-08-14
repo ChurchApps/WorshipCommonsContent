@@ -18,12 +18,12 @@
     "youtube": "VCxdMl1AjLI",
     "title": "Fairest Lord Jesus • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "fairest-lord-jesus"
 }

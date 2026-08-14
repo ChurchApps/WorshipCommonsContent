@@ -18,12 +18,9 @@
     "youtube": "NyxAy-MGlKU",
     "title": "Cristo Me Ama (Jesus Loves Me) - Animado Con Letras"
   },
-  "parent": {
-    "id": "GZ9C6_0wlwv",
-    "title": "Jesus Loves Me"
-  },
   "relationLabel": "Spanish translation · anonymous",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "jesus-loves-me"
 }
