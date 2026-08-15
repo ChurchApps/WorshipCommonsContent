@@ -21,6 +21,7 @@
   "parent": null,
   "relationLabel": null,
   "provenance": {
-    "text": "hymnary"
+    "text": "hymnary",
+    "art": "worshipcommons"
   }
 }

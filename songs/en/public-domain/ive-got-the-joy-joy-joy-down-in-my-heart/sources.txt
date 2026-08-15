@@ -2,5 +2,6 @@ I've Got the Joy, Joy, Joy Down in My Heart — sources & attribution
 Generated from song.json and the repository's sources.json. Do not edit by hand.
 
 Text (lyrics.chordpro): WorshipCommons seed transcription — https://worshipcommons.org
+Cover art (art.webp): WorshipCommons (generated) — https://worshipcommons.org
 
 License: Public domain. See licenses/public-domain.md at the repository root.
