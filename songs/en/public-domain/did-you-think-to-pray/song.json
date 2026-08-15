@@ -24,6 +24,7 @@
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
-    "timing": "worshipcommons"
+    "timing": "worshipcommons",
+    "art": "worshipcommons"
   }
 }

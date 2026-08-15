@@ -22,6 +22,7 @@
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
-    "tune": "hymnsite"
+    "tune": "hymnsite",
+    "art": "worshipcommons"
   }
 }

@@ -18,6 +18,7 @@
   "parent": null,
   "relationLabel": null,
   "provenance": {
-    "text": "cyber-hymnal"
+    "text": "cyber-hymnal",
+    "art": "worshipcommons"
   }
 }

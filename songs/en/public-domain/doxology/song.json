@@ -23,6 +23,7 @@
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
-    "abc": "open-hymnal"
+    "abc": "open-hymnal",
+    "art": "worshipcommons"
   }
 }
