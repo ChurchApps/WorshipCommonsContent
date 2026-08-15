@@ -18,11 +18,11 @@
     "youtube": "ANXV46f3jo0",
     "title": "We Three Kings of Orient Are"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "we-three-kings"
 }

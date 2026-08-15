@@ -18,11 +18,11 @@
     "youtube": "HRuKqHokbTU",
     "title": "My Lord What a Morning"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "my-lord-what-a-morning"
 }

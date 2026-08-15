@@ -18,11 +18,11 @@
     "youtube": "U7x3OX6v5_o",
     "title": "Wonderful words of life"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "wonderful-words-of-life"
 }

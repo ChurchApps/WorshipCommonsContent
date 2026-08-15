@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "6Uk704mgwbB",
-    "title": "If Thou But Suffer God to Guide Thee"
-  },
   "relationLabel": "German original · Georg Neumark, 1641",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "if-thou-but-suffer-god-to-guide-thee"
 }

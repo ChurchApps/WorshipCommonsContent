@@ -18,11 +18,11 @@
     "youtube": "Ymkl0t0FOcw",
     "title": "Jesus Paid It All - Kim Walker-Smith | Worship Circle Hymns"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "jesus-paid-it-all"
 }

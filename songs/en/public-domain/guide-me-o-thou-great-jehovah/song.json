@@ -18,7 +18,6 @@
     "youtube": "K5uwi04ttjA",
     "title": "Guide Me, O Thou Great Jehovah (Grace Community Church)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "guide-me-o-thou-great-jehovah"
 }

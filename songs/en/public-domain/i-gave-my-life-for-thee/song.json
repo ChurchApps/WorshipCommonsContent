@@ -18,11 +18,11 @@
     "youtube": "fznpu_dM9H4",
     "title": "I Gave My Life For Thee (with lyrics) - Beautiful Easter Hymn"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-gave-my-life-for-thee"
 }

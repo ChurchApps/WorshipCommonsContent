@@ -15,9 +15,9 @@
   "churchCount": 0,
   "hymnalCount": 60,
   "video": null,
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "ive-got-peace-like-a-river"
 }

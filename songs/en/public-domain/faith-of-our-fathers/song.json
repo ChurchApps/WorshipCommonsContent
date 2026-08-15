@@ -18,7 +18,6 @@
     "youtube": "Ay9EcTD2gzs",
     "title": "Faith of Our Fathers (with lyrics) - The most Beautiful Hymn!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "faith-of-our-fathers"
 }

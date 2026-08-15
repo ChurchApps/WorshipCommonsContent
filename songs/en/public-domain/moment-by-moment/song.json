@@ -18,12 +18,12 @@
     "youtube": "b7b0cf_kM8c",
     "title": "Moment by Moment | Steps to Christ"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "moment-by-moment"
 }

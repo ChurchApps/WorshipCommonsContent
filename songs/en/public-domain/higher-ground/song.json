@@ -18,11 +18,11 @@
     "youtube": "jYCkqCG933M",
     "title": "Higher Ground hymn lyrics"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "higher-ground"
 }

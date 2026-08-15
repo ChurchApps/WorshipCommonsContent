@@ -18,13 +18,10 @@
     "youtube": "_913MDyOu6Q",
     "title": "HIMNO: HOY POR LOS SANTOS, QUE DESCANSAN YA"
   },
-  "parent": {
-    "id": "MHG5BeaFhHD",
-    "title": "For All the Saints"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "for-all-the-saints"
 }

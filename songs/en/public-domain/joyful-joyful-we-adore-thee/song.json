@@ -18,7 +18,6 @@
     "youtube": "2yZVweZ2Cvg",
     "title": "Joyful Joyful We Adore Thee | Official Lyric Video | Reawaken Hymns"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "joyful-joyful-we-adore-thee"
 }

@@ -18,12 +18,9 @@
     "youtube": "Q7P1iT9xnvw",
     "title": "HA62 | Himno 344 | Dulce oración"
   },
-  "parent": {
-    "id": "MYPLBUJ6zEO",
-    "title": "Sweet Hour of Prayer"
-  },
   "relationLabel": "Spanish translation · anonymous",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "sweet-hour-of-prayer"
 }

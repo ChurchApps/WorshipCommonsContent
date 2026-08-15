@@ -18,13 +18,10 @@
     "youtube": "U0SrN4B-HTU",
     "title": "Clapping Gloria - Mike Anderson - original version"
   },
-  "parent": {
-    "id": "yB0FPr_vwGH",
-    "title": "Praise Him! Praise Him!"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "praise-him-praise-him"
 }

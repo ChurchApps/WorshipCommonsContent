@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "_X94hS2ZTgf",
-    "title": "Joy to the World"
-  },
   "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 2010",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "joy-to-the-world"
 }

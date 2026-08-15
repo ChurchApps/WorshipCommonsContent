@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "U0YapCDGNs9",
-    "title": "Were You There"
-  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "were-you-there"
 }

@@ -18,13 +18,10 @@
     "youtube": "LaE0nQGGIbo",
     "title": "HIMNO 357 ABRE MIS OJOS A LA LUZ"
   },
-  "parent": {
-    "id": "DEsNtozwo9I",
-    "title": "Open My Eyes, That I May See"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "open-my-eyes-that-i-may-see"
 }

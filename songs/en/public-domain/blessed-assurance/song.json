@@ -18,7 +18,6 @@
     "youtube": "H1VMHEMOMZY",
     "title": "Blessed Assurance"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "blessed-assurance"
 }

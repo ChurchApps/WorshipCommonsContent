@@ -18,14 +18,10 @@
     "youtube": "uQwoCFLBiG8",
     "title": "\"Adeste Fideles\" (O Come, All Ye Faithful) - Christian Christmas Carol [LATIN LYRICS]"
   },
-  "parent": {
-    "id": "e0RA7WIC3mU",
-    "title": "O Come, All Ye Faithful"
-  },
-  "relationLabel": "Latin original · John F. Wade, 1751",
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "adeste-fideles"
 }

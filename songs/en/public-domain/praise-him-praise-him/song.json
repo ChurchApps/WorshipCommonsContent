@@ -18,11 +18,11 @@
     "youtube": "kWFAk7gQWgA",
     "title": "Praise Him! Praise Him! • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "praise-him-praise-him"
 }

@@ -18,7 +18,6 @@
     "youtube": "bVWOV8_PPCk",
     "title": "Whiter Than Snow | Help in Daily Living"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "whiter-than-snow"
 }

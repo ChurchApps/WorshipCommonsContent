@@ -18,11 +18,11 @@
     "youtube": "UAfIKeh04KU",
     "title": "Go, Tell It on the Mountain (Hymn Charts with Lyrics, Contemporary)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "go-tell-it-on-the-mountain"
 }

@@ -18,12 +18,12 @@
     "youtube": "zzfdVU32vUc",
     "title": "SMF - All My Heart This Night Rejoices"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "all-my-heart-this-night-rejoices"
 }

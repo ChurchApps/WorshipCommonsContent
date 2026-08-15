@@ -18,11 +18,11 @@
     "youtube": "iE3pSpZkKc4",
     "title": "🔴BEST VERSION: THE BATTLE HYMN OF THE REPUBLIC"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "battle-hymn-of-the-republic"
 }

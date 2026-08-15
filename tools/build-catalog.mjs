@@ -6,20 +6,31 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor, splitChordpro, songDirs, readJson, writeJson } from "./lib.mjs";
+import { idFor, splitChordpro, songDirs, readJson, readWorks, writeJson } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const rows = [];
 const writerSlugs = new Set();
+const works = readWorks(ROOT);
+const workSlugsUsed = new Set();
 
 for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   const song = readJson(path.join(dir, "song.json"));
   if (!song.id) throw new Error(`${dir}: song.json has no id — stamp one with idFor(title) = ${idFor(song.title)}`);
+  const work = song.workRef ? works.get(song.workRef) : null;
+  if (song.workRef && !work) throw new Error(`${dir}: workRef "${song.workRef}" has no works/ folder`);
+  if (work) workSlugsUsed.add(work.folder);
   const { body } = splitChordpro(fs.readFileSync(path.join(dir, "lyrics.chordpro"), "utf8"));
   const rel = f => fs.existsSync(path.join(dir, f));
   const libSrc = f => ["songs", langDir, section, folder, f].join("/");
   const bytes = f => fs.statSync(path.join(dir, f)).size;
+  // shared assets resolve song folder first (override), then the song's work folder
+  const shared = f =>
+    rel(f) ? { url: libSrc(f), bytes: bytes(f) }
+    : work && fs.existsSync(path.join(work.dir, f)) ? { url: `works/${work.folder}/${f}`, bytes: fs.statSync(path.join(work.dir, f)).size }
+    : { url: null, bytes: null };
+  const midi = shared("tune.mid"), abc = shared("tune.abc"), art = shared("art.webp");
 
   const row = {
     id: song.id,
@@ -37,7 +48,8 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     churchCount: song.churchCount,
     hymnalCount: song.hymnalCount,
     chordPro: body,
-    parentSongId: song.parent ? song.parent.id : null,
+    // legacy song.parent kept as fallback; curated songs derive parent from their work
+    parentSongId: song.parent ? song.parent.id : (work && work.canonicalSongId !== song.id ? work.canonicalSongId : null),
     relationLabel: song.relationLabel ?? null,
     // curated songs are approved/certified; exported submissions carry their own state
     status: song.status ?? "approved",
@@ -45,12 +57,12 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     proAnswer: song.proAnswer ?? null,
     certified: song.certified ?? true,
     // url columns hold repo-relative paths (= bucket keys); the API reader prefixes its contentRoot
-    midiUrl: rel("tune.mid") ? libSrc("tune.mid") : null,
-    midiBytes: rel("tune.mid") ? bytes("tune.mid") : null,
+    midiUrl: midi.url,
+    midiBytes: midi.bytes,
     lyricsUrl: rel("timing.json") ? libSrc("timing.json") : null,
-    abcUrl: rel("tune.abc") ? libSrc("tune.abc") : null,
+    abcUrl: abc.url,
     videoUrl: song.video ? `https://www.youtube.com/watch?v=${song.video.youtube}` : null,
-    artUrl: rel("art.webp") ? libSrc("art.webp") : null,
+    artUrl: art.url,
     writerPortraitUrl: null,
     writerBio: null
   };
@@ -80,4 +92,4 @@ const dupes = rows.map(r => r.id).filter((id, i, a) => a.indexOf(id) !== i);
 if (dupes.length) throw new Error(`Duplicate song ids: ${[...new Set(dupes)].join(", ")}`);
 
 writeJson(path.join(ROOT, "catalog.json"), { rows });
-console.log(`catalog.json: ${rows.length} songs, ${writerSlugs.size} writer portraits`);
+console.log(`catalog.json: ${rows.length} songs, ${writerSlugs.size} writer portraits, ${workSlugsUsed.size} works`);

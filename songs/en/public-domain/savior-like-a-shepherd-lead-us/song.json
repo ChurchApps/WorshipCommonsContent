@@ -18,12 +18,12 @@
     "youtube": "yJvtPgekH0o",
     "title": "Savior, Like a Shepherd Lead Us (Hymn 170) - Hymnology (Official Video)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "savior-like-a-shepherd-lead-us"
 }

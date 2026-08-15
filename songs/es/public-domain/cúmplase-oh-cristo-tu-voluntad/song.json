@@ -18,13 +18,10 @@
     "youtube": "HWBxoMkrW7Q",
     "title": "HA62 | Himno 260 | Cúmplase, oh Cristo, tu voluntad"
   },
-  "parent": {
-    "id": "UR1ml-cz5-o",
-    "title": "Have Thine Own Way, Lord"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "have-thine-own-way-lord"
 }

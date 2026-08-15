@@ -18,7 +18,6 @@
     "youtube": "Zy7t2Uasqe8",
     "title": "For the Beauty of the Earth (Michelle Swift, Hymn with Lyrics, Contemporary)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "for-the-beauty-of-the-earth"
 }

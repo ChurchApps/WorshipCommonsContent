@@ -18,11 +18,11 @@
     "youtube": "KB4KcleYiWM",
     "title": "Trust and Obey (Hymns with Lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "trust-and-obey"
 }

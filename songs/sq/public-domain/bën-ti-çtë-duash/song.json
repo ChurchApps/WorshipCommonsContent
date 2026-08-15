@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "UR1ml-cz5-o",
-    "title": "Have Thine Own Way, Lord"
-  },
   "relationLabel": "Albanian translation · tr. Jan Foss",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "have-thine-own-way-lord"
 }

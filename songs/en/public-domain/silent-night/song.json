@@ -18,13 +18,13 @@
     "youtube": "91aX3qBUm6I",
     "title": "Silent Night (with lyrics) - The most BEAUTIFUL Christmas carol / hymn!"
   },
-  "parent": null,
-  "relationLabel": null,
+  "relationLabel": "English translation",
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "stille-nacht"
 }

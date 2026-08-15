@@ -18,12 +18,12 @@
     "youtube": "SNQOcpECk4A",
     "title": "Glorious Things of Thee Are Spoken (Tune: Austria - 4vv) [with lyrics for congregations]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "glorious-things-of-thee-are-spoken"
 }

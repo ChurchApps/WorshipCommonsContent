@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "OqDGwwFTMc3",
-    "title": "Are You Washed in the Blood?"
-  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "are-you-washed-in-the-blood"
 }

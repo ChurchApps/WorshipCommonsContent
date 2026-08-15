@@ -18,12 +18,9 @@
     "youtube": "a9D18Swl7hk",
     "title": "Oh, que amigo nos es Cristo"
   },
-  "parent": {
-    "id": "DmZMgNX0L6p",
-    "title": "What a Friend We Have in Jesus"
-  },
   "relationLabel": "Spanish translation · tr. Leandro Garza Mora, 1904",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "what-a-friend-we-have-in-jesus"
 }

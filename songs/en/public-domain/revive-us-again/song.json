@@ -18,11 +18,11 @@
     "youtube": "fmIidg70inc",
     "title": "Revive Us Again | Reawaken Hymns | Official Lyric Video"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "revive-us-again"
 }

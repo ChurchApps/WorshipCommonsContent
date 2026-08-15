@@ -18,13 +18,10 @@
     "youtube": "c_AVn4U21zQ",
     "title": "Himno 88 Oh, aldehuela de Belén Nuevo himnario Adventista"
   },
-  "parent": {
-    "id": "a19OdmA8uPt",
-    "title": "O Little Town of Bethlehem"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "o-little-town-of-bethlehem"
 }

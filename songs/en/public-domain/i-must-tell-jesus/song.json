@@ -18,11 +18,11 @@
     "youtube": "5PbKBx870fw",
     "title": "I Must Tell Jesus • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-must-tell-jesus"
 }

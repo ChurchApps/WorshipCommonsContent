@@ -18,12 +18,12 @@
     "youtube": "j3iLbxlmyNU",
     "title": "To Shepherds as They Watched by Night - Christmas Song - Christian Hymn"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "to-shepherds-as-they-watched-by-night"
 }

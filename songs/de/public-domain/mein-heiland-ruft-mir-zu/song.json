@@ -15,12 +15,9 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "jezxVGT-AB_",
-    "title": "Jesus Paid It All"
-  },
   "relationLabel": "German translation · tr. Theodor Kübler",
   "provenance": {
     "text": "cyber-hymnal"
-  }
+  },
+  "workRef": "jesus-paid-it-all"
 }

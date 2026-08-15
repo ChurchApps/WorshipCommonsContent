@@ -18,13 +18,10 @@
     "youtube": "q4__ykcO4Wk",
     "title": "Señor Jehová, omnipotente Dios"
   },
-  "parent": {
-    "id": "McmQPbGN-Y5",
-    "title": "God of Our Fathers"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "god-of-our-fathers"
 }

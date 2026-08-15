@@ -18,11 +18,11 @@
     "youtube": "MGBxvsvulGU",
     "title": "Alas! And Did My Savior Bleed? (Hymn Charts with Lyrics, Contemporary)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "alas-and-did-my-savior-bleed"
 }

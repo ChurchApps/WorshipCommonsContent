@@ -10,6 +10,7 @@ an open library of worship music. Everything here is freely usable: see
 songs/<lang>/public-domain/<title>/   one folder per public-domain song
 songs/<lang>/wc-license/<title>/      writer-shared songs (WorshipCommons License)
 writers/<slug>/                       writer portraits + bios (shared across songs)
+works/<slug>/                         translation families: shared tune/art + work.json
 licenses/                             full text of each song license
 sources.json                          where content came from + attribution obligations
 catalog.json                          generated one-file form of the whole library
@@ -31,6 +32,23 @@ Each song folder contains:
 Folder names are cosmetic title slugs (native script for non-Latin languages);
 a song's identity is the `id` in its `song.json` — deterministic, frozen at
 creation, and stable even if the title is edited.
+
+### Works — translation families
+
+Translations of the same hymn are separate songs grouped by a **work**:
+`works/<slug>/work.json` is `{ slug, title, canonicalSongId }` where
+`canonicalSongId` is the original-language song. Members carry
+`"workRef": "<slug>"` in `song.json` (never a `parent` field — the parent link
+in the catalog is derived from the work). `tune.mid`/`tune.abc`/`art.webp` in
+the work folder are shared by all members; a member with its own copy of a
+file overrides it (different tune for that language), and `timing.json` is
+always per-song. `validate` errors if a member's file is byte-identical to
+the work's — delete the member copy to inherit.
+
+**When a song gains its first translation**: give the new song
+`"parent": { "id": "<original id>", "title": "..." }` and run
+`node tools/migrate-works.mjs` — it creates the work (or adopts the newcomer
+into an existing one), moves shared assets, and rewrites `workRef`.
 
 ## Tools
 
@@ -59,6 +77,7 @@ User submissions on the site write new song folders straight into the bucket
 ```
 aws s3 sync s3://<content-bucket>/songs songs --delete
 aws s3 sync s3://<content-bucket>/writers writers --delete
+aws s3 sync s3://<content-bucket>/works works --delete
 node tools/write-sources-txt.mjs && node tools/build-catalog.mjs && node tools/validate.mjs
 git diff   # eyeball, then commit content + regenerated catalog.json together
 ```
@@ -68,6 +87,7 @@ git diff   # eyeball, then commit content + regenerated catalog.json together
 ```
 aws s3 sync songs s3://<content-bucket>/songs
 aws s3 sync writers s3://<content-bucket>/writers
+aws s3 sync works s3://<content-bucket>/works
 ```
 
 then reseed the API database from `catalog.json` (see WorshipCommonsApi).
@@ -81,7 +101,8 @@ song id survive any repopulation.
 2. `node tools/write-sources-txt.mjs && node tools/build-catalog.mjs && node tools/validate.mjs`
 3. Commit content + regenerated `catalog.json` together.
 4. Push to the bucket: `aws s3 sync songs s3://<content-bucket>/songs` (and
-   `writers` if changed) — never `--delete` in this direction unless you mean it.
+   `writers` / `works` if changed) — never `--delete` in this direction unless
+   you mean it.
 
 The site picks the change up via the API repo's `yarn sync-catalog` (see the
 runbook in WorshipCommonsApi).

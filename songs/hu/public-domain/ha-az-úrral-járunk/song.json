@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "tIzXwesquh0",
-    "title": "Trust and Obey"
-  },
   "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1973",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "trust-and-obey"
 }

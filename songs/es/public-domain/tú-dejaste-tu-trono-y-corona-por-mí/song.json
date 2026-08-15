@@ -18,13 +18,10 @@
     "youtube": "gVG_2FBFbB4",
     "title": "TU DEJASTE TU TRONO Y CORONA POR MÍ | Himno Bautista #60"
   },
-  "parent": {
-    "id": "ARrDtJwZ8PE",
-    "title": "Thou Didst Leave Thy Throne"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "thou-didst-leave-thy-throne"
 }

@@ -18,12 +18,12 @@
     "youtube": "NsXcCdWjsmg",
     "title": "Jesus, Lover Of My Soul - Fernando Ortega"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "jesus-lover-of-my-soul"
 }

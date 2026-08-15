@@ -18,12 +18,12 @@
     "youtube": "R2Un5nwlL5w",
     "title": "What Child Is This | Choir with Lyrics | Christmas Carol | Dix/Stainer | Sunday 7pm Choir"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "what-child-is-this"
 }

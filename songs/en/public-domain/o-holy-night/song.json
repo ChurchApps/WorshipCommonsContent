@@ -18,11 +18,11 @@
     "youtube": "SqIjlIjt-nI",
     "title": "O Holy Night | Beautiful Christmas Carol | All Verses | Solo & Piano w/ Lyrics  | Sat. 5pm Choir"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-holy-night"
 }

@@ -18,12 +18,12 @@
     "youtube": "Xw3wDU5YAaM",
     "title": "It Came Upon a Midnight Clear"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "it-came-upon-a-midnight-clear"
 }

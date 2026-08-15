@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "HQ-81DpSVuJ",
-    "title": "May God Bestow on Us His Grace"
-  },
   "relationLabel": "German original · Martin Luther, 1524",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "may-god-bestow-on-us-his-grace"
 }

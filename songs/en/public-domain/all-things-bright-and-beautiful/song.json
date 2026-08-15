@@ -18,11 +18,11 @@
     "youtube": "FT_oDqOEGpc",
     "title": "All Things Bright  And Beautiful by Kidzup with lyrics"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "all-things-bright-and-beautiful"
 }

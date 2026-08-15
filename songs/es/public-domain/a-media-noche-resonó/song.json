@@ -18,13 +18,10 @@
     "youtube": "CCli8oWzNCY",
     "title": "68 - A media noche resonó (Pista/Letra Himnario Bautista)"
   },
-  "parent": {
-    "id": "jr963ExIdxX",
-    "title": "It Came Upon A Midnight Clear"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "it-came-upon-a-midnight-clear"
 }

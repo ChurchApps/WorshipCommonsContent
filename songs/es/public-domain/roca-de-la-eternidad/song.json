@@ -18,12 +18,9 @@
     "youtube": "pMdou3pUfPs",
     "title": "HA62 | Himno 236 | Roca de la eternidad"
   },
-  "parent": {
-    "id": "b13IrZfZXWm",
-    "title": "Rock of Ages"
-  },
   "relationLabel": "Spanish translation · tr. Thomas M. Westrup",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "rock-of-ages"
 }

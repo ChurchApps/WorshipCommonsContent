@@ -18,12 +18,12 @@
     "youtube": "e9FqFC0WA-o",
     "title": "Where He Leads Me (I Can Hear My Saviour Calling)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "where-he-leads-me"
 }

@@ -18,11 +18,11 @@
     "youtube": "j04Bx9pKwpU",
     "title": "I Surrender All (with lyrics) - The most BEAUTIFUL hymn!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-surrender-all"
 }

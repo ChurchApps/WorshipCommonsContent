@@ -18,11 +18,11 @@
     "youtube": "0POs0TKMMFs",
     "title": "Sweet Hour of Prayer (with lyrics) - The most Beautiful Hymn!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "sweet-hour-of-prayer"
 }

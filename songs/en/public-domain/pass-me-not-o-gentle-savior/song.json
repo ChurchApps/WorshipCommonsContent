@@ -18,7 +18,6 @@
     "youtube": "FExofOqBJgw",
     "title": "🎵 'Pass Me Not, O Gentle Savior' - Beautiful Hymn of Grace and Mercy 🙏"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "pass-me-not-o-gentle-savior"
 }

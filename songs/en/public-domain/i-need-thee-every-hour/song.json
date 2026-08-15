@@ -18,7 +18,6 @@
     "youtube": "tfPZ9mRIKgs",
     "title": "Bill & Gloria Gaither - I Need Thee Every Hour [Live] ft. Randy Owen"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-need-thee-every-hour"
 }

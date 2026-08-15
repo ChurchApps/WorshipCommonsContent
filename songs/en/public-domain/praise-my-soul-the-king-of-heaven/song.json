@@ -18,7 +18,6 @@
     "youtube": "GyRIVbdsi4c",
     "title": "Praise, my soul the King of heaven"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "praise-my-soul-the-king-of-heaven"
 }

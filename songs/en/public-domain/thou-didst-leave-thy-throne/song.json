@@ -18,11 +18,11 @@
     "youtube": "P7w_z8o2SQI",
     "title": "Thou Did'st Leave Thy Throne & Thy Kingly Crown (Tune: Margaret-5vv) [with lyrics for congregations]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "thou-didst-leave-thy-throne"
 }

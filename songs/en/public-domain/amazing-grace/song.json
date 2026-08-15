@@ -18,12 +18,12 @@
     "youtube": "NIBeO5bn6fA",
     "title": "Amazing Grace [With Lyrics]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "amazing-grace"
 }

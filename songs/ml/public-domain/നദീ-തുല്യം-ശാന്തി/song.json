@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "_UFqNA48X8n",
-    "title": "It Is Well with My Soul"
-  },
   "relationLabel": "Malayalam translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "it-is-well-with-my-soul"
 }

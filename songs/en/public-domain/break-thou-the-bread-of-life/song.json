@@ -18,11 +18,11 @@
     "youtube": "NQpj4TSe-Ec",
     "title": "Break Thou the Bread of Life"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "break-thou-the-bread-of-life"
 }

@@ -18,13 +18,10 @@
     "youtube": "S6nzcXFy97A",
     "title": "HA62 | Himno 329 | Grato es contar la historia"
   },
-  "parent": {
-    "id": "FfRhpTJHhew",
-    "title": "I Love to Tell the Story"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "i-love-to-tell-the-story"
 }

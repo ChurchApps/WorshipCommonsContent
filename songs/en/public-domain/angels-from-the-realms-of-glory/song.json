@@ -18,7 +18,6 @@
     "youtube": "7iF80qpbIGo",
     "title": "Angels from the Realms of Glory UMH 220; FUMC Houston, 12/31/2023"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "angels-from-the-realms-of-glory"
 }

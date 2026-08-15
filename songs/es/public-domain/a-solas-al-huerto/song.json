@@ -18,12 +18,9 @@
     "youtube": "SKUo7V5ztSk",
     "title": "A solas Al huerto Cantado Rut Ramirez"
   },
-  "parent": {
-    "id": "1RHhMFd3Dew",
-    "title": "In the Garden"
-  },
   "relationLabel": "Spanish translation · tr. Vicente Mendoza, 1917",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "in-the-garden"
 }

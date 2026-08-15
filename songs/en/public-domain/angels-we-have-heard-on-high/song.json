@@ -18,7 +18,6 @@
     "youtube": "WHWqj6gKS9g",
     "title": "Angels We Have Heard On High"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "angels-we-have-heard-on-high"
 }

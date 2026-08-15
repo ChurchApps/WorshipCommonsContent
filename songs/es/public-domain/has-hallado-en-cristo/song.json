@@ -18,13 +18,10 @@
     "youtube": "6srstccRxxU",
     "title": "¿HAS HALLADO EN CRISTO?"
   },
-  "parent": {
-    "id": "OqDGwwFTMc3",
-    "title": "Are You Washed in the Blood?"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "are-you-washed-in-the-blood"
 }

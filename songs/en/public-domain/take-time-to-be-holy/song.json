@@ -18,11 +18,11 @@
     "youtube": "dMJHVoKzP14",
     "title": "Take Time to Be Holy (with lyrics) - Beautiful Hymn"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "take-time-to-be-holy"
 }

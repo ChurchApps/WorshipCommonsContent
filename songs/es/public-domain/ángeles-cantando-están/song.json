@@ -18,13 +18,10 @@
     "youtube": "hxLj36-ZYlQ",
     "title": "Himno Adventista 92 - Ángeles cantando están"
   },
-  "parent": {
-    "id": "yVg78wuG3f-",
-    "title": "Angels We Have Heard on High"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "angels-we-have-heard-on-high"
 }

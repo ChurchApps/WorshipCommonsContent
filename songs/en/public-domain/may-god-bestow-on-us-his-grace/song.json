@@ -18,12 +18,12 @@
     "youtube": "DFG3SQL-Ouw",
     "title": "Hymn 824 May God Bestow on Us His Grace"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "may-god-bestow-on-us-his-grace"
 }

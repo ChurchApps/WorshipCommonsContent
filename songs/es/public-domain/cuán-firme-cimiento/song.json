@@ -18,12 +18,9 @@
     "youtube": "u2n7EgliQV4",
     "title": "371 - Cuán firme cimiento (Pista/Letra Himnario Bautista)"
   },
-  "parent": {
-    "id": "WE26JDTfHyQ",
-    "title": "How Firm a Foundation"
-  },
   "relationLabel": "Spanish translation · tr. Vicente Mendoza",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "how-firm-a-foundation"
 }

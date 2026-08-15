@@ -18,14 +18,11 @@
     "youtube": "X57AnzP5xDw",
     "title": "HA62 Himno 70 | Santo, Santo, Santo |"
   },
-  "parent": {
-    "id": "Z8zZ1SBRMoo",
-    "title": "Holy, Holy, Holy"
-  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1871",
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal"
-  }
+  },
+  "workRef": "holy-holy-holy"
 }

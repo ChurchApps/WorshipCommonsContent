@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "EKHqtYfDRue",
-    "title": "O Come, O Come, Emmanuel"
-  },
   "relationLabel": "Malayalam original · ജോണ്‍ എം. നീൽ, 1851",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "o-come-o-come-emmanuel"
 }

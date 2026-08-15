@@ -18,11 +18,11 @@
     "youtube": "CQm4gfoAtwk",
     "title": "Yield Not To Temptation | Classic Gospel Hymn"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "yield-not-to-temptation"
 }

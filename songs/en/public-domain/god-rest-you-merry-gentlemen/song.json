@@ -18,11 +18,11 @@
     "youtube": "o0grjzmVKBM",
     "title": "God Rest You Merry Gentlemen | Christmas Lyric Video | Reawaken Hymns"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "god-rest-you-merry-gentlemen"
 }

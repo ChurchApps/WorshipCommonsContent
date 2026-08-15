@@ -18,11 +18,11 @@
     "youtube": "qwpTceQfqGw",
     "title": "When We All Get to Heaven (Hymns with Lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "when-we-all-get-to-heaven"
 }

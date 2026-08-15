@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "GRM0Acnno6X",
-    "title": "I Know Whom I Have Believed"
-  },
   "relationLabel": "Russian translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "i-know-whom-i-have-believed"
 }

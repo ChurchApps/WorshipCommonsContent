@@ -18,7 +18,6 @@
     "youtube": "HusH56d-Omw",
     "title": "It Came Upon The Midnight Clear | Christmas Lyric Video | Reawaken Hymns"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "it-came-upon-the-midnight-clear"
 }

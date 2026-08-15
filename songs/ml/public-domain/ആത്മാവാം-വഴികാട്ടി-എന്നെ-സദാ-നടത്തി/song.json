@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "bfu9Z27BcwC",
-    "title": "Holy Spirit, Faithful Guide"
-  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "holy-spirit-faithful-guide"
 }

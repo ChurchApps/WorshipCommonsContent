@@ -18,12 +18,9 @@
     "youtube": "CvLtOvHNaAE",
     "title": "La Cruz Excelsa Al Contemplar | Fielder Worship"
   },
-  "parent": {
-    "id": "5XkXjIIePgD",
-    "title": "When I Survey the Wondrous Cross"
-  },
   "relationLabel": "Spanish translation · anonymous",
   "provenance": {
     "text": "wc-seed"
-  }
+  },
+  "workRef": "when-i-survey-the-wondrous-cross"
 }

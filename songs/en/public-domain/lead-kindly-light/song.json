@@ -18,11 +18,11 @@
     "youtube": "PnIYLEXHeFk",
     "title": "Lead, Kindly Light (2012) | The Tabernacle Choir"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "lead-kindly-light"
 }

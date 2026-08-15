@@ -18,11 +18,11 @@
     "youtube": "3_dMzucjEaw",
     "title": "In The Garden (with lyrics) The most BEAUTIFUL hymn you've EVER heard!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "in-the-garden"
 }

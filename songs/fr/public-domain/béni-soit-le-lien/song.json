@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "PcwqBQ0pxuT",
-    "title": "Blest Be the Tie That Binds"
-  },
   "relationLabel": "French original · Edmond L. Budry, 1854",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "blest-be-the-tie-that-binds"
 }

@@ -18,7 +18,6 @@
     "youtube": "_hmtxrFgrEA",
     "title": "All Hail the Power of Jesus' Name (Tune: Diadem - 3vv) [with lyrics for congregations]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "all-hail-the-power-of-jesus-name"
 }

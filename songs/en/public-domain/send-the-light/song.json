@@ -18,10 +18,10 @@
     "youtube": "4RjmtL7nmw0",
     "title": "Send the Light"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "send-the-light"
 }

@@ -18,11 +18,11 @@
     "youtube": "eSyUvOUZwxQ",
     "title": "While Shepherds Watched Their Flocks By Night with Lyrics | Christmas Carol & Song"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "while-shepherds-watched-their-flocks"
 }

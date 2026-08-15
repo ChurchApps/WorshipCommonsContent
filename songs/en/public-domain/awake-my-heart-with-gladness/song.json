@@ -18,12 +18,12 @@
     "youtube": "7vkwarcV5kI",
     "title": "Awake, My Heart, with Gladness"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "timing": "worshipcommons"
-  }
+  },
+  "workRef": "awake-my-heart-with-gladness"
 }

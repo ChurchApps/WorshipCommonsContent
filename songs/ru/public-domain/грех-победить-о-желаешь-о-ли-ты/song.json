@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "XZ49aMGaQWb",
-    "title": "There Is Power in the Blood"
-  },
   "relationLabel": "Russian translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "there-is-power-in-the-blood"
 }

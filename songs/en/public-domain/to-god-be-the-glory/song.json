@@ -18,7 +18,6 @@
     "youtube": "2CeBoSQsBR0",
     "title": "To God be the glory"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "to-god-be-the-glory"
 }

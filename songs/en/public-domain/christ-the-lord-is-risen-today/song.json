@@ -18,7 +18,6 @@
     "youtube": "cErtpg5hBSw",
     "title": "Christ the Lord Is Risen Today (2019) | The Tabernacle Choir"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "christ-the-lord-is-risen-today"
 }

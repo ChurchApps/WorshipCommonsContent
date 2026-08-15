@@ -18,13 +18,10 @@
     "youtube": "zRHR-wRK8Mk",
     "title": "Por la excelsa majestad - Himno 370 - Nuevo Himnario Adventista 🎶"
   },
-  "parent": {
-    "id": "Umvqw0Kazrh",
-    "title": "For the Beauty of the Earth"
-  },
   "relationLabel": "Spanish translation · tr. Federico Pagura",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "for-the-beauty-of-the-earth"
 }

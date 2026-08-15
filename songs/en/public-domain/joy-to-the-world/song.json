@@ -18,7 +18,6 @@
     "youtube": "30OaM6b48k8",
     "title": "Joy to the World with Lyrics | Christmas Carol & Song"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "joy-to-the-world"
 }

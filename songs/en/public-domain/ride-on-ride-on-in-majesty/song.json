@@ -18,10 +18,10 @@
     "youtube": "uHeIX8xTpYs",
     "title": "Ride on ride on in majesty (Hymn with lyrics)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "ride-on-ride-on-in-majesty"
 }

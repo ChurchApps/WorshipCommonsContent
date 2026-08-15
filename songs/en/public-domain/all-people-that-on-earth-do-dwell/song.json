@@ -18,11 +18,11 @@
     "youtube": "5QgakrRvsX8",
     "title": "All people that on earth do dwell Hymn - Westminster Abbey"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "all-people-that-on-earth-do-dwell"
 }

@@ -15,13 +15,10 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "video": null,
-  "parent": {
-    "id": "DdnkGm4QMhD",
-    "title": "Silent Night"
-  },
   "relationLabel": "Portuguese translation",
   "provenance": {
     "text": "cyber-hymnal",
     "tune": "cyber-hymnal"
-  }
+  },
+  "workRef": "stille-nacht"
 }

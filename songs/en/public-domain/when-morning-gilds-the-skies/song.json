@@ -18,11 +18,11 @@
     "youtube": "pCsC0CUH34I",
     "title": "When Morning Gilds the Skies (Tune: Laudes Domini - 5vv) [with lyrics for congregations]"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "hymnsite",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "when-morning-gilds-the-skies"
 }

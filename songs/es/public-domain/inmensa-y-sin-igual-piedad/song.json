@@ -18,12 +18,9 @@
     "youtube": "1Ly-eh8qVks",
     "title": "Himno Inmensa y sin igual piedad  Iglesia bautista"
   },
-  "parent": {
-    "id": "4m8Ep0PePd0",
-    "title": "Alas! and Did My Savior Bleed"
-  },
   "relationLabel": "Spanish translation · tr. Anonymous",
   "provenance": {
     "text": "hymnary"
-  }
+  },
+  "workRef": "alas-and-did-my-savior-bleed"
 }

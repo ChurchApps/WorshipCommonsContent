@@ -18,12 +18,9 @@
     "youtube": "BjhW3vBA1QU",
     "title": "J Balvin, Dua Lipa, Bad Bunny, Tainy - UN DIA (ONE DAY)"
   },
-  "parent": {
-    "id": "-G2gmV6hhA7",
-    "title": "One Day"
-  },
   "relationLabel": "Spanish translation",
   "provenance": {
     "text": "cyber-hymnal"
-  }
+  },
+  "workRef": "one-day"
 }

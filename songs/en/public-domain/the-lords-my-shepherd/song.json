@@ -18,12 +18,12 @@
     "youtube": "-Msh0PAJfPU",
     "title": "The Lord’s My Shepherd, I’ll Not Want (Metropolitan Tabernacle)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "the-lords-my-shepherd"
 }
