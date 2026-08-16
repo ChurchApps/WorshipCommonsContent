@@ -37,6 +37,10 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     errors.push(`${label}: language "${song.language}" belongs in ${LANG_CODES[song.language]}/, not ${langDir}/`);
   if ((section === "public-domain") !== (song.license === "PD"))
     errors.push(`${label}: license "${song.license}" does not match section ${section}`);
+  if (song.licenseSource) {
+    if (!sources[song.licenseSource]) errors.push(`${label}: licenseSource references unknown source "${song.licenseSource}"`);
+    if (song.license !== "PD") errors.push(`${label}: licenseSource is only valid for public-domain songs`);
+  }
 
   // case-insensitive folder collisions break Windows checkouts
   const bucket = `${langDir}/${section}`;

@@ -86,8 +86,10 @@ export function renderSourcesTxt(song, sources) {
     lines.push(line);
   }
   if (song.hymnalCount > 0) lines.push("Hymnal-count metadata: Hymnary.org — https://hymnary.org");
+  const pdSource = song.license === "PD" && song.licenseSource ? sources[song.licenseSource] : null;
+  if (song.license === "PD" && song.licenseSource && !pdSource) throw new Error(`${song.title}: licenseSource references unknown source "${song.licenseSource}"`);
   lines.push("", song.license === "PD"
-    ? "License: Public domain. See licenses/public-domain.md at the repository root."
+    ? `License: Public domain.${pdSource ? ` Public-domain source: ${pdSource.name}.` : ""} See licenses/public-domain.md at the repository root.`
     : "License: The WorshipCommons License, Version 1.0. See licenses/wc-license.md at the repository root.");
   return lines.join("\n") + "\n";
 }
