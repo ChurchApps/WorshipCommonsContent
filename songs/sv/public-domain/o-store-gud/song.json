@@ -1,0 +1,25 @@
+{
+  "id": "1ESF6ciOLAi",
+  "title": "O Store Gud",
+  "writer": "Carl G. Boberg",
+  "writerRef": null,
+  "year": 1886,
+  "language": "Swedish",
+  "themes": "Praise,Creation",
+  "key": "Bb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Psaltaren 8:3-4",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 3,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}
