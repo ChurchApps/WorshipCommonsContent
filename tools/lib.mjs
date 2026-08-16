@@ -20,7 +20,8 @@ export const LANG_CODES = {
   Malayalam: "ml",
   Albanian: "sq",
   Hungarian: "hu",
-  Zulu: "zu"
+  Zulu: "zu",
+  Swedish: "sv"
 };
 
 // folder name from a title: lowercase, apostrophes dropped, other punctuation/space

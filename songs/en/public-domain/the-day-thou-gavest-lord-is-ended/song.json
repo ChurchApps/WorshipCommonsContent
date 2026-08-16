@@ -1,0 +1,25 @@
+{
+  "id": "9AEXqrSai0L",
+  "title": "The Day Thou Gavest, Lord, Is Ended",
+  "writer": "John Ellerton",
+  "writerRef": "john-ellerton",
+  "year": 1870,
+  "language": "English",
+  "themes": "Closing Songs,Praise",
+  "key": "Ab",
+  "bpm": 80,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 42:8",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 321,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}

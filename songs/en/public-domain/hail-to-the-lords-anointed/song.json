@@ -1,0 +1,25 @@
+{
+  "id": "dTzZqzrhIHj",
+  "title": "Hail to the Lord's Anointed",
+  "writer": "James Montgomery",
+  "writerRef": "james-montgomery",
+  "year": 1821,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 72:1-2",
+  "scriptureText": null,
+  "license": "PD",
+  "churchCount": 0,
+  "hymnalCount": 883,
+  "video": null,
+  "parent": null,
+  "relationLabel": null,
+  "provenance": {
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal",
+    "art": "worshipcommons"
+  }
+}
