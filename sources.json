@@ -34,5 +34,11 @@
     "url": "https://worshipcommons.org",
     "licenseBasis": "Produced by WorshipCommons tooling — cover art, and lyric timings derived from the public-domain tune sources.",
     "attribution": { "required": false }
+  },
+  "wikimedia-commons": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org",
+    "licenseBasis": "CC0 1.0 public-domain dedication MIDI settings of traditional / public-domain hymn melodies (Peter Gerloff / Rabanus Flavus).",
+    "attribution": { "required": false, "text": "Wikimedia Commons", "link": "https://commons.wikimedia.org" }
   }
 }

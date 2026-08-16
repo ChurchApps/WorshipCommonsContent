@@ -17,7 +17,8 @@
   "video": null,
   "relationLabel": "Russian translation",
   "provenance": {
-    "text": "cyber-hymnal"
+    "text": "cyber-hymnal",
+    "tune": "cyber-hymnal"
   },
   "workRef": "i-will-sing-of-my-redeemer"
 }

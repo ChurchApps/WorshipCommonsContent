@@ -2,6 +2,7 @@ Cantad al Señor — sources & attribution
 Generated from song.json and the repository's sources.json. Do not edit by hand.
 
 Text (lyrics.chordpro): WorshipCommons seed transcription — https://worshipcommons.org
+Tune (tune.mid): Wikimedia Commons — https://commons.wikimedia.org
 Cover art (art.webp): WorshipCommons (generated) — https://worshipcommons.org
 Hymnal-count metadata: Hymnary.org — https://hymnary.org
 
