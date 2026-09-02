@@ -7,6 +7,7 @@ import { idFor, LANG_CODES, splitChordpro, renderSourcesTxt, songDirs, readJson,
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sources = readJson(path.join(ROOT, "sources.json"));
+const THEMES = new Set(readJson(path.join(ROOT, "themes.json")).themes);
 const works = readWorks(ROOT);
 const errors = [];
 const warnings = [];
@@ -37,6 +38,9 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   if (!langCodes.has(langDir)) errors.push(`${label}: unknown language dir "${langDir}"`);
   if (song.language && LANG_CODES[song.language] && LANG_CODES[song.language] !== langDir)
     errors.push(`${label}: language "${song.language}" belongs in ${LANG_CODES[song.language]}/, not ${langDir}/`);
+  // themes come from the controlled vocabulary in themes.json — run tools/normalize-themes.mjs to map legacy values
+  for (const th of String(song.themes ?? "").split(",").map(t => t.trim()).filter(Boolean))
+    if (!THEMES.has(th)) errors.push(`${label}: theme "${th}" is not in themes.json`);
   if ((section === "public-domain") !== (song.license === "PD"))
     errors.push(`${label}: license "${song.license}" does not match section ${section}`);
   if (song.meter !== undefined && song.meter !== null && !METER_RE.test(song.meter))
