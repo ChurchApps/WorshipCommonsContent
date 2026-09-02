@@ -108,13 +108,9 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     } catch (e) { errors.push(`${label}: ${e.message}`); }
   }
 
-  // writerRef must resolve
-  if (song.writerRef) {
-    const wj = path.join(ROOT, "writers", song.writerRef, "writer.json");
-    if (!fs.existsSync(wj)) errors.push(`${label}: writerRef "${song.writerRef}" has no writers/ folder`);
-    else if (!fs.existsSync(path.join(ROOT, "writers", song.writerRef, "portrait.jpg")))
-      errors.push(`${label}: writers/${song.writerRef}/portrait.jpg missing`);
-  }
+  // writerRef must resolve; portrait.jpg is optional (bio-only writer pages are valid)
+  if (song.writerRef && !fs.existsSync(path.join(ROOT, "writers", song.writerRef, "writer.json")))
+    errors.push(`${label}: writerRef "${song.writerRef}" has no writers/ folder`);
   if (!song.id) warnings.push(`${label}: no id — build-catalog would need one; idFor(title) = ${idFor(song.title)}`);
 }
 

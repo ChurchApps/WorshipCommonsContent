@@ -1,56 +1,147 @@
-import * as fs from "fs";
-import * as path from "path";
-import { fileURLToPath } from "url";
-import { buildCatalog } from "../src/seed-data/catalog.js";
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { fileURLToPath } from "node:url";
+import { songDirs, readJson, writeJson } from "../lib.mjs";
 
-// Finds a portrait and bio excerpt on Wikipedia for each distinct catalog writer,
-// keeps only images Commons marks public domain / CC0, and writes
-// src/seed-data/writer-map.ts + tools/seed-assets/writers/<slug>.jpg.
-// Bio excerpts are the article's opening sentences (CC BY-SA, credited on-site).
-// Usage: tsx tools/import-writer-portraits.ts
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const assetDir = path.join(__dirname, "seed-assets", "writers");
-const UA = "WorshipCommonsImport/1.0 (https://worshipcommons.org; support@churchapps.org)";
+// Seeds a writer page for every person named in a song.json "writer" credit:
+// writers/<slug>/writer.json (+ portrait.jpg when Commons has a public-domain
+// image) and a song.json writerRef pointing at it. Composite credits — "A & B",
+// "A · tr. C" — are split so each person gets their own page. Bios are the
+// article's opening sentences (CC BY-SA, credited on-site); portraits are only
+// taken when Commons marks the file public domain / CC0.
+// Existing writer folders and existing writerRefs are never overwritten.
+// Usage: node tools/harvest/import-writer-portraits.ts [--limit-minutes N]
+// Follow with: node tools/build-catalog.mjs && node tools/validate.mjs
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
+const writersDir = path.join(ROOT, "writers");
+const UA = "WorshipCommonsContent/1.0 (https://worshipcommons.org; support@churchapps.org)";
 const WIKI = "https://en.wikipedia.org/w/api.php";
 const COMMONS = "https://commons.wikimedia.org/w/api.php";
+const RATE_MS = 1000; // one request per second, API or image
+
+const limitArg = process.argv.indexOf("--limit-minutes");
+const deadline = limitArg > -1 ? Date.now() + Number(process.argv[limitArg + 1]) * 60_000 : Infinity;
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
+let nextCall = 0;
+const gate = async () => { await sleep(Math.max(0, nextCall - Date.now())); nextCall = Date.now() + RATE_MS; };
 const getJson = async (url: string) => {
   for (let attempt = 0; ; attempt++) {
+    await gate();
     const resp = await fetch(url, { headers: { "user-agent": UA } });
-    if (resp.status === 429 && attempt < 4) { await sleep(5000 * (attempt + 1)); continue; }
+    if ((resp.status === 429 || resp.status >= 500) && attempt < 3) { await sleep(5000 * (attempt + 1)); continue; }
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    return resp.json();
+    return resp.json() as any;
   }
 };
-const slugFor = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const PERSONISH = /hymn|compos|minist|poet|writer|pastor|clerg|music|evangel|preach|priest|monk|reformer|theolog|missionar|bishop|author/i;
 
-const cleanName = (writer: string) => writer.split("·")[0].replace(/\(.*?\)/g, "").trim();
-const skippable = (name: string) => /trad\.?|anonymous|unknown|\d+(st|nd|rd|th) c|century|various/i.test(name) || name.split(" ").length < 2;
+// letters NFD cannot decompose, so "Michael Weiße" and "Michael Weisse" tokenize alike
+const TRANSLIT: Record<string, string> = { "ß": "ss", "ø": "o", "æ": "ae", "œ": "oe", "đ": "d", "ð": "d", "þ": "th", "ł": "l" };
+const tokens = (s: string) =>
+  s.toLowerCase().replace(/[ßøæœđðþł]/g, c => TRANSLIT[c])
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, " ").trim().split(" ").filter(Boolean);
+const slugFor = (name: string) => tokens(name).join("-");
 
-async function lookup(writer: string) {
-  const name = cleanName(writer);
-  if (skippable(name)) return null;
+// A credit is "Author & Author · tr. Translator, Translator"; "·" also introduces
+// a tune name ("William C. Dix · Greensleeves"), which the filters below drop.
+const cleanName = (s: string) => s
+  .replace(/\(.*?\)/g, "")
+  .replace(/\s+aka\..*$/i, "")
+  .replace(/^\s*(tr\.|attr\.?|after|from)\s+/i, "")
+  .replace(/\s+/g, " ").trim().replace(/[.,;:]+$/, "").trim();
+const splitPeople = (writer: string) => (writer || "").split(/·|\s+&\s+|,|\s+and\s+/i).map(cleanName).filter(Boolean);
 
-  const search = await getJson(`${WIKI}?action=query&list=search&srsearch=${encodeURIComponent(name + " hymn")}&srlimit=3&format=json`);
-  const surname = name.split(" ").pop()!.toLowerCase();
-  const hit = (search.query?.search || []).find((s: any) => s.title.toLowerCase().includes(surname));
-  if (!hit) return null;
+// corpus placeholders and source labels that are not people
+const IGNORE = /^(anon|an[oó]n|an[oó]im|traditional|trad\b|unknown|various|attr|tr|arr|adapted?|african[- ]american|spiritual|folk|hymn|psalm|melody|chorale|carol|source|bohemian|basque|dutch|german|latin|welsh|irish|french|silesian|swedish|danish|norwegian|italian|spanish|greek|hebrew|medieval|early|old|ancient)\b/i;
+const LATIN_ONLY = /^[\p{Script=Latin}\p{M}\p{Zs}'’.\-]+$/u;
 
-  const summary = await getJson(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(hit.title.replace(/ /g, "_"))}`);
-  if (summary.type !== "standard" || !summary.extract || !PERSONISH.test(summary.extract + " " + (summary.description || ""))) return null;
+// why a candidate never reaches Wikipedia — reported as skip counts at the end
+function localSkip(name: string) {
+  if (/[\d�]/.test(name)) return "not-a-name"; // years, mojibake
+  if (IGNORE.test(name)) return "ignore-list";
+  if (!LATIN_ONLY.test(name)) return "non-latin";
+  const parts = name.split(" ");
+  if (parts.length < 2 || parts.length > 6) return "not-a-name";
+  return null;
+}
 
-  const pi = await getJson(`${WIKI}?action=query&titles=${encodeURIComponent(hit.title)}&prop=pageimages&piprop=name&format=json`);
-  const imageName = (Object.values(pi.query?.pages || {})[0] as any)?.pageimage;
-  if (!imageName) return null;
+const PERSONISH = /hymn|compos|pastor|poet/i;
+const BIRTH_YEAR = /\([^)]*\b\d{3,4}\b[^)]*\)/;
+// an opening like "X (1725-1807) was an English cleric" — list and topic pages fail this
+const looksLikePerson = (extract: string) => {
+  const intro = extract.slice(0, 240);
+  return BIRTH_YEAR.test(intro) || (/\bwas (?:a|an|the)\b/i.test(intro) && PERSONISH.test(extract));
+};
 
-  const ii = await getJson(`${COMMONS}?action=query&titles=${encodeURIComponent("File:" + imageName)}&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=330&format=json`);
-  const info = (Object.values(ii.query?.pages || {})[0] as any)?.imageinfo?.[0];
+// the article title must end in the same surname and share one more given name
+// (or its initial) — "Ernest W. Shurtleff" matches "Ernest Warburton Shurtleff",
+// "Fanny Crosby" does not match "List of hymns by Fanny Crosby".
+function titleMatches(name: string, title: string) {
+  if (/^(list of|category:)/i.test(title) || /\(disambiguation\)/i.test(title)) return false;
+  const t = tokens(title.replace(/\(.*?\)/g, "")), n = tokens(name);
+  if (!t.length || !n.length || t[t.length - 1] !== n[n.length - 1]) return false;
+  const given = t.slice(0, -1); // an initial may only stand in for a given name, never the surname
+  return n.slice(0, -1).some(w => given.includes(w) || (w.length === 1 && given.some(x => x[0] === w)));
+}
+
+// Search the exact credit first, then loosely; take the best-ranked page that
+// reads like a person's article. Only Commons-verified PD/CC0 images are kept.
+async function lookup(name: string) {
+  const PAGE_PROPS = "&prop=extracts|pageimages|pageprops&exintro=1&explaintext=1&exlimit=max&piprop=name&ppprop=disambiguation";
+  // the article titled exactly the credit, if there is one — search ranks
+  // "William Wordsworth (composer)" above the poet once "hymn" is in the query
+  const byTitle = async (title: string) => {
+    const q = `${WIKI}?action=query&format=json&formatversion=2&redirects=1&titles=${encodeURIComponent(title)}${PAGE_PROPS}`;
+    return ((await getJson(q)).query?.pages || []).filter((p: any) => !p.missing);
+  };
+  const search = async (term: string) => {
+    const q = `${WIKI}?action=query&format=json&formatversion=2&generator=search&gsrlimit=3` +
+      `&gsrsearch=${encodeURIComponent(term)}${PAGE_PROPS}`;
+    return ((await getJson(q)).query?.pages || []).sort((a: any, b: any) => a.index - b.index);
+  };
+  // an article titled exactly the credit beats a better-ranked namesake:
+  // "William Wordsworth" is the poet, not "William Wordsworth (composer)"
+  const exactTitle = tokens(name).join(" ");
+  const usable = (pages: any[]) => {
+    const ok = pages.filter((p: any) =>
+      p.pageprops?.disambiguation === undefined && p.extract && titleMatches(name, p.title) && looksLikePerson(p.extract));
+    return ok.find((p: any) => tokens(p.title.replace(/\(.*?\)/g, "")).join(" ") === exactTitle) ?? ok[0];
+  };
+
+  // the credit's initials often differ from the article's full given names
+  const spelled = name.split(" ").filter(w => w.replace(/\./g, "").length > 1).join(" ");
+  const terms = [`"${name}" hymn`];
+  if (spelled !== name && spelled.split(" ").length > 1) terms.push(`"${spelled}" hymn`);
+  terms.push(`${name} hymn`);
+
+  // a bare-title page is whoever Wikipedia considers the primary topic — take it
+  // only when the defining sentence puts them in this corpus's line of work, or
+  // "Edward Hopper" the credit becomes Edward Hopper the painter
+  const direct = (await byTitle(name)).filter((p: any) => PERSONISH.test((p.extract || "").slice(0, 240)));
+  let hit = usable(direct), seen = direct.length;
+  for (const term of terms) {
+    if (hit) break;
+    const pages = await search(term);
+    seen += pages.length;
+    hit = usable(pages);
+  }
+  if (!hit) return { skip: seen ? "not-a-person" : "no-article" };
+
+  const found = {
+    bio: excerpt(hit.extract),
+    article: `https://en.wikipedia.org/wiki/${encodeURI(hit.title.replace(/ /g, "_"))}`,
+    thumbUrl: null as string | null,
+    license: ""
+  };
+  if (!hit.pageimage) return found;
+
+  const ii = await getJson(`${COMMONS}?action=query&format=json&formatversion=2&iiurlwidth=330` +
+    `&titles=${encodeURIComponent("File:" + hit.pageimage)}&prop=imageinfo&iiprop=extmetadata|url`);
+  const info = ii.query?.pages?.[0]?.imageinfo?.[0];
   const license = info?.extmetadata?.LicenseShortName?.value || "";
-  if (!info?.thumburl || !/public domain|^pd|cc0/i.test(license)) return null;
-
-  return { article: summary.content_urls?.desktop?.page || "", bio: excerpt(summary.extract), thumbUrl: info.thumburl, license };
+  if (info?.thumburl && /public domain|^pd|cc0/i.test(license)) { found.thumbUrl = info.thumburl; found.license = license; }
+  return found;
 }
 
 // prefix-cut at a sentence end, never after an initial like "O." — avoids mangling "O. Cist." etc.
@@ -62,45 +153,71 @@ function excerpt(text: string) {
   return ends.length ? cut.slice(0, ends[ends.length - 1] + 1) : cut.replace(/\s+\S*$/, "") + "…";
 }
 
-const { rows } = buildCatalog("");
-const writers = [...new Set(rows.map((r: any) => r.writer as string))].sort();
-console.log(`${writers.length} distinct writers`);
+// ---- collect candidates -------------------------------------------------
 
-fs.mkdirSync(assetDir, { recursive: true });
-const map: Record<string, { slug: string; bio: string; article: string }> = {};
-const byName = new Map<string, Awaited<ReturnType<typeof lookup>>>(); // "X · tr. Y" variants share one lookup
-for (const writer of writers) {
-  try {
-    const name = cleanName(writer);
-    const found = byName.has(name) ? byName.get(name) : await lookup(writer);
-    byName.set(name, found);
-    if (!found) { console.log(`  -- ${writer}`); continue; }
-    const slug = slugFor(cleanName(writer));
-    const target = path.join(assetDir, `${slug}.jpg`);
-    if (!fs.existsSync(target)) {
-      const resp = await fetch(found.thumbUrl, { headers: { "user-agent": UA } });
-      if (!resp.ok) { console.log(`  -- ${writer}: image HTTP ${resp.status}`); continue; }
-      fs.writeFileSync(target, Buffer.from(await resp.arrayBuffer()));
-    }
-    map[writer] = { slug, bio: found.bio, article: found.article };
-    console.log(`  ok ${writer} [${found.license}] ${found.article}`);
-  } catch (e: any) {
-    console.log(`  !! ${writer}: ${e.message}`);
+const songs = [...songDirs(ROOT)].map(d => ({ file: path.join(d.dir, "song.json"), json: readJson(path.join(d.dir, "song.json")) }));
+const linkable = songs.filter(s => !s.json.writerRef && !s.json.submittedBy);
+const skips = new Map<string, string>(); // candidate → reason
+const candidates = new Map<string, string>(); // lowercased → display name
+for (const s of linkable) {
+  for (const person of splitPeople(s.json.writer)) {
+    const why = localSkip(person);
+    if (why) { skips.set(person, why); continue; }
+    if (!candidates.has(person.toLowerCase())) candidates.set(person.toLowerCase(), person);
   }
-  await sleep(200);
+}
+console.log(`${songs.length} songs, ${linkable.length} without a writerRef`);
+console.log(`${candidates.size} distinct people, ${skips.size} strings skipped locally`);
+
+// ---- resolve ------------------------------------------------------------
+
+const slugs = new Map<string, string>(); // lowercased name → writers/ slug
+const byArticle = new Map<string, string>(); // article url → slug, so name variants share one page
+let added = 0, portraits = 0, remaining = candidates.size, stopped = false;
+for (const [key, name] of candidates) {
+  remaining--;
+  const slug = slugFor(name);
+  const dir = path.join(writersDir, slug);
+  if (fs.existsSync(path.join(dir, "writer.json"))) { slugs.set(key, slug); continue; } // already seeded
+  if (Date.now() > deadline) { stopped = true; break; }
+  try {
+    const found = await lookup(name);
+    if ("skip" in found) { skips.set(name, found.skip); console.log(`  -- ${name}: ${found.skip}`); continue; }
+    if (byArticle.has(found.article)) { // "Philip Nicolai" and "Philipp Nicolai" are one writer
+      slugs.set(key, byArticle.get(found.article)!);
+      console.log(`  ~~ ${name}: same article as ${byArticle.get(found.article)}`);
+      continue;
+    }
+    fs.mkdirSync(dir, { recursive: true });
+    if (found.thumbUrl) {
+      await gate();
+      const resp = await fetch(found.thumbUrl, { headers: { "user-agent": UA } });
+      if (resp.ok) { fs.writeFileSync(path.join(dir, "portrait.jpg"), Buffer.from(await resp.arrayBuffer())); portraits++; }
+    }
+    writeJson(path.join(dir, "writer.json"), { slug, bio: found.bio, article: found.article });
+    slugs.set(key, slug);
+    byArticle.set(found.article, slug);
+    added++;
+    console.log(`  ok ${name} [${found.license || "bio only"}] ${found.article}`);
+  } catch (e: any) {
+    skips.set(name, "lookup-error");
+    console.log(`  !! ${name}: ${e.message}`);
+  }
+}
+if (stopped) console.log(`!! time limit reached — ${remaining + 1} people not looked up`);
+
+// ---- link songs ---------------------------------------------------------
+
+// the first person in the credit who has a writer page wins; a song has one writerRef
+let linked = 0;
+for (const s of linkable) {
+  const person = splitPeople(s.json.writer).map(p => p.toLowerCase()).find(p => slugs.has(p));
+  if (!person) continue;
+  writeJson(s.file, { ...s.json, writerRef: slugs.get(person) });
+  linked++;
 }
 
-const lines = Object.entries(map).sort(([a], [b]) => a.localeCompare(b))
-  .map(([w, m]) => `  ${JSON.stringify(w)}: { slug: ${JSON.stringify(m.slug)}, bio: ${JSON.stringify(m.bio)}, article: ${JSON.stringify(m.article)} }`);
-fs.writeFileSync(path.join(__dirname, "..", "src", "seed-data", "writer-map.ts"),
-  `// Generated by tools/import-writer-portraits.ts — do not edit by hand.
-// Public-domain portraits and bio excerpts for catalog writers, via Wikipedia/Wikimedia Commons.
-// Portraits are Commons-verified PD/CC0; bios are article openings (CC BY-SA, credited on-site).
-export interface WriterInfo { slug: string; bio: string; article: string; }
-export const WRITER_MAP: Record<string, WriterInfo> = {
-${lines.join(",\n")}
-};
-`);
-console.log(`Wrote writer-map.ts (${lines.length} of ${writers.length} writers)`);
-const { execSync } = await import("child_process");
-execSync("npx eslint --fix src/seed-data/writer-map.ts", { cwd: path.join(__dirname, ".."), stdio: "inherit" });
+const byReason: Record<string, number> = {};
+for (const reason of skips.values()) byReason[reason] = (byReason[reason] || 0) + 1;
+console.log(`\n${added} writers added (${portraits} with a portrait), ${linked} songs newly linked`);
+console.log("skipped:", byReason);
