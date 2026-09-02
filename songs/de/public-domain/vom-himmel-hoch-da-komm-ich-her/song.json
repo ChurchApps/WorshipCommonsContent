@@ -9,6 +9,7 @@
   "key": "D",
   "bpm": 100,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Lukas 2,10-11",
   "scriptureText": null,
   "license": "PD",

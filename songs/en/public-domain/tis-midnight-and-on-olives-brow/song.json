@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 140,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Mt 26:36-45",
   "scriptureText": null,
   "license": "PD",

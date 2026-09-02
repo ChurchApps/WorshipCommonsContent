@@ -9,6 +9,7 @@
   "key": "G",
   "bpm": 88,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Psalm 117:1",
   "scriptureText": null,
   "license": "PD",

@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 125,
   "timeSignature": "3/2",
+  "meter": "8.8.8.8",
   "scripture": "Mk 10:13-16",
   "scriptureText": null,
   "license": "PD",

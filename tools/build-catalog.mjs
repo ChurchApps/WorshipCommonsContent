@@ -41,6 +41,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     songKey: song.key,
     bpm: song.bpm,
     timeSignature: song.timeSignature,
+    meter: song.meter ?? null,
     language: song.language,
     scripture: song.scripture,
     scriptureText: song.scriptureText ?? null,

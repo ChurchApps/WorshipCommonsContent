@@ -18,6 +18,8 @@ const workMembers = new Map(); // work slug → [song id]
 const foldersSeen = new Map(); // "<section>/<lang>" → Set of lowercased folder names
 const langCodes = new Set(Object.values(LANG_CODES));
 const REQUIRED = ["id", "title", "writer", "language", "license", "churchCount", "hymnalCount", "timeSignature", "provenance"];
+// optional poetic meter: syllable counts (8.7.8.7, optionally doubled) or the C/L/S M shorthands
+const METER_RE = /^(?:\d{1,2}(?:\.\d{1,2})+(?:[ .]D)?|[CLS]MD?)$/;
 // user-submitted songs (exported from the bucket) have no provenance/sources.txt/writerRef
 const REQUIRED_SUBMITTED = ["id", "title", "language", "license", "status"];
 
@@ -37,6 +39,8 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     errors.push(`${label}: language "${song.language}" belongs in ${LANG_CODES[song.language]}/, not ${langDir}/`);
   if ((section === "public-domain") !== (song.license === "PD"))
     errors.push(`${label}: license "${song.license}" does not match section ${section}`);
+  if (song.meter !== undefined && song.meter !== null && !METER_RE.test(song.meter))
+    errors.push(`${label}: meter "${song.meter}" is not a recognized meter (8.7.8.7, 8.7.8.7 D, CM, LM, SM, CMD)`);
   if (song.licenseSource) {
     if (!sources[song.licenseSource]) errors.push(`${label}: licenseSource references unknown source "${song.licenseSource}"`);
     if (song.license !== "PD") errors.push(`${label}: licenseSource is only valid for public-domain songs`);

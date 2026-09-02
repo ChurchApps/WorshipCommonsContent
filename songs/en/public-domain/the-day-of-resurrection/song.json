@@ -1,7 +1,7 @@
 {
   "id": "uT7LHd0oA9E",
   "title": "The Day of Resurrection",
-  "writer": "John of Damascus \u00b7 tr. John Mason Neale",
+  "writer": "John of Damascus · tr. John Mason Neale",
   "writerRef": "john-of-damascus",
   "year": 1862,
   "language": "English",
@@ -9,6 +9,7 @@
   "key": "C",
   "bpm": 100,
   "timeSignature": "4/4",
+  "meter": "7.6.7.6 D",
   "scripture": "Matthew 28:7",
   "scriptureText": null,
   "license": "PD",

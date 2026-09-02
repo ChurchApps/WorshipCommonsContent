@@ -9,6 +9,7 @@
   "key": "Eb",
   "bpm": 69,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "John 6:37",
   "scriptureText": null,
   "license": "PD",

@@ -9,6 +9,7 @@
   "key": "C",
   "bpm": 100,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8.8.8.8",
   "scripture": "1Pt 2:5-8",
   "scriptureText": null,
   "license": "PD",

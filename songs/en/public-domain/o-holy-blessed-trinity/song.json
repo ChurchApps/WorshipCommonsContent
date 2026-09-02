@@ -9,6 +9,7 @@
   "key": "D",
   "bpm": 120,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Ex 15:11-13",
   "scriptureText": null,
   "license": "PD",

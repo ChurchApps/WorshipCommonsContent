@@ -9,6 +9,7 @@
   "key": "Ab",
   "bpm": 76,
   "timeSignature": "4/4",
+  "meter": "10.10.10.10",
   "scripture": "Psalm 145:1",
   "scriptureText": null,
   "license": "PD",

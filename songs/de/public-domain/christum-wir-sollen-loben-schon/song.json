@@ -9,6 +9,7 @@
   "key": "C",
   "bpm": 130,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Philipper 2:6,7",
   "scriptureText": null,
   "license": "PD",

@@ -17,6 +17,7 @@ Next time one is needed, rework its output to write song folders here instead
 | `import-tch-spanish.ts`, `import-tch-lang.ts` | Cyber Hymnal language sections → texts + MIDIs |
 | `import-hymnsite.ts` | HymnSite umh### MIDIs |
 | `import-hymnary-spanish.ts`, `import-hymnary-popularity.ts` | Hymnary PD Spanish texts, hymnal counts |
+| `import-hymnary-meter.mts` | Hymnary poetic meter into `song.json` (reworked for this layout — it runs) |
 | `import-writer-portraits.ts` | Wikipedia/Commons portraits + bios |
 | `import-videos.ts` + `video-report.txt` | Curated YouTube performances |
 | `backfill-chords.py`, `backfill-verses.ts` | Chords/verses derived from the ABC corpus |

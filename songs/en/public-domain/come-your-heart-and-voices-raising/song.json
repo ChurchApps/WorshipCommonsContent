@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 120,
   "timeSignature": "3/4",
+  "meter": "8.8.8.7",
   "scripture": "Lk 2:15",
   "scriptureText": null,
   "license": "PD",

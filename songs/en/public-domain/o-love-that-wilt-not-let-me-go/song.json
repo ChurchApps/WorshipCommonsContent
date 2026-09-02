@@ -9,6 +9,7 @@
   "key": "Ab",
   "bpm": 72,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8.6",
   "scripture": "Psalm 13:5",
   "scriptureText": null,
   "license": "PD",

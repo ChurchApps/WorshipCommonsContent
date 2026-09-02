@@ -9,6 +9,7 @@
   "key": "C",
   "bpm": 76,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8.8.8",
   "scripture": "Psalm 107:23-30",
   "scriptureText": null,
   "license": "PD",

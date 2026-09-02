@@ -9,6 +9,7 @@
   "key": "A",
   "bpm": 140,
   "timeSignature": "3/4",
+  "meter": "8.8.8.8.8.8.6.8",
   "scripture": "Ps 24:7",
   "scriptureText": null,
   "license": "PD",

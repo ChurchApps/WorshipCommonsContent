@@ -9,6 +9,7 @@
   "key": "C",
   "bpm": 84,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Matthew 25:40",
   "scriptureText": null,
   "license": "PD",

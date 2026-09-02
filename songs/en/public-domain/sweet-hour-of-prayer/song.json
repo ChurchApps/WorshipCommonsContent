@@ -9,6 +9,7 @@
   "key": "D",
   "bpm": 76,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8 D",
   "scripture": "Matthew 6:6",
   "scriptureText": null,
   "license": "PD",
