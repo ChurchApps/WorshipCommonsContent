@@ -18,7 +18,6 @@
     "youtube": "BpT3Xxts4qs",
     "title": "Christ the Lord is risen today - Easter Hymn (Worgan)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "christ-the-lord-is-risen-today"
 }

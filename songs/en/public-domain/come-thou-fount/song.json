@@ -18,7 +18,6 @@
     "youtube": "4xJXzgonLdQ",
     "title": "Come Thou Fount of Every Blessing (with lyrics) The most BEAUTIFUL hymn you've EVER heard!"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "come-thou-fount-of-every-blessing"
 }

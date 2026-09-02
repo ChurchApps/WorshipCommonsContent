@@ -18,11 +18,11 @@
     "youtube": "CtxSWcfH9hk",
     "title": "Christ Arose! (Low in the Grave He Lay)"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "christ-arose"
 }
