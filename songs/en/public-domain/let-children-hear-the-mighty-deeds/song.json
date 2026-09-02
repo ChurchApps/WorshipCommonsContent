@@ -9,6 +9,7 @@
   "key": "A",
   "bpm": 100,
   "timeSignature": "4/4",
+  "meter": "8.6.8.6",
   "scripture": "Ps 78:5-8",
   "scriptureText": null,
   "license": "PD",

@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 100,
   "timeSignature": "4/4",
+  "meter": "8.8.8",
   "scripture": "Rev 6:12-17",
   "scriptureText": null,
   "license": "PD",

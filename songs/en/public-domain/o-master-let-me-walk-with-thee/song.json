@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 80,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Micah 6:8",
   "scriptureText": null,
   "license": "PD",

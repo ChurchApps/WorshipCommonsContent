@@ -9,6 +9,7 @@
   "key": "G",
   "bpm": 88,
   "timeSignature": "2/2",
+  "meter": "11.11.11.11",
   "scripture": "Isaiah 41:10",
   "scriptureText": null,
   "license": "PD",

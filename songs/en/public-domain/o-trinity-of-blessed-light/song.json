@@ -9,6 +9,7 @@
   "key": "D",
   "bpm": 60,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Gen 1:3",
   "scriptureText": null,
   "license": "PD",

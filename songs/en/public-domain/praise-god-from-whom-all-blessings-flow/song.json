@@ -9,6 +9,7 @@
   "key": "G",
   "bpm": 120,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Rom 13:11",
   "scriptureText": null,
   "license": "PD",

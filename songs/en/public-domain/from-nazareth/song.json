@@ -9,6 +9,7 @@
   "key": "D",
   "bpm": 120,
   "timeSignature": "3/4",
+  "meter": "8.8.8.8",
   "scripture": "Jn 1:43-51",
   "scriptureText": null,
   "license": "PD",

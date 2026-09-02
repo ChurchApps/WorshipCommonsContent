@@ -9,6 +9,7 @@
   "key": "G",
   "bpm": 100,
   "timeSignature": "3/4",
+  "meter": "14.14.4.7.8",
   "scripture": "Psalm 150,1",
   "scriptureText": null,
   "license": "PD",

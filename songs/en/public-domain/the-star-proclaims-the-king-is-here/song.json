@@ -9,6 +9,7 @@
   "key": "Eb",
   "bpm": 100,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Mt 2:1-12",
   "scriptureText": null,
   "license": "PD",

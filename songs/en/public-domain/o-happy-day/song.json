@@ -9,6 +9,7 @@
   "key": "Bb",
   "bpm": 92,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Psalm 40:3",
   "scriptureText": null,
   "license": "PD",

@@ -9,6 +9,7 @@
   "key": "D",
   "bpm": 88,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Job 19:25",
   "scriptureText": null,
   "license": "PD",

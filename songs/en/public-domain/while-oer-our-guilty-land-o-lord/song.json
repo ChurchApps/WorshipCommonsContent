@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 130,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Ps 51:1-19",
   "scriptureText": null,
   "license": "PD",

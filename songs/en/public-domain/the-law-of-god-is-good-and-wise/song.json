@@ -9,6 +9,7 @@
   "key": "G",
   "bpm": 120,
   "timeSignature": "4/4",
+  "meter": "8.8.8.8",
   "scripture": "Ps 19:8",
   "scriptureText": null,
   "license": "PD",

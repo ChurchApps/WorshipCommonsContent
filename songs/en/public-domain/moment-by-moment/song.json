@@ -9,6 +9,7 @@
   "key": "F",
   "bpm": 120,
   "timeSignature": "3/4",
+  "meter": "10.10.10.10",
   "scripture": "Mt 28:20",
   "scriptureText": null,
   "license": "PD",
