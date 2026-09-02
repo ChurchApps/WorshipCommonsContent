@@ -18,7 +18,6 @@
     "youtube": "vFMAlhxnJrE",
     "title": "O For a Thousand Tongues to Sing | Official Lyric Video | Reawaken Hymns"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "o-for-a-thousand-tongues-to-sing"
 }

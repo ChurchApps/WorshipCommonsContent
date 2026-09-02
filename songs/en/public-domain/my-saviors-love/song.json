@@ -18,7 +18,6 @@
     "youtube": "LYd9krIRxZE",
     "title": "My Savior’s Love • Congregational"
   },
-  "parent": null,
   "relationLabel": null,
   "provenance": {
     "text": "open-hymnal",
@@ -26,5 +25,6 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
-  }
+  },
+  "workRef": "i-stand-amazed-in-the-presence"
 }

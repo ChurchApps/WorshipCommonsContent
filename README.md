@@ -58,6 +58,7 @@ Plain Node ≥ 18, no dependencies:
 node tools/validate.mjs           # schema/consistency checks — run before committing
 node tools/write-sources-txt.mjs  # regenerate every sources.txt (the only writer of them)
 node tools/build-catalog.mjs      # regenerate catalog.json from the folders
+node tools/find-duplicates.mjs    # report songs published twice under variant titles (--apply links them)
 ```
 
 `catalog.json` is committed and must always match a fresh build. It is what the
