@@ -81,7 +81,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   if (song.writerRef) {
     const wdir = path.join(ROOT, "writers", song.writerRef);
     const writer = readJson(path.join(wdir, "writer.json"));
-    row.writerPortraitUrl = `writers/${writer.slug}/portrait.jpg`;
+    if (fs.existsSync(path.join(wdir, "portrait.jpg"))) row.writerPortraitUrl = `writers/${writer.slug}/portrait.jpg`;
     row.writerBio = writer.bio;
     writerSlugs.add(writer.slug);
   }
