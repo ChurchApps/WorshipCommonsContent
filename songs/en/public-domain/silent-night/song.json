@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "stille-nacht"
+  "workRef": "stille-nacht",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

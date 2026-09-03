@@ -1,0 +1,30 @@
+{
+  "id": "hhShOgKk_qX",
+  "title": "Foundation",
+  "writer": "R. Keen · arr. Peter Chubb",
+  "year": 2005,
+  "language": "English",
+  "themes": "",
+  "key": "G",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": "11.11.11.11",
+  "scripture": null,
+  "license": "CC-BY-SA",
+  "licenseVersion": "2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "attribution": {
+    "required": true,
+    "text": "Peter Chubb / Mutopia Project",
+    "link": "https://www.mutopiaproject.org/ftp/Traditional/Foundation/"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "mutopia",
+    "tune": "mutopia"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

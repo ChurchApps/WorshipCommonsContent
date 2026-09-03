@@ -1,0 +1,29 @@
+{
+  "id": "BnGn-e2JcoO",
+  "title": "Sweet Is the Work",
+  "writer": "Isaac Watts, Craig Klampe",
+  "year": 2009,
+  "language": "English",
+  "themes": "",
+  "key": "F",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Isaac Watts, Craig Klampe",
+    "link": "https://media.churchmusicassociation.org/books/hymns/pbeh_sweet_is_the_work.pdf"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmaa"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

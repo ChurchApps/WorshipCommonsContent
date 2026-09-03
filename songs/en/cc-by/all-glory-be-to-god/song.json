@@ -1,0 +1,29 @@
+{
+  "id": "SR48m9ODErn",
+  "title": "All Glory Be to God",
+  "writer": "Vincent Uher, Kenneth L. Knott",
+  "year": 2009,
+  "language": "English",
+  "themes": "",
+  "key": "Ab",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Vincent Uher, Kenneth L. Knott",
+    "link": "https://media.churchmusicassociation.org/books/hymns/pbeh_all_glory_be.pdf"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmaa"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

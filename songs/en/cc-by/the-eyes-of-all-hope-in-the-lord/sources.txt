@@ -1,0 +1,7 @@
+The Eyes of All Hope in the Lord — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): Church Music Association of America — English Hymns in the Commons — https://musicasacra.com/music/english-hymns-in-the-commons/ (attribution required)
+
+License: Creative Commons CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/. See licenses/cc-by.md at the repository root.
+Attribution: Kathleen Pluth, Colin Brumby — https://media.churchmusicassociation.org/books/hymns/kp_the.pdf

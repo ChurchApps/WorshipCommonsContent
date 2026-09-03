@@ -1,0 +1,29 @@
+{
+  "id": "jlCJkS_FCdx",
+  "title": "Jesus, Let Me Come to You",
+  "writer": "Kathleen Pluth, Colin Brumby",
+  "year": 2009,
+  "language": "English",
+  "themes": "",
+  "key": "C",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "meter": null,
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Kathleen Pluth, Colin Brumby",
+    "link": "https://media.churchmusicassociation.org/books/hymns/kp_jesus.pdf"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmaa"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

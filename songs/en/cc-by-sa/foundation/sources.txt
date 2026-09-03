@@ -1,0 +1,8 @@
+Foundation — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): Mutopia Project — https://www.mutopiaproject.org (attribution required)
+Tune (tune.mid): Mutopia Project — https://www.mutopiaproject.org (attribution required)
+
+License: Creative Commons CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/. See licenses/cc-by-sa.md at the repository root.
+Attribution: Peter Chubb / Mutopia Project — https://www.mutopiaproject.org/ftp/Traditional/Foundation/

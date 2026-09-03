@@ -26,5 +26,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "guide-me-o-thou-great-jehovah"
+  "workRef": "guide-me-o-thou-great-jehovah",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

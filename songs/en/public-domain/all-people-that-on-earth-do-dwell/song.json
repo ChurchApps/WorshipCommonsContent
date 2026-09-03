@@ -25,5 +25,8 @@
     "tune": "hymnsite",
     "art": "worshipcommons"
   },
-  "workRef": "all-people-that-on-earth-do-dwell"
+  "workRef": "all-people-that-on-earth-do-dwell",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

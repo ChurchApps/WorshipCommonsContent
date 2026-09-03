@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "abide-with-me"
+  "workRef": "abide-with-me",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

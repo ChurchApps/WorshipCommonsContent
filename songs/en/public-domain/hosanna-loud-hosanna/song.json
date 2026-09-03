@@ -27,5 +27,8 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons",
     "art": "worshipcommons"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
   }
 }

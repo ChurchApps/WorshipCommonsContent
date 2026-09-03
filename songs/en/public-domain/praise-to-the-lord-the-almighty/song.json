@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "praise-to-the-lord-the-almighty"
+  "workRef": "praise-to-the-lord-the-almighty",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

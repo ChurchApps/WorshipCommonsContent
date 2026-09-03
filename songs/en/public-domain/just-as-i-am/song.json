@@ -25,5 +25,8 @@
     "text": "wc-seed",
     "tune": "cyber-hymnal",
     "art": "worshipcommons"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
   }
 }

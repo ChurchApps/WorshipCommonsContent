@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "ein-feste-burg-ist-unser-gott"
+  "workRef": "ein-feste-burg-ist-unser-gott",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }
