@@ -84,5 +84,15 @@
       "text": "C. Michael Pilato",
       "link": "https://github.com/cmpilato/worship-music"
     }
+  },
+  "mutopia": {
+    "name": "Mutopia Project",
+    "url": "https://www.mutopiaproject.org",
+    "licenseBasis": "Per-file SPDX on the Mutopia hymn listing. SATB hymntunes marked CC-PDDC (public-domain dedication of the typesetting) are attached as sheet PDFs to matching public-domain catalog songs. The Foundation SATB is CC BY-SA 2.0 and is a separate catalog row.",
+    "attribution": {
+      "required": true,
+      "text": "Mutopia Project",
+      "link": "https://www.mutopiaproject.org"
+    }
   }
 }

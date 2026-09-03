@@ -26,5 +26,8 @@
     "abc": "open-hymnal",
     "timing": "worshipcommons"
   },
-  "workRef": "holy-holy-holy"
+  "workRef": "holy-holy-holy",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

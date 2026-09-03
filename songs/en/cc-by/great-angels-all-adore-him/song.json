@@ -1,0 +1,29 @@
+{
+  "id": "Re544cnoR-D",
+  "title": "Great Angels All Adore Him",
+  "writer": "Vincent Uher, Noel Jones",
+  "year": 2009,
+  "language": "English",
+  "themes": "",
+  "key": "C",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Vincent Uher, Noel Jones",
+    "link": "https://media.churchmusicassociation.org/books/hymns/pbeh_great_angels_all.pdf"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmaa"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

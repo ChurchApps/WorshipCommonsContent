@@ -26,5 +26,8 @@
     "abc": "open-hymnal",
     "art": "worshipcommons"
   },
-  "workRef": "come-thou-almighty-king"
+  "workRef": "come-thou-almighty-king",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

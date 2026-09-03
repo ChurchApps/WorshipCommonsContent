@@ -26,5 +26,8 @@
     "tune": "open-hymnal",
     "abc": "open-hymnal",
     "art": "worshipcommons"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
   }
 }

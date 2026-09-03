@@ -25,5 +25,8 @@
     "abc": "open-hymnal",
     "art": "worshipcommons"
   },
-  "workRef": "it-is-well-with-my-soul"
+  "workRef": "it-is-well-with-my-soul",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

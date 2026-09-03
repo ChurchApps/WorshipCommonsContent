@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "to-god-be-the-glory"
+  "workRef": "to-god-be-the-glory",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

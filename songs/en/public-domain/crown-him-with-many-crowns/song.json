@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "crown-him-with-many-crowns"
+  "workRef": "crown-him-with-many-crowns",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

@@ -27,5 +27,8 @@
     "timing": "worshipcommons",
     "art": "worshipcommons"
   },
-  "workRef": "joy-to-the-world"
+  "workRef": "joy-to-the-world",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

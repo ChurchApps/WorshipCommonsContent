@@ -18,6 +18,9 @@ Next time one is needed, rework its output to write song folders here instead
 | `import-hymnsite.ts` | HymnSite umh### MIDIs |
 | `import-hymnary-spanish.ts`, `import-hymnary-popularity.ts` | Hymnary PD Spanish texts, hymnal counts |
 | `import-hymnary-meter.mts` | Hymnary poetic meter into `song.json` (reworked for this layout — it runs) |
+| `import-cmpilato.mjs` | github.com/cmpilato/worship-music clone → CC-BY 3.0 / PD song folders |
+| `import-cmaa.mjs` | CMAA newly-composed PDFs whose *file* grant is CC BY 3.0 (skips ND, NC, "except commercial", CanticaNOVA) |
+| `import-mutopia.mjs` | Mutopia hymn SATB letter PDFs → sheetPdf on matching PD songs; Foundation as CC-BY-SA 2.0 |
 | `import-writer-portraits.ts` | Wikipedia/Commons portraits + bios |
 | `import-videos.ts` + `video-report.txt` | Curated YouTube performances |
 | `backfill-chords.py`, `backfill-verses.ts` | Chords/verses derived from the ABC corpus |
