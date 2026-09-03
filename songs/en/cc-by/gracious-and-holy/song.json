@@ -1,0 +1,28 @@
+{
+  "id": "TjIz11q42mR",
+  "title": "Gracious and Holy",
+  "writer": "C. Michael Pilato",
+  "year": 2021,
+  "language": "English",
+  "themes": "",
+  "key": "Bb",
+  "bpm": 90,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/Gracious_and_Holy"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmpilato"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

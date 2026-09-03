@@ -1,0 +1,7 @@
+Christ Is Our Cornerstone — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+
+License: Public domain. Public-domain source: C. Michael Pilato — worship-music. See licenses/public-domain.md at the repository root.
+Attribution: John Chandler, C. Michael Pilato — https://github.com/cmpilato/worship-music/tree/main/Christ_Is_Our_Cornerstone

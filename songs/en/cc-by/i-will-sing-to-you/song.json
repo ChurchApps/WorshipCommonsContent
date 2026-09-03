@@ -1,0 +1,28 @@
+{
+  "id": "h_cry3KpGSG",
+  "title": "I Will Sing To You",
+  "writer": "The Psalmist, C. Michael Pilato",
+  "year": 2013,
+  "language": "English",
+  "themes": "",
+  "key": "Bb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "The Psalmist, C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/I_Will_Sing_to_You"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmpilato"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

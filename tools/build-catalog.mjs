@@ -46,6 +46,8 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     scripture: song.scripture,
     scriptureText: song.scriptureText ?? null,
     license: song.license,
+    licenseVersion: song.licenseVersion ?? null,
+    licenseUrl: song.licenseUrl ?? null,
     churchCount: song.churchCount,
     hymnalCount: song.hymnalCount,
     chordPro: body,

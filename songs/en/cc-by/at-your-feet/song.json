@@ -1,0 +1,28 @@
+{
+  "id": "Bxj8aFRItg9",
+  "title": "At Your Feet",
+  "writer": "Gavin M. Pilato",
+  "year": 2019,
+  "language": "English",
+  "themes": "",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "6/8",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Gavin M. Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/At_Your_Feet"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmpilato"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

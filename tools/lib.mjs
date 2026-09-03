@@ -32,7 +32,12 @@ export const slugify = title =>
     .replace(/[^\p{L}\p{M}\p{N}]+/gu, "-")
     .replace(/^-+|-+$/g, "") || "untitled";
 
-export const SECTIONS = ["public-domain", "wc-license"];
+// licenses/licenses.json is the registry of the six licenses we host; song.json "license" is one of its ids and
+// the song lives under songs/<lang>/<registry.section>/. The site vendors this file as src/licenses.json.
+export const LICENSES = Object.fromEntries(
+  JSON.parse(fs.readFileSync(new URL("../licenses/licenses.json", import.meta.url), "utf8")).licenses.map(l => [l.id, l])
+);
+export const SECTIONS = Object.values(LICENSES).map(l => l.section);
 
 // lyrics.chordpro = directive header lines, one blank line, body verbatim, one trailing \n.
 // The body must roundtrip byte-identical to the DB chordPro column.
@@ -86,11 +91,17 @@ export function renderSourcesTxt(song, sources) {
     lines.push(line);
   }
   if (song.hymnalCount > 0) lines.push("Hymnal-count metadata: Hymnary.org — https://hymnary.org");
+  const lic = LICENSES[song.license];
+  if (!lic) throw new Error(`${song.title}: unknown license "${song.license}"`);
   const pdSource = song.license === "PD" && song.licenseSource ? sources[song.licenseSource] : null;
   if (song.license === "PD" && song.licenseSource && !pdSource) throw new Error(`${song.title}: licenseSource references unknown source "${song.licenseSource}"`);
+  const version = song.licenseVersion || lic.versionDefault;
   lines.push("", song.license === "PD"
     ? `License: Public domain.${pdSource ? ` Public-domain source: ${pdSource.name}.` : ""} See licenses/public-domain.md at the repository root.`
-    : "License: The WorshipCommons License, Version 1.0. See licenses/wc-license.md at the repository root.");
+    : song.license === "WC"
+    ? `License: The WorshipCommons License, Version ${version}. See licenses/wc-license.md at the repository root.`
+    : `License: Creative Commons ${lic.label} ${version} — ${song.licenseUrl || lic.legalUrl}. See licenses/${lic.section}.md at the repository root.`);
+  if (song.attribution?.text) lines.push(`Attribution: ${song.attribution.text}${song.attribution.link ? ` — ${song.attribution.link}` : ""}`);
   return lines.join("\n") + "\n";
 }
 
