@@ -1,0 +1,28 @@
+{
+  "id": "peqrgkxsXBi",
+  "title": "For a Thousand Tongues",
+  "writer": "C. Michael Pilato, Charles Wesley",
+  "year": 2020,
+  "language": "English",
+  "themes": "",
+  "key": "Bb",
+  "bpm": 74,
+  "timeSignature": "6/8",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "C. Michael Pilato, Charles Wesley",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/For_a_Thousand_Tongues"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmpilato"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

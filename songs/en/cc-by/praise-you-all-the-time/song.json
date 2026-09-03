@@ -1,0 +1,28 @@
+{
+  "id": "sJOJ3UAPVzy",
+  "title": "Praise You All the Time",
+  "writer": "C. Michael Pilato",
+  "year": 2022,
+  "language": "English",
+  "themes": "",
+  "key": "D",
+  "bpm": 86,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/Praise_You_All_the_Time"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmpilato"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

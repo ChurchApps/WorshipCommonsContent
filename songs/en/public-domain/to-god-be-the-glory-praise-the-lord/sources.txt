@@ -1,0 +1,7 @@
+To God Be the Glory (Praise the Lord) — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+
+License: Public domain. Public-domain source: C. Michael Pilato — worship-music. See licenses/public-domain.md at the repository root.
+Attribution: Fanny J. Crosby, William Howard Doane, C. Michael Pilato — https://github.com/cmpilato/worship-music/tree/main/To_God_Be_the_Glory_Praise_the_Lord

@@ -3,7 +3,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor, LANG_CODES, splitChordpro, renderSourcesTxt, songDirs, readJson, readWorks } from "./lib.mjs";
+import { idFor, LANG_CODES, LICENSES, splitChordpro, renderSourcesTxt, songDirs, readJson, readWorks } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sources = readJson(path.join(ROOT, "sources.json"));
@@ -16,6 +16,7 @@ const ids = new Map(); // id → dir
 const parentOf = new Map(); // id → legacy parent id
 const workRefOf = new Map(); // id → workRef
 const workMembers = new Map(); // work slug → [song id]
+const licenseOf = new Map(); // id → license code
 const foldersSeen = new Map(); // "<section>/<lang>" → Set of lowercased folder names
 const langCodes = new Set(Object.values(LANG_CODES));
 const REQUIRED = ["id", "title", "writer", "language", "license", "churchCount", "hymnalCount", "timeSignature", "provenance"];
@@ -41,8 +42,14 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   // themes come from the controlled vocabulary in themes.json — run tools/normalize-themes.mjs to map legacy values
   for (const th of String(song.themes ?? "").split(",").map(t => t.trim()).filter(Boolean))
     if (!THEMES.has(th)) errors.push(`${label}: theme "${th}" is not in themes.json`);
-  if ((section === "public-domain") !== (song.license === "PD"))
-    errors.push(`${label}: license "${song.license}" does not match section ${section}`);
+  // license ↔ folder: the registry in licenses/licenses.json decides which section a license lives in
+  const lic = LICENSES[song.license];
+  if (!lic) errors.push(`${label}: unknown license "${song.license}" — must be one of ${Object.keys(LICENSES).join(", ")}`);
+  else if (lic.section !== section) errors.push(`${label}: license "${song.license}" belongs in ${lic.section}/, not ${section}/`);
+  // a CC song without its exact license URL could silently drift between versions (3.0 vs 4.0)
+  if (lic?.attributionRequired && !song.licenseUrl) errors.push(`${label}: ${song.license} songs need "licenseUrl" (the exact license the writer applied)`);
+  if (lic?.attributionRequired && !song.attribution?.text && !submitted) errors.push(`${label}: ${song.license} songs need "attribution.text" (who to credit)`);
+  licenseOf.set(song.id, song.license);
   if (song.meter !== undefined && song.meter !== null && !METER_RE.test(song.meter))
     errors.push(`${label}: meter "${song.meter}" is not a recognized meter (8.7.8.7, 8.7.8.7 D, CM, LM, SM, CMD)`);
   if (song.licenseSource) {
@@ -147,6 +154,10 @@ for (const [slug, work] of works) {
     errors.push(`${label}: canonicalSongId ${work.canonicalSongId} is already canonical of works/${canonicalSeen.get(work.canonicalSongId)}`);
   canonicalSeen.set(work.canonicalSongId, slug);
   if ((workMembers.get(slug) ?? []).length < 2) warnings.push(`${label}: fewer than 2 member songs — stale work?`);
+  // share-alike is viral: every member of a share-alike canonical's family must be share-alike too
+  if (LICENSES[licenseOf.get(work.canonicalSongId)]?.shareAlike)
+    for (const id of workMembers.get(slug) ?? [])
+      if (!LICENSES[licenseOf.get(id)]?.shareAlike) errors.push(`${label}: canonical is ${licenseOf.get(work.canonicalSongId)} but member ${id} is ${licenseOf.get(id)} — share-alike families cannot mix`);
 }
 
 for (const w of warnings) console.warn(`WARN  ${w}`);

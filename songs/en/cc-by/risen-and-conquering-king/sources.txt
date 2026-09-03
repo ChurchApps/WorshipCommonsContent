@@ -1,0 +1,7 @@
+Risen and Conquering King — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+
+License: Creative Commons CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/. See licenses/cc-by.md at the repository root.
+Attribution: C. Michael Pilato — https://github.com/cmpilato/worship-music/tree/main/Risen_and_Conquering_King

@@ -1,0 +1,27 @@
+{
+  "id": "xH5lbxeBH4K",
+  "title": "Christ Is Our Cornerstone",
+  "writer": "John Chandler, C. Michael Pilato",
+  "year": 2022,
+  "language": "English",
+  "themes": "",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "PD",
+  "licenseSource": "cmpilato",
+  "attribution": {
+    "required": false,
+    "text": "John Chandler, C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/Christ_Is_Our_Cornerstone"
+  },
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "cmpilato"
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
