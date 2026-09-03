@@ -1,0 +1,22 @@
+{
+  "id": "7L0I3Xw21dz",
+  "title": "How Blest the Hearts",
+  "writer": "Christopher Wordsworth",
+  "year": 1865,
+  "language": "English",
+  "themes": "Praise,Funeral,Church",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "8.8.6.8.8.6",
+  "scripture": "Mt 19:4-6",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

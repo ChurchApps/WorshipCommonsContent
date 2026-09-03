@@ -10,7 +10,7 @@
   "open-hymnal": {
     "name": "Open Hymnal Project",
     "url": "https://openhymnal.org",
-    "licenseBasis": "Each ABC source's copyright line verified public domain at import time; only fully-PD scores taken.",
+    "licenseBasis": "Each ABC source's copyright line verified public domain at import time; only fully-PD scores taken. 2014.06 bulk zip plus live http://openhymnal.org/Abc/ files not in that zip (snapshot 2026-09-03). Dumont/Medcalf/Bird worship-only texts excluded.",
     "attribution": {
       "required": false,
       "text": "Open Hymnal Project",

@@ -2,6 +2,11 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 
+// RETIRED layout. The live importer is tools/harvest/import-openhymnal.mjs — it writes
+// songs/<lang>/public-domain/<slug>/ from PD ABC (`C:` line) + MIDI, then
+// write-sources-txt / build-catalog / validate. This file is the 2014.06 parser kept
+// as reference; do not run it (it still targets src/seed-data/*.ts).
+//
 // Imports Open Hymnal Project (openhymnal.org) content:
 //   tsx tools/import-openhymnal.ts <dir>   (dir holds abc/*.abc + midi/*.mid from the OH bulk zips)
 // Only hymns whose ABC copyright line declares the whole score public domain are used.
