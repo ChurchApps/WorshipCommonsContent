@@ -1,0 +1,8 @@
+Lord As To Thy Dear Cross — sources & attribution
+Generated from song.json and the repository's sources.json. Do not edit by hand.
+
+Text (lyrics.chordpro): Open Hymnal Project — https://openhymnal.org
+Tune (tune.mid): Open Hymnal Project — https://openhymnal.org
+Engraving source (tune.abc): Open Hymnal Project — https://openhymnal.org
+
+License: Public domain. Public-domain source: Open Hymnal Project. See licenses/public-domain.md at the repository root.

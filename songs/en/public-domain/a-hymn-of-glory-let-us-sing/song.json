@@ -1,0 +1,21 @@
+{
+  "id": "kCFQn6Eko2i",
+  "title": "A Hymn of Glory Let Us Sing",
+  "writer": "The Venerable Bede · tr. Benjamin Webb & Elizabeth Rundle Charles",
+  "year": 1858,
+  "language": "English",
+  "themes": "Praise,Hope,Adoration",
+  "key": "D",
+  "bpm": 160,
+  "timeSignature": "6/4",
+  "scripture": "Acts 1:10-11",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

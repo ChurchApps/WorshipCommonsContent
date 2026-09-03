@@ -1,0 +1,192 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a freely 
+% distributable, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont (editor 
+% at openhymnal dot org).  I have gone through serious efforts 
+% to make sure that no copyright mistakes make it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software.  Undoubtedly, I am also indebted 
+% to all of the great Christians who wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain or freely distributable
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2026 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.6900000
+%%staffsep	0.20000cm
+%%lineskipfac 1.0
+%%exprabove	false
+%%measurebox	false
+%OHSCRIP Mt 6:25-34, 1Jn 2:15-17, Phil 3:7-9, Ps 63:3
+%OHTOPICS {Brevity of Life}, {Christian Life}, {Discipleship}, {Eternal Life}, {Gratitude}, {Jesus}, {Kindness, God's}, {Promises (see also Gospel)}, {Stewardship}, {Trust}
+%OHCATEGORY STEWARDSHIP
+%OHMETRICAL 6 7 6 7 6 6 6 6
+%OHCOMPLEXITY 2
+%OHCOMPOSER Fritsch, Ahasverus (1629-1701)
+%OHARRANGER unknown
+%OHAUTHOR Pfefferkorn, Georg Michael (1645-1731)
+%OHTRANSLATOR Crull, August (1845-1923)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+%%setfont-1 Symbol 13
+%%setfont-2 Times-Roman 13
+
+X: 1
+T: What Is the World to Me?
+C: Words: Georg M. Pfefferkorn, 1667.  Translated by August Crull, 1893, alt.
+C: Music: 'Was Frag Ich Nach Der Welt' Ahasverus Fritsch, 1679. Setting: The Selah Song Book, 1926.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2026 Revision.
+S: Music source: "The Selah Song Book", 1926 Hymn 329.
+S: Lyrics source: The Handbook to the Lutheran Hymnal, 1942  Hymn 430
+S: http://www.projectwittenberg.org/etext/hymnals/tlh/world.txt 
+S: Note that the text of this hymn from the Handbook to the Lutheran Hymnal is available on Project Wittenberg, 
+S: operated by the Walther Library of Concordia Theological Seminary Fort Wayne and the text is listed as public domain.
+S: 
+S: Note that there is confusion about the translation date for this hymn as it is wrong in the usually-reliable 
+S: TLH.  I find this in the "Evangelical Lutheran Hymn-book" by Lutheran Publication Board, Baltimore, 1893 Hymn 282
+S: The mistake probably happened because it was translated well before the LCMS made an English language hymnal
+S: so it was not published by CPH
+S: 
+S: Also note that the tune Darmstadt (Fritsch) or O Gott du Frommer Gott is an adaptation of this which affects 
+S: both the tune and setting.  The adaptation was J. S. Bach.  But this is the original.  Some hymnals still 
+S: label the modified tune as Was Frag Ich Nach Der Welt
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] A | F D A A | B3 B | E E A G | (F E) D 
+w: 1.~What is the world to me With all its vaun- ted plea- * sure 
+w: 2.~The world is like a cloud And like a va- por flee- * ting, 
+w: 3.~The world seeks to be praised And ho- nored by the migh- * ty, 
+w: 4.~The world seeks af- ter wealth And all that mam- mon of- * fers, 
+w: 5.~The world is sore- ly grieved When- e- ver it is sligh- * ted 
+[V: S1V2]  D | D D E D | D3 D | C E D E | (D C) D 
+[V: S2V1]  F, | A, A, A,/G,/ F, | G,3 B, | A, B, A, B, | (A,3/2 G,/) F, 
+[V: S2V2]  D, | D, F, C, D, | G,,3 G,, | A,, G,, F,, G,, | A,,2 D, 
+% 6
+[V: S1V1] A | B B A G | F3 E | F ^G A B | (c B) A
+w: When Thou, and Thou a- lone, Lord Je- sus, art my Trea- * sure! 
+w: A sha- dow that de- clines, Swift to its end re- trea- * ting. 
+w: Yet ne- ver once ref- lects That they are frail and fligh- * ty. 
+w: Yet ne- ver is con- tent Though gold should fill its cof- * fers. 
+w: Or when its hol- low fame And ho- nor have been bligh- * ted. 
+[V: S1V2] D | D D E B,/C/ | D3 C | D D C F | (E3/2 D/) C 
+[V: S2V1] F, | G, F, E, G, | A,3 A, | A, B, A, A, | (A, ^G,) A, 
+[V: S2V2] D, | G,, B,, C, E, | D,3 A,, | D, B,, F, D, | E,2 A,, 
+% 9
+[V: S1V1]  A | A A d =c | B3 B | B B e =d | c3 
+w: Thou o- nly, dea- rest Lord, My soul's De- light shalt be; 
+w: My Je- sus doth a- bide, Though all things fade and flee; 
+w: But what I tru- ly prize A- bove all things is He, 
+w: I have a hi- gher good, Con- tent with it I'll be: 
+w: Christ, Thy re- proach I bear Long as it plea- seth Thee; 
+[V: S1V2]  D | E D D D | D3 D | ^D E E E | E3 
+[V: S2V1]  F, | E, F, G, A, | G,3 B, | A, ^G, A,3/2 G,/ | A,3 
+[V: S2V2]  D, | C, D,/=C,/ B,, F,, | G,,3 G, | F, E,/=D,/ C, B,, | A,,3 
+% 13
+[V: S1V1]  !sintro!A | B A B c | d3 A | A F E E | D3 !eintro!|]
+w: Thou art my Peace, my Rest, What is the world to me! 
+w: My e- ver- las- ting Rock, What is the world to me! 
+w: My Je- sus, He a- lone, What is the world to me! 
+w: My Je- sus is my Wealth, What is the world to me! 
+w: I'm ho- nored by my Lord, What is the world to me! 
+[V: S1V2]  D | D D D E | F3 D | E D D C | D3 |]
+[V: S2V1]  F, | G, A, G, G, | A,3 F, | A, A, A, E, | F,3 |]
+[V: S2V2]  D, | G, F, G, E, | D,3 D, | C, D, G,, A,, | D,3 |]
+% 18
+%%multicol start
+%%leftmargin 2.25cm
+%%rightmargin 12cm
+%%begintext
+%% 6. The world with wanton pride 
+%% \tExalts its sinful pleasures 
+%% \tAnd for them foolishly 
+%% \tGives up the heavenly treasures. 
+%% \tLet others love the world 
+%% \tWith all its vanity; 
+%% \tI love the Lord, my God, 
+%% \tWhat is the world to me! 
+%%endtext
+%%multicol new
+%%leftmargin 8cm
+%%rightmargin 2cm
+%%begintext
+%% 7. The world abideth not; 
+%% \tLo, like a flash 'twill vanish; 
+%% \tWith all it gorgeous pomp 
+%% \tPale death it cannot banish; 
+%% \tIts riches pass away, 
+%% \tAnd all its joys must flee; 
+%% \tBut Jesus doth abide, 
+%% \tWhat is the world to me! 
+%%endtext
+%%multicol new
+%%leftmargin 13.5cm
+%%rightmargin 2cm
+%%begintext
+%% 8. What is the world to me! 
+%% \tMy Jesus is my Treasure, 
+%% \tMy Life, my Health, my Wealth, 
+%% \tMy Friend, my Love, my Pleasure, 
+%% \tMy Joy, my Crown, my All, 
+%% \tMy Bliss eternally. 
+%% \tOnce more, then, I declare: 
+%% \tWhat is the world to me! 
+%%endtext
+%%multicol end
+
+

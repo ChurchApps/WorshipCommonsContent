@@ -4,15 +4,14 @@ One-off importers and derivation tools, moved here as-is from
 `WorshipCommonsApi/tools` at the 2026-08 content-library cutover. They produced
 this library's content; they are **not** needed to consume it.
 
-**They do not run unmodified.** They still reference the old API-repo layout —
-`src/seed-data/*.ts` TS literal files and `tools/seed-assets/` — both retired.
-Next time one is needed, rework its output to write song folders here instead
-(`songs/<lang>/<license>/<slug>/` + `song.json`), then run
-`../write-sources-txt.mjs`, `../build-catalog.mjs`, `../validate.mjs`.
+Most still reference the old API-repo layout (`src/seed-data/*.ts`, `tools/seed-assets/`)
+and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-cmpilato.mjs`,
+`import-cmaa.mjs`, `import-mutopia.mjs`) write `songs/<lang>/<license>/<slug>/` + `song.json`,
+then run `../write-sources-txt.mjs`, `../build-catalog.mjs`, `../validate.mjs`.
 
 | Tool | What it harvested |
 |---|---|
-| `import-openhymnal.ts` | Open Hymnal ABC corpus → texts, ABC, MIDIs |
+| `import-openhymnal.mjs` | Open Hymnal PD ABC/MIDI newer than 2014.06 → `songs/en/public-domain/<slug>/` (`import-openhymnal.ts` is the retired 2014.06 seed-data parser) |
 | `import-cyberhymnal.ts` + `cyberhymnal-aliases.json` | Cyber Hymnal MIDIs (via Wayback) |
 | `import-tch-spanish.ts`, `import-tch-lang.ts` | Cyber Hymnal language sections → texts + MIDIs |
 | `import-hymnsite.ts` | HymnSite umh### MIDIs |

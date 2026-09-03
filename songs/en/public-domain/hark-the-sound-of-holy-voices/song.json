@@ -1,0 +1,22 @@
+{
+  "id": "LFM7QRKkCym",
+  "title": "Hark the Sound of Holy Voices",
+  "writer": "Christopher Wordsworth",
+  "year": 1862,
+  "language": "English",
+  "themes": "Praise,Cross,Church",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.8.7.8.7",
+  "scripture": "Rev 7:9-12",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "churchCount": 0,
+  "hymnalCount": 0,
+  "provenance": {
+    "text": "open-hymnal",
+    "tune": "open-hymnal",
+    "abc": "open-hymnal"
+  }
+}

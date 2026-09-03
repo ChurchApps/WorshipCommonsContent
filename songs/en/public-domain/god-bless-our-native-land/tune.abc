@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a freely 
+% distributable, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont (editor 
+% at openhymnal dot org).  I have gone through serious efforts 
+% to make sure that no copyright mistakes make it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software.  Undoubtedly, I am also indebted 
+% to all of the great Christians who wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain or freely distributable
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2026 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%lineskipfac 1.0
+%%exprabove	false
+%%measurebox	false
+%OHSCRIP Rom 13:1-7, Ps 144:15, 1Tim 2:1-4
+%OHTOPICS {God, Care of}, {God, Providence of}
+%OHCATEGORY NATIONAL PRAYER
+%OHMETRICAL 6 6 4 6 6 6 4
+%OHCOMPLEXITY 1
+%OHCOMPOSER from Harmonia Anglicana, 1742
+%OHARRANGER unknown
+%OHAUTHOR Mahlmann, Siegfried August (1771-1826)
+%OHTRANSLATOR Brooks, Charles Timothy (1813-1883);Dwight, John Sullivan (1813-1893)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+%%setfont-1 Symbol 13
+%%setfont-2 Times-Roman 13
+
+X: 1
+T: God Bless Our Native Land
+C: Words: Siegfried August Mahlmann, 1815.  
+C: Translated by Charles Timothy Brooks, 1833 and John Sullivan Dwight, 1844.
+C: Music: 'America' or 'National Hymn' from Harmonia Anglicana, 1742.
+C: Setting: "Evangelical Lutheran Hymn-Book", 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2026 Revision.
+S: Music and Lyrics source: "Evangelical Lutheran Hymn-Book", 1931 Hymn 305
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] F F G | E3/2 F/ G | A A B | A3/2 G/ F | G F E | 
+w: 1.~God bless our na- tive land! Firm may she e- ver stand Through storm and 
+w: 2.~For her our prayer shall rise To God a- bove the skies; On Him we 
+[V: S1V2]  C C D | C3/2 D/ E | F F G | F3/2 E/ F | D C C | 
+[V: S2V1]  A, A, B, | G,3/2 C/ C | C D D | C3/2 B,/ A, | B, A, G, | 
+[V: S2V2]  F, F, B,, | C,3/2 C,/ C, | F, D, B,, | C,3/2 ^C,/ D, | B,, C, C, | 
+% 6
+[V: S1V1] F3 | c c c | c3/2 B/ A | B B B | B3/2 A/ G | 
+w: night; When the wild tem- pests rave, Ru- ler of wind and wave, 
+w: wait; Thou who art e- ver nigh, Guar- ding with watch- ful eye, 
+[V: S1V2] C3 | A A A | A3/2 G/ F | G G G | G3/2 F/ E | 
+[V: S2V1] A,3 | C C C | C3/2 C/ C | C C C | C3/2 C/ C | 
+[V: S2V2] F,3 | F, A, C | F,3/2 F,/ F, | C, E, G, | C,3/2 C,/ C, | 
+% 11
+[V: S1V1]  !sintro!A B/A/ G/F/ | A3/2 B/ c | d/B/ A G | F3 !eintro!|]
+w: Do Thou * our * coun- try save By * Thy great might. 
+w: To Thee * a- * loud we cry, God * save the state! 
+[V: S1V2] F F F | F3/2 E/ F | F/G/ F E | F3 |]
+[V: S2V1] C D/C/ B,/A,/ | C3/2 C/ C | B,/D/ C B, | A,3 |]
+[V: S2V2] F, F, F, | F,3/2 G,/ A, | B, C C, | F,3 |]
+% 18
+
