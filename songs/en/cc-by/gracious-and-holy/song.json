@@ -20,7 +20,9 @@
   "churchCount": 0,
   "hymnalCount": 0,
   "provenance": {
-    "text": "cmpilato"
+    "text": "cmpilato",
+    "tune": "cmpilato",
+    "timing": "worshipcommons"
   },
   "uploads": {
     "sheetPdf": "sheetPdf.pdf"

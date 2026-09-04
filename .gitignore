@@ -1,3 +1,7 @@
+# Harvest staging clones (not content)
+.staging/
+**/__pycache__/
+
 # Logs
 logs
 *.log

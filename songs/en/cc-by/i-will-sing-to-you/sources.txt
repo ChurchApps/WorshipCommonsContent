@@ -2,6 +2,8 @@ I Will Sing To You — sources & attribution
 Generated from song.json and the repository's sources.json. Do not edit by hand.
 
 Text (lyrics.chordpro): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+Tune (tune.mid): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+Lyric timings (timing.json): WorshipCommons (generated) — https://worshipcommons.org
 
 License: Creative Commons CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/. See licenses/cc-by.md at the repository root.
 Attribution: The Psalmist, C. Michael Pilato — https://github.com/cmpilato/worship-music/tree/main/I_Will_Sing_to_You
