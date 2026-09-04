@@ -23,7 +23,8 @@ then run `../write-sources-txt.mjs`, `../build-catalog.mjs`, `../validate.mjs`.
 | `import-writer-portraits.ts` | Wikipedia/Commons portraits + bios |
 | `import-videos.ts` + `video-report.txt` | Curated YouTube performances |
 | `backfill-chords.py`, `backfill-verses.ts` | Chords/verses derived from the ABC corpus |
-| `backfill-coverage.py` | MusicXML harmony → ChordPro + MIDI + karaoke; copy verse-1 chords onto later verses |
+| `backfill-coverage.py` | MusicXML harmony → ChordPro + MIDI + karaoke; `--partial` copies verse-1 chords onto later verses (reflows syllable-broken lines) |
+| `scan-coverage.mjs` | Catalog report: chords / partial chords / MIDI / karaoke / PDF gaps |
 | `generate-lyric-timings.py` | Karaoke word timings from ABC + MIDI |
 | `trim-midi-tails.py` | MIDI cleanup |
 | `sync-cover-art.ts` | Matched loose cover-art files to songs by title (obsolete: drop `art.webp` into the song folder directly) |

@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 STAGING = ROOT / ".staging" / "cmpilato"
 DRY = "--dry-run" in sys.argv
+PARTIAL_ONLY = "--partial" in sys.argv
 
 CHORD_RE = re.compile(r"\[([^\]]+)\]")
 WORD_RE = re.compile(r"[A-Za-z0-9']+")
@@ -264,55 +265,74 @@ def timing_from_words(stanzas, words, dur):
     return {"duration": dur, "stanzas": st_out}
 
 
+def line_tokens(line: str) -> list[tuple[str | None, str]]:
+    out, pending = [], None
+    for tok in re.findall(r"\[[^\]]+\]|\S+", line):
+        if tok.startswith("["):
+            pending = tok[1:-1]
+        else:
+            out.append((pending, tok))
+            pending = None
+    return out
+
+
+def reflow(tokens: list[str], counts: list[int]) -> list[list[str]]:
+    n = len(tokens)
+    if not counts:
+        return [tokens]
+    total = sum(counts) or 1
+    sizes = [max(1, round(n * c / total)) for c in counts]
+    while sum(sizes) > n and max(sizes) > 1:
+        sizes[sizes.index(max(sizes))] -= 1
+    i = 0
+    while sum(sizes) < n:
+        sizes[i % len(sizes)] += 1
+        i += 1
+    groups, k = [], 0
+    for s in sizes:
+        groups.append(tokens[k:k + s])
+        k += s
+    return groups
+
+
+def apply_donor(donor: list[str], target: list[str]) -> list[str] | None:
+    donor_lines = [line_tokens(line) for line in donor[1:]]
+    target_tok = [tok for line in target[1:] for _, tok in line_tokens(CHORD_RE.sub("", line))]
+    donor_n = sum(len(line) for line in donor_lines)
+    if donor_n == 0 or len(target_tok) < max(4, int(0.45 * donor_n)):
+        return None
+    groups = reflow(target_tok, [len(line) for line in donor_lines])
+    new_lines = []
+    for dline, group in zip(donor_lines, groups):
+        if not group:
+            continue
+        src_chords = [(i, c) for i, (c, _) in enumerate(dline) if c]
+        nd, ng = max(len(dline), 1), len(group)
+        mapped = {}
+        for i, c in src_chords:
+            mapped[min(ng - 1, round(i * ng / nd))] = c
+        new_lines.append(" ".join((f"[{mapped[i]}]" if mapped.get(i) else "") + tok for i, tok in enumerate(group)))
+    if not new_lines or not stanza_chords([target[0]] + new_lines):
+        return None
+    return [target[0]] + new_lines
+
+
 def copy_chords_across_verses(stanzas):
     donors = {}
     for st in stanzas:
         if len(st) < 2 or not stanza_chords(st):
             continue
-        key = (family(st[0]), len(st))
-        donors.setdefault(key, st)
+        donors.setdefault(family(st[0]), st)
     if not donors:
         return stanzas, 0
     changed, out = 0, []
     for st in stanzas:
-        key = (family(st[0]), len(st))
-        donor = donors.get(key)
+        donor = donors.get(family(st[0]))
         if stanza_chords(st) or donor is None or len(st) < 2:
             out.append(st)
             continue
-        new_st = [st[0]]
-        for src, dst in zip(donor[1:], st[1:]):
-            word_chords = []
-            pending = None
-            for tok in re.finditer(r"\[[^\]]+\]|[A-Za-z0-9']+", src):
-                if tok.group().startswith("["):
-                    pending = tok.group()[1:-1]
-                else:
-                    word_chords.append(pending)
-                    pending = None
-            dst_words = list(WORD_RE.finditer(dst))
-            if not dst_words:
-                new_st.append(dst)
-                continue
-            if len(word_chords) != len(dst_words):
-                src_chords = [(i, c) for i, c in enumerate(word_chords) if c]
-                mapped = {}
-                nsrc = max(len(word_chords), 1)
-                ndst = len(dst_words)
-                for i, c in src_chords:
-                    mapped[min(ndst - 1, round(i * ndst / nsrc))] = c
-                word_chords = [mapped.get(i) for i in range(ndst)]
-            rebuilt, last = [], 0
-            for i, m in enumerate(dst_words):
-                rebuilt.append(dst[last:m.start()])
-                ch = word_chords[i] if i < len(word_chords) else None
-                if ch:
-                    rebuilt.append(f"[{ch}]")
-                rebuilt.append(m.group())
-                last = m.end()
-            rebuilt.append(dst[last:])
-            new_st.append("".join(rebuilt))
-        if stanza_chords(new_st):
+        new_st = apply_donor(donor, st)
+        if new_st:
             changed += 1
             out.append(new_st)
         else:
@@ -468,6 +488,27 @@ def process_musicxml(folder: Path, xml_path: Path):
 
 
 def main():
+    if PARTIAL_ONLY:
+        copied = 0
+        for folder in song_dirs():
+            cp_path = folder / "lyrics.chordpro"
+            if not cp_path.exists():
+                continue
+            header, stanzas = split_chordpro(cp_path.read_text(encoding="utf-8"))
+            if not any(stanza_chords(st) for st in stanzas):
+                continue
+            new, n = copy_chords_across_verses(stanzas)
+            if n == 0:
+                continue
+            if DRY:
+                print(f"  copy-chords {folder.parent.name}/{folder.name}: {n}")
+            else:
+                write_text(cp_path, render(header, new))
+                print(f"  copy-chords {folder.parent.name}/{folder.name}: {n}")
+            copied += 1
+        print(f"done. chord-copy songs {copied}{' (dry-run)' if DRY else ''}")
+        return
+
     xml_by_slug = {}
     if STAGING.exists():
         for d in STAGING.iterdir():
