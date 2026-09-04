@@ -2,6 +2,8 @@ At Calvary (I Am Free) — sources & attribution
 Generated from song.json and the repository's sources.json. Do not edit by hand.
 
 Text (lyrics.chordpro): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+Tune (tune.mid): C. Michael Pilato — worship-music — https://github.com/cmpilato/worship-music (attribution required)
+Lyric timings (timing.json): WorshipCommons (generated) — https://worshipcommons.org
 
 License: Public domain. Public-domain source: C. Michael Pilato — worship-music. See licenses/public-domain.md at the repository root.
 Attribution: William Reed Newell, Daniel Brink Towner, C. Michael Pilato — https://github.com/cmpilato/worship-music/tree/main/At_Calvary_I_Am_Free

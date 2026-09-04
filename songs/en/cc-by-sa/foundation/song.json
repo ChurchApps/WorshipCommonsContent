@@ -22,7 +22,8 @@
   "hymnalCount": 0,
   "provenance": {
     "text": "mutopia",
-    "tune": "mutopia"
+    "tune": "mutopia",
+    "timing": "worshipcommons"
   },
   "uploads": {
     "sheetPdf": "sheetPdf.pdf"
