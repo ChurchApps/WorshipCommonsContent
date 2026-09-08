@@ -1,0 +1,57 @@
+{
+  "id": "pwKrjfk5zGl",
+  "title": "Debout, Sainte Cohorte",
+  "writer": "George Duffield, Jr. · tr. Ruben Saillens",
+  "writerRef": "ruben-saillens",
+  "year": 1858,
+  "language": "French",
+  "themes": "Mission,Trust",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Éphésiens 6.12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1858",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "stand-up-stand-up-for-jesus",
+  "relationLabel": "French translation · tr. Ruben Saillens"
+}

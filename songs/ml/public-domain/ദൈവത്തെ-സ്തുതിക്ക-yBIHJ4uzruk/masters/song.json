@@ -1,0 +1,52 @@
+{
+  "id": "yBIHJ4uzruk",
+  "title": "ദൈവത്തെ സ്തുതിക്ക",
+  "writer": "മാർട്ടിൻ റിങ്കാർട്ട്",
+  "writerRef": null,
+  "year": 1636,
+  "language": "Malayalam",
+  "themes": "Praise,Providence",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "2 കൊരിന്ത്യർ 2:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1636",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "now-thank-we-all-our-god",
+  "relationLabel": "Malayalam translation"
+}

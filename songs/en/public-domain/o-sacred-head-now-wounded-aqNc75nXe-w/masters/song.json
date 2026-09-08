@@ -1,0 +1,65 @@
+{
+  "id": "aqNc75nXe-w",
+  "title": "O Sacred Head, Now Wounded",
+  "writer": "Paul Gerhardt · tr. James W. Alexander",
+  "writerRef": "paul-gerhardt",
+  "year": 1830,
+  "language": "English",
+  "themes": "Easter,Comfort",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "meter": "7.6.7.6 D",
+  "scripture": "Isaiah 53:5",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1830",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "o-sacred-head-now-wounded"
+}

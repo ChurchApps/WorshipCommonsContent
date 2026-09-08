@@ -1,0 +1,46 @@
+{
+  "id": "XZ49aMGaQWb",
+  "title": "There Is Power in the Blood",
+  "writer": "Lewis E. Jones",
+  "writerRef": null,
+  "year": 1899,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "A",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 12:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1899",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "there-is-power-in-the-blood"
+}

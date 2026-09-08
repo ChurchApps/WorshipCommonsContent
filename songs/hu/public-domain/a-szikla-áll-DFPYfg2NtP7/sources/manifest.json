@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "52acc3b2b0d9ec340f79ee4ba76f63d5a3c8261a037855bd503a5f87ad553424",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

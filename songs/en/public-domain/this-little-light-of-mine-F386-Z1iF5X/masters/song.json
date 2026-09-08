@@ -1,0 +1,54 @@
+{
+  "id": "F386-Z1iF5X",
+  "title": "This Little Light of Mine",
+  "writer": "African American traditional",
+  "writerRef": null,
+  "year": 1920,
+  "language": "English",
+  "themes": "Mission,Praise,Kids",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 5:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1920",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "wikimedia-commons"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

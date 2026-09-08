@@ -1,0 +1,52 @@
+{
+  "id": "JbvXFQ9SKPH",
+  "title": "Cristo, Eres Justo Rey",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Spanish",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Cantares de Salomón 6:10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1873",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "fairest-lord-jesus",
+  "relationLabel": "Spanish translation"
+}

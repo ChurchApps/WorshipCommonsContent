@@ -1,0 +1,58 @@
+{
+  "id": "i0OSkbqKdQ3",
+  "title": "നമ്മുടെ വൻ കോട്ട ദൈവം",
+  "writer": "മാർട്ടിൻ ലൂഥർ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 46:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2014",
+      "source": "cyber-hymnal",
+      "review": "Published 2014, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "ein-feste-burg-ist-unser-gott",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
+}

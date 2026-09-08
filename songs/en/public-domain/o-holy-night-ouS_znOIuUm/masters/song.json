@@ -1,0 +1,42 @@
+{
+  "id": "ouS_znOIuUm",
+  "title": "O Holy Night",
+  "writer": "Adolphe Adam · tr. John S. Dwight",
+  "writerRef": "adolphe-adam",
+  "year": 1847,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "C",
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "meter": "11.10.11.10.11.10.11.10.10",
+  "scripture": "Luke 2:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1847",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "o-holy-night"
+}

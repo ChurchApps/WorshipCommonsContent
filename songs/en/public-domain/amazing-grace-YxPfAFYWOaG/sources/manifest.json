@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "26d6e806852185769f21face57d68d15ef04a9ff621b73b2fdce81622b7bf2b4",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "new_britain.ly",
+      "url": "https://www.mutopiaproject.org/ftp/Anonymous/new_britain/new_britain.ly",
+      "acquired": "2026-09-08",
+      "sha256": "98d91c76395a37fd0379896f6fee83f61386de08dd544ef188bc98251c513f4c",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "73a2de5078ad8f7e03f86f2e2a7d5f38e00f6d2d025eb95bb58a3665a8a6f132",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "e1c616b422b740b8c429c5caea64462e98444bb04427c8c096798965103f1a85",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

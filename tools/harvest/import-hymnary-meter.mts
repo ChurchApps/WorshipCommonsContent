@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as os from "os";
 import * as path from "path";
 import { fileURLToPath } from "url";
-import { songDirs, splitChordpro, readJson, writeJson } from "../lib.mjs";
+import { songDirs, splitChordpro, writeJson, readSong, songJsonPath, lyricsPath } from "../lib.mjs";
 
 // Looks up each song on hymnary.org and records the poetic meter of the matching
 // text (CSV column `meter`, e.g. 8.7.8.7 D, CM) into song.json. Same search and
@@ -100,12 +100,12 @@ function bestMeter(rows: string[][], wantTitle: string, wantFirst: string): stri
 
 let found = 0, checked = 0;
 for (const { dir, langDir, section, folder } of songDirs(ROOT)) {
-  const songPath = path.join(dir, "song.json");
-  const song = readJson(songPath);
+  const songPath = songJsonPath(dir);
+  const song = readSong(dir);
   if (song.meter) continue;
   checked++;
 
-  const { body } = splitChordpro(fs.readFileSync(path.join(dir, "lyrics.chordpro"), "utf8"));
+  const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const firstLine = body.split("\n")
     .map((l: string) => l.replace(/\[[^\]]*\]/g, "").trim())
     .find((l: string) => l && !/^(Verse|Chorus|Coro|Refrain|Bridge)/i.test(l)) || "";

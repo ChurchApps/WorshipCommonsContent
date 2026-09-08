@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "5808f6a1c523655c52e09404a6e415264671c69e841ca6633ec6320047edfb5a",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "3b5117d0d759796dde4565ebee27b45b1c18cafd043ea68eb8b38873b71d4edc",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Es1TAgZiT3P",
+  "title": "Come, Ye Sinners, Poor and Needy",
+  "writer": "Joseph Hart",
+  "writerRef": "joseph-hart",
+  "year": 1759,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.8.7",
+  "scripture": "Matthew 11:28",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1759",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "come-ye-sinners-poor-and-needy"
+}

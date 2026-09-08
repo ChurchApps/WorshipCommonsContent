@@ -1,0 +1,46 @@
+{
+  "id": "1RHhMFd3Dew",
+  "title": "In the Garden",
+  "writer": "C. Austin Miles",
+  "writerRef": "c-austin-miles",
+  "year": 1912,
+  "language": "English",
+  "themes": "Comfort",
+  "key": "A",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "John 20:15-16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1912",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "in-the-garden"
+}

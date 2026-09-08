@@ -1,0 +1,65 @@
+{
+  "id": "PcwqBQ0pxuT",
+  "title": "Blest Be the Tie That Binds",
+  "writer": "John Fawcett",
+  "writerRef": "john-fawcett",
+  "year": 1782,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "meter": "6.6.8.6",
+  "scripture": "Colossians 3:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1782",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "blest-be-the-tie-that-binds"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "QnYa8cJdeLc",
+  "title": "Guide Me, O Thou Great Jehovah",
+  "writer": "William Williams & John Hughes",
+  "writerRef": "john-hughes",
+  "year": 1745,
+  "language": "English",
+  "themes": "Providence,Trust",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Exodus 13:21",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1745",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "guide-me-o-thou-great-jehovah",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

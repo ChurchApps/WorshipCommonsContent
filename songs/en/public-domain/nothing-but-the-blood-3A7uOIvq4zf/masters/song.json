@@ -1,0 +1,46 @@
+{
+  "id": "3A7uOIvq4zf",
+  "title": "Nothing but the Blood",
+  "writer": "Robert Lowry",
+  "writerRef": "robert-lowry",
+  "year": 1876,
+  "language": "English",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 9:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1876",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "nothing-but-the-blood"
+}

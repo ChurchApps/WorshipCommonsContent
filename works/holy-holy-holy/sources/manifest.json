@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "9aa7190ce2612c3f7b5c2d6aa3c3ae3f8380781a449ee09b4bafda776614e30e",
+      "licenseBasis": "open-hymnal",
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "8caea3a9d83dca83fe2d5732b0152a213b3496f29a875068350b77d14652b358",
+      "licenseBasis": "open-hymnal",
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

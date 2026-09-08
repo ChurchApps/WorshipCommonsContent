@@ -1,0 +1,46 @@
+{
+  "id": "HXV9tBaJvp3",
+  "title": "More About Jesus",
+  "writer": "Eliza Hewitt & John Sweney",
+  "writerRef": "eliza-hewitt",
+  "year": 1887,
+  "language": "English",
+  "themes": "Trust,Praise",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "2 Peter 3:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1887",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "more-about-jesus"
+}

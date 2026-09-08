@@ -1,6 +1,6 @@
 // One-shot (but rerunnable) migration: groups parent-linked translation families
 // under works/<slug>/, moves the canonical's shared assets (tune.mid/tune.abc/
-// art.webp) into the work folder, deletes byte-identical member copies, and
+// cover.webp) into the work folder, deletes byte-identical member copies, and
 // rewrites member song.json files (workRef added, parent removed).
 // Families whose members already have workRef are skipped, so reruns are no-ops
 // and this doubles as the tool for later CANONICAL_OVERRIDES additions.
@@ -9,10 +9,10 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { slugify, songDirs, readJson, writeJson } from "./lib.mjs";
+import { slugify, songDirs, readJson, writeJson, readSong, songJsonPath, SHARED_RELS, ensurePkgDirs, writeManifest } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const SHARED = ["tune.mid", "tune.abc", "art.webp"];
+const SHARED = SHARED_RELS;
 
 // current top-level parent id → true original-language song id. Only these
 // families are flipped; every other "original"-labeled child is reported below
@@ -26,7 +26,7 @@ const CANONICAL_OVERRIDES = {
 // load every song with its folder
 const songs = new Map(); // id → { song, dir, label }
 for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
-  const song = readJson(path.join(dir, "song.json"));
+  const song = readSong(dir);
   songs.set(song.id, { song, dir, label: `songs/${langDir}/${section}/${folder}` });
 }
 
@@ -69,14 +69,20 @@ for (const [rootId, memberIds] of families) {
     for (let n = 2; workSlugs.has(slug); n++) slug = `${slugify(canonical.song.title)}-${n}`;
     workSlugs.add(slug);
     workDir = path.join(ROOT, "works", slug);
-    fs.mkdirSync(workDir, { recursive: true });
-    writeJson(path.join(workDir, "work.json"), { slug, title: canonical.song.title, canonicalSongId: canonicalId });
+    ensurePkgDirs(workDir);
+    writeJson(path.join(workDir, "masters", "work.json"), { slug, title: canonical.song.title, canonicalSongId: canonicalId });
     stats.works++;
     // canonical's shared assets move to the work
     for (const f of SHARED) {
       const src = path.join(canonical.dir, f);
-      if (fs.existsSync(src)) { fs.renameSync(src, path.join(workDir, f)); stats.moved++; }
+      if (fs.existsSync(src)) {
+        const dest = path.join(workDir, f);
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
+        fs.renameSync(src, dest);
+        stats.moved++;
+      }
     }
+    writeManifest(workDir, canonical.song.rights?.tune?.basis ? { tune: canonical.song.rights.tune.basis, abc: canonical.song.rights.arrangement?.basis } : {});
   }
 
   // byte-identical member copies of the work's assets are deleted
@@ -105,7 +111,7 @@ for (const [rootId, memberIds] of families) {
       if (id === canonicalId) delete song.relationLabel; // was "German original · …"
       if (id === rootId) song.relationLabel = `${song.language} translation`; // demoted ex-parent; hand-polish later
     }
-    writeJson(path.join(dir, "song.json"), song);
+    writeJson(songJsonPath(dir), song);
     stats.rewritten++;
   }
 }

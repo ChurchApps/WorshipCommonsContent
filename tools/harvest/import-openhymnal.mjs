@@ -11,7 +11,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor, LICENSES, slugify, renderChordpro, writeJson, songDirs, readJson } from "../lib.mjs";
+import { idFor, LICENSES, slugify, packageFolder, songDirs, readSong, readJson, writeNewSong } from "../lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const SOURCE = "open-hymnal";
@@ -171,7 +171,7 @@ const existingNorm = new Map();
 for (const { langDir, folder, dir } of songDirs(ROOT)) {
   existingFolders.add(`${langDir}/${folder}`);
   let song;
-  try { song = readJson(path.join(dir, "song.json")); } catch { continue; }
+  try { song = readSong(dir); } catch { continue; }
   if (song.id) existingIds.add(song.id);
   if (song.title) for (const v of variants(song.title)) existingNorm.set(v, song.title);
 }
@@ -212,7 +212,7 @@ for (const file of abcFiles) {
   const taken = titleTaken(p.title);
   if (taken) { skipped.push(`${file}: title already in catalog as "${taken}"`); continue; }
   if (existingIds.has(id)) { skipped.push(`${file}: id ${id} already exists (${p.title})`); continue; }
-  const slug = slugify(p.title);
+  const slug = packageFolder(p.title, id);
   const lang = "en";
   if (existingFolders.has(`${lang}/${slug}`)) { skipped.push(`${file}: folder songs/${lang}/public-domain/${slug} exists`); continue; }
   const titleKey = norm(p.title);
@@ -224,10 +224,6 @@ for (const file of abcFiles) {
   const writer = [p.author || p.composer, p.translator && `tr. ${p.translator}`].filter(Boolean).join(" · ") || "Unknown";
   const body = p.stanzas.map(s => [s.label, ...s.lines].join("\n")).join("\n\n");
   const outDir = path.join(ROOT, "songs", lang, LICENSES.PD.section, slug);
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.copyFileSync(path.join(abcDir, file), path.join(outDir, "tune.abc"));
-  fs.copyFileSync(midiSrc, path.join(outDir, "tune.mid"));
-
   const song = {
     id,
     title: p.title,
@@ -246,8 +242,14 @@ for (const file of abcFiles) {
     hymnalCount: 0,
     provenance: { text: SOURCE, tune: SOURCE, abc: SOURCE }
   };
-  writeJson(path.join(outDir, "song.json"), song);
-  fs.writeFileSync(path.join(outDir, "lyrics.chordpro"), renderChordpro(song, body));
+  writeNewSong(outDir, {
+    song,
+    body,
+    files: { "tune.abc": path.join(abcDir, file), "tune.mid": midiSrc },
+    urls: { "tune.abc": `${SOURCE_URL}/Abc/${file}` },
+    note: `Imported from ${SOURCE}`,
+    reviewer: "import-openhymnal"
+  });
   seenTitle.add(titleKey);
   existingIds.add(id);
   existingFolders.add(`${lang}/${slug}`);

@@ -1,0 +1,47 @@
+{
+  "id": "mxY11bbcqTg",
+  "title": "Standing on the Promises",
+  "writer": "Russell Carter",
+  "writerRef": "russell-carter",
+  "year": 1886,
+  "language": "English",
+  "themes": "Assurance,Praise",
+  "key": "Bb",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "meter": "11.11.11.9",
+  "scripture": "2 Peter 1:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1886",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "standing-on-the-promises"
+}

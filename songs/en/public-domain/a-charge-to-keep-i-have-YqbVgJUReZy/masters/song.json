@@ -1,0 +1,42 @@
+{
+  "id": "YqbVgJUReZy",
+  "title": "A Charge to Keep I Have",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1762,
+  "language": "English",
+  "themes": "Mission,Confession",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": "6.6.8.6",
+  "scripture": "Leviticus 8:35",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1762",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "a-charge-to-keep-i-have"
+}

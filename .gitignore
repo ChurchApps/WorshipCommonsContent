@@ -1,3 +1,9 @@
+# Generated from masters/ + sources/. Rebuild with: node tools/generate.mjs [folder]
+# timing.json is the one derivative we cannot rebuild yet (python score pipeline), so it
+# stays tracked until the MusicXML pipeline replaces it — see README.
+**/derivatives/*
+!**/derivatives/timing.json
+
 # Harvest staging clones (not content)
 .staging/
 **/__pycache__/

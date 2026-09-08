@@ -6,8 +6,9 @@ this library's content; they are **not** needed to consume it.
 
 Most still reference the old API-repo layout (`src/seed-data/*.ts`, `tools/seed-assets/`)
 and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-cmpilato.mjs`,
-`import-cmaa.mjs`, `import-mutopia.mjs`) write `songs/<lang>/<license>/<slug>/` + `song.json`,
-then run `../write-sources-txt.mjs`, `../build-catalog.mjs`, `../validate.mjs`.
+`import-cmaa.mjs`, `import-mutopia.mjs`) write `songs/<lang>/<license>/<slug>/` packages
+(`sources/` + `masters/` + `derivatives/`), then run `../write-sources-txt.mjs`,
+`../build-catalog.mjs`, `../validate.mjs`.
 
 | Tool | What it harvested |
 |---|---|
@@ -27,6 +28,6 @@ then run `../write-sources-txt.mjs`, `../build-catalog.mjs`, `../validate.mjs`.
 | `scan-coverage.mjs` | Catalog report: chords / partial chords / MIDI / karaoke / PDF gaps |
 | `generate-lyric-timings.py` | Karaoke word timings from ABC + MIDI |
 | `trim-midi-tails.py` | MIDI cleanup |
-| `sync-cover-art.ts` | Matched loose cover-art files to songs by title (obsolete: drop `art.webp` into the song folder directly) |
+| `sync-cover-art.ts` | Matched loose cover-art files to songs by title (obsolete: drop `cover.webp` into `masters/`) |
 
 Python tools need `mido`, `music21`, and abc2xml (not vendored — see each file's header).

@@ -1,0 +1,79 @@
+{
+  "id": "RXrZMgUvJko",
+  "title": "Hallelujah (Psalm 95)",
+  "writer": "C. Michael Pilato",
+  "year": 2015,
+  "language": "English",
+  "themes": "",
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/Hallelujah_Psalm_95"
+  },
+  "rights": {
+    "text": {
+      "license": "CC-BY",
+      "basis": "published 2015",
+      "version": "3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "cmpilato"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Chorus",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7"
+    ]
+  }
+}

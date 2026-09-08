@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "6400fd701d5169948383cbbab3728ff6894584aaee2cb4e1d7847c1b6ef7bfbd",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "087a8130bf636d6a86972cada829eac30bd502ee69f7fec0736061abb43061a8",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "550f5a932ad90eb3118696803f2939adfdb2fa41f1b90b3e795dd9eb1cf314ee",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "7331baf575a1e6548b04b9e49c48238a25f019c8739ce225c10870bb2902b62d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

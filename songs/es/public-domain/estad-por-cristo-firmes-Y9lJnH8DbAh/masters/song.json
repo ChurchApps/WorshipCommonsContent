@@ -1,0 +1,39 @@
+{
+  "id": "Y9lJnH8DbAh",
+  "title": "Estad por Cristo Firmes",
+  "writer": "George Duffield · tr. Juan Bautista Cabrera",
+  "writerRef": "juan-bautista-cabrera",
+  "year": 1878,
+  "language": "Spanish",
+  "themes": "Mission,Trust",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Efesios 6:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1878",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "stand-up-stand-up-for-jesus",
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera"
+}

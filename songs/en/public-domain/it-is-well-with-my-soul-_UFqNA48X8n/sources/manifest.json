@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "d28b1efda528721a37b8bb868ececb116189a973c3f06095218e468b34f0e3f1",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "6f9254bfab7667c422b3039be1ac15081accfaea469bf94d7a42f068a2e68402",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "4a60fba35bdff2a770f14ea4e23562578fee14bb2896ad92c6f2850a1e90f283",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "villeduh.ly",
+      "url": "https://www.mutopiaproject.org/ftp/BlissPP/villeduh/villeduh.ly",
+      "acquired": "2026-09-08",
+      "sha256": "5804c3713f792404e2a85efc7207b5467bcee5e511739320eabed65d2f1bb0cc",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    }
+  ]
+}

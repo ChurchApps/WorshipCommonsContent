@@ -1,0 +1,39 @@
+{
+  "id": "jBeRotDkxf5",
+  "title": "Cariñoso Salvador",
+  "writer": "Charles Wesley · tr. Vicente Mendoza",
+  "writerRef": "charles-wesley",
+  "year": 1904,
+  "language": "Spanish",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 61:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1904",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "jesus-lover-of-my-soul",
+  "relationLabel": "Spanish translation · tr. Vicente Mendoza"
+}

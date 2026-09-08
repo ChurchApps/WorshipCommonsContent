@@ -1,0 +1,63 @@
+{
+  "id": "JIgRfbBdzrh",
+  "title": "അനുഗ്രഹ ഉറവേ വാ",
+  "writer": "റോബർട്ട് റോബിൻസണ്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Hope,Cross",
+  "key": "Eb",
+  "bpm": 90,
+  "timeSignature": "3/4",
+  "scripture": "1 ശമൂവേൽ 7:12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2014",
+      "source": "cyber-hymnal",
+      "review": "Published 2014, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "come-thou-fount-of-every-blessing",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
+}

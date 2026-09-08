@@ -1,0 +1,63 @@
+{
+  "id": "U5VUtmh6lUn",
+  "title": "Mein Jesu, Wie Du Willst",
+  "writer": "Benjamin Schmolck",
+  "writerRef": "benjamin-schmolck",
+  "year": 1704,
+  "language": "German",
+  "themes": "Assurance,Communion,Faith",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "6.6.6.6 D",
+  "scripture": "Matthäus 6,10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1704",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "my-jesus-as-thou-wilt",
+  "relationLabel": "German original · Benjamin Schmolck, 1704"
+}

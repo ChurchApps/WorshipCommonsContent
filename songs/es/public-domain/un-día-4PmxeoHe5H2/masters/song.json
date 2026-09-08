@@ -1,0 +1,64 @@
+{
+  "id": "4PmxeoHe5H2",
+  "title": "Un Día",
+  "writer": "Wilbur Chapman",
+  "writerRef": null,
+  "year": 1908,
+  "language": "Spanish",
+  "themes": "Hope,Grace",
+  "key": "Bb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Gálatas 4:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1908",
+      "source": "cyber-hymnal"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "one-day",
+  "relationLabel": "Spanish translation"
+}

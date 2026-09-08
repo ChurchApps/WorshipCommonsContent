@@ -1,0 +1,47 @@
+{
+  "id": "ulOZk2Z-mRz",
+  "title": "Near the Cross",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1869,
+  "language": "English",
+  "themes": "Grace,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "8.8.7 D",
+  "scripture": "1 Corinthians 1:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1869",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "near-the-cross"
+}

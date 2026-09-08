@@ -77,16 +77,39 @@ def song_dirs():
                 yield folder
 
 
+def pkg_file(folder: Path, rel: str, fallback: str | None = None) -> Path:
+    p = folder / rel
+    if p.exists():
+        return p
+    flat = folder / (fallback or Path(rel).name)
+    if flat.exists():
+        return flat
+    return p  # prefer the package path when creating a new file
+
+
 def load_song(folder: Path) -> dict:
-    return json.loads((folder / "song.json").read_text(encoding="utf-8"))
+    return json.loads(pkg_file(folder, "masters/song.json", "song.json").read_text(encoding="utf-8"))
 
 
 def write_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(text.encode("utf-8"))
 
 
 def save_song(folder: Path, song: dict) -> None:
-    write_text(folder / "song.json", json.dumps(song, indent=2, ensure_ascii=False) + "\n")
+    write_text(pkg_file(folder, "masters/song.json", "song.json"), json.dumps(song, indent=2, ensure_ascii=False) + "\n")
+
+
+def lyrics_path(folder: Path) -> Path:
+    return pkg_file(folder, "masters/lyrics.chordpro", "lyrics.chordpro")
+
+
+def midi_path(folder: Path) -> Path:
+    return pkg_file(folder, "sources/tune.mid", "tune.mid")
+
+
+def timing_path(folder: Path) -> Path:
+    return pkg_file(folder, "derivatives/timing.json", "timing.json")
 
 
 def clean_figure(fig: str) -> str:
@@ -369,7 +392,7 @@ FOUNDATION_VERSES = {
 
 
 def fix_reline(folder: Path, verses: dict[str, list[str]]):
-    cp_path = folder / "lyrics.chordpro"
+    cp_path = lyrics_path(folder)
     header, stanzas = split_chordpro(cp_path.read_text(encoding="utf-8"))
     new = []
     for st in stanzas:
@@ -409,10 +432,10 @@ def tile_midi(src_path: Path, copies: int, dest: Path):
 
 def foundation_karaoke(folder: Path):
     import mido
-    mid_path = folder / "tune.mid"
+    mid_path = midi_path(folder)
     if not mid_path.exists():
         return False
-    header, stanzas = split_chordpro((folder / "lyrics.chordpro").read_text(encoding="utf-8"))
+    header, stanzas = split_chordpro(lyrics_path(folder).read_text(encoding="utf-8"))
     mid = mido.MidiFile(str(mid_path))
     # MidiFile iteration already yields delta times in seconds
     onsets, t = [], 0.0
@@ -455,18 +478,14 @@ def foundation_karaoke(folder: Path):
         print(f"  karaoke {folder.name}: {len(stanzas)} stanzas, {dur}s")
         return True
     tile_midi(mid_path, len(stanzas), mid_path)
-    write_text(folder / "timing.json", json.dumps({"duration": dur, "stanzas": st_out}, ensure_ascii=False) + "\n")
-    song = load_song(folder)
-    song.setdefault("provenance", {})
-    song["provenance"]["timing"] = "worshipcommons"
-    save_song(folder, song)
+    write_text(timing_path(folder), json.dumps({"duration": dur, "stanzas": st_out}, ensure_ascii=False) + "\n")
     print(f"  karaoke {folder.name}: {len(stanzas)} stanzas, {dur}s")
     return True
 
 
 def process_musicxml(folder: Path, xml_path: Path):
     score, words, dur = musicxml_words(xml_path)
-    cp_path = folder / "lyrics.chordpro"
+    cp_path = lyrics_path(folder)
     header, stanzas = split_chordpro(cp_path.read_text(encoding="utf-8"))
     before = sum(len(stanza_chords(st)) for st in stanzas)
     new_stanzas, used = apply_xml(stanzas, words)
@@ -477,13 +496,8 @@ def process_musicxml(folder: Path, xml_path: Path):
         return
     if after > before:
         write_text(cp_path, render(header, new_stanzas))
-    score.write("midi", fp=str(folder / "tune.mid"))
-    write_text(folder / "timing.json", json.dumps(timing, ensure_ascii=False) + "\n")
-    song = load_song(folder)
-    song.setdefault("provenance", {})
-    song["provenance"]["tune"] = "cmpilato"
-    song["provenance"]["timing"] = "worshipcommons"
-    save_song(folder, song)
+    score.write("midi", fp=str(midi_path(folder)))
+    write_text(timing_path(folder), json.dumps(timing, ensure_ascii=False) + "\n")
     print(f"  XML {folder.name}: chords {before}→{after}, midi+timing ({dur}s)")
 
 
@@ -491,7 +505,7 @@ def main():
     if PARTIAL_ONLY:
         copied = 0
         for folder in song_dirs():
-            cp_path = folder / "lyrics.chordpro"
+            cp_path = lyrics_path(folder)
             if not cp_path.exists():
                 continue
             header, stanzas = split_chordpro(cp_path.read_text(encoding="utf-8"))
@@ -521,7 +535,8 @@ def main():
     n_xml = 0
     for folder in song_dirs():
         song = load_song(folder)
-        if song.get("provenance", {}).get("text") != "cmpilato":
+        source = (song.get("rights") or {}).get("text", {}).get("source") or (song.get("provenance") or {}).get("text")
+        if source != "cmpilato":
             continue
         xml = xml_by_slug.get(folder.name)
         if not xml:
@@ -542,7 +557,7 @@ def main():
 
     copied = 0
     for folder in song_dirs():
-        cp_path = folder / "lyrics.chordpro"
+        cp_path = lyrics_path(folder)
         if not cp_path.exists():
             continue
         header, stanzas = split_chordpro(cp_path.read_text(encoding="utf-8"))

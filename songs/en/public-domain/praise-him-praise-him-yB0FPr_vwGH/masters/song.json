@@ -1,0 +1,42 @@
+{
+  "id": "yB0FPr_vwGH",
+  "title": "Praise Him! Praise Him!",
+  "writer": "Fanny Crosby & Chester Allen",
+  "writerRef": "fanny-crosby",
+  "year": 1869,
+  "language": "English",
+  "themes": "Praise,Adoration",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "10.6.10.6",
+  "scripture": "Psalm 147:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1869",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "praise-him-praise-him"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "O56iN1F_4rL",
+  "title": "Now Thank We All Our God",
+  "writer": "Martin Rinkart · tr. Catherine Winkworth",
+  "writerRef": "martin-rinkart",
+  "year": 1858,
+  "language": "English",
+  "themes": "Praise,Providence",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "6.7.6.7.6.6.6.6",
+  "scripture": "1 Thessalonians 5:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1858",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "now-thank-we-all-our-god"
+}

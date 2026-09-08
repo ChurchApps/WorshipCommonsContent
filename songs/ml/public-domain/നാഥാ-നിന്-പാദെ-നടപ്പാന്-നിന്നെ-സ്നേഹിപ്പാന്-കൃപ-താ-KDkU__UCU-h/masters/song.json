@@ -1,0 +1,58 @@
+{
+  "id": "KDkU__UCU-h",
+  "title": "നാഥാ നിന്‍ പാദെ നടപ്പാന്‍ നിന്നെ സ്നേഹിപ്പാന്‍ കൃപ താ",
+  "writer": "വാഷിങ്ങ്ടണ്ണ്‍ ഗ്ലേടെന്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2010,
+  "language": "Malayalam",
+  "themes": "Mission",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "മീഖ, 6:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2010",
+      "source": "cyber-hymnal",
+      "review": "Published 2010, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "o-master-let-me-walk-with-thee",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2010"
+}

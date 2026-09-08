@@ -1,0 +1,45 @@
+{
+  "id": "PBT2FmuhgUL",
+  "title": "Jesus, Lover of My Soul",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1740,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "7.7.7.7 D",
+  "scripture": "Psalm 61:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1740",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "jesus-lover-of-my-soul"
+}

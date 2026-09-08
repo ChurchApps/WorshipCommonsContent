@@ -1,0 +1,65 @@
+{
+  "id": "PkS4tLdqERb",
+  "title": "All My Heart This Night Rejoices",
+  "writer": "Paul Gerhardt · tr. Catherine Winkworth",
+  "writerRef": "paul-gerhardt",
+  "year": 1656,
+  "language": "English",
+  "themes": "Christmas,Advent,Grace",
+  "key": "G",
+  "bpm": 140,
+  "timeSignature": "4/4",
+  "meter": "8.3.3.6 D",
+  "scripture": "Lk 2:8-15",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1656",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "all-my-heart-this-night-rejoices"
+}

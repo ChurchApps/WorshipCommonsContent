@@ -1,0 +1,53 @@
+{
+  "id": "kWspBN8RSY7",
+  "title": "പുഴ പോലെ തന്‍ ശാന്തി",
+  "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": "Comfort,Assurance",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "യെശയ്യാവു 66:12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2012",
+      "source": "cyber-hymnal",
+      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "ive-got-peace-like-a-river",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
+}

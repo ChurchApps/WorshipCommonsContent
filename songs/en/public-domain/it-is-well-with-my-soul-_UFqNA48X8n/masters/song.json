@@ -1,0 +1,52 @@
+{
+  "id": "_UFqNA48X8n",
+  "title": "It Is Well with My Soul",
+  "writer": "Horatio Spafford",
+  "writerRef": "horatio-spafford",
+  "year": 1873,
+  "language": "English",
+  "themes": "Comfort,Assurance",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 46:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1873",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "it-is-well-with-my-soul",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

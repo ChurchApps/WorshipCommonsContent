@@ -1,0 +1,65 @@
+{
+  "id": "JjnX-vtk8am",
+  "title": "Praise, My Soul, the King of Heaven",
+  "writer": "Henry Lyte & John Goss",
+  "writerRef": "henry-lyte",
+  "year": 1834,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "2/4",
+  "meter": "8.7.8.7.8.7",
+  "scripture": "Psalm 103:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1834",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "praise-my-soul-the-king-of-heaven"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ePrNcURB4pG",
+  "title": "അത്യത്ഭുതം! എൻ രക്ഷകൻ",
+  "writer": "ഐസക്ക് വാട്സ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Grace,Comfort",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1 തിമൊഥെയൊസ് 2:5–6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2014",
+      "source": "cyber-hymnal",
+      "review": "Published 2014, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8"
+    ]
+  },
+  "workRef": "alas-and-did-my-savior-bleed",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "3U53lul1o4Y",
+  "title": "I Have Decided to Follow Jesus",
+  "writer": "Traditional · Assam, India",
+  "writerRef": null,
+  "year": 1959,
+  "language": "English",
+  "themes": "Trust,Mission",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.8",
+  "scripture": "Luke 9:57",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1959",
+      "source": "wc-seed",
+      "review": "Published 1959, after the US PD cutoff; PD claim rests on wc-seed's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "i-have-decided-to-follow-jesus"
+}

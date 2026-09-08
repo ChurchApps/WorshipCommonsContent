@@ -1,0 +1,51 @@
+{
+  "id": "NYv8oVsMmC2",
+  "title": "Eternal Father, Strong to Save",
+  "writer": "William Whiting & John Dykes",
+  "writerRef": "william-whiting-john-dykes",
+  "year": 1860,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "C",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8.8.8",
+  "scripture": "Psalm 107:23-30",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1860",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

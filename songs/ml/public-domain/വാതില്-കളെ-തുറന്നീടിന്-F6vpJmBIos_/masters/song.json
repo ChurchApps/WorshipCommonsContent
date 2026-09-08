@@ -1,0 +1,68 @@
+{
+  "id": "F6vpJmBIos_",
+  "title": "വാതില്‍കളെ തുറന്നീടിന്‍",
+  "writer": "ജോര്‍ജ് വൈസല്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": "Hope,Christmas,Advent",
+  "key": "A",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 24:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2012",
+      "source": "cyber-hymnal",
+      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "workRef": "lift-up-your-heads-ye-mighty-gates",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
+}

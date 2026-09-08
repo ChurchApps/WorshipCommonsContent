@@ -1,0 +1,52 @@
+{
+  "id": "FVMvxWx7pAJ",
+  "title": "Engjëjt Na Kumtojn’ Tani",
+  "writer": "Charles Wesley · tr. Jan Foss",
+  "writerRef": "charles-wesley",
+  "year": 1739,
+  "language": "Albanian",
+  "themes": "Christmas,Praise",
+  "key": "F",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Lluka 2:13-14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1739",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "hark-the-herald-angels-sing",
+  "relationLabel": "Albanian translation · tr. Jan Foss"
+}

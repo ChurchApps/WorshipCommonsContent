@@ -1,0 +1,52 @@
+{
+  "id": "qQpaYDep2ZF",
+  "title": "Luz Benigna",
+  "writer": "John H. Newman · tr. William E. Entzminger",
+  "writerRef": "john-h-newman",
+  "year": 1833,
+  "language": "Portuguese",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 119:105",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1833",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "lead-kindly-light",
+  "relationLabel": "Portuguese translation · tr. William E. Entzminger"
+}

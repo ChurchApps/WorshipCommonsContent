@@ -1,0 +1,69 @@
+{
+  "id": "MTtlp6FEXfq",
+  "title": "All Glory, Laud, and Honor",
+  "writer": "Theodulf of Orléans · tr. John Mason Neale",
+  "writerRef": "theodulf-of-orleans",
+  "year": 1851,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 21:9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1851",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "all-glory-laud-and-honor"
+}

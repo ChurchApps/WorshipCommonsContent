@@ -1,0 +1,39 @@
+{
+  "id": "TZaJSzvHiPp",
+  "title": "Dulce Oración",
+  "writer": "William Walford · tr. anónimo",
+  "writerRef": null,
+  "year": 1900,
+  "language": "Spanish",
+  "themes": "Trust,Comfort",
+  "key": "D",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Mateo 6:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1900",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "sweet-hour-of-prayer",
+  "relationLabel": "Spanish translation · anonymous"
+}

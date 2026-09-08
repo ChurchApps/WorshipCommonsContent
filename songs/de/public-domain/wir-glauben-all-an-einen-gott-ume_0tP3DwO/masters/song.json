@@ -1,0 +1,53 @@
+{
+  "id": "ume_0tP3DwO",
+  "title": "Wir Glauben All’ an Einen Gott",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "German",
+  "themes": "Cross,Church",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8.8.8.8.8.8.8",
+  "scripture": "1 Johannes 5,20",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1524",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "we-all-believe-in-one-true-god",
+  "relationLabel": "German original · Martin Luther, 1524"
+}

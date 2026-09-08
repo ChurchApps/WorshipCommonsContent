@@ -1,0 +1,103 @@
+{
+  "id": "WBsl0-j0SXa",
+  "title": "അർക്കനോടൊപ്പം",
+  "writer": "തോമസ് കെൻ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2018,
+  "language": "Malayalam",
+  "themes": "Faith",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 17:15",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2018",
+      "source": "cyber-hymnal",
+      "review": "Published 2018, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 8
+      },
+      {
+        "label": "Verse 9",
+        "lyric": 9
+      },
+      {
+        "label": "Verse 10",
+        "lyric": 10
+      },
+      {
+        "label": "Verse 11",
+        "lyric": 11
+      },
+      {
+        "label": "Verse 12",
+        "lyric": 12
+      },
+      {
+        "label": "Verse 13",
+        "lyric": 13
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8",
+      "Verse 9",
+      "Verse 10",
+      "Verse 11",
+      "Verse 12",
+      "Verse 13"
+    ]
+  },
+  "workRef": "awake-my-soul-and-with-the-sun",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2018"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "fwpaTHcJGEE",
+  "title": "Louvai a Deus",
+  "writer": "Joachim Neander",
+  "writerRef": "joachim-neander",
+  "year": 1680,
+  "language": "Portuguese",
+  "themes": "Praise,Trust",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "3/4",
+  "scripture": "Salmos 150:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1680",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "praise-to-the-lord-the-almighty",
+  "relationLabel": "Portuguese translation"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Qr7hwx25Ikh",
+  "title": "Alcancé Salvación",
+  "writer": "Horatio Spafford · tr. Pedro Grado",
+  "writerRef": "horatio-spafford",
+  "year": 1905,
+  "language": "Spanish",
+  "themes": "Comfort,Assurance",
+  "key": "C",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 46:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1905",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "it-is-well-with-my-soul",
+  "relationLabel": "Spanish translation · tr. Pedro Grado"
+}

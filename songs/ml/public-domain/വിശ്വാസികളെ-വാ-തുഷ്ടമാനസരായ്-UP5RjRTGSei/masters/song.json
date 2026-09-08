@@ -1,0 +1,62 @@
+{
+  "id": "UP5RjRTGSei",
+  "title": "വിശ്വാസികളെ! വാ തുഷ്ടമാനസരായ്",
+  "writer": "ക്രിസ്തുജനനാഘോഷം",
+  "writerRef": null,
+  "year": 1841,
+  "language": "Malayalam",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 2:9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1841",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "adeste-fideles",
+  "relationLabel": "Malayalam translation"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "-1kb0nJwmZR",
+  "title": "ഭൂവാസികൾ സർവ്വരുമെ",
+  "writer": "സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 1561,
+  "language": "Malayalam",
+  "themes": "Praise,Adoration",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 100:1–2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1561",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "all-people-that-on-earth-do-dwell",
+  "relationLabel": "Malayalam translation"
+}

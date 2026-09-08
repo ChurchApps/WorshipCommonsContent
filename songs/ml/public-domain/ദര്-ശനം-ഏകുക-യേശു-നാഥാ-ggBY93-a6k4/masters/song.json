@@ -1,0 +1,63 @@
+{
+  "id": "ggBY93-a6k4",
+  "title": "ദര്‍ശനം ഏകുക യേശു നാഥാ!",
+  "writer": "മേരി ഇ. ബൈറന്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": "Trust,Adoration",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "സംഖ്യാപുസ്തകം 12:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2012",
+      "source": "cyber-hymnal",
+      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "be-thou-my-vision",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
+}

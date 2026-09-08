@@ -5,7 +5,7 @@
 // Usage: node tools/normalize-themes.mjs [--dry-run]
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { songDirs, readJson, writeJson } from "./lib.mjs";
+import { songDirs, readJson, writeJson, readSong, songJsonPath } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dryRun = process.argv.includes("--dry-run");
@@ -18,8 +18,8 @@ const applied = new Map(); // "from → to" → count
 let changed = 0, dropped = 0;
 
 for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
-  const file = path.join(dir, "song.json");
-  const song = readJson(file);
+  const file = songJsonPath(dir);
+  const song = readSong(dir);
   const before = song.themes ?? null;
   const out = new Set();
 

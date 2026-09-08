@@ -155,7 +155,7 @@ function excerpt(text: string) {
 
 // ---- collect candidates -------------------------------------------------
 
-const songs = [...songDirs(ROOT)].map(d => ({ file: path.join(d.dir, "song.json"), json: readJson(path.join(d.dir, "song.json")) }));
+const songs = [...songDirs(ROOT)].map(d => ({ file: path.join(d.dir, "masters", "song.json"), json: readJson(path.join(d.dir, "masters", "song.json")) }));
 const linkable = songs.filter(s => !s.json.writerRef && !s.json.submittedBy);
 const skips = new Map<string, string>(); // candidate → reason
 const candidates = new Map<string, string>(); // lowercased → display name

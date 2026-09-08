@@ -1,0 +1,53 @@
+{
+  "id": "rusubpG8v88",
+  "title": "ആരാണീ പൈതലീ നിദ്രയില്‍",
+  "writer": "വില്യം സി. ഡിക്സ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Christmas,Adoration",
+  "key": "Em",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "ലൂക്കോസ് 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2011",
+      "source": "cyber-hymnal",
+      "review": "Published 2011, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "what-child-is-this",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
+}

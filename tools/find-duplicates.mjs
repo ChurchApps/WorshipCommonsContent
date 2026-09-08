@@ -17,11 +17,11 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { slugify, splitChordpro, songDirs, readJson, writeJson, readWorks } from "./lib.mjs";
+import { slugify, splitChordpro, songDirs, readJson, writeJson, readWorks, readSong, readHarvested, lyricsPath, songJsonPath, SHARED_RELS, ensurePkgDirs } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const APPLY = process.argv.includes("--apply");
-const SHARED = ["tune.mid", "tune.abc", "art.webp"]; // work-level assets a member inherits
+const SHARED = SHARED_RELS; // work-level assets a member inherits
 
 const ARTICLE = /^(?:the|a|an|el|la|los|las|un|una|der|die|das|den|dem|des|ein|eine|le|les|la|un|une|o|os|as|um|uma)\s+/;
 // lowercase, apostrophes dropped, other punctuation → space, leading article off
@@ -37,7 +37,7 @@ const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|endi
 
 // first sung line of the body: chords and directives stripped, section labels skipped
 function firstLyricLine(dir) {
-  const { body } = splitChordpro(fs.readFileSync(path.join(dir, "lyrics.chordpro"), "utf8"));
+  const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   for (const line of body.split("\n")) {
     const text = line.replace(/\[[^\]]*\]/g, "").trim();
     if (!text || text.startsWith("{") || text.startsWith("#") || SECTION_LABEL.test(text)) continue;
@@ -54,10 +54,11 @@ const surnames = writer =>
 
 const songs = [];
 for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
-  const song = readJson(path.join(dir, "song.json"));
+  const song = readSong(dir);
   if (song.submittedBy) continue; // user uploads are artist artifacts, not catalog duplicates
+  const hymnalCount = readHarvested(dir).hymnalCount ?? song.hymnalCount ?? 0;
   songs.push({
-    song, dir, langDir, folder,
+    song, dir, langDir, folder, hymnalCount,
     label: `songs/${langDir}/${section}/${folder}`,
     title: norm(song.title),
     first: norm(firstLyricLine(dir)),
@@ -88,7 +89,7 @@ for (const list of byLang.values()) {
 
 // canonical = highest hymnalCount; tie → already has a workRef; tie → shorter folder name
 const rank = (a, b) =>
-  (b.song.hymnalCount ?? 0) - (a.song.hymnalCount ?? 0) ||
+  (b.hymnalCount ?? 0) - (a.hymnalCount ?? 0) ||
   (b.song.workRef ? 1 : 0) - (a.song.workRef ? 1 : 0) ||
   a.folder.length - b.folder.length ||
   a.folder.localeCompare(b.folder);
@@ -109,8 +110,8 @@ for (const list of members.values()) {
   const whyOf = d => reason.get([canonical.song.id, d.song.id].sort().join("|")) ?? "chained";
   groups.push({
     match: duplicates.every(d => whyOf(d) === "first-line") ? "first-line" : "title-prefix",
-    canonical: { id: canonical.song.id, title: canonical.song.title, label: canonical.label, hymnalCount: canonical.song.hymnalCount ?? 0, workRef: canonical.song.workRef ?? null },
-    duplicates: duplicates.map(d => ({ id: d.song.id, title: d.song.title, label: d.label, hymnalCount: d.song.hymnalCount ?? 0, workRef: d.song.workRef ?? null, match: whyOf(d) })),
+    canonical: { id: canonical.song.id, title: canonical.song.title, label: canonical.label, hymnalCount: canonical.hymnalCount ?? 0, workRef: canonical.song.workRef ?? null },
+    duplicates: duplicates.map(d => ({ id: d.song.id, title: d.song.title, label: d.label, hymnalCount: d.hymnalCount ?? 0, workRef: d.song.workRef ?? null, match: whyOf(d) })),
     _songs: list
   });
 }
@@ -141,14 +142,14 @@ for (const g of groups) {
     slug = slugify(g.canonical.title);
     for (let n = 2; workSlugs.has(slug); n++) slug = `${slugify(g.canonical.title)}-${n}`;
     workSlugs.add(slug);
-    fs.mkdirSync(path.join(ROOT, "works", slug), { recursive: true });
-    writeJson(path.join(ROOT, "works", slug, "work.json"), { slug, title: g.canonical.title, canonicalSongId: g.canonical.id });
+    ensurePkgDirs(path.join(ROOT, "works", slug));
+    writeJson(path.join(ROOT, "works", slug, "masters", "work.json"), { slug, title: g.canonical.title, canonicalSongId: g.canonical.id });
   }
   for (const s of g._songs) {
     if (s.song.workRef) continue;
     s.song.workRef = slug;
     delete s.song.parent; // parent is derived from the work
-    writeJson(path.join(s.dir, "song.json"), s.song);
+    writeJson(songJsonPath(s.dir), s.song);
     // a member copy byte-identical to the work's asset must go — it inherits instead
     for (const f of SHARED) {
       const wp = path.join(ROOT, "works", slug, f), sp = path.join(s.dir, f);

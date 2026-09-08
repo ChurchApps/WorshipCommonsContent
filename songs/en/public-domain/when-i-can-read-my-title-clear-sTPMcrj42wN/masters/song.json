@@ -1,0 +1,42 @@
+{
+  "id": "sTPMcrj42wN",
+  "title": "When I Can Read My Title Clear",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1707,
+  "language": "English",
+  "themes": "Hope,Assurance",
+  "key": "C",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": "8.6.8.6.6.6.8.6",
+  "scripture": "2 Corinthians 5:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1707",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "when-i-can-read-my-title-clear"
+}

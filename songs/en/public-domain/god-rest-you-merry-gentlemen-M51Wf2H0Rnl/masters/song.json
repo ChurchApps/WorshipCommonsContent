@@ -1,0 +1,46 @@
+{
+  "id": "M51Wf2H0Rnl",
+  "title": "God Rest You Merry, Gentlemen",
+  "writer": "Traditional English carol",
+  "writerRef": null,
+  "year": 1760,
+  "language": "English",
+  "themes": "Christmas,Hope",
+  "key": "Em",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:10-11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1760",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "god-rest-you-merry-gentlemen"
+}

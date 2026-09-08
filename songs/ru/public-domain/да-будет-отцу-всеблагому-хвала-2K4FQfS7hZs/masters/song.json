@@ -1,0 +1,57 @@
+{
+  "id": "2K4FQfS7hZs",
+  "title": "Да будет Отцу Всеблагому Хвала!",
+  "writer": "Уильям Макэй",
+  "writerRef": null,
+  "year": 1863,
+  "language": "Russian",
+  "themes": "Praise,Confession",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Псалом 85:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1863",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "revive-us-again",
+  "relationLabel": "Russian translation"
+}

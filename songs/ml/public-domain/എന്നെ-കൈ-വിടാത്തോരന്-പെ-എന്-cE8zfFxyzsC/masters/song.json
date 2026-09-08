@@ -1,0 +1,60 @@
+{
+  "id": "cE8zfFxyzsC",
+  "title": "എന്നെ കൈ വിടാത്തോരന്‍പെ—എന്‍",
+  "writer": "ജോര്‍ജ് മത്തീസണ്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2000,
+  "language": "Malayalam",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 13:5",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2000",
+      "source": "cyber-hymnal",
+      "review": "Published 2000, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

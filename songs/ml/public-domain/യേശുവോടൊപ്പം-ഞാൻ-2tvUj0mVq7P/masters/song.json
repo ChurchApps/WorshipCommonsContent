@@ -1,0 +1,63 @@
+{
+  "id": "2tvUj0mVq7P",
+  "title": "യേശുവോടൊപ്പം ഞാൻ",
+  "writer": "ഡാനിയേൽ ഡബ്ള്യൂ വിറ്റിൽ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2016,
+  "language": "Malayalam",
+  "themes": "Assurance,Cross,Faith",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "scripture": "മത്തായി 28:20",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2016",
+      "source": "cyber-hymnal",
+      "review": "Published 2016, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "moment-by-moment",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2016"
+}

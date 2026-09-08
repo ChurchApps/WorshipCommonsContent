@@ -1,0 +1,63 @@
+{
+  "id": "ahaRd5r1ffD",
+  "title": "Lobe den Herren",
+  "writer": "Joachim Neander",
+  "writerRef": "joachim-neander",
+  "year": 1680,
+  "language": "German",
+  "themes": "Praise,Trust",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "3/4",
+  "meter": "14.14.4.7.8",
+  "scripture": "Psalm 150,1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1680",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "praise-to-the-lord-the-almighty",
+  "relationLabel": "German original · Joachim Neander, 1680"
+}

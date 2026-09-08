@@ -1,0 +1,45 @@
+{
+  "id": "hL6IUnDadWy",
+  "title": "Ein feste Burg ist unser Gott",
+  "writer": "Martin Luther",
+  "writerRef": "martin-luther",
+  "year": 1529,
+  "language": "German",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.6.6.6.6.7",
+  "scripture": "Psalm 46",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1529",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "ein-feste-burg-ist-unser-gott"
+}

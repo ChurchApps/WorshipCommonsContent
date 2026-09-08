@@ -1,0 +1,49 @@
+{
+  "id": "8ytW00nXYS5",
+  "title": "In My Heart There Rings a Melody",
+  "writer": "Elton Roth",
+  "writerRef": null,
+  "year": 1924,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Ephesians 5:19",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1924",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

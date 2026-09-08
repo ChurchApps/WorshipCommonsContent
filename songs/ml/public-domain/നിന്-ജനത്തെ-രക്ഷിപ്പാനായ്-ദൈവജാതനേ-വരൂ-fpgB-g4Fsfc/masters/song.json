@@ -1,0 +1,48 @@
+{
+  "id": "fpgB-g4Fsfc",
+  "title": "നിന്‍ ജനത്തെ രക്ഷിപ്പാനായ് ദൈവജാതനേ വരൂ",
+  "writer": "ചാള്‍സ് വെസ്ലി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Advent,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "2/4",
+  "scripture": "ലൂക്കോസ് 2:31",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2013",
+      "source": "cyber-hymnal",
+      "review": "Published 2013, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "workRef": "come-thou-long-expected-jesus",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
+}

@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "b2190d25aeacccc5821bc1d3a287462a09d4be6f4a3d03cad2633cd7b43cec13",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "327e7460fd4a114258828def9df1bfe074d4cd74204c7d65ae6ccd0290f7ad50",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "stille_nacht.ly",
+      "url": "https://www.mutopiaproject.org/ftp/GruberFX/stille_nacht/stille_nacht.ly",
+      "acquired": "2026-09-08",
+      "sha256": "41ac15027dc4626bd7d18beae68ef8a23fe2359e5f6ac618d5a2366e81aa4151",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "f1e8e2264f4ceb1ad04559c2b8fd55656eb1c57f41e76c5e01133a7e598c5ded",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

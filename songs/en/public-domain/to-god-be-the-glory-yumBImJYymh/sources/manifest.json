@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "file": "ToGodBeTheGlory.ly",
+      "url": "https://www.mutopiaproject.org/ftp/DoaneWH/ToGodBeTheGlory/ToGodBeTheGlory.ly",
+      "acquired": "2026-09-08",
+      "sha256": "f7b9d38ca0ec535513f0350d3bc415f48ef440d9ef310c620a53536cd11fac9c",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "df1e9790057478fbfec0506c83dc83888a9a832564bae79e88512f46654c209b",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "0b7ea5af1d5f6aca3b2867c1868dd439970e376bad982de9028343c65e2c0976",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "1157225b51e353a73663f63ec513dd98cc034f734990d5b58acf3dbe3849ee22",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

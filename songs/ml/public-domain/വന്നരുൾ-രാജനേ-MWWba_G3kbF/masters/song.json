@@ -1,0 +1,63 @@
+{
+  "id": "MWWba_G3kbF",
+  "title": "വന്നരുൾ രാജനേ",
+  "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "scripture": "വെളിപ്പാട് 19:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2013",
+      "source": "cyber-hymnal",
+      "review": "Published 2013, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "come-thou-almighty-king",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
+}

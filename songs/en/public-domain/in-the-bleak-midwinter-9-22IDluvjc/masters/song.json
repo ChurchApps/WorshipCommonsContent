@@ -1,0 +1,64 @@
+{
+  "id": "9-22IDluvjc",
+  "title": "In The Bleak MidWinter",
+  "writer": "Christina Georgina Rossetti",
+  "writerRef": "christina-georgina-rossetti",
+  "year": 1872,
+  "language": "English",
+  "themes": "Christmas,Advent,Grace",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lv 26:18-19",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1872",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "in-the-bleak-midwinter"
+}

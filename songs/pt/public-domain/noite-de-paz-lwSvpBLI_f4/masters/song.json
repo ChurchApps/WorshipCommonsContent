@@ -1,0 +1,52 @@
+{
+  "id": "lwSvpBLI_f4",
+  "title": "Noite de Paz",
+  "writer": "Josef Mohr",
+  "writerRef": "josef-mohr",
+  "year": 1816,
+  "language": "Portuguese",
+  "themes": "Christmas,Comfort",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "3/4",
+  "scripture": "Lucas 2:8-9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1816",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "stille-nacht",
+  "relationLabel": "Portuguese translation"
+}

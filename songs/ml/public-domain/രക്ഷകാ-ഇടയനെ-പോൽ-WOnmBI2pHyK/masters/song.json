@@ -1,0 +1,58 @@
+{
+  "id": "WOnmBI2pHyK",
+  "title": "രക്ഷകാ ഇടയനെ-പോൽ",
+  "writer": "ഡോറോത്തി എ. ത്രപ്പ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2014,
+  "language": "Malayalam",
+  "themes": "Trust,Providence",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "യോഹന്നാൻ 10:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2014",
+      "source": "cyber-hymnal",
+      "review": "Published 2014, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "savior-like-a-shepherd-lead-us",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
+}

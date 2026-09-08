@@ -1,0 +1,52 @@
+{
+  "id": "nH1kEVPkeJw",
+  "title": "I've Got Peace Like a River",
+  "writer": "African American traditional",
+  "writerRef": null,
+  "year": 1924,
+  "language": "English",
+  "themes": "Comfort,Assurance",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "7.7.11",
+  "scripture": "Isaiah 66:12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1924",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "ive-got-peace-like-a-river"
+}

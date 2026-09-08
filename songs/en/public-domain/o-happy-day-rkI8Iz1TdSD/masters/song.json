@@ -1,0 +1,47 @@
+{
+  "id": "rkI8Iz1TdSD",
+  "title": "O Happy Day",
+  "writer": "Philip Doddridge",
+  "writerRef": "philip-doddridge",
+  "year": 1755,
+  "language": "English",
+  "themes": "Praise,Assurance",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Psalm 40:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1755",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "o-happy-day"
+}

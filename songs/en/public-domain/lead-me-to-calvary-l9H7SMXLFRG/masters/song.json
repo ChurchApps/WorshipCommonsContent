@@ -1,0 +1,46 @@
+{
+  "id": "l9H7SMXLFRG",
+  "title": "Lead Me to Calvary",
+  "writer": "Jennie Hussey & William Kirkpatrick",
+  "writerRef": "william-kirkpatrick",
+  "year": 1921,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "C",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Mark 16:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1921",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "lead-me-to-calvary"
+}

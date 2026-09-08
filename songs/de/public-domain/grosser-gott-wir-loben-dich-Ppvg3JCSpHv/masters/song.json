@@ -1,0 +1,57 @@
+{
+  "id": "Ppvg3JCSpHv",
+  "title": "Grosser Gott, Wir Loben Dich!",
+  "writer": "Ignaz Franz",
+  "writerRef": "ignaz-franz",
+  "year": 1774,
+  "language": "German",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "3/4",
+  "scripture": "Psalm 103,2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1774",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "holy-god-we-praise-thy-name",
+  "relationLabel": "German translation"
+}

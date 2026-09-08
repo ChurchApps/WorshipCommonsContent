@@ -1,0 +1,43 @@
+{
+  "id": "rRVX-q_nGkw",
+  "title": "ദാന ദാധാവെ സ്തുതിക്കാം",
+  "writer": "തോമസ്സ് കെൻ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2017,
+  "language": "Malayalam",
+  "themes": "Trinity,Adoration",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "scripture": "യാക്കോബ് 1:17",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2017",
+      "source": "cyber-hymnal",
+      "review": "Published 2017, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "praise-god-from-whom-all-blessings-flow",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
+}

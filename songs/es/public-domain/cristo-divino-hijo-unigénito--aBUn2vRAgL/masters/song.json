@@ -1,0 +1,57 @@
+{
+  "id": "-aBUn2vRAgL",
+  "title": "Cristo Divino, Hijo Unigénito",
+  "writer": "Münster Gesangbuch",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Spanish",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Juan 1:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1867",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "fairest-lord-jesus",
+  "relationLabel": "Spanish translation"
+}

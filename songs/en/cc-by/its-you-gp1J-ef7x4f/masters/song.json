@@ -1,0 +1,69 @@
+{
+  "id": "gp1J-ef7x4f",
+  "title": "It's You",
+  "writer": "C. Michael Pilato",
+  "year": 2011,
+  "language": "English",
+  "themes": "",
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/Its_You"
+  },
+  "rights": {
+    "text": {
+      "license": "CC-BY",
+      "basis": "published 2011",
+      "version": "3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "cmpilato"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Chorus",
+      "Verse 5",
+      "Chorus"
+    ]
+  }
+}

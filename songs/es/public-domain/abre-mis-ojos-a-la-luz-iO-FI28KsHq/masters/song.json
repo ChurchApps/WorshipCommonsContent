@@ -1,0 +1,57 @@
+{
+  "id": "iO-FI28KsHq",
+  "title": "Abre Mis Ojos a la Luz",
+  "writer": "Anónimo",
+  "writerRef": null,
+  "year": 1895,
+  "language": "Spanish",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 119:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1895",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "open-my-eyes-that-i-may-see",
+  "relationLabel": "Spanish translation"
+}

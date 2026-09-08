@@ -1,0 +1,62 @@
+{
+  "id": "fmOwcJh0y1_",
+  "title": "He Was Not Willing",
+  "writer": "Lucy Jane Rider Meyer",
+  "writerRef": "lucy-jane-rider-meyer",
+  "year": 1885,
+  "language": "English",
+  "themes": "Cross,Funeral",
+  "key": "Eb",
+  "bpm": 80,
+  "timeSignature": "6/8",
+  "scripture": "2Pt 3:9-18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

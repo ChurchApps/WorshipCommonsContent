@@ -1,0 +1,46 @@
+{
+  "id": "-LD-RetNsuh",
+  "title": "We Three Kings",
+  "writer": "John Henry Hopkins Jr.",
+  "writerRef": "john-henry-hopkins-jr",
+  "year": 1857,
+  "language": "English",
+  "themes": "Christmas",
+  "key": "Em",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Matthew 2:1-2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1857",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "we-three-kings"
+}

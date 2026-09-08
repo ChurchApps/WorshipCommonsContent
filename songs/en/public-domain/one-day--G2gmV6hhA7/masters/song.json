@@ -1,0 +1,46 @@
+{
+  "id": "-G2gmV6hhA7",
+  "title": "One Day",
+  "writer": "J. Wilbur Chapman & Charles Marsh",
+  "writerRef": null,
+  "year": 1910,
+  "language": "English",
+  "themes": "Hope,Grace",
+  "key": "Bb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Titus 2:13",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1910",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "one-day"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "prB8X_fQyBO",
+  "title": "കണ്‍കള്‍ തുറക്ക കാണുവാന്‍",
+  "writer": "ക്ലാര എച്ച്. സ്കോട്ട് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 119:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2012",
+      "source": "cyber-hymnal",
+      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "open-my-eyes-that-i-may-see",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
+}

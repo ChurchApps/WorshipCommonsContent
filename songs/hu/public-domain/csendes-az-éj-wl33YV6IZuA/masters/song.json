@@ -1,0 +1,42 @@
+{
+  "id": "wl33YV6IZuA",
+  "title": "Csendes az Éj",
+  "writer": "Josef Mohr",
+  "writerRef": "josef-mohr",
+  "year": 1816,
+  "language": "Hungarian",
+  "themes": "Christmas,Comfort",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "3/4",
+  "scripture": "Lukács 2:8-9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1816",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "stille-nacht",
+  "relationLabel": "Hungarian translation"
+}

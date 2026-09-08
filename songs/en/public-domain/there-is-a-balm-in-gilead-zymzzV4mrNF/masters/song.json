@@ -1,0 +1,46 @@
+{
+  "id": "zymzzV4mrNF",
+  "title": "There Is a Balm in Gilead",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1854,
+  "language": "English",
+  "themes": "Comfort,Grace",
+  "key": "F",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Jeremiah 8:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1854",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Verse 1"
+    ]
+  },
+  "workRef": "there-is-a-balm-in-gilead"
+}

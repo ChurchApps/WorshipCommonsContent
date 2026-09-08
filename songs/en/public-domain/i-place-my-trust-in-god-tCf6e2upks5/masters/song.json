@@ -1,0 +1,73 @@
+{
+  "id": "tCf6e2upks5",
+  "title": "I Place My Trust In God",
+  "writer": "Dorothy Amstutz & Loren J. Kropf",
+  "writerRef": null,
+  "year": 2007,
+  "language": "English",
+  "themes": "Assurance,Peace,Faith",
+  "key": "Bb",
+  "bpm": 120,
+  "timeSignature": "2/2",
+  "scripture": "Ps 25:1-9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2007",
+      "source": "open-hymnal",
+      "review": "Published 2007, after the US PD cutoff; PD claim rests on open-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Chorus"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "E4FV2MrR96m",
+  "title": "Allá en el Pesebre",
+  "writer": "Anóimo",
+  "writerRef": null,
+  "year": 1885,
+  "language": "Spanish",
+  "themes": "Christmas,Comfort",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Lucas 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "away-in-a-manger",
+  "relationLabel": "Spanish translation"
+}

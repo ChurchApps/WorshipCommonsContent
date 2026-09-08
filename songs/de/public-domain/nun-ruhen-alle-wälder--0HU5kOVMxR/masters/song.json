@@ -1,0 +1,68 @@
+{
+  "id": "-0HU5kOVMxR",
+  "title": "Nun Ruhen Alle Wälder",
+  "writer": "Paul Gerhardt",
+  "writerRef": "paul-gerhardt",
+  "year": 1648,
+  "language": "German",
+  "themes": "Faith,Peace,Thanksgiving",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "7.7.6.7.7.8",
+  "scripture": "Psalm 91,5-6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1648",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "workRef": "now-rest-beneath-nights-shadow",
+  "relationLabel": "German original · Paul Gerhardt, 1648"
+}

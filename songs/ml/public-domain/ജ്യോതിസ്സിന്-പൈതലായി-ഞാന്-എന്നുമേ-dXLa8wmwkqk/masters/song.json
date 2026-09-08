@@ -1,0 +1,60 @@
+{
+  "id": "dXLa8wmwkqk",
+  "title": "ജ്യോതിസ്സിന്‍ പൈതലായി ഞാന്‍ എന്നുമേ",
+  "writer": "കാത്തലീന്‍ തോമേഴ്സണ്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "1. തെസ്സലോനിക്യര്‍ 5:4,5",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2012",
+      "source": "cyber-hymnal",
+      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

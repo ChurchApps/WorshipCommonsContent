@@ -1,0 +1,47 @@
+{
+  "id": "b6EoPdkaDnO",
+  "title": "Ven, Jesús Muy Esperado",
+  "writer": "Charles Wesley, tr · tr. Lorenzo Alvarez",
+  "writerRef": "charles-wesley",
+  "year": 1744,
+  "language": "Spanish",
+  "themes": "Advent,Hope",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "2/4",
+  "scripture": "Hageo 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1744",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "workRef": "come-thou-long-expected-jesus",
+  "relationLabel": "Spanish translation · tr. Lorenzo Alvarez"
+}

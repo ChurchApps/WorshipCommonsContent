@@ -1,0 +1,45 @@
+{
+  "id": "S9CrQ9Jtq71",
+  "title": "Unto the Hills",
+  "writer": "John Campbell, Duke of Argyll",
+  "writerRef": "john-campbell",
+  "year": 1877,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "8.6.8.6",
+  "scripture": "Psalm 121:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1877",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

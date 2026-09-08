@@ -1,0 +1,65 @@
+{
+  "id": "FMd8ryghVRb",
+  "title": "Come Thou Fount Of Every Blessing",
+  "writer": "Robert Robinson",
+  "writerRef": "robert-robinson",
+  "year": 1758,
+  "language": "English",
+  "themes": "Hope,Cross",
+  "key": "Eb",
+  "bpm": 90,
+  "timeSignature": "3/4",
+  "meter": "8.7.8.7 D",
+  "scripture": "Ps 36:9-11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1758",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "come-thou-fount-of-every-blessing"
+}

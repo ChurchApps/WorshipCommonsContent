@@ -1,0 +1,63 @@
+{
+  "id": "HB3G4W_KNsr",
+  "title": "Jesus Is All the World To Me",
+  "writer": "Will Lamartine Thompson",
+  "writerRef": "will-lamartine-thompson",
+  "year": 1904,
+  "language": "English",
+  "themes": "Faith,Thanksgiving",
+  "key": "Ab",
+  "bpm": 60,
+  "timeSignature": "6/8",
+  "meter": "8.6.8.6.8.8.8.3",
+  "scripture": "2Cor 1:20",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1904",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

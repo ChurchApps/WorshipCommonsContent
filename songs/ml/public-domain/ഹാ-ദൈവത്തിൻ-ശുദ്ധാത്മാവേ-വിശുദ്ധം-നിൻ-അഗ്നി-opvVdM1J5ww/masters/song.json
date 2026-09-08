@@ -1,0 +1,60 @@
+{
+  "id": "opvVdM1J5ww",
+  "title": "ഹാ! ദൈവത്തിൻ ശുദ്ധാത്മാവേ, വിശുദ്ധം നിൻ അഗ്നി!",
+  "writer": "ഹെൻട്രി എച്ച്, റ്റ്വീറ്റി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "അപ്പൊസ്തലപ്രവർത്തികൾ 2:3-4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2013",
+      "source": "cyber-hymnal",
+      "review": "Published 2013, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

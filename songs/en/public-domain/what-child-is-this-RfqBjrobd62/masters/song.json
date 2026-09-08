@@ -1,0 +1,49 @@
+{
+  "id": "RfqBjrobd62",
+  "title": "What Child Is This",
+  "writer": "William C. Dix · Greensleeves",
+  "writerRef": null,
+  "year": 1865,
+  "language": "English",
+  "themes": "Christmas,Adoration",
+  "key": "Em",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "scripture": "Matthew 2:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1865",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "what-child-is-this"
+}

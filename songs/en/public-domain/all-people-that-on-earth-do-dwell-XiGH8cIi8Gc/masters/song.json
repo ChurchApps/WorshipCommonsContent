@@ -1,0 +1,48 @@
+{
+  "id": "XiGH8cIi8Gc",
+  "title": "All People That on Earth Do Dwell",
+  "writer": "William Kethe · Old Hundredth",
+  "writerRef": "william-kethe",
+  "year": 1561,
+  "language": "English",
+  "themes": "Praise,Adoration",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Psalm 100:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1561",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "all-people-that-on-earth-do-dwell",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

@@ -6,7 +6,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor, LICENSES, slugify, renderChordpro, splitChordpro, writeJson, readJson } from "../lib.mjs";
+import { idFor, LICENSES, slugify, packageFolder, splitChordpro, writeJson, readSong, songJsonPath, lyricsPath, writeNewSong, writeManifest, ensurePkgDirs } from "../lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const SOURCE = "mutopia";
@@ -46,12 +46,14 @@ for (const [folder, slug, url] of PD) {
   if (!fs.existsSync(srcDir) || !fs.existsSync(songDir)) { console.warn(`SKIP  ${folder} → ${slug}: missing`); continue; }
   const pdf = letterPdf(srcDir);
   if (!pdf) { console.warn(`SKIP  ${folder}: no PDF`); continue; }
-  const dest = path.join(songDir, "sheetPdf.pdf");
-  if (fs.existsSync(dest)) { console.warn(`SKIP  ${slug}: already has sheetPdf.pdf`); continue; }
+  const dest = path.join(songDir, "sources", "sheetPdf.pdf");
+  if (fs.existsSync(dest) || fs.existsSync(path.join(songDir, "sheetPdf.pdf"))) { console.warn(`SKIP  ${slug}: already has sheetPdf.pdf`); continue; }
+  ensurePkgDirs(songDir);
   fs.copyFileSync(path.join(srcDir, pdf), dest);
-  const song = readJson(path.join(songDir, "song.json"));
+  const song = readSong(songDir);
   song.uploads = { ...(song.uploads || {}), sheetPdf: "sheetPdf.pdf" };
-  writeJson(path.join(songDir, "song.json"), song);
+  writeJson(songJsonPath(songDir), song);
+  writeManifest(songDir, { ...(song.rights?.tune?.basis ? { tune: song.rights.tune.basis } : {}), text: song.rights?.text?.source });
   attached++;
   console.log(`PDF  ${slug} ← ${folder} (${url})`);
 }
@@ -62,12 +64,9 @@ const fPdf = fs.existsSync(fDir) && letterPdf(fDir);
 const fMid = fDir && fs.readdirSync(fDir).find(f => f.endsWith(".mid"));
 if (fPdf) {
   const title = "Foundation";
-  const srcLyrics = path.join(ROOT, "songs", "en", "public-domain", "how-firm-a-foundation", "lyrics.chordpro");
+  const srcLyrics = lyricsPath(path.join(ROOT, "songs", "en", "public-domain", "how-firm-a-foundation"));
   const { body } = splitChordpro(fs.readFileSync(srcLyrics, "utf8"));
-  const outDir = path.join(ROOT, "songs", "en", LICENSES["CC-BY-SA"].section, slugify(title));
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.copyFileSync(path.join(fDir, fPdf), path.join(outDir, "sheetPdf.pdf"));
-  if (fMid) fs.copyFileSync(path.join(fDir, fMid), path.join(outDir, "tune.mid"));
+  const outDir = path.join(ROOT, "songs", "en", LICENSES["CC-BY-SA"].section, packageFolder(title, idFor(title)));
   const song = {
     id: idFor(title),
     title,
@@ -89,8 +88,13 @@ if (fPdf) {
     provenance: { text: SOURCE, ...(fMid ? { tune: SOURCE } : {}) },
     uploads: { sheetPdf: "sheetPdf.pdf" }
   };
-  writeJson(path.join(outDir, "song.json"), song);
-  fs.writeFileSync(path.join(outDir, "lyrics.chordpro"), renderChordpro(song, body));
+  writeNewSong(outDir, {
+    song,
+    body,
+    files: { "sheetPdf.pdf": path.join(fDir, fPdf), ...(fMid ? { "tune.mid": path.join(fDir, fMid) } : {}) },
+    note: `Imported from ${SOURCE}`,
+    reviewer: "import-mutopia"
+  });
   console.log("NEW  foundation (CC-BY-SA 2.0 SATB)");
 }
 

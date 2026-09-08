@@ -1,0 +1,68 @@
+{
+  "id": "9jxQoj5H8ma",
+  "title": "A Mighty Fortress Is Our God",
+  "writer": "Martin Luther · tr. Frederick Hedge",
+  "writerRef": "martin-luther",
+  "year": 1852,
+  "language": "English",
+  "themes": "Trust,Assurance",
+  "key": "C",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.5.5.5.6.7",
+  "scripture": "Psalm 46:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1852",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "ein-feste-burg-ist-unser-gott",
+  "relationLabel": "English translation",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

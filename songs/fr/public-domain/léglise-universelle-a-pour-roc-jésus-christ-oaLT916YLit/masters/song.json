@@ -1,0 +1,57 @@
+{
+  "id": "oaLT916YLit",
+  "title": "L’Église Universelle A pour Roc Jésus-Christ",
+  "writer": "Samuel J. Stone · tr. Fernard Barth",
+  "writerRef": "samuel-j-stone",
+  "year": 1866,
+  "language": "French",
+  "themes": "Trust,Assurance",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthiens 3.11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1866",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "the-churchs-one-foundation",
+  "relationLabel": "French translation · tr. Fernard Barth"
+}

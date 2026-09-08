@@ -1,0 +1,65 @@
+{
+  "id": "vZqeaPMAlfa",
+  "title": "Christ Jesus Lay In Death's Strong Bands",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Cross,Communion",
+  "key": "C",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.7.8.7.4",
+  "scripture": "1Cor 15:54-57",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1524",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "christ-jesus-lay-in-deaths-strong-bands"
+}

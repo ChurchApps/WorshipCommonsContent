@@ -1,0 +1,55 @@
+{
+  "id": "KhZ5IS8yzXN",
+  "title": "I Am Jesus' Little Lamb",
+  "writer": "Henrietta Luise von Hayn · tr. composite",
+  "writerRef": null,
+  "year": 1778,
+  "language": "English",
+  "themes": "Assurance,Peace,Faith",
+  "key": "C",
+  "bpm": 112,
+  "timeSignature": "4/4",
+  "meter": "7.7.8.8.7.7",
+  "scripture": "Is 40:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1778",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "i-am-jesus-little-lamb"
+}

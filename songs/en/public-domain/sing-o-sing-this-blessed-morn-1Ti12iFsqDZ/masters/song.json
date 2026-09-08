@@ -1,0 +1,73 @@
+{
+  "id": "1Ti12iFsqDZ",
+  "title": "Sing, O Sing, This Blessed Morn",
+  "writer": "Christopher Wordsworth",
+  "writerRef": "christopher-wordsworth",
+  "year": 1865,
+  "language": "English",
+  "themes": "Praise,Church",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "7.7.7.7.7.7",
+  "scripture": "Is 9:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1865",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Chorus"
+    ]
+  }
+}

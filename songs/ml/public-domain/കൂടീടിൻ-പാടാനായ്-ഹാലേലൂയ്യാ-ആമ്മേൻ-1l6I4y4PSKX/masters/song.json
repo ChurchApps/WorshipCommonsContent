@@ -1,0 +1,53 @@
+{
+  "id": "1l6I4y4PSKX",
+  "title": "കൂടീടിൻ പാടാനായ്, ഹാലേലൂയ്യാ ആമ്മേൻ!",
+  "writer": "ക്രിസ്റ്റ്യൻ എച്ച്. ബേയ്റ്റ്മാൻ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": "Praise",
+  "key": "G",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 95:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2013",
+      "source": "cyber-hymnal",
+      "review": "Published 2013, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "come-christians-join-to-sing",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
+}

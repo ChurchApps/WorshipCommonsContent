@@ -5,7 +5,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor, LICENSES, slugify, renderChordpro, writeJson } from "../lib.mjs";
+import { idFor, LICENSES, slugify, packageFolder, writeNewSong } from "../lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const SOURCE = "cmaa";
@@ -277,9 +277,7 @@ let imported = 0;
 for (const row of SONGS) {
   const src = path.join(stagingDir, row.file);
   if (!fs.existsSync(src)) { console.warn(`SKIP  ${row.file}: not in staging`); continue; }
-  const outDir = path.join(ROOT, "songs", "en", LICENSES["CC-BY"].section, slugify(row.title));
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.copyFileSync(src, path.join(outDir, "sheetPdf.pdf"));
+  const outDir = path.join(ROOT, "songs", "en", LICENSES["CC-BY"].section, packageFolder(row.title, idFor(row.title)));
   const song = {
     id: idFor(row.title),
     title: row.title,
@@ -301,8 +299,14 @@ for (const row of SONGS) {
     provenance: { text: SOURCE },
     uploads: { sheetPdf: "sheetPdf.pdf" }
   };
-  writeJson(path.join(outDir, "song.json"), song);
-  fs.writeFileSync(path.join(outDir, "lyrics.chordpro"), renderChordpro(song, row.body));
+  writeNewSong(outDir, {
+    song,
+    body: row.body,
+    files: { "sheetPdf.pdf": src },
+    urls: { "sheetPdf.pdf": FILE_URL(row.file) },
+    note: `Imported from ${SOURCE}`,
+    reviewer: "import-cmaa"
+  });
   imported++;
 }
 console.log(`imported ${imported} CMAA CC-BY songs; skipped ND/NC/except-commercial/CanticaNOVA holds. run write-sources-txt, build-catalog, validate`);

@@ -1,0 +1,46 @@
+{
+  "id": "_9Rr3_G8q33",
+  "title": "Shall We Gather at the River",
+  "writer": "Robert Lowry",
+  "writerRef": "robert-lowry",
+  "year": 1864,
+  "language": "English",
+  "themes": "Hope,Comfort",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 22:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "shall-we-gather-at-the-river"
+}

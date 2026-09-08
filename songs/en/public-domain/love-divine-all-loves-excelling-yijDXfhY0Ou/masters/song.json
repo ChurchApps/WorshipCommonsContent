@@ -1,0 +1,42 @@
+{
+  "id": "yijDXfhY0Ou",
+  "title": "Love Divine, All Loves Excelling",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1747,
+  "language": "English",
+  "themes": "Adoration,Grace",
+  "key": "Bb",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7 D",
+  "scripture": "1 John 4:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1747",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "love-divine-all-loves-excelling"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "LGHmqUi6pBw",
+  "title": "Tell Me the Old, Old Story",
+  "writer": "Katherine Hankey & William Doane",
+  "writerRef": "katherine-hankey",
+  "year": 1866,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 15:3-4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1866",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "tell-me-the-old-old-story"
+}

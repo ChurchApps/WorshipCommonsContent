@@ -1,0 +1,68 @@
+{
+  "id": "w9gYRFrv-NC",
+  "title": "നാള്‍ തോറും ഞാന്‍ തേടുന്നിതാ",
+  "writer": "ജോണ്‍സണ്‍ ഓട്ട്മേന്‍ ജൂണിയര്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "themes": "Hope,Trust",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "മീഖ 4:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2011",
+      "source": "cyber-hymnal",
+      "review": "Published 2011, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "higher-ground",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "jyB-1bgWSL7",
+  "title": "Zot Shpërblyes Udhëheqmë",
+  "writer": "William Williams",
+  "writerRef": null,
+  "year": 1745,
+  "language": "Albanian",
+  "themes": "Providence,Trust",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Eksodi 13:21",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1745",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "guide-me-o-thou-great-jehovah",
+  "relationLabel": "Albanian original · William Williams"
+}

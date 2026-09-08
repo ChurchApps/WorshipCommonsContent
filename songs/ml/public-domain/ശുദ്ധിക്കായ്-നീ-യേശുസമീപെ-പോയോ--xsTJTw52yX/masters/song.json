@@ -1,0 +1,67 @@
+{
+  "id": "-xsTJTw52yX",
+  "title": "ശുദ്ധിക്കായ് നീ യേശുസമീപെ പോയോ?",
+  "writer": "എലിഷ എ. ഹോഫ്മേന്‍ · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1878,
+  "language": "Malayalam",
+  "themes": "Grace,Confession",
+  "key": "A",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "വെളിപ്പാടു 7:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1878",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "are-you-washed-in-the-blood",
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
+}

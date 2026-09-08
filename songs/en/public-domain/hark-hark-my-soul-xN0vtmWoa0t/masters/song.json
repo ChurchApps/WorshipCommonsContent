@@ -1,0 +1,54 @@
+{
+  "id": "xN0vtmWoa0t",
+  "title": "Hark, Hark, My Soul!",
+  "writer": "Frederick William Faber",
+  "writerRef": "frederick-william-faber",
+  "year": 1854,
+  "language": "English",
+  "themes": "Hope,Praise",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Lk 2:13-14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1854",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "hark-hark-my-soul"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "5_Qa0VNPNHr",
+  "title": "Where He Leads Me",
+  "writer": "Edward William Blandy",
+  "writerRef": null,
+  "year": 1890,
+  "language": "English",
+  "themes": "Faith,Guidance",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Jn 12:26",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1890",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Chorus"
+    ]
+  },
+  "workRef": "where-he-leads-me"
+}

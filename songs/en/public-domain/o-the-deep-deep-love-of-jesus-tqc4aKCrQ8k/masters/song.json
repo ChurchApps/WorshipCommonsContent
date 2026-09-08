@@ -1,0 +1,55 @@
+{
+  "id": "tqc4aKCrQ8k",
+  "title": "O the Deep, Deep Love of Jesus",
+  "writer": "Samuel Trevor Francis",
+  "writerRef": "samuel-trevor-francis",
+  "year": 1875,
+  "language": "English",
+  "themes": "Adoration,Grace",
+  "key": "Dm",
+  "bpm": 76,
+  "timeSignature": "8/4",
+  "meter": "8.7.8.7 D",
+  "scripture": "Ephesians 3:18-19",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1875",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "o-the-deep-deep-love-of-jesus"
+}

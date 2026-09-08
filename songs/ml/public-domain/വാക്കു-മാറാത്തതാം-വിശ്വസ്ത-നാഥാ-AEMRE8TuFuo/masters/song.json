@@ -1,0 +1,58 @@
+{
+  "id": "AEMRE8TuFuo",
+  "title": "വാക്കു മാറാത്തതാം വിശ്വസ്ത നാഥാ",
+  "writer": "തോമസ്‌ എം ചിസ്സോം · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2000,
+  "language": "Malayalam",
+  "themes": "Trust,Providence",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "വിലാപങ്ങള്‍, 3:22–23",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2000",
+      "source": "cyber-hymnal",
+      "review": "Published 2000, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "great-is-thy-faithfulness",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2000"
+}

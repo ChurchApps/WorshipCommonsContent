@@ -1,0 +1,45 @@
+{
+  "id": "U0YapCDGNs9",
+  "title": "Were You There",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1899,
+  "language": "English",
+  "themes": "Easter,Comfort",
+  "key": "Eb",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "meter": "10.10.14.10",
+  "scripture": "Luke 23:33",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1899",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "were-you-there"
+}

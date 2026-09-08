@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "4786d9cc8a08289bcbc46b61af12a1037d84ad816702a4e9bc7f7daf45a08bae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    }
+  ]
+}

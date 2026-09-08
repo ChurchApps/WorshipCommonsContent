@@ -1,0 +1,46 @@
+{
+  "id": "9uB2V6YbG56",
+  "title": "Christ Receiveth Sinful Men",
+  "writer": "Erdmann Neumeister · tr. Emma Bevan",
+  "writerRef": "erdmann-neumeister",
+  "year": 1878,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "Luke 15:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1878",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "christ-receiveth-sinful-men"
+}

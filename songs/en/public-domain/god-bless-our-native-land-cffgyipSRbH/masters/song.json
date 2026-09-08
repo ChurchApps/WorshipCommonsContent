@@ -1,0 +1,49 @@
+{
+  "id": "cffgyipSRbH",
+  "title": "God Bless Our Native Land",
+  "writer": "Siegfried August Mahlmann · tr. Charles Timothy Brooks & John Sullivan Dwight",
+  "year": 1815,
+  "language": "English",
+  "themes": "",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "3/4",
+  "meter": "6.6.4.6.6.6.4",
+  "scripture": "Rom 13:1-7",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1815",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  }
+}

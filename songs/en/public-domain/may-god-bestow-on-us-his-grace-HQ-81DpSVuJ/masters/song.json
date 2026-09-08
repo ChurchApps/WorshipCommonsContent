@@ -1,0 +1,55 @@
+{
+  "id": "HQ-81DpSVuJ",
+  "title": "May God Bestow on Us His Grace",
+  "writer": "Martin Luther · tr. Richard Massie",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Hope,Salvation",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.8.7.8.7.7",
+  "scripture": "Rev 22:21",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1524",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "may-god-bestow-on-us-his-grace"
+}

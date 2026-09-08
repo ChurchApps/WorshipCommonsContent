@@ -1,0 +1,57 @@
+{
+  "id": "wWNc1NF-G31",
+  "title": "Господь, мой Спаситель",
+  "writer": "Джеймс Николсон",
+  "writerRef": null,
+  "year": 1872,
+  "language": "Russian",
+  "themes": "Confession,Grace",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "Псалтирь 51:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1872",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "whiter-than-snow",
+  "relationLabel": "Russian translation"
+}

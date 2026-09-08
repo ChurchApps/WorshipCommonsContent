@@ -1,0 +1,42 @@
+{
+  "id": "KiS6tOdKb6n",
+  "title": "Tell Me the Stories of Jesus",
+  "writer": "William Parker & Frederic Challinor",
+  "writerRef": null,
+  "year": 1885,
+  "language": "English",
+  "themes": "Trust,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": "8.4.8.4.5.4.5.4",
+  "scripture": "Mark 10:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "tell-me-the-stories-of-jesus"
+}

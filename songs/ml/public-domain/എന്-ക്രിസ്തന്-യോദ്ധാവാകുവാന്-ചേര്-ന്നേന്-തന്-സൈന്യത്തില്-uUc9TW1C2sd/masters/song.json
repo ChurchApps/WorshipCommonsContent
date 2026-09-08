@@ -1,0 +1,87 @@
+{
+  "id": "uUc9TW1C2sd",
+  "title": "എന്‍ ക്രിസ്തന്‍ യോദ്ധാവാകുവാന്‍ ചേര്‍ന്നേന്‍ തന്‍ സൈന്യത്തില്‍",
+  "writer": "ഐസക്ക്‌ വാട്സ് · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1721,
+  "language": "Malayalam",
+  "themes": "Mission,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "1 കൊരിന്ത്യര്‍ 16:13",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1721",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 8
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 9
+      },
+      {
+        "label": "Verse 9",
+        "lyric": 10
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8",
+      "Verse 9"
+    ]
+  },
+  "workRef": "am-i-a-soldier-of-the-cross",
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍"
+}

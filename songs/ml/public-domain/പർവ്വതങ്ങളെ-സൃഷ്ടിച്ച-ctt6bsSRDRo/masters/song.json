@@ -1,0 +1,53 @@
+{
+  "id": "ctt6bsSRDRo",
+  "title": "പർവ്വതങ്ങളെ സൃഷ്ടിച്ച",
+  "writer": "ഐസക്ക് വാട്ട്സ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Creation,Praise",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "യിരമ്യാവു 10:12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2015",
+      "source": "cyber-hymnal",
+      "review": "Published 2015, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "i-sing-the-mighty-power-of-god",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
+}

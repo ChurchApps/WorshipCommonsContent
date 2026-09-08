@@ -1,0 +1,72 @@
+{
+  "id": "2QGsrTCZWvm",
+  "title": "വേണം നിന്നെ സദാ",
+  "writer": "ഏനി എസ്സ്. ഹോക്ക്സ്",
+  "writerRef": null,
+  "year": 1871,
+  "language": "Malayalam",
+  "themes": "Trust,Confession",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "3/4",
+  "scripture": "എബ്രായർ 4:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1871",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "workRef": "i-need-thee-every-hour",
+  "relationLabel": "Malayalam translation"
+}

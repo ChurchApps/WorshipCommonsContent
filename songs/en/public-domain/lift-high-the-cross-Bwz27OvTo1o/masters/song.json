@@ -1,0 +1,70 @@
+{
+  "id": "Bwz27OvTo1o",
+  "title": "Lift High The Cross",
+  "writer": "George William Kitchin & Michael Robert Newbolt",
+  "writerRef": "george-william-kitchin",
+  "year": 1827,
+  "language": "English",
+  "themes": "Baptism,Church,Faith",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.10",
+  "scripture": "Is 11:10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1827",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Chorus"
+    ]
+  },
+  "workRef": "lift-high-the-cross"
+}

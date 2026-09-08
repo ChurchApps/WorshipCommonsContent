@@ -1,0 +1,65 @@
+{
+  "id": "x6dt0sEKLU0",
+  "title": "Holy God, We Praise Thy Name",
+  "writer": "Ignaz Franz · tr. Clarence Walworth",
+  "writerRef": "ignaz-franz",
+  "year": 1858,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "3/4",
+  "meter": "7.8.7.8.7.7",
+  "scripture": "Revelation 4:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1858",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "refrain, And the white robed martyrs follow; And from morn to set of",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "refrain, And the white robed martyrs follow; And from morn to set of",
+      "Verse 4"
+    ]
+  },
+  "workRef": "holy-god-we-praise-thy-name"
+}

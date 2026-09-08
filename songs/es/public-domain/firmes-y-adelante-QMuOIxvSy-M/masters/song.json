@@ -1,0 +1,39 @@
+{
+  "id": "QMuOIxvSy-M",
+  "title": "Firmes y Adelante",
+  "writer": "Sabine Baring-Gould · tr. Juan Bautista Cabrera",
+  "writerRef": "sabine-baring-gould",
+  "year": 1878,
+  "language": "Spanish",
+  "themes": "Mission,Trust",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "2 Timoteo 2:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1878",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "onward-christian-soldiers",
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera"
+}

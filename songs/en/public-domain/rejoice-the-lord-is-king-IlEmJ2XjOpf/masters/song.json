@@ -1,0 +1,47 @@
+{
+  "id": "IlEmJ2XjOpf",
+  "title": "Rejoice, the Lord Is King",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1744,
+  "language": "English",
+  "themes": "Praise,Hope",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "6.6.6.6.8.8",
+  "scripture": "Philippians 4:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1744",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "rejoice-the-lord-is-king"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "LqlezQDCgYo",
+  "title": "Ye Servants of God",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1744,
+  "language": "English",
+  "themes": "Praise,Mission",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "meter": "10.10.11.11",
+  "scripture": "Revelation 7:10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1744",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

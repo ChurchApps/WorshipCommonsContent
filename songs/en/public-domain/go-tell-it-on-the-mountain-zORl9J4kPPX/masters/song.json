@@ -1,0 +1,46 @@
+{
+  "id": "zORl9J4kPPX",
+  "title": "Go, Tell It on the Mountain",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1865,
+  "language": "English",
+  "themes": "Christmas,Mission",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:17",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1865",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Verse 1"
+    ]
+  },
+  "workRef": "go-tell-it-on-the-mountain"
+}

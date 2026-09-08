@@ -1,0 +1,69 @@
+{
+  "id": "qZQDR25XEha",
+  "title": "The Strife Is O'er, The Battle Done",
+  "writer": "K�ln, 1695 from Symphonia Sirenum Selectarum · tr. Francis Pott",
+  "writerRef": "francis-pott",
+  "year": 1695,
+  "language": "English",
+  "themes": "Cross,Easter,Hope",
+  "key": "E",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "scripture": "Acts 2:22-24",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1695",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Chorus"
+    ]
+  },
+  "workRef": "the-strife-is-oer-the-battle-done"
+}

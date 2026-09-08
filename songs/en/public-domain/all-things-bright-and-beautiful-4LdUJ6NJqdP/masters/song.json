@@ -1,0 +1,46 @@
+{
+  "id": "4LdUJ6NJqdP",
+  "title": "All Things Bright and Beautiful",
+  "writer": "Cecil Frances Alexander",
+  "writerRef": "cecil-frances-alexander",
+  "year": 1848,
+  "language": "English",
+  "themes": "Creation,Praise",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Genesis 1:31",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1848",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Verse 1"
+    ]
+  },
+  "workRef": "all-things-bright-and-beautiful"
+}

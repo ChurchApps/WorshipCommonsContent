@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "file": "ellacombe.ly",
+      "url": "https://www.mutopiaproject.org/ftp/Anonymous/ellacombe/ellacombe.ly",
+      "acquired": "2026-09-08",
+      "sha256": "58b3a8436cbf3655b4d17734a04a4a80d285871a0d3f61a87c4ddc79d4ee228b",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "8a3d58ce7906f7ab92b47716c3e1ecc8afc6b2e67dca818298dd5da4e9219acd",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "432c8ee27d6ec45139c795646b1e4414691d9f201fd631b30adc2566971d3922",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "58cb5055e9a66e345f396c2ede94e8c0392bb2796b4383f9a5daa4808c012918",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "1c2ac873b4fced483e6c8d673fa7d8773ccae695fd1fca9ee5c9719ffbcde3a8",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "98917567d39255ed6b31bc99f919c8926d6b45c04af699306130f8c3735bb789",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

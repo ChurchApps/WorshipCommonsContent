@@ -1,0 +1,52 @@
+{
+  "id": "7PVjYm8ziYV",
+  "title": "Da Igreja o Fundamento",
+  "writer": "Samuel J. Stone",
+  "writerRef": "samuel-j-stone",
+  "year": 1866,
+  "language": "Portuguese",
+  "themes": "Trust,Assurance",
+  "key": "D",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 Coríntios 3:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1866",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "the-churchs-one-foundation",
+  "relationLabel": "Portuguese translation"
+}

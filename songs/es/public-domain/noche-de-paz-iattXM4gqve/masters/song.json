@@ -1,0 +1,45 @@
+{
+  "id": "iattXM4gqve",
+  "title": "Noche de Paz",
+  "writer": "Joseph Mohr · tr. Federico Fliedner",
+  "writerRef": "joseph-mohr",
+  "year": 1871,
+  "language": "Spanish",
+  "themes": "Christmas,Comfort",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "3/4",
+  "scripture": "Lucas 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1871",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "stille-nacht",
+  "relationLabel": "Spanish translation · tr. Federico Fliedner, 1871"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Ft0nnpxQbbt",
+  "title": "Abide with Me",
+  "writer": "Henry Lyte & William Monk",
+  "writerRef": "henry-lyte",
+  "year": 1847,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "Eb",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.10",
+  "scripture": "Luke 24:29",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1847",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "workRef": "abide-with-me",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

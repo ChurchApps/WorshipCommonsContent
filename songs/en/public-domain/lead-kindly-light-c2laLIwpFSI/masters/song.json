@@ -1,0 +1,42 @@
+{
+  "id": "c2laLIwpFSI",
+  "title": "Lead, Kindly Light",
+  "writer": "John Henry Newman",
+  "writerRef": "john-henry-newman",
+  "year": 1833,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "meter": "10.4.10.4.10.10",
+  "scripture": "Psalm 119:105",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1833",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "lead-kindly-light"
+}

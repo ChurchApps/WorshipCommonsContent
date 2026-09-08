@@ -1,0 +1,39 @@
+{
+  "id": "neEhZFfLKxU",
+  "title": "Cuán Firme Cimiento",
+  "writer": "John Rippon's Selection · tr. Vicente Mendoza",
+  "writerRef": null,
+  "year": 1908,
+  "language": "Spanish",
+  "themes": "Assurance,Trust",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "2/2",
+  "scripture": "Isaías 41:10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1908",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "how-firm-a-foundation",
+  "relationLabel": "Spanish translation · tr. Vicente Mendoza"
+}

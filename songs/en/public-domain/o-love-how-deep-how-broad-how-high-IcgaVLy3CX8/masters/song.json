@@ -1,0 +1,68 @@
+{
+  "id": "IcgaVLy3CX8",
+  "title": "O Love, How Deep, How Broad, How High",
+  "writer": "English · tr. Benjamin Webb",
+  "writerRef": "benjamin-webb",
+  "year": 1852,
+  "language": "English",
+  "themes": "Cross,Baptism",
+  "key": "E",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "meter": "8.8.8.8",
+  "scripture": "Eph 3:14-21",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1852",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

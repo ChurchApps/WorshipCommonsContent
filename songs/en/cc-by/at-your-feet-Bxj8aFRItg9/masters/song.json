@@ -1,0 +1,76 @@
+{
+  "id": "Bxj8aFRItg9",
+  "title": "At Your Feet",
+  "writer": "Gavin M. Pilato",
+  "year": 2019,
+  "language": "English",
+  "themes": "",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "6/8",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Gavin M. Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/At_Your_Feet"
+  },
+  "rights": {
+    "text": {
+      "license": "CC-BY",
+      "basis": "published 2019",
+      "version": "3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "cmpilato"
+    },
+    "tune": {
+      "license": "CC-BY",
+      "basis": "cmpilato",
+      "version": "3.0"
+    },
+    "arrangement": {
+      "license": "CC-BY",
+      "basis": "cmpilato",
+      "version": "3.0"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

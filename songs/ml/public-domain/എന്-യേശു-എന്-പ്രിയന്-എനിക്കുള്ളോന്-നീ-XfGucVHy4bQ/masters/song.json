@@ -1,0 +1,92 @@
+{
+  "id": "XfGucVHy4bQ",
+  "title": "എന്‍ യേശു എന്‍ പ്രിയന്‍ എനിക്കുള്ളോന്‍ നീ",
+  "writer": "വില്യം ആര്‍. ഫെതര്‍ സ്റ്റോണ്‍ · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1864,
+  "language": "Malayalam",
+  "themes": "Adoration,Trust",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "യോഹന്നാന്‍ 4:19",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 8
+      },
+      {
+        "label": "Verse 9",
+        "lyric": 9
+      },
+      {
+        "label": "Verse 10",
+        "lyric": 10
+      },
+      {
+        "label": "Verse 11",
+        "lyric": 11
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8",
+      "Verse 9",
+      "Verse 10",
+      "Verse 11"
+    ]
+  },
+  "workRef": "my-jesus-i-love-thee",
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
+}

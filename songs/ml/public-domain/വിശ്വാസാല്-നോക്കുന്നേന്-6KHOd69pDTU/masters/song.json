@@ -1,0 +1,58 @@
+{
+  "id": "6KHOd69pDTU",
+  "title": "വിശ്വാസാല്‍ നോക്കുന്നേന്‍",
+  "writer": "റേ പാമര്‍ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Malayalam",
+  "themes": "Trust,Confession",
+  "key": "D",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "2 കൊരിന്ത്യര്‍ 5:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2012",
+      "source": "cyber-hymnal",
+      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "my-faith-looks-up-to-thee",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
+}

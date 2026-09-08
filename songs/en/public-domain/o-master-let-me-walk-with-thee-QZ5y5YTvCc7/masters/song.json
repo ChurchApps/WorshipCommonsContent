@@ -1,0 +1,42 @@
+{
+  "id": "QZ5y5YTvCc7",
+  "title": "O Master, Let Me Walk with Thee",
+  "writer": "Washington Gladden",
+  "writerRef": "washington-gladden",
+  "year": 1879,
+  "language": "English",
+  "themes": "Mission",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Micah 6:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1879",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "o-master-let-me-walk-with-thee"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "eJslSlbo6zN",
+  "title": "O Gnade Gottes, Wunderbar",
+  "writer": "John Newton · tr. Anton Schulte",
+  "writerRef": "john-newton",
+  "year": 1779,
+  "language": "German",
+  "themes": "Grace,Assurance",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "3/4",
+  "meter": "8.6.8.6",
+  "scripture": "Johannes 9,25",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1779",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "amazing-grace",
+  "relationLabel": "German translation · tr. Anton Schulte"
+}

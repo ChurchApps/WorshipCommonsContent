@@ -1,0 +1,59 @@
+{
+  "id": "BBoyHzeziKH",
+  "title": "Now Sin, With Reign Unbroken",
+  "writer": "Thomas Hansen Kingo · tr. Paul Christian Paulsen",
+  "year": 1699,
+  "language": "English",
+  "themes": "Cross,Baptism,Faith",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "7.6.7.6.6.7.7.6",
+  "scripture": "Rom 6:1-14",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1699",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

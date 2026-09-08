@@ -1,9 +1,8 @@
 // Full-catalog coverage report. Plain Node, zero deps.
 // Usage: node tools/harvest/scan-coverage.mjs
-import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { songDirs, splitChordpro, readJson, readWorks } from "../lib.mjs";
+import { songDirs, splitChordpro, readWorks, readSong, lyricsPath, resolveShared } from "../lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const CHORD = /\[[A-G][#b]?[^\]]*\]/;
@@ -38,24 +37,19 @@ function pushSample(key, label, max = 12) {
   if (samples[key].length < max) samples[key].push(label);
 }
 
-function hasFile(dir, work, name) {
-  if (fs.existsSync(path.join(dir, name))) return true;
-  if (name === "timing.json") return false;
-  return !!(work && fs.existsSync(path.join(work.dir, name)));
-}
-
 for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
-  const song = readJson(path.join(dir, "song.json"));
+  const song = readSong(dir);
   const work = song.workRef ? works.get(song.workRef) : null;
-  const { body } = splitChordpro(fs.readFileSync(path.join(dir, "lyrics.chordpro"), "utf8"));
+  const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const stanzas = body.split(/\r?\n\s*\r?\n/).map(b => b.split(/\r?\n/)).filter(st => st.some(l => l.trim()));
   const lyricStanzas = stanzas.filter(st => st.length >= 2);
   const chorded = lyricStanzas.filter(st => CHORD.test(st.slice(1).join("\n")));
   const anyChord = CHORD.test(body);
-  const midi = hasFile(dir, work, "tune.mid");
-  const abc = hasFile(dir, work, "tune.abc");
-  const timing = fs.existsSync(path.join(dir, "timing.json"));
-  const pdf = !!(song.uploads?.sheetPdf && fs.existsSync(path.join(dir, song.uploads.sheetPdf)));
+  const rootRel = `songs/${langDir}/${section}/${folder}`;
+  const midi = !!resolveShared(rootRel, dir, work, "sources/tune.mid").path;
+  const abc = !!resolveShared(rootRel, dir, work, "sources/tune.abc").path;
+  const timing = !!resolveShared(rootRel, dir, work, "derivatives/timing.json", { inherit: false }).path;
+  const pdf = !!resolveShared(rootRel, dir, work, `sources/${song.uploads?.sheetPdf ?? "sheetPdf.pdf"}`, { inherit: false }).path;
   const label = `${langDir}/${section}/${folder}`;
   const partial = anyChord && lyricStanzas.length > 1 && chorded.length < lyricStanzas.length;
 

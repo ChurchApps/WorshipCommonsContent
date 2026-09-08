@@ -1,0 +1,67 @@
+{
+  "id": "yNmQoI7N4H4",
+  "title": "Reste avec Nous",
+  "writer": "Henry F. Lyte · tr. Francis Chaponnière",
+  "writerRef": "henry-lyte",
+  "year": 1881,
+  "language": "French",
+  "themes": "Comfort,Trust",
+  "key": "Eb",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "Luc 24.29",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1881",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "workRef": "abide-with-me",
+  "relationLabel": "French translation · tr. Francis Chaponnière, 1881"
+}

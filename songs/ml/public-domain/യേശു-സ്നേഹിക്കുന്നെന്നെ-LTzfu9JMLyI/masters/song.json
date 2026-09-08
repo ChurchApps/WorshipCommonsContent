@@ -1,0 +1,72 @@
+{
+  "id": "LTzfu9JMLyI",
+  "title": "യേശു സ്നേഹിക്കുന്നെന്നെ",
+  "writer": "ഏന ബി.വാർണർ",
+  "writerRef": null,
+  "year": 1860,
+  "language": "Malayalam",
+  "themes": "Assurance,Trust",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "എഫേസ്യർ 3:17–18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1860",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "workRef": "jesus-loves-me",
+  "relationLabel": "Malayalam translation"
+}

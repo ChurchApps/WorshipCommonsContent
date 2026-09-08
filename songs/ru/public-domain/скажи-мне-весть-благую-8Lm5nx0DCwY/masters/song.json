@@ -1,0 +1,57 @@
+{
+  "id": "8Lm5nx0DCwY",
+  "title": "Скажи Мне Весть Благую!",
+  "writer": "Катерин Ханки",
+  "writerRef": null,
+  "year": 1866,
+  "language": "Russian",
+  "themes": "Grace,Praise",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Иезекииль 3:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1866",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "tell-me-the-old-old-story",
+  "relationLabel": "Russian translation"
+}

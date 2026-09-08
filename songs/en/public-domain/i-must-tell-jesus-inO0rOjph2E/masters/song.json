@@ -1,0 +1,46 @@
+{
+  "id": "inO0rOjph2E",
+  "title": "I Must Tell Jesus",
+  "writer": "Elisha Hoffman",
+  "writerRef": "elisha-hoffman",
+  "year": 1893,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "1 Peter 5:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1893",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "i-must-tell-jesus"
+}

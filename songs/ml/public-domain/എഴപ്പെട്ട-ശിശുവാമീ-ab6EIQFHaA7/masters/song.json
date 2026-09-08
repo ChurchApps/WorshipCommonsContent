@@ -1,0 +1,79 @@
+{
+  "id": "ab6EIQFHaA7",
+  "title": "എഴപ്പെട്ട ശിശുവാമീ",
+  "writer": "വില്ല്യം ഡബ്ല്യൂ. ഹൌ · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1867,
+  "language": "Malayalam",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "യെശ്ശയാവ് 53:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1867",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8"
+    ]
+  }
+}

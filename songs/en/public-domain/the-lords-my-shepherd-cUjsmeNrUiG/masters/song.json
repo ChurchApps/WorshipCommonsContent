@@ -1,0 +1,45 @@
+{
+  "id": "cUjsmeNrUiG",
+  "title": "The Lord's My Shepherd",
+  "writer": "Scottish Psalter · Crimond",
+  "writerRef": null,
+  "year": 1650,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "3/2",
+  "meter": "8.6.8.6",
+  "scripture": "Psalm 23:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1650",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "the-lords-my-shepherd"
+}

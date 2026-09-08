@@ -1,0 +1,48 @@
+{
+  "id": "gAq15L9rCDU",
+  "title": "താഴ്മപൂണ്ടു ദൈവ ശിശു",
+  "writer": "എഡിത്ത് എം. റീഡ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2015,
+  "language": "Malayalam",
+  "themes": "Christmas,Adoration",
+  "key": "F",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "ലൂക്കോസ് 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2015",
+      "source": "cyber-hymnal",
+      "review": "Published 2015, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "workRef": "infant-holy-infant-lowly",
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
+}

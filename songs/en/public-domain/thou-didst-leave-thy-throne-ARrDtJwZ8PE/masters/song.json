@@ -1,0 +1,46 @@
+{
+  "id": "ARrDtJwZ8PE",
+  "title": "Thou Didst Leave Thy Throne",
+  "writer": "Emily Elliott & Timothy Matthews",
+  "writerRef": "emily-elliott",
+  "year": 1864,
+  "language": "English",
+  "themes": "Christmas,Grace",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  },
+  "workRef": "thou-didst-leave-thy-throne"
+}

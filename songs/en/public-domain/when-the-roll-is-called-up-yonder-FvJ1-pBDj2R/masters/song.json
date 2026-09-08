@@ -1,0 +1,59 @@
+{
+  "id": "FvJ1-pBDj2R",
+  "title": "When the Roll Is Called Up Yonder",
+  "writer": "James Black",
+  "writerRef": "james-black",
+  "year": 1893,
+  "language": "English",
+  "themes": "Hope,Assurance",
+  "key": "D",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "scripture": "1 Thessalonians 4:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1893",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "when-the-roll-is-called-up-yonder"
+}

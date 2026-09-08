@@ -1,0 +1,45 @@
+{
+  "id": "Uo8aHwRz1ez",
+  "title": "Savior, Like a Shepherd Lead Us",
+  "writer": "Attr. Dorothy Thrupp & William Bradbury",
+  "writerRef": "dorothy-thrupp",
+  "year": 1836,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.4.7",
+  "scripture": "Psalm 23:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1836",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "savior-like-a-shepherd-lead-us"
+}

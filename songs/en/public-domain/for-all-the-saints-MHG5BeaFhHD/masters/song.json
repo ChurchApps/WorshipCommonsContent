@@ -1,0 +1,45 @@
+{
+  "id": "MHG5BeaFhHD",
+  "title": "For All the Saints",
+  "writer": "William How & Ralph Vaughan Williams",
+  "writerRef": "william-how",
+  "year": 1864,
+  "language": "English",
+  "themes": "Hope,Praise",
+  "key": "G",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.4",
+  "scripture": "Hebrews 12:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "workRef": "for-all-the-saints"
+}

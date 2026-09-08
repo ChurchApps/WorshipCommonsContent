@@ -1,0 +1,52 @@
+{
+  "id": "VLLRp-CUpE0",
+  "title": "À Toi la Gloire",
+  "writer": "Edmond L. Budry",
+  "writerRef": "edmond-l-budry",
+  "year": 1885,
+  "language": "French",
+  "themes": "Easter,Praise",
+  "key": "D",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Ésaïe 25.8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "thine-be-the-glory",
+  "relationLabel": "French original · Edmond L. Budry, 1885"
+}

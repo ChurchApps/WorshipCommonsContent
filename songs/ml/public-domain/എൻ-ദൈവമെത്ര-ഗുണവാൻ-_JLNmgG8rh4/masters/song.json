@@ -1,0 +1,50 @@
+{
+  "id": "_JLNmgG8rh4",
+  "title": "എൻ ദൈവമെത്ര ഗുണവാൻ",
+  "writer": "ജോസഫ് ഹാട്ട് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2016,
+  "language": "Malayalam",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 52:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2016",
+      "source": "cyber-hymnal",
+      "review": "Published 2016, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  }
+}

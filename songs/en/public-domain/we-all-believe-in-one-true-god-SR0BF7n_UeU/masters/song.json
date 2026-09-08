@@ -1,0 +1,55 @@
+{
+  "id": "SR0BF7n_UeU",
+  "title": "We All Believe in One True God",
+  "writer": "Medieval & Martin Luther · tr. composite",
+  "writerRef": "medieval-martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Cross,Church",
+  "key": "C",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "8.7.7.7.7.7",
+  "scripture": "1Jn 5:20",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1524",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "workRef": "we-all-believe-in-one-true-god"
+}

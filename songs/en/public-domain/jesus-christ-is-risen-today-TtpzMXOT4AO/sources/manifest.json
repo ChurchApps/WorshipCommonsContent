@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "file": "Easter.ly",
+      "url": "https://www.mutopiaproject.org/ftp/Anonymous/Easter/Easter.ly",
+      "acquired": "2026-09-08",
+      "sha256": "7feb95f7b6feb12cadf84685d1efca32a428384c96e4789da743f00348d10bc8",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "20364ffc6ff3ff3a89d4f433ba6fb9a3595d358954f974ca6601a535319652de",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "da08dcc8c474bdd12b720d68c6573b6371233297fc0299d6bb8952286abd4647",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "ab50b3f17bd30824f0193840cfa53461dfaecbd7bcf2cee75f2b989b28b533ff",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "93eb78b7750588928530689f0fc486744f008e687c1e0b5fa947ae8814cc104f",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "999600e66f0674e4dfb3f706369bf60a7c00251a916df3e07cf87d823c1bd980",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "Hl4aVVoiySj",
+  "title": "Savior, Who Thy Flock Art Feeding",
+  "writer": "William Augustus M�hlenberg",
+  "writerRef": null,
+  "year": 1826,
+  "language": "English",
+  "themes": "Kids,Faith",
+  "key": "F",
+  "bpm": 130,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7",
+  "scripture": "Is 40:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1826",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

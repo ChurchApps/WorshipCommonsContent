@@ -1,0 +1,57 @@
+{
+  "id": "suEGpqq69TP",
+  "title": "Es ist ein Ros’ entsprungen",
+  "writer": "Michael Praetorius",
+  "writerRef": "michael-praetorius",
+  "year": 1894,
+  "language": "German",
+  "themes": "Christmas,Hope",
+  "key": "F",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Jesaja 11,10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1894",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "workRef": "lo-how-a-rose-eer-blooming",
+  "relationLabel": "German original · Michael Praetorius"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "27jDbxvY3Lh",
+  "title": "He Who Walked Upon the Water",
+  "writer": "Kathleen Pluth, Colin Brumby",
+  "year": 2009,
+  "language": "English",
+  "themes": "",
+  "key": "C",
+  "bpm": 108,
+  "timeSignature": "4/4",
+  "meter": null,
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "Kathleen Pluth, Colin Brumby",
+    "link": "https://media.churchmusicassociation.org/books/hymns/kp_he.pdf"
+  },
+  "rights": {
+    "text": {
+      "license": "CC-BY",
+      "basis": "published 2009",
+      "version": "3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "cmaa"
+    },
+    "tune": null,
+    "arrangement": {
+      "license": "CC-BY",
+      "basis": "cmaa",
+      "version": "3.0"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

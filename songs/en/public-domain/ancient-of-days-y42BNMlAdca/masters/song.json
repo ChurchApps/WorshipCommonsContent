@@ -1,0 +1,45 @@
+{
+  "id": "y42BNMlAdca",
+  "title": "Ancient of Days",
+  "writer": "William Croswell Doane & J. Albert Jeffery",
+  "writerRef": "william-croswell-doane",
+  "year": 1886,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "Bb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "11.10",
+  "scripture": "Daniel 7:9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1886",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "WJbGTB4-SVr",
+  "title": "You Parents Hear What Jesus Taught",
+  "writer": "Ludwig Helmbold · tr. William Martin Czamanske",
+  "writerRef": "ludwig-helmbold",
+  "year": 1532,
+  "language": "English",
+  "themes": "Baptism,Kids",
+  "key": "F",
+  "bpm": 125,
+  "timeSignature": "3/2",
+  "meter": "8.8.8.8",
+  "scripture": "Mk 10:13-16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1532",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "6eAgjJVaMIG",
+  "title": "Let Your People Sing",
+  "writer": "C. Michael Pilato",
+  "year": 2017,
+  "language": "English",
+  "themes": "",
+  "key": "E",
+  "bpm": 144,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "CC-BY",
+  "licenseVersion": "3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": {
+    "required": true,
+    "text": "C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/Let_Your_People_Sing"
+  },
+  "rights": {
+    "text": {
+      "license": "CC-BY",
+      "basis": "published 2017",
+      "version": "3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "cmpilato"
+    },
+    "tune": {
+      "license": "CC-BY",
+      "basis": "cmpilato",
+      "version": "3.0"
+    },
+    "arrangement": {
+      "license": "CC-BY",
+      "basis": "cmpilato",
+      "version": "3.0"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Chorus",
+      "Verse 4"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

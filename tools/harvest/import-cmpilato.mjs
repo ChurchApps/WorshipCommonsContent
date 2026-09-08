@@ -7,7 +7,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { idFor, LICENSES, slugify, renderChordpro, writeJson } from "../lib.mjs";
+import { idFor, LICENSES, slugify, packageFolder, writeNewSong } from "../lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const SOURCE = "cmpilato";
@@ -77,12 +77,8 @@ for (const folder of fs.readdirSync(stagingDir).sort()) {
   const writer = OVERRIDES[folder]?.writer || xml.composer || copyright?.[2]?.trim() || "C. Michael Pilato";
   const year = OVERRIDES[folder]?.year ?? (copyright ? Number(copyright[1]) : years.length ? Math.max(...years) : null);
   const license = cc ? "CC-BY" : "PD";
-  const outDir = path.join(ROOT, "songs", "en", LICENSES[license].section, slugify(title));
-  fs.mkdirSync(outDir, { recursive: true });
-
+  const outDir = path.join(ROOT, "songs", "en", LICENSES[license].section, packageFolder(title, idFor(title)));
   const pdf = fs.readdirSync(dir).find(f => f.endsWith(".pdf"));
-  if (pdf) fs.copyFileSync(path.join(dir, pdf), path.join(outDir, "sheetPdf.pdf"));
-
   const song = {
     id: idFor(title),
     title,
@@ -102,8 +98,14 @@ for (const folder of fs.readdirSync(stagingDir).sort()) {
     provenance: { text: SOURCE },
     ...(pdf ? { uploads: { sheetPdf: "sheetPdf.pdf" } } : {})
   };
-  writeJson(path.join(outDir, "song.json"), song);
-  fs.writeFileSync(path.join(outDir, "lyrics.chordpro"), renderChordpro(song, chordproBody(lyrics)));
+  writeNewSong(outDir, {
+    song,
+    body: chordproBody(lyrics),
+    files: pdf ? { "sheetPdf.pdf": path.join(dir, pdf) } : {},
+    urls: { "sheetPdf.pdf": `${SOURCE_URL}/tree/main/${folder}` },
+    note: `Imported from ${SOURCE}`,
+    reviewer: "import-cmpilato"
+  });
   imported++;
 }
 for (const s of skipped) console.warn(`SKIP  ${s}`);

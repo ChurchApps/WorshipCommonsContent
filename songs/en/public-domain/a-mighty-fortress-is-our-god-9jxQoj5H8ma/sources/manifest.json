@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "file": "ein_feste_burg.ly",
+      "url": "https://www.mutopiaproject.org/ftp/LutherM/ein_feste_burg/ein_feste_burg.ly",
+      "acquired": "2026-09-08",
+      "sha256": "db6a3526fb4b3114adb5f97884bf486d81d4be656391260b17bb54a8ec2b2263",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "ada16b6384816b2d635f03c6fbd9e29c326112eddc790f96208327db5612e988",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "ada6b199c7fcf3561d56fb73b3d36288962492103dc4e17e96fed3bb187175b9",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "408e5eecb9b4a653a176072e1a82c8eb33104d45b73cfc0744793dc83b974b85",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "033cdd4d1a3db1bc6a448430aa569b7bbed6aa59f62aae1d3ca63ada47bd43e3",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "83c002c543c7f5cbd2f4275843b9e9e56371f264e3708effe778e8380c64089d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}
