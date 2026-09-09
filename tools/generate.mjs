@@ -6,14 +6,14 @@
 //   node tools/generate.mjs songs/en                every English song
 //   node tools/generate.mjs works/amazing-grace
 //
-// Writes: score.musicxml (from sources/tune.abc when masters/ has no proofread score;
-// needs python — skipped with a warning when absent), sources.txt, attribution.txt,
+// Writes: masters/score.musicxml from sources/tune.abc (promotes an existing conversion
+// without python; a missing master needs python — skipped with a warning when absent), sources.txt, attribution.txt,
 // slides.json, duration.json, chart.chordpro (a byte copy of the lyrics master until
 // the score-driven chart generator exists — files.md §3.2), chart.pdf (when the text
 // encodes), cover-thumb.webp. Leaves timing.json in place (needs the score pipeline).
 //
 // Every new package goes through this same function, so anything imported or approved
-// with an ABC source gets its derived score without anyone remembering a second command.
+// with an ABC source gets a master score without anyone remembering a second command.
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -68,7 +68,7 @@ export function generateSong(dir, { sources }) {
   const timing = fs.existsSync(timingPath) ? readJson(timingPath) : null;
   const wrote = {};
 
-  if (pythonAvailable()) wrote.score = scoreFor(dir);
+  wrote.score = scoreFor(dir);
   wrote.sources = writeIfChanged(out("sources.txt"), renderSourcesTxt(dir, song, sources));
   wrote.attribution = writeIfChanged(out("attribution.txt"), `${song.title}\n${song.writer ?? ""}${song.year ? `, ${song.year}` : ""}\n${notice}\n`);
   wrote.slides = writeIfChanged(out("slides.json"), JSON.stringify(slidesOf(stanzas), null, 2) + "\n");
@@ -96,7 +96,7 @@ export function generateWork(dir) {
   const cover = path.join(dir, "masters", "cover.webp");
   const thumb = path.join(dir, "derivatives", "cover-thumb.webp");
   const wrote = { thumb: writeThumb(cover, thumb) };
-  if (pythonAvailable()) wrote.score = scoreFor(dir);
+  wrote.score = scoreFor(dir);
   return { wrote };
 }
 
@@ -146,7 +146,7 @@ export function generate(root = ROOT, arg) {
   const stats = { songs: 0, works: 0, pdf: 0, skipPdf: 0, thumbs: 0, scores: 0, scoresFailed: 0, python: pythonAvailable() };
   const tally = r => {
     if (r.wrote.thumb) stats.thumbs++;
-    if (r.wrote.score === "written" || r.wrote.score === "unchanged") stats.scores++;
+    if (r.wrote.score === "written" || r.wrote.score === "unchanged" || r.wrote.score === "promoted") stats.scores++;
     if (r.wrote.score === "failed") stats.scoresFailed++;
   };
   for (const { dir } of songs) {
@@ -173,7 +173,7 @@ Rebuild derivatives/ from masters/ and sources/.
   <path>        one song or work package, or everything under a prefix
   <slug>        packages whose folder name is that slug
 
-Writes score.musicxml (from tune.abc, needs python), chart.chordpro, chart.pdf,
+Writes masters/score.musicxml from tune.abc, chart.chordpro, chart.pdf,
 slides.json, attribution.txt, duration.json, sources.txt, cover-thumb.webp.
 timing.json is left as-is.`);
 }
@@ -184,7 +184,7 @@ export function run(argv = process.argv.slice(2)) {
   try {
     const stats = generate(ROOT, arg);
     console.log(`generate: ${stats.songs} songs, ${stats.works} works, ${stats.pdf} chart.pdf, ${stats.skipPdf} pdf skipped (non-Latin), ${stats.thumbs} thumbs, ${stats.scores} scores from abc${stats.scoresFailed ? `, ${stats.scoresFailed} FAILED` : ""}`);
-    if (!stats.python) console.warn("generate: python not found — score.musicxml step skipped (set PYTHON=... or install python 3)");
+    if (!stats.python) console.warn("generate: python not found — new ABC files will not convert; existing conversions are still promoted (set PYTHON=...)");
     return stats.scoresFailed ? 1 : 0;
   } catch (e) {
     if (e.code === "NOT_FOUND") { console.error(e.message); usage(); return 1; }

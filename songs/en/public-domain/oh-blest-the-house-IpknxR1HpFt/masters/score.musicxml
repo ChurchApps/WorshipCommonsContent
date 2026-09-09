@@ -1,0 +1,2090 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise>
+  <work>
+    <work-title>Oh, Blest the House</work-title>
+  </work>
+  <identification>
+    <creator type="composer">Words: Christoph C. L. von Pfeil, 1735. Translated by Catherine Winkworth, 1863, alt.
+Music: 'Wo Gott Zum Haus' from Klug's Geistliche Lieder, 1533.
+Setting: "Evangelical Lutheran Hymn-Book", 1931.
+copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.</creator>
+    <encoding>
+      <encoder>abc2xml version 268</encoder>
+      <software>https://wim.vree.org/svgParse/abc2xml.html</software>
+      <encoding-date>2026-09-07</encoding-date>
+    </encoding>
+    <source>Music source: 'Evangelical Lutheran Hymn-Book' 1931 Edition Hymn 445.</source>
+    <miscellaneous>
+      <miscellaneous-field name="lyrics">6.Then here will I and mine to-day
+A solemn covenant make, and say,--
+Though all the world forsake Thy Word,
+I and my house will serve the Lord.</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>5.9276</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+    <page-layout>
+      <page-height>1882.72</page-height>
+      <page-width>1457.59</page-width>
+      <page-margins type="both">
+        <left-margin>121.466</left-margin>
+        <right-margin>121.466</right-margin>
+        <top-margin>67.4809</top-margin>
+        <bottom-margin>67.4809</bottom-margin>
+      </page-margins>
+    </page-layout>
+  </defaults>
+  <part-list>
+    <score-part id="PS1V1">
+      <part-name />
+    </score-part>
+    <score-part id="PS2V1">
+      <part-name />
+      <score-instrument id="IS2V1-S2V2">
+        <instrument-name>acoustic_grand_piano</instrument-name>
+      </score-instrument>
+      <midi-instrument id="IS2V1-S2V2">
+        <midi-channel>4</midi-channel>
+        <midi-program>1</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="PS1V1">
+    <measure number="1">
+      <attributes>
+        <divisions>120</divisions>
+        <key>
+          <fifths>-3</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>100</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="100.00" />
+      </direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>1. Oh</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>2. Oh</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>3. Blest,</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>4. Blest,</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>5. Blest</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>blest</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>blest</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>where</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>where</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>such</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>the</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>that</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>their</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>the</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>2</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="2">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>house,</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>house</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>prayers</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>bu</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>house,</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>what</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>where</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>shall</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>sy</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>it</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text>e'er</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>faith</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>begin</syllabic>
+          <text>dai</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>hands</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>begin</syllabic>
+          <text>pros</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>be</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>ye</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>end</syllabic>
+          <text>ly</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>ful</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>end</syllabic>
+          <text>pers</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="3">
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text>fall,</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>find,</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>rise</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>fil</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>well,</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Where</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>And</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>As</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>Their</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>In</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>Je</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>all</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>begin</syllabic>
+          <text>frag</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>pro</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>peace</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text>sus</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>begin</syllabic>
+          <text>with</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>end</syllabic>
+          <text>rant</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>per</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>and</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="4">
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Christ</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>end</syllabic>
+          <text>in</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>begin</syllabic>
+          <text>in</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>task</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>joy</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>is</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>have</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>end</syllabic>
+          <text>cense</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>with</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>the</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>All</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>set</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>to</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>rea</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>begin</syllabic>
+          <text>par</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>in</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>their</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>the</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>dy</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>end</syllabic>
+          <text>ents</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="5">
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>All;</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>mind</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>skies,</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>skill,</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>dwell,</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Yea,</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>To</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>While</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>While</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>And</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>if</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>trust</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>in</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>through</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>in</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>He</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>their</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>their</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>their</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>their</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="6">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>were</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>God</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>lives</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>diff</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>begin</syllabic>
+          <text>child</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>not</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>and</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>the</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>erent</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>end</syllabic>
+          <text>ren's</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>dwell</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>serve</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>world</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>works</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>lot</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text>ing</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>Him</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>is</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>ye</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>is</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="7">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>there,</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>still,</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>taught</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>see</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>shown</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>How</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>And</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>That</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>One</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>How</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>poor</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>do</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>forms</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>spi</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>begin</syllabic>
+          <text>rich</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>and</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>in</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>begin</syllabic>
+          <text>with</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>rit</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>end</syllabic>
+          <text>ly</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot />
+        <accidental>natural</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="8">
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>dark</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>all</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>end</syllabic>
+          <text>out</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>run</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>God</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>and</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>His</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>the</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>single</syllabic>
+          <text>of</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>can</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">begin</beam>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>void</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>begin</syllabic>
+          <text>ho</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>heart</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>begin</syllabic>
+          <text>u</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>bless</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>it</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>end</syllabic>
+          <text>ly</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>are</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>middle</syllabic>
+          <text>ni</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>His</text>
+        </lyric>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="9">
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>were!</text>
+        </lyric>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>will.</text>
+        </lyric>
+        <lyric number="3">
+          <syllabic>single</syllabic>
+          <text>naught.</text>
+        </lyric>
+        <lyric number="4">
+          <syllabic>end</syllabic>
+          <text>ty.</text>
+        </lyric>
+        <lyric number="5">
+          <syllabic>single</syllabic>
+          <text>own.</text>
+        </lyric>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>2</voice>
+        <type>whole</type>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+  <part id="PS2V1">
+    <measure number="1">
+      <attributes>
+        <divisions>120</divisions>
+        <key>
+          <fifths>-3</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>240</duration>
+        <voice>2</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="2">
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="3">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="4">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="5">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="6">
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="7">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>180</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="8">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>120</duration>
+        <voice>2</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="9">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>whole</type>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+      <backup>
+        <duration>480</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>2</voice>
+        <type>whole</type>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

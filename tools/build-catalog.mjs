@@ -55,11 +55,11 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     scriptureText: song.scriptureText ?? null,
     license: song.license,
     // what-we-build.md: confidence is "what masters/ holds", computed, never stored.
-    // A derived score inherited from the work counts: the tune is scored even if this
-    // member's own words are not yet underlaid (files.md §3.1).
-    confidence: fs.existsSync(path.join(dir, "masters", "score.musicxml")) ? "proofread-score"
-      : resolveShared(rootRel, dir, work, "derivatives/score.musicxml").path
-        ? (resolveShared(rootRel, dir, work, "sources/tune.abc").path ? "converted-from-abc" : "generated-from-midi")
+    // A master score inherited from the work counts: the tune is scored even if this
+    // member's own words are not yet underlaid (files.md §3.1). Open Hymnal ABC
+    // conversions live in masters/. Leftover derivatives/score.musicxml is MIDI-derived.
+    confidence: resolveShared(rootRel, dir, work, "masters/score.musicxml").path ? "proofread-score"
+      : resolveShared(rootRel, dir, work, "derivatives/score.musicxml").path ? "generated-from-midi"
       : /\[[A-G][#b]?/.test(body) ? "chart-only"
       : "lyrics-only",
     churchCount: harvested.churchCount ?? song.churchCount ?? 0,

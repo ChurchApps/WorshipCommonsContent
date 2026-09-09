@@ -202,7 +202,7 @@ export const isoDate = () => new Date().toISOString().slice(0, 10);
 // rebuilt in place.
 
 // work-level files a member inherits unless it has its own copy
-export const SHARED_RELS = ["sources/tune.mid", "sources/tune.abc", "masters/cover.webp"];
+export const SHARED_RELS = ["sources/tune.mid", "sources/tune.abc", "masters/cover.webp", "masters/score.musicxml"];
 
 // leftover files at the package root after the sources/masters/derivatives split
 export const STRAY_ROOT_FILES = [
