@@ -16,7 +16,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BUCKET = (process.env.WC_CONTENT_BUCKET || "s3://churchapps-content/commons").replace(/\/$/, "");
-const DIRS = ["songs", "works", "writers", "licenses"];
+const DIRS = ["songs", "works", "writers", "licenses", "assets"];
 const FILES = ["catalog.json", "sources.json", "themes.json"];
 const EXCLUDE = ["*/.abc2xml-*", "*/.abc2xml-*/*", "*.log"];
 

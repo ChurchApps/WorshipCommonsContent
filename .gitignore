@@ -3,6 +3,7 @@
 # stays tracked until the MusicXML pipeline replaces it — see README.
 **/derivatives/*
 !**/derivatives/timing.json
+tools/.cache/
 
 # Harvest staging clones (not content)
 .staging/

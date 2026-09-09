@@ -130,8 +130,14 @@ export function resolveTargets(root, arg) {
 
   const needle = arg.replaceAll("\\", "/").replace(/\/$/, "");
   const slug = path.basename(needle);
-  const songHits = songs.filter(s => s.folder === slug || s.dir.replaceAll("\\", "/").endsWith("/" + needle) || s.dir.replaceAll("\\", "/").endsWith(needle));
+  const songHits = songs.filter(s => s.folder === slug || s.folder.startsWith(slug + "-") || s.dir.replaceAll("\\", "/").endsWith("/" + needle) || s.dir.replaceAll("\\", "/").endsWith(needle));
   const workHits = works.filter(w => w.folder === slug || w.dir.replaceAll("\\", "/").endsWith("/" + needle) || w.dir.replaceAll("\\", "/").endsWith(needle));
+  if (workHits.length) {
+    const slugs = new Set(workHits.map(w => w.folder));
+    for (const s of songs) {
+      if (slugs.has(readSong(s.dir).workRef) && !songHits.some(h => h.dir === s.dir)) songHits.push(s);
+    }
+  }
   return { songs: songHits, works: workHits };
 }
 
