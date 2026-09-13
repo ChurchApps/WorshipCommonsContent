@@ -53,13 +53,13 @@ const surnames = writer =>
     .filter(w => w && w.length > 2));
 
 const songs = [];
-for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
+for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const song = readSong(dir);
   if (song.submittedBy) continue; // user uploads are artist artifacts, not catalog duplicates
   const hymnalCount = readHarvested(dir).hymnalCount ?? song.hymnalCount ?? 0;
   songs.push({
     song, dir, langDir, folder, hymnalCount,
-    label: `songs/${langDir}/${section}/${folder}`,
+    label: `songs/${langDir}/${folder}`,
     title: norm(song.title),
     first: norm(firstLyricLine(dir)),
     surnames: surnames(song.writer)
@@ -143,7 +143,7 @@ for (const g of groups) {
     for (let n = 2; workSlugs.has(slug); n++) slug = `${slugify(g.canonical.title)}-${n}`;
     workSlugs.add(slug);
     ensurePkgDirs(path.join(ROOT, "works", slug));
-    writeJson(path.join(ROOT, "works", slug, "masters", "work.json"), { slug, title: g.canonical.title, canonicalSongId: g.canonical.id });
+    writeJson(path.join(ROOT, "works", slug, "work.json"), { slug, title: g.canonical.title, canonicalSongId: g.canonical.id });
   }
   for (const s of g._songs) {
     if (s.song.workRef) continue;

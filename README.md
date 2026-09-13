@@ -6,15 +6,20 @@ The songs behind [worshipcommons.org](https://worshipcommons.org). Each song is 
 
 ## The 30-second version
 
-Every file in a song belongs in **exactly one** of three folders:
+One file and two folders:
 
-| Folder | Meaning | Who may edit it |
+| Path | Meaning | Who may edit it |
 |---|---|---|
-| `sources/` | What we got from somewhere else (a MIDI, an ABC file, a hymnal scan, a YouTube id) | Nobody. Ever. Keep the original bytes. |
-| `masters/` | What a person approved as the truth (lyrics, metadata, a proofread score, cover art) | A person, on purpose. |
-| `derivatives/` | What a machine built from the master (charts, slides, thumbs) | Nobody. Rebuild it. |
+| `song.json` | Identity, rights, form map. Nothing rebuilds it | A person, on purpose |
+| `sources/` | Bytes this package cannot reproduce from its own other files | Acquired bytes never; files we authored, on purpose |
+| `output/` | Anything `generate.mjs` or `pack/build.py` rebuilds on any machine | Nobody. Rebuild it |
 
-**If a chart is wrong, fix the master (or the generator). Never patch the derivative.**
+**The test: delete the file — can a tool in this repo rebuild it byte-for-byte?**
+Yes -> `output/`. No -> `sources/`. That is why the words, the covers and the lyric timings are
+sources even though we produced some of them: nothing in here regenerates them.
+
+**If a chart is wrong, fix the source (or the generator). Never patch the output.** `output/` is
+gitignored in full, with no exceptions — that is only safe because nothing unrebuildable lives there.
 
 `catalog.json` is the index of the library. It is generated from the folders and must match a fresh build.
 
@@ -23,138 +28,162 @@ Every file in a song belongs in **exactly one** of three folders:
 ## What’s in this repo
 
 ```
-songs/<lang>/<license>/<slug>-<id>/   one package per song
-  sources/                            originals; never edited
-  masters/                            human-approved source of truth
-  derivatives/                        generated; rebuildable
-works/<slug>/                         translation families (same three folders)
-writers/<slug>/                       portraits and bios, shared across songs
-licenses/                             full text of each song license
-sources.json                          where content came from, and any attribution we owe
-themes.json                           allowed theme tags
-catalog.json                          generated index of the whole library
-tools/                                Node scripts (no npm install)
+songs/<lang>/<slug>-<id>/      one package per song
+  song.json                    identity, rights, form
+  sources/                     manifest.json + every byte we cannot rebuild
+    grants/                    the paper: signed grant, email, form receipt
+    master/                    a granted recording, when we have one
+    extra/                     granted but not processed (tabs, orchestra parts)
+  output/
+    composition/               charts, slides, score, slides.json, LICENSE.txt
+    audio/                     pack zip + full mix + preview — only with a master grant
+works/<slug>/                  translation families (work.json at the root)
+writers/<slug>/                portraits and bios, shared across songs
+licenses/                      full text of each song license
+sources.json                   where content came from, and any attribution we owe
+themes.json                    allowed theme tags
+catalog.json                   generated index of the whole library
+tools/                         Node scripts (no npm install); tools/pack/ is python
 ```
 
-Example: [Amazing Grace](songs/en/public-domain/amazing-grace-YxPfAFYWOaG/) lives at
+Example: [Amazing Grace](songs/en/amazing-grace-YxPfAFYWOaG/) lives at
 
 ```
-songs/en/public-domain/amazing-grace-YxPfAFYWOaG/
+songs/en/amazing-grace-YxPfAFYWOaG/
 ```
 
-- `en` is the language folder (`English` → `en`).
-- `public-domain` is the license section (`PD` → `public-domain`).
+- `en` is the language folder (`English` -> `en`).
 - `amazing-grace` is a cosmetic slug from the title. Changing the title does **not** rename the folder.
 - `YxPfAFYWOaG` is the frozen song id (always the last 11 characters of the folder name; ids can start with `-` or `_`, so do not split on the dash).
 
+**The license is not in the path.** It is mutable — a writer relicenses, a PD claim gets corrected —
+and this path is the bucket key and the asset URL. The license lives in `song.json` and the catalog.
+
 ---
 
-## How a song is built: sources → master → derivatives
-
-Three steps, always in this order:
-
-1. **Sources** — the files we were given. We never change them.
-2. **Master** — those files compiled into one approved original. This is the source of truth.
-3. **Derivatives** — every chart, slide, and thumbnail is generated from that master. If a derivative is wrong, we fix the master and rebuild. We never edit a derivative by hand.
-
-A song’s master can be a few files (notes, words, picture, title/license), but together they are **one** source of truth.
+## How a song is built: sources -> output
 
 ```mermaid
 flowchart LR
-  subgraph sources["1. Sources — what we were given"]
+  subgraph src["sources/ — what we cannot rebuild"]
+    words["lyrics.chordpro<br/>the words"]
     abc["tune.abc<br/>written hymn score"]
-    sheet[".pdf / .ly<br/>printed sheet music"]
-    words["lyrics / ChordPro<br/>the words"]
-    pic[".png / .jpg / .webp<br/>cover art"]
-    midi["tune.mid<br/>MIDI sketch — kept, not the notes"]
+    sheet["sheetPdf.pdf<br/>printed sheet music"]
+    pic["cover.webp<br/>cover art"]
+    rec["master/song.wav<br/>a granted recording"]
+    grant["grants/…<br/>the paper"]
   end
 
-  subgraph master["2. Master — the source of truth"]
-    mscore["score.musicxml<br/>the notes"]
-    mwords["lyrics.chordpro<br/>the words"]
-    mmeta["song.json<br/>title, key, license"]
-    mcover["cover.webp<br/>the picture"]
-  end
+  meta["song.json<br/>title, rights, form"]
 
-  subgraph deriv["3. Derivatives — generated from the master"]
+  subgraph comp["output/composition/"]
+    dscore["score.musicxml<br/>from tune.abc"]
     dpdf["chart.pdf<br/>printable chart"]
-    dcho["chart.chordpro<br/>chord chart"]
-    dslides["slides.json<br/>lyric slides"]
-    dthumb["cover-thumb.webp<br/>thumbnail"]
-    dattr["attribution.txt<br/>credit line"]
-    dsrc["sources.txt<br/>where it came from"]
+    dcho["chart.chordpro"]
+    dslides["slides.json"]
+    dlic["LICENSE.txt<br/>what was granted"]
   end
 
-  abc --> mscore
-  sheet --> mscore
-  words --> mwords
-  pic --> mcover
+  subgraph audio["output/audio/"]
+    dstems["pack zip, full mix,<br/>preview"]
+  end
 
-  mscore --> dpdf
-  mwords --> dpdf
-  mwords --> dcho
-  mwords --> dslides
-  mmeta --> dattr
-  mmeta --> dsrc
-  mcover --> dthumb
+  abc --> dscore
+  sheet --> dscore
+  words --> dcho
+  words --> dpdf
+  words --> dslides
+  meta --> dlic
+  grant --> dlic
+  rec --> dstems
+  pic --> dstems
 ```
 
-Hymnal counts and YouTube links stay in `sources/` as extras. They are not copied into the master. A MIDI file is stored as a source; it does not become the notes. The notes come from a written score (`tune.abc` or a PDF).
+A song with `song.json` + `sources/lyrics.chordpro` is complete and valid. We do not invent a
+melody, a score, or a recording to satisfy a format.
 
-### `sources/` — we did not write this
+### `sources/` — what we cannot rebuild
 
-Keep what we acquired, byte-for-byte. Record each file in `sources/manifest.json` (url, date, checksum, license basis). A file with no manifest row does not exist as far as the tools are concerned.
+Two kinds of file live here, and `manifest.json` tells them apart. A file with no manifest row
+does not exist as far as the tools are concerned.
+
+| Kind | `original` | Rule |
+|---|---|---|
+| Acquired — a MIDI, an ABC file, a hymnal scan, a granted recording | `true` | Frozen. Keep the bytes as fetched; the sha256 must match forever. If it is wrong, add a new file and a new row |
+| Ours — the words we typed, a cover we generated once, lyric timings | `false` | Editable on purpose; git history is the log. Re-run `writeManifest` so the sha stays true |
 
 | File | What it is |
 |---|---|
+| `lyrics.chordpro` | The **words**. Always present. Nothing in this repo rebuilds them |
 | `tune.abc` | Open Hymnal SATB score (often on the **work**, shared by translations) |
 | `tune.mid` | Cyber Hymnal / HymnSite MIDI (pitch sketch, not a proofread score) |
+| `score.musicxml` | The notes, when a person proofread them or someone gave them to us. Optional — `output/` holds the ABC conversion instead |
 | `sheetPdf.pdf`, `*.ly` | Scanned or engraved sheet, plus LilyPond source when we have it |
+| `cover.webp` | The package image. Generated once; kept, never regenerated |
+| `timing.json` | Lyric timings for karaoke. The generator does not live in this repo |
+| `master/<name>.wav` | A granted master recording. One per song. A YouTube id is a link, not a master |
+| `grants/<date>-<who>.<ext>` | The grant itself — what a manifest row's `evidence` points at |
 | `hymnary.json` | Harvested hymnal counts — used at catalog build, not copied into `song.json` |
 | `video.json` | A YouTube id. A link, not our recording |
-| `manifest.json` | One row per file in this folder |
+| `manifest.json` | One row per file in this folder, subfolders included |
 
-Harvested facts stay here. Do not paste hymnal counts or YouTube ids into `masters/song.json`.
+Harvested facts stay here. Do not paste hymnal counts or YouTube ids into `song.json`.
 
-### `masters/` — a person signed off
+**Grants.** A song has two independent rights layers: the composition (words, melody, chords —
+**required**, no grant no song) and the master recording (optional — it unlocks multitracks).
+`song.json` `rights.<layer>` says what license each layer carries; the manifest row for each
+file says who granted it, when, how, and where the paper is:
 
-Nothing lands here without a human. The generator may *draft* a candidate; a reviewer *promotes* it.
+```json
+{
+  "file": "master/song.wav",
+  "layer": "recording",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "submittedBy": "Jane Doe",
+  "acquired": "2026-09-12",
+  "obtainedVia": "upload-form",
+  "evidence": "grants/2026-09-12-jane-doe.pdf",
+  "sha256": "..."
+}
+```
 
-| File | What it is |
-|---|---|
-| `song.json` | What a person asserted: title, writer, year, key, themes, scripture, license, per-layer rights, form map |
-| `lyrics.chordpro` | The **words**. Always present. Chords live here only when there is no proofread score |
-| `score.musicxml` | The **notes**. Open Hymnal ABC converts here and is trusted. Optional. Absence is fine. |
-| `cover.webp` | Approved cover |
-| `art.<ext>` | Writer-supplied original art, if any |
-| `recording/` | A human recording under a free license, if anyone contributed one |
+`layer` is one of `text` `tune` `arrangement` `recording` `artwork` `extra` `grant`.
+`obtainedVia` is one of `upload-form` `email` `harvest` (needs a `url`) `transcription`
+`public-domain` `generated`. `validate.mjs` enforces all of it, and refuses a master recording
+whose grant is not on file. The whole flow is [.notes/song-pipeline.md](../../agents/WC/song-pipeline.md).
 
-A song with only `song.json` + `lyrics.chordpro` is a complete, valid song. We do not invent a melody to satisfy a format.
+### `song.json` — what a person asserted
 
-**One owner per kind of fact.** Words live in `lyrics.chordpro`. Notes live in `score.musicxml` once it exists. After that, the chart is generated from the score — do not keep a second hand-edited chord file that also claims to own the chords.
+Title, writer, year, key, themes, scripture, license, per-layer `rights`, `form` map. The only
+file at the package root, because it is the only thing that is neither given to us nor generated.
 
-`song.json` also holds:
-
-- `rights` — text, tune, arrangement, recording, and artwork each have their own license row. A hymn is not one blob. `"Amazing Grace"` words + tune can be public domain while a 2008 reharmonization is not.
+- `rights` — text, tune, arrangement, recording and artwork each have their own license row. A hymn is not one blob. `"Amazing Grace"` words + tune can be public domain while a 2008 reharmonization is not.
 - `form` — verse/chorus map and default singing order. Drafted by tools (`status: "draft"`) until a reviewer sets `"approved"`.
 - `workRef` — which translation family this song belongs to, if any.
 
-### `derivatives/` — the machine wrote this
+### `output/` — the machine wrote this
 
-Rebuilt from scratch by `node tools/generate.mjs`. Almost all of it is gitignored; `timing.json` is tracked until the score pipeline can rebuild it.
+Rebuilt from scratch by `node tools/generate.mjs` and `python tools/pack/build.py`. Entirely
+gitignored. Delete the folder and you lose nothing.
 
 | File | From |
 |---|---|
-| `score.musicxml` | MIDI-derived notation only. ABC conversions go to `masters/score.musicxml`. |
-| `chart.chordpro` | Copy of the lyrics master, until a score-driven chart generator exists |
-| `chart.pdf` | Printed chart from the ChordPro stanzas |
-| `slides.json` | Projection slides from the lyric sections |
-| `duration.json` | Estimated sing time |
-| `attribution.txt` | Pasteable credit line |
-| `sources.txt` | Human-readable provenance |
-| `cover-thumb.webp` | Thumbnail of `masters/cover.webp` |
+| `composition/score.musicxml` | `sources/tune.abc`, via the vendored abc2xml. A score in `sources/` wins and this one is removed |
+| `composition/chart.chordpro` | Copy of the lyrics, until a score-driven chart generator exists |
+| `composition/score.mid` | The score played out, via music21. Ours — `sources/tune.mid` is someone else's file |
+| `composition/chart.pdf`, `stage.pdf` | Printed chart and stage chart, **original key only** — other keys are transposed on demand |
+| `composition/slides.json` | Projection slides from the lyric sections |
+| `composition/duration.json` | Sing time, from `sources/timing.json` or estimated |
+| `composition/attribution.txt` | Pasteable credit line |
+| `composition/sources.txt` | Human-readable provenance |
+| `composition/LICENSE.txt` | What was granted, by whom, what a church may do. Travels inside every bundle |
+| `composition/cover-thumb.webp` | Thumbnail of `sources/cover.webp` |
+| `audio/<pack>.zip` + `-fullmix.m4a` + `-preview.m4a` | Multitracks bundle from the granted master — see [tools/pack/README.md](tools/pack/README.md) |
 
-A MIDI is **not** a master. A derived score from MIDI is labeled as such until a person proofreads it into `masters/`.
+**One owner per kind of fact.** The words are either `sources/lyrics.chordpro` or
+`output/composition/lyrics.chordpro`, never both — `validate` errors if two files claim the same
+fact, because one of them is silently stale. Same for `score.musicxml`. The source always wins.
 
 ---
 
@@ -164,21 +193,21 @@ A MIDI is **not** a master. A derived score from MIDI is labeled as such until a
 node tools/build-catalog.mjs
 ```
 
-Commit it in the **same commit** as the content that changed. Paths in the catalog are repo-relative (`songs/en/public-domain/amazing-grace-YxPfAFYWOaG/…`).
+Commit it in the **same commit** as the content that changed. Paths in the catalog are repo-relative (`songs/en/amazing-grace-YxPfAFYWOaG/…`) and the content bucket mirrors them, so a path change means a bucket re-sync and an asset re-seed.
 
 ---
 
 ## Changing curated content
 
 1. Edit the package.
-   - Harvested facts → `sources/`
-   - Facts a person is asserting → `masters/song.json`
-   - Lyrics / chords → `masters/lyrics.chordpro`
-   - Do not edit `derivatives/`
+   - Facts a person is asserting → `song.json`
+   - Lyrics / chords → `sources/lyrics.chordpro`
+   - Harvested facts, granted files, the paper → `sources/`
+   - Do not edit `output/`
 2. Rebuild, reindex, check:
 
    ```
-   node tools/generate.mjs songs/en/public-domain/amazing-grace-YxPfAFYWOaG
+   node tools/generate.mjs songs/en/amazing-grace-YxPfAFYWOaG
    node tools/build-catalog.mjs
    node tools/validate.mjs
    ```
@@ -188,12 +217,12 @@ Commit it in the **same commit** as the content that changed. Paths in the catal
 
 ### Adding a new song
 
-1. Create `songs/<lang>/<license>/<slug>/` with `sources/` and `masters/`. Leave `id` out of `song.json`.
+1. Create `songs/<lang>/<slug>/` with `song.json` and `sources/` (at least `lyrics.chordpro` and `manifest.json`). Leave `id` out of `song.json`.
 2. Run `node tools/validate.mjs` — it will print the id to stamp.
 3. Rename the folder to `<slug>-<id>` so the last 11 characters match. `validate` errors if they disagree.
 4. Generate, build-catalog, validate, commit.
 
-Required in `song.json` for a catalog song: `id`, `title`, `writer`, `language`, `license`, `timeSignature`, `rights`. Themes must be names from `themes.json`. The license must match the folder (`PD` → `public-domain`, `WC` → `wc-license`, and so on).
+Required in `song.json` for a catalog song: `id`, `title`, `writer`, `language`, `license`, `timeSignature`, `rights`. Themes must be names from `themes.json`. The license must be one of the six in `licenses/licenses.json`.
 
 ---
 
@@ -203,15 +232,15 @@ Translations of the same hymn are **separate songs** grouped by a work.
 
 ```
 works/amazing-grace/
+  work.json                 { slug, title, canonicalSongId }
   sources/tune.abc          shared tune
   sources/tune.mid
-  masters/work.json         { slug, title, canonicalSongId }
-  masters/cover.webp        shared cover
+  sources/cover.webp        shared cover
 ```
 
 Each language’s song points at it with `"workRef": "amazing-grace"` in `song.json`. A song inherits any file it does not override.
 
-**The score (and shared tune/art) is shared. The words are not.** A translation always has its own `masters/lyrics.chordpro`. `timing.json` is always per song.
+**The tune and the art are shared. The words are not.** A translation always has its own `sources/lyrics.chordpro`, and `timing.json` is always per song. The score is not shared either — each member rebuilds it into its own `output/` from the inherited `tune.abc`.
 
 If a member file is byte-identical to the work’s, `validate` errors — delete the copy so it inherits.
 
@@ -234,19 +263,18 @@ Run from the repo root. Run `validate` before every commit.
 | Command | What it does |
 |---|---|
 | `node tools/validate.mjs` | Schema and consistency checks. Exit 1 on errors |
-| `node tools/generate.mjs [folder]` | Rebuild `derivatives/` for one package or the whole library |
-| `node tools/generate-scores.mjs [folder]` | Score step only: `masters/score.musicxml` from `sources/tune.abc` |
+| `node tools/generate.mjs [folder]` | Rebuild `output/composition/` for one package or the whole library |
+| `node tools/generate-scores.mjs [folder]` | Score step only: `output/composition/score.musicxml` from `sources/tune.abc` |
 | `node tools/build-catalog.mjs` | Regenerate `catalog.json` from the folders |
 | `node tools/find-duplicates.mjs` | Report the same hymn under variant titles (`--apply` links them) |
 | `node tools/migrate-works.mjs` | Create/adopt a work when a song gains its first translation |
+| `python tools/pack/build.py [folder]` | Multitracks bundle for every package with a granted master recording. Idempotent; see [tools/pack/README.md](tools/pack/README.md) |
 
 One-shot migrations (safe to re-run; they no-op when already done):
 
 | Command | What it did |
 |---|---|
-| `node tools/rename-packages.mjs` | Folder names → `<slug>-<id>` |
-| `node tools/migrate-packages.mjs` | Split flat folders into `sources/` / `masters/` / `derivatives/` |
-| `node tools/align-packages.mjs` | Hymnal JSON, covers, form-map drafts, artwork rows, PD review flags |
+| `node tools/migrate-layout.mjs` | Dropped the license folder level and split each package into `song.json` / `sources/` / `output/` |
 
 Importers that built this library live in `tools/harvest/`. They are not needed to consume or edit it. See [tools/harvest/README.md](tools/harvest/README.md).
 
@@ -254,18 +282,18 @@ Importers that built this library live in `tools/harvest/`. They are not needed 
 
 ## Licenses
 
-Songs are split by license at the folder level. One license per song. We do not host no-derivatives (ND) licenses: transposing, arranging, and translating are the point.
+One license per song, named in `song.json` — not in the path, because a license can change and the path is the bucket key. We do not host no-derivatives (ND) licenses: transposing, arranging, and translating are the point.
 
-| Folder | `song.json` `license` | In short |
-|---|---|---|
-| `songs/*/public-domain/` | `PD` | Public domain / CC0 |
-| `songs/*/wc-license/` | `WC` | WorshipCommons License — free for worship; commercial rights stay with the writer |
-| `songs/*/cc-by/` | `CC-BY` | Credit required |
-| `songs/*/cc-by-sa/` | `CC-BY-SA` | Credit required; derivatives share alike |
-| `songs/*/cc-by-nc/` | `CC-BY-NC` | Credit required; no commercial use |
-| `songs/*/cc-by-nc-sa/` | `CC-BY-NC-SA` | Both of the above |
+| `song.json` `license` | In short |
+|---|---|
+| `PD` | Public domain / CC0 |
+| `WC` | WorshipCommons License — free for worship; commercial rights stay with the writer |
+| `CC-BY` | Credit required |
+| `CC-BY-SA` | Credit required; derivatives share alike |
+| `CC-BY-NC` | Credit required; no commercial use |
+| `CC-BY-NC-SA` | Both of the above |
 
-Full terms: [LICENSE.md](LICENSE.md) and `licenses/`. Per-song provenance is in `sources/manifest.json` and the generated `derivatives/sources.txt`.
+Individual layers can differ from the song's headline license — `song.json` `rights.<layer>` is the detail. Full terms: [LICENSE.md](LICENSE.md) and `licenses/`. Per-song provenance is in `sources/manifest.json` and the generated `output/composition/sources.txt`.
 
 ---
 

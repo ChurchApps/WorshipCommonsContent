@@ -66,7 +66,7 @@ if (fPdf) {
   const title = "Foundation";
   const srcLyrics = lyricsPath(path.join(ROOT, "songs", "en", "public-domain", "how-firm-a-foundation"));
   const { body } = splitChordpro(fs.readFileSync(srcLyrics, "utf8"));
-  const outDir = path.join(ROOT, "songs", "en", LICENSES["CC-BY-SA"].section, packageFolder(title, idFor(title)));
+  const outDir = path.join(ROOT, "songs", "en", packageFolder(title, idFor(title)));
   const song = {
     id: idFor(title),
     title,

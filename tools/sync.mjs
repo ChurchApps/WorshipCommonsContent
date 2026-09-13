@@ -1,6 +1,6 @@
 // Content bucket ⇄ this checkout, as a plain S3 sync. The bucket holds exactly this
 // repo's layout (songs/, works/, writers/, licenses/, catalog.json, sources.json,
-// themes.json), derivatives included — derivatives are gitignored, not bucket-ignored.
+// themes.json), output/ included — output/ is gitignored, not bucket-ignored.
 //
 //   node tools/sync.mjs pull [--delete] [--dry]   bucket → checkout (the bucket is the operational master)
 //   node tools/sync.mjs push [--delete] [--dry]   checkout → bucket (after generate + build-catalog + validate)

@@ -1,6 +1,18 @@
 {
   "files": [
     {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "80231ab7c8b59126feecdc92d5bf6d988db5d7f7937b5568e5bb334df0645737",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
       "file": "tune.abc",
       "url": null,
       "acquired": null,

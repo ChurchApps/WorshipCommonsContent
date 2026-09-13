@@ -1,5 +1,5 @@
 // Imports a clone of github.com/cmpilato/worship-music (or a staging copy of it) into
-// songs/en/<section>/<slug>/. Each composition folder there has a README.md with the lyrics
+// songs/en/<slug>-<id>/. Each composition folder there has a README.md with the lyrics
 // and a "Copyright/License" block, a MuseScore .mscz, and usually .musicxml + .pdf exports.
 // The README license line decides the row license: "CC-BY-3.0" → CC-BY (licenseVersion 3.0),
 // "Public Domain" → PD with licenseSource cmpilato. Anything else is skipped and reported.
@@ -77,7 +77,7 @@ for (const folder of fs.readdirSync(stagingDir).sort()) {
   const writer = OVERRIDES[folder]?.writer || xml.composer || copyright?.[2]?.trim() || "C. Michael Pilato";
   const year = OVERRIDES[folder]?.year ?? (copyright ? Number(copyright[1]) : years.length ? Math.max(...years) : null);
   const license = cc ? "CC-BY" : "PD";
-  const outDir = path.join(ROOT, "songs", "en", LICENSES[license].section, packageFolder(title, idFor(title)));
+  const outDir = path.join(ROOT, "songs", "en", packageFolder(title, idFor(title)));
   const pdf = fs.readdirSync(dir).find(f => f.endsWith(".pdf"));
   const song = {
     id: idFor(title),

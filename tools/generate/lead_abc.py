@@ -1,4 +1,4 @@
-"""Write derivatives/lead.abc — melody + guitar-chord annotations from SATB ABC.
+"""Write output/composition/lead.abc — melody + guitar-chord annotations from SATB ABC.
 
   python tools/generate/lead_abc.py --root <content> [--only slug]
 """
@@ -209,15 +209,15 @@ def main():
         if args.only and args.only not in rel:
             continue
         pkg = abc.parent.parent
-        dest = pkg / "derivatives" / "lead.abc"
+        dest = pkg / "output" / "composition" / "lead.abc"
         if not args.force and dest.exists() and dest.stat().st_mtime >= abc.stat().st_mtime:
             stats["skip"] += 1
             continue
         title = pkg.name
         key = "C"
-        meta = pkg / "masters" / "song.json"
+        meta = pkg / "song.json"
         if not meta.exists():
-            meta = pkg / "masters" / "work.json"
+            meta = pkg / "work.json"
         meter = "4/4"
         if meta.exists():
             song = json.loads(meta.read_text(encoding="utf-8"))

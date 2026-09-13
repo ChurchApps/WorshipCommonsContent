@@ -6,7 +6,8 @@ import { fileURLToPath } from "node:url";
 import {
   idFor, LANG_CODES, LICENSES, splitChordpro, renderSourcesTxt, songDirs, readJson,
   readWorks, readSong, lyricsPath, sourcesTxtPath, manifestPath,
-  SHARED_RELS, STRAY_ROOT_FILES, sha256File, idFromFolder
+  SHARED_RELS, ROOT_FILES, EITHER_RELS, sha256File, idFromFolder,
+  sourceFiles, masterAudio, GRANT_LAYERS, OBTAINED_VIA
 } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -16,19 +17,36 @@ const works = readWorks(ROOT);
 const errors = [];
 const warnings = [];
 
+// Only song.json / work.json live at the package root; everything else is a source or an output.
+function checkRoot(dir, label) {
+  for (const name of fs.readdirSync(dir)) {
+    if (ROOT_FILES.includes(name)) continue;
+    if (["sources", "output"].includes(name) && fs.statSync(path.join(dir, name)).isDirectory()) continue;
+    errors.push(`${label}: ${name} at the package root — it is either a source or an output`);
+  }
+}
+
+// A file is given to us or built by us, never both: two owners means one is silently stale.
+function checkOneOwner(dir, label) {
+  for (const rel of EITHER_RELS) {
+    if (fs.existsSync(path.join(dir, "sources", rel)) && fs.existsSync(path.join(dir, "output", "composition", rel)))
+      errors.push(`${label}: ${rel} exists in both sources/ and output/composition/ — the source wins, delete the other`);
+  }
+}
+
 const ids = new Map(); // id → dir
 const parentOf = new Map(); // id → legacy parent id
 const workRefOf = new Map(); // id → workRef
 const workMembers = new Map(); // work slug → [song id]
 const licenseOf = new Map(); // id → license code
-const foldersSeen = new Map(); // "<section>/<lang>" → Set of lowercased folder names
+const foldersSeen = new Map(); // lang → Set of lowercased folder names
 const langCodes = new Set(Object.values(LANG_CODES));
 const REQUIRED = ["id", "title", "writer", "language", "license", "timeSignature", "rights"];
 const METER_RE = /^(?:\d{1,2}(?:\.\d{1,2})+(?:[ .]D)?|[CLS]MD?)$/;
 const REQUIRED_SUBMITTED = ["id", "title", "language", "license", "status"];
 
-for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
-  const label = `songs/${langDir}/${section}/${folder}`;
+for (const { langDir, folder, dir } of songDirs(ROOT)) {
+  const label = `songs/${langDir}/${folder}`;
   let song;
   try { song = readSong(dir); }
   catch (e) { errors.push(`${label}: unreadable song.json — ${e.message}`); continue; }
@@ -38,8 +56,8 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   if (song.id && !/^[A-Za-z0-9_-]{11}$/.test(song.id)) errors.push(`${label}: id "${song.id}" is not an 11-char base64url id`);
   if (song.id && ids.has(song.id)) errors.push(`${label}: duplicate id ${song.id} (also ${ids.get(song.id)})`);
   ids.set(song.id, label);
-  // folder is <slug>-<id>: the same key in git and in the bucket (run tools/rename-packages.mjs)
-  if (song.id && idFromFolder(folder) !== song.id) errors.push(`${label}: folder must end with "-${song.id}" (run node tools/rename-packages.mjs)`);
+  // folder is <slug>-<id>: the same key in git and in the bucket
+  if (song.id && idFromFolder(folder) !== song.id) errors.push(`${label}: folder must end with "-${song.id}"`);
   if (!langCodes.has(langDir)) errors.push(`${label}: unknown language dir "${langDir}"`);
   if (song.language && LANG_CODES[song.language] && LANG_CODES[song.language] !== langDir)
     errors.push(`${label}: language "${song.language}" belongs in ${LANG_CODES[song.language]}/, not ${langDir}/`);
@@ -47,7 +65,6 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     if (!THEMES.has(th)) errors.push(`${label}: theme "${th}" is not in themes.json`);
   const lic = LICENSES[song.license];
   if (!lic) errors.push(`${label}: unknown license "${song.license}" — must be one of ${Object.keys(LICENSES).join(", ")}`);
-  else if (lic.section !== section) errors.push(`${label}: license "${song.license}" belongs in ${lic.section}/, not ${section}/`);
   if (lic?.attributionRequired && !song.licenseUrl) errors.push(`${label}: ${song.license} songs need "licenseUrl" (the exact license the writer applied)`);
   if (lic?.attributionRequired && !song.attribution?.text && !submitted) errors.push(`${label}: ${song.license} songs need "attribution.text" (who to credit)`);
   licenseOf.set(song.id, song.license);
@@ -60,16 +77,15 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   if (song.rights && song.rights.text?.license && song.rights.text.license !== song.license)
     errors.push(`${label}: rights.text.license "${song.rights.text.license}" != license "${song.license}"`);
   if (song.hymnalCount !== undefined || song.churchCount !== undefined || song.video || song.provenance)
-    errors.push(`${label}: harvested fields (hymnalCount/churchCount/video/provenance) belong in sources/, not masters/song.json`);
+    errors.push(`${label}: harvested fields (hymnalCount/churchCount/video/provenance) belong in sources/, not song.json`);
 
-  const bucket = `${langDir}/${section}`;
-  if (!foldersSeen.has(bucket)) foldersSeen.set(bucket, new Set());
+  if (!foldersSeen.has(langDir)) foldersSeen.set(langDir, new Set());
   const lower = folder.toLowerCase();
-  if (foldersSeen.get(bucket).has(lower)) errors.push(`${label}: folder name collides case-insensitively with a sibling`);
-  foldersSeen.get(bucket).add(lower);
+  if (foldersSeen.get(langDir).has(lower)) errors.push(`${label}: folder name collides case-insensitively with a sibling`);
+  foldersSeen.get(langDir).add(lower);
 
-  for (const f of STRAY_ROOT_FILES)
-    if (fs.existsSync(path.join(dir, f))) errors.push(`${label}: leftover ${f} at package root — belongs in sources/, masters/, or derivatives/`);
+  checkRoot(dir, label);
+  checkOneOwner(dir, label);
 
   if (song.parent?.id) parentOf.set(song.id, song.parent.id);
   const work = song.workRef ? works.get(song.workRef) : null;
@@ -89,7 +105,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   }
 
   const cpPath = lyricsPath(dir);
-  if (!fs.existsSync(cpPath)) { errors.push(`${label}: missing masters/lyrics.chordpro`); continue; }
+  if (!fs.existsSync(cpPath)) { errors.push(`${label}: no lyrics.chordpro in sources/ or output/composition/`); continue; }
   const { header, body } = splitChordpro(fs.readFileSync(cpPath, "utf8"));
   if (!body.trim()) errors.push(`${label}: lyrics.chordpro has an empty body`);
   const expect = { title: song.title, artist: song.writer, key: song.key, time: song.timeSignature, tempo: song.bpm };
@@ -113,14 +129,31 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
       else if (row.sha256 && row.sha256 !== sha256File(fp)) errors.push(`${label}: manifest sha256 for ${row.file} is stale`);
       if (row.licenseBasis && row.licenseBasis !== "contributor" && !sources[row.licenseBasis])
         errors.push(`${label}: manifest ${row.file} licenseBasis "${row.licenseBasis}" is not in sources.json`);
+      // grant fields (.notes/song-pipeline.md §2): asserted per file, and the paper has to exist
+      if (row.layer !== undefined && !GRANT_LAYERS.includes(row.layer))
+        errors.push(`${label}: manifest ${row.file} layer "${row.layer}" is not one of ${GRANT_LAYERS.join(", ")}`);
+      if (row.license !== undefined && !LICENSES[row.license])
+        errors.push(`${label}: manifest ${row.file} license "${row.license}" is not in licenses.json`);
+      if (row.obtainedVia !== undefined && !OBTAINED_VIA.includes(row.obtainedVia))
+        errors.push(`${label}: manifest ${row.file} obtainedVia "${row.obtainedVia}" is not one of ${OBTAINED_VIA.join(", ")}`);
+      if (row.obtainedVia === "harvest" && !row.url)
+        errors.push(`${label}: manifest ${row.file} is obtainedVia "harvest" but has no url`);
+      if (row.evidence && !fs.existsSync(path.join(dir, "sources", row.evidence)))
+        errors.push(`${label}: manifest ${row.file} cites evidence "${row.evidence}" but sources/${row.evidence} is missing`);
     }
-    const srcDir = path.join(dir, "sources");
-    if (fs.existsSync(srcDir)) {
-      for (const name of fs.readdirSync(srcDir)) {
-        if (name === "manifest.json") continue;
-        if (!fs.statSync(path.join(srcDir, name)).isFile()) continue;
-        if (!listed.has(name)) errors.push(`${label}: sources/${name} has no manifest row`);
-      }
+    for (const name of sourceFiles(dir))
+      if (!listed.has(name)) errors.push(`${label}: sources/${name} has no manifest row`);
+
+    // A master recording is only publishable with a recording grant on file. No grant, no pack.
+    const master = masterAudio(dir);
+    if (master) {
+      const row = (manifest.files ?? []).find(r => r.file === master.rel);
+      if (!song.rights?.recording)
+        errors.push(`${label}: has ${master.rel} but song.json rights.recording is null — a master needs its own grant`);
+      if (!row?.license) errors.push(`${label}: manifest ${master.rel} needs "license" (the grant the recording carries)`);
+      if (!row?.evidence) errors.push(`${label}: manifest ${master.rel} needs "evidence" (the grant document in sources/grants/)`);
+      if (!row?.submittedBy) errors.push(`${label}: manifest ${master.rel} needs "submittedBy" (who granted it)`);
+      if (!row?.acquired) errors.push(`${label}: manifest ${master.rel} needs "acquired" (when it was granted)`);
     }
   }
 
@@ -137,10 +170,10 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   if (!song.id) warnings.push(`${label}: no id — build-catalog would need one; idFor(title) = ${idFor(song.title)}`);
 }
 
-for (const { dir, section, langDir, folder } of songDirs(ROOT)) {
+for (const { dir, langDir, folder } of songDirs(ROOT)) {
   const song = readSong(dir);
   if (!song.parent?.id) continue;
-  const label = `songs/${langDir}/${section}/${folder}`;
+  const label = `songs/${langDir}/${folder}`;
   if (!ids.has(song.parent.id))
     warnings.push(`${label}: parent "${song.parent.title}" (${song.parent.id}) is not in the catalog`);
   else if (parentOf.has(song.parent.id) || workRefOf.has(song.parent.id))
@@ -155,8 +188,8 @@ for (const [slug, work] of works) {
   const lower = slug.toLowerCase();
   if (workSlugsLower.has(lower)) errors.push(`${label}: folder name collides case-insensitively with a sibling`);
   workSlugsLower.add(lower);
-  for (const f of STRAY_ROOT_FILES)
-    if (fs.existsSync(path.join(work.dir, f))) errors.push(`${label}: leftover ${f} at package root — belongs in sources/, masters/, or derivatives/`);
+  checkRoot(work.dir, label);
+  checkOneOwner(work.dir, label);
   if (!fs.existsSync(manifestPath(work.dir))) errors.push(`${label}: missing sources/manifest.json`);
   if (!work.canonicalSongId) { errors.push(`${label}: work.json missing "canonicalSongId"`); continue; }
   if (!ids.has(work.canonicalSongId)) errors.push(`${label}: canonicalSongId ${work.canonicalSongId} is not in the catalog`);

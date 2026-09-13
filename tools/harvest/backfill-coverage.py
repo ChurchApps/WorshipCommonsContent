@@ -88,7 +88,7 @@ def pkg_file(folder: Path, rel: str, fallback: str | None = None) -> Path:
 
 
 def load_song(folder: Path) -> dict:
-    return json.loads(pkg_file(folder, "masters/song.json", "song.json").read_text(encoding="utf-8"))
+    return json.loads(pkg_file(folder, "song.json", "song.json").read_text(encoding="utf-8"))
 
 
 def write_text(path: Path, text: str) -> None:
@@ -97,11 +97,11 @@ def write_text(path: Path, text: str) -> None:
 
 
 def save_song(folder: Path, song: dict) -> None:
-    write_text(pkg_file(folder, "masters/song.json", "song.json"), json.dumps(song, indent=2, ensure_ascii=False) + "\n")
+    write_text(pkg_file(folder, "song.json", "song.json"), json.dumps(song, indent=2, ensure_ascii=False) + "\n")
 
 
 def lyrics_path(folder: Path) -> Path:
-    return pkg_file(folder, "masters/lyrics.chordpro", "lyrics.chordpro")
+    return pkg_file(folder, "sources/lyrics.chordpro", "output/composition/lyrics.chordpro")
 
 
 def midi_path(folder: Path) -> Path:
@@ -109,7 +109,7 @@ def midi_path(folder: Path) -> Path:
 
 
 def timing_path(folder: Path) -> Path:
-    return pkg_file(folder, "derivatives/timing.json", "timing.json")
+    return pkg_file(folder, "sources/timing.json", "sources/timing.json")
 
 
 def clean_figure(fig: str) -> str:

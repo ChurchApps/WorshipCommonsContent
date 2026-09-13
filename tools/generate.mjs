@@ -1,14 +1,14 @@
-// Rebuild derivatives/ from masters/ + sources/. Plain Node, no npm deps.
+// Rebuild output/composition/ from song.json + sources/. Plain Node, no npm deps.
 //
 //   node tools/generate.mjs                         whole library
-//   node tools/generate.mjs songs/en/public-domain/amazing-grace
+//   node tools/generate.mjs songs/en/amazing-grace-YxPfAFYWOaG
 //   node tools/generate.mjs amazing-grace           slug (songs and/or the work)
 //   node tools/generate.mjs songs/en                every English song
 //   node tools/generate.mjs works/amazing-grace
 //
-// Writes: masters/score.musicxml from sources/tune.abc (promotes an existing conversion
-// without python; a missing master needs python — skipped with a warning when absent), sources.txt, attribution.txt,
-// slides.json, duration.json, chart.chordpro (a byte copy of the lyrics master until
+// Writes: output/composition/score.musicxml from sources/tune.abc (needs python — skipped
+// with a warning when absent; a score in sources/ wins and is left alone), sources.txt, attribution.txt,
+// LICENSE.txt, slides.json, duration.json, chart.chordpro (a byte copy of the lyrics master until
 // the score-driven chart generator exists — files.md §3.2), chart.pdf (when the text
 // encodes), cover-thumb.webp. Leaves timing.json in place (needs the score pipeline).
 //
@@ -19,11 +19,11 @@ import * as path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import {
   songDirs, readWorks, readJson, readSong, lyricsPath, splitChordpro,
-  renderSourcesTxt, ensurePkgDirs, licenseNotice, parseChordproStanzas, stripChords
+  renderSourcesTxt, renderLicenseTxt, ensurePkgDirs, licenseNotice, parseChordproStanzas, stripChords
 } from "./lib.mjs";
 import { chartPdf } from "./generate/pdf.mjs";
 import { writeThumb } from "./generate/thumb.mjs";
-import { scoreFor, pythonAvailable } from "./generate/score.mjs";
+import { scoreFor, midiFor, pythonAvailable } from "./generate/score.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -60,7 +60,7 @@ export function generateSong(dir, { sources }) {
   const song = readSong(dir);
   if (song.submittedBy) return { skipped: true };
   ensurePkgDirs(dir);
-  const out = name => path.join(dir, "derivatives", name);
+  const out = name => path.join(dir, "output", "composition", name);
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const stanzas = parseChordproStanzas(body);
   const notice = licenseNotice(song);
@@ -69,7 +69,9 @@ export function generateSong(dir, { sources }) {
   const wrote = {};
 
   wrote.score = scoreFor(dir);
+  wrote.midi = midiFor(dir);
   wrote.sources = writeIfChanged(out("sources.txt"), renderSourcesTxt(dir, song, sources));
+  wrote.license = writeIfChanged(out("LICENSE.txt"), renderLicenseTxt(dir, song, sources));
   wrote.attribution = writeIfChanged(out("attribution.txt"), `${song.title}\n${song.writer ?? ""}${song.year ? `, ${song.year}` : ""}\n${notice}\n`);
   wrote.slides = writeIfChanged(out("slides.json"), JSON.stringify(slidesOf(stanzas), null, 2) + "\n");
   wrote.duration = writeIfChanged(out("duration.json"), JSON.stringify(durationOf(song, stanzas, timing), null, 2) + "\n");
@@ -84,7 +86,7 @@ export function generateSong(dir, { sources }) {
   if (pdf) { writeIfChanged(out("chart.pdf"), pdf); wrote.pdf = true; }
   else wrote.skipPdf = true;
 
-  const ownCover = path.join(dir, "masters", "cover.webp");
+  const ownCover = path.join(dir, "sources", "cover.webp");
   const thumb = out("cover-thumb.webp");
   if (fs.existsSync(ownCover)) { writeThumb(ownCover, thumb); wrote.thumb = true; }
   else if (fs.existsSync(thumb)) fs.unlinkSync(thumb);
@@ -93,10 +95,11 @@ export function generateSong(dir, { sources }) {
 }
 
 export function generateWork(dir) {
-  const cover = path.join(dir, "masters", "cover.webp");
-  const thumb = path.join(dir, "derivatives", "cover-thumb.webp");
+  const cover = path.join(dir, "sources", "cover.webp");
+  const thumb = path.join(dir, "output", "composition", "cover-thumb.webp");
   const wrote = { thumb: writeThumb(cover, thumb) };
   wrote.score = scoreFor(dir);
+  wrote.midi = midiFor(dir);
   return { wrote };
 }
 
@@ -149,10 +152,12 @@ export function generate(root = ROOT, arg) {
     err.code = "NOT_FOUND";
     throw err;
   }
-  const stats = { songs: 0, works: 0, pdf: 0, skipPdf: 0, thumbs: 0, scores: 0, scoresFailed: 0, python: pythonAvailable() };
+  const stats = { songs: 0, works: 0, pdf: 0, skipPdf: 0, thumbs: 0, scores: 0, midis: 0, scoresFailed: 0, python: pythonAvailable() };
   const tally = r => {
     if (r.wrote.thumb) stats.thumbs++;
-    if (r.wrote.score === "written" || r.wrote.score === "unchanged" || r.wrote.score === "promoted") stats.scores++;
+    if (["written", "unchanged", "source"].includes(r.wrote.score)) stats.scores++;
+    if (["written", "unchanged"].includes(r.wrote.midi)) stats.midis++;
+    if (r.wrote.midi === "failed") stats.scoresFailed++;
     if (r.wrote.score === "failed") stats.scoresFailed++;
   };
   for (const { dir } of songs) {
@@ -174,13 +179,13 @@ export function generate(root = ROOT, arg) {
 function usage() {
   console.log(`Usage: node tools/generate.mjs [folder]
 
-Rebuild derivatives/ from masters/ and sources/.
+Rebuild output/composition/ from song.json and sources/.
   (no args)     whole library
   <path>        one song or work package, or everything under a prefix
   <slug>        packages whose folder name is that slug
 
-Writes masters/score.musicxml from tune.abc, chart.chordpro, chart.pdf,
-slides.json, attribution.txt, duration.json, sources.txt, cover-thumb.webp.
+Writes output/composition/score.musicxml from tune.abc, chart.chordpro, chart.pdf,
+slides.json, attribution.txt, duration.json, sources.txt, LICENSE.txt, cover-thumb.webp.
 timing.json is left as-is.`);
 }
 
@@ -189,7 +194,7 @@ export function run(argv = process.argv.slice(2)) {
   const arg = argv.find(a => !a.startsWith("-"));
   try {
     const stats = generate(ROOT, arg);
-    console.log(`generate: ${stats.songs} songs, ${stats.works} works, ${stats.pdf} chart.pdf, ${stats.skipPdf} pdf skipped (non-Latin), ${stats.thumbs} thumbs, ${stats.scores} scores from abc${stats.scoresFailed ? `, ${stats.scoresFailed} FAILED` : ""}`);
+    console.log(`generate: ${stats.songs} songs, ${stats.works} works, ${stats.pdf} chart.pdf, ${stats.skipPdf} pdf skipped (non-Latin), ${stats.thumbs} thumbs, ${stats.scores} scores, ${stats.midis} score.mid${stats.scoresFailed ? `, ${stats.scoresFailed} FAILED` : ""}`);
     if (!stats.python) console.warn("generate: python not found — new ABC files will not convert; existing conversions are still promoted (set PYTHON=...)");
     return stats.scoresFailed ? 1 : 0;
   } catch (e) {

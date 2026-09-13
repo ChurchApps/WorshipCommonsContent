@@ -18,24 +18,21 @@ const writerSlugs = new Set();
 const works = readWorks(ROOT);
 const workSlugsUsed = new Set();
 
-for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
+for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const song = readSong(dir);
   if (!song.id) throw new Error(`${dir}: song.json has no id — stamp one with idFor(title) = ${idFor(song.title)}`);
   const work = song.workRef ? works.get(song.workRef) : null;
   if (song.workRef && !work) throw new Error(`${dir}: workRef "${song.workRef}" has no works/ folder`);
   if (work) workSlugsUsed.add(work.folder);
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
-  const rootRel = ["songs", langDir, section, folder].join("/");
+  const rootRel = ["songs", langDir, folder].join("/");
   const harvested = readHarvested(dir);
   const midi = resolveShared(rootRel, dir, work, "sources/tune.mid");
   const abc = resolveShared(rootRel, dir, work, "sources/tune.abc");
-  const art = (() => {
-    const cover = resolveShared(rootRel, dir, work, "masters/cover.webp");
-    if (cover.path) return cover;
-    const legacy = resolveShared(rootRel, dir, work, "derivatives/cover.webp");
-    return legacy.path ? legacy : resolveShared(rootRel, dir, work, "derivatives/art.webp");
-  })();
-  const timing = resolveShared(rootRel, dir, work, "derivatives/timing.json", { inherit: false });
+  const art = resolveShared(rootRel, dir, work, "sources/cover.webp");
+  const timing = resolveShared(rootRel, dir, work, "sources/timing.json", { inherit: false });
+  const scoreSource = resolveShared(rootRel, dir, work, "sources/score.musicxml");
+  const scoreBuilt = resolveShared(rootRel, dir, work, "output/composition/score.musicxml");
   const sheetName = song.uploads?.sheetPdf ?? "sheetPdf.pdf";
   const sheet = resolveShared(rootRel, dir, work, `sources/${sheetName}`, { inherit: false });
   const video = harvested.video ?? song.video;
@@ -54,12 +51,12 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     scripture: song.scripture,
     scriptureText: song.scriptureText ?? null,
     license: song.license,
-    // what-we-build.md: confidence is "what masters/ holds", computed, never stored.
-    // A master score inherited from the work counts: the tune is scored even if this
-    // member's own words are not yet underlaid (files.md §3.1). Open Hymnal ABC
-    // conversions live in masters/. Leftover derivatives/score.musicxml is MIDI-derived.
-    confidence: resolveShared(rootRel, dir, work, "masters/score.musicxml").path ? "proofread-score"
-      : resolveShared(rootRel, dir, work, "derivatives/score.musicxml").path ? "generated-from-midi"
+    // Confidence is computed, never stored. A score inherited from the work counts:
+    // the tune is scored even if this member's own words are not yet underlaid.
+    // A score in sources/ was given to us or proofread; a built one is only as good
+    // as what it came from — ABC is trusted, a MIDI transcription is not.
+    confidence: scoreSource.path ? "proofread-score"
+      : scoreBuilt.path ? (abc.path ? "proofread-score" : "generated-from-midi")
       : /\[[A-G][#b]?/.test(body) ? "chart-only"
       : "lyrics-only",
     churchCount: harvested.churchCount ?? song.churchCount ?? 0,
@@ -92,9 +89,16 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
       row[bytesCol] = sheet.bytes;
       continue;
     }
-    const rel = name && fs.existsSync(path.join(dir, "sources", name)) ? `sources/${name}`
-      : name && fs.existsSync(path.join(dir, name)) ? name
-      : name && fs.existsSync(path.join(dir, "masters", "recording", name)) ? `masters/recording/${name}`
+    // the stems pack is built, not uploaded: whatever pack/build.py left behind
+    if (field === "stemsZip") {
+      const audio = path.join(dir, "output", "audio");
+      const zip = fs.existsSync(audio) ? fs.readdirSync(audio).find(f => f.endsWith(".zip")) : null;
+      row[urlCol] = zip ? `${rootRel}/output/audio/${zip}` : null;
+      row[bytesCol] = zip ? fs.statSync(path.join(audio, zip)).size : null;
+      continue;
+    }
+    const rel = name && fs.existsSync(path.join(dir, "sources", "master", name)) ? `sources/master/${name}`
+      : name && fs.existsSync(path.join(dir, "sources", name)) ? `sources/${name}`
       : null;
     row[urlCol] = rel ? `${rootRel}/${rel}` : null;
     row[bytesCol] = rel ? fs.statSync(path.join(dir, rel)).size : null;

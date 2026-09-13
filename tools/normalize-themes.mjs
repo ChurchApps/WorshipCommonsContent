@@ -17,7 +17,7 @@ const unknown = new Map(); // legacy value → count, for values themes.json doe
 const applied = new Map(); // "from → to" → count
 let changed = 0, dropped = 0;
 
-for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
+for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const file = songJsonPath(dir);
   const song = readSong(dir);
   const before = song.themes ?? null;
@@ -41,7 +41,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
     : null;
   if (after === before) continue;
   changed++;
-  console.log(`songs/${langDir}/${section}/${folder}: ${JSON.stringify(before)} → ${JSON.stringify(after)}`);
+  console.log(`songs/${langDir}/${folder}: ${JSON.stringify(before)} → ${JSON.stringify(after)}`);
   if (!dryRun) { song.themes = after; writeJson(file, song); }
 }
 

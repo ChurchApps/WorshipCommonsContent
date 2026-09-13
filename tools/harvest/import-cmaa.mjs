@@ -277,7 +277,7 @@ let imported = 0;
 for (const row of SONGS) {
   const src = path.join(stagingDir, row.file);
   if (!fs.existsSync(src)) { console.warn(`SKIP  ${row.file}: not in staging`); continue; }
-  const outDir = path.join(ROOT, "songs", "en", LICENSES["CC-BY"].section, packageFolder(row.title, idFor(row.title)));
+  const outDir = path.join(ROOT, "songs", "en", packageFolder(row.title, idFor(row.title)));
   const song = {
     id: idFor(row.title),
     title: row.title,

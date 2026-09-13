@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "f488496ff2ecb070da97b65fb8690dfa51ebd42c98e307b05241fca41914e3ea",
+      "licenseBasis": "cmaa",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "3fb29a6a2821ee5084449afa0827202ac2cfcb5d2f4becf03ab0985b0346ccf3",
+      "licenseBasis": "cmaa",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    }
+  ]
+}

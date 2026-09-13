@@ -1,4 +1,4 @@
-"""Fill inline chords into masters/lyrics.chordpro from a PD SATB ABC.
+"""Fill inline chords into sources/lyrics.chordpro from a PD SATB ABC.
 
 Walks the content library. Skips songs that already have chords, or whose
 lyrics will not align to the ABC. Output stays PD (harmony from Open Hymnal).
@@ -244,13 +244,13 @@ def main():
     fails = []
     songs = sorted((ROOT / "songs").rglob("lyrics.chordpro"))
     for lyrics in songs:
-        if lyrics.parent.name != "masters":
+        if lyrics.parent.name != "sources":
             continue
         d = lyrics.parent.parent
         rel = str(d.relative_to(ROOT)).replace("\\", "/")
         if ONLY and ONLY not in rel and ONLY not in d.name:
             continue
-        song = json.loads((d / "masters" / "song.json").read_text(encoding="utf-8"))
+        song = json.loads((d / "song.json").read_text(encoding="utf-8"))
         raw = lyrics.read_text(encoding="utf-8")
         header, body = split_chordpro(raw)
         if CHORD.search(body):

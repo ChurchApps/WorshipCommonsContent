@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "61510cd81118018a75a31257bef1f4c14864557c4e64c80f6aa02cceec9c25e9",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lobe_den_Herren.ly",
+      "url": "https://www.mutopiaproject.org/ftp/Anonymous/lobe_den_Herren/lobe_den_Herren.ly",
+      "acquired": "2026-09-08",
+      "sha256": "025474c3fa585ee72b2bb65122ee39315b78cff14fd0c96fba26f80bbaf455bd",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "2dc1eb30c470780700703f3029dbfa2b462d1b517bbc8b2999d216bd77882338",
+      "licenseBasis": "wc-seed",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "bab5dfbd9b780b533ad1707d1d7dba8ce55faaa2af39040c44c4edd00f72c4ac",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "6a551458acb02722c3a3031d22eb560990b759eeebc3bdde71e92629a087de5d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Lyric timings; the generator does not live in this repo",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "c9a3a3f84b8248a1b8801a78e06556c198d70ba45f8decfdde6db7c783ea0072",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

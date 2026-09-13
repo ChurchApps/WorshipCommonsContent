@@ -1,4 +1,4 @@
-// 128px webp thumb from masters/cover.webp. Shells out to ffmpeg (already a given here).
+// 128px webp thumb from sources/cover.webp. Shells out to ffmpeg (already a given here).
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { execFileSync } from "node:child_process";

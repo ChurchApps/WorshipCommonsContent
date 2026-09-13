@@ -230,7 +230,7 @@ def find_midis(root: Path, only: str | None):
         for p in base.rglob("tune.mid"):
             if only and only not in str(p).replace("\\", "/"):
                 continue
-            deriv = p.parent.parent / "derivatives" if p.parent.name == "sources" else p.parent / "derivatives"
+            deriv = (p.parent.parent if p.parent.name == "sources" else p.parent) / "output" / "composition"
             out.append((p, deriv))
     return out
 
@@ -260,7 +260,7 @@ def render_one(midi_path: str, deriv: str, sf_dir: str, cache: str, force: bool)
 
 
 def song_meta(dir: Path):
-    p = dir / "masters" / "song.json"
+    p = dir / "song.json"
     if not p.exists():
         p = dir / "song.json"
     if not p.exists():
@@ -269,7 +269,7 @@ def song_meta(dir: Path):
 
 
 def duration_of(dir: Path, song: dict) -> float:
-    dj = dir / "derivatives" / "duration.json"
+    dj = dir / "output" / "composition" / "duration.json"
     if dj.exists():
         try:
             sec = json.loads(dj.read_text(encoding="utf-8")).get("seconds")
@@ -325,13 +325,11 @@ def main():
     if not args.skip_click:
         songs_root = root / "songs"
         for song_json in songs_root.rglob("song.json"):
-            if song_json.parent.name != "masters":
-                continue
-            d = song_json.parent.parent
+            d = song_json.parent
             if args.only and args.only not in str(d).replace("\\", "/"):
                 continue
             song = json.loads(song_json.read_text(encoding="utf-8"))
-            dest = d / "derivatives" / "click.mp3"
+            dest = d / "output" / "composition" / "click.mp3"
             if not args.force and dest.exists():
                 stats["click"] += 1
                 continue

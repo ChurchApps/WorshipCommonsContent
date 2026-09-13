@@ -223,7 +223,7 @@ for (const file of abcFiles) {
 
   const writer = [p.author || p.composer, p.translator && `tr. ${p.translator}`].filter(Boolean).join(" · ") || "Unknown";
   const body = p.stanzas.map(s => [s.label, ...s.lines].join("\n")).join("\n\n");
-  const outDir = path.join(ROOT, "songs", lang, LICENSES.PD.section, slug);
+  const outDir = path.join(ROOT, "songs", lang, slug);
   const song = {
     id,
     title: p.title,

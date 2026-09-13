@@ -34,7 +34,7 @@ async function get(url) {
 
 let fetched = 0, unchanged = 0, missing = 0;
 for (const { song, url } of targets) {
-  if (!fs.existsSync(path.join(song, "masters", "song.json"))) { console.log(`skip  ${path.basename(song)} (no package)`); missing++; continue; }
+  if (!fs.existsSync(path.join(song, "song.json"))) { console.log(`skip  ${path.basename(song)} (no package)`); missing++; continue; }
   const listing = await get(url);
   if (!listing) { console.log(`404   ${url}`); missing++; continue; }
   const names = [...new Set([...(await listing.text()).matchAll(/href="([^"?/]+\.(?:ly|ily))"/g)].map(m => m[1]))];

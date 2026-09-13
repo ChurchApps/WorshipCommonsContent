@@ -39,41 +39,47 @@ export const slugify = title =>
 export const packageFolder = (title, id) => `${slugify(title)}-${id}`;
 export const idFromFolder = folder => (folder.length > 12 && folder[folder.length - 12] === "-") ? folder.slice(-11) : null;
 
-// licenses/licenses.json is the registry of the six licenses we host; song.json "license" is one of its ids and
-// the song lives under songs/<lang>/<registry.section>/. The site vendors this file as src/licenses.json.
+// licenses/licenses.json is the registry of the six licenses we host; song.json "license"
+// is one of its ids. The site vendors this file as src/licenses.json.
 export const LICENSES = Object.fromEntries(
   JSON.parse(fs.readFileSync(new URL("../licenses/licenses.json", import.meta.url), "utf8")).licenses.map(l => [l.id, l])
 );
-export const SECTIONS = Object.values(LICENSES).map(l => l.section);
 
-// Package layout (vision/files.md): every file is in sources/, masters/, or derivatives/.
-// Read helpers fall back to the pre-migration flat folder so tools still run mid-cutover.
-export const songJsonPath = dir => {
-  const neu = path.join(dir, "masters", "song.json");
-  return fs.existsSync(neu) ? neu : path.join(dir, "song.json");
-};
-export const lyricsPath = dir => {
-  const neu = path.join(dir, "masters", "lyrics.chordpro");
-  return fs.existsSync(neu) ? neu : path.join(dir, "lyrics.chordpro");
-};
-export const workJsonPath = dir => {
-  const neu = path.join(dir, "masters", "work.json");
-  return fs.existsSync(neu) ? neu : path.join(dir, "work.json");
-};
+// Package layout. Two folders and one root file:
+//
+//   song.json              identity, rights, form — nothing rebuilds it
+//   sources/               bytes this package cannot reproduce from its own other files
+//   output/composition/    what generate.mjs rebuilds
+//   output/audio/          what tools/pack/build.py rebuilds
+//
+// output/ is deletable by definition, which is why .gitignore is a plain **/output/.
+// The license is NOT in the path: it is mutable metadata and the path is the bucket key.
+export const ROOT_FILES = ["song.json", "work.json"];
+export const songJsonPath = dir => path.join(dir, "song.json");
+export const workJsonPath = dir => path.join(dir, "work.json");
 export const manifestPath = dir => path.join(dir, "sources", "manifest.json");
-export const harvestedPath = dir => {
-  const neu = path.join(dir, "sources", "hymnary.json");
-  return fs.existsSync(neu) ? neu : path.join(dir, "sources", "harvested.json");
-};
 export const hymnaryPath = dir => path.join(dir, "sources", "hymnary.json");
+export const harvestedPath = dir => path.join(dir, "sources", "hymnary.json");
 export const videoPath = dir => path.join(dir, "sources", "video.json");
-export const sourcesTxtPath = dir => {
-  const neu = path.join(dir, "derivatives", "sources.txt");
-  return fs.existsSync(neu) ? neu : path.join(dir, "sources.txt");
+export const outPath = (dir, name) => path.join(dir, "output", "composition", name);
+export const sourcesTxtPath = dir => outPath(dir, "sources.txt");
+
+// The same logical file can be a source (someone gave it to us) or an output (we made
+// it from a source). Source wins; validate errors when both exist.
+const firstExisting = (dir, ...rels) => {
+  for (const rel of rels) {
+    const p = path.join(dir, ...rel.split("/"));
+    if (fs.existsSync(p)) return p;
+  }
+  return path.join(dir, ...rels[0].split("/"));
 };
+export const lyricsPath = dir => firstExisting(dir, "sources/lyrics.chordpro", "output/composition/lyrics.chordpro");
+export const scorePath = dir => firstExisting(dir, "sources/score.musicxml", "output/composition/score.musicxml");
+// files that may legitimately live in either folder, checked by validate
+export const EITHER_RELS = ["lyrics.chordpro", "score.musicxml"];
 
 export const ensurePkgDirs = dir => {
-  for (const d of ["sources", "masters", "derivatives"]) fs.mkdirSync(path.join(dir, d), { recursive: true });
+  for (const d of ["sources", "output/composition"]) fs.mkdirSync(path.join(dir, ...d.split("/")), { recursive: true });
 };
 
 export const readSong = dir => readJson(songJsonPath(dir));
@@ -177,14 +183,6 @@ export function draftForm(body) {
   return { status: "draft", sections, defaultOrder: labels };
 }
 
-// Generated covers are kept (decision 2026-09-07): no writer art exists anywhere in the
-// catalog, and the existing covers are the approved package image, never regenerated.
-export const GENERATED_COVER_RIGHTS = {
-  license: "PD",
-  basis: "worshipcommons",
-  note: "Generated cover kept as the package's approved image; not regenerated"
-};
-
 // A PD claim resting on a post-1930 publication year needs a person to look.
 export function pdReviewNote(song) {
   const y = Number(song.year);
@@ -197,19 +195,14 @@ export const sha256File = p => crypto.createHash("sha256").update(fs.readFileSyn
 
 export const isoDate = () => new Date().toISOString().slice(0, 10);
 
-// No release versioning (decision 2026-09-08): git history is the record of masters/,
+// No release versioning (decision 2026-09-08): git history is the record of song.json + sources/,
 // a submission's change note becomes the export commit message, and derivatives are
 // rebuilt in place.
 
-// work-level files a member inherits unless it has its own copy
-export const SHARED_RELS = ["sources/tune.mid", "sources/tune.abc", "masters/cover.webp", "masters/score.musicxml"];
-
-// leftover files at the package root after the sources/masters/derivatives split
-export const STRAY_ROOT_FILES = [
-  "song.json", "lyrics.chordpro", "work.json",
-  "tune.mid", "tune.abc", "sheetPdf.pdf", "timing.json",
-  "art.webp", "art-thumb.webp", "cover.webp", "cover-thumb.webp", "sources.txt", "manifest.json", "harvested.json", "hymnary.json"
-];
+// work-level files a member inherits unless it has its own copy. The words are never
+// shared — a translation always has its own. The score is not shared either: each
+// member rebuilds it into output/ from the inherited tune.abc.
+export const SHARED_RELS = ["sources/tune.mid", "sources/tune.abc", "sources/cover.webp"];
 
 // resolve a package-relative file (e.g. "sources/tune.mid"), song override then work, with flat-folder fallback
 export function resolveShared(rootRel, dir, work, rel, { inherit = true } = {}) {
@@ -296,7 +289,10 @@ const MANIFEST_BASIS = {
   "sheetPdf.pdf": rowProv => SHEET_SOURCES.has(rowProv.text) ? rowProv.text : SHEET_SOURCES.has(rowProv.tune) ? rowProv.tune : "mutopia",
   "hymnary.json": () => "hymnary",
   "harvested.json": () => "hymnary",
-  "video.json": () => "worshipcommons"
+  "video.json": () => "worshipcommons",
+  "lyrics.chordpro": rowProv => rowProv.text,
+  "cover.webp": () => "worshipcommons",
+  "timing.json": () => "worshipcommons"
 };
 
 const MANIFEST_NOTE = {
@@ -304,31 +300,53 @@ const MANIFEST_NOTE = {
   "tune.abc": "Existing catalog copy; original bytes not backfilled",
   "sheetPdf.pdf": "Existing catalog copy",
   "hymnary.json": "Harvested hymnal counts and churchCount snapshot — merged at catalog build",
-  "video.json": "YouTube performance id; a link, not an audio asset"
+  "video.json": "YouTube performance id; a link, not an audio asset",
+  "lyrics.chordpro": "The words. Nothing in this repo rebuilds them",
+  "cover.webp": "Generated once by WorshipCommons tooling; kept, never regenerated",
+  "timing.json": "Lyric timings; the generator does not live in this repo"
 };
 
+// Every file under sources/, as a posix path relative to sources/ ("tune.mid",
+// "master/song.wav"). Subfolders are the grant-era layout: grants/, master/, extra/.
+export function sourceFiles(dir) {
+  const srcDir = path.join(dir, "sources");
+  const out = [];
+  const walk = (rel) => {
+    const abs = rel ? path.join(srcDir, rel) : srcDir;
+    if (!fs.existsSync(abs)) return;
+    for (const name of fs.readdirSync(abs).sort()) {
+      const childRel = rel ? `${rel}/${name}` : name;
+      if (childRel === "manifest.json") continue;
+      const p = path.join(srcDir, childRel);
+      if (fs.statSync(p).isDirectory()) walk(childRel);
+      else out.push(childRel);
+    }
+  };
+  walk("");
+  return out;
+}
+
 // Rewrites sources/manifest.json from what is on disk. Existing rows keep their
-// url / acquired / basis / note unless an override is passed, so re-running never
-// forgets where a file came from. `original` is true only when we hold the bytes as
-// fetched (url + acquired known); false means "existing catalog copy" whose
-// acquisition still has to be backfilled (files.md §1.6).
+// url / acquired / basis / note and every grant field (layer, license, evidence, …)
+// unless an override is passed, so re-running never forgets where a file came from or
+// what was granted. `original` is true only when we hold the bytes as fetched
+// (url + acquired known); false means "existing catalog copy" whose acquisition still
+// has to be backfilled (files.md §1.6).
 export function writeManifest(dir, provenance = {}, { urls = {}, notes = {}, basis = {}, acquired = {} } = {}) {
   const srcDir = path.join(dir, "sources");
   fs.mkdirSync(srcDir, { recursive: true });
   const mp = path.join(srcDir, "manifest.json");
   const prev = new Map((fs.existsSync(mp) ? readJson(mp).files ?? [] : []).map(r => [r.file, r]));
   const files = [];
-  for (const name of fs.readdirSync(srcDir).sort()) {
-    if (name === "manifest.json") continue;
+  for (const name of sourceFiles(dir)) {
     const p = path.join(srcDir, name);
-    if (!fs.statSync(p).isFile()) continue;
     const old = prev.get(name) ?? {};
     const sha = sha256File(p);
     const same = old.sha256 === sha;
     const url = urls[name] ?? (same ? old.url : null) ?? null;
     const when = acquired[name] ?? (same ? old.acquired : null) ?? null;
     const licenseBasis = basis[name] ?? old.licenseBasis ?? MANIFEST_BASIS[name]?.(provenance) ?? provenance.text ?? "contributor";
-    files.push({
+    const row = {
       file: name,
       url,
       acquired: when,
@@ -337,7 +355,10 @@ export function writeManifest(dir, provenance = {}, { urls = {}, notes = {}, bas
       original: !!(url && when),
       submittedBy: old.submittedBy ?? null,
       note: notes[name] ?? (same ? old.note : null) ?? MANIFEST_NOTE[name] ?? null
-    });
+    };
+    // grant fields are asserted by a person, never derived — carry them through untouched
+    for (const k of Object.keys(old)) if (!(k in row)) row[k] = old[k];
+    files.push(row);
   }
   writeJson(mp, { files });
   return files;
@@ -391,10 +412,17 @@ export function renderChordpro(song, body) {
 const SOURCE_FILE_LABELS = {
   "tune.mid": "Tune (tune.mid)",
   "tune.abc": "Engraving source (tune.abc)",
-  "sheetPdf.pdf": "Sheet music (sheetPdf.pdf)"
+  "sheetPdf.pdf": "Sheet music (sheetPdf.pdf)",
+  "lyrics.chordpro": "Text (lyrics.chordpro)",
+  "cover.webp": "Cover art (cover.webp)"
 };
 
+// internal bookkeeping, not a citable source
+const NOT_CITED = new Set(["harvested.json", "hymnary.json", "video.json", "timing.json"]);
+
 // sources.txt is generated from the package + sources.json — never hand-edited.
+const manifestHas = (dir, file) => readManifest(dir).some(r => r.file === file);
+
 export function renderSourcesTxt(dir, song, sources) {
   const lines = [
     `${song.title} — sources & attribution`,
@@ -402,7 +430,7 @@ export function renderSourcesTxt(dir, song, sources) {
     ""
   ];
   const textKey = song.rights?.text?.source || song.licenseSource;
-  if (textKey) {
+  if (textKey && !(manifestHas(dir, "lyrics.chordpro"))) {
     const s = sources[textKey];
     if (!s) throw new Error(`${song.title}: rights.text.source / licenseSource references unknown source "${textKey}"`);
     let line = `Text (lyrics.chordpro): ${s.name}`;
@@ -414,7 +442,7 @@ export function renderSourcesTxt(dir, song, sources) {
   const manifest = fs.existsSync(mp) ? readJson(mp) : { files: [] };
   const seen = new Set();
   for (const row of manifest.files ?? []) {
-    if (row.file === "harvested.json" || row.file === "hymnary.json" || row.file === "video.json") continue;
+    if (NOT_CITED.has(row.file) || row.file.startsWith("grants/")) continue;
     seen.add(row.file);
     const s = row.licenseBasis && row.licenseBasis !== "contributor" ? sources[row.licenseBasis] : null;
     if (row.licenseBasis && row.licenseBasis !== "contributor" && !s)
@@ -449,17 +477,120 @@ export function renderSourcesTxt(dir, song, sources) {
   return lines.join("\n") + "\n";
 }
 
-// walk <root>/songs/<lang>/<section>/<slug>/ folders; yields { section, langDir, dir, folder }
+// ---------------------------------------------------------------------------
+// Grants. A song has two independent rights layers: the composition (required —
+// no grant, no song) and the master recording (optional — it adds multitracks).
+// song.json rights.<layer> says what license each layer carries; the manifest row
+// for each source file says who granted it, when, how, and where the paper is.
+// See .notes/song-pipeline.md.
+// ---------------------------------------------------------------------------
+export const GRANT_LAYERS = ["text", "tune", "arrangement", "recording", "artwork", "extra", "grant"];
+export const OBTAINED_VIA = ["upload-form", "email", "harvest", "transcription", "public-domain", "generated"];
+const AUDIO_EXT = new Set([".wav", ".flac", ".m4a", ".mp3", ".aiff", ".aif", ".ogg", ".opus", ".mp4", ".mov"]);
+
+export const readManifest = dir => {
+  const mp = manifestPath(dir);
+  return fs.existsSync(mp) ? (readJson(mp).files ?? []) : [];
+};
+
+// The granted master recording, if there is one. A YouTube id in sources/master/video.json
+// is a link, not a master — it never yields stems or a pack.
+export function masterAudio(dir) {
+  const rel = sourceFiles(dir).find(f => f.startsWith("master/") && AUDIO_EXT.has(path.extname(f).toLowerCase()));
+  return rel ? { rel, path: path.join(dir, "sources", rel) } : null;
+}
+
+const LAYER_LABEL = { text: "Words", tune: "Music", arrangement: "Arrangement", recording: "Recording", artwork: "Artwork" };
+const COMPOSITION = ["text", "tune", "arrangement"];
+
+// One row per granted layer, collapsing the composition layers when they agree.
+export function grantRows(dir, song) {
+  const rights = song.rights ?? {};
+  const manifest = readManifest(dir);
+  const grantOf = layer => manifest.find(r => r.layer === layer && (r.submittedBy || r.acquired || r.evidence)) ?? null;
+  const rowFor = (label, layer, r) => {
+    const lic = LICENSES[r.license ?? song.license];
+    if (!lic) return null;
+    const g = grantOf(layer);
+    return {
+      label,
+      license: lic,
+      version: r.version || ((r.license ?? song.license) === song.license ? (song.licenseVersion || lic.versionDefault) : lic.versionDefault),
+      grantedBy: g?.submittedBy ?? null,
+      grantedAt: g?.acquired ?? null,
+      basis: r.basis ?? null
+    };
+  };
+  const out = [];
+  const comp = COMPOSITION.map(l => rights[l]).filter(Boolean);
+  const oneComposition = comp.length && comp.every(r => (r.license ?? song.license) === (comp[0].license ?? song.license));
+  if (oneComposition) {
+    const row = rowFor("Composition", COMPOSITION.find(l => rights[l]), comp[0]);
+    if (row) out.push(row);
+  } else {
+    for (const l of COMPOSITION) if (rights[l]) { const row = rowFor(LAYER_LABEL[l], l, rights[l]); if (row) out.push(row); }
+  }
+  for (const l of ["recording", "artwork"]) if (rights[l]) { const row = rowFor(LAYER_LABEL[l], l, rights[l]); if (row) out.push(row); }
+  return out;
+}
+
+// LICENSE.txt travels inside every bundle we hand out: what was granted, by whom,
+// what a church may do with it, and which files it was built from. Generated.
+export function renderLicenseTxt(dir, song, sources) {
+  const lines = [song.title];
+  const by = [song.writer, song.year && `(${song.year})`].filter(Boolean).join(" ");
+  if (by) lines.push(by);
+  lines.push("");
+
+  const rows = grantRows(dir, song);
+  const w = Math.max(0, ...rows.map(r => r.label.length));
+  for (const r of rows) {
+    const who = [r.grantedBy, r.grantedAt].filter(Boolean).join(", ");
+    const terms = r.license.id === "PD" ? "Public domain" : `${r.license.label} ${r.version}`;
+    lines.push(`${r.label.padEnd(w)}  ${terms}${who ? `   granted by ${who}` : r.basis ? `   ${r.basis}` : ""}`);
+  }
+  if (rows.length) lines.push("");
+
+  const lic = LICENSES[song.license];
+  if (!lic) throw new Error(`${song.title}: unknown license "${song.license}"`);
+  const wrap = (head, items) => {
+    if (!items?.length) return;
+    lines.push(`${head.padEnd(13)}${items[0].charAt(0).toLowerCase()}${items[0].slice(1)}`);
+    for (const it of items.slice(1)) lines.push(`${" ".repeat(13)}${it.charAt(0).toLowerCase()}${it.slice(1)}`);
+  };
+  wrap("You may:", lic.may);
+  wrap("You may not:", lic.mayNot);
+  wrap("You must:", lic.must);
+
+  // harvested metadata is not part of the bundle — same exclusions as sources.txt
+  const built = readManifest(dir).filter(r =>
+    r.layer !== "grant" && !r.file.startsWith("grants/") && !NOT_CITED.has(r.file));
+  if (built.length) {
+    lines.push("", "Built from:");
+    const fw = Math.max(...built.map(r => r.file.length));
+    for (const r of built) {
+      const s = r.licenseBasis && r.licenseBasis !== "contributor" ? sources[r.licenseBasis] : null;
+      const bits = [r.note || s?.name || r.licenseBasis].filter(Boolean);
+      if (r.evidence) bits.push(`grant on file${r.acquired ? ` ${r.acquired}` : ""}`);
+      else if (r.url) bits.push(r.url);
+      lines.push(`  ${r.file.padEnd(fw)}   ${bits.join("; ")}`.trimEnd());
+    }
+    lines.push("  everything else in this bundle was generated by WorshipCommons from the files above");
+  }
+
+  if (song.attribution?.text) lines.push("", `Credit: ${song.attribution.text}${song.attribution.link ? ` — ${song.attribution.link}` : ""}`);
+  lines.push("", `Full terms: ${song.licenseUrl || lic.legalUrl || lic.deedUrl}`);
+  return lines.join("\n") + "\n";
+}
+
+// walk <root>/songs/<lang>/<slug>-<id>/ folders; yields { langDir, folder, dir }
 export function* songDirs(root) {
   const songsRoot = path.join(root, "songs");
   if (!fs.existsSync(songsRoot)) return;
   for (const langDir of fs.readdirSync(songsRoot).filter(d => fs.statSync(path.join(songsRoot, d)).isDirectory()).sort()) {
-    for (const section of SECTIONS) {
-      const sectionRoot = path.join(songsRoot, langDir, section);
-      if (!fs.existsSync(sectionRoot)) continue;
-      for (const folder of fs.readdirSync(sectionRoot).filter(d => fs.statSync(path.join(sectionRoot, d)).isDirectory()).sort()) {
-        yield { section, langDir, folder, dir: path.join(sectionRoot, folder) };
-      }
+    const langRoot = path.join(songsRoot, langDir);
+    for (const folder of fs.readdirSync(langRoot).filter(d => fs.statSync(path.join(langRoot, d)).isDirectory()).sort()) {
+      yield { langDir, folder, dir: path.join(langRoot, folder) };
     }
   }
 }

@@ -25,9 +25,9 @@ const CANONICAL_OVERRIDES = {
 
 // load every song with its folder
 const songs = new Map(); // id → { song, dir, label }
-for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
+for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const song = readSong(dir);
-  songs.set(song.id, { song, dir, label: `songs/${langDir}/${section}/${folder}` });
+  songs.set(song.id, { song, dir, label: `songs/${langDir}/${folder}` });
 }
 
 // build families keyed by root id, merging chains (grandchildren collapse)
@@ -70,7 +70,7 @@ for (const [rootId, memberIds] of families) {
     workSlugs.add(slug);
     workDir = path.join(ROOT, "works", slug);
     ensurePkgDirs(workDir);
-    writeJson(path.join(workDir, "masters", "work.json"), { slug, title: canonical.song.title, canonicalSongId: canonicalId });
+    writeJson(path.join(workDir, "work.json"), { slug, title: canonical.song.title, canonicalSongId: canonicalId });
     stats.works++;
     // canonical's shared assets move to the work
     for (const f of SHARED) {

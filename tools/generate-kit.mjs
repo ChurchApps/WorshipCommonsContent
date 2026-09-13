@@ -1,11 +1,11 @@
-// Sunday-kit derivatives from SATB ABC + ChordPro + MIDI.
+// Sunday-kit outputs from SATB ABC + ChordPro + MIDI.
 //
 //   node tools/generate-kit.mjs                  whole library
 //   node tools/generate-kit.mjs amazing-grace    one slug
 //   node tools/generate-kit.mjs --skip-audio
 //
-// Writes (gitignored derivatives/, plus masters/lyrics.chordpro for chord backfill):
-//   chart-<key>.pdf  stage.pdf  stage-<key>.pdf
+// Writes (gitignored output/composition/, plus sources/lyrics.chordpro for chord backfill):
+//   chart.pdf  stage.pdf          (original key only — other keys render on demand)
 //   lead.abc lead.pdf  satb.pdf  soprano.pdf alto.pdf tenor.pdf bass.pdf
 //   piano.mp3 organ.mp3 click.mp3
 //   assets/pads/<key>.mp3
@@ -42,36 +42,33 @@ function py(script, args) {
   if (r.status) throw new Error(`${path.basename(script)} exited ${r.status}`);
 }
 
-function keyedPdfs(dir, song, stanzas, notice, kind) {
-  const { root, suffix } = splitKey(song.key || "");
-  if (!root || !/\[[A-G][#b]?/.test(stanzas.map(s => s.lines.join("\n")).join("\n"))) return { n: 0 };
+// One copy, original key. Every other key is a transposition of this same ChordPro and
+// is rendered on demand when a user picks a key — twelve PDFs per song per kind is a
+// cache nobody asked for. transposeStanzas/shiftFor do the work at request time.
+function originalPdf(dir, song, stanzas, notice, kind) {
+  const subtitle = [song.writer, song.key && `Key of ${song.key}`, song.timeSignature,
+    song.bpm && `${song.bpm} BPM`].filter(Boolean).join(" · ");
+  const pdf = kind === "stage"
+    ? stagePdf({ title: song.title, subtitle, footer: notice, stanzas })
+    : chartPdf({ title: song.title, subtitle, footer: notice, stanzas });
+  if (!pdf) return { n: 0 };
+  const name = kind === "stage" ? "stage.pdf" : "chart.pdf";
+  return { n: writeIfChanged(path.join(dir, "output", "composition", name), pdf) ? 1 : 0 };
+}
+
+// Sweep up the per-key fan-out an older version of this tool wrote.
+function dropKeyedPdfs(dir) {
+  const out = path.join(dir, "output", "composition");
+  if (!fs.existsSync(out)) return 0;
   let n = 0;
-  for (const k of KEY_CHOICES) {
-    const shift = shiftFor(song.key, k);
-    const useFlats = useFlatsFor(k);
-    const stamped = transposeStanzas(stanzas, shift, useFlats);
-    const subtitle = [song.writer, `Key of ${k}${suffix}`, song.timeSignature, song.bpm && `${song.bpm} BPM`].filter(Boolean).join(" · ");
-    const pdf = kind === "stage"
-      ? stagePdf({ title: song.title, subtitle, footer: notice, stanzas: stamped })
-      : chartPdf({ title: song.title, subtitle, footer: notice, stanzas: stamped });
-    if (!pdf) continue;
-    const name = kind === "stage" ? `stage-${keyFile(k)}.pdf` : `chart-${keyFile(k)}.pdf`;
-    if (writeIfChanged(path.join(dir, "derivatives", name), pdf)) n++;
+  for (const f of fs.readdirSync(out)) {
+    if (/^(chart|stage)-.+\.pdf$/.test(f)) { fs.unlinkSync(path.join(out, f)); n++; }
   }
-  const orig = kind === "stage"
-    ? stagePdf({
-      title: song.title,
-      subtitle: [song.writer, song.key && `Key of ${song.key}`, song.timeSignature, song.bpm && `${song.bpm} BPM`].filter(Boolean).join(" · "),
-      footer: notice,
-      stanzas
-    })
-    : null;
-  if (orig) writeIfChanged(path.join(dir, "derivatives", "stage.pdf"), orig);
-  return { n };
+  return n;
 }
 
 async function engravePackage(pkgDir, title, writer, notice, abc, { dropWords = false } = {}) {
-  const out = name => path.join(pkgDir, "derivatives", name);
+  const out = name => path.join(pkgDir, "output", "composition", name);
   const voices = abcVoices(abc);
   const footer = notice;
   const sub = [writer, abc.match(/^K:\s*(\S+)/m)?.[1] && `Key of ${abc.match(/^K:\s*(\S+)/m)[1]}`].filter(Boolean).join(" · ");
@@ -99,7 +96,7 @@ export async function generateKit(root = ROOT, arg, flags = {}) {
   }
 
   const { songs, works } = resolveTargets(root, arg);
-  const stats = { charts: 0, stage: 0, engraved: 0, fail: 0 };
+  const stats = { charts: 0, stage: 0, engraved: 0, dropped: 0, fail: 0 };
 
   for (const { dir } of songs) {
     const song = readSong(dir);
@@ -108,10 +105,9 @@ export async function generateKit(root = ROOT, arg, flags = {}) {
     const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
     const parsed = parseChordproStanzas(body);
     const notice = licenseNotice(song);
-    const c = keyedPdfs(dir, song, parsed, notice, "chart");
-    const s = keyedPdfs(dir, song, parsed, notice, "stage");
-    stats.charts += c.n;
-    stats.stage += s.n;
+    stats.dropped += dropKeyedPdfs(dir);
+    stats.charts += originalPdf(dir, song, parsed, notice, "chart").n;
+    stats.stage += originalPdf(dir, song, parsed, notice, "stage").n;
   }
 
   if (!flags.skipLeadAbc) {
@@ -127,7 +123,7 @@ export async function generateKit(root = ROOT, arg, flags = {}) {
         const abcFile = path.join(w.dir, "sources", "tune.abc");
         if (!fs.existsSync(abcFile)) continue;
         const abc = fs.readFileSync(abcFile, "utf8");
-        const meta = readJson(path.join(w.dir, "masters", "work.json"));
+        const meta = readJson(path.join(w.dir, "work.json"));
         try {
           await engravePackage(w.dir, meta.title || w.folder, "", "Public domain. Generated from the Open Hymnal SATB setting.", abc);
           stats.engraved++;
@@ -185,7 +181,7 @@ function parseFlags(argv) {
 async function main() {
   const { flags, arg } = parseFlags(process.argv.slice(2));
   const stats = await generateKit(ROOT, arg, flags);
-  console.log(`kit: ${stats.charts} keyed charts, ${stats.stage} stage keys, ${stats.engraved} engraved${stats.fail ? `, ${stats.fail} FAILED` : ""}`);
+  console.log(`kit: ${stats.charts} charts, ${stats.stage} stage charts, ${stats.engraved} engraved${stats.dropped ? `, ${stats.dropped} stale keyed PDFs removed` : ""}${stats.fail ? `, ${stats.fail} FAILED` : ""}`);
   return stats.fail ? 1 : 0;
 }
 

@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "file": "eventide.ly",
+      "url": "https://www.mutopiaproject.org/ftp/MonkWH/eventide/eventide.ly",
+      "acquired": "2026-09-08",
+      "sha256": "afaf42fad2e4ffdfd28ad1c2d26b59434b2a1b0bbfd7a1189cccabb602fd12da",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "5707119c50d26b3acff4c1ed6c3551a7409eec9705d0b84368afe92231df9dec",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "def0d8f4fc5f79f958a36776617c35042b0a306a75783bc6f934c536ad700725",
+      "licenseBasis": "wc-seed",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "81c1f268892af457669cc5ae1a7938b329359fb91029e56d80a61d192ac92427",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "7009c989cbf2c6c291e141cf8f708cdd7fd21b1c7ea675f2ae6bb6b929e693a7",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Lyric timings; the generator does not live in this repo",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "ba30d4ac1e68dfd5366c44fd4929e5b7a64fcd8c7122da67087b99ad2755ec45",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

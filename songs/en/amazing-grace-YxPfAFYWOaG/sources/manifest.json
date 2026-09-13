@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "26d6e806852185769f21face57d68d15ef04a9ff621b73b2fdce81622b7bf2b4",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "ae36d95af759a880004678f525f16b8b56ff7af73e7259fa58b5398be7ef5f2a",
+      "licenseBasis": "wc-seed",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "new_britain.ly",
+      "url": "https://www.mutopiaproject.org/ftp/Anonymous/new_britain/new_britain.ly",
+      "acquired": "2026-09-08",
+      "sha256": "98d91c76395a37fd0379896f6fee83f61386de08dd544ef188bc98251c513f4c",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "73a2de5078ad8f7e03f86f2e2a7d5f38e00f6d2d025eb95bb58a3665a8a6f132",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "3cc622a2df2641efb0a16c81ce7a82d9e8403305e11cb5d9035d11165ac53eb9",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Lyric timings; the generator does not live in this repo",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "e1c616b422b740b8c429c5caea64462e98444bb04427c8c096798965103f1a85",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

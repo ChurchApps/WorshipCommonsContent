@@ -37,7 +37,7 @@ function pushSample(key, label, max = 12) {
   if (samples[key].length < max) samples[key].push(label);
 }
 
-for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
+for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const song = readSong(dir);
   const work = song.workRef ? works.get(song.workRef) : null;
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
@@ -45,12 +45,12 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   const lyricStanzas = stanzas.filter(st => st.length >= 2);
   const chorded = lyricStanzas.filter(st => CHORD.test(st.slice(1).join("\n")));
   const anyChord = CHORD.test(body);
-  const rootRel = `songs/${langDir}/${section}/${folder}`;
+  const rootRel = `songs/${langDir}/${folder}`;
   const midi = !!resolveShared(rootRel, dir, work, "sources/tune.mid").path;
   const abc = !!resolveShared(rootRel, dir, work, "sources/tune.abc").path;
-  const timing = !!resolveShared(rootRel, dir, work, "derivatives/timing.json", { inherit: false }).path;
+  const timing = !!resolveShared(rootRel, dir, work, "sources/timing.json", { inherit: false }).path;
   const pdf = !!resolveShared(rootRel, dir, work, `sources/${song.uploads?.sheetPdf ?? "sheetPdf.pdf"}`, { inherit: false }).path;
-  const label = `${langDir}/${section}/${folder}`;
+  const label = `${langDir}/${folder}`;
   const partial = anyChord && lyricStanzas.length > 1 && chorded.length < lyricStanzas.length;
 
   buckets.total++;
@@ -67,7 +67,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
   if (anyChord && !partial) buckets.charted++;
 
   byLang[langDir] = (byLang[langDir] || 0) + 1;
-  bySection[section] = (bySection[section] || 0) + 1;
+  bySection[song.license] = (bySection[song.license] || 0) + 1;
 
   if (partial) pushSample("partialChords", `${label} (${chorded.length}/${lyricStanzas.length} stanzas)`);
   if (midi && !timing) pushSample("midiNoTiming", label);
@@ -77,7 +77,7 @@ for (const { section, langDir, folder, dir } of songDirs(ROOT)) {
 }
 
 const pct = (n) => buckets.total ? `${(100 * n / buckets.total).toFixed(1)}%` : "0%";
-console.log(`songs ${buckets.total}  langs ${JSON.stringify(byLang)}  sections ${JSON.stringify(bySection)}`);
+console.log(`songs ${buckets.total}  langs ${JSON.stringify(byLang)}  licenses ${JSON.stringify(bySection)}`);
 console.log(`chords     ${buckets.hasChords} (${pct(buckets.hasChords)})  fully charted ${buckets.charted}  partial ${buckets.partialChords}  none ${buckets.noChords}`);
 console.log(`midi       ${buckets.midi} (${pct(buckets.midi)})  midi without karaoke ${buckets.midiNoTiming}`);
 console.log(`karaoke    ${buckets.timing} (${pct(buckets.timing)})  midi+timing ${buckets.playable}`);

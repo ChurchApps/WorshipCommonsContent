@@ -1,4 +1,5 @@
-// Score step only: masters/score.musicxml from sources/tune.abc. Promotes an existing
+// Score step only: output/composition/score.musicxml from sources/tune.abc. A score in
+// sources/ wins and is left alone. Promotes nothing; the old note about promoting an existing
 // ABC conversion without python; a missing master still needs python 3 (or PYTHON=...).
 // `node tools/generate.mjs` already runs this step.
 // Usage: node tools/generate-scores.mjs [folder]

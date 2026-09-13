@@ -1,6 +1,18 @@
 {
   "files": [
     {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "7bc2eea0ad5c6d8c78de9d8554a7fa169a4904c11465bbefee1c87bb005fd6e0",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
       "file": "tune.mid",
       "url": null,
       "acquired": null,
