@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=263",
+      "acquired": "2026-09-14",
+      "sha256": "772bb9391604dabcc01640b1ca2de4f327c50a88546cf939004141ef59c11d50",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": false,
+      "submittedBy": "Larry Holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/AsTheRiverRuns2026.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "cbefde2c49b26c2c9af5fb74745680cd48685a9affa07f3fac3425cedde9ac00",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://songsofpraise.org/musicfiles/river.mid",
+      "acquired": "2026-09-14",
+      "sha256": "4ff2939f6b051b9de59241c1330bacd111a948141e343d4bff35d4b39a614e68",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://songsofpraise.org/pdf/river.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "50ff6ad85a10fc4b466310e9ba1e113cd1554f03a74bc74c595c4f7680ab1958",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=156",
+      "acquired": "2026-09-14",
+      "sha256": "b1322b768da79141c87101dcfdcb8b1567233c15cfe19504cd4351f0a99ae2d0",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": false,
+      "submittedBy": "Larry Holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/IWantYouToKnowAboutJesus2026.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "8d5a77a81eeb6458523d4bfad9c7bee35ed43bc423f73b6a2ff793df856c66ae",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://songsofpraise.org/musicfiles/jesus.mid",
+      "acquired": "2026-09-14",
+      "sha256": "935c48cd49aadeee88b4178f3013f94439449c99d37d87c049523b15540ac0b0",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://larryholdermusic.org/whenithink.html",
+      "acquired": "2026-09-14",
+      "sha256": "daccd175ac236519758ae0f085e857c8cd2adb8e200a2ac9033ecdab34e57689",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": false,
+      "submittedBy": "Larry Holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://larryholdermusic.org/midi/whenithink.mid",
+      "acquired": "2026-09-14",
+      "sha256": "65924030d9367da9081d1cfa0aa3d7a3a8092faea8bb5bc4f1ed9c77a9ca99a3",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

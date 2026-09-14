@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=110",
+      "acquired": "2026-09-14",
+      "sha256": "59c962772cb8301ae2f08f25aae75d30ad11e43d5b611c51305fc70a0fee65c5",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": false,
+      "submittedBy": "Larry Holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/IPraiseYouMyFather2026.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "16b0802324d26d65ad3e20efee31750c2e920ecdb2dadf6158a7521ed7f57f4c",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://songsofpraise.org/musicfiles/father.mid",
+      "acquired": "2026-09-14",
+      "sha256": "5d6eaf935292a0acb61686dce884d5b09d444ce642968d7ebab0692c6476b5f2",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://songsofpraise.org/pdf/father.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "b3b543cdf78614a7288de8cc9c40ad163611ad43a7d9e876bcc567cc88ce5a4c",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

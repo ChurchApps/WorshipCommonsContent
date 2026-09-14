@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=305",
+      "acquired": "2026-09-14",
+      "sha256": "f3fb2a287b951744747c2f8dd1329bb5eadd8a790552a64bd20bcb5f6556f098",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": false,
+      "submittedBy": "Larry Holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/turn.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "c2524e716be6a5c1fbc5340347f97b8edabed78c4232d60b45940e869d7ec0e1",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://songsofpraise.org/musicfiles/turn.mid",
+      "acquired": "2026-09-14",
+      "sha256": "f10b283f3a84f750c4a997bace812d2a02c0b5ac9e0c88176fcc57111f218589",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://songsofpraise.org/pdf/turn.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "3530d41645c76e1d18ec4970dee2e40a68789fc4854589b4040c4b27f3f9c058",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

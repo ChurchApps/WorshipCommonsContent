@@ -8,6 +8,7 @@ tools/.cache/
 # Harvest staging clones (not content)
 .staging/
 tools/harvest/staging-freely/
+tools/harvest/staging-larry/
 **/__pycache__/
 
 # Logs

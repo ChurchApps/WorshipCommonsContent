@@ -124,5 +124,15 @@
       "text": "Andrew Case",
       "link": "https://hismagnificence.com/music/"
     }
+  },
+  "larry-holder": {
+    "name": "Larry Holder Music",
+    "url": "https://larryholdermusic.org/",
+    "licenseBasis": "Copyright retained. The site's permissions page (larryholdermusic.org/copyright.html) grants non-profit copy, worship use, internal arrangements, and non-profit recordings, with original credits kept. Translation and lyric/melody changes are not granted. CCLI reporting is optional. Elton Smith co-writes are included under the same grant; other co-writers and novelty tracks were not taken.",
+    "attribution": {
+      "required": true,
+      "text": "Larry Holder",
+      "link": "https://larryholdermusic.org/"
+    }
   }
 }

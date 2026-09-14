@@ -1,0 +1,69 @@
+{
+  "id": "MuBpLTR9iZA",
+  "title": "A Brother to the Scum of the Earth",
+  "writer": "Larry Holder",
+  "year": 1997,
+  "language": "English",
+  "themes": "Praise",
+  "key": null,
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder",
+    "link": "https://larryholdermusic.org/"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "published on larryholdermusic.org",
+      "source": "larry-holder",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "tune": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "writer MP3 posted on larryholdermusic.org; non-profit grant",
+      "source": "larry-holder"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus:",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1:",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2:",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3:",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Chorus:",
+      "Verse 1:",
+      "Verse 2:",
+      "Verse 3:"
+    ]
+  },
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}

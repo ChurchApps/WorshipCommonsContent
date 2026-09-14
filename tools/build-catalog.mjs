@@ -51,6 +51,9 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     scripture: song.scripture,
     scriptureText: song.scriptureText ?? null,
     license: song.license,
+    licenseVersion: song.licenseVersion ?? null,
+    licenseUrl: song.licenseUrl ?? null,
+    attribution: song.attribution?.text ?? null,
     // Confidence is computed, never stored. A score inherited from the work counts:
     // the tune is scored even if this member's own words are not yet underlaid.
     // A score in sources/ was given to us or proofread; a built one is only as good

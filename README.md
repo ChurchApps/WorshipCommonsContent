@@ -228,7 +228,7 @@ Commit it in the **same commit** as the content that changed. Paths in the catal
 3. Rename the folder to `<slug>-<id>` so the last 11 characters match. `validate` errors if they disagree.
 4. Generate, build-catalog, validate, commit.
 
-Required in `song.json` for a catalog song: `id`, `title`, `writer`, `language`, `license`, `timeSignature`, `rights`. Themes must be names from `themes.json`. The license must be one of the six in `licenses/licenses.json`.
+Required in `song.json` for a catalog song: `id`, `title`, `writer`, `language`, `license`, `timeSignature`, `rights`. Themes must be names from `themes.json`. The license must be an id in `licenses/licenses.json` (the six featured grants, or a custom writer grant).
 
 ---
 

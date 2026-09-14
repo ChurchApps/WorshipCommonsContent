@@ -39,8 +39,9 @@ export const slugify = title =>
 export const packageFolder = (title, id) => `${slugify(title)}-${id}`;
 export const idFromFolder = folder => (folder.length > 12 && folder[folder.length - 12] === "-") ? folder.slice(-11) : null;
 
-// licenses/licenses.json is the registry of the six licenses we host; song.json "license"
-// is one of its ids. The site vendors this file as src/licenses.json.
+// licenses/licenses.json is the registry of grants we host; song.json "license"
+// is one of its ids (the six featured grants, or a custom writer grant).
+// The site vendors this file as src/licenses.json.
 export const LICENSES = Object.fromEntries(
   JSON.parse(fs.readFileSync(new URL("../licenses/licenses.json", import.meta.url), "utf8")).licenses.map(l => [l.id, l])
 );
@@ -472,6 +473,8 @@ export function renderSourcesTxt(dir, song, sources) {
     ? `License: Public domain.${pdSource ? ` Public-domain source: ${pdSource.name}.` : ""} See licenses/public-domain.md at the repository root.`
     : song.license === "WC"
     ? `License: The WorshipCommons License, Version ${version}. See licenses/wc-license.md at the repository root.`
+    : lic.custom
+    ? `License: ${lic.label} — ${song.licenseUrl || lic.legalUrl}.`
     : `License: Creative Commons ${lic.label} ${version} — ${song.licenseUrl || lic.legalUrl}. See licenses/${lic.section}.md at the repository root.`);
   if (song.attribution?.text) lines.push(`Attribution: ${song.attribution.text}${song.attribution.link ? ` — ${song.attribution.link}` : ""}`);
   return lines.join("\n") + "\n";

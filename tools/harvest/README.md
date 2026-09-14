@@ -22,6 +22,7 @@ and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-
 | `import-cmaa.mjs` | CMAA newly-composed PDFs whose *file* grant is CC BY 3.0 (skips ND, NC, "except commercial", CanticaNOVA) |
 | `import-freely-giving.mjs` | Original congregational songs listed at freely.giving/music with an explicit PD/CC0 dedication (Kevin Kwon; Mark Feezell originals). Skips All-Rights-Reserved lyric sheets, ESV psalm settings, and instrumental hymn arrangements of songs already in the catalog |
 | `import-andrew-case.py` | Andrew Case originals at hismagnificence.com/music/ after author PD confirmation 2026-09-14. Skips Sing Hebrew, third-party covers, ESV psalm sheets, Coca-Cola jingle, instrumentals without lyrics, duplicate mixes. After import: `node tools/generate.mjs <pkg>` then `python tools/pack/build.py <pkg>` (stems + MIDI/MusicXML from the vocal stem) |
+| `import-larry-holder.py` | Larry Holder worship songs at larryholdermusic.org (and Elton Smith co-writes linked from there on songsofpraise.org) under the custom `larry-holder` grant. Elton granted under Larry’s terms. Skips other co-writers (Rick Founds, Dave Laborde, Lee Kurt Holder, Steve Israel), novelty tracks, hymn adaptations, and photos. After import: `node tools/generate.mjs <pkg>` |
 | `import-mutopia.mjs` | Mutopia hymn SATB letter PDFs → sheetPdf on matching PD songs; Foundation as CC-BY-SA 2.0 |
 | `import-writer-portraits.ts` | Wikipedia/Commons portraits + bios |
 | `import-videos.ts` + `video-report.txt` | Curated YouTube performances |

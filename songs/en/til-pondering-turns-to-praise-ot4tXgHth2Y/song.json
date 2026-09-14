@@ -1,0 +1,84 @@
+{
+  "id": "ot4tXgHth2Y",
+  "title": "Til Pondering Turns To Praise",
+  "writer": "Larry Holder",
+  "year": 2010,
+  "language": "English",
+  "themes": "Praise",
+  "key": null,
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder",
+    "link": "https://larryholdermusic.org/"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "published on larryholdermusic.org",
+      "source": "larry-holder",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "tune": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "writer MP3 posted on larryholdermusic.org; non-profit grant",
+      "source": "larry-holder"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7"
+    ]
+  },
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "g2wSzutqCPa",
+  "title": "The Ballad of the Cross",
+  "writer": "Larry Holder / Elton Smith",
+  "year": 1997,
+  "language": "English",
+  "themes": "Praise",
+  "key": null,
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "published on larryholdermusic.org / songsofpraise.org",
+      "source": "larry-holder",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "tune": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "basis": "writer MP3 posted for free download; non-profit grant",
+      "source": "larry-holder"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus 1",
+      "Verse 3",
+      "Chorus 2"
+    ]
+  },
+  "uploads": {
+    "demoAudio": "song.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
