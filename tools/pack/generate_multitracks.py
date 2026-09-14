@@ -1308,10 +1308,12 @@ def main():
         peak_normalize as mix_peak,
         place_on_pack,
         read_audio,
+        select_real_stems,
         separate_demucs,
         split_lead_bgv,
     )
 
+    guitar_name = "EG 1"
     TRACK_TO_STEM = {
         "Click Track": "bounce",
         "Guide": "vocals",
@@ -1319,6 +1321,8 @@ def main():
         "Drums (Live)": "drums",
         "Bass": "bass",
         "EG 1": "guitar",
+        "Acoustic Guitar": "guitar",
+        "AG Group": "guitar",
         "Piano": "piano",
         "Keys 1": "other",
         "BGVS": "vocals:bgv",
@@ -1342,7 +1346,7 @@ def main():
             mix_music_start = first_music_time(mix_audio, SR)
             raw_sep: dict[str, np.ndarray] = {}
             stems_dir = HERE / "stems_out"
-            if args.from_stems or (stems_dir.exists() and (stems_dir / f"{mix_path.stem}_guitar.m4a").exists()):
+            if args.from_stems or (stems_dir.exists() and any(stems_dir.glob("*.m4a"))):
                 print("  loading stems_out", flush=True)
                 raw_sep = load_stems_out(stems_dir, CACHE / "pack_stems")
             if not raw_sep:
@@ -1350,6 +1354,8 @@ def main():
                 sep_paths = separate_demucs(mix_wav, CACHE / "separated", model)
                 print(f"  separated {sorted(sep_paths)}", flush=True)
                 raw_sep = {key: read_audio(p) for key, p in sep_paths.items()}
+            if args.real_only and raw_sep:
+                raw_sep = select_real_stems(raw_sep, mix_audio)
             head = float(np.sqrt(np.mean(mix_audio[: int(0.35 * SR)] ** 2)))
             body = float(np.sqrt(np.mean(mix_audio[int(8 * SR) : int(24 * SR)] ** 2)))
             if mix_music_start > 0.25:
@@ -1383,6 +1389,7 @@ def main():
                 lead, bgv = split_lead_bgv(mix_stems["vocals"], melody, SR)
                 mix_stems["vocals:lead"] = lead
                 mix_stems["vocals:bgv"] = bgv
+            guitar_name = "EG 1" if "drums" in mix_stems else "Acoustic Guitar"
         except Exception as e:
             print(f"  mix path failed ({type(e).__name__}: {e}); MIDI fallback", flush=True)
             mix_stems = {}
@@ -1409,6 +1416,31 @@ def main():
         job_stems = []
         for spec in arr["stems"]:
             job_stems.append((spec["name"], int(spec.get("color", 0)), spec))
+    elif args.real_only and mix_stems:
+        # One Live track per stem that survived select_real_stems. A vocal +
+        # guitar mix must not grow a phantom bass/keys/piano section.
+        real_tracks = {
+            "bounce": ("Click Track", 199, 0.18),
+            "vocals": ("Guide", 199, 0.55),
+            "drums": ("Drums", 152, 0.85),
+            "bass": ("Bass", 142, 0.80),
+            "guitar": (guitar_name, 159, 0.50),
+            "piano": ("Piano", 156, 0.62),
+            "other": ("Keys 1", 156, 0.40),
+        }
+        job_stems = []
+        for key in ("bounce", "vocals", "drums", "bass", "guitar", "piano", "other"):
+            if key not in mix_stems or key not in real_tracks:
+                continue
+            name, color, gain = real_tracks[key]
+            job_stems.append((name, color, {
+                "name": name,
+                "source": f"mix:{key}",
+                "peak": 0.74 if key == "guitar" else 0.70,
+                "mixGain": gain,
+                "cue": name == "Click Track",
+                "inFullMix": name != "Click Track",
+            }))
     else:
         job_stems = []
         for name, color, _pan, gain in STEMS:

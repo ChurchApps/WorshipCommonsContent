@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://drfeezell.com/holy-is-the-lord-2003-choir-and-piano/",
+      "acquired": "2026-09-14",
+      "sha256": "1616cfb214b98aaeb698f8b6ba4f298ea412abc7d94b1ef7c5cdd94f691e69ef",
+      "licenseBasis": "mark-feezell",
+      "original": true,
+      "submittedBy": null,
+      "note": "Harvested from https://drfeezell.com/holy-is-the-lord-2003-choir-and-piano/; writer dedicated the composition to the public domain (CC0 / copy.church/free)",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "text"
+    },
+    {
+      "file": "score.musicxml",
+      "url": "https://drfeezell.com/wp-content/uploads/holy-is-the-lord-choir-piano.xml",
+      "acquired": "2026-09-14",
+      "sha256": "c20e30a9635e880c28dd6bc7c862cf63e14ea07264b3f0aea0563ce7c8a2e294",
+      "licenseBasis": "mark-feezell",
+      "original": true,
+      "submittedBy": null,
+      "note": "Acquired from https://drfeezell.com/wp-content/uploads/holy-is-the-lord-choir-piano.xml",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "arrangement"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://drfeezell.com/wp-content/uploads/holy-is-the-lord-choir-piano.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "8daf2155f1709ab3a9100a3e48922997afcfd5ca809fb130ab04a2629bad1b8f",
+      "licenseBasis": "mark-feezell",
+      "original": true,
+      "submittedBy": null,
+      "note": "Acquired from https://drfeezell.com/wp-content/uploads/holy-is-the-lord-choir-piano.pdf",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "arrangement"
+    }
+  ]
+}

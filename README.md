@@ -90,6 +90,8 @@ flowchart LR
 
   abc --> dscore
   sheet --> dscore
+  rec --> dscore
+  words --> dscore
   words --> dcho
   words --> dpdf
   words --> dslides
@@ -100,7 +102,11 @@ flowchart LR
 ```
 
 A song with `song.json` + `sources/lyrics.chordpro` is complete and valid. We do not invent a
-melody, a score, or a recording to satisfy a format.
+melody without a recording or a written score. A granted mix in `sources/master/` always
+runs `python tools/pack/build.py`: a stems pack of the instruments that are in the mix
+(vocal + guitar stays vocal + guitar), then a generated MIDI/MusicXML from the
+vocal stem with the chordpro words underlaid. That generated score is a sketch until a
+person promotes it to `sources/score.musicxml`.
 
 ### `sources/` — what we cannot rebuild
 

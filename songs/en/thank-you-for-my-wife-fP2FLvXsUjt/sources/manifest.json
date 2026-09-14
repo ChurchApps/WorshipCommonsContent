@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://www.khmerworship.com/song/kevin-kwon/thank-you-for-my-wife-6444926",
+      "acquired": "2026-09-14",
+      "sha256": "bce86d37c67022f41ee9e7fb8296bf3f4114e5213125b1c0023dd1ed3d901e54",
+      "licenseBasis": "kevin-kwon",
+      "original": true,
+      "submittedBy": null,
+      "note": "Harvested from https://www.khmerworship.com/song/kevin-kwon/thank-you-for-my-wife-6444926; writer dedicated the composition to the public domain (CC0 / copy.church/free)",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "text"
+    }
+  ]
+}

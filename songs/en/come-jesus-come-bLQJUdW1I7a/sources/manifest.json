@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://www.khmerworship.com/song/kevin-kwon/come-jesus-come-4768441",
+      "acquired": "2026-09-14",
+      "sha256": "801588054cb66e59d46bfabe0d2d82f0834850fb16a7265d3bc85174c59ab80a",
+      "licenseBasis": "kevin-kwon",
+      "original": true,
+      "submittedBy": null,
+      "note": "Harvested from https://www.khmerworship.com/song/kevin-kwon/come-jesus-come-4768441; writer dedicated the composition to the public domain (CC0 / copy.church/free)",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "text"
+    }
+  ]
+}

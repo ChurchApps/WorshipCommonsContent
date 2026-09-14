@@ -94,5 +94,35 @@
       "text": "Mutopia Project",
       "link": "https://www.mutopiaproject.org"
     }
+  },
+  "kevin-kwon": {
+    "name": "Kevin Kwon (Mr. Edification)",
+    "url": "https://www.khmerworship.com/artists/1145388",
+    "licenseBasis": "Writer comments on each KhmerWorship song page dedicate the composition to the public domain and point at https://copy.church/free (the CC0-style legal text). Thank You For My Wife also says on the page 'This song is for the Public Domain'. Listed at https://freely.giving/music.",
+    "attribution": {
+      "required": false,
+      "text": "Kevin Kwon",
+      "link": "https://www.khmerworship.com/artists/1145388"
+    }
+  },
+  "mark-feezell": {
+    "name": "Mark Feezell — DrFeezell.com",
+    "url": "https://drfeezell.com/",
+    "licenseBasis": "Per-work CC0 1.0 public-domain dedication on the composition page and on the score itself (Holy is the Lord 2024-04-10; Hallelujah No. 1 2024-03-16, also copy.church/free). Instrumental arrangements of already-catalogued hymns are not imported as new songs.",
+    "attribution": {
+      "required": false,
+      "text": "Mark Feezell",
+      "link": "https://drfeezell.com/"
+    }
+  },
+  "andrew-case": {
+    "name": "Andrew Case — His Magnificence",
+    "url": "https://hismagnificence.com/music/",
+    "licenseBasis": "Author confirmed 2026-09-14 that original songs at hismagnificence.com/music/ are dedicated to the public domain (CC0), superseding 2008 All Rights Reserved footers on lyric PDFs. Covers of other writers, ESV psalm sheets, and Sing Hebrew were not taken.",
+    "attribution": {
+      "required": false,
+      "text": "Andrew Case",
+      "link": "https://hismagnificence.com/music/"
+    }
   }
 }

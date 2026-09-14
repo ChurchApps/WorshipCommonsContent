@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://drfeezell.com/hallelujah-1-2003-choir/",
+      "acquired": "2026-09-14",
+      "sha256": "202946d8d2b6ebbbf4c8483ba726609bbf33e54d76faa42dd1e6038a4ddf3fee",
+      "licenseBasis": "mark-feezell",
+      "original": true,
+      "submittedBy": null,
+      "note": "Harvested from https://drfeezell.com/hallelujah-1-2003-choir/; writer dedicated the composition to the public domain (CC0 / copy.church/free)",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "text"
+    },
+    {
+      "file": "score.musicxml",
+      "url": "https://drfeezell.com/wp-content/uploads/hallelujah-no-1-2004-choir.xml",
+      "acquired": "2026-09-14",
+      "sha256": "4bfecf4ec056b193947aba5457d0f6a66813274c57878031c67dc750f8403c7b",
+      "licenseBasis": "mark-feezell",
+      "original": true,
+      "submittedBy": null,
+      "note": "Acquired from https://drfeezell.com/wp-content/uploads/hallelujah-no-1-2004-choir.xml",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "arrangement"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://drfeezell.com/wp-content/uploads/halellujah-no-1-2004-choir.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "ed640a631628d6dc9a90d898b38027ed62d952ad662dbfc5b8de9a3a58188849",
+      "licenseBasis": "mark-feezell",
+      "original": true,
+      "submittedBy": null,
+      "note": "Acquired from https://drfeezell.com/wp-content/uploads/halellujah-no-1-2004-choir.pdf",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "arrangement"
+    }
+  ]
+}

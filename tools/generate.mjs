@@ -196,6 +196,7 @@ export function run(argv = process.argv.slice(2)) {
     const stats = generate(ROOT, arg);
     console.log(`generate: ${stats.songs} songs, ${stats.works} works, ${stats.pdf} chart.pdf, ${stats.skipPdf} pdf skipped (non-Latin), ${stats.thumbs} thumbs, ${stats.scores} scores, ${stats.midis} score.mid${stats.scoresFailed ? `, ${stats.scoresFailed} FAILED` : ""}`);
     if (!stats.python) console.warn("generate: python not found — new ABC files will not convert; existing conversions are still promoted (set PYTHON=...)");
+    if (arg) console.log("next: python tools/pack/build.py " + arg + "  (required when sources/master/ has a granted mix)");
     return stats.scoresFailed ? 1 : 0;
   } catch (e) {
     if (e.code === "NOT_FOUND") { console.error(e.message); usage(); return 1; }

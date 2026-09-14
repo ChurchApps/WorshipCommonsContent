@@ -414,6 +414,160 @@ def read_audio(path: Path, sr: int = SR) -> np.ndarray:
 
 
 _STEM_KEYS = ("vocals", "drums", "bass", "guitar", "piano", "other", "bounce")
+_BAND_KEYS = ("guitar", "bass", "drums", "piano", "other")
+
+
+def _mono(x: np.ndarray) -> np.ndarray:
+    return x.mean(axis=1) if x.ndim == 2 else x
+
+
+def _energy(x: np.ndarray) -> float:
+    return float(np.mean(np.square(x, dtype=np.float64)))
+
+
+def _slice(x: np.ndarray, sr: int = SR, seconds: float = 24.0) -> np.ndarray:
+    n = len(x)
+    take = min(n, int(seconds * sr))
+    start = max(0, n // 3 - take // 2)
+    return x[start : start + take]
+
+
+def _low_frac(x: np.ndarray, sr: int = SR, cutoff: float = 150.0) -> float:
+    """Share of spectral energy below `cutoff` Hz, from a mid-song slice."""
+    mono = _mono(_slice(x, sr))
+    if len(mono) < sr:
+        mono = _mono(x)
+    if mono.size < 16:
+        return 0.0
+    window = np.hanning(len(mono))
+    spec = np.abs(np.fft.rfft(mono * window))
+    freqs = np.fft.rfftfreq(len(mono), 1.0 / sr)
+    tot = float(spec.sum()) + 1e-12
+    return float(spec[freqs < cutoff].sum() / tot)
+
+
+def _frame_rms(x: np.ndarray, sr: int = SR, hop: float = 0.25) -> np.ndarray:
+    mono = _mono(x)
+    win = max(1, int(sr * hop))
+    n = len(mono) // win
+    if n == 0:
+        return np.array([float(np.sqrt(_energy(mono)))], dtype=np.float64)
+    return np.sqrt(np.mean(mono[: n * win].reshape(n, win) ** 2, axis=1))
+
+
+def _stem_stats(stem: np.ndarray, mix: np.ndarray, sr: int = SR) -> dict:
+    n = min(len(stem), len(mix))
+    stem, mix = stem[:n], mix[:n]
+    mix_e = _energy(mix) + 1e-18
+    e = _energy(stem)
+    fr, mfr = _frame_rms(stem, sr), _frame_rms(mix, sr)
+    m = min(len(fr), len(mfr))
+    active = float(np.mean(fr[:m] > 0.15 * mfr[:m])) if m else 0.0
+    return {
+        "share": e / mix_e,
+        "active": active,
+        "low": _low_frac(stem, sr),
+        "present": (e / mix_e) >= 0.008 or active >= 0.08,
+    }
+
+
+def _as_stereo(x: np.ndarray) -> np.ndarray:
+    a = np.asarray(x, dtype=np.float32)
+    if a.ndim == 1:
+        a = np.stack([a, a], axis=1)
+    elif a.shape[1] == 1:
+        a = np.repeat(a, 2, axis=1)
+    return a
+
+
+def _sum_stems(stems: dict[str, np.ndarray], keys: list[str]) -> np.ndarray | None:
+    parts = [_as_stereo(stems[k]) for k in keys if k in stems]
+    if not parts:
+        return None
+    n = max(len(p) for p in parts)
+    acc = np.zeros((n, 2), np.float32)
+    for p in parts:
+        acc[: len(p)] += p
+    peak = float(np.max(np.abs(acc)))
+    if peak > 0.99:
+        acc *= np.float32(0.99 / peak)
+    return acc
+
+
+def select_real_stems(
+    stems: dict[str, np.ndarray],
+    mix: np.ndarray | None = None,
+    sr: int = SR,
+) -> dict[str, np.ndarray]:
+    """Keep instruments that are in the mix; fold separator leftovers back.
+
+    BS-Roformer always emits guitar/drums/bass/piano/other. On a vocal +
+    acoustic-guitar recording the bass/drums/piano stems are leaked guitar,
+    not extra players — and the guitar stem is missing that low end. Dropping
+    them would thin the guitar; summing them back into the accompaniment
+    restores it. A drum kit is detected by kick energy in the drums stem.
+    """
+    band = {k: v for k, v in stems.items() if k in _BAND_KEYS}
+    kept: dict[str, np.ndarray] = {}
+    if "bounce" in stems:
+        kept["bounce"] = stems["bounce"]
+    if "vocals" in stems:
+        kept["vocals"] = stems["vocals"]
+    if not band:
+        return kept
+
+    if mix is None:
+        mix = _sum_stems(stems, [k for k in stems if k != "bounce"])
+    stats = {k: _stem_stats(v, mix, sr) for k, v in band.items()}
+
+    def present(key: str, share: float = 0.02, active: float = 0.20) -> bool:
+        s = stats.get(key)
+        return bool(s) and s["present"] and (s["share"] >= share or s["active"] >= active)
+
+    drums = stats.get("drums")
+    has_kit = bool(
+        drums
+        and drums["present"]
+        and (
+            (drums["low"] >= 0.08 and drums["share"] >= 0.03)
+            or (drums["share"] >= 0.15 and drums["active"] >= 0.35)
+        )
+    )
+    has_piano = present("piano", share=0.02, active=0.08)
+    has_guitar = present("guitar", share=0.02, active=0.20)
+
+    if has_kit:
+        if has_guitar:
+            kept["guitar"] = stems["guitar"]
+        if present("bass", share=0.015, active=0.15):
+            kept["bass"] = stems["bass"]
+        kept["drums"] = stems["drums"]
+        if has_piano:
+            kept["piano"] = stems["piano"]
+        other = stats.get("other")
+        if other and other["share"] >= 0.04 and other["active"] >= 0.25:
+            kept["other"] = stems["other"]
+        dropped = [k for k in band if k not in kept]
+        print(
+            f"  stems kept: {', '.join(k for k in _STEM_KEYS if k in kept)}"
+            + (f" (dropped {', '.join(dropped)})" if dropped else ""),
+            flush=True,
+        )
+        return kept
+
+    # No kit: singer-songwriter. One accompaniment track, not a phantom band.
+    host = "guitar" if has_guitar or not has_piano else "piano"
+    fold = [k for k in _BAND_KEYS if k in stems]
+    summed = _sum_stems(stems, fold)
+    if summed is None:
+        return kept
+    kept[host] = summed
+    print(
+        f"  stems kept: {', '.join(k for k in ('vocals', host, 'bounce') if k in kept)}"
+        f" (folded {', '.join(k for k in fold if k != host)} into {host})",
+        flush=True,
+    )
+    return kept
 
 
 def load_stems_out(folder: Path, cache_dir: Path, sr: int = SR) -> dict[str, np.ndarray]:

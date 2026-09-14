@@ -1,0 +1,52 @@
+{
+  "id": "p03wKSOvnvN",
+  "title": "Hallelujah No. 1",
+  "writer": "Mark Feezell",
+  "year": 2004,
+  "language": "English",
+  "themes": "Praise,Adoration",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "7/8",
+  "scripture": null,
+  "license": "PD",
+  "licenseVersion": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseSource": "mark-feezell",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2004",
+      "version": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "mark-feezell"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "mark-feezell",
+      "version": "CC0"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "mark-feezell",
+      "version": "CC0"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Chorus"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

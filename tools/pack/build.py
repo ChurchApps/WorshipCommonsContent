@@ -6,7 +6,8 @@
   python tools/pack/build.py songs/en/<slug>-<id>               one package
 
 No master recording, no pack. Nothing here turns MIDI into a bundle a church
-downloads: every track in the zip came out of the recording someone granted us.
+downloads: every track in the zip came out of the recording someone granted us,
+and only the instruments that are actually in that recording.
 Idempotent — a package whose pack is newer than its inputs is skipped, so running
 the whole library nightly costs nothing when nothing changed.
 
@@ -32,7 +33,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 AUDIO_EXT = {".wav", ".flac", ".m4a", ".mp3", ".aiff", ".aif", ".ogg", ".opus", ".mp4", ".mov"}
 # our own source changing is a reason to rebuild
-TOOL_FILES = [HERE / n for n in ("build.py", "generate_multitracks.py", "mt_mix.py", "separate_stems.py", "make_bounce.py")]
+TOOL_FILES = [HERE / n for n in ("build.py", "generate_multitracks.py", "mt_mix.py", "separate_stems.py", "make_bounce.py", "stems_to_score.py")]
 # Scratch lives outside the package: extracted mix, separated stems, soundfonts, WAV caches.
 # Only stems_out/ survives a build — it is the expensive part and the only thing worth a rerun.
 WORK_ROOT = ROOT / "tools" / ".cache" / "pack"
@@ -93,6 +94,21 @@ def gate(pkg: Path) -> tuple[dict, Path, dict]:
     if not song.get("bpm"):
         raise Skip("song.json has no bpm; the click track needs it")
     return song, master, row
+
+
+def _maybe_stamp_detected(pkg: Path, song: dict, info: dict) -> None:
+    """Fill empty key / harvest-default bpm from the recording. Does not overwrite a real key."""
+    changed = False
+    bpm = info.get("bpm")
+    if bpm and (not song.get("bpm") or song.get("bpm") == 80):
+        song["bpm"] = int(round(float(bpm)))
+        changed = True
+    key = info.get("key")
+    if key and not song.get("key"):
+        song["key"] = key
+        changed = True
+    if changed:
+        (pkg / "song.json").write_text(json.dumps(song, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def duration_seconds(path: Path) -> float:
@@ -168,10 +184,6 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
     work = WORK_ROOT / pkg.name
     (work / "masters").mkdir(parents=True, exist_ok=True)
     shutil.copy2(pkg / "song.json", work / "masters" / "song.json")
-    if score_src:
-        shutil.copy2(score_src, work / "masters" / "score.musicxml")
-    else:
-        stub_score(work / "masters" / "score.musicxml", song, duration_seconds(master))
     link_or_copy(master, work / master.name)
     (work / "masters" / "arrangement.json").write_text(
         json.dumps({"render": "mix", "mix": {"file": master.name, "countOffBars": 2}}, indent=2) + "\n",
@@ -191,6 +203,32 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
         sys.path.insert(0, str(HERE))
         from separate_stems import separate
         separate(master, stems_dir, bitrate="256k")
+
+    # A granted mix always yields a generated score unless a human score already
+    # lives in sources/. Sketch MIDI/MusicXML/lead-sheet go in output/composition/.
+    human_score = pkg / "sources" / "score.musicxml"
+    comp = pkg / "output" / "composition"
+    lyrics = pkg / "sources" / "lyrics.chordpro"
+    vocals = next(iter(stems_dir.glob("*_vocals.m4a")), None) or next(iter(stems_dir.glob("*vocals*")), None)
+    if not human_score.exists() and vocals and lyrics.exists():
+        print(f"  transcribe {vocals.name} → MIDI/MusicXML", flush=True)
+        try:
+            sys.path.insert(0, str(HERE))
+            from stems_to_score import transcribe
+            info = transcribe(vocals, lyrics, comp, song.get("bpm"))
+            print(
+                f"  {info['notes']} notes, {info['key']} @ {info['bpm']} bpm"
+                f"{'' if info.get('sheet') else ' (MusicXML only; no SVG/PDF renderer)'}",
+                flush=True,
+            )
+            score_src = comp / "score.musicxml"
+            _maybe_stamp_detected(pkg, song, info)
+        except Exception as e:
+            print(f"  transcribe failed ({type(e).__name__}: {e}); pack continues without a score", flush=True)
+    if score_src:
+        shutil.copy2(score_src, work / "masters" / "score.musicxml")
+    else:
+        stub_score(work / "masters" / "score.musicxml", song, duration_seconds(master))
 
     bounce = stems_dir / f"{master.stem}_bounce.m4a"
     if not bounce.exists() or mtime(bounce) < mtime(master):

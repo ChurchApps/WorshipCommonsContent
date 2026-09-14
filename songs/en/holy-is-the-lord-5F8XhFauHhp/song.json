@@ -1,0 +1,62 @@
+{
+  "id": "5F8XhFauHhp",
+  "title": "Holy is the Lord",
+  "writer": "Mark Feezell",
+  "year": 2003,
+  "language": "English",
+  "themes": "Adoration,Praise,Trinity",
+  "key": "Ab",
+  "bpm": 68,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "PD",
+  "licenseVersion": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseSource": "mark-feezell",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2003",
+      "version": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "mark-feezell"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "mark-feezell",
+      "version": "CC0"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "mark-feezell",
+      "version": "CC0"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Coda",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Coda"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

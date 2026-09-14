@@ -1,10 +1,12 @@
-"""Separate a mix into vocals, drums, bass, guitar, piano, and other.
+"""Separate a mix into the instruments that are actually in it.
 
 Pipeline:
   1. MelBand Roformer vocals
   2. BS-Roformer SW 6-stem on the mix (guitar/drums/bass/piano/other)
+  3. Keep real instruments; fold separator leftovers back into the accompaniment
 
 SW jointly models guitar vs drums, which stays crisper when the kit is in.
+A vocal + acoustic-guitar mix becomes vocals + guitar, not a phantom band.
 Writes AAC .m4a stems by default.
 """
 
@@ -155,8 +157,26 @@ def separate(
         "piano": _stem_path(band_files, work, "piano"),
         "other": _stem_path(band_files, work, "other"),
     }
+    try:
+        import soundfile as sf
+        from mt_mix import read_audio, select_real_stems
+
+        arrays = {name: read_audio(path) for name, path in stem_map.items()}
+        kept = select_real_stems(arrays, read_audio(mix))
+        for name, audio in kept.items():
+            dest = stem_map.get(name) or (work / f"{name}.wav")
+            sf.write(str(dest), audio, 44100)
+            stem_map[name] = dest
+        for name in [k for k in list(stem_map) if k not in kept]:
+            del stem_map[name]
+    except Exception as exc:
+        print(f"  stem prune skipped ({type(exc).__name__}: {exc}); packing all stems")
     written: list[str] = []
     prefix = input_path.stem
+    for stale in output_dir.glob(f"{prefix}_*.m4a"):
+        key = stale.stem[len(prefix) + 1 :]
+        if key not in stem_map and key != "bounce":
+            stale.unlink(missing_ok=True)
     for name, wav in stem_map.items():
         dest = output_dir / f"{prefix}_{name}.m4a"
         print(f"encode {name} -> {dest.name} ({bitrate} AAC)")
