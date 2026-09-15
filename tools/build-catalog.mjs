@@ -53,6 +53,7 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     license: song.license,
     licenseVersion: song.licenseVersion ?? null,
     licenseUrl: song.licenseUrl ?? null,
+    ccli: song.ccli ?? null,
     attribution: song.attribution?.text ?? null,
     // Confidence is computed, never stored. A score inherited from the work counts:
     // the tune is scored even if this member's own words are not yet underlaid.

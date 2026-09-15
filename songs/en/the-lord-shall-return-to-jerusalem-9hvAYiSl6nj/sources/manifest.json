@@ -64,6 +64,18 @@
       "layer": "arrangement",
       "obtainedVia": "harvest",
       "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-15",
+      "sha256": "c2cc3198a71a8bae896db3ecbe55449058a3d85c0ddd0614657cdf202becc794",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
     }
   ]
 }

@@ -7,6 +7,8 @@ tracks, PD-hymn adaptations, and third-party photos are skipped.
 
   python tools/harvest/import-larry-holder.py
   python tools/harvest/import-larry-holder.py --dry-run
+  python tools/harvest/import-larry-holder.py --refresh   # re-parse existing packages
+  python tools/harvest/import-larry-holder.py --selftest  # parser checks, no network
 """
 from __future__ import annotations
 
@@ -17,6 +19,7 @@ import html as htmlmod
 import json
 import re
 import urllib.request
+import mido
 from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
@@ -30,19 +33,21 @@ LICENSE_URL = "https://larryholdermusic.org/copyright.html"
 BASE = "https://larryholdermusic.org/"
 UA = {"User-Agent": "WorshipCommonsHarvest/1.0 (library ingest; +https://worshipcommons.org)"}
 
-CATEGORIES = [
-    "upbeatpraise.html",
-    "firstcoming.html",
-    "hisbirth.html",
-    "jerusalemtocross.html",
-    "secondcoming.html",
-    "dailywalk.html",
-    "quietpraise.html",
-    "weddings.html",
-    "specialsongs.html",
-    "christaliveinme.html",
-    "morethan.html",
-]
+# category page -> theme (themes.json vocabulary). The site's own shelving is the only
+# theme evidence we have; "Praise" is the catch-all for the praise/daily-walk shelves.
+CATEGORIES = {
+    "upbeatpraise.html": "Praise",
+    "firstcoming.html": "Advent",
+    "hisbirth.html": "Christmas",
+    "jerusalemtocross.html": "Cross",
+    "secondcoming.html": "Hope",
+    "dailywalk.html": "Praise",
+    "quietpraise.html": "Adoration",
+    "weddings.html": "Wedding",
+    "specialsongs.html": "Praise",
+    "christaliveinme.html": "Praise",
+    "morethan.html": "Christmas",
+}
 
 SKIP_HREF = re.compile(
     r"(tomlascoemusic|youtube\.com|youtu\.be|itunes\.apple|"
@@ -136,10 +141,10 @@ class LinkCollector(HTMLParser):
             self.hrefs.append(href)
 
 
-def collect_song_urls() -> list[str]:
-    found: list[str] = []
+def collect_song_urls() -> dict[str, str]:
+    found: dict[str, str] = {}
     seen: set[str] = set()
-    for page in CATEGORIES:
+    for page, theme in CATEGORIES.items():
         url = urljoin(BASE, page)
         text = fetch_text(url)
         p = LinkCollector()
@@ -148,7 +153,7 @@ def collect_song_urls() -> list[str]:
         if page in ("christaliveinme.html", "morethan.html"):
             if url not in seen:
                 seen.add(url)
-                found.append(url)
+                found[url] = theme
         for href in p.hrefs:
             if SKIP_HREF.search(href or ""):
                 continue
@@ -167,7 +172,7 @@ def collect_song_urls() -> list[str]:
                 continue
             if absu not in seen:
                 seen.add(absu)
-                found.append(absu)
+                found[absu] = theme
     return found
 
 
@@ -242,6 +247,8 @@ def file_links(html: str, page_url: str) -> dict[str, str]:
         out["midi"] = (plain or midis)[0]
     if pdfs:
         out["pdf"] = pdfs[0]
+    chosen = set(out.values())
+    out["extra"] = [u for u in mp3s + midis + pdfs if u not in chosen]  # granted, kept, never processed
     return out
 
 
@@ -298,7 +305,23 @@ def lyrics_from_text(text: str, title: str) -> str | None:
     text_body = "\n".join(body).strip()
     if len(re.sub(r"\s+", "", text_body)) < 80:
         return None
-    # label blank-line stanzas as verses
+    return label_stanzas(text_body)
+
+
+SECTION = r"verse|chorus|refrain|bridge|tag|intro|outro|ending|coda|pre-?chorus"
+DROP_DIRECTION = re.compile(
+    r"^\(?\s*(?:\d+\s+measures?\s+|short\s+|brief\s+|piano\s+|guitar\s+|instrumental\s+)?"
+    r"(introduction|intro|interlude|instrumental|solo|change keys?|key change|modulat\w*|turnaround|ending)\s*\)?$", re.I)
+
+
+def label_stanzas(text_body: str) -> str:
+    """Turn the site's italic stage directions into section labels and cues.
+
+    (Mary sings verse 1) -> "Verse 1" + {c: Mary};  (Bridge) -> "Bridge";  (Elizabeth) -> {c: Elizabeth};
+    (Introduction) / (Change keys) -> dropped.  Unlabelled stanzas become Verse n, except that an
+    unlabelled stanza right after a Verse is that verse's second half (this site breaks a verse and
+    its built-in refrain with a blank line, and labels only the verse).
+    """
     chunks, cur = [], []
     for ln in text_body.split("\n"):
         if ln.strip():
@@ -308,22 +331,63 @@ def lyrics_from_text(text: str, title: str) -> str | None:
             cur = []
     if cur:
         chunks.append(cur)
-    out: list[str] = []
-    n = 0
+    # an unlabelled stanza that recurs verbatim is the chorus, whatever the site called it
+    norm = lambda st: re.sub(r"[^a-z]", "", " ".join(st).casefold())
+    counts: dict[str, int] = {}
     for st in chunks:
-        head = st[0]
-        if re.match(r"^(verse|chorus|refrain|bridge|tag|intro|outro|pre-?chorus)\b", head, re.I):
-            out.append(head)
-            out.extend(st[1:])
-        elif re.match(r"^\[(verse|chorus|bridge|tag)", head, re.I):
-            out.append(re.sub(r"[\[\]]", "", head))
-            out.extend(st[1:])
-        else:
+        counts[norm(st)] = counts.get(norm(st), 0) + 1
+    out: list[list[str]] = []
+    n, explicit = 0, False
+    for st in chunks:
+        label, lines = None, []
+        if counts[norm(st)] > 1 and not re.match(rf"^\[?\(?\s*(?:{SECTION})", st[0], re.I):
+            label = "Chorus"
+        for ln in st:
+            t = ln.strip()
+            if DROP_DIRECTION.match(t):
+                continue
+            m = re.match(rf"^\[?\(?\s*(?:(?P<who>[A-Z][\w' ]*?)\s+sings?\s+)?(?P<sec>(?:{SECTION})\s*\d*)(?:\s+together)?\s*\)?\]?:?$", t, re.I)
+            if m and label is None and not lines:
+                label = m.group("sec").strip().title()
+                if m.group("who"):
+                    lines.append(f"{{c: {m.group('who').strip()}}}")
+                continue
+            m = re.match(r"^\(([^)]{1,60})\)$", t)
+            if m:
+                lines.append(f"{{c: {m.group(1).strip()}}}")
+                continue
+            lines.append(t)
+        if not any(not l.startswith("{c:") for l in lines):
+            continue
+        if label is None and out and explicit and re.match(r"^Verse", out[-1][0]):
+            out[-1].extend(lines)  # ponytail: continuation of a source-labelled verse — see docstring
+            continue
+        explicit = label is not None
+        if label is None:
             n += 1
-            out.append(f"Verse {n}")
-            out.extend(st)
-        out.append("")
-    return "\n".join(out).rstrip() + "\n"
+            label = f"Verse {n}"
+        elif re.match(r"^Verse \d", label):
+            n = max(n, int(label.split()[1]))
+        out.append([label, *lines])
+    return "\n\n".join("\n".join(st) for st in out).rstrip() + "\n"
+
+
+def midi_meta(p: Path) -> dict:
+    """tempo / key / time from the writer's MIDI, else {}."""
+    try:
+        mf = mido.MidiFile(p)
+    except Exception:
+        return {}
+    out: dict = {}
+    for tr in mf.tracks:
+        for msg in tr:
+            if msg.type == "set_tempo" and "bpm" not in out:
+                out["bpm"] = int(round(mido.tempo2bpm(msg.tempo)))
+            elif msg.type == "key_signature" and "key" not in out:
+                out["key"] = msg.key
+            elif msg.type == "time_signature" and "time" not in out:
+                out["time"] = f"{msg.numerator}/{msg.denominator}"
+    return out
 
 
 def draft_form(body: str) -> dict | None:
@@ -348,37 +412,59 @@ def write_json(p: Path, obj) -> None:
     p.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
 
 
+CCLI_RE = re.compile(r"CCLI\s*(?:Song\s*I[dD]|#|No\.?|Number)?\s*[:#]?\s*(\d{5,8})", re.I)
+
+
+def parse_ccli(html: str, text: str) -> str | None:
+    m = CCLI_RE.search(html) or CCLI_RE.search(text)
+    return m.group(1) if m else None
+
+
 def is_allowed_writer(name: str) -> bool:
     low = name.casefold()
     return any(a in low for a in ALLOWED_WRITERS)
 
 
+CREDIT_LINE = re.compile(
+    r"(?:^|[.;,]\s*)(?:written|words(?:\s*(?:,|and|&)\s*music)?(?:\s*(?:,|and|&)\s*arrangement)?|music|lyrics)\s+by\s+(.+?)(?=(?:,\s*)?(?:words|music|lyrics)\s+by\s|\.\s*$|$)",
+    re.I,
+)
+
+
 def parse_written_by(html: str, text: str) -> list[str]:
-    m = re.search(
-        r"(?:Written by|Words and Music by|Words\s*&\s*Music by)\s+([^<]{3,200}?)(?:<br|Links to|Copyright|$)",
-        html,
-        re.I | re.S,
-    )
-    raw = ""
-    if m:
-        raw = htmlmod.unescape(re.sub(r"<[^>]+>", " ", m.group(1)))
-    else:
-        m = re.search(
-            r"(?:Written by|Words and Music by|Words\s*&\s*Music by)\s+(.+)",
-            text,
-            re.I,
-        )
-        raw = m.group(1) if m else ""
-    raw = re.split(r"\n", raw, maxsplit=1)[0]
-    parts = re.split(r"\s*(?:,| and | & |/)\s*", raw, flags=re.I)
-    return [re.sub(r"\s+", " ", p).strip(" .") for p in parts if p.strip(" .")]
+    """Every name on a Written by / Words by / Music by line in the page header.
+
+    Handles "Music by Mark Wilkinson, Words by Larry Holder." on one line and a credit that
+    wraps onto an "and Rick Founds" continuation line. Singers, sequencers and photo credits are
+    other verbs and are not writers.
+    """
+    lines = [ln.strip() for ln in text.split("\n")]
+    names: list[str] = []
+    for i, ln in enumerate(lines[:120]):
+        if not re.search(r"\b(?:written|words|music|lyrics)\b[^\n]{0,40}\bby\b", ln, re.I):
+            continue
+        raw = ln
+        j = i + 1
+        while j < len(lines) and re.match(r"^(?:and|&|,|y|e)\s+\S", lines[j], re.I):
+            raw += " " + lines[j]
+            j += 1
+        for m in CREDIT_LINE.finditer(raw):
+            names += re.split(r"\s*(?:,| and | & |/| y | e )\s*", m.group(1), flags=re.I)
+    out: list[str] = []
+    for n in names:
+        n = re.sub(r"\s+", " ", n).strip(" .")
+        n = re.sub(r"\s*\(.*?\)\s*$", "", n)
+        n = re.sub(r"^(?:and|&|y|e)\s+", "", n, flags=re.I)
+        if n and n.casefold() not in ("and", "y", "e") and n not in out:
+            out.append(n)
+    return out
 
 
 def writer_credit(names: list[str]) -> str:
-    has_elton = any("elton" in n.casefold() for n in names)
-    if has_elton:
-        return "Larry Holder / Elton Smith"
-    return "Larry Holder"
+    # the site's order, as printed ("Elton Smith and Larry Holder" stays that way)
+    canon = {"lawrence keith holder": "Larry Holder"}
+    names = [canon.get(n.casefold(), n) for n in names if is_allowed_writer(n)]
+    return " / ".join(dict.fromkeys(names)) or "Larry Holder"
 
 
 def skip_reason(html: str, text: str, url: str) -> str | None:
@@ -395,7 +481,7 @@ def skip_reason(html: str, text: str, url: str) -> str | None:
         return "co-write (" + ", ".join(extra) + ")"
     if not names:
         head = text[:2500]
-        if re.search(r"dave laborde|lee kurt|rick founds", head, re.I):
+        if re.search("|".join(map(re.escape, BLOCKED_WRITERS)), head, re.I):
             return "co-write"
         if re.search(r"music from .*lee kurt", text, re.I):
             return "co-write"
@@ -403,28 +489,19 @@ def skip_reason(html: str, text: str, url: str) -> str | None:
 
 
 def lyrics_from_sop(html: str) -> str | None:
-    m = re.search(r'id="lyrics"(.*?)Copyright\s*(?:©|&copy;)', html, re.I | re.S)
+    m = re.search(r'id="lyrics".*?</header>(.*?)Copyright\s*(?:©|&copy;)', html, re.I | re.S)
     if not m:
         return None
-    chunk = m.group(1)
+    chunk = m.group(1).replace("\r", "").replace("\n", " ")  # the HTML's own newlines are noise; <BR> is the line break
     chunk = re.sub(r"(?is)<br\s*/?>", "\n", chunk)
     chunk = re.sub(r"(?is)</(p|div|h[1-6])>", "\n", chunk)
     chunk = re.sub(r"(?is)<[^>]+>", "", chunk)
     chunk = htmlmod.unescape(chunk)
     lines = [re.sub(r"[ \t]+", " ", ln).strip() for ln in chunk.replace("\r", "").split("\n")]
-    out: list[str] = []
-    for ln in lines:
-        if not ln:
-            if out and out[-1] != "":
-                out.append("")
-            continue
-        ln = re.sub(r"^\((verse|chorus|refrain|bridge|tag|intro|outro|ending|pre-?chorus)([^)]*)\)\s*$",
-                    lambda x: x.group(1).title() + x.group(2), ln, flags=re.I)
-        out.append(ln)
-    text_body = "\n".join(out).strip()
+    text_body = "\n".join(lines).strip()
     if len(re.sub(r"\s+", "", text_body)) < 80:
         return None
-    return text_body + "\n"
+    return label_stanzas(text_body)
 
 
 def language_of(title: str, body: str) -> str:
@@ -436,7 +513,7 @@ def language_of(title: str, body: str) -> str:
     return "English"
 
 
-def write_song(url: str, html: str, text: str, files: dict[str, str], title: str, year: int, body: str, writer: str) -> Path:
+def write_song(url: str, html: str, text: str, files: dict, title: str, year: int, body: str, writer: str, theme: str = "Praise") -> Path:
     lang_name = language_of(title, body)
     lang = "es" if lang_name == "Spanish" else "en"
     sid = id_for(title)
@@ -447,11 +524,24 @@ def write_song(url: str, html: str, text: str, files: dict[str, str], title: str
     (src / "grants").mkdir(exist_ok=True)
 
     (src / GRANT).write_text(GRANT_TEXT, encoding="utf-8", newline="\n")
+    prev = json.loads((pkg / "song.json").read_text(encoding="utf-8")) if (pkg / "song.json").exists() else {}
+    prev_rows = {}
+    if (src / "manifest.json").exists():
+        prev_rows = {r["file"]: r for r in json.loads((src / "manifest.json").read_text(encoding="utf-8"))["files"]}
+
+    meta = {}
+    if files.get("midi"):
+        download(files["midi"], src / "tune.mid")
+        meta = midi_meta(src / "tune.mid")
+    bpm = meta.get("bpm") or 80  # ponytail: 80 is the catalog default when nothing says otherwise
+    key = meta.get("key")
+    time_sig = meta.get("time") or "4/4"
     lyrics = "\n".join([
         f"{{title: {title}}}",
         f"{{artist: {writer}}}",
-        "{time: 4/4}",
-        "{tempo: 80}",
+        *([f"{{key: {key}}}"] if key else []),
+        f"{{time: {time_sig}}}",
+        f"{{tempo: {bpm}}}",
         "",
         body.rstrip(),
         "",
@@ -542,27 +632,51 @@ def write_song(url: str, html: str, text: str, files: dict[str, str], title: str
             "evidence": GRANT,
         })
         uploads["sheetPdf"] = "sheetPdf.pdf"
+    for u in files.get("extra", []):
+        name = urlparse(u).path.rsplit("/", 1)[-1]
+        dest = src / "extra" / name
+        download(u, dest)
+        manifest.append({
+            "file": f"extra/{name}",
+            "url": u,
+            "acquired": ACQUIRED,
+            "sha256": sha256(dest),
+            "license": "larry-holder",
+            "licenseBasis": SOURCE,
+            "original": True,
+            "submittedBy": "Larry Holder",
+            "layer": {"mp3": "recording", "mid": "tune"}.get(name.rsplit(".", 1)[-1].lower(), "arrangement"),
+            "obtainedVia": "harvest",
+            "evidence": GRANT,
+            "note": "Granted alongside the song; kept as-is, not processed",
+        })
+    # rows this importer does not own (timing.json, cover.webp, ...) survive a --refresh
+    mine = {r["file"] for r in manifest}
+    manifest.extend(r for f, r in prev_rows.items() if f not in mine and (src / f).exists())
 
     form = draft_form(body)
+    themes = prev.get("themes") if prev.get("themes") not in (None, "", "Praise") else theme
     song = {
         "id": sid,
         "title": title,
         "writer": writer,
         "year": year,
         "language": lang_name,
-        "themes": "Praise",
-        "key": None,
-        "bpm": 80,
-        "timeSignature": "4/4",
-        "scripture": None,
+        "themes": themes,
+        "key": key,
+        "bpm": bpm,
+        "timeSignature": time_sig,
+        "scripture": prev.get("scripture"),
         "license": "larry-holder",
         "licenseVersion": "permissions",
         "licenseUrl": LICENSE_URL,
+        "ccli": parse_ccli(html, text),
         "attribution": {
             "required": True,
             "text": writer,
             "link": "https://larryholdermusic.org/" if "Elton" not in writer else "https://larryholdermusic.org/copyright.html",
         },
+        **({"ccli": prev["ccli"]} if prev.get("ccli") else {}),
         "rights": {
             "text": {
                 "license": "larry-holder",
@@ -582,21 +696,73 @@ def write_song(url: str, html: str, text: str, files: dict[str, str], title: str
         del song["uploads"]
     if song["form"] is None:
         del song["form"]
+    if not song["ccli"]:
+        del song["ccli"]
     write_json(pkg / "song.json", song)
     write_json(src / "manifest.json", {"files": manifest})
     return pkg
 
 
+def backfill_ccli(dry_run: bool) -> int:
+    import time
+    n = 0
+    for song_path in sorted((ROOT / "songs").glob("*/*/song.json")):
+        song = json.loads(song_path.read_text(encoding="utf-8"))
+        if song.get("license") != "larry-holder":
+            continue
+        man = song_path.parent / "sources" / "manifest.json"
+        if not man.exists():
+            continue
+        files = json.loads(man.read_text(encoding="utf-8")).get("files") or []
+        url = next((f.get("url") for f in files if f.get("file") == "lyrics.chordpro"), None)
+        if not url:
+            continue
+        html = fetch_text(url)
+        ccli = parse_ccli(html, strip_tags(html))
+        print(f"  {song.get('title')}: {ccli or '—'}")
+        if ccli and song.get("ccli") != ccli and not dry_run:
+            song["ccli"] = ccli
+            write_json(song_path, song)
+            n += 1
+        time.sleep(0.4)
+    print(f"updated {n} song.json files")
+    return 0
+
+
+def selftest() -> None:
+    # the header layouts the site actually uses
+    assert parse_written_by("", "Written by Elton Smith and Larry Holder\n\nRecording by Susan Tolle-Knight") == ["Elton Smith", "Larry Holder"]
+    assert parse_written_by("", "Music by Mark Wilkinson, Words by Larry Holder.") == ["Mark Wilkinson", "Larry Holder"]
+    assert parse_written_by("", "Words by Larry Holder\nand Rick Founds\nMusic by Rick Founds") == ["Larry Holder", "Rick Founds"]
+    assert parse_written_by("", "Words by Elton Smith, Larry Holder, and Steve Israel") == ["Elton Smith", "Larry Holder", "Steve Israel"]
+    assert writer_credit(["Elton Smith", "Larry Holder"]) == "Elton Smith / Larry Holder"
+    # stage directions -> labels/cues; verbatim repeats -> Chorus; refrain glued to a source-labelled verse
+    body = label_stanzas("(8 Measure Introduction)\n\n(Mary sings verse 1)\nA\nB\n\nR1\nR2\n\n(Bridge)\n(Elizabeth)\nC\n\nX\nY\n\n(Change keys)\n\nZ\n\nX\nY\n")
+    assert body.split("\n\n") == ["Verse 1\n{c: Mary}\nA\nB\nR1\nR2", "Bridge\n{c: Elizabeth}\nC", "Chorus\nX\nY", "Verse 2\nZ", "Chorus\nX\nY\n"], body
+    # <BR>-per-line pages: a stanza break is a doubled <BR>, the HTML's own newlines mean nothing
+    html = '<div id="lyrics"><header><h2>Lyrics</h2></header><h3>\nA long enough lyric line one,<BR>\nline two of the song,<BR>\n<BR>\nline three of the song,<BR>\nand the fourth line here.<BR>\n</h3>Copyright &copy; 2000'
+    assert lyrics_from_sop(html) == "Verse 1\nA long enough lyric line one,\nline two of the song,\n\nVerse 2\nline three of the song,\nand the fourth line here.\n"
+    print("selftest ok")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--refresh", action="store_true", help="rewrite lyrics/song.json/manifest of packages that already exist")
+    ap.add_argument("--ccli", action="store_true", help="re-fetch source pages and stamp song.json ccli")
     args = ap.parse_args()
+    if args.selftest:
+        selftest()
+        return 0
+    if args.ccli:
+        return backfill_ccli(args.dry_run)
     STAGING.mkdir(parents=True, exist_ok=True)
 
     urls = collect_song_urls()
     print(f"found {len(urls)} candidate pages")
     imported, skipped = [], []
-    for url in urls:
+    for url, theme in urls.items():
         html = fetch_text(url)
         text = strip_tags(html)
         why = skip_reason(html, text, url)
@@ -621,11 +787,11 @@ def main() -> int:
             imported.append(title)
             continue
         dest = ROOT / "songs" / ("es" if language_of(title, body) == "Spanish" else "en") / f"{slugify(title)}-{id_for(title)}"
-        if (dest / "song.json").exists():
+        if (dest / "song.json").exists() and not args.refresh:
             print(f"    have {dest.name}")
             imported.append(str(dest.relative_to(ROOT)))
             continue
-        pkg = write_song(url, html, text, files, title, year, body, writer)
+        pkg = write_song(url, html, text, files, title, year, body, writer, theme)
         imported.append(str(pkg.relative_to(ROOT)))
         print(f"    -> {pkg.relative_to(ROOT)}")
 

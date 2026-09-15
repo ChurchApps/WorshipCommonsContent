@@ -17,6 +17,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { spawnSync } from "node:child_process";
 import {
   songDirs, readWorks, readJson, readSong, lyricsPath, splitChordpro,
   renderSourcesTxt, renderLicenseTxt, ensurePkgDirs, licenseNotice, parseChordproStanzas, stripChords
@@ -44,8 +45,19 @@ function slidesOf(stanzas) {
   };
 }
 
-function durationOf(song, stanzas, existingTiming) {
+function masterSeconds(dir) {
+  const master = path.join(dir, "sources", "master");
+  const file = fs.existsSync(master) && fs.readdirSync(master).find(f => /\.(wav|m4a|mp3|flac|mp4)$/i.test(f));
+  if (!file) return null;
+  const r = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(master, file)], { encoding: "utf8" });
+  const s = Number(r.stdout);
+  return r.status === 0 && s > 0 ? Math.round(s) : null;
+}
+
+function durationOf(song, stanzas, existingTiming, dir) {
   if (existingTiming?.duration) return { seconds: existingTiming.duration, basis: "timing.json" };
+  const fromMaster = masterSeconds(dir);
+  if (fromMaster) return { seconds: fromMaster, basis: "sources/master (ffprobe)" };
   const bpm = Number(song.bpm);
   const [beats] = String(song.timeSignature || "4/4").split("/").map(Number);
   const lines = stanzas.reduce((n, st) => n + st.lines.filter(l => stripChords(l)).length, 0);
@@ -74,7 +86,7 @@ export function generateSong(dir, { sources }) {
   wrote.license = writeIfChanged(out("LICENSE.txt"), renderLicenseTxt(dir, song, sources));
   wrote.attribution = writeIfChanged(out("attribution.txt"), `${song.title}\n${song.writer ?? ""}${song.year ? `, ${song.year}` : ""}\n${notice}\n`);
   wrote.slides = writeIfChanged(out("slides.json"), JSON.stringify(slidesOf(stanzas), null, 2) + "\n");
-  wrote.duration = writeIfChanged(out("duration.json"), JSON.stringify(durationOf(song, stanzas, timing), null, 2) + "\n");
+  wrote.duration = writeIfChanged(out("duration.json"), JSON.stringify(durationOf(song, stanzas, timing, dir), null, 2) + "\n");
   wrote.chart = writeIfChanged(out("chart.chordpro"), fs.readFileSync(lyricsPath(dir)));
 
   const pdf = chartPdf({

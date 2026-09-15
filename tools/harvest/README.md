@@ -22,14 +22,15 @@ and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-
 | `import-cmaa.mjs` | CMAA newly-composed PDFs whose *file* grant is CC BY 3.0 (skips ND, NC, "except commercial", CanticaNOVA) |
 | `import-freely-giving.mjs` | Original congregational songs listed at freely.giving/music with an explicit PD/CC0 dedication (Kevin Kwon; Mark Feezell originals). Skips All-Rights-Reserved lyric sheets, ESV psalm settings, and instrumental hymn arrangements of songs already in the catalog |
 | `import-andrew-case.py` | Andrew Case originals at hismagnificence.com/music/ after author PD confirmation 2026-09-14. Skips Sing Hebrew, third-party covers, ESV psalm sheets, Coca-Cola jingle, instrumentals without lyrics, duplicate mixes. After import: `node tools/generate.mjs <pkg>` then `python tools/pack/build.py <pkg>` (stems + MIDI/MusicXML from the vocal stem) |
-| `import-larry-holder.py` | Larry Holder worship songs at larryholdermusic.org (and Elton Smith co-writes linked from there on songsofpraise.org) under the custom `larry-holder` grant. Elton granted under Larry’s terms. Skips other co-writers (Rick Founds, Dave Laborde, Lee Kurt Holder, Steve Israel), novelty tracks, hymn adaptations, and photos. After import: `node tools/generate.mjs <pkg>` |
+| `import-larry-holder.py` | Larry Holder worship songs at larryholdermusic.org (and Elton Smith co-writes linked from there on songsofpraise.org) under the custom `larry-holder` grant. Elton granted under Larry’s terms. Skips every other co-writer (any name on a Written/Words/Music by line that is not Larry or Elton), novelty tracks, hymn adaptations, and photos. Tempo/key/time come from the writer's MIDI; theme from the site's category shelf; stage directions become section labels and `{c:}` cues; leftover mp3/mid/pdf go to `sources/extra/`. `--refresh` re-parses existing packages (keeps hand-set themes, scripture, ccli and foreign manifest rows). After import: `node tools/generate.mjs <pkg>` then `python tools/pack/build.py <pkg>` for songs with a master |
 | `import-mutopia.mjs` | Mutopia hymn SATB letter PDFs → sheetPdf on matching PD songs; Foundation as CC-BY-SA 2.0 |
 | `import-writer-portraits.ts` | Wikipedia/Commons portraits + bios |
 | `import-videos.ts` + `video-report.txt` | Curated YouTube performances |
 | `backfill-chords.py`, `backfill-verses.ts` | Chords/verses derived from the ABC corpus |
 | `backfill-coverage.py` | MusicXML harmony → ChordPro + MIDI + karaoke; `--partial` copies verse-1 chords onto later verses (reflows syllable-broken lines) |
 | `scan-coverage.mjs` | Catalog report: chords / partial chords / MIDI / karaoke / PDF gaps |
-| `generate-lyric-timings.py` | Karaoke word timings from ABC + MIDI |
+| `generate-lyric-timings.py` | Karaoke word timings from ABC + MIDI (hymns; clocks the synthesized tune) |
+| `align-vocal-timings.py` | Karaoke word timings from a writer MP3 via faster-whisper (clocks the recording) |
 | `trim-midi-tails.py` | MIDI cleanup |
 | `sync-cover-art.ts` | Matched loose cover-art files to songs by title (obsolete: drop `cover.webp` into `masters/`) |
 

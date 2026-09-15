@@ -66,6 +66,7 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const lic = LICENSES[song.license];
   if (!lic) errors.push(`${label}: unknown license "${song.license}" — must be one of ${Object.keys(LICENSES).join(", ")}`);
   if (lic?.attributionRequired && !song.licenseUrl) errors.push(`${label}: ${song.license} songs need "licenseUrl" (the exact license the writer applied)`);
+  if (song.ccli != null && song.ccli !== "" && !/^\d{5,8}$/.test(String(song.ccli))) errors.push(`${label}: ccli "${song.ccli}" is not a 5–8 digit song id`);
   if (lic?.attributionRequired && !song.attribution?.text && !submitted) errors.push(`${label}: ${song.license} songs need "attribution.text" (who to credit)`);
   licenseOf.set(song.id, song.license);
   if (song.meter !== undefined && song.meter !== null && !METER_RE.test(song.meter))
@@ -108,6 +109,13 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   if (!fs.existsSync(cpPath)) { errors.push(`${label}: no lyrics.chordpro in sources/ or output/composition/`); continue; }
   const { header, body } = splitChordpro(fs.readFileSync(cpPath, "utf8"));
   if (!body.trim()) errors.push(`${label}: lyrics.chordpro has an empty body`);
+  {
+    // a harvest that kept the source page's chrome or its <br> double-spacing renders as one-line slides
+    const ls = body.split("\n"), blank = ls.filter(l => !l.trim()).length;
+    if (ls.length > 8 && blank / ls.length > 0.34) warnings.push(`${label}: lyrics.chordpro is mostly blank lines (${blank}/${ls.length}) — double-spaced harvest?`);
+    const chrome = ls.find(l => /^\s*>/.test(l) || /^\s*\(?(introduction|instrumental|change keys?)\)?\s*$/i.test(l));
+    if (chrome) warnings.push(`${label}: lyrics.chordpro has a non-lyric line "${chrome.trim()}"`);
+  }
   const expect = { title: song.title, artist: song.writer, key: song.key, time: song.timeSignature, tempo: song.bpm };
   for (const [k, v] of Object.entries(expect)) {
     if (v === null || v === undefined) continue;

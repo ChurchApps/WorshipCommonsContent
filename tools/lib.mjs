@@ -131,6 +131,7 @@ export function parseChordproStanzas(body) {
     const line = raw.replace(/\s+$/, "");
     const plain = line.replace(/\[[^\]]*\]/g, "").trim();
     if (!line.trim()) { push(); continue; }
+    if (/^\s*\{/.test(line)) continue; // {c: Mary} and other directives are cues, not lyrics (the site drops them too)
     if (SECTION_LABEL.test(plain) && !/\[[^\]]+\]/.test(line)) {
       push();
       cur = { label: plain, lines: [] };
@@ -228,7 +229,7 @@ export function resolveShared(rootRel, dir, work, rel, { inherit = true } = {}) 
 const SONG_KEY_ORDER = [
   "id", "title", "writer", "writerRef", "year", "language", "themes",
   "key", "bpm", "timeSignature", "meter", "tune", "scripture", "scriptureText",
-  "license", "licenseVersion", "licenseUrl", "licenseSource", "attribution",
+  "license", "licenseVersion", "licenseUrl", "licenseSource", "ccli", "attribution",
   "rights", "form", "chart", "pipeline", "recommendedKey",
   "workRef", "relationLabel", "parent", "contributors", "uploads",
   "status", "submittedBy", "proAnswer", "certified"
