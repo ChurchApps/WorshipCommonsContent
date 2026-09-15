@@ -24,6 +24,8 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const out = new Set();
 
   for (const raw of String(before ?? "").split(",").map(s => s.trim()).filter(Boolean)) {
+    // Kids is only for known children's choruses, not hymnal "Children" / child-of-God hymns
+    if (raw === "Kids") continue;
     if (canonical.has(raw)) { out.add(raw); continue; }
     if (!(raw in synonyms)) { unknown.set(raw, (unknown.get(raw) ?? 0) + 1); out.add(raw); continue; }
     const to = synonyms[raw];
@@ -33,12 +35,11 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     applied.set(key, (applied.get(key) ?? 0) + 1);
     for (const t of list) out.add(t);
   }
-  if (kids.has(song.title) && before) out.add("Kids");
+  if (kids.has(song.title)) out.add("Kids");
 
-  // a song that had no themes stays null — we do not invent themes
-  const after = before === null || before === undefined ? before
-    : out.size ? [...out].join(",")
-    : null;
+  // empty stays empty, except known children's choruses which get Kids
+  const after = out.size ? [...out].join(",")
+    : (before === null || before === undefined ? before : null);
   if (after === before) continue;
   changed++;
   console.log(`songs/${langDir}/${folder}: ${JSON.stringify(before)} → ${JSON.stringify(after)}`);
