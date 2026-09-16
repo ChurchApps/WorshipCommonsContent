@@ -21,7 +21,9 @@ Needs: ffmpeg on PATH, CUDA torch, audio-separator, music21, pillow. See README.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -96,6 +98,33 @@ def gate(pkg: Path) -> tuple[dict, Path, dict]:
     return song, master, row
 
 
+def stamp_chordpro(path: Path, song: dict) -> None:
+    """Keep {key}/{tempo} in the ChordPro header equal to song.json (validate.mjs checks)."""
+    if not path.exists():
+        return
+    text = path.read_text(encoding="utf-8")
+    for name, val in (("key", song.get("key")), ("tempo", song.get("bpm"))):
+        if val in (None, ""):
+            continue
+        line = "{%s: %s}" % (name, val)
+        pat = re.compile(r"^\{%s:.*\}[ \t]*$" % name, re.M)
+        if pat.search(text):
+            text = pat.sub(lambda _m: line, text, count=1)
+        else:
+            m = re.search(r"^\{time:.*\}\r?\n", text, re.M)
+            text = text[: m.end()] + line + ("\r\n" if "\r\n" in m.group(0) else "\n") + text[m.end():] if m else line + "\n" + text
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(text)
+    manifest = path.parent / "manifest.json"
+    if manifest.exists():  # validate.mjs checks the recorded hash
+        m = json.loads(manifest.read_text(encoding="utf-8"))
+        for row in m.get("files", []):
+            if row.get("file") == path.name and row.get("sha256"):
+                row["sha256"] = hashlib.sha256(path.read_bytes()).hexdigest()
+        with open(manifest, "w", encoding="utf-8", newline="\n") as f:
+            f.write(json.dumps(m, indent=2, ensure_ascii=False) + "\n")
+
+
 def _maybe_stamp_detected(pkg: Path, song: dict, info: dict) -> None:
     """Fill empty key / harvest-default bpm from the recording. Does not overwrite a real key."""
     changed = False
@@ -108,6 +137,7 @@ def _maybe_stamp_detected(pkg: Path, song: dict, info: dict) -> None:
         song["key"] = key
         changed = True
     if changed:
+        stamp_chordpro(pkg / "sources" / "lyrics.chordpro", song)
         with open(pkg / "song.json", "w", encoding="utf-8", newline='\n') as f:  # repo is LF; text mode writes CRLF
             f.write(json.dumps(song, indent=2, ensure_ascii=False) + '\n')
 

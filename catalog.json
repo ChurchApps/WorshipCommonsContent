@@ -3833,8 +3833,8 @@
       "writer": "Larry Holder",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 99,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -3856,7 +3856,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/a-brother-to-the-scum-of-the-earth-MuBpLTR9iZA/output/composition/score.mid",
-      "midiBytes": 1963,
+      "midiBytes": 14662,
       "lyricsUrl": "songs/en/a-brother-to-the-scum-of-the-earth-MuBpLTR9iZA/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -3868,7 +3868,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/a-brother-to-the-scum-of-the-earth-MuBpLTR9iZA/output/audio/A Brother to the Scum of the Earth-A Brother to the Scum of the Earth-D-99.00bpm.zip",
-      "stemsZipBytes": 9802682
+      "stemsZipBytes": 9802672
     },
     {
       "id": "YqbVgJUReZy",
@@ -3962,8 +3962,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "G",
+      "bpm": 123,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -3985,7 +3985,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/a-gift-for-all-vxcZ9ygvhks/output/composition/score.mid",
-      "midiBytes": 5872,
+      "midiBytes": 31731,
       "lyricsUrl": "songs/en/a-gift-for-all-vxcZ9ygvhks/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -3997,7 +3997,7 @@
       "sheetPdfUrl": "songs/en/a-gift-for-all-vxcZ9ygvhks/sources/sheetPdf.pdf",
       "sheetPdfBytes": 332698,
       "stemsZipUrl": "songs/en/a-gift-for-all-vxcZ9ygvhks/output/audio/A Gift For All-A Gift For All-G-123.00bpm.zip",
-      "stemsZipBytes": 25410879
+      "stemsZipBytes": 25410871
     },
     {
       "id": "_rNsb2BvFqM",
@@ -4607,8 +4607,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "A",
+      "bpm": 152,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -4630,7 +4630,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/all-gods-people-rejoice-ZvtNNU5OLqr/output/composition/score.mid",
-      "midiBytes": 1185,
+      "midiBytes": 16884,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -4641,8 +4641,8 @@
       "demoAudioBytes": 2852622,
       "sheetPdfUrl": "songs/en/all-gods-people-rejoice-ZvtNNU5OLqr/sources/sheetPdf.pdf",
       "sheetPdfBytes": 140345,
-      "stemsZipUrl": "songs/en/all-gods-people-rejoice-ZvtNNU5OLqr/output/audio/All God's People Rejoice-All God's People Rejoice-Cm-152.00bpm.zip",
-      "stemsZipBytes": 11257270
+      "stemsZipUrl": "songs/en/all-gods-people-rejoice-ZvtNNU5OLqr/output/audio/All God's People Rejoice-All God's People Rejoice-A-152.00bpm.zip",
+      "stemsZipBytes": 11542744
     },
     {
       "id": "T0B8i41oasf",
@@ -4736,8 +4736,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Eb",
+      "bpm": 99,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -4759,7 +4759,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/all-of-my-heart-2FCCvjupEKe/output/composition/score.mid",
-      "midiBytes": 6889,
+      "midiBytes": 37873,
       "lyricsUrl": "songs/en/all-of-my-heart-2FCCvjupEKe/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -4770,8 +4770,8 @@
       "demoAudioBytes": 6581734,
       "sheetPdfUrl": "songs/en/all-of-my-heart-2FCCvjupEKe/sources/sheetPdf.pdf",
       "sheetPdfBytes": 85169,
-      "stemsZipUrl": "songs/en/all-of-my-heart-2FCCvjupEKe/output/audio/All Of My Heart-All Of My Heart-E--99.00bpm.zip",
-      "stemsZipBytes": 37400583
+      "stemsZipUrl": "songs/en/all-of-my-heart-2FCCvjupEKe/output/audio/All Of My Heart-All Of My Heart-Eb-99.00bpm.zip",
+      "stemsZipBytes": 37400520
     },
     {
       "id": "XiGH8cIi8Gc",
@@ -4822,8 +4822,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 129,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -4845,7 +4845,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/all-praise-and-glory-to-you-lord-SYjNqtFfpiY/output/composition/score.mid",
-      "midiBytes": 1673,
+      "midiBytes": 11199,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -4856,8 +4856,8 @@
       "demoAudioBytes": 2054328,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": "songs/en/all-praise-and-glory-to-you-lord-SYjNqtFfpiY/output/audio/All Praise and Glory To You Lord-All Praise and Glory To You Lord-G#m-129.00bpm.zip",
-      "stemsZipBytes": 7932376
+      "stemsZipUrl": "songs/en/all-praise-and-glory-to-you-lord-SYjNqtFfpiY/output/audio/All Praise and Glory To You Lord-All Praise and Glory To You Lord-C-129.00bpm.zip",
+      "stemsZipBytes": 8220190
     },
     {
       "id": "EI06sbxYBcb",
@@ -5639,8 +5639,8 @@
       "writer": "Larry Holder",
       "year": 1998,
       "themes": "Church,Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 76,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -5662,7 +5662,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/arise-and-build-ZVhylrkkit7/output/composition/score.mid",
-      "midiBytes": 4871,
+      "midiBytes": 29159,
       "lyricsUrl": "songs/en/arise-and-build-ZVhylrkkit7/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -5673,8 +5673,8 @@
       "demoAudioBytes": 5484197,
       "sheetPdfUrl": "songs/en/arise-and-build-ZVhylrkkit7/sources/sheetPdf.pdf",
       "sheetPdfBytes": 208980,
-      "stemsZipUrl": "songs/en/arise-and-build-ZVhylrkkit7/output/audio/Arise and Build!-Arise and Build!-F-76.00bpm.zip",
-      "stemsZipBytes": 30928649
+      "stemsZipUrl": "songs/en/arise-and-build-ZVhylrkkit7/output/audio/Arise and Build!-Arise and Build!-C-76.00bpm.zip",
+      "stemsZipBytes": 30928665
     },
     {
       "id": "AmR3I3-LM0h",
@@ -5725,8 +5725,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 103,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -5748,7 +5748,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/as-i-rise-to-walk-with-him-wQat9Fnj2yP/output/composition/score.mid",
-      "midiBytes": 5156,
+      "midiBytes": 22106,
       "lyricsUrl": "songs/en/as-i-rise-to-walk-with-him-wQat9Fnj2yP/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -5759,8 +5759,8 @@
       "demoAudioBytes": 4180011,
       "sheetPdfUrl": "songs/en/as-i-rise-to-walk-with-him-wQat9Fnj2yP/sources/sheetPdf.pdf",
       "sheetPdfBytes": 318970,
-      "stemsZipUrl": "songs/en/as-i-rise-to-walk-with-him-wQat9Fnj2yP/output/audio/As I Rise To Walk With Him-As I Rise To Walk With Him-Bm-103.00bpm.zip",
-      "stemsZipBytes": 17499516
+      "stemsZipUrl": "songs/en/as-i-rise-to-walk-with-him-wQat9Fnj2yP/output/audio/As I Rise To Walk With Him-As I Rise To Walk With Him-D-103.00bpm.zip",
+      "stemsZipBytes": 17499313
     },
     {
       "id": "gtBfK655aZb",
@@ -5768,8 +5768,8 @@
       "writer": "Larry Holder",
       "year": 2007,
       "themes": "Wedding,Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Em",
+      "bpm": 199,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -5791,7 +5791,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/as-love-gives-us-wings-gtBfK655aZb/output/composition/score.mid",
-      "midiBytes": 5881,
+      "midiBytes": 20106,
       "lyricsUrl": "songs/en/as-love-gives-us-wings-gtBfK655aZb/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -5802,8 +5802,8 @@
       "demoAudioBytes": 4679889,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": "songs/en/as-love-gives-us-wings-gtBfK655aZb/output/audio/As Love Gives Us Wings-As Love Gives Us Wings-G-199.00bpm.zip",
-      "stemsZipBytes": 20180483
+      "stemsZipUrl": "songs/en/as-love-gives-us-wings-gtBfK655aZb/output/audio/As Love Gives Us Wings-As Love Gives Us Wings-Em-199.00bpm.zip",
+      "stemsZipBytes": 20180630
     },
     {
       "id": "mzymlkNkgxS",
@@ -5811,8 +5811,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Am",
+      "bpm": 99,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -5834,7 +5834,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/as-the-river-runs-mzymlkNkgxS/output/composition/score.mid",
-      "midiBytes": 10437,
+      "midiBytes": 45241,
       "lyricsUrl": "songs/en/as-the-river-runs-mzymlkNkgxS/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -5845,8 +5845,8 @@
       "demoAudioBytes": 6091567,
       "sheetPdfUrl": "songs/en/as-the-river-runs-mzymlkNkgxS/sources/sheetPdf.pdf",
       "sheetPdfBytes": 60208,
-      "stemsZipUrl": "songs/en/as-the-river-runs-mzymlkNkgxS/output/audio/As The River Runs-As The River Runs-C-99.00bpm.zip",
-      "stemsZipBytes": 30238629
+      "stemsZipUrl": "songs/en/as-the-river-runs-mzymlkNkgxS/output/audio/As The River Runs-As The River Runs-Am-99.00bpm.zip",
+      "stemsZipBytes": 29917271
     },
     {
       "id": "0zAZCrIP2zW",
@@ -6929,8 +6929,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 161,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -6952,7 +6952,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/boundless-love-glWQUMDTIdy/output/composition/score.mid",
-      "midiBytes": 2183,
+      "midiBytes": 24459,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -6963,8 +6963,8 @@
       "demoAudioBytes": 3584459,
       "sheetPdfUrl": "songs/en/boundless-love-glWQUMDTIdy/sources/sheetPdf.pdf",
       "sheetPdfBytes": 59359,
-      "stemsZipUrl": "songs/en/boundless-love-glWQUMDTIdy/output/audio/Boundless Love-Boundless Love-B--161.00bpm.zip",
-      "stemsZipBytes": 12769954
+      "stemsZipUrl": "songs/en/boundless-love-glWQUMDTIdy/output/audio/Boundless Love-Boundless Love-C-161.00bpm.zip",
+      "stemsZipBytes": 11796414
     },
     {
       "id": "vXzVZUdqKE4",
@@ -6972,8 +6972,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2002,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "A",
+      "bpm": 99,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -6995,7 +6995,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/bread-and-wine-vXzVZUdqKE4/output/composition/score.mid",
-      "midiBytes": 5791,
+      "midiBytes": 26141,
       "lyricsUrl": "songs/en/bread-and-wine-vXzVZUdqKE4/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -7007,7 +7007,7 @@
       "sheetPdfUrl": "songs/en/bread-and-wine-vXzVZUdqKE4/sources/sheetPdf.pdf",
       "sheetPdfBytes": 32378,
       "stemsZipUrl": "songs/en/bread-and-wine-vXzVZUdqKE4/output/audio/Bread and Wine-Bread and Wine-A-99.00bpm.zip",
-      "stemsZipBytes": 34399356
+      "stemsZipBytes": 34399306
     },
     {
       "id": "uGl0K262Hhd",
@@ -7187,8 +7187,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -7210,7 +7210,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/brother-to-brother-fb9gmmNnikd/output/composition/score.mid",
-      "midiBytes": 6558,
+      "midiBytes": 25297,
       "lyricsUrl": "songs/en/brother-to-brother-fb9gmmNnikd/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -7221,8 +7221,8 @@
       "demoAudioBytes": 5683649,
       "sheetPdfUrl": "songs/en/brother-to-brother-fb9gmmNnikd/sources/sheetPdf.pdf",
       "sheetPdfBytes": 59285,
-      "stemsZipUrl": "songs/en/brother-to-brother-fb9gmmNnikd/output/audio/Brother To Brother-Brother To Brother-F-136.00bpm.zip",
-      "stemsZipBytes": 28214066
+      "stemsZipUrl": "songs/en/brother-to-brother-fb9gmmNnikd/output/audio/Brother To Brother-Brother To Brother-C-136.00bpm.zip",
+      "stemsZipBytes": 28214090
     },
     {
       "id": "9_0dooJiklp",
@@ -7402,8 +7402,8 @@
       "writer": "Larry Holder",
       "year": 2026,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 129,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -7425,7 +7425,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/christ-alive-in-me-36pJc-2dIAU/output/composition/score.mid",
-      "midiBytes": 2047,
+      "midiBytes": 6380,
       "lyricsUrl": "songs/en/christ-alive-in-me-36pJc-2dIAU/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -7436,8 +7436,8 @@
       "demoAudioBytes": 1899021,
       "sheetPdfUrl": "songs/en/christ-alive-in-me-36pJc-2dIAU/sources/sheetPdf.pdf",
       "sheetPdfBytes": 412783,
-      "stemsZipUrl": "songs/en/christ-alive-in-me-36pJc-2dIAU/output/audio/Christ Alive in Me-Christ Alive in Me-A-129.00bpm.zip",
-      "stemsZipBytes": 7211553
+      "stemsZipUrl": "songs/en/christ-alive-in-me-36pJc-2dIAU/output/audio/Christ Alive in Me-Christ Alive in Me-D-129.00bpm.zip",
+      "stemsZipBytes": 7211558
     },
     {
       "id": "SfCJUXo-bOS",
@@ -8432,8 +8432,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "G",
+      "bpm": 129,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -8455,7 +8455,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/come-to-the-table-dkNRuydh6Y0/output/composition/score.mid",
-      "midiBytes": 6383,
+      "midiBytes": 37344,
       "lyricsUrl": "songs/en/come-to-the-table-dkNRuydh6Y0/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -8467,7 +8467,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/come-to-the-table-dkNRuydh6Y0/output/audio/Come To The Table-Come To The Table-G-129.00bpm.zip",
-      "stemsZipBytes": 30539096
+      "stemsZipBytes": 29693831
     },
     {
       "id": "RmcfAcbelTI",
@@ -9378,8 +9378,8 @@
       "writer": "Larry Holder",
       "year": 2000,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Ab",
+      "bpm": 152,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -9401,7 +9401,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/even-me-TacVlIxoehW/output/composition/score.mid",
-      "midiBytes": 3219,
+      "midiBytes": 15319,
       "lyricsUrl": "songs/en/even-me-TacVlIxoehW/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -9412,8 +9412,8 @@
       "demoAudioBytes": 3230493,
       "sheetPdfUrl": "songs/en/even-me-TacVlIxoehW/sources/sheetPdf.pdf",
       "sheetPdfBytes": 164519,
-      "stemsZipUrl": "songs/en/even-me-TacVlIxoehW/output/audio/Even Me-Even Me-B-m-152.00bpm.zip",
-      "stemsZipBytes": 15569022
+      "stemsZipUrl": "songs/en/even-me-TacVlIxoehW/output/audio/Even Me-Even Me-Ab-152.00bpm.zip",
+      "stemsZipBytes": 15568931
     },
     {
       "id": "vqH2U53iXkg",
@@ -10066,8 +10066,8 @@
       "writer": "Larry Holder",
       "year": 1997,
       "themes": "Thanksgiving,Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 81,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -10089,7 +10089,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/for-dad-qZN8OrFGTGw/output/composition/score.mid",
-      "midiBytes": 1757,
+      "midiBytes": 6613,
       "lyricsUrl": "songs/en/for-dad-qZN8OrFGTGw/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -10101,7 +10101,7 @@
       "sheetPdfUrl": "songs/en/for-dad-qZN8OrFGTGw/sources/sheetPdf.pdf",
       "sheetPdfBytes": 76085,
       "stemsZipUrl": "songs/en/for-dad-qZN8OrFGTGw/output/audio/For Dad-For Dad-C-81.00bpm.zip",
-      "stemsZipBytes": 9763478
+      "stemsZipBytes": 9763454
     },
     {
       "id": "Umvqw0Kazrh",
@@ -10152,8 +10152,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2000,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Eb",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -10175,7 +10175,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/for-the-wonder-of-gods-love-_6zv6iZLTT1/output/composition/score.mid",
-      "midiBytes": 7599,
+      "midiBytes": 30366,
       "lyricsUrl": "songs/en/for-the-wonder-of-gods-love-_6zv6iZLTT1/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -10186,8 +10186,8 @@
       "demoAudioBytes": 6066626,
       "sheetPdfUrl": "songs/en/for-the-wonder-of-gods-love-_6zv6iZLTT1/sources/sheetPdf.pdf",
       "sheetPdfBytes": 196846,
-      "stemsZipUrl": "songs/en/for-the-wonder-of-gods-love-_6zv6iZLTT1/output/audio/For The Wonder Of God's Love-For The Wonder Of God's Love-E--136.00bpm.zip",
-      "stemsZipBytes": 33022668
+      "stemsZipUrl": "songs/en/for-the-wonder-of-gods-love-_6zv6iZLTT1/output/audio/For The Wonder Of God's Love-For The Wonder Of God's Love-Eb-136.00bpm.zip",
+      "stemsZipBytes": 33022637
     },
     {
       "id": "hhShOgKk_qX",
@@ -10539,8 +10539,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "E",
+      "bpm": 117,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -10562,7 +10562,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/give-him-your-cares-hP3uyZec4HY/output/composition/score.mid",
-      "midiBytes": 7319,
+      "midiBytes": 29695,
       "lyricsUrl": "songs/en/give-him-your-cares-hP3uyZec4HY/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -10574,7 +10574,7 @@
       "sheetPdfUrl": "songs/en/give-him-your-cares-hP3uyZec4HY/sources/sheetPdf.pdf",
       "sheetPdfBytes": 81415,
       "stemsZipUrl": "songs/en/give-him-your-cares-hP3uyZec4HY/output/audio/Give Him Your Cares-Give Him Your Cares-E-117.00bpm.zip",
-      "stemsZipBytes": 28605817
+      "stemsZipBytes": 28605789
     },
     {
       "id": "ufz7ePBiCVt",
@@ -11270,8 +11270,8 @@
       "writer": "Larry Holder",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -11293,7 +11293,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/gods-love-outpoured-0iO4XfQPq7T/output/composition/score.mid",
-      "midiBytes": 3117,
+      "midiBytes": 15263,
       "lyricsUrl": "songs/en/gods-love-outpoured-0iO4XfQPq7T/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -11305,7 +11305,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/gods-love-outpoured-0iO4XfQPq7T/output/audio/God's Love Outpoured-God's Love Outpoured-D-112.00bpm.zip",
-      "stemsZipBytes": 20545570
+      "stemsZipBytes": 20545565
     },
     {
       "id": "TGXr_MANRQG",
@@ -12128,8 +12128,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "E",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -12151,7 +12151,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/he-changed-me--Zm8GyHWSBO/output/composition/score.mid",
-      "midiBytes": 1909,
+      "midiBytes": 12794,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -12163,7 +12163,7 @@
       "sheetPdfUrl": "songs/en/he-changed-me--Zm8GyHWSBO/sources/sheetPdf.pdf",
       "sheetPdfBytes": 58266,
       "stemsZipUrl": "songs/en/he-changed-me--Zm8GyHWSBO/output/audio/He Changed Me-He Changed Me-E-136.00bpm.zip",
-      "stemsZipBytes": 10856426
+      "stemsZipBytes": 10856468
     },
     {
       "id": "OoJPO2R9dQd",
@@ -13246,8 +13246,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "F#m",
+      "bpm": 123,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -13269,7 +13269,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/how-faithful-k7hBfCs3_lO/output/composition/score.mid",
-      "midiBytes": 4359,
+      "midiBytes": 23537,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -13281,7 +13281,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/how-faithful-k7hBfCs3_lO/output/audio/How Faithful-How Faithful-F#m-123.00bpm.zip",
-      "stemsZipBytes": 18789080
+      "stemsZipBytes": 18789088
     },
     {
       "id": "WE26JDTfHyQ",
@@ -13375,8 +13375,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Bb",
+      "bpm": 72,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -13398,7 +13398,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/i-am-sure-KeIkzBPqJgW/output/composition/score.mid",
-      "midiBytes": 4336,
+      "midiBytes": 30316,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -13409,8 +13409,8 @@
       "demoAudioBytes": 2045110,
       "sheetPdfUrl": "songs/en/i-am-sure-KeIkzBPqJgW/sources/sheetPdf.pdf",
       "sheetPdfBytes": 136748,
-      "stemsZipUrl": "songs/en/i-am-sure-KeIkzBPqJgW/output/audio/I Am Sure-I Am Sure-Gm-72.00bpm.zip",
-      "stemsZipBytes": 3437186
+      "stemsZipUrl": "songs/en/i-am-sure-KeIkzBPqJgW/output/audio/I Am Sure-I Am Sure-Bb-72.00bpm.zip",
+      "stemsZipBytes": 3437103
     },
     {
       "id": "mxPKhsn413w",
@@ -13762,8 +13762,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Em",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -13785,7 +13785,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/i-lay-it-down-4Me0cWpBpqC/output/composition/score.mid",
-      "midiBytes": 10503,
+      "midiBytes": 53141,
       "lyricsUrl": "songs/en/i-lay-it-down-4Me0cWpBpqC/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -13797,7 +13797,7 @@
       "sheetPdfUrl": "songs/en/i-lay-it-down-4Me0cWpBpqC/sources/sheetPdf.pdf",
       "sheetPdfBytes": 116622,
       "stemsZipUrl": "songs/en/i-lay-it-down-4Me0cWpBpqC/output/audio/I Lay It Down-I Lay It Down-Em-136.00bpm.zip",
-      "stemsZipBytes": 45361784
+      "stemsZipBytes": 44191843
     },
     {
       "id": "o4Bp5rn65xY",
@@ -14020,8 +14020,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 99,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -14043,7 +14043,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/i-praise-you-my-father-vrmsLeTe23L/output/composition/score.mid",
-      "midiBytes": 8070,
+      "midiBytes": 34442,
       "lyricsUrl": "songs/en/i-praise-you-my-father-vrmsLeTe23L/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -14055,7 +14055,7 @@
       "sheetPdfUrl": "songs/en/i-praise-you-my-father-vrmsLeTe23L/sources/sheetPdf.pdf",
       "sheetPdfBytes": 120272,
       "stemsZipUrl": "songs/en/i-praise-you-my-father-vrmsLeTe23L/output/audio/I Praise You, My Father-I Praise You, My Father-D-99.00bpm.zip",
-      "stemsZipBytes": 35636499
+      "stemsZipBytes": 35636498
     },
     {
       "id": "oHR1IAZ1iIM",
@@ -14192,8 +14192,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "G",
+      "bpm": 74,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -14215,7 +14215,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/i-thank-you-lord-HSIoBK0s1Rl/output/composition/score.mid",
-      "midiBytes": 5633,
+      "midiBytes": 37203,
       "lyricsUrl": "songs/en/i-thank-you-lord-HSIoBK0s1Rl/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -14227,7 +14227,7 @@
       "sheetPdfUrl": "songs/en/i-thank-you-lord-HSIoBK0s1Rl/sources/sheetPdf.pdf",
       "sheetPdfBytes": 74828,
       "stemsZipUrl": "songs/en/i-thank-you-lord-HSIoBK0s1Rl/output/audio/I Thank You Lord-I Thank You Lord-G-74.00bpm.zip",
-      "stemsZipBytes": 32760283
+      "stemsZipBytes": 32760332
     },
     {
       "id": "oyoj1rMCaVY",
@@ -14321,8 +14321,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "A",
+      "bpm": 123,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -14344,7 +14344,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/i-want-you-to-know-about-jesus-k7gx01kDSYl/output/composition/score.mid",
-      "midiBytes": 5757,
+      "midiBytes": 26826,
       "lyricsUrl": "songs/en/i-want-you-to-know-about-jesus-k7gx01kDSYl/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -14356,7 +14356,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/i-want-you-to-know-about-jesus-k7gx01kDSYl/output/audio/I Want You To Know About Jesus-I Want You To Know About Jesus-A-123.00bpm.zip",
-      "stemsZipBytes": 24620997
+      "stemsZipBytes": 23775978
     },
     {
       "id": "hDWy6HyUKc-",
@@ -14665,8 +14665,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Bm",
+      "bpm": 108,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -14688,7 +14688,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/ill-turn-to-you-AULdbmQEI9O/output/composition/score.mid",
-      "midiBytes": 2417,
+      "midiBytes": 9325,
       "lyricsUrl": "songs/en/ill-turn-to-you-AULdbmQEI9O/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -14700,7 +14700,7 @@
       "sheetPdfUrl": "songs/en/ill-turn-to-you-AULdbmQEI9O/sources/sheetPdf.pdf",
       "sheetPdfBytes": 146042,
       "stemsZipUrl": "songs/en/ill-turn-to-you-AULdbmQEI9O/output/audio/I'll Turn To You-I'll Turn To You-Bm-108.00bpm.zip",
-      "stemsZipBytes": 11202098
+      "stemsZipBytes": 10879670
     },
     {
       "id": "5OQUK3saOEb",
@@ -15009,8 +15009,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "F#m",
+      "bpm": 99,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -15032,7 +15032,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/in-the-beginning-was-the-word-D9ylItyFdYl/output/composition/score.mid",
-      "midiBytes": 8576,
+      "midiBytes": 37780,
       "lyricsUrl": "songs/en/in-the-beginning-was-the-word-D9ylItyFdYl/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -15044,7 +15044,7 @@
       "sheetPdfUrl": "songs/en/in-the-beginning-was-the-word-D9ylItyFdYl/sources/sheetPdf.pdf",
       "sheetPdfBytes": 27043,
       "stemsZipUrl": "songs/en/in-the-beginning-was-the-word-D9ylItyFdYl/output/audio/In The Beginning Was The Word-In The Beginning Was The Word-F#m-99.00bpm.zip",
-      "stemsZipBytes": 32924377
+      "stemsZipBytes": 32924373
     },
     {
       "id": "9-22IDluvjc",
@@ -15095,8 +15095,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Dm",
+      "bpm": 129,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -15118,7 +15118,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/in-the-coming-of-messiah-lUvSZvxiPpK/output/composition/score.mid",
-      "midiBytes": 5935,
+      "midiBytes": 37362,
       "lyricsUrl": "songs/en/in-the-coming-of-messiah-lUvSZvxiPpK/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -15130,7 +15130,7 @@
       "sheetPdfUrl": "songs/en/in-the-coming-of-messiah-lUvSZvxiPpK/sources/sheetPdf.pdf",
       "sheetPdfBytes": 78882,
       "stemsZipUrl": "songs/en/in-the-coming-of-messiah-lUvSZvxiPpK/output/audio/In The Coming Of Messiah-In The Coming Of Messiah-Dm-129.00bpm.zip",
-      "stemsZipBytes": 35517634
+      "stemsZipBytes": 33905656
     },
     {
       "id": "33VSsmN9WzK",
@@ -15953,8 +15953,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2007,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 83,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -15976,7 +15976,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/jesus-come-zD6UkRaAujf/output/composition/score.mid",
-      "midiBytes": 7336,
+      "midiBytes": 38698,
       "lyricsUrl": "songs/en/jesus-come-zD6UkRaAujf/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -15988,7 +15988,7 @@
       "sheetPdfUrl": "songs/en/jesus-come-zD6UkRaAujf/sources/sheetPdf.pdf",
       "sheetPdfBytes": 121600,
       "stemsZipUrl": "songs/en/jesus-come-zD6UkRaAujf/output/audio/Jesus Come-Jesus Come-C-83.00bpm.zip",
-      "stemsZipBytes": 34168115
+      "stemsZipBytes": 34168160
     },
     {
       "id": "uaY1jTveA-v",
@@ -15996,8 +15996,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "E",
+      "bpm": 129,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -16019,7 +16019,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/jesus-died-in-my-place-uaY1jTveA-v/output/composition/score.mid",
-      "midiBytes": 9352,
+      "midiBytes": 46518,
       "lyricsUrl": "songs/en/jesus-died-in-my-place-uaY1jTveA-v/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -16031,7 +16031,7 @@
       "sheetPdfUrl": "songs/en/jesus-died-in-my-place-uaY1jTveA-v/sources/sheetPdf.pdf",
       "sheetPdfBytes": 167863,
       "stemsZipUrl": "songs/en/jesus-died-in-my-place-uaY1jTveA-v/output/audio/Jesus Died In My Place-Jesus Died In My Place-E-129.00bpm.zip",
-      "stemsZipBytes": 42604871
+      "stemsZipBytes": 39874971
     },
     {
       "id": "TI4KPw3l9ig",
@@ -16168,8 +16168,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Em",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -16191,7 +16191,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/jesus-is-the-light-1KVURjlrMf6/output/composition/score.mid",
-      "midiBytes": 6748,
+      "midiBytes": 33488,
       "lyricsUrl": "songs/en/jesus-is-the-light-1KVURjlrMf6/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -16203,7 +16203,7 @@
       "sheetPdfUrl": "songs/en/jesus-is-the-light-1KVURjlrMf6/sources/sheetPdf.pdf",
       "sheetPdfBytes": 160787,
       "stemsZipUrl": "songs/en/jesus-is-the-light-1KVURjlrMf6/output/audio/Jesus Is The Light-Jesus Is The Light-Em-112.00bpm.zip",
-      "stemsZipBytes": 36628945
+      "stemsZipBytes": 36628942
     },
     {
       "id": "9qT3qh4r21m",
@@ -18834,8 +18834,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2003,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 117,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -18857,7 +18857,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/mercy-and-grace-ijqCb0BDz8t/output/composition/score.mid",
-      "midiBytes": 6355,
+      "midiBytes": 37137,
       "lyricsUrl": "songs/en/mercy-and-grace-ijqCb0BDz8t/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -18869,7 +18869,7 @@
       "sheetPdfUrl": "songs/en/mercy-and-grace-ijqCb0BDz8t/sources/sheetPdf.pdf",
       "sheetPdfBytes": 69175,
       "stemsZipUrl": "songs/en/mercy-and-grace-ijqCb0BDz8t/output/audio/Mercy and Grace-Mercy and Grace-C-117.00bpm.zip",
-      "stemsZipBytes": 35878365
+      "stemsZipBytes": 35878374
     },
     {
       "id": "Gx7dtPKLv_W",
@@ -19049,8 +19049,8 @@
       "writer": "Larry Holder",
       "year": 1997,
       "themes": "Christmas,Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "A",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -19072,7 +19072,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/more-than-a-child-UE9a1aQZN-3/output/composition/score.mid",
-      "midiBytes": 3901,
+      "midiBytes": 14868,
       "lyricsUrl": "songs/en/more-than-a-child-UE9a1aQZN-3/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -19084,7 +19084,7 @@
       "sheetPdfUrl": "songs/en/more-than-a-child-UE9a1aQZN-3/sources/sheetPdf.pdf",
       "sheetPdfBytes": 117380,
       "stemsZipUrl": "songs/en/more-than-a-child-UE9a1aQZN-3/output/audio/More Than A Child-More Than A Child-A-112.00bpm.zip",
-      "stemsZipBytes": 15944383
+      "stemsZipBytes": 15944393
     },
     {
       "id": "KpSodcsW17o",
@@ -22489,8 +22489,8 @@
       "writer": "Larry Holder",
       "year": 1992,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Cm",
+      "bpm": 144,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -22512,7 +22512,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/our-song-of-victory-2q36NOUUtsL/output/composition/score.mid",
-      "midiBytes": 5844,
+      "midiBytes": 29492,
       "lyricsUrl": "songs/en/our-song-of-victory-2q36NOUUtsL/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -22524,7 +22524,7 @@
       "sheetPdfUrl": "songs/en/our-song-of-victory-2q36NOUUtsL/sources/sheetPdf.pdf",
       "sheetPdfBytes": 325605,
       "stemsZipUrl": "songs/en/our-song-of-victory-2q36NOUUtsL/output/audio/Our Song of Victory-Our Song of Victory-Cm-144.00bpm.zip",
-      "stemsZipBytes": 29735510
+      "stemsZipBytes": 28844918
     },
     {
       "id": "Q_ikNzuX57M",
@@ -22962,8 +22962,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Ab",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -22985,7 +22985,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/receive-him-today--W2fJ6DJThT/output/composition/score.mid",
-      "midiBytes": 2003,
+      "midiBytes": 22803,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -22996,8 +22996,8 @@
       "demoAudioBytes": 2752305,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": "songs/en/receive-him-today--W2fJ6DJThT/output/audio/Receive Him Today-Receive Him Today-A-136.00bpm.zip",
-      "stemsZipBytes": 12781568
+      "stemsZipUrl": "songs/en/receive-him-today--W2fJ6DJThT/output/audio/Receive Him Today-Receive Him Today-Ab-136.00bpm.zip",
+      "stemsZipBytes": 4134647
     },
     {
       "id": "Aak5VAYUh97",
@@ -23951,8 +23951,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "F",
+      "bpm": 144,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -23974,7 +23974,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/sent-from-the-heart-of-god-keHKSJKG07j/output/composition/score.mid",
-      "midiBytes": 6706,
+      "midiBytes": 27010,
       "lyricsUrl": "songs/en/sent-from-the-heart-of-god-keHKSJKG07j/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -23986,7 +23986,7 @@
       "sheetPdfUrl": "songs/en/sent-from-the-heart-of-god-keHKSJKG07j/sources/sheetPdf.pdf",
       "sheetPdfBytes": 120288,
       "stemsZipUrl": "songs/en/sent-from-the-heart-of-god-keHKSJKG07j/output/audio/Sent From The Heart Of God-Sent From The Heart Of God-F-144.00bpm.zip",
-      "stemsZipBytes": 20260760
+      "stemsZipBytes": 20260771
     },
     {
       "id": "_9Rr3_G8q33",
@@ -24123,8 +24123,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -24146,7 +24146,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/shout-hosanna-lxPMrC5ZCxQ/output/composition/score.mid",
-      "midiBytes": 8308,
+      "midiBytes": 38876,
       "lyricsUrl": "songs/en/shout-hosanna-lxPMrC5ZCxQ/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -24158,7 +24158,7 @@
       "sheetPdfUrl": "songs/en/shout-hosanna-lxPMrC5ZCxQ/sources/sheetPdf.pdf",
       "sheetPdfBytes": 68728,
       "stemsZipUrl": "songs/en/shout-hosanna-lxPMrC5ZCxQ/output/audio/Shout Hosanna-Shout Hosanna-C-136.00bpm.zip",
-      "stemsZipBytes": 32353844
+      "stemsZipBytes": 32353777
     },
     {
       "id": "DdnkGm4QMhD",
@@ -24381,8 +24381,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Eb",
+      "bpm": 103,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -24404,7 +24404,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/sing-to-the-lord-RS95hiusHM3/output/composition/score.mid",
-      "midiBytes": 1322,
+      "midiBytes": 13379,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -24415,8 +24415,8 @@
       "demoAudioBytes": 2305088,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": "songs/en/sing-to-the-lord-RS95hiusHM3/output/audio/Sing To The Lord-Sing To The Lord-E--103.00bpm.zip",
-      "stemsZipBytes": 8468196
+      "stemsZipUrl": "songs/en/sing-to-the-lord-RS95hiusHM3/output/audio/Sing To The Lord-Sing To The Lord-Eb-103.00bpm.zip",
+      "stemsZipBytes": 8468191
     },
     {
       "id": "_CPlBfrLraw",
@@ -24768,8 +24768,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Ab",
+      "bpm": 117,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -24791,7 +24791,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/standing-firm-in-the-storm-8mv_HvJwVh0/output/composition/score.mid",
-      "midiBytes": 6353,
+      "midiBytes": 33938,
       "lyricsUrl": "songs/en/standing-firm-in-the-storm-8mv_HvJwVh0/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -24802,8 +24802,8 @@
       "demoAudioBytes": 5966434,
       "sheetPdfUrl": "songs/en/standing-firm-in-the-storm-8mv_HvJwVh0/sources/sheetPdf.pdf",
       "sheetPdfBytes": 130169,
-      "stemsZipUrl": "songs/en/standing-firm-in-the-storm-8mv_HvJwVh0/output/audio/Standing Firm In The Storm-Standing Firm In The Storm-A--117.00bpm.zip",
-      "stemsZipBytes": 33678911
+      "stemsZipUrl": "songs/en/standing-firm-in-the-storm-8mv_HvJwVh0/output/audio/Standing Firm In The Storm-Standing Firm In The Storm-Ab-117.00bpm.zip",
+      "stemsZipBytes": 33678841
     },
     {
       "id": "wU-W9WQBiyx",
@@ -25198,8 +25198,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2004,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -25221,7 +25221,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/sweet-victory-gme21eQLbdR/output/composition/score.mid",
-      "midiBytes": 5805,
+      "midiBytes": 35713,
       "lyricsUrl": "songs/en/sweet-victory-gme21eQLbdR/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -25233,7 +25233,7 @@
       "sheetPdfUrl": "songs/en/sweet-victory-gme21eQLbdR/sources/sheetPdf.pdf",
       "sheetPdfBytes": 145244,
       "stemsZipUrl": "songs/en/sweet-victory-gme21eQLbdR/output/audio/Sweet Victory-Sweet Victory-D-112.00bpm.zip",
-      "stemsZipBytes": 34269935
+      "stemsZipBytes": 34269929
     },
     {
       "id": "4sYN0rY-0hx",
@@ -25800,8 +25800,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Dm",
+      "bpm": 129,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -25823,7 +25823,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/the-ballad-of-the-cross-g2wSzutqCPa/output/composition/score.mid",
-      "midiBytes": 10264,
+      "midiBytes": 48170,
       "lyricsUrl": "songs/en/the-ballad-of-the-cross-g2wSzutqCPa/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -25835,7 +25835,7 @@
       "sheetPdfUrl": "songs/en/the-ballad-of-the-cross-g2wSzutqCPa/sources/sheetPdf.pdf",
       "sheetPdfBytes": 47794,
       "stemsZipUrl": "songs/en/the-ballad-of-the-cross-g2wSzutqCPa/output/audio/The Ballad of the Cross-The Ballad of the Cross-Dm-129.00bpm.zip",
-      "stemsZipBytes": 47949690
+      "stemsZipBytes": 47949688
     },
     {
       "id": "Bz-shWTdU5O",
@@ -26660,8 +26660,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2026,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Dm",
+      "bpm": 108,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -26683,7 +26683,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/the-long-lonely-battle-zz9dMpgAUUO/output/composition/score.mid",
-      "midiBytes": 9162,
+      "midiBytes": 45493,
       "lyricsUrl": "songs/en/the-long-lonely-battle-zz9dMpgAUUO/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -26695,7 +26695,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/the-long-lonely-battle-zz9dMpgAUUO/output/audio/The Long Lonely Battle-The Long Lonely Battle-Dm-108.00bpm.zip",
-      "stemsZipBytes": 49130155
+      "stemsZipBytes": 49130156
     },
     {
       "id": "9hvAYiSl6nj",
@@ -26703,8 +26703,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Dm",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -26726,7 +26726,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/the-lord-shall-return-to-jerusalem-9hvAYiSl6nj/output/composition/score.mid",
-      "midiBytes": 4889,
+      "midiBytes": 35370,
       "lyricsUrl": "songs/en/the-lord-shall-return-to-jerusalem-9hvAYiSl6nj/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -26738,7 +26738,7 @@
       "sheetPdfUrl": "songs/en/the-lord-shall-return-to-jerusalem-9hvAYiSl6nj/sources/sheetPdf.pdf",
       "sheetPdfBytes": 394944,
       "stemsZipUrl": "songs/en/the-lord-shall-return-to-jerusalem-9hvAYiSl6nj/output/audio/The Lord Shall Return To Jerusalem-The Lord Shall Return To Jerusalem-Dm-112.00bpm.zip",
-      "stemsZipBytes": 27438542
+      "stemsZipBytes": 25743368
     },
     {
       "id": "cUjsmeNrUiG",
@@ -26789,8 +26789,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Am",
+      "bpm": 144,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -26812,7 +26812,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/the-love-of-god-eV1Fdy0I8mS/output/composition/score.mid",
-      "midiBytes": 7577,
+      "midiBytes": 35874,
       "lyricsUrl": "songs/en/the-love-of-god-eV1Fdy0I8mS/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -26824,7 +26824,7 @@
       "sheetPdfUrl": "songs/en/the-love-of-god-eV1Fdy0I8mS/sources/sheetPdf.pdf",
       "sheetPdfBytes": 60570,
       "stemsZipUrl": "songs/en/the-love-of-god-eV1Fdy0I8mS/output/audio/The Love Of God-The Love Of God-Am-144.00bpm.zip",
-      "stemsZipBytes": 32578663
+      "stemsZipBytes": 32578683
     },
     {
       "id": "hICOjcxifEW",
@@ -27176,8 +27176,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -27199,7 +27199,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/the-whole-world-turns-in-the-palm-of-his-hand-boiXTnyBOkw/output/composition/score.mid",
-      "midiBytes": 7797,
+      "midiBytes": 33263,
       "lyricsUrl": "songs/en/the-whole-world-turns-in-the-palm-of-his-hand-boiXTnyBOkw/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -27211,7 +27211,7 @@
       "sheetPdfUrl": "songs/en/the-whole-world-turns-in-the-palm-of-his-hand-boiXTnyBOkw/sources/sheetPdf.pdf",
       "sheetPdfBytes": 891248,
       "stemsZipUrl": "songs/en/the-whole-world-turns-in-the-palm-of-his-hand-boiXTnyBOkw/output/audio/The Whole World Turns In The Palm Of His Hand-The Whole World Turns In The Palm Of His Hand-C-136.00bpm.zip",
-      "stemsZipBytes": 26106954
+      "stemsZipBytes": 24445092
     },
     {
       "id": "eygH0jOcl3-",
@@ -27950,8 +27950,8 @@
       "writer": "Larry Holder",
       "year": 2000,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "F",
+      "bpm": 83,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -27973,7 +27973,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/til-jesus-is-all-VS1UwdjeoT4/output/composition/score.mid",
-      "midiBytes": 4277,
+      "midiBytes": 21387,
       "lyricsUrl": "songs/en/til-jesus-is-all-VS1UwdjeoT4/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -27985,7 +27985,7 @@
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
       "stemsZipUrl": "songs/en/til-jesus-is-all-VS1UwdjeoT4/output/audio/Til Jesus Is All-Til Jesus Is All-F-83.00bpm.zip",
-      "stemsZipBytes": 17655545
+      "stemsZipBytes": 17655536
     },
     {
       "id": "ot4tXgHth2Y",
@@ -27993,8 +27993,8 @@
       "writer": "Larry Holder",
       "year": 2010,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "D",
+      "bpm": 78,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -28016,7 +28016,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/til-pondering-turns-to-praise-ot4tXgHth2Y/output/composition/score.mid",
-      "midiBytes": 2146,
+      "midiBytes": 21195,
       "lyricsUrl": "songs/en/til-pondering-turns-to-praise-ot4tXgHth2Y/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -28027,8 +28027,8 @@
       "demoAudioBytes": 2536220,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": "songs/en/til-pondering-turns-to-praise-ot4tXgHth2Y/output/audio/Til Pondering Turns To Praise-Til Pondering Turns To Praise-C-144.00bpm.zip",
-      "stemsZipBytes": 10022196
+      "stemsZipUrl": "songs/en/til-pondering-turns-to-praise-ot4tXgHth2Y/output/audio/Til Pondering Turns To Praise-Til Pondering Turns To Praise-D-78.00bpm.zip",
+      "stemsZipBytes": 9460224
     },
     {
       "id": "BSw8F2Ntg4p",
@@ -28636,8 +28636,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1998,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C#",
+      "bpm": 136,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -28659,7 +28659,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/until-the-race-is-won-qR-_GWe0UCn/output/composition/score.mid",
-      "midiBytes": 6488,
+      "midiBytes": 38749,
       "lyricsUrl": "songs/en/until-the-race-is-won-qR-_GWe0UCn/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -28670,8 +28670,8 @@
       "demoAudioBytes": 5847034,
       "sheetPdfUrl": "songs/en/until-the-race-is-won-qR-_GWe0UCn/sources/sheetPdf.pdf",
       "sheetPdfBytes": 1470527,
-      "stemsZipUrl": "songs/en/until-the-race-is-won-qR-_GWe0UCn/output/audio/Until the Race Is Won-Until the Race Is Won-C-136.00bpm.zip",
-      "stemsZipBytes": 32586977
+      "stemsZipUrl": "songs/en/until-the-race-is-won-qR-_GWe0UCn/output/audio/Until the Race Is Won-Until the Race Is Won-C#-136.00bpm.zip",
+      "stemsZipBytes": 29325923
     },
     {
       "id": "S9CrQ9Jtq71",
@@ -28808,8 +28808,8 @@
       "writer": "Larry Holder",
       "year": 2016,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Bm",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -28820,7 +28820,7 @@
       "licenseUrl": "https://larryholdermusic.org/copyright.html",
       "ccli": null,
       "attribution": "Larry Holder",
-      "confidence": "lyrics-only",
+      "confidence": "generated-from-midi",
       "churchCount": 0,
       "hymnalCount": 0,
       "chordPro": "Verse 1\nAdapted from Zechariah 2-3\nCopyright © 2016 Larry Holder Music (ASCAP)\n\nVerse 2\nShout for joy and be glad, O Zion\nLift up your shame-heavy face\nI will come in My power and glory\nLet all the earth be amazed,\nStand silent and be amazed.\n\nVerse 3\nI will be a wall of fire around you\nI will be the glory within\nWalls cant contain all of My blessings\nWhen I come and enter in,\nWhen I come and enter in.\n\nVerse 4\nSatans accusations are over\nAll your filthy clothes are gone\nI have clothed you in splendid garments\nAnd welcomed you into My home,\nAnd welcomed you into My home.\n\nVerse 5\nI will be a wall of fire around you\nI will be the glory within\nWalls cant contain all of My blessings\nWhen I come and enter in,\nWhen I come and enter in.\n\nVerse 6\nShout for joy and be glad, O Zion (I will be a wall of fire around you)\nAll your filthy clothes are gone (I will be the glory within)\nI will come in My power and glory (Walls cant contain all of My blessing)\nAnd welcome you into My home (When I come and enter in)\nLet all the earth be amazed. (When I come and enter in)",
@@ -28830,8 +28830,8 @@
       "submittedBy": null,
       "proAnswer": null,
       "certified": true,
-      "midiUrl": null,
-      "midiBytes": null,
+      "midiUrl": "songs/en/wall-of-fire-tkieIjBcOOh/output/composition/score.mid",
+      "midiBytes": 14307,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -28842,8 +28842,8 @@
       "demoAudioBytes": 2438047,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": null,
-      "stemsZipBytes": null
+      "stemsZipUrl": "songs/en/wall-of-fire-tkieIjBcOOh/output/audio/Wall of Fire-Wall of Fire-Bm-112.00bpm.zip",
+      "stemsZipBytes": 11984655
     },
     {
       "id": "VfzXYMsKbIs",
@@ -28851,8 +28851,8 @@
       "writer": "Larry Holder",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Bbm",
+      "bpm": 96,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -28863,7 +28863,7 @@
       "licenseUrl": "https://larryholdermusic.org/copyright.html",
       "ccli": null,
       "attribution": "Larry Holder",
-      "confidence": "lyrics-only",
+      "confidence": "generated-from-midi",
       "churchCount": 0,
       "hymnalCount": 0,
       "chordPro": "Verse 1\nSong Copyright (C) 2009 Peter Gringhuis and Larry Holder\n\nVerse 2\nRecording Copyright (P) 2009 Peter Gringhuis\nFor permissions, please refer to\n\nVerse 3\nLarry's Songs of Praise and Worship\n\nVerse 4\n[MP3 File]\n[Lead Sheet PDF]\n\nVerse 5\nHere's an upbeat tune from my friend Peter Gringhuis of the Netherlands.\n\nVerse 6\nYou can visit his website at\nPeter Gringhuis Design .\n\nVerse 7\nI wrote the lyrics as a contemporary look at the Prodigal Son, asking,\n\nVerse 8\nwatcha gonna do when you reach the end of living in your own strength?\n\nVerse 9\nThe answer, of course, is turning to the Lord, who is waiting with open arms!\n\nVerse 10\nHang on, this one rocks!\n\nVerse 11\nWatcha Gonna Do?\nMusic by Peter Gringhuis\nWords by Larry Holder\nCopyright (C) 2009 Peter Gringhuis and Larry Holder\n\nVerse 12\nSo you're big and bad, got the money and the bling\nAnd you've reached the world of fame\nEveryone's your friend, hanging on your ev'ry word\nAnd they're calling our name.\nParty through the night, got your women and your booze\nAs you chase the world of sin\nUntil the walls start crashin' in.\n\nVerse 13\nWatcha gonna do when the darkness comes\nAnd you find you've lost your way?\nWatcha gonna do when the bread is gone\nAnd you've still got bills to pay?\nWhen you hit the ground, there is not a friend around\nLike a moth, they chase the flame\nWhile you turn to face your wall of shame.\n\nchorus 1\nWhen you reach the end of who you are\nAnd no one knows your name\nWhen the world has closed its doors to you\nYou'll know it's time to play a diff'rent game!\n\nVerse 14\nSo, watcha gonna do when you've reached the end\nAnd there's no one else around?\nLet me tell you, friend, there is still a ray of hope\nAnd salvation can be found.\nDon't you know the Lord has been calling out your name\nYou couldn't hear him for so long\nIn Him, you'll sing a diff'rent song.\n\nVerse 15\nWatcha gonna do when you realize\nThat it's time to turn for home?\nRest assured, my friend that the Lord is waiting there\nAnd you need not be alone.\nJesus Christ is real, and He knows just how you feel\nFor He walked this earth you trod.\nSurrender to the love of God.\n\nchorus 2\nWhen you reach the end of who you are\nAnd you turn to God above\nYou will find what you've been missing, friend:\nHis mercy, grace, His peace, and His love!",
@@ -28873,8 +28873,8 @@
       "submittedBy": null,
       "proAnswer": null,
       "certified": true,
-      "midiUrl": null,
-      "midiBytes": null,
+      "midiUrl": "songs/en/watcha-gonna-do-VfzXYMsKbIs/output/composition/score.mid",
+      "midiBytes": 42745,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -28885,8 +28885,8 @@
       "demoAudioBytes": 3168384,
       "sheetPdfUrl": "songs/en/watcha-gonna-do-VfzXYMsKbIs/sources/sheetPdf.pdf",
       "sheetPdfBytes": 141341,
-      "stemsZipUrl": null,
-      "stemsZipBytes": null
+      "stemsZipUrl": "songs/en/watcha-gonna-do-VfzXYMsKbIs/output/audio/Watcha Gonna Do-Watcha Gonna Do-Bbm-96.00bpm.zip",
+      "stemsZipBytes": 25783319
     },
     {
       "id": "_wVYrsYRNrH",
@@ -30227,8 +30227,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1997,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C#m",
+      "bpm": 112,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -30250,7 +30250,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/who-has-believed-Kw-gzSEm-3Z/output/composition/score.mid",
-      "midiBytes": 8524,
+      "midiBytes": 39891,
       "lyricsUrl": "songs/en/who-has-believed-Kw-gzSEm-3Z/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -30262,7 +30262,7 @@
       "sheetPdfUrl": "songs/en/who-has-believed-Kw-gzSEm-3Z/sources/sheetPdf.pdf",
       "sheetPdfBytes": 353493,
       "stemsZipUrl": "songs/en/who-has-believed-Kw-gzSEm-3Z/output/audio/Who Has Believed-Who Has Believed-C#m-112.00bpm.zip",
-      "stemsZipBytes": 32742460
+      "stemsZipBytes": 32742475
     },
     {
       "id": "xV1Em3D-uAG",
@@ -30870,8 +30870,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2004,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "C",
+      "bpm": 108,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -30893,7 +30893,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/your-love-surrounds-me-MiEKfYImEIO/output/composition/score.mid",
-      "midiBytes": 7660,
+      "midiBytes": 38335,
       "lyricsUrl": "songs/en/your-love-surrounds-me-MiEKfYImEIO/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -30904,8 +30904,8 @@
       "demoAudioBytes": 7912419,
       "sheetPdfUrl": "songs/en/your-love-surrounds-me-MiEKfYImEIO/sources/sheetPdf.pdf",
       "sheetPdfBytes": 70605,
-      "stemsZipUrl": "songs/en/your-love-surrounds-me-MiEKfYImEIO/output/audio/Your Love Surrounds Me-Your Love Surrounds Me-C-199.00bpm.zip",
-      "stemsZipBytes": 45282432
+      "stemsZipUrl": "songs/en/your-love-surrounds-me-MiEKfYImEIO/output/audio/Your Love Surrounds Me-Your Love Surrounds Me-C-108.00bpm.zip",
+      "stemsZipBytes": 45286090
     },
     {
       "id": "qyTCY1U1RTC",
@@ -30913,8 +30913,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 2001,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "Bm",
+      "bpm": 123,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -30936,7 +30936,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/your-way-qyTCY1U1RTC/output/composition/score.mid",
-      "midiBytes": 1429,
+      "midiBytes": 12387,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -30947,8 +30947,8 @@
       "demoAudioBytes": 2584277,
       "sheetPdfUrl": "songs/en/your-way-qyTCY1U1RTC/sources/sheetPdf.pdf",
       "sheetPdfBytes": 51746,
-      "stemsZipUrl": "songs/en/your-way-qyTCY1U1RTC/output/audio/Your Way-Your Way-C-129.00bpm.zip",
-      "stemsZipBytes": 9946041
+      "stemsZipUrl": "songs/en/your-way-qyTCY1U1RTC/output/audio/Your Way-Your Way-Bm-123.00bpm.zip",
+      "stemsZipBytes": 8954569
     },
     {
       "id": "zlmDDDjuwKa",
@@ -30956,8 +30956,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "A",
+      "bpm": 123,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -30979,7 +30979,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/youre-at-peace-in-his-love-zlmDDDjuwKa/output/composition/score.mid",
-      "midiBytes": 7809,
+      "midiBytes": 32244,
       "lyricsUrl": "songs/en/youre-at-peace-in-his-love-zlmDDDjuwKa/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
@@ -30991,7 +30991,7 @@
       "sheetPdfUrl": "songs/en/youre-at-peace-in-his-love-zlmDDDjuwKa/sources/sheetPdf.pdf",
       "sheetPdfBytes": 427666,
       "stemsZipUrl": "songs/en/youre-at-peace-in-his-love-zlmDDDjuwKa/output/audio/You're At Peace In His Love-You're At Peace In His Love-A-123.00bpm.zip",
-      "stemsZipBytes": 37491315
+      "stemsZipBytes": 37242221
     },
     {
       "id": "z5XfOXA7wD6",
@@ -30999,8 +30999,8 @@
       "writer": "Larry Holder / Elton Smith",
       "year": 1999,
       "themes": "Praise",
-      "songKey": null,
-      "bpm": 80,
+      "songKey": "A",
+      "bpm": 96,
       "timeSignature": "4/4",
       "meter": null,
       "language": "English",
@@ -31022,7 +31022,7 @@
       "proAnswer": null,
       "certified": true,
       "midiUrl": "songs/en/youre-my-strength-and-my-song-z5XfOXA7wD6/output/composition/score.mid",
-      "midiBytes": 1569,
+      "midiBytes": 22569,
       "lyricsUrl": null,
       "abcUrl": null,
       "videoUrl": null,
@@ -31033,8 +31033,8 @@
       "demoAudioBytes": 2695894,
       "sheetPdfUrl": null,
       "sheetPdfBytes": null,
-      "stemsZipUrl": "songs/en/youre-my-strength-and-my-song-z5XfOXA7wD6/output/audio/You're My Strength and My Song-You're My Strength and My Song-C-74.00bpm.zip",
-      "stemsZipBytes": 13479687
+      "stemsZipUrl": "songs/en/youre-my-strength-and-my-song-z5XfOXA7wD6/output/audio/You're My Strength and My Song-You're My Strength and My Song-A-96.00bpm.zip",
+      "stemsZipBytes": 12710712
     },
     {
       "id": "ggCY04vGtip",

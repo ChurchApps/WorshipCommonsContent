@@ -677,7 +677,7 @@ def transcribe(
 
     return {
         "bpm": bpm,
-        "key": f"{k.tonic.name}{'m' if k.mode == 'minor' else ''}",
+        "key": f"{k.tonic.name.replace('-', 'b')}{'m' if k.mode == 'minor' else ''}",  # Eb, as the catalog spells it
         "notes": n_melody,
         "midi_notes": n_midi,
         "vocal_onset": round(sung_at, 2),
