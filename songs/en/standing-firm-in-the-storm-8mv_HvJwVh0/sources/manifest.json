@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/StandingFirmInTheStorm2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/StandingFirmInTheStorm2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "45eb3cfc8a18fec6390c5ec1e50e4e614e2f1bf439926ddb67cdde784df53429",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

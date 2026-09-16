@@ -76,6 +76,62 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/For_Dad_keyof_A.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "f7f90d63c42b59e7ec0b955b09415f661094397df9316c620059871fe0792a6b",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/For_Dad_keyof_C.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "7b311132a519fe1fccecac75d3686650edc7948553766dc0f4666d94adf210ed",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/For_Dad_keyof_E.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "6ad92bfdb7d21c82f187e27e7d400230902bac866409be2a23a69adda37b80aa",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/For_Dad_keyof_G.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "bbee7ad3a3982395292791ea36b7c9c2fe19a40fcfd5757e5de4774266bf7341",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

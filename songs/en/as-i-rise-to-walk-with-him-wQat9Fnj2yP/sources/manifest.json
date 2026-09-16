@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/AsIRiseToWalkWithHim2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AsIRiseToWalkWithHim2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "890a1621fab411cc3bd2606086d0285ed4ac2764810e2251ea4d93f7056214fc",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

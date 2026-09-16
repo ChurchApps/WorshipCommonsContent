@@ -76,6 +76,62 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/morethanachild_2part_F.pdf",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "e1ff32c0afd12a98d5bede846c5e04ee31db2ab2df6c688a2ea24db510afba5a",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/morethanachild_accomp_key_D.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "fae499c27fc4986bebd7c02b69b6d42ac8d7de7e1679703af3e715432d98dfe4",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/morethanachild_accomp_key_F.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "a4dda76f9889099e3eb4a74ac2379fef5dd7c89dcedf7b90f3c61e9ba0612070",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/morethanachild_D.pdf",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "464bdac1340575b49c26ad6435a8f480c8c5eb610933904f939533eba4460b74",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

@@ -76,6 +76,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/foramy.mp3",
+      "url": "https://songsofpraise.org/mp3/foramy.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "888c8f12b2ea0547913732391f97ac9a790f383f6bfe8952228805f94efdc505",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/YoureAtPeaceInHisLove2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/YoureAtPeaceInHisLove2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "cc5cdb3a775862dd8ec034a136a2e68079320704b7814de890f6c64ddadd16fd",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

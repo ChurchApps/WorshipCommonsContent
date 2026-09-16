@@ -63,6 +63,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/IWantYouToKnowAboutJesus2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/IWantYouToKnowAboutJesus2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "3b5af60c3741b7b345f3cdf550a78d91b2d94adea1e3be1940c4af4d6ff2e51c",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

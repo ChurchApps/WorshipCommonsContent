@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/SentFromTheHeartOfGod_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/SentFromTheHeartOfGod_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "64e8da7bcb0fa951d397d4b047f6c7a473bf16c461820f1f8a9e7698f24bf8c2",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

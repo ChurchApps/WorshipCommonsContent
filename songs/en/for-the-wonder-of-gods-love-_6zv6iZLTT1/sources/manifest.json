@@ -76,6 +76,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/maryeliz.mp3",
+      "url": "https://songsofpraise.org/mp3/maryeliz.mp3",
+      "sha256": "59cc81b784e940dce58f316e86649d3b48cea2c14c63337f667e1a2fcd65582e",
+      "acquired": "2026-09-14",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/ForTheWonderOfGodsLove2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/ForTheWonderOfGodsLove2026_acc.mp3",
+      "sha256": "1266f444ad04010fd5260e65f006600648649e2738c78e8b20c398e7005357e9",
+      "acquired": "2026-09-14",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

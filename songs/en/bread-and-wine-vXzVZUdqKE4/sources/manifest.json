@@ -76,6 +76,48 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/breadandwine.mp3",
+      "url": "https://songsofpraise.org/mp3/breadandwine.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "278072157dc4b3c8e86563d86bafa7436944cf72f0b9221b1ced14d23217a392",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/BreadAndWine_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/BreadAndWine_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "49f2c0d749b6c329684ba07b7d8c45bbcaa58c08b147611993f35660f060e8a9",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/BreadAndWineVocals.mp3",
+      "url": "https://songsofpraise.org/mp3/BreadAndWineVocals.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "9cf49f966eba45e00597d784be144a4d3922922b4a4d3759bf797b771e644b40",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

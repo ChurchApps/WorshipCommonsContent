@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/TheLoveOfGod2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/TheLoveOfGod2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "ac65f5da126bfdfdd478e6900e09597ef53e458906f8a73ac413252eff04689b",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

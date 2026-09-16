@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/SweetVictory2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/SweetVictory2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "4a1e0158a9b4f3011f045564ab57b41da737db5236382fc749801c9eba9546de",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

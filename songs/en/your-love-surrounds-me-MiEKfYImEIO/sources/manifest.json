@@ -76,6 +76,48 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/YourLoveSurroundsMe2023.mp3",
+      "url": "https://songsofpraise.org/mp3/YourLoveSurroundsMe2023.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "22d7a328fd75051eb1b010ea8bc8c9c5a79b5aa9872955833e113ae8df9909b9",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/YourLoveSurroundsMe2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/YourLoveSurroundsMe2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "39a4e89c68cbdc7bc0ee66b8a17606e99d5beb37744ab1b5d603d76fb3ed8ed1",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/YourLoveSurroundsMe_accompaniment.mp3",
+      "url": "https://songsofpraise.org/mp3/YourLoveSurroundsMe_accompaniment.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "cbd8de59c1ef005122707426cd992726cc5b2a4dc6d8ce86793262be96724ac8",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

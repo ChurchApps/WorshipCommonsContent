@@ -64,6 +64,20 @@
       "layer": "arrangement",
       "obtainedVia": "harvest",
       "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "extra/hechangedme_keyboard.pdf",
+      "url": "https://songsofpraise.org/pdf/hechangedme_keyboard.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "6b9f3edc7ad78b446c2abd8345b55536de8dfc6bbaf67cd67a422831e25ecbf6",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

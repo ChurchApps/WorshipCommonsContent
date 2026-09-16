@@ -103,7 +103,7 @@ After reviewing the candidate, install the related composition outputs together:
 
 ```powershell
 Copy-Item -LiteralPath "$reviewDir/candidate/score.mid","$reviewDir/candidate/score.musicxml" -Destination "$songPkg/output/composition"
-foreach ($sheetName in @('lead-sheet.svg', 'lead-sheet.pdf')) {
+foreach ($sheetName in @('lead-sheet.pdf')) {
     if (Test-Path -LiteralPath "$reviewDir/candidate/$sheetName") {
         Copy-Item -LiteralPath "$reviewDir/candidate/$sheetName" -Destination "$songPkg/output/composition"
     }

@@ -76,6 +76,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/ithankoboe.pdf",
+      "url": "https://songsofpraise.org/pdf/ithankoboe.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "ceca1bf0dca9f70ce0d3a00996603e13f49c16536806ccb8ec95047571bcfd65",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/IThankYouLord_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/IThankYouLord_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "c0470538efac2e758cc3bc98484361d630572fa79773bd12af3761c074354419",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

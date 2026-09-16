@@ -76,6 +76,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/victory_dutch.pdf",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "b58b6b6bc4a36e171f55070991150a42d9e7bac17bbb81718b0316d3601cf2f7",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/Victory_orch_GPO.mp3",
+      "url": null,
+      "acquired": "2026-09-14",
+      "sha256": "618016251ef58ba852ede5fb0c86fa3a65b327987895a647334183a70dc96bd2",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

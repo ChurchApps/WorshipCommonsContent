@@ -36,7 +36,7 @@ songs/<lang>/<slug>-<id>/      one package per song
     extra/                     granted but not processed (tabs, orchestra parts)
   output/
     composition/               charts, slides, score, slides.json, LICENSE.txt
-    audio/                     pack zip + full mix + preview — only with a master grant
+    audio/                     pack zip + full mix + 30 s preview + instrumental — only with a master grant
 works/<slug>/                  translation families (work.json at the root)
 writers/<slug>/                portraits and bios, shared across songs
 licenses/                      full text of each song license

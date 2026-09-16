@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/TheLordShallReturnToJerusalem2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/TheLordShallReturnToJerusalem2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "e1e5f348672d81bfc984f5e8cc33c8945ffe515bd6bc723fbe0accd8bc91f416",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

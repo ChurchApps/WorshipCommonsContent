@@ -76,6 +76,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/father.mp3",
+      "url": "https://songsofpraise.org/mp3/father.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "892191d9f4b882ae067b48095d64eedbb546da76907984145f95643153989078",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/IPraiseYouMyFather2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/IPraiseYouMyFather2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "fbc6e1fbdfec3837963b60ecb5edfd495580f92f33d7bb7f55baa8ad0b8ea8d6",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/UntilTheRaceIsWon2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/UntilTheRaceIsWon2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "8aac68c9d3c0cb236f740feb88b4490c7520df129c9f20012b8e57c422dc3dda",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

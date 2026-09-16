@@ -76,6 +76,48 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/JesusIsTheLight_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/JesusIsTheLight_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "be84cb5f1347e05d2b0b488a7ce5210383d7a188a37ae4e538b20b58f0befd16",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/lightacc.pdf",
+      "url": "https://songsofpraise.org/pdf/lightacc.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "91636546a91862cf780fcd6a042cd9d54b7ff5782ecb4573b9e01a47370d0ccb",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/lightbass.pdf",
+      "url": "https://songsofpraise.org/pdf/lightbass.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "bdc1e1c231d71bf08538489696871912aae9069b731cf88602faf6281e8c6a29",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

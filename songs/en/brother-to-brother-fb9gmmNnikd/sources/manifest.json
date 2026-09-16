@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/BrotherToBrother2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/BrotherToBrother2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "b949759288a32671dc39a75b3bb204a4b33ab283f1ff9493cfc689a9899b0945",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

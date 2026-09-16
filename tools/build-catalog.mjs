@@ -8,7 +8,7 @@ import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   idFor, splitChordpro, songDirs, readJson, readWorks, writeJson,
-  readSong, readHarvested, lyricsPath, resolveShared
+  readSong, readHarvested, lyricsPath, resolveShared, readManifest
 } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -101,6 +101,10 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
       const zip = fs.existsSync(audio) ? fs.readdirSync(audio).find(f => f.endsWith(".zip")) : null;
       row[urlCol] = zip ? `${rootRel}/output/audio/${zip}` : null;
       row[bytesCol] = zip ? fs.statSync(path.join(audio, zip)).size : null;
+      // built beside the zip by pack/build.py: 30 s site preview, vocal-free karaoke bed
+      const sidecar = suffix => { const f = fs.existsSync(audio) ? fs.readdirSync(audio).find(x => x.endsWith(suffix)) : null; return f ? `${rootRel}/output/audio/${f}` : null; };
+      row.previewUrl = sidecar("-preview.m4a");
+      row.instrumentalUrl = sidecar("-instrumental.m4a");
       continue;
     }
     const rel = name && fs.existsSync(path.join(dir, "sources", "master", name)) ? `sources/master/${name}`
@@ -109,6 +113,9 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     row[urlCol] = rel ? `${rootRel}/${rel}` : null;
     row[bytesCol] = rel ? fs.statSync(path.join(dir, rel)).size : null;
   }
+
+  // granted-as-is extras (sources/extra/*): every manifest row that still exists on disk
+  row.extraUrls = readManifest(dir).filter(r => r.file.startsWith("extra/") && fs.existsSync(path.join(dir, "sources", r.file))).map(r => `${rootRel}/sources/${r.file}`);
 
   if (song.writerRef) {
     const wdir = path.join(ROOT, "writers", song.writerRef);

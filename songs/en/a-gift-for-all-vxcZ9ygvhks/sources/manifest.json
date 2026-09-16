@@ -76,6 +76,62 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/AGiftForAll-piano.pdf",
+      "url": "https://songsofpraise.org/pdf/AGiftForAll-piano.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "e6255782a39120a98c45bda518bca3a4711447ceec5dccb43b1b72e373eaba4c",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/AGiftForAll.mp3",
+      "url": "https://songsofpraise.org/mp3/AGiftForAll.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "880c8cb2abd21be8f0c6ee7d44fadd425daa07d5413e8970c2f3d6297ef5d338",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/AGiftForAll2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AGiftForAll2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "f361d031d7d3824fa95d4a90cc079d1b246d5eab3a11d921f32122d55a9b7551",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/agiftforall_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/agiftforall_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "0281209df1f05d37c648ae3ebde2d7ec221adc44e48413cb1cebbf4e36d8491e",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

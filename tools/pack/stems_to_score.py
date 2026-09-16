@@ -4,7 +4,7 @@
   python tools/pack/stems_to_score.py <vocals> <lyrics> <out_dir> --stems-dir <stems> --mix <master.mp3>
 
 Writes out_dir/score.mid and out_dir/score.musicxml. Tries out_dir/lead-sheet.pdf
-via MuseScore or Verovio when either is present.
+via MuseScore when it is installed.
 
 score.mid is a sketch of the recording: pitched stems (vocals, piano, guitar,
 bass, leftover other) through Basic Pitch (polyphonic; pyin fallback when it is
@@ -697,18 +697,7 @@ def _write_sheet(xml: Path, out_dir: Path) -> Path | None:
         r = subprocess.run([mscore, "-o", str(pdf), str(xml)], capture_output=True, text=True)
         if r.returncode == 0 and pdf.exists():
             return pdf
-    svg = out_dir / "lead-sheet.svg"
-    try:
-        import verovio
-
-        tk = verovio.toolkit()
-        tk.setOptions({"adjustPageHeight": True})
-        tk.loadFile(str(xml))
-        tk.renderToSVGFile(str(svg))
-        if svg.exists():
-            return svg
-    except Exception:
-        pass
+    # ponytail: no verovio SVG fallback — nothing on the site reads it
     return None
 
 

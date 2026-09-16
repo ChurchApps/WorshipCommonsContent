@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/WhoHasBelieved2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/WhoHasBelieved2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "ed0f37268d7ac358ba4b4f73f4dd73ce613f9674575ed23e5b68ce4de1671d0b",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/turn_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/turn_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "2a699f39149814745d0a369c4472ee7d6b39af3c7b57decda0030efdd87422f0",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

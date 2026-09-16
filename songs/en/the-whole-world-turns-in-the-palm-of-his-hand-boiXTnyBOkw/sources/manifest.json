@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/TheWholeWorldTurnsInThePalmOfHisHand_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/TheWholeWorldTurnsInThePalmOfHisHand_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "bc46946d3163b1bef3822df042ae40025e07c676d07db1c859d01616fc70bbfa",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

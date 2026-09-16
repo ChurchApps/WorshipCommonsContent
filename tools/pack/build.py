@@ -241,7 +241,12 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
     comp = pkg / "output" / "composition"
     lyrics = pkg / "sources" / "lyrics.chordpro"
     vocals = next(iter(stems_dir.glob("*_vocals.m4a")), None) or next(iter(stems_dir.glob("*vocals*")), None)
-    if not human_score.exists() and vocals and lyrics.exists():
+    sketch = comp / "score.musicxml"
+    # ponytail: reuse the sketch unless the recording or the words changed; --force re-transcribes
+    sketch_fresh = sketch.exists() and mtime(sketch) > max(mtime(vocals) if vocals else 0, mtime(lyrics) if lyrics.exists() else 0)
+    if not human_score.exists() and sketch_fresh and not force:
+        score_src = sketch  # transcription is the slow step; reuse it when nothing it reads has changed
+    elif not human_score.exists() and vocals and lyrics.exists():
         print(f"  transcribe {vocals.name} -> MIDI/MusicXML", flush=True)
         try:
             sys.path.insert(0, str(HERE))
@@ -284,7 +289,7 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
         raise RuntimeError("output/composition/LICENSE.txt is missing; run node tools/generate.mjs first")
     shutil.copy2(licence, pack_dir / "LICENSE.txt")
 
-    # output/audio ships three files: the pack zip, the full mix, the preview.
+    # output/audio ships the pack zip plus its sidecars: full mix, 30 s preview, instrumental bed.
     # The extracted pack folder is an intermediate and stays in the cache.
     if out.exists():
         shutil.rmtree(out)

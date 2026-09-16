@@ -13,6 +13,8 @@ arrangement.json = source mix, form/cues, count-off. Rendered sound is Stems/*.
 Also writes a listening mix with no click, guide-as-cue, or count-off:
   Full Mix.m4a                  (inside the pack folder)
   {folder}-fullmix.m4a          (next to the zip)
+  {folder}-preview.m4a          30 s site preview
+  {folder}-instrumental.m4a     full mix minus vocal stems, when a vocal stem exists
 
   python generate_multitracks.py
   python generate_multitracks.py --midi-only
@@ -403,6 +405,9 @@ def cheap_reverb(x: np.ndarray, mix: float = 0.16, delay_ms: float = 42, decay: 
         if d2 < len(x):
             y[d2:] += decay * 0.4 * x[:-d2]
     return ((1 - mix) * x + mix * y).astype(np.float32)
+
+
+PREVIEW_SECONDS = 30
 
 
 def limit(x: np.ndarray, peak: float = 0.95) -> np.ndarray:
@@ -1407,8 +1412,8 @@ def main():
         shutil.copytree(ABLETON_INFO, pack_dir / "Ableton Project Info", dirs_exist_ok=True)
     write_album(pack_dir / "Album.jpg", score.title, f"{score.key} · {score.bpm:.0f} BPM")
 
-    preview_mix = np.zeros((n, 2), np.float32)
     song_mix = np.zeros((n, 2), np.float32)
+    inst_mix = np.zeros((n, 2), np.float32)  # song_mix without the vocal stems
     wav_dir = CACHE / "wav_stems"
     wav_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1504,9 +1509,10 @@ def main():
         write_wav(wav, audio)
         encode_m4a(wav, m4a, args.format)
         gain = float(spec.get("mixGain", 0.6))
-        preview_mix += audio * gain
         if not is_cue_stem(name, spec):
             song_mix += audio * gain
+            if not str(spec.get("source") or "").startswith("mix:vocals"):
+                inst_mix += audio * gain
         als_tracks.append((name, color))
         print(f"  {name:16} {origin:22} {m4a.stat().st_size:9}  peak={float(np.max(np.abs(audio))):.3f}", flush=True)
 
@@ -1527,11 +1533,6 @@ def main():
         locators,
         args.format,
     )
-
-    preview = args.out / f"{folder}-preview.m4a"
-    write_wav(wav_dir / "_mix.wav", limit(preview_mix, 0.95))
-    encode_m4a(wav_dir / "_mix.wav", preview)
-    print("preview", preview, flush=True)
 
     # Listening mix: no click/cues. Use the chosen source mix from first audible
     # audio so a pre-chart guitar solo/pickup is not trimmed away.
@@ -1573,6 +1574,29 @@ def main():
         except Exception as e:
             print(f"  sidecar full mix skipped ({e})", flush=True)
     print(f"full mix ({origin}) {pack_full}  {len(full) / SR:.2f}s", flush=True)
+
+    # Site preview: 30 s of the listening mix from the first chorus (else the top), 1 s fades.
+    # ponytail: no loudness analysis — first chorus is the hook often enough.
+    first_chorus = next((sec for sec in score.sections if "chorus" in sec.locator.lower()), None)
+    p0 = int(round((first_chorus.start_ql * 60.0 / score.bpm if first_chorus else 0.0) * SR))
+    p0 = max(0, min(p0, max(0, len(full) - PREVIEW_SECONDS * SR)))
+    clip = full[p0 : p0 + PREVIEW_SECONDS * SR].copy()
+    pf = min(SR, len(clip) // 4)
+    clip[:pf] *= np.linspace(0, 1, pf, dtype=np.float32)[:, None]
+    clip[-pf:] *= np.linspace(1, 0, pf, dtype=np.float32)[:, None]
+    preview = args.out / f"{folder}-preview.m4a"
+    write_wav(wav_dir / "_preview.wav", clip)
+    encode_m4a(wav_dir / "_preview.wav", preview)
+    print(f"preview {preview}  {len(clip) / SR:.1f}s from {p0 / SR:.1f}s", flush=True)
+
+    # Karaoke bed: summed stems minus vocals, same slice as the stem-summed full mix.
+    if any(str(spec.get("source") or "").startswith("mix:vocals") for _, _, spec in job_stems):
+        chunk = inst_mix[song_start : song_start + song_n]
+        if len(chunk) < song_n:
+            chunk = np.pad(chunk, ((0, song_n - len(chunk)), (0, 0)))
+        write_wav(wav_dir / "_instrumental.wav", limit(chunk[:song_n], 0.95))
+        encode_m4a(wav_dir / "_instrumental.wav", args.out / f"{folder}-instrumental.m4a")
+        print("instrumental", args.out / f"{folder}-instrumental.m4a", flush=True)
 
     if not args.no_zip:
         zip_path = args.out / f"{folder}.zip"

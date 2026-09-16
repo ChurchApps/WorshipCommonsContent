@@ -76,6 +76,20 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/AsTheRiverRuns2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AsTheRiverRuns2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "6f2595ac78d3c8948b5c206d909aabf5ca2ce03355ba6b2e22dd74f5a84bf4d8",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

@@ -76,6 +76,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/ilay.mp3",
+      "url": "https://songsofpraise.org/mp3/ilay.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "d4b609ccab0465e683bee87b730b46064711b09413f51376ddc28b55d8f4c281",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/ILayItDown2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/ILayItDown2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "01f2942d770bc4f03bab022e68183260a6786603241083a0d9739418f3333963",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }

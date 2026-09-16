@@ -50,6 +50,34 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/TheLongLonelyBattle.mp3",
+      "url": "https://songsofpraise.org/mp3/TheLongLonelyBattle.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "52796c6908658a8d0ff643a29a009fce361fc86b9acb997fee7f64868995c1d6",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/TheLongLonelyBattle2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/TheLongLonelyBattle2026_acc.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "34179cbf9d68bc94eac8bd404ddd26123bb7f33afc48b1b92a400b58aaa269ab",
+      "license": "larry-holder",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
     }
   ]
 }
