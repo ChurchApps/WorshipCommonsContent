@@ -79,7 +79,7 @@
     },
     {
       "file": "extra/victory_dutch.pdf",
-      "url": null,
+      "url": "https://larryholdermusic.org/scores/victory_dutch.pdf",
       "acquired": "2026-09-14",
       "sha256": "b58b6b6bc4a36e171f55070991150a42d9e7bac17bbb81718b0316d3601cf2f7",
       "license": "larry-holder",
@@ -93,7 +93,7 @@
     },
     {
       "file": "extra/Victory_orch_GPO.mp3",
-      "url": null,
+      "url": "https://larryholdermusic.org/mp3/Victory_orch_GPO.mp3",
       "acquired": "2026-09-14",
       "sha256": "618016251ef58ba852ede5fb0c86fa3a65b327987895a647334183a70dc96bd2",
       "license": "larry-holder",

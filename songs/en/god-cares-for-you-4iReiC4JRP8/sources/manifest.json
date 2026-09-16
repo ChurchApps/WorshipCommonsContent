@@ -41,7 +41,7 @@
     },
     {
       "file": "extra/blessing.mid",
-      "url": null,
+      "url": "https://larryholdermusic.org/midi/blessing.mid",
       "acquired": "2026-09-14",
       "sha256": "57425f89ac48fa41428482e6326e614bcea870fc25dc05f93decf53d08cd18d3",
       "license": "larry-holder",
@@ -69,7 +69,7 @@
     },
     {
       "file": "extra/godcares.mid",
-      "url": null,
+      "url": "https://larryholdermusic.org/midi/godcares.mid",
       "acquired": "2026-09-14",
       "sha256": "23afdfebfe7a2c5c457acda551bc3f62145d0c95ea999801dae727fbb8027f1f",
       "license": "larry-holder",
@@ -83,7 +83,7 @@
     },
     {
       "file": "extra/saltlite.mid",
-      "url": null,
+      "url": "https://larryholdermusic.org/midi/saltlite.mid",
       "acquired": "2026-09-14",
       "sha256": "3419561864835011d68a2ab811e223c3d1d6c59559153ba9f84ce3f2da1d5623",
       "license": "larry-holder",
@@ -97,7 +97,7 @@
     },
     {
       "file": "extra/treasure.mid",
-      "url": null,
+      "url": "https://larryholdermusic.org/midi/treasure.mid",
       "acquired": "2026-09-14",
       "sha256": "78680bdd45fab40220d2d223fdca58f5d7dbf722aecaff01f5c2f05e9079329e",
       "license": "larry-holder",
@@ -111,7 +111,7 @@
     },
     {
       "file": "extra/yesno.mid",
-      "url": null,
+      "url": "https://larryholdermusic.org/midi/yesno.mid",
       "acquired": "2026-09-14",
       "sha256": "4ba52367eae61a11803c199cb98838d247408a35320175e7fd3d836fce18c432",
       "license": "larry-holder",

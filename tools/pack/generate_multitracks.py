@@ -13,8 +13,8 @@ arrangement.json = source mix, form/cues, count-off. Rendered sound is Stems/*.
 Also writes a listening mix with no click, guide-as-cue, or count-off:
   Full Mix.m4a                  (inside the pack folder)
   {folder}-fullmix.m4a          (next to the zip)
-  {folder}-preview.m4a          30 s site preview
-  {folder}-instrumental.m4a     full mix minus vocal stems, when a vocal stem exists
+  preview.m4a                   30 s site preview
+  instrumental.m4a              full mix minus vocal stems, when a vocal stem exists
 
   python generate_multitracks.py
   python generate_multitracks.py --midi-only
@@ -1584,7 +1584,7 @@ def main():
     pf = min(SR, len(clip) // 4)
     clip[:pf] *= np.linspace(0, 1, pf, dtype=np.float32)[:, None]
     clip[-pf:] *= np.linspace(1, 0, pf, dtype=np.float32)[:, None]
-    preview = args.out / f"{folder}-preview.m4a"
+    preview = args.out / "preview.m4a"  # short name: the core DB caps file paths at 100 chars
     write_wav(wav_dir / "_preview.wav", clip)
     encode_m4a(wav_dir / "_preview.wav", preview)
     print(f"preview {preview}  {len(clip) / SR:.1f}s from {p0 / SR:.1f}s", flush=True)
@@ -1595,8 +1595,8 @@ def main():
         if len(chunk) < song_n:
             chunk = np.pad(chunk, ((0, song_n - len(chunk)), (0, 0)))
         write_wav(wav_dir / "_instrumental.wav", limit(chunk[:song_n], 0.95))
-        encode_m4a(wav_dir / "_instrumental.wav", args.out / f"{folder}-instrumental.m4a")
-        print("instrumental", args.out / f"{folder}-instrumental.m4a", flush=True)
+        encode_m4a(wav_dir / "_instrumental.wav", args.out / "instrumental.m4a")
+        print("instrumental", args.out / "instrumental.m4a", flush=True)
 
     if not args.no_zip:
         zip_path = args.out / f"{folder}.zip"
