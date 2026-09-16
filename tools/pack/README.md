@@ -10,12 +10,14 @@ A song without a master grant is still a complete song — it just has no pack.
 **A granted mix always packs.** After `node tools/generate.mjs <pkg>`, run
 `python tools/pack/build.py <pkg>`. That is the standard rebuild, not an optional extra.
 
-After stem separation, if the package has no `sources/score.musicxml`, the vocal stem is
-transcribed to MIDI and MusicXML (`stems_to_score.py`) and the words from
-`sources/lyrics.chordpro` are underlaid. That generated score is a sketch (same class as a
-MIDI import). It lives in `output/composition/` (`score.mid`, `score.musicxml`,
-`lead-sheet.pdf` when MuseScore or Verovio is present). A person promoting it copies the
-MusicXML to `sources/score.musicxml`.
+After stem separation, if the package has no `sources/score.musicxml`, the mix is
+transcribed to MIDI and MusicXML (`stems_to_score.py`): pitched stems (vocals, piano,
+guitar, bass) plus a simple drum track, on the mix's beat grid, with the recording's
+intro left in place. Words from `sources/lyrics.chordpro` are underlaid on the melody.
+That generated score is a sketch (same class as a MIDI import). It lives in
+`output/composition/` (`score.mid`, `score.musicxml`, `lead-sheet.pdf` when MuseScore or
+Verovio is present). A person promoting it copies the MusicXML to `sources/score.musicxml`.
+`sources/tune.mid` is never rewritten.
 
 ```powershell
 python tools/pack/build.py                                    # whole library
@@ -46,7 +48,7 @@ whole library and it costs nothing when nothing changed.
 | Step | Tool | Notes |
 |---|---|---|
 | separate | `separate_stems.py` | MelBand Roformer → vocals; BS-Roformer SW → guitar, drums, bass, piano, other; then keep the instruments that are in the mix. A vocal + guitar recording packs as vocals + guitar, not a phantom band. 256k AAC. ~1 min for a 4-minute song on a 3060 |
-| transcribe | `stems_to_score.py` | Vocal stem → MIDI (librosa pyin) → MusicXML + lyrics underlay. Skipped when `sources/score.musicxml` already exists |
+| transcribe | `stems_to_score.py` | Mix stems → multi-instrument MIDI (pyin on pitched stems, onset drums) + melody MusicXML + lyrics underlay. Beat grid and tempo come from the mix. Skipped when `sources/score.musicxml` already exists |
 | click | `make_bounce.py` | Click on every beat plus spoken two-bar section callouts. Section times come from the package's `score.musicxml` rehearsal marks; without a score it is click only. No song audio in this file |
 | pack | `generate_multitracks.py --from-stems --real-only` | `Session.als`, `Stems/*.m4a`, `Full Mix.m4a`, `Album.jpg`, `-preview.m4a`, `-fullmix.m4a` — into the cache |
 | zip | `build.py` | Adds `LICENSE.txt`, zips into `output/audio/`, moves the two mixes beside it |

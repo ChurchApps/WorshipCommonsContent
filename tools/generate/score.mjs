@@ -65,8 +65,15 @@ const XML2MIDI = path.join(path.dirname(fileURLToPath(import.meta.url)), "xml2mi
 export function midiFor(dir) {
   const source = path.join(dir, "sources", "score.musicxml");
   const built = path.join(dir, "output", "composition", "score.musicxml");
+  const abc = path.join(dir, "sources", "tune.abc");
   const xml = fs.existsSync(source) ? source : fs.existsSync(built) ? built : null;
   const dest = path.join(dir, "output", "composition", "score.mid");
+  // Stem sketch MIDI is timed to the recording (multi-instrument, intro intact).
+  // Flattening it through MusicXML would drop the band and the intro. ABC hymns
+  // and a human sources/score.musicxml still go through xml2midi.
+  if (!fs.existsSync(source) && !fs.existsSync(abc)) {
+    return fs.existsSync(dest) ? "unchanged" : "no-score";
+  }
   if (!xml) {
     if (fs.existsSync(dest)) fs.unlinkSync(dest);
     return "no-score";

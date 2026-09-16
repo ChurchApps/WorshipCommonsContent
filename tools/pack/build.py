@@ -215,10 +215,13 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
         try:
             sys.path.insert(0, str(HERE))
             from stems_to_score import transcribe
-            info = transcribe(vocals, lyrics, comp, song.get("bpm"))
+            info = transcribe(vocals, lyrics, comp, song.get("bpm"), stems_dir=stems_dir, mix=master)
+            onset = info.get("vocal_onset")
+            sheet = "" if info.get("sheet") else " (MusicXML only; no SVG/PDF renderer)"
+            vocal = f", vocal@{onset}s" if onset is not None else ""
             print(
-                f"  {info['notes']} notes, {info['key']} @ {info['bpm']} bpm"
-                f"{'' if info.get('sheet') else ' (MusicXML only; no SVG/PDF renderer)'}",
+                f"  {info['notes']} melody notes, {info.get('midi_notes', info['notes'])} midi notes, "
+                f"{info['key']} @ {info['bpm']} bpm{vocal}{sheet}",
                 flush=True,
             )
             score_src = comp / "score.musicxml"

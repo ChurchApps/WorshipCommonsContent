@@ -118,6 +118,9 @@ def separate(
     mix = work / "mix.wav"
     print(f"decode {input_path.name} -> 24-bit wav")
     _ffmpeg(["-i", str(input_path), "-acodec", "pcm_s24le", "-ar", "44100", str(mix)])
+    # audio-separator deletes its input after a pass; keep a second copy for the band model.
+    mix_band = work / "mix-band.wav"
+    shutil.copy2(mix, mix_band)
 
     print(f"vocals: {VOCAL_MODEL}")
     vocal_sep = _make_separator(work)
@@ -137,7 +140,7 @@ def separate(
     band_sep.load_model(model_filename=BAND_MODEL)
     band_files = _separate_with_retry(
         band_sep,
-        mix,
+        mix_band,
         {
             "Guitar": "guitar",
             "Drums": "drums",
@@ -162,7 +165,7 @@ def separate(
         from mt_mix import read_audio, select_real_stems
 
         arrays = {name: read_audio(path) for name, path in stem_map.items()}
-        kept = select_real_stems(arrays, read_audio(mix))
+        kept = select_real_stems(arrays, read_audio(mix_band if mix_band.exists() else mix))
         for name, audio in kept.items():
             dest = stem_map.get(name) or (work / f"{name}.wav")
             sf.write(str(dest), audio, 44100)

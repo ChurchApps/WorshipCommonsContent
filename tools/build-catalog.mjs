@@ -27,8 +27,10 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const rootRel = ["songs", langDir, folder].join("/");
   const harvested = readHarvested(dir);
-  const midi = resolveShared(rootRel, dir, work, "sources/tune.mid");
   const abc = resolveShared(rootRel, dir, work, "sources/tune.abc");
+  const sketchMidi = resolveShared(rootRel, dir, work, "output/composition/score.mid", { inherit: false });
+  // Stem sketch is the recording-timed MIDI. ABC hymns keep the harvested tune.mid.
+  const midi = (!abc.path && sketchMidi.path) ? sketchMidi : resolveShared(rootRel, dir, work, "sources/tune.mid");
   const art = resolveShared(rootRel, dir, work, "sources/cover.webp");
   const timing = resolveShared(rootRel, dir, work, "sources/timing.json", { inherit: false });
   const scoreSource = resolveShared(rootRel, dir, work, "sources/score.musicxml");
