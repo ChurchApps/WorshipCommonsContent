@@ -108,7 +108,8 @@ def _maybe_stamp_detected(pkg: Path, song: dict, info: dict) -> None:
         song["key"] = key
         changed = True
     if changed:
-        (pkg / "song.json").write_text(json.dumps(song, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        with open(pkg / "song.json", "w", encoding="utf-8", newline='\n') as f:  # repo is LF; text mode writes CRLF
+            f.write(json.dumps(song, indent=2, ensure_ascii=False) + '\n')
 
 
 def duration_seconds(path: Path) -> float:
