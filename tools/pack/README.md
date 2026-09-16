@@ -11,9 +11,9 @@ A song without a master grant is still a complete song — it just has no pack.
 `python tools/pack/build.py <pkg>`. That is the standard rebuild, not an optional extra.
 
 After stem separation, if the package has no `sources/score.musicxml`, the mix is
-transcribed to MIDI and MusicXML (`stems_to_score.py`): pitched stems (vocals, piano,
-guitar, bass) plus a simple drum track, on the mix's beat grid, with the recording's
-intro left in place. Words from `sources/lyrics.chordpro` are underlaid on the melody.
+transcribed to MIDI and MusicXML (`stems_to_score.py`): every stem with energy (vocals, piano,
+guitar, bass, other) with velocities, plus a simple drum track. MIDI retains detected
+performance timing and the recording's intro. Words from `sources/lyrics.chordpro` are underlaid on the melody.
 That generated score is a sketch (same class as a MIDI import). It lives in
 `output/composition/` (`score.mid`, `score.musicxml`, `lead-sheet.pdf` when MuseScore or
 Verovio is present). A person promoting it copies the MusicXML to `sources/score.musicxml`.
@@ -48,7 +48,7 @@ whole library and it costs nothing when nothing changed.
 | Step | Tool | Notes |
 |---|---|---|
 | separate | `separate_stems.py` | MelBand Roformer → vocals; BS-Roformer SW → guitar, drums, bass, piano, other; then keep the instruments that are in the mix. A vocal + guitar recording packs as vocals + guitar, not a phantom band. 256k AAC. ~1 min for a 4-minute song on a 3060 |
-| transcribe | `stems_to_score.py` | Mix stems → multi-instrument MIDI (pyin on pitched stems, onset drums) + melody MusicXML + lyrics underlay. Beat grid and tempo come from the mix. Skipped when `sources/score.musicxml` already exists |
+| transcribe | `stems_to_score.py` | Mix stems → multi-instrument MIDI (Basic Pitch on pitched stems — `pip install --no-deps basic-pitch mir_eval`, the pins fight Python 3.13; pyin fallback is monophonic and wrong for piano — plus onset drums) + melody MusicXML (pyin) + lyrics underlay. MIDI preserves detected performance timing; only notation snaps to the tracked beat grid. Same-pitch overlaps are resolved before MIDI export to prevent premature note-offs. `--check score.mid stems_dir --seconds 8` checks the opening: chroma / onset match, same-pitch overlaps, and notes shorter than 30 ms. Chroma is octave-blind and does not establish listening quality. Skipped when `sources/score.musicxml` already exists |
 | click | `make_bounce.py` | Click on every beat plus spoken two-bar section callouts. Section times come from the package's `score.musicxml` rehearsal marks; without a score it is click only. No song audio in this file |
 | pack | `generate_multitracks.py --from-stems --real-only` | `Session.als`, `Stems/*.m4a`, `Full Mix.m4a`, `Album.jpg`, `-preview.m4a`, `-fullmix.m4a` — into the cache |
 | zip | `build.py` | Adds `LICENSE.txt`, zips into `output/audio/`, moves the two mixes beside it |
@@ -90,10 +90,19 @@ built into `output/composition/`) it is used
 writes a placeholder score at the song's tempo and the mix's length: the pack still
 builds, with no callouts and no locators.
 
+## Reproducing and checking MIDI
+
+See [the audio-to-MIDI runbook](MIDI.md) for the complete conversion path,
+environment check, normal rebuild, regeneration from cached stems, and before/after
+validation commands. It records the repeated-note timing defect, the generic fixes,
+and measured results for *For the Wonder of God's Love*. Use it when investigating
+future MP3-to-MIDI conversions; preserve the old MIDI before regenerating.
+
 ## Requirements
 
 Python 3.13, `ffmpeg`/`ffprobe` on PATH, CUDA PyTorch, `audio-separator`, `music21`,
-`pillow`, `soundfile`, `scipy`, `numpy`. An RTX 3060 12 GB is enough. First run downloads
+`pillow`, `soundfile`, `scipy`, `numpy`. Transcription also needs `librosa`, `pretty_midi`,
+`basic_pitch`, `mir_eval`, and a working model runtime; see [MIDI setup](MIDI.md#environment-and-normal-rebuild). An RTX 3060 12 GB is enough. First run downloads
 MelBand vocals (~913 MB) and BS-Roformer SW (~700 MB) into
 `%USERPROFILE%\.cache\audio-separator-models`. Speech for the callouts is Windows SAPI.
 

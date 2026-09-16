@@ -211,7 +211,7 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
     lyrics = pkg / "sources" / "lyrics.chordpro"
     vocals = next(iter(stems_dir.glob("*_vocals.m4a")), None) or next(iter(stems_dir.glob("*vocals*")), None)
     if not human_score.exists() and vocals and lyrics.exists():
-        print(f"  transcribe {vocals.name} → MIDI/MusicXML", flush=True)
+        print(f"  transcribe {vocals.name} -> MIDI/MusicXML", flush=True)
         try:
             sys.path.insert(0, str(HERE))
             from stems_to_score import transcribe
@@ -226,6 +226,7 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
             )
             score_src = comp / "score.musicxml"
             _maybe_stamp_detected(pkg, song, info)
+            shutil.copy2(pkg / "song.json", work / "masters" / "song.json")  # stamped key/bpm name the pack
         except Exception as e:
             print(f"  transcribe failed ({type(e).__name__}: {e}); pack continues without a score", flush=True)
     if score_src:

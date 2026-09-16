@@ -104,9 +104,11 @@ flowchart LR
 A song with `song.json` + `sources/lyrics.chordpro` is complete and valid. We do not invent a
 melody without a recording or a written score. A granted mix in `sources/master/` always
 runs `python tools/pack/build.py`: a stems pack of the instruments that are in the mix
-(vocal + guitar stays vocal + guitar), then a generated MIDI/MusicXML from the
-vocal stem with the chordpro words underlaid. That generated score is a sketch until a
-person promotes it to `sources/score.musicxml`.
+(vocal + guitar stays vocal + guitar), then a multi-instrument MIDI from the stems and
+melody MusicXML with the ChordPro words underlaid. MIDI preserves detected performance
+timing; notation uses the tracked beat grid. That generated score is a sketch until a
+person promotes it to `sources/score.musicxml`. See the [audio-to-MIDI runbook](tools/pack/MIDI.md)
+for reproduction commands, repeated-note handling, and validation against the stems.
 
 ### `sources/` — what we cannot rebuild
 
