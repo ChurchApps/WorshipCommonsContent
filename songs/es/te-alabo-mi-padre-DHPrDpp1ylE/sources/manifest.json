@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=111",
+      "acquired": "2026-09-16",
+      "sha256": "dc6f38b06b3e3fbb85962a11ad378490e5fc62a666df05aefbbaae1edc132e56",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": false,
+      "submittedBy": "Elton Smith",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/fathersp.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "bb70da9b240c16ec86961c34233e695e67cf7d144561d02dc823e05cbc9b1d32",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=208",
+      "acquired": "2026-09-16",
+      "sha256": "3ee2b88932d469ae8f51f9545b566feaa687c31299976630d8f703c3c4ee5c25",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": false,
+      "submittedBy": "Elton Smith",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/MaisQueUmMenino.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "ef5ec5b44c3afea9951d415d780c6eb671cea89a5c1a97e75f1b9355ea78a0cb",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "extra/MaisQueUmMenino_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/MaisQueUmMenino_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "2b4f43e5523071a9917e2daacd31673b9a568a323b3a940bb426d5370f5c00ad",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    }
+  ]
+}

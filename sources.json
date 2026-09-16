@@ -134,5 +134,15 @@
       "text": "Larry Holder",
       "link": "https://larryholdermusic.org/"
     }
+  },
+  "songs-of-praise": {
+    "name": "Songs of Praise (Elton Smith)",
+    "url": "https://songsofpraise.org/",
+    "licenseBasis": "Translations of Larry Holder / Elton Smith songs hosted by Elton Smith. On 2026-09-16 Elton confirmed they are available under Larry Holder Music's non-profit permissions (larryholdermusic.org/copyright.html), translator credit kept. Only translations of songs already in the library under larry-holder are taken.",
+    "attribution": {
+      "required": true,
+      "text": "Larry Holder / Elton Smith, Songs of Praise",
+      "link": "https://songsofpraise.org/"
+    }
   }
 }

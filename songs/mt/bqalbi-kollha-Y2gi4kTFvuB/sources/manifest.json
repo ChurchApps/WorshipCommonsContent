@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=5",
+      "acquired": "2026-09-16",
+      "sha256": "ad5f172083db5f0ba884ba727d399973840fc9e322401d9d3d17803196e273bc",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": false,
+      "submittedBy": "Elton Smith",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeartMaltese.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "184808705094c9fcd59718dd913d69f88e11b0c1097638b04051b8578e10346d",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "extra/AllOfMyHeartMaltese_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeartMaltese_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "940ba17a8edd1de0693faf4a39891afe7f867a642013c8d424edfeaf45038f07",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    }
+  ]
+}

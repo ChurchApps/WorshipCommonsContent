@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=351",
+      "acquired": "2026-09-16",
+      "sha256": "20f92a3b2d3c25dfbe65addb6eef5170bdaaf5068e04ec2c43f03aaf8ccc8378",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": false,
+      "submittedBy": "Elton Smith",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/MasQueUnBebe2026.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "85a9e5ef9c058e20a428a319233ac9b070da9ed89796a8b4cf02edd57d1feb27",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "extra/MasQueUnBebe2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/MasQueUnBebe2026_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "85205ebdfb922133161c95853dd67aa99de706d3969144e487aac1ccb77a72bb",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    }
+  ]
+}

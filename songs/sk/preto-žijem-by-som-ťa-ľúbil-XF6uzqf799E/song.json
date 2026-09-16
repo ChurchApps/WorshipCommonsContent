@@ -1,0 +1,58 @@
+{
+  "id": "XF6uzqf799E",
+  "title": "Preto žijem by som Ťa ľúbil",
+  "writer": "Larry Holder / Elton Smith · tr. Branislav Mičieta",
+  "year": 1997,
+  "language": "Slovak",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith · tr. Branislav Mičieta",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Branislav Mičieta",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Branislav Mičieta"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "2FCCvjupEKe"
+  },
+  "relationLabel": "Slovak translation · tr. Branislav Mičieta"
+}

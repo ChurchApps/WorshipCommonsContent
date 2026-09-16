@@ -1,0 +1,81 @@
+{
+  "id": "gF0GfpgeHc8",
+  "title": "Heel mijn hart",
+  "writer": "Larry Holder / Elton Smith · tr. Judith Seip",
+  "year": 1997,
+  "language": "Dutch",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith · tr. Judith Seip",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Judith Seip",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Judith Seip"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "recording posted for free download on songsofpraise.org; non-profit grant",
+      "source": "songs-of-praise"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Bridge",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Bridge",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "2FCCvjupEKe"
+  },
+  "relationLabel": "Dutch translation · tr. Judith Seip",
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}

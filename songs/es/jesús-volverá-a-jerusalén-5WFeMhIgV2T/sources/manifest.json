@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=262",
+      "acquired": "2026-09-16",
+      "sha256": "8246fe5712c39f2a2023d1e024e7d81350295e53b0ac56283dd4d63cc7352a4b",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": false,
+      "submittedBy": "Elton Smith",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/Jes%C3%BAsVolver%C3%A1AJerusal%C3%A9n.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "ed6fdb8c09cc75ed71fb156f8af4f0f56421dbf42081c8584901aa1e3571e7ee",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "extra/Jes%C3%BAsVolver%C3%A1AJerusal%C3%A9n_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/Jes%C3%BAsVolver%C3%A1AJerusal%C3%A9n_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "b5ac1cbc8e850dd90a5292c6e2170447d3ae1deeb2bfc98941f97fc1c5f8e8cf",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://songsofpraise.org/pdf/TheLordShallReturnToJerusalemSpanish.pdf",
+      "acquired": "2026-09-16",
+      "sha256": "541b775849dfebd11a61564d6f26801015d61efe3956da1e5cb2e1b7a2662577",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=8",
+      "acquired": "2026-09-16",
+      "sha256": "47c562d2e6b224ffb49660f5c64d411ec44f0fb9c5ed1a37cc88a075898069dd",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": false,
+      "submittedBy": "Elton Smith",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/myhrtsp.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "c6fb90e2c7e28c0f5ae157a905f8d5d6beb9aa286c1fce4e6beb7ba53684c011",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "extra/AllOfMyHeart2021_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeart2021_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "c9d6d7be3030145be52a7fa9400beb94a346bc9214c711c1786b80fff4ee61d0",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    },
+    {
+      "file": "extra/MiCorazon.mp3",
+      "url": "https://songsofpraise.org/mp3/MiCorazon.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "761c11be6b7801e95cd38e38e94957abcd421bff903bbb6ec6db6b93535ca042",
+      "license": "larry-holder",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "note": "Granted alongside the song; kept as-is, not processed"
+    }
+  ]
+}

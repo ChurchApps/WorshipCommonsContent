@@ -1,0 +1,90 @@
+{
+  "id": "ooQwlDcu_5y",
+  "title": "Tudo Entrego",
+  "writer": "Larry Holder / Elton Smith · tr. Aurília Santos, Henrique Morais",
+  "year": 1998,
+  "language": "Portuguese",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith · tr. Aurília Santos, Henrique Morais",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Aurília Santos, Henrique Morais",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Aurília Santos, Henrique Morais"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "recording posted for free download on songsofpraise.org; non-profit grant",
+      "source": "songs-of-praise"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8"
+    ]
+  },
+  "parent": {
+    "id": "4Me0cWpBpqC"
+  },
+  "relationLabel": "Portuguese translation · tr. Aurília Santos, Henrique Morais",
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}

@@ -21,7 +21,15 @@ export const LANG_CODES = {
   Albanian: "sq",
   Hungarian: "hu",
   Zulu: "zu",
-  Swedish: "sv"
+  Swedish: "sv",
+  Dutch: "nl",
+  Italian: "it",
+  Chinese: "zh",
+  Afrikaans: "af",
+  Maltese: "mt",
+  Romanian: "ro",
+  Slovak: "sk",
+  Finnish: "fi"
 };
 
 // folder name from a title: lowercase, apostrophes dropped, other punctuation/space

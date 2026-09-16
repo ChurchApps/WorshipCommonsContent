@@ -1,0 +1,72 @@
+{
+  "id": "lo8m7SS1Bqj",
+  "title": "Merci Seigneur",
+  "writer": "Larry Holder / Elton Smith · tr. Marc Lefebvre",
+  "year": 1998,
+  "language": "French",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith · tr. Marc Lefebvre",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Marc Lefebvre",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Marc Lefebvre"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "recording posted for free download on songsofpraise.org; non-profit grant",
+      "source": "songs-of-praise"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Refrain 1",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Refrain 2",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Refrain 1",
+      "Verse 2",
+      "Refrain 2",
+      "Refrain 1"
+    ]
+  },
+  "parent": {
+    "id": "HSIoBK0s1Rl"
+  },
+  "relationLabel": "French translation · tr. Marc Lefebvre",
+  "uploads": {
+    "demoAudio": "song.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

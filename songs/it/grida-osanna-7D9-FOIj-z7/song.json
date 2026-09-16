@@ -1,0 +1,70 @@
+{
+  "id": "7D9-FOIj-z7",
+  "title": "Grida Osanna",
+  "writer": "Larry Holder / Elton Smith · tr. Vincenzo Miuccio",
+  "year": 1999,
+  "language": "Italian",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith · tr. Vincenzo Miuccio",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Vincenzo Miuccio",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Vincenzo Miuccio"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "recording posted for free download on songsofpraise.org; non-profit grant",
+      "source": "songs-of-praise"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "lxPMrC5ZCxQ"
+  },
+  "relationLabel": "Italian translation · tr. Vincenzo Miuccio",
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}

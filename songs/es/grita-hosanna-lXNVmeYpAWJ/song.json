@@ -1,0 +1,80 @@
+{
+  "id": "lXNVmeYpAWJ",
+  "title": "Grita Hosanna",
+  "writer": "Larry Holder / Elton Smith · tr. Leticia Reguero",
+  "year": 1999,
+  "language": "Spanish",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder / Elton Smith · tr. Leticia Reguero",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Leticia Reguero",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Leticia Reguero"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "recording posted for free download on songsofpraise.org; non-profit grant",
+      "source": "songs-of-praise"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Chorus",
+      "Verse 3",
+      "Chorus",
+      "Chorus",
+      "Verse 4",
+      "Chorus",
+      "Chorus"
+    ]
+  },
+  "parent": {
+    "id": "lxPMrC5ZCxQ"
+  },
+  "relationLabel": "Spanish translation · tr. Leticia Reguero",
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}
