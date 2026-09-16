@@ -9,6 +9,7 @@ tracks, PD-hymn adaptations, and third-party photos are skipped.
   python tools/harvest/import-larry-holder.py --dry-run
   python tools/harvest/import-larry-holder.py --refresh   # re-parse existing packages
   python tools/harvest/import-larry-holder.py --selftest  # parser checks, no network
+  python tools/harvest/import-larry-holder.py --chords [--only <slug>] [--dry-run]  # merge writer chord charts
 """
 from __future__ import annotations
 
@@ -729,6 +730,97 @@ def backfill_ccli(dry_run: bool) -> int:
     return 0
 
 
+CHART_LABELS = {"REPEAT CHORUS": "Chorus", "TAG": "Tag", "ENDING": "Ending"}
+CHART_DROP = re.compile(r"(INTRODUCTION|INTRO|INTERLUDE)$")  # "(Cello Introduction)" too: chord-only
+
+
+def parse_chord_chart(html: str) -> tuple[str | None, list[tuple[str, list[str]]]]:
+    """(chart key, [(section label, chordpro lines)...]) from a songsofpraise.org chordchart page.
+
+    Sections are a one-cell "(VERSE 1)" table; each lyric line is a two-row table, chords over
+    fragments, cell i over cell i. A fragment ending in &nbsp; keeps a space; "God A-" + "bove" joins.
+    """
+    m = re.search(r"<title>[^<]*\(([A-G][b#]?m?)\)[^<]*</title>", html, re.I)
+    key = m.group(1) if m else None
+    cell = lambda c: htmlmod.unescape(re.sub(r"(?is)<[^>]+>", "", c))
+    sections: list[tuple[str | None, list[str]]] = []
+    chorus: list[str] = []
+    for attrs, body in re.findall(r"(?is)<table\b([^>]*)>(.*?)</table>", html):
+        if "do_not_print_me" in attrs:
+            continue
+        rows = [re.findall(r"(?is)<td[^>]*>(.*?)</td>", r) for r in re.findall(r"(?is)<tr>(.*?)</tr>", body)]
+        chords = [cell(c).replace("\xa0", "").strip() for c in rows[0]] if rows else []
+        # "(VERSE 1)" as a one-cell table, or "(Chorus)" as a chord-less lyric row
+        head = cell(rows[-1][0]).strip() if rows and len(rows[-1]) == 1 and (len(rows) == 1 or not any(chords)) else ""
+        if re.match(r"^\(.+\)$", head):
+            name = re.sub(r"^REPEAT CHORUS.*", "REPEAT CHORUS", head.strip("() ").upper())
+            sections.append((None if CHART_DROP.search(name) else CHART_LABELS.get(name, name.title()), []))
+            continue
+        if len(rows) != 2 or not sections or sections[-1][0] is None:
+            continue
+        line = ""
+        for i, frag in enumerate(rows[1]):
+            t = cell(frag)
+            c = chords[i] if i < len(chords) else ""
+            line += (f"[{c}]" if c else "") + t.replace("\xa0", "").strip() + (" " if t.endswith("\xa0") else "")
+        if line.strip():
+            sections[-1][1].append(line.strip())
+    out: list[tuple[str, list[str]]] = []
+    for label, lines in sections:
+        if label is None:
+            continue
+        if label == "Chorus":
+            lines = lines or list(chorus)  # (REPEAT CHORUS) with an empty body means the chorus above
+            chorus = chorus or lines
+        if lines:
+            out.append((label, lines))
+    return key, out
+
+
+def backfill_chords(dry_run: bool, only: str | None) -> int:
+    import time
+    n = 0
+    for song_path in sorted((ROOT / "songs").glob("*/*/song.json")):
+        if only and only not in song_path.parent.name:
+            continue
+        song = json.loads(song_path.read_text(encoding="utf-8"))
+        if song.get("license") != "larry-holder":
+            continue
+        src = song_path.parent / "sources"
+        man_path = src / "manifest.json"
+        if not man_path.exists():
+            continue
+        manifest = json.loads(man_path.read_text(encoding="utf-8"))
+        row = next((f for f in manifest.get("files") or [] if f.get("file") == "lyrics.chordpro"), None)
+        if not row or not row.get("url"):
+            continue
+        page = fetch_text(row["url"])
+        time.sleep(0.4)
+        m = re.search(r'href="([^"]*chordchart\.php\?song=[^"]+)"', page, re.I)
+        if not m:
+            print(f"  {song.get('title')}: no chart")
+            continue
+        chart_url = urljoin(row["url"], htmlmod.unescape(m.group(1)))
+        key, sections = parse_chord_chart(fetch_text(chart_url))
+        time.sleep(0.4)
+        nlines = sum(len(l) for _, l in sections)
+        print(f"  {song.get('title')}: key {key or '?'}  {nlines} chord lines")
+        if not sections or dry_run:
+            continue
+        lp = src / "lyrics.chordpro"
+        header = [ln for ln in lp.read_text(encoding="utf-8").splitlines() if ln.startswith("{") and not ln.startswith("{key:")]
+        if key:
+            header.insert(2, f"{{key: {key}}}")
+        body = "\n\n".join("\n".join([label, *lines]) for label, lines in sections)
+        lp.write_text("\n".join(header) + "\n\n" + body + "\n", encoding="utf-8", newline="\n")
+        row["chords"] = chart_url
+        row["sha256"] = sha256(lp)
+        write_json(man_path, manifest)
+        n += 1
+    print(f"updated {n} lyrics.chordpro files")
+    return 0
+
+
 def selftest() -> None:
     # the header layouts the site actually uses
     assert parse_written_by("", "Written by Elton Smith and Larry Holder\n\nRecording by Susan Tolle-Knight") == ["Elton Smith", "Larry Holder"]
@@ -742,6 +834,20 @@ def selftest() -> None:
     # <BR>-per-line pages: a stanza break is a doubled <BR>, the HTML's own newlines mean nothing
     html = '<div id="lyrics"><header><h2>Lyrics</h2></header><h3>\nA long enough lyric line one,<BR>\nline two of the song,<BR>\n<BR>\nline three of the song,<BR>\nand the fourth line here.<BR>\n</h3>Copyright &copy; 2000'
     assert lyrics_from_sop(html) == "Verse 1\nA long enough lyric line one,\nline two of the song,\n\nVerse 2\nline three of the song,\nand the fourth line here.\n"
+    # chord chart: chords over fragments, &nbsp; keeps a space, "A-" + "bove" joins, intro dropped, repeat chorus refilled
+    chart = ('<title>X (A) by L</title><table><tr><td class="chord">(INTRODUCTION)</td></tr></table>'
+             '<table><tr><td class="chord">A&nbsp;&nbsp;</td><td class="chord">E&nbsp;&nbsp;</td></tr></table>'
+             '<table><tr><td class="chord">(CHORUS)</td></tr></table>'
+             '<table><tr><td class="chord">&nbsp;&nbsp;&nbsp;</td><td class="chord">A&nbsp;&nbsp;</td><td class="chord">F#m&nbsp;&nbsp;</td></tr>'
+             '<tr><td>Praise to&nbsp;</td><td>You, God A-</td><td>bove,</td></tr></table>'
+             '<table class="do_not_print_me"><tr><td>Modulate section:</td></tr></table>'
+             '<table><tr><td class="chord">&nbsp;&nbsp;&nbsp;</td></tr><tr><td>(Repeat Chorus 2 times)</td></tr></table>'
+             '<table><tr><td class="chord">(ENDING)</td></tr></table>'
+             '<table><tr><td class="chord">Bm&nbsp;&nbsp;</td><td class="chord">A/C#&nbsp;&nbsp;</td></tr><tr><td>You Lord my&nbsp;</td><td>God</td></tr></table>')
+    key, secs = parse_chord_chart(chart)
+    assert key == "A", key
+    assert secs[0] == ("Chorus", ["Praise to [A]You, God A-[F#m]bove,"]), secs
+    assert secs[1:] == [("Chorus", ["Praise to [A]You, God A-[F#m]bove,"]), ("Ending", ["[Bm]You Lord my [A/C#]God"])], secs
     print("selftest ok")
 
 
@@ -751,12 +857,16 @@ def main() -> int:
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="rewrite lyrics/song.json/manifest of packages that already exist")
     ap.add_argument("--ccli", action="store_true", help="re-fetch source pages and stamp song.json ccli")
+    ap.add_argument("--chords", action="store_true", help="merge the writer's chord chart into lyrics.chordpro")
+    ap.add_argument("--only", help="--chords: restrict to packages whose folder name contains this")
     args = ap.parse_args()
     if args.selftest:
         selftest()
         return 0
     if args.ccli:
         return backfill_ccli(args.dry_run)
+    if args.chords:
+        return backfill_chords(args.dry_run, args.only)
     STAGING.mkdir(parents=True, exist_ok=True)
 
     urls = collect_song_urls()

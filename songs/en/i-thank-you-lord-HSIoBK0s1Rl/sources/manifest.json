@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=149",
       "acquired": "2026-09-14",
-      "sha256": "7387263dc53a06c0b740ccd786b1f02ca3bfd06dc4a045726612b7f6832ba493",
+      "sha256": "7073ee3aff9c7c4421f5332d9d60511c8f490d122dbf5b81c0964ed96c5885a8",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=ithankyoulord.song"
     },
     {
       "file": "master/song.mp3",

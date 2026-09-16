@@ -5,7 +5,7 @@
   "year": 1999,
   "language": "English",
   "themes": "Praise",
-  "key": "E",
+  "key": "C",
   "bpm": 129,
   "timeSignature": "4/4",
   "scripture": null,
@@ -69,5 +69,6 @@
   "uploads": {
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
-  }
+  },
+  "ccli": "2673059"
 }

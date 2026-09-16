@@ -5,7 +5,7 @@
   "year": 1998,
   "language": "English",
   "themes": "Praise",
-  "key": "Ab",
+  "key": "G",
   "bpm": 117,
   "timeSignature": "4/4",
   "scripture": "Matthew 14:29-31",
@@ -42,5 +42,6 @@
   "uploads": {
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
-  }
+  },
+  "ccli": "2637325"
 }

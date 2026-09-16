@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/tiljesus.html",
       "acquired": "2026-09-14",
-      "sha256": "69f0581b436e261c185c35f9e708702f6fe2278ee58acbd426ad1d699c98b7e7",
+      "sha256": "c447e83f42b2e204158203aec117c26fa58d6a6866b5112924b118c54e6302cd",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

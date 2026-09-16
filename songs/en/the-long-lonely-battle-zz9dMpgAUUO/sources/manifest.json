@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=588",
       "acquired": "2026-09-14",
-      "sha256": "b33305c8df3517aec24b1007c431792d28e42980c1b3f69918793586fdd4b18e",
+      "sha256": "314e18673e4b5c5de113f206e4ffcdccb701c84aed9c88f1d72a6ab4783e2886",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=TheLongLonelyBattle.song"
     },
     {
       "file": "master/song.mp3",

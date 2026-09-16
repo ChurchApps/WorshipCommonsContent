@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=54",
       "acquired": "2026-09-14",
-      "sha256": "cbfcda07f62bc35e6d65ccb73ea3d3477e32d66fd51b731f9de200e06480eaf7",
+      "sha256": "664207894ff14d157f19936c7be38d185b07ca6034662d20d232205ad6d8dca2",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=breadandwine.song"
     },
     {
       "file": "master/song.mp3",

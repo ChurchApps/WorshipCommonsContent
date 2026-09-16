@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/wings.html",
       "acquired": "2026-09-14",
-      "sha256": "3d4eb12797e65dbc3a60809ec518e4f2b9f587faa707859df14f7c636541f651",
+      "sha256": "5de52b19c3109de906c7cf1f1eefaf61a532435fd801cb3d0ccbc67c0bd79e2e",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

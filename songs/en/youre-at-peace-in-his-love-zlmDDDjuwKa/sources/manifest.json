@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=113",
       "acquired": "2026-09-14",
-      "sha256": "e15cef3a4a9af816184987e5d79430f54ba97adfe4650ebbe38ce9be4c89ca8e",
+      "sha256": "83cb530a353c601dd053596d27e0f2ed2b9595ed4265917edcaf7f66ad22baff",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=YoureAtPeaceInHisLove.song"
     },
     {
       "file": "master/song.mp3",

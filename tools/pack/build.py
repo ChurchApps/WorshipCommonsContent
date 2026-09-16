@@ -307,6 +307,23 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
     return f"built {zip_path.name} ({zip_path.stat().st_size / 1e6:.0f} MB)"
 
 
+def write_audio_zip(pkg: Path, master: Path) -> str:
+    """output/audio.zip: master, full mix, instrumental bed, sources/extra/*, license + attribution.
+    Not the multitracks (their own zip) and not the 30 s preview. Root-level entries, no folder."""
+    comp = pkg / "output" / "composition"
+    audio = pkg / "output" / "audio"
+    files = [master, *audio.glob("*-fullmix.m4a"), audio / "instrumental.m4a",
+             *sorted((pkg / "sources" / "extra").glob("*")), comp / "LICENSE.txt", comp / "attribution.txt"]
+    files = [p for p in files if p.is_file()]
+    zip_path = pkg / "output" / "audio.zip"
+    if zip_path.exists() and mtime(zip_path) >= max(mtime(p) for p in files):
+        return "audio.zip up to date"
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        for p in files:
+            z.write(p, p.name)
+    return f"wrote audio.zip ({zip_path.stat().st_size / 1e6:.0f} MB)"
+
+
 def run(cmd: list[str], env: dict) -> None:
     r = subprocess.run(cmd, env=env, cwd=str(HERE))
     if r.returncode:
@@ -349,6 +366,9 @@ def main() -> int:
         print(f"pack  {label}", flush=True)
         try:
             print(f"  {build(pkg, song, master, args.force, args.format)}", flush=True)
+            print(f"  {write_audio_zip(pkg, master)}", flush=True)
+            # chords: the writer's chart when the harvest found one, else derived from the sketch MIDI
+            run([sys.executable, str(HERE / "derive_chords.py"), str(pkg), "--write"], dict(os.environ))
             built += 1
         except Exception as e:
             print(f"ERROR {label}: {type(e).__name__}: {e}", flush=True)

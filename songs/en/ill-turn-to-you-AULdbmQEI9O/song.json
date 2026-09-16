@@ -5,7 +5,7 @@
   "year": 1997,
   "language": "English",
   "themes": "Praise",
-  "key": "Bm",
+  "key": "D",
   "bpm": 108,
   "timeSignature": "4/4",
   "scripture": "Psalm 119:105",
@@ -42,5 +42,6 @@
   "uploads": {
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
-  }
+  },
+  "ccli": "2445830"
 }

@@ -5,7 +5,7 @@
   "year": 1997,
   "language": "English",
   "themes": "Praise",
-  "key": "Dm",
+  "key": "A",
   "bpm": 112,
   "timeSignature": "4/4",
   "scripture": null,
@@ -42,5 +42,6 @@
   "uploads": {
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
-  }
+  },
+  "ccli": "2450801"
 }

@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/outpours.html",
       "acquired": "2026-09-14",
-      "sha256": "ce20c723e6fff3cd40b0434376c5d10763bb5591a5329b07934783c06a2b957d",
+      "sha256": "dbe318859a46c3fbbce451a4b04cdfb5a4391ab831f913de3d6962ed9d04ffa0",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

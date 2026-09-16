@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=19",
       "acquired": "2026-09-14",
-      "sha256": "2e40b6d47f3045f313c43051cdb9067602f09ed60f3cd739fcd4587ce9a6d48e",
+      "sha256": "6d4429778099608b1aaba888434c4436c22be75b8880648e4c61b7fc66e88e7a",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=agiftforall.song"
     },
     {
       "file": "master/song.mp3",

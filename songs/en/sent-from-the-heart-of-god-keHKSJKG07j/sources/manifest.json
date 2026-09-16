@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=270",
       "acquired": "2026-09-14",
-      "sha256": "f42af6a27dff8a93ea11e72608921a6267cc8cd3a2c1c3a53f5722300cf05e19",
+      "sha256": "f273eb769036ccd789a8c0469163f23a13c4d295f54e81a4361e2b81f1333c72",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=sentfromtheheartofgod.song"
     },
     {
       "file": "master/song.mp3",

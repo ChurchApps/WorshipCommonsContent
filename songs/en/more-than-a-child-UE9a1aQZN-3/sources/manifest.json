@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/morethan.html",
       "acquired": "2026-09-14",
-      "sha256": "c5c7a5f6eac076afbe28234f1bbd584ba6c326dd67d477eee55cc6ec865ed35e",
+      "sha256": "416bb0cabbe328a3c32eb8f15cc56614df69010cc10fcdb96e276f237d50cb65",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

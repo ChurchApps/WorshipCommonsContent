@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=328",
       "acquired": "2026-09-14",
-      "sha256": "afd279b4f0c1bdcad70fe418fd2bf1ecccb6bf96bc0fbba7badc0464134c059d",
+      "sha256": "65bf88b90ebebba7b8d3454dd09812c4fd2163e529b8cd2f7d2007f31d9749ee",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=InTheBeginningWasTheWord.song"
     },
     {
       "file": "master/song.mp3",

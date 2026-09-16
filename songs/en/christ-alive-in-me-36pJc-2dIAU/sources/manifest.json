@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/christaliveinme.html",
       "acquired": "2026-09-14",
-      "sha256": "b54454f9c29e8d48b5b44540be30d85be73aa4189b47d3a1d63bc307c944b775",
+      "sha256": "78467f15f2f8a5992bf04cd096a80d2212c6b794a0f6796e8f3b352b029d9b01",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

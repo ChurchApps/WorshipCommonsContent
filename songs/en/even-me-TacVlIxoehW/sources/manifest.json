@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/evenme.html",
       "acquired": "2026-09-14",
-      "sha256": "8b02b73142f651d68708779be23d7e9755d1afbbe8d54b60c9ecfa4ca3da2b77",
+      "sha256": "f707202909f860a27d2df0d7080dc3983eeadb8a7245ecbccdbcabbf103fd0ad",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

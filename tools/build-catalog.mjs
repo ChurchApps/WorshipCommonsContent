@@ -114,6 +114,13 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     row[bytesCol] = rel ? fs.statSync(path.join(dir, rel)).size : null;
   }
 
+  // prebuilt download packs: output/composition.zip (generate.mjs) and output/audio.zip (pack/build.py)
+  for (const [col, rel] of [["compositionZip", "output/composition.zip"], ["audioZip", "output/audio.zip"]]) {
+    const f = path.join(dir, rel);
+    row[`${col}Url`] = fs.existsSync(f) ? `${rootRel}/${rel}` : null;
+    row[`${col}Bytes`] = fs.existsSync(f) ? fs.statSync(f).size : null;
+  }
+
   // granted-as-is extras (sources/extra/*): every manifest row that still exists on disk
   row.extraUrls = readManifest(dir).filter(r => r.file.startsWith("extra/") && fs.existsSync(path.join(dir, "sources", r.file))).map(r => `${rootRel}/sources/${r.file}`);
 

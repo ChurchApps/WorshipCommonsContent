@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=62",
       "acquired": "2026-09-14",
-      "sha256": "b034358019cef93dfa3c0f21d86cda7cd29828ca671e373257106fa52fee802e",
+      "sha256": "d23763f6aa3d1589fec658db0a163055704d9afda238170d76432b781eff5ecb",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

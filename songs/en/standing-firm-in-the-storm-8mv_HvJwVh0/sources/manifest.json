@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://songsofpraise.org/song.php?songid=285",
       "acquired": "2026-09-14",
-      "sha256": "d7bf5d114e119c73134d0e577cdd3e64f4572615d68da1e6632f5cf4167394b9",
+      "sha256": "9611b235c8f2bb9b73861e20f4a08fed42db483d6ab37048d6a951eec1107b32",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "https://songsofpraise.org/chordcharts/chordchart.php?song=standingfirminthestorm.song"
     },
     {
       "file": "master/song.mp3",

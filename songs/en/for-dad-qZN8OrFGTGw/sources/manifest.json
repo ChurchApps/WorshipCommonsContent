@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/fordad.html",
       "acquired": "2026-09-14",
-      "sha256": "fae7ec8d4e8c07bae45ea93096f896f0690d9a46b06929295c1e05d55ea2e3a5",
+      "sha256": "f320c599c06db516cd7259087e0fb5074270934fb3cf0d2834bc3b7dc4a964bb",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

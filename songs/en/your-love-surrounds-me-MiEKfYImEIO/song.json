@@ -5,7 +5,7 @@
   "year": 2004,
   "language": "English",
   "themes": "Praise",
-  "key": "C",
+  "key": "Am",
   "bpm": 108,
   "timeSignature": "4/4",
   "scripture": "Psalm 27:3",
@@ -64,5 +64,6 @@
   "uploads": {
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
-  }
+  },
+  "ccli": "4319524"
 }

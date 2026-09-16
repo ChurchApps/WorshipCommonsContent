@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/ponderingtopraise.html",
       "acquired": "2026-09-14",
-      "sha256": "9dcd8dab93e1b2eb34403887746fc614bba3d439330b6065f03c6d8b30fac3fb",
+      "sha256": "3093048ad4f3047f6ad1e4e5cdc13997b44524bd76839166e231e1658931c4e2",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

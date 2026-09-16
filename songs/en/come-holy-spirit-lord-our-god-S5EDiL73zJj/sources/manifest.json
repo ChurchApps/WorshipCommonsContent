@@ -26,12 +26,13 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "810f892959cf9bc31253a1ccc9e30b6c6ead87c2e5c013a2e218b6d973b81126",
+      "sha256": "87db2d81309b944d307d7189bb89efebfab6ca65f2faf2301623d41ab2060ac0",
       "licenseBasis": "open-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "timing.json",

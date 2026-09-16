@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/victory.html",
       "acquired": "2026-09-14",
-      "sha256": "e2ef714ccfa46a847d4a1b1dc7ba92a1980b911a915dec2c496e02ceb5314115",
+      "sha256": "8167caa687c1153564ab2c5c30a4d2e348844b7587ec9744d8744b82d159f289",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",

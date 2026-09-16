@@ -102,8 +102,26 @@ export function generateSong(dir, { sources }) {
   const thumb = out("cover-thumb.webp");
   if (fs.existsSync(ownCover)) { writeThumb(ownCover, thumb); wrote.thumb = true; }
   else if (fs.existsSync(thumb)) fs.unlinkSync(thumb);
+  wrote.zip = writeCompositionZip(dir);
 
   return { song, wrote };
+}
+
+// output/composition.zip: the print/notation set as one download (root-level entries, no folder).
+// Rebuilt only when an input is newer than the zip; python's zipfile CLI keeps this dependency-free.
+const ZIP_SKIP = new Set(["slides.json", "duration.json", "cover-thumb.webp"]);
+function writeCompositionZip(dir) {
+  const comp = path.join(dir, "output", "composition");
+  const files = [
+    ...fs.readdirSync(comp).filter(f => !ZIP_SKIP.has(f)).map(f => path.join(comp, f)),
+    ...["sheetPdf.pdf", "tune.abc", "tune.mid"].map(f => path.join(dir, "sources", f)).filter(f => fs.existsSync(f))
+  ];
+  const zip = path.join(dir, "output", "composition.zip");
+  const newest = Math.max(...files.map(f => fs.statSync(f).mtimeMs));
+  if (fs.existsSync(zip) && fs.statSync(zip).mtimeMs >= newest) return "unchanged";
+  if (!pythonAvailable()) return "skipped";
+  const r = spawnSync(process.env.PYTHON || "python", ["-m", "zipfile", "-c", zip, ...files], { encoding: "utf8" });
+  return r.status === 0 ? "written" : "failed";
 }
 
 export function generateWork(dir) {

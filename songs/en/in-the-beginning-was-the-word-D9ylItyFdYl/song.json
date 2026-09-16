@@ -5,7 +5,7 @@
   "year": 1999,
   "language": "English",
   "themes": "Praise",
-  "key": "F#m",
+  "key": "A",
   "bpm": 99,
   "timeSignature": "4/4",
   "scripture": "John 1:1-14",
@@ -79,5 +79,6 @@
   "uploads": {
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
-  }
+  },
+  "ccli": "2773911"
 }

@@ -17,14 +17,15 @@
       "file": "lyrics.chordpro",
       "url": "https://larryholdermusic.org/arise.html",
       "acquired": "2026-09-14",
-      "sha256": "013b5a42e5e309ee74d93564f061b2f1398d9d396d4ed3ce51c81733fd2fa3a0",
+      "sha256": "4776c7714a0478daa2e599ba7af4f02c453521b3a925cf61537cab9c26583623",
       "license": "larry-holder",
       "licenseBasis": "larry-holder",
       "original": false,
       "submittedBy": "Larry Holder",
       "layer": "text",
       "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
     },
     {
       "file": "master/song.mp3",
