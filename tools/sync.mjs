@@ -1,5 +1,5 @@
 // Content bucket ⇄ this checkout, as a plain S3 sync. The bucket holds exactly this
-// repo's layout (songs/, works/, writers/, licenses/, catalog.json, sources.json,
+// repo's layout (songs/, writers/, licenses/, catalog.json, sources.json,
 // themes.json), output/ included — output/ is gitignored, not bucket-ignored.
 //
 //   node tools/sync.mjs pull [--delete] [--dry]   bucket → checkout (the bucket is the operational master)
@@ -16,7 +16,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BUCKET = (process.env.WC_CONTENT_BUCKET || "s3://churchapps-content/commons").replace(/\/$/, "");
-const DIRS = ["songs", "works", "writers", "licenses", "assets"];
+const DIRS = ["songs", "writers", "licenses", "assets"];
 const FILES = ["catalog.json", "sources.json", "themes.json"];
 const EXCLUDE = ["*/.abc2xml-*", "*/.abc2xml-*/*", "*.log"];
 

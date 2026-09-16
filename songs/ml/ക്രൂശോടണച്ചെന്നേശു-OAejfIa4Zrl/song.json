@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Grace,Trust",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "വെളിപ്പാട് 22:1–2",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "near-the-cross",
+  "parent": {
+    "id": "ulOZk2Z-mRz"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

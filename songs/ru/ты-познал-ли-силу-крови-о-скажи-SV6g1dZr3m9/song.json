@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1878,
   "language": "Russian",
-  "themes": "Grace,Confession",
-  "key": "A",
-  "bpm": 104,
-  "timeSignature": "4/4",
   "scripture": "Откровение 7:14",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "are-you-washed-in-the-blood",
+  "parent": {
+    "id": "OqDGwwFTMc3"
+  },
   "relationLabel": "Russian translation"
 }

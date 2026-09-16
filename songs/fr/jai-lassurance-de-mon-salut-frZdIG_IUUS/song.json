@@ -5,10 +5,6 @@
   "writerRef": "fanny-crosby",
   "year": 1873,
   "language": "French",
-  "themes": "Assurance,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "9/8",
   "scripture": "Hébreux 10,22–23",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 2"
     ]
   },
-  "workRef": "blessed-assurance",
+  "parent": {
+    "id": "0YyJoAE9Ge4"
+  },
   "relationLabel": "French translation"
 }

@@ -2,13 +2,8 @@
   "id": "OVly3mlM42j",
   "title": "Te Loamos, ¡Oh Dios!",
   "writer": "William Mackay",
-  "writerRef": "william-mackay",
   "year": 1863,
   "language": "Spanish",
-  "themes": "Praise,Confession",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Habacuc 3:2",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "revive-us-again",
+  "parent": {
+    "id": "SvEvb5vrQYJ"
+  },
   "relationLabel": "Spanish translation"
 }

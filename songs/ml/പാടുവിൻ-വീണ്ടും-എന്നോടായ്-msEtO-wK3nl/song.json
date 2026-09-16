@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2015,
   "language": "Malayalam",
-  "themes": "Providence,Praise",
-  "key": "F",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "ഫിലിപ്പിയർ 2:15",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "wonderful-words-of-life",
+  "parent": {
+    "id": "2_wl1TRlmko"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
 }

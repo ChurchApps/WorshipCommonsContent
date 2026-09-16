@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1873,
   "language": "Malayalam",
-  "themes": "Comfort,Assurance",
-  "key": "C",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 146:1",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "it-is-well-with-my-soul",
+  "parent": {
+    "id": "_UFqNA48X8n"
+  },
   "relationLabel": "Malayalam translation"
 }

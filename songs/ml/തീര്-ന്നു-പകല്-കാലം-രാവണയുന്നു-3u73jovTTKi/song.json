@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1867,
   "language": "Malayalam",
-  "themes": "Comfort,Trust",
-  "key": "F",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 91:4–5",
   "license": "PD",
   "rights": {
@@ -77,6 +73,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "now-the-day-is-over",
+  "parent": {
+    "id": "in8pK-BpHRg"
+  },
   "relationLabel": "Malayalam translation"
 }

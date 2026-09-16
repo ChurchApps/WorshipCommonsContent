@@ -2,13 +2,8 @@
   "id": "wr30qQ_nHrv",
   "title": "Señor Jehová, Omnipotente Dios",
   "writer": "Daniel Roberts",
-  "writerRef": null,
   "year": 1876,
   "language": "Spanish",
-  "themes": "Trust,Providence",
-  "key": "Eb",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Hechos 7:32",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "god-of-our-fathers",
+  "parent": {
+    "id": "McmQPbGN-Y5"
+  },
   "relationLabel": "Spanish translation"
 }

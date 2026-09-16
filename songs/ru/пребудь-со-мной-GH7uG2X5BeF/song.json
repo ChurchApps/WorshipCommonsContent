@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1847,
   "language": "Russian",
-  "themes": "Comfort,Trust",
-  "key": "Eb",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "Лк. 24:29",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "abide-with-me",
+  "parent": {
+    "id": "Ft0nnpxQbbt"
+  },
   "relationLabel": "Russian translation"
 }

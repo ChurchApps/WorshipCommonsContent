@@ -5,10 +5,6 @@
   "writerRef": "edmond-l-budry",
   "year": 1854,
   "language": "French",
-  "themes": "Comfort,Trust",
-  "key": "F",
-  "bpm": 76,
-  "timeSignature": "3/4",
   "scripture": "Osée 11.4",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "blest-be-the-tie-that-binds",
+  "parent": {
+    "id": "PcwqBQ0pxuT"
+  },
   "relationLabel": "French original · Edmond L. Budry, 1854"
 }

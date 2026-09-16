@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1826,
   "language": "Malayalam",
-  "themes": "Adoration,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "യെശ്ശയാവു 6:3",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "holy-holy-holy",
+  "parent": {
+    "id": "Z8zZ1SBRMoo"
+  },
   "relationLabel": "Malayalam translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": "joseph-scriven",
   "year": 1904,
   "language": "Spanish",
-  "themes": "Comfort,Trust",
-  "key": "F",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Filipenses 4:6",
   "license": "PD",
   "rights": {
@@ -34,6 +30,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "what-a-friend-we-have-in-jesus",
+  "parent": {
+    "id": "DmZMgNX0L6p"
+  },
   "relationLabel": "Spanish translation · tr. Leandro Garza Mora, 1904"
 }

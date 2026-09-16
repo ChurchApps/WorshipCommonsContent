@@ -2,13 +2,8 @@
   "id": "8kbpee9sEfo",
   "title": "Ha Az Úrral Járunk",
   "writer": "John H. Sammis · tr. Anna Piroska Williams",
-  "writerRef": "john-sammis",
   "year": 1973,
   "language": "Hungarian",
-  "themes": "Trust,Assurance",
-  "key": "F",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Zsoltárok 34:9",
   "license": "PD",
   "rights": {
@@ -58,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "trust-and-obey",
+  "parent": {
+    "id": "tIzXwesquh0"
+  },
   "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1973"
 }

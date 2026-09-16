@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1707,
   "language": "Malayalam",
-  "themes": "Grace,Confession",
-  "key": "Eb",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "ഗലാത്യർ 6:14",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "when-i-survey-the-wondrous-cross",
+  "parent": {
+    "id": "5XkXjIIePgD"
+  },
   "relationLabel": "Malayalam translation"
 }

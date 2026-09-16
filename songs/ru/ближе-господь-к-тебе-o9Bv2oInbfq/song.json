@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1841,
   "language": "Russian",
-  "themes": "Trust,Comfort",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "6/4",
   "scripture": "Бытие 28:12",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "nearer-my-god-to-thee",
+  "parent": {
+    "id": "ggzFvLEr9mK"
+  },
   "relationLabel": "Russian translation"
 }

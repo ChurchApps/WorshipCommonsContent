@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1861,
   "language": "Malayalam",
-  "themes": "Mission,Hope",
-  "key": "Bb",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "യിരെമ്യാവു 25:30",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "battle-hymn-of-the-republic",
+  "parent": {
+    "id": "BVe7x5it58a"
+  },
   "relationLabel": "Malayalam translation"
 }

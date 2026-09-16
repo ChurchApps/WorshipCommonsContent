@@ -2,13 +2,8 @@
   "id": "CDS4JUAV7uq",
   "title": "Fröhlich Soll Mein Herze Springen",
   "writer": "Paul Gerhardt",
-  "writerRef": "paul-gerhardt",
   "year": 1656,
   "language": "German",
-  "themes": "Christmas,Advent,Grace",
-  "key": "G",
-  "bpm": 140,
-  "timeSignature": "4/4",
   "meter": "8.8.6.8.8.6",
   "scripture": "Lukas 2,11",
   "license": "PD",
@@ -108,6 +103,8 @@
       "Verse 15"
     ]
   },
-  "workRef": "all-my-heart-this-night-rejoices",
+  "parent": {
+    "id": "PkS4tLdqERb"
+  },
   "relationLabel": "German original · Paul Gerhardt, 1656"
 }

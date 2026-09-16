@@ -2,13 +2,8 @@
   "id": "uAicqEyprAF",
   "title": "എൻ ആത്മാവേ ഖേദിക്കുന്നോ നീ?",
   "writer": "ഹെലൻ എച്ച്. ലെമ്മൽ",
-  "writerRef": null,
   "year": 1922,
   "language": "Malayalam",
-  "themes": "Comfort,Hope",
-  "key": "F",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "എബ്രായർ 12:2",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "turn-your-eyes-upon-jesus",
+  "parent": {
+    "id": "3HZrQf5Zwr-"
+  },
   "relationLabel": "Malayalam translation"
 }

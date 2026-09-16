@@ -2,14 +2,8 @@
   "id": "qegsIkIwkJd",
   "title": "Vater Unser im Himmelreich",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1539,
   "language": "German",
-  "themes": "Church,Christmas,Advent,Comfort",
-  "key": "Bb",
-  "bpm": 140,
-  "timeSignature": "4/4",
-  "meter": "8.8.8.8.8.8",
   "scripture": "Matthaeus 6,9",
   "license": "PD",
   "rights": {
@@ -78,6 +72,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "our-father-thou-in-heaven-above",
+  "parent": {
+    "id": "4976Qg6dILD"
+  },
   "relationLabel": "German original · Martin Luther, 1539"
 }

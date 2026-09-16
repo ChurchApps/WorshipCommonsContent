@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Christmas,Hope",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "മീഖ 5:2",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "o-little-town-of-bethlehem",
+  "parent": {
+    "id": "a19OdmA8uPt"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

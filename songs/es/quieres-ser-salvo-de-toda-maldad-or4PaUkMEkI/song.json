@@ -2,13 +2,8 @@
   "id": "or4PaUkMEkI",
   "title": "¿Quieres Ser Salvo de Toda Maldad?",
   "writer": "Anónimo",
-  "writerRef": null,
   "year": 1899,
   "language": "Spanish",
-  "themes": "Grace,Praise",
-  "key": "A",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Colosenses 1:14",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "there-is-power-in-the-blood",
+  "parent": {
+    "id": "XZ49aMGaQWb"
+  },
   "relationLabel": "Spanish translation"
 }

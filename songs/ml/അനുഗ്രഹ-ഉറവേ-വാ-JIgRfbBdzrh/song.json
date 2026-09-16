@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2014,
   "language": "Malayalam",
-  "themes": "Hope,Cross",
-  "key": "Eb",
-  "bpm": 90,
-  "timeSignature": "3/4",
   "scripture": "1 ശമൂവേൽ 7:12",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "come-thou-fount-of-every-blessing",
+  "parent": {
+    "id": "FMd8ryghVRb"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
 }

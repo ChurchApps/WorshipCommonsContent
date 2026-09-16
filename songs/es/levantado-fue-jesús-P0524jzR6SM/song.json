@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1875,
   "language": "Spanish",
-  "themes": "Grace,Adoration",
-  "key": "Bb",
-  "bpm": 69,
-  "timeSignature": "4/4",
   "scripture": "Isaías 53:3",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "hallelujah-what-a-savior",
+  "parent": {
+    "id": "1hnEmwE1b17"
+  },
   "relationLabel": "Spanish translation · tr. Enrique Turrall"
 }

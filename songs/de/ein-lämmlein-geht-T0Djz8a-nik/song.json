@@ -2,13 +2,8 @@
   "id": "T0Djz8a-nik",
   "title": "Ein Lämmlein Geht",
   "writer": "Paul Gerhardt",
-  "writerRef": "paul-gerhardt",
   "year": 1648,
   "language": "German",
-  "themes": "Hope,Faith,Assurance",
-  "key": "F",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "Jesaja 53,7",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "a-lamb-goes-uncomplaining-forth",
+  "parent": {
+    "id": "dNcYuBfjM8q"
+  },
   "relationLabel": "German original · Paul Gerhardt, 1648"
 }

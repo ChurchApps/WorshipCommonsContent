@@ -2,13 +2,8 @@
   "id": "XRLdGZsRk3s",
   "title": "Santo, Santo, Santo",
   "writer": "Reginald Heber · tr. Juan Bautista Cabrera",
-  "writerRef": "reginald-heber",
   "year": 1871,
   "language": "Spanish",
-  "themes": "Adoration,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "Apocalipsis 4:8",
   "license": "PD",
   "rights": {
@@ -40,6 +35,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "holy-holy-holy",
+  "parent": {
+    "id": "Z8zZ1SBRMoo"
+  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1871"
 }

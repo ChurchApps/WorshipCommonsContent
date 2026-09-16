@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1779,
   "language": "Malayalam",
-  "themes": "Grace,Assurance",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "3/4",
   "scripture": "യോഹന്നാന്‍ 9:25",
   "license": "PD",
   "rights": {
@@ -72,6 +68,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "amazing-grace",
+  "parent": {
+    "id": "YxPfAFYWOaG"
+  },
   "relationLabel": "Malayalam translation"
 }

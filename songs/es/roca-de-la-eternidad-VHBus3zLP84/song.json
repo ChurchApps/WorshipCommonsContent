@@ -2,13 +2,8 @@
   "id": "VHBus3zLP84",
   "title": "Roca de la Eternidad",
   "writer": "Augustus Toplady · tr. Thomas M. Westrup",
-  "writerRef": "augustus-toplady",
   "year": 1875,
   "language": "Spanish",
-  "themes": "Grace,Trust",
-  "key": "Bb",
-  "bpm": 76,
-  "timeSignature": "6/4",
   "scripture": "Salmos 94:22",
   "license": "PD",
   "rights": {
@@ -34,6 +29,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "rock-of-ages",
+  "parent": {
+    "id": "b13IrZfZXWm"
+  },
   "relationLabel": "Spanish translation · tr. Thomas M. Westrup"
 }

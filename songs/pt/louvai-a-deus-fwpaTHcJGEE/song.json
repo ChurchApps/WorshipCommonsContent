@@ -2,13 +2,8 @@
   "id": "fwpaTHcJGEE",
   "title": "Louvai a Deus",
   "writer": "Joachim Neander",
-  "writerRef": "joachim-neander",
   "year": 1680,
   "language": "Portuguese",
-  "themes": "Praise,Trust",
-  "key": "G",
-  "bpm": 100,
-  "timeSignature": "3/4",
   "scripture": "Salmos 150:2",
   "license": "PD",
   "rights": {
@@ -47,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "praise-to-the-lord-the-almighty",
+  "parent": {
+    "id": "ThsV2EUH5G6"
+  },
   "relationLabel": "Portuguese translation"
 }

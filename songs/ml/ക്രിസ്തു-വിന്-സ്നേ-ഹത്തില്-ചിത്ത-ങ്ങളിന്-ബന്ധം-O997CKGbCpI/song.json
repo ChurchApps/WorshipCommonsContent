@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1782,
   "language": "Malayalam",
-  "themes": "Comfort,Trust",
-  "key": "F",
-  "bpm": 76,
-  "timeSignature": "3/4",
   "scripture": "ഹോശേയ 11:4",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "blest-be-the-tie-that-binds",
+  "parent": {
+    "id": "PcwqBQ0pxuT"
+  },
   "relationLabel": "Malayalam translation"
 }

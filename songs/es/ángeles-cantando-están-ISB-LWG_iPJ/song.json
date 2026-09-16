@@ -2,13 +2,8 @@
   "id": "ISB-LWG_iPJ",
   "title": "Ángeles Cantando Están",
   "writer": "Anónimo",
-  "writerRef": null,
   "year": 1862,
   "language": "Spanish",
-  "themes": "Christmas,Praise",
-  "key": "F",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Lucas 2:13-14",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "angels-we-have-heard-on-high",
+  "parent": {
+    "id": "yVg78wuG3f-"
+  },
   "relationLabel": "Spanish translation"
 }

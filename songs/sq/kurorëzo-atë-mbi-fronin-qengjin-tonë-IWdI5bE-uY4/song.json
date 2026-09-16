@@ -2,13 +2,8 @@
   "id": "IWdI5bE-uY4",
   "title": "Kurorëzo Atë Mbi Fronin, Qengjin Tonë",
   "writer": "Matthew Bridges · tr. Jan Foss",
-  "writerRef": "matthew-bridges",
   "year": 1852,
   "language": "Albanian",
-  "themes": "Easter,Adoration",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "Zbulesa 19:12",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "crown-him-with-many-crowns",
+  "parent": {
+    "id": "zfrKD0J-OPJ"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

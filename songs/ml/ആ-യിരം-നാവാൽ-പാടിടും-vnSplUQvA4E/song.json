@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Praise,Grace",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "3/2",
   "scripture": "വെളിപ്പാടു 5:11",
   "license": "PD",
   "rights": {
@@ -123,6 +119,8 @@
       "Verse 18"
     ]
   },
-  "workRef": "o-for-a-thousand-tongues-to-sing",
+  "parent": {
+    "id": "3tR86sWVTNC"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

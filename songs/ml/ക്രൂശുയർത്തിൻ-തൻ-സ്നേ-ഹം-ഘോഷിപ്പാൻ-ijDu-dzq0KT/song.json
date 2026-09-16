@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Baptism,Church,Faith",
-  "key": "C",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "യെശയ്യാവ് 11:10",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "lift-high-the-cross",
+  "parent": {
+    "id": "Bwz27OvTo1o"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

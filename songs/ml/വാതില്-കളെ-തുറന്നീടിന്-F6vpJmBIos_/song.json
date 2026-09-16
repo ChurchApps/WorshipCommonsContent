@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Hope,Christmas,Advent",
-  "key": "A",
-  "bpm": 140,
-  "timeSignature": "3/4",
   "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 24:7",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "lift-up-your-heads-ye-mighty-gates",
+  "parent": {
+    "id": "7JF-Pm_pe7z"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

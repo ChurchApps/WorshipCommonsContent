@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2017,
   "language": "Malayalam",
-  "themes": "Trinity,Adoration",
-  "key": "G",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "യാക്കോബ് 1:17",
   "license": "PD",
   "rights": {
@@ -38,6 +34,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "praise-god-from-whom-all-blessings-flow",
+  "parent": {
+    "id": "11HqXyg2fO-"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
 }

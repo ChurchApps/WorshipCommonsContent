@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1905,
   "language": "Spanish",
-  "themes": "Grace,Adoration",
-  "key": "G",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Efesios 2:4",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "i-stand-amazed-in-the-presence",
+  "parent": {
+    "id": "j_MZHyq0e2w"
+  },
   "relationLabel": "Spanish translation"
 }

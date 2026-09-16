@@ -2,13 +2,8 @@
   "id": "V6SATFlVGNv",
   "title": "¡Gloria! ¡Gloria!",
   "writer": "Fanny Crosby",
-  "writerRef": "fanny-crosby",
   "year": 1869,
   "language": "Spanish",
-  "themes": "Praise,Adoration",
-  "key": "G",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Salmos 146:2",
   "license": "PD",
   "rights": {
@@ -42,6 +37,8 @@
       "Verse 2"
     ]
   },
-  "workRef": "praise-him-praise-him",
+  "parent": {
+    "id": "yB0FPr_vwGH"
+  },
   "relationLabel": "Spanish translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2015,
   "language": "Malayalam",
-  "themes": "Comfort,Providence",
-  "key": "C",
-  "bpm": 69,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 10:29–31",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "his-eye-is-on-the-sparrow",
+  "parent": {
+    "id": "4f6vkOaKczh"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
 }

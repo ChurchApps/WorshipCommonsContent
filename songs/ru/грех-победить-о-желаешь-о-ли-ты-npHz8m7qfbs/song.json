@@ -2,13 +2,8 @@
   "id": "npHz8m7qfbs",
   "title": "Грех Победить, О, Желаешь О ли Ты?",
   "writer": "Льюис Е. Джонс",
-  "writerRef": null,
   "year": 1899,
   "language": "Russian",
-  "themes": "Grace,Praise",
-  "key": "A",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Откровения 7:14",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "there-is-power-in-the-blood",
+  "parent": {
+    "id": "XZ49aMGaQWb"
+  },
   "relationLabel": "Russian translation"
 }

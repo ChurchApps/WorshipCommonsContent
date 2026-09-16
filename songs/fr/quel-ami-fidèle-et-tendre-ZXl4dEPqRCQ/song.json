@@ -5,10 +5,6 @@
   "writerRef": "joseph-scriven",
   "year": 1855,
   "language": "French",
-  "themes": "Comfort,Trust",
-  "key": "F",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Jean 15.13",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "what-a-friend-we-have-in-jesus",
+  "parent": {
+    "id": "DmZMgNX0L6p"
+  },
   "relationLabel": "French translation · tr. Emile Bonnard"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Hope,Trust",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "മീഖ 4:2",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "higher-ground",
+  "parent": {
+    "id": "V95R_kNL2at"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

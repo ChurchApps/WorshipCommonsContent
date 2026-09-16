@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1864,
   "language": "Malayalam",
-  "themes": "Adoration,Trust",
-  "key": "F",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "യോഹന്നാന്‍ 4:19",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "my-jesus-i-love-thee",
+  "parent": {
+    "id": "RpixcP49jtd"
+  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
 }

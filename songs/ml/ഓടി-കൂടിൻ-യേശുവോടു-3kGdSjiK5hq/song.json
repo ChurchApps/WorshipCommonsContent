@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1827,
   "language": "Malayalam",
-  "themes": "Easter,Adoration",
-  "key": "C",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "സെഖര്യാവു 9:9",
   "license": "PD",
   "rights": {
@@ -77,6 +73,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "ride-on-ride-on-in-majesty",
+  "parent": {
+    "id": "pbJKDVx4h1h"
+  },
   "relationLabel": "Malayalam translation"
 }

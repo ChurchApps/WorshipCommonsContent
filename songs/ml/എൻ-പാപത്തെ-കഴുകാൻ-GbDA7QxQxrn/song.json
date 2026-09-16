@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2015,
   "language": "Malayalam",
-  "themes": "Grace,Assurance",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "എബ്രായർ 9:22",
   "license": "PD",
   "rights": {
@@ -68,6 +64,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "nothing-but-the-blood",
+  "parent": {
+    "id": "3A7uOIvq4zf"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
 }

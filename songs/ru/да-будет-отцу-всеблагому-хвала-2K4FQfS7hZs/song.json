@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1863,
   "language": "Russian",
-  "themes": "Praise,Confession",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Псалом 85:7",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "revive-us-again",
+  "parent": {
+    "id": "SvEvb5vrQYJ"
+  },
   "relationLabel": "Russian translation"
 }

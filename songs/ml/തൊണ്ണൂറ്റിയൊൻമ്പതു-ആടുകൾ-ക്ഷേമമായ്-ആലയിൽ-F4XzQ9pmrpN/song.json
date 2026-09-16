@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Grace,Providence",
-  "key": "Eb",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 18:13",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "the-ninety-and-nine",
+  "parent": {
+    "id": "CjEkEgMxg3r"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

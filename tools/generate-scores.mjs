@@ -11,9 +11,9 @@ import { scoreFor, pythonAvailable } from "./generate/score.mjs";
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 export function generateScores(root = ROOT, arg) {
-  const { songs, works } = resolveTargets(root, arg);
+  const { songs } = resolveTargets(root, arg);
   const stats = { written: 0, promoted: 0, unchanged: 0, master: 0, "no-abc": 0, skipped: 0, failed: 0 };
-  for (const { dir } of [...songs, ...works]) stats[scoreFor(dir)]++;
+  for (const { dir } of songs) stats[scoreFor(dir)]++;
   return stats;
 }
 

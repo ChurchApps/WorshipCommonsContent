@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1875,
   "language": "Russian",
-  "themes": "Praise,Grace",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "3/4",
   "scripture": "Псалтирь 103:31",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "to-god-be-the-glory",
+  "parent": {
+    "id": "yumBImJYymh"
+  },
   "relationLabel": "Russian translation"
 }

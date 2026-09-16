@@ -2,13 +2,8 @@
   "id": "D0WeagNo6lR",
   "title": "Les Anges dans Nos Campagnes",
   "writer": "Noël",
-  "writerRef": null,
   "year": 1862,
   "language": "French",
-  "themes": "Christmas,Praise",
-  "key": "F",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Luc 2.13-14",
   "license": "PD",
   "rights": {
@@ -72,6 +67,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "angels-we-have-heard-on-high",
+  "parent": {
+    "id": "yVg78wuG3f-"
+  },
   "relationLabel": "French original · Noël"
 }

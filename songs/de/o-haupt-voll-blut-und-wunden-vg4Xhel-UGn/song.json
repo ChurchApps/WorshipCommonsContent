@@ -2,14 +2,8 @@
   "id": "vg4Xhel-UGn",
   "title": "O Haupt Voll Blut und Wunden",
   "writer": "Paul Gerhardt",
-  "writerRef": "paul-gerhardt",
   "year": 1656,
   "language": "German",
-  "themes": "Easter,Comfort",
-  "key": "C",
-  "bpm": 66,
-  "timeSignature": "4/4",
-  "meter": "7.6.7.6 D",
   "scripture": "Matthäus 27,28-29",
   "license": "PD",
   "rights": {
@@ -83,6 +77,8 @@
       "Verse 10"
     ]
   },
-  "workRef": "o-sacred-head-now-wounded",
+  "parent": {
+    "id": "aqNc75nXe-w"
+  },
   "relationLabel": "German translation"
 }

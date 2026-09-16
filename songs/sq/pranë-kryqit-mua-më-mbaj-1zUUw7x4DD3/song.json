@@ -5,10 +5,6 @@
   "writerRef": "fanny-crosby",
   "year": 1869,
   "language": "Albanian",
-  "themes": "Grace,Trust",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Zekaria 13:1",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "near-the-cross",
+  "parent": {
+    "id": "ulOZk2Z-mRz"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

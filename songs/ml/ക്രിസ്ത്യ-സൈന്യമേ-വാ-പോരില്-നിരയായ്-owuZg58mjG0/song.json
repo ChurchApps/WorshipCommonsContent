@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1865,
   "language": "Malayalam",
-  "themes": "Mission,Trust",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "2 ദിനവൃത്താന്തം 20:15",
   "license": "PD",
   "rights": {
@@ -72,6 +68,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "onward-christian-soldiers",
+  "parent": {
+    "id": "K864gyKDZh3"
+  },
   "relationLabel": "Malayalam original · സബൈന്‍ ബാറിംഗ്-ഗവ്ള്‍ഡ്, 1865"
 }

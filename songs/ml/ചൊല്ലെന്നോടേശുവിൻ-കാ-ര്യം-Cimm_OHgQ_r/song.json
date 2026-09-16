@@ -2,13 +2,8 @@
   "id": "Cimm_OHgQ_r",
   "title": "ചൊല്ലെന്നോടേശുവിൻ കാ-ര്യം",
   "writer": "വില്യം എച്ച്.പാർക്കർ",
-  "writerRef": null,
   "year": 1885,
   "language": "Malayalam",
-  "themes": "Trust,Praise",
-  "key": "F",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 19:14",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "tell-me-the-stories-of-jesus",
+  "parent": {
+    "id": "KiS6tOdKb6n"
+  },
   "relationLabel": "Malayalam translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": "samuel-j-stone",
   "year": 1866,
   "language": "Portuguese",
-  "themes": "Trust,Assurance",
-  "key": "D",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "1 Coríntios 3:11",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "the-churchs-one-foundation",
+  "parent": {
+    "id": "mp8_CK_E5qS"
+  },
   "relationLabel": "Portuguese translation"
 }

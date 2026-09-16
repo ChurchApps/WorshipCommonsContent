@@ -95,7 +95,7 @@ async function addRows(dir, moved, song) {
 }
 
 export async function migrate(dry = false) {
-  const stats = { songs: 0, works: 0, rows: 0, already: 0 };
+  const stats = { songs: 0, rows: 0, already: 0 };
   const songsRoot = path.join(ROOT, "songs");
 
   for (const lang of fs.readdirSync(songsRoot).filter(d => fs.statSync(path.join(songsRoot, d)).isDirectory()).sort()) {
@@ -119,17 +119,6 @@ export async function migrate(dry = false) {
     }
   }
 
-  const worksRoot = path.join(ROOT, "works");
-  if (fs.existsSync(worksRoot)) {
-    for (const slug of fs.readdirSync(worksRoot).sort()) {
-      const dir = path.join(worksRoot, slug);
-      if (!fs.statSync(dir).isDirectory()) continue;
-      if (!fs.existsSync(path.join(dir, "masters"))) { stats.already++; continue; }
-      const moved = move(dir, dry);
-      if (!dry) stats.rows += await addRows(dir, moved, null);
-      stats.works++;
-    }
-  }
   return stats;
 }
 
@@ -137,5 +126,5 @@ const invoked = process.argv[1] && import.meta.url === pathToFileURL(path.resolv
 if (invoked) {
   const dry = process.argv.includes("--dry-run");
   const s = await migrate(dry);
-  console.log(`${dry ? "would migrate" : "migrated"}: ${s.songs} songs, ${s.works} works, ${s.rows} manifest rows added${s.already ? `, ${s.already} already done` : ""}`);
+  console.log(`${dry ? "would migrate" : "migrated"}: ${s.songs} songs, ${s.rows} manifest rows added${s.already ? `, ${s.already} already done` : ""}`);
 }

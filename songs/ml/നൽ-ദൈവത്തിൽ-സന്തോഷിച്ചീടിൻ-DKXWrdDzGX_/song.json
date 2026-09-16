@@ -2,13 +2,8 @@
   "id": "DKXWrdDzGX_",
   "title": "നൽ ദൈവത്തിൽ സന്തോഷിച്ചീടിൻ",
   "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
-  "writerRef": null,
   "year": 2018,
   "language": "Malayalam",
-  "themes": "Christmas,Hope",
-  "key": "Em",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "ലൂക്കോസ് 2:10–11",
   "license": "PD",
   "rights": {
@@ -83,6 +78,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "god-rest-you-merry-gentlemen",
+  "parent": {
+    "id": "M51Wf2H0Rnl"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2018"
 }

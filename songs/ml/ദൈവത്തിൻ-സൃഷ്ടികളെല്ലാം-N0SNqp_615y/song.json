@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2014,
   "language": "Malayalam",
-  "themes": "Praise,Creation",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "6/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 69:34",
   "license": "PD",
   "rights": {
@@ -73,6 +69,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "all-creatures-of-our-god-and-king",
+  "parent": {
+    "id": "RnGVNAiO92e"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
 }

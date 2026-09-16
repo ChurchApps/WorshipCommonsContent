@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1779,
   "language": "Malayalam",
-  "themes": "Adoration,Praise",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "ഫിലിപ്പിയർ 2:9–11",
   "license": "PD",
   "rights": {
@@ -77,6 +73,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "all-hail-the-power-of-jesus-name",
+  "parent": {
+    "id": "T0B8i41oasf"
+  },
   "relationLabel": "Malayalam original · എഡ്വേർഡ് പെവോനെ, 1779"
 }

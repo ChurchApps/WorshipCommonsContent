@@ -5,10 +5,6 @@
   "writerRef": "edmond-l-budry",
   "year": 1885,
   "language": "French",
-  "themes": "Easter,Praise",
-  "key": "D",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Ésaïe 25.8",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "thine-be-the-glory",
+  "parent": {
+    "id": "4ywZcq98xoX"
+  },
   "relationLabel": "French original · Edmond L. Budry, 1885"
 }

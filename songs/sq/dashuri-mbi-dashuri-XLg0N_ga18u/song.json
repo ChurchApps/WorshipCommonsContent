@@ -2,13 +2,8 @@
   "id": "XLg0N_ga18u",
   "title": "Dashuri Mbi Dashuri",
   "writer": "Charles Wesley · tr. Jan Foss",
-  "writerRef": "charles-wesley",
   "year": 1747,
   "language": "Albanian",
-  "themes": "Adoration,Grace",
-  "key": "Bb",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "1 e Gjonit 4:16",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "love-divine-all-loves-excelling",
+  "parent": {
+    "id": "yijDXfhY0Ou"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

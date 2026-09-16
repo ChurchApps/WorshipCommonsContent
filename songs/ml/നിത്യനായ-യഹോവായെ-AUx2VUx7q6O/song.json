@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1745,
   "language": "Malayalam",
-  "themes": "Providence,Trust",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "പുറപ്പാടു:13:21",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "guide-me-o-thou-great-jehovah",
+  "parent": {
+    "id": "QnYa8cJdeLc"
+  },
   "relationLabel": "Malayalam original · വില്ല്യം വില്യംസ്, 1745"
 }

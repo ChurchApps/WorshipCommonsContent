@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2019,
   "language": "Malayalam",
-  "themes": "Grace,Praise",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 29:2",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "down-at-the-cross",
+  "parent": {
+    "id": "AzlASNTSOkS"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2019"
 }

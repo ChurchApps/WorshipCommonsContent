@@ -2,13 +2,8 @@
   "id": "0IBPpVOJnOy",
   "title": "¡Oh Aldehuela de Belén!",
   "writer": "Phillips Brooks",
-  "writerRef": "phillips-brooks",
   "year": 1867,
   "language": "Spanish",
-  "themes": "Christmas,Hope",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Miqueas 5:2",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "o-little-town-of-bethlehem",
+  "parent": {
+    "id": "a19OdmA8uPt"
+  },
   "relationLabel": "Spanish translation"
 }

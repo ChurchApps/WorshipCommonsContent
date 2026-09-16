@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1519,
   "language": "French",
-  "themes": "Praise,Adoration",
-  "key": "G",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Psaume 100.1-2",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "all-people-that-on-earth-do-dwell",
+  "parent": {
+    "id": "XiGH8cIi8Gc"
+  },
   "relationLabel": "French original · Théodore de Bèze, 1519"
 }

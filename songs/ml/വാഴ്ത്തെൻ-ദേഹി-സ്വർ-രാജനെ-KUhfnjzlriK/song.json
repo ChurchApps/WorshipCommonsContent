@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1834,
   "language": "Malayalam",
-  "themes": "Praise,Grace",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "2/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 103:1",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "praise-my-soul-the-king-of-heaven",
+  "parent": {
+    "id": "JjnX-vtk8am"
+  },
   "relationLabel": "Malayalam translation"
 }

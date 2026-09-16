@@ -2,13 +2,8 @@
   "id": "X2HLioBBtmb",
   "title": "En la Cruz",
   "writer": "Isaac Watts",
-  "writerRef": "isaac-watts",
   "year": 1707,
   "language": "Spanish",
-  "themes": "Grace,Comfort",
-  "key": "E",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Isaías 53:4",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "alas-and-did-my-savior-bleed",
+  "parent": {
+    "id": "4m8Ep0PePd0"
+  },
   "relationLabel": "Spanish translation"
 }

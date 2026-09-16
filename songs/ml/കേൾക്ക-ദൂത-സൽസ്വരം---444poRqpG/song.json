@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1739,
   "language": "Malayalam",
-  "themes": "Christmas,Praise",
-  "key": "F",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 18:13",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "hark-the-herald-angels-sing",
+  "parent": {
+    "id": "pSpS9dU7qHg"
+  },
   "relationLabel": "Malayalam translation"
 }

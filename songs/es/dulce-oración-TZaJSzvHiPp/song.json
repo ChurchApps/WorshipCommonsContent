@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1900,
   "language": "Spanish",
-  "themes": "Trust,Comfort",
-  "key": "D",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Mateo 6:6",
   "license": "PD",
   "rights": {
@@ -34,6 +30,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "sweet-hour-of-prayer",
+  "parent": {
+    "id": "MYPLBUJ6zEO"
+  },
   "relationLabel": "Spanish translation · anonymous"
 }

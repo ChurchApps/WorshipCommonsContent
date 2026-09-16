@@ -1,27 +1,25 @@
 // Finds hymns published twice under variant titles ("My Hope Is Built" vs
-// "My Hope Is Built on Nothing Less") and links them as one work.
+// "My Hope Is Built on Nothing Less") and links the duplicates to one parent.
 // Within a language, two songs are candidates when their normalized first
 // lyric line is identical (strong — the same text), or when one normalized
 // title is a prefix of the other and they share a writer surname (weak — the
 // wrapping or the opening refrain differs, so a human has to read them).
 // Prints a report and writes duplicate-groups.json (do not commit) with
 // { canonical, duplicates[] } per group.
-// --apply links first-line groups only: it sets workRef on the duplicates,
-// creating works/<slug>/work.json in migrate-works.mjs's shape when no member
-// has a work yet, and adopting into the existing work when one does. A member
-// copy of a work asset that is byte-identical is deleted so the member
-// inherits (validate errors otherwise); no song and no existing work's
-// canonicalSongId is touched.
+// --apply links first-line groups only: it stamps parent: { id } on the duplicates
+// (adopting into an existing family when a member already has a parent). A duplicate's
+// copy of a shared asset that is byte-identical to the parent's is deleted so it
+// inherits (validate errors otherwise); no existing parent link is touched.
 // Afterwards run: build-catalog → validate.
 // Usage: node tools/find-duplicates.mjs [--apply]
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { slugify, splitChordpro, songDirs, readJson, writeJson, readWorks, readSong, readHarvested, lyricsPath, songJsonPath, SHARED_RELS, ensurePkgDirs } from "./lib.mjs";
+import { splitChordpro, songDirs, writeJson, readSongRaw, readHarvested, lyricsPath, songJsonPath, SHARED_RELS, songIndex, orderSong } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const APPLY = process.argv.includes("--apply");
-const SHARED = SHARED_RELS; // work-level assets a member inherits
+const SHARED = SHARED_RELS; // parent assets a translation inherits
 
 const ARTICLE = /^(?:the|a|an|el|la|los|las|un|una|der|die|das|den|dem|des|ein|eine|le|les|la|un|une|o|os|as|um|uma)\s+/;
 // lowercase, apostrophes dropped, other punctuation → space, leading article off
@@ -54,7 +52,7 @@ const surnames = writer =>
 
 const songs = [];
 for (const { langDir, folder, dir } of songDirs(ROOT)) {
-  const song = readSong(dir);
+  const song = readSongRaw(dir);
   if (song.submittedBy) continue; // user uploads are artist artifacts, not catalog duplicates
   const hymnalCount = readHarvested(dir).hymnalCount ?? song.hymnalCount ?? 0;
   songs.push({
@@ -64,6 +62,10 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     first: norm(firstLyricLine(dir)),
     surnames: surnames(song.writer)
   });
+}
+{
+  const parents = new Set(songs.map(s => s.song.parent?.id).filter(Boolean));
+  for (const s of songs) s.isParent = parents.has(s.song.id);
 }
 
 // candidate pairs → connected groups (union-find over the whole language)
@@ -87,10 +89,10 @@ for (const list of byLang.values()) {
   }
 }
 
-// canonical = highest hymnalCount; tie → already has a workRef; tie → shorter folder name
+// canonical = highest hymnalCount; tie → already a parent; tie → shorter folder name
 const rank = (a, b) =>
   (b.hymnalCount ?? 0) - (a.hymnalCount ?? 0) ||
-  (b.song.workRef ? 1 : 0) - (a.song.workRef ? 1 : 0) ||
+  (b.isParent ? 1 : 0) - (a.isParent ? 1 : 0) ||
   a.folder.length - b.folder.length ||
   a.folder.localeCompare(b.folder);
 
@@ -103,22 +105,22 @@ for (const s of songs) {
 }
 for (const list of members.values()) {
   if (list.length < 2) continue;
-  // already one work? nothing to propose
-  if (list.every(s => s.song.workRef && s.song.workRef === list[0].song.workRef)) continue;
+  // already one family? nothing to propose
+  const fam = s => s.song.parent?.id ?? s.song.id;
+  if (list.every(s => fam(s) === fam(list[0]))) continue;
   list.sort(rank);
   const [canonical, ...duplicates] = list;
   const whyOf = d => reason.get([canonical.song.id, d.song.id].sort().join("|")) ?? "chained";
   groups.push({
     match: duplicates.every(d => whyOf(d) === "first-line") ? "first-line" : "title-prefix",
-    canonical: { id: canonical.song.id, title: canonical.song.title, label: canonical.label, hymnalCount: canonical.hymnalCount ?? 0, workRef: canonical.song.workRef ?? null },
-    duplicates: duplicates.map(d => ({ id: d.song.id, title: d.song.title, label: d.label, hymnalCount: d.hymnalCount ?? 0, workRef: d.song.workRef ?? null, match: whyOf(d) })),
+    canonical: { id: canonical.song.id, title: canonical.song.title, label: canonical.label, hymnalCount: canonical.hymnalCount ?? 0, parent: canonical.song.parent?.id ?? null },
+    duplicates: duplicates.map(d => ({ id: d.song.id, title: d.song.title, label: d.label, hymnalCount: d.hymnalCount ?? 0, parent: d.song.parent?.id ?? null, match: whyOf(d) })),
     _songs: list
   });
 }
 groups.sort((a, b) => a.match.localeCompare(b.match) || a.canonical.title.localeCompare(b.canonical.title));
 
-const works = readWorks(ROOT);
-const workSlugs = new Set(works.keys());
+const index = songIndex(ROOT);
 const applied = [], skipped = [], s3rm = [];
 
 for (const g of groups) {
@@ -126,34 +128,26 @@ for (const g of groups) {
     g.duplicates.map(d => `      + ${d.title} [${d.label}] (${d.match}, ${d.hymnalCount} hymnals)`).join("\n");
   if (g.match !== "first-line") { skipped.push(`REVIEW  ${line}`); continue; }
 
-  // one work per group: adopt into the existing one (as migrate-works.mjs does),
-  // create it from the canonical only when no member has a work yet
-  const existing = [...new Set(g._songs.map(s => s.song.workRef).filter(Boolean))];
-  if (existing.length > 1) { skipped.push(`CONFLICT ${line}\n      members already belong to different works: ${existing.join(", ")}`); continue; }
+  // one family per group: adopt into the existing one when a member already has a parent
+  const existing = [...new Set(g._songs.map(s => s.song.parent?.id ?? (s.isParent ? s.song.id : null)).filter(Boolean))];
+  if (existing.length > 1) { skipped.push(`CONFLICT ${line}
+      members already belong to different families: ${existing.join(", ")}`); continue; }
 
-  const work = existing.length ? works.get(existing[0]) : null;
-  applied.push(`LINK    ${line}` + (work
-    ? `\n      → existing work ${work.slug}` + (work.canonicalSongId === g.canonical.id ? "" : ` (keeps its canonical ${work.canonicalSongId}; review by hand if it should be ${g.canonical.id})`)
-    : ""));
+  const parentId = existing[0] ?? g.canonical.id;
+  applied.push(`LINK    ${line}` + (existing.length && parentId !== g.canonical.id
+    ? `
+      → existing family under ${parentId} (review by hand if it should be ${g.canonical.id})` : ""));
   if (!APPLY) continue;
 
-  let slug = existing[0];
-  if (!slug) {
-    slug = slugify(g.canonical.title);
-    for (let n = 2; workSlugs.has(slug); n++) slug = `${slugify(g.canonical.title)}-${n}`;
-    workSlugs.add(slug);
-    ensurePkgDirs(path.join(ROOT, "works", slug));
-    writeJson(path.join(ROOT, "works", slug, "work.json"), { slug, title: g.canonical.title, canonicalSongId: g.canonical.id });
-  }
+  const parentDir = index.get(parentId).dir;
   for (const s of g._songs) {
-    if (s.song.workRef) continue;
-    s.song.workRef = slug;
-    delete s.song.parent; // parent is derived from the work
-    writeJson(songJsonPath(s.dir), s.song);
-    // a member copy byte-identical to the work's asset must go — it inherits instead
+    if (s.song.id === parentId || s.song.parent?.id) continue;
+    s.song.parent = { id: parentId };
+    writeJson(songJsonPath(s.dir), orderSong(s.song));
+    // a copy byte-identical to the parent's asset must go — it inherits instead
     for (const f of SHARED) {
-      const wp = path.join(ROOT, "works", slug, f), sp = path.join(s.dir, f);
-      if (fs.existsSync(wp) && fs.existsSync(sp) && fs.readFileSync(sp).equals(fs.readFileSync(wp))) {
+      const pp = path.join(parentDir, f), sp = path.join(s.dir, f);
+      if (fs.existsSync(pp) && fs.existsSync(sp) && fs.readFileSync(sp).equals(fs.readFileSync(pp))) {
         fs.unlinkSync(sp);
         s3rm.push(`${s.label}/${f}`);
       }

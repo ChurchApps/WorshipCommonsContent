@@ -2,13 +2,11 @@
   "id": "c6lqqDbza45",
   "title": "At the Cross",
   "writer": "Isaac Watts & Ralph Hudson",
-  "writerRef": "isaac-watts",
   "year": 1885,
   "language": "English",
   "themes": "Grace,Praise",
   "key": "Eb",
   "bpm": 88,
-  "timeSignature": "4/4",
   "meter": "8.8.7",
   "scripture": "Romans 5:8",
   "license": "PD",
@@ -47,5 +45,7 @@
       "Chorus"
     ]
   },
-  "workRef": "alas-and-did-my-savior-bleed"
+  "parent": {
+    "id": "4m8Ep0PePd0"
+  }
 }

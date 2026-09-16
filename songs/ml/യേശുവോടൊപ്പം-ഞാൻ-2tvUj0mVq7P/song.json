@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2016,
   "language": "Malayalam",
-  "themes": "Assurance,Cross,Faith",
-  "key": "F",
-  "bpm": 120,
-  "timeSignature": "3/4",
   "scripture": "മത്തായി 28:20",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "moment-by-moment",
+  "parent": {
+    "id": "Gx7dtPKLv_W"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2016"
 }

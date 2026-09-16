@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1866,
   "language": "Russian",
-  "themes": "Grace,Praise",
-  "key": "F",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Иезекииль 3:11",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "tell-me-the-old-old-story",
+  "parent": {
+    "id": "LGHmqUi6pBw"
+  },
   "relationLabel": "Russian translation"
 }

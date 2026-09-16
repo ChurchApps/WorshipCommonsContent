@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1858,
   "language": "Malayalam",
-  "themes": "Grace,Confession",
-  "key": "F",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "മര്‍ക്കോസ് 10:45",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "i-gave-my-life-for-thee",
+  "parent": {
+    "id": "3tWMyiGfX2n"
+  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
 }

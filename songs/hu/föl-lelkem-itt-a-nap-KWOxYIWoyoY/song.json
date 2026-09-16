@@ -2,13 +2,8 @@
   "id": "KWOxYIWoyoY",
   "title": "Föl, Lelkem, Itt a Nap",
   "writer": "Charles Wesley · tr. Anna Piroska Williams",
-  "writerRef": "charles-wesley",
   "year": 1975,
   "language": "Hungarian",
-  "themes": "Assurance,Grace",
-  "key": "F",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Róma 8:34",
   "license": "PD",
   "rights": {
@@ -58,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "arise-my-soul-arise",
+  "parent": {
+    "id": "AmR3I3-LM0h"
+  },
   "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1975"
 }

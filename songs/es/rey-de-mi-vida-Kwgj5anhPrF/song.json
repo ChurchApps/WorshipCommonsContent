@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1921,
   "language": "Spanish",
-  "themes": "Grace,Confession",
-  "key": "C",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "1 Pedro 3:18",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "lead-me-to-calvary",
+  "parent": {
+    "id": "l9H7SMXLFRG"
+  },
   "relationLabel": "Spanish translation"
 }

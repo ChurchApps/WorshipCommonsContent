@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2018,
   "language": "Malayalam",
-  "themes": "Mission,Hope",
-  "key": "G",
-  "bpm": 108,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 43:3",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "send-the-light",
+  "parent": {
+    "id": "skP32CqkruU"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2018"
 }

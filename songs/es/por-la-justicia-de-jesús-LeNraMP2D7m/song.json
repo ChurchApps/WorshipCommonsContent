@@ -2,13 +2,8 @@
   "id": "LeNraMP2D7m",
   "title": "Por la Justicia de Jesús",
   "writer": "Edward Mote",
-  "writerRef": "edward-mote",
   "year": 1834,
   "language": "Spanish",
-  "themes": "Assurance,Cross",
-  "key": "C",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Mateo 7:25-26",
   "license": "PD",
   "rights": {
@@ -47,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "my-hope-is-built",
+  "parent": {
+    "id": "wy7meh0qqDc"
+  },
   "relationLabel": "Spanish translation"
 }

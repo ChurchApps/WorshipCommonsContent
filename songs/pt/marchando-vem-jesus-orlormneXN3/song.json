@@ -5,10 +5,6 @@
   "writerRef": "julia-w-howe",
   "year": 1861,
   "language": "Portuguese",
-  "themes": "Mission,Hope",
-  "key": "Bb",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Apocalipse 22:12",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "battle-hymn-of-the-republic",
+  "parent": {
+    "id": "BVe7x5it58a"
+  },
   "relationLabel": "Portuguese original · Julia W. Howe, 1861"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1861,
   "language": "Malayalam",
-  "themes": "Cross,Easter,Hope",
-  "key": "E",
-  "bpm": 140,
-  "timeSignature": "3/4",
   "scripture": "യോഹന്നാൻ 2:19",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "the-strife-is-oer-the-battle-done",
+  "parent": {
+    "id": "qZQDR25XEha"
+  },
   "relationLabel": "Malayalam original · ഫ്രാൻസിസ് പോട്ട്, 1861"
 }

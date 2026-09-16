@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1816,
   "language": "Russian",
-  "themes": "Christmas,Comfort",
-  "key": "Bb",
-  "bpm": 60,
-  "timeSignature": "3/4",
   "scripture": "От Луки 2:8-9",
   "license": "PD",
   "rights": {
@@ -67,6 +63,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "stille-nacht",
+  "parent": {
+    "id": "CmGjWnGTSVW"
+  },
   "relationLabel": "Russian translation"
 }

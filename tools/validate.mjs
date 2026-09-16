@@ -5,19 +5,18 @@ import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   idFor, LANG_CODES, LICENSES, splitChordpro, renderSourcesTxt, songDirs, readJson,
-  readWorks, readSong, lyricsPath, sourcesTxtPath, manifestPath,
-  SHARED_RELS, ROOT_FILES, EITHER_RELS, sha256File, idFromFolder,
+  readSong, readSongRaw, parentOf, lyricsPath, sourcesTxtPath, manifestPath,
+  SHARED_RELS, INHERITED_FIELDS, ROOT_FILES, EITHER_RELS, sha256File, idFromFolder,
   sourceFiles, masterAudio, GRANT_LAYERS, OBTAINED_VIA
 } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sources = readJson(path.join(ROOT, "sources.json"));
 const THEMES = new Set(readJson(path.join(ROOT, "themes.json")).themes);
-const works = readWorks(ROOT);
 const errors = [];
 const warnings = [];
 
-// Only song.json / work.json live at the package root; everything else is a source or an output.
+// Only song.json lives at the package root; everything else is a source or an output.
 function checkRoot(dir, label) {
   for (const name of fs.readdirSync(dir)) {
     if (ROOT_FILES.includes(name)) continue;
@@ -35,9 +34,7 @@ function checkOneOwner(dir, label) {
 }
 
 const ids = new Map(); // id → dir
-const parentOf = new Map(); // id → legacy parent id
-const workRefOf = new Map(); // id → workRef
-const workMembers = new Map(); // work slug → [song id]
+const parentIdOf = new Map(); // id → parent id (translations)
 const licenseOf = new Map(); // id → license code
 const foldersSeen = new Map(); // lang → Set of lowercased folder names
 const langCodes = new Set(Object.values(LANG_CODES));
@@ -88,21 +85,23 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   checkRoot(dir, label);
   checkOneOwner(dir, label);
 
-  if (song.parent?.id) parentOf.set(song.id, song.parent.id);
-  const work = song.workRef ? works.get(song.workRef) : null;
-  if (song.workRef) {
-    workRefOf.set(song.id, song.workRef);
-    if (!work) errors.push(`${label}: workRef "${song.workRef}" has no works/ folder`);
-    else {
-      if (!workMembers.has(song.workRef)) workMembers.set(song.workRef, []);
-      workMembers.get(song.workRef).push(song.id);
-      for (const rel of SHARED_RELS) {
-        const sp = path.join(dir, rel), wp = path.join(work.dir, rel);
-        if (fs.existsSync(sp) && fs.existsSync(wp) && fs.readFileSync(sp).equals(fs.readFileSync(wp)))
-          errors.push(`${label}: ${rel} is byte-identical to works/${song.workRef}/${rel} — delete the song copy to inherit`);
-      }
+  if (song.workRef) errors.push(`${label}: "workRef" is gone — translations name their parent song (parent: { id })`);
+  if (song.parent?.id) parentIdOf.set(song.id, song.parent.id);
+  const parent = parentOf(ROOT, song);
+  if (parent) {
+    if (parent.id === song.id) errors.push(`${label}: is its own parent`);
+    // a translation inherits what it does not override: a copy identical to the parent's is noise
+    const raw = readSongRaw(dir), base = readSongRaw(parent.dir);
+    for (const k of INHERITED_FIELDS)
+      if (raw[k] !== undefined && JSON.stringify(raw[k]) === JSON.stringify(base[k]))
+        warnings.push(`${label}: "${k}" equals the parent's — delete it to inherit`);
+    for (const rel of SHARED_RELS) {
+      const sp = path.join(dir, rel), pp = path.join(parent.dir, rel);
+      if (fs.existsSync(sp) && fs.existsSync(pp) && fs.readFileSync(sp).equals(fs.readFileSync(pp)))
+        errors.push(`${label}: ${rel} is byte-identical to the parent's — delete the copy to inherit`);
     }
-    if (song.parent) errors.push(`${label}: has both "parent" and "workRef" — parent is derived from the work; remove it`);
+    for (const rel of song.noInherit ?? [])
+      if (!fs.existsSync(path.join(parent.dir, rel))) warnings.push(`${label}: noInherit "${rel}" names nothing the parent has`);
   }
 
   const cpPath = lyricsPath(dir);
@@ -178,39 +177,15 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   if (!song.id) warnings.push(`${label}: no id — build-catalog would need one; idFor(title) = ${idFor(song.title)}`);
 }
 
-for (const { dir, langDir, folder } of songDirs(ROOT)) {
-  const song = readSong(dir);
-  if (!song.parent?.id) continue;
-  const label = `songs/${langDir}/${folder}`;
-  if (!ids.has(song.parent.id))
-    warnings.push(`${label}: parent "${song.parent.title}" (${song.parent.id}) is not in the catalog`);
-  else if (parentOf.has(song.parent.id) || workRefOf.has(song.parent.id))
-    errors.push(`${label}: parent ${song.parent.id} is itself a family member — link the original (or move the family to a work)`);
+// families are flat: every translation points at the base song, never at another translation
+for (const [id, pid] of parentIdOf) {
+  const label = ids.get(id);
+  if (!ids.has(pid)) errors.push(`${label}: parent ${pid} is not in songs/`);
+  else if (parentIdOf.has(pid)) errors.push(`${label}: parent ${pid} is itself a translation — link the base song`);
+  else if (LICENSES[licenseOf.get(pid)]?.shareAlike && !LICENSES[licenseOf.get(id)]?.shareAlike)
+    errors.push(`${label}: parent is ${licenseOf.get(pid)} but this translation is ${licenseOf.get(id)} — share-alike families cannot mix`);
 }
-
-const canonicalSeen = new Map();
-const workSlugsLower = new Set();
-for (const [slug, work] of works) {
-  const label = `works/${slug}`;
-  if (work.slug !== slug) errors.push(`${label}: work.json slug "${work.slug}" != folder name`);
-  const lower = slug.toLowerCase();
-  if (workSlugsLower.has(lower)) errors.push(`${label}: folder name collides case-insensitively with a sibling`);
-  workSlugsLower.add(lower);
-  checkRoot(work.dir, label);
-  checkOneOwner(work.dir, label);
-  if (!fs.existsSync(manifestPath(work.dir))) errors.push(`${label}: missing sources/manifest.json`);
-  if (!work.canonicalSongId) { errors.push(`${label}: work.json missing "canonicalSongId"`); continue; }
-  if (!ids.has(work.canonicalSongId)) errors.push(`${label}: canonicalSongId ${work.canonicalSongId} is not in the catalog`);
-  else if (workRefOf.get(work.canonicalSongId) !== slug)
-    errors.push(`${label}: canonical song ${work.canonicalSongId} (${ids.get(work.canonicalSongId)}) does not have workRef "${slug}"`);
-  if (canonicalSeen.has(work.canonicalSongId))
-    errors.push(`${label}: canonicalSongId ${work.canonicalSongId} is already canonical of works/${canonicalSeen.get(work.canonicalSongId)}`);
-  canonicalSeen.set(work.canonicalSongId, slug);
-  if ((workMembers.get(slug) ?? []).length < 2) warnings.push(`${label}: fewer than 2 member songs — stale work?`);
-  if (LICENSES[licenseOf.get(work.canonicalSongId)]?.shareAlike)
-    for (const id of workMembers.get(slug) ?? [])
-      if (!LICENSES[licenseOf.get(id)]?.shareAlike) errors.push(`${label}: canonical is ${licenseOf.get(work.canonicalSongId)} but member ${id} is ${licenseOf.get(id)} — share-alike families cannot mix`);
-}
+if (fs.existsSync(path.join(ROOT, "works"))) errors.push("works/ still exists — shared assets live on the parent song now");
 
 for (const w of warnings) console.warn(`WARN  ${w}`);
 for (const e of errors) console.error(`ERROR ${e}`);

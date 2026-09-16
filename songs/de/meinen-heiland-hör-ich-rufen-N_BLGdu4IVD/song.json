@@ -2,13 +2,8 @@
   "id": "N_BLGdu4IVD",
   "title": "Meinen Heiland Hör Ich Rufen",
   "writer": "Ernest W. Blandy · tr. Carl Röhl",
-  "writerRef": null,
   "year": 1900,
   "language": "German",
-  "themes": "Faith,Guidance",
-  "key": "F",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Markus 8:34",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "where-he-leads-me",
+  "parent": {
+    "id": "5_Qa0VNPNHr"
+  },
   "relationLabel": "German translation · tr. Carl Röhl, 1900"
 }

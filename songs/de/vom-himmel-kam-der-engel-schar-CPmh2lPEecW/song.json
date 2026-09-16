@@ -2,13 +2,8 @@
   "id": "CPmh2lPEecW",
   "title": "Vom Himmel Kam der Engel Schar",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1543,
   "language": "German",
-  "themes": "Assurance,Cross",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Jesaja 9,1",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "to-shepherds-as-they-watched-by-night",
+  "parent": {
+    "id": "FT28ljlKcM3"
+  },
   "relationLabel": "German original · Martin Luther, 1543"
 }

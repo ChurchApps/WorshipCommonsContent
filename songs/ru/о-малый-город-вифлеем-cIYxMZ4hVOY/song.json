@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1867,
   "language": "Russian",
-  "themes": "Christmas,Hope",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Книга Михея 5:2",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "o-little-town-of-bethlehem",
+  "parent": {
+    "id": "a19OdmA8uPt"
+  },
   "relationLabel": "Russian translation"
 }

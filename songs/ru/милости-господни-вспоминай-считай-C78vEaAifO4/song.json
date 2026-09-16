@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1897,
   "language": "Russian",
-  "themes": "Providence,Praise",
-  "key": "Eb",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "Псалом 39:6",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "count-your-blessings",
+  "parent": {
+    "id": "FMffPYxulvd"
+  },
   "relationLabel": "Russian translation"
 }

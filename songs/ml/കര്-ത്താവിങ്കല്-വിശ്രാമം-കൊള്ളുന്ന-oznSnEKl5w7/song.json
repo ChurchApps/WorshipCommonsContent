@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Hope,Praise",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "വെളിപ്പാട് 14:13",
   "license": "PD",
   "rights": {
@@ -88,6 +84,8 @@
       "Verse 11"
     ]
   },
-  "workRef": "for-all-the-saints",
+  "parent": {
+    "id": "MHG5BeaFhHD"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

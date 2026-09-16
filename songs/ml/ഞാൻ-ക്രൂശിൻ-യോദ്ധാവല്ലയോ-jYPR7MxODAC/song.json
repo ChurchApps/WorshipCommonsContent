@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2015,
   "language": "Malayalam",
-  "themes": "Mission,Trust",
-  "key": "C",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "കൊരിന്ത്യർ 16:13",
   "license": "PD",
   "rights": {
@@ -68,6 +64,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "am-i-a-soldier-of-the-cross",
+  "parent": {
+    "id": "gLg5BJT2FtA"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
 }

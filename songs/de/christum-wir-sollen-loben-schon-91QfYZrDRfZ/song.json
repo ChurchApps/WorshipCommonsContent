@@ -5,11 +5,6 @@
   "writerRef": "martin-luther",
   "year": 1524,
   "language": "German",
-  "themes": "Christmas,Advent,Adoration",
-  "key": "C",
-  "bpm": 130,
-  "timeSignature": "4/4",
-  "meter": "8.8.8.8",
   "scripture": "Philipper 2:6,7",
   "license": "PD",
   "rights": {
@@ -73,6 +68,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "now-praise-we-christ-the-holy-one",
+  "parent": {
+    "id": "CSUcCTR2wYQ"
+  },
   "relationLabel": "German original · Martin Luther, 1524"
 }

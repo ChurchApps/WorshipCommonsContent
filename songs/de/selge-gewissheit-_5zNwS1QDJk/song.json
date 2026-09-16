@@ -5,10 +5,6 @@
   "writerRef": "fanny-crosby",
   "year": 1873,
   "language": "German",
-  "themes": "Assurance,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "9/8",
   "scripture": "Hebraeer 10:22",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "blessed-assurance",
+  "parent": {
+    "id": "0YyJoAE9Ge4"
+  },
   "relationLabel": "German translation"
 }

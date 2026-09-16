@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1885,
   "language": "Spanish",
-  "themes": "Christmas,Comfort",
-  "key": "F",
-  "bpm": 76,
-  "timeSignature": "3/4",
   "scripture": "Lucas 2:7",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "away-in-a-manger",
+  "parent": {
+    "id": "DJiXNvQVFPH"
+  },
   "relationLabel": "Spanish translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2015,
   "language": "Malayalam",
-  "themes": "Creation,Praise",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "ഉല്പത്തി 1:31",
   "license": "PD",
   "rights": {
@@ -68,6 +64,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "all-things-bright-and-beautiful",
+  "parent": {
+    "id": "4LdUJ6NJqdP"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
 }

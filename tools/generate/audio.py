@@ -224,7 +224,7 @@ def pad_loop(root_pc: int, seconds=16.0) -> np.ndarray:
 
 def find_midis(root: Path, only: str | None):
     out = []
-    for kind, base in (("work", root / "works"), ("song", root / "songs")):
+    for kind, base in (("song", root / "songs"),):
         if not base.exists():
             continue
         for p in base.rglob("tune.mid"):

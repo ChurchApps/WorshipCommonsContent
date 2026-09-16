@@ -2,14 +2,8 @@
   "id": "87NoKv9FMDv",
   "title": "Ist Gott für Mich, So Trete",
   "writer": "Paul Gerhardt",
-  "writerRef": "paul-gerhardt",
   "year": 1656,
   "language": "German",
-  "themes": "Assurance,Cross",
-  "key": "G",
-  "bpm": 130,
-  "timeSignature": "4/4",
-  "meter": "7.6.7.6 D",
   "scripture": "Römer 8:31",
   "license": "PD",
   "rights": {
@@ -108,6 +102,8 @@
       "Verse 15"
     ]
   },
-  "workRef": "if-god-himself-be-for-me",
+  "parent": {
+    "id": "7Qhc6CTfvBg"
+  },
   "relationLabel": "German original · Paul Gerhardt, 1656"
 }

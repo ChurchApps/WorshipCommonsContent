@@ -2,13 +2,8 @@
   "id": "jFQJ2KQWIE0",
   "title": "Tú Dejaste Tu Trono y Corona por Mí",
   "writer": "Emily Elliott",
-  "writerRef": "emily-elliott",
   "year": 1864,
   "language": "Spanish",
-  "themes": "Christmas,Grace",
-  "key": "F",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Juan 1:11",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "thou-didst-leave-thy-throne",
+  "parent": {
+    "id": "ARrDtJwZ8PE"
+  },
   "relationLabel": "Spanish translation"
 }

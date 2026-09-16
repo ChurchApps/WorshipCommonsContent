@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1836,
   "language": "Russian",
-  "themes": "Assurance,Funeral,Church",
-  "key": "G",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "Евреям 11:13",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "im-but-a-stranger-here",
+  "parent": {
+    "id": "5OQUK3saOEb"
+  },
   "relationLabel": "Russian translation"
 }

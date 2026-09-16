@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1897,
   "language": "Malayalam",
-  "themes": "Providence,Praise",
-  "key": "Eb",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "സദൃശ്യവാക്യങ്ങൾ 10:6",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "count-your-blessings",
+  "parent": {
+    "id": "FMffPYxulvd"
+  },
   "relationLabel": "Malayalam translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1873,
   "language": "Russian",
-  "themes": "Assurance,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "9/8",
   "scripture": "Послание к Евреям 10:21–22",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "blessed-assurance",
+  "parent": {
+    "id": "0YyJoAE9Ge4"
+  },
   "relationLabel": "Russian translation"
 }

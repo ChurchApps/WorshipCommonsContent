@@ -2,11 +2,10 @@
 // Usage: node tools/harvest/scan-coverage.mjs
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { songDirs, splitChordpro, readWorks, readSong, lyricsPath, resolveShared } from "../lib.mjs";
+import { songDirs, splitChordpro, readSong, parentOf, lyricsPath, resolveShared } from "../lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const CHORD = /\[[A-G][#b]?[^\]]*\]/;
-const works = readWorks(ROOT);
 
 const buckets = {
   total: 0,
@@ -39,7 +38,7 @@ function pushSample(key, label, max = 12) {
 
 for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const song = readSong(dir);
-  const work = song.workRef ? works.get(song.workRef) : null;
+  const work = parentOf(ROOT, song);
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const stanzas = body.split(/\r?\n\s*\r?\n/).map(b => b.split(/\r?\n/)).filter(st => st.some(l => l.trim()));
   const lyricStanzas = stanzas.filter(st => st.length >= 2);

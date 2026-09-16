@@ -2,13 +2,8 @@
   "id": "ulcjUje9H_p",
   "title": "La Cruz Excelsa",
   "writer": "Isaac Watts · tr. anónimo",
-  "writerRef": "isaac-watts",
   "year": 1905,
   "language": "Spanish",
-  "themes": "Grace,Confession",
-  "key": "Eb",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "Gálatas 6:14",
   "license": "PD",
   "rights": {
@@ -34,6 +29,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "when-i-survey-the-wondrous-cross",
+  "parent": {
+    "id": "5XkXjIIePgD"
+  },
   "relationLabel": "Spanish translation · anonymous"
 }

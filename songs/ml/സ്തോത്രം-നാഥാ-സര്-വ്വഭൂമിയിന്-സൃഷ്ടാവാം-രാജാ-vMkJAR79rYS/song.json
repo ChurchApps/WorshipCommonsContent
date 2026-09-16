@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Praise,Trust",
-  "key": "G",
-  "bpm": 100,
-  "timeSignature": "3/4",
   "scripture": "സങ്കീര്‍ത്തനം 150:1–2",
   "license": "PD",
   "rights": {
@@ -68,6 +64,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "praise-to-the-lord-the-almighty",
+  "parent": {
+    "id": "ThsV2EUH5G6"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

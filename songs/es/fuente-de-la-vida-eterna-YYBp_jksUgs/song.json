@@ -2,13 +2,8 @@
   "id": "YYBp_jksUgs",
   "title": "Fuente de la Vida Eterna",
   "writer": "Robert Robinson",
-  "writerRef": "robert-robinson",
   "year": 1758,
   "language": "Spanish",
-  "themes": "Hope,Cross",
-  "key": "Eb",
-  "bpm": 90,
-  "timeSignature": "3/4",
   "scripture": "Salmos 68:19",
   "license": "PD",
   "rights": {
@@ -47,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "come-thou-fount-of-every-blessing",
+  "parent": {
+    "id": "FMd8ryghVRb"
+  },
   "relationLabel": "Spanish translation"
 }

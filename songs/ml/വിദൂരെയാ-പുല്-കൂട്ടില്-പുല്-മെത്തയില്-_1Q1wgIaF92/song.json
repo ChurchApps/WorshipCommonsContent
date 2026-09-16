@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2010,
   "language": "Malayalam",
-  "themes": "Christmas,Comfort",
-  "key": "F",
-  "bpm": 76,
-  "timeSignature": "3/4",
   "scripture": "ലൂക്കോസ് 2:7",
   "license": "PD",
   "rights": {
@@ -48,6 +44,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "away-in-a-manger",
+  "parent": {
+    "id": "DJiXNvQVFPH"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2010"
 }

@@ -2,13 +2,8 @@
   "id": "WrAGrPPx6mJ",
   "title": "Por los Santos Que Descansan Ya",
   "writer": "William How",
-  "writerRef": "william-how",
   "year": 1864,
   "language": "Spanish",
-  "themes": "Hope,Praise",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Apocalipsis 14:13",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "for-all-the-saints",
+  "parent": {
+    "id": "MHG5BeaFhHD"
+  },
   "relationLabel": "Spanish translation"
 }

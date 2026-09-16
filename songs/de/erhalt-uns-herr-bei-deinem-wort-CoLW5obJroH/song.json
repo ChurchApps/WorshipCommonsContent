@@ -2,13 +2,8 @@
   "id": "CoLW5obJroH",
   "title": "Erhalt’ uns, Herr, bei deinem Wort",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1541,
   "language": "German",
-  "themes": "Faith,Church,Guidance",
-  "key": "G",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "Johannes 17,11",
   "license": "PD",
   "rights": {
@@ -47,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "lord-keep-us-steadfast-in-thy-word",
+  "parent": {
+    "id": "kdHEkNmFqdd"
+  },
   "relationLabel": "German original · Martin Luther, 1541"
 }

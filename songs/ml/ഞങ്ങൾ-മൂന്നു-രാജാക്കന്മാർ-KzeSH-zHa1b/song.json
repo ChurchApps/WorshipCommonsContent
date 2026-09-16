@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Christmas",
-  "key": "Em",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 2:1–2",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "we-three-kings",
+  "parent": {
+    "id": "-LD-RetNsuh"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

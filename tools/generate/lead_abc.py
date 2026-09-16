@@ -201,7 +201,7 @@ def main():
     root = Path(args.root)
     abc2xml = root / "tools" / "vendor" / "abc2xml.py"
     stats = {"ok": 0, "skip": 0, "fail": 0}
-    abcs = list((root / "works").rglob("tune.abc")) + list((root / "songs").rglob("tune.abc"))
+    abcs = list((root / "songs").rglob("tune.abc"))
     for abc in abcs:
         if abc.parent.name != "sources":
             continue

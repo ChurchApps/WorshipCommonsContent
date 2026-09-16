@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2017,
   "language": "Malayalam",
-  "themes": "Trust,Providence",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "വെളിപ്പാടു 7:17",
   "license": "PD",
   "rights": {
@@ -48,6 +44,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "all-the-way-my-savior-leads-me",
+  "parent": {
+    "id": "QHAD_7fPvc8"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
 }

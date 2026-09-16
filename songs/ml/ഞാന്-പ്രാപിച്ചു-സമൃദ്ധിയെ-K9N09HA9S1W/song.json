@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Hope,Assurance",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "യെശയ്യാവ് 62:4",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "beulah-land",
+  "parent": {
+    "id": "huxjoMyQ1HU"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

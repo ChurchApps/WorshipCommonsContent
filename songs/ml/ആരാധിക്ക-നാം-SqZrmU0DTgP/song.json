@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Praise,Creation",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 104:1-2",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "o-worship-the-king",
+  "parent": {
+    "id": "5CIUkAe-PHb"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

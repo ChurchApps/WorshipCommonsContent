@@ -2,13 +2,8 @@
   "id": "Jw1O9rzbsHQ",
   "title": "Все Иисусу Отдаю Я",
   "writer": "Д. В. Ван Де Вентер",
-  "writerRef": null,
   "year": 1896,
   "language": "Russian",
-  "themes": "Confession,Trust",
-  "key": "D",
-  "bpm": 69,
-  "timeSignature": "4/4",
   "scripture": "Евангелие от Луки 20:12",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "i-surrender-all",
+  "parent": {
+    "id": "_lBMGxob8RU"
+  },
   "relationLabel": "Russian translation"
 }

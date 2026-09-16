@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1719,
   "language": "Malayalam",
-  "themes": "Mission,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "2/2",
   "scripture": "സങ്കീർത്തനങ്ങൾ 72:8",
   "license": "PD",
   "rights": {
@@ -72,6 +68,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "jesus-shall-reign",
+  "parent": {
+    "id": "w5-RXH9uPli"
+  },
   "relationLabel": "Malayalam original · ഐസക്ക് വാട്ട്സ്, 1719"
 }

@@ -2,13 +2,8 @@
   "id": "P3Fq-xQSwLL",
   "title": "ആത്മാവാം വഴികാട്ടി എന്നെ സദാ നടത്തി",
   "writer": "മാര്‍കസ് എം. വെല്‍സ് · tr. റവ. തോമസ്‌ കോശി",
-  "writerRef": null,
   "year": 1858,
   "language": "Malayalam",
-  "themes": "Comfort,Trust",
-  "key": "G",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 48:14",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "holy-spirit-faithful-guide",
+  "parent": {
+    "id": "bfu9Z27BcwC"
+  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
 }

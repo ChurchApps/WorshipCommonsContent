@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2014,
   "language": "Malayalam",
-  "themes": "Trust,Comfort",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "1 പത്രോസ് 5:7",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "i-must-tell-jesus",
+  "parent": {
+    "id": "inO0rOjph2E"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
 }

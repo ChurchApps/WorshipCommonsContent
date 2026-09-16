@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1862,
   "language": "Malayalam",
-  "themes": "Trust,Providence",
-  "key": "D",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 23:3",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "he-leadeth-me",
+  "parent": {
+    "id": "GewWFBLDxRd"
+  },
   "relationLabel": "Malayalam translation"
 }

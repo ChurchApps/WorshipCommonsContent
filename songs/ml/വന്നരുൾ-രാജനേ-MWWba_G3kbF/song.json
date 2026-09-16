@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Adoration,Praise",
-  "key": "F",
-  "bpm": 92,
-  "timeSignature": "3/4",
   "scripture": "വെളിപ്പാട് 19:6",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "come-thou-almighty-king",
+  "parent": {
+    "id": "gspxyxVctNx"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

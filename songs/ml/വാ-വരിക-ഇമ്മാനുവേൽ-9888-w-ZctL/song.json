@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1851,
   "language": "Malayalam",
-  "themes": "Advent,Hope",
-  "key": "Em",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "യെശയ്യാവ് 7:14",
   "license": "PD",
   "rights": {
@@ -77,6 +73,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "o-come-o-come-emmanuel",
+  "parent": {
+    "id": "EKHqtYfDRue"
+  },
   "relationLabel": "Malayalam original · ജോണ്‍ എം. നീൽ, 1851"
 }

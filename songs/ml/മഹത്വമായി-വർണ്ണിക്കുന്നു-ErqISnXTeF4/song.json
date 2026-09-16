@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Hope,Church,Guidance",
-  "key": "F",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 87:3",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "glorious-things-of-thee-are-spoken",
+  "parent": {
+    "id": "ftavJEy0nel"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

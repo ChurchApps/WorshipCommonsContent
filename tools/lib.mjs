@@ -55,9 +55,8 @@ export const LICENSES = Object.fromEntries(
 //
 // output/ is deletable by definition, which is why .gitignore is a plain **/output/.
 // The license is NOT in the path: it is mutable metadata and the path is the bucket key.
-export const ROOT_FILES = ["song.json", "work.json"];
+export const ROOT_FILES = ["song.json"];
 export const songJsonPath = dir => path.join(dir, "song.json");
-export const workJsonPath = dir => path.join(dir, "work.json");
 export const manifestPath = dir => path.join(dir, "sources", "manifest.json");
 export const hymnaryPath = dir => path.join(dir, "sources", "hymnary.json");
 export const harvestedPath = dir => path.join(dir, "sources", "hymnary.json");
@@ -83,7 +82,18 @@ export const ensurePkgDirs = dir => {
   for (const d of ["sources", "output/composition"]) fs.mkdirSync(path.join(dir, ...d.split("/")), { recursive: true });
 };
 
-export const readSong = dir => readJson(songJsonPath(dir));
+// song.json as the tools see it: a translation's file holds its overrides and the parent's
+// INHERITED_FIELDS fill the gaps. readSongRaw is the file as written, for tools that rewrite it.
+export const readSongRaw = dir => readJson(songJsonPath(dir));
+export function readSong(dir) {
+  const song = readSongRaw(dir);
+  if (!song.parent?.id) return song;
+  const parent = songIndex(path.resolve(dir, "..", "..", "..")).get(song.parent.id);
+  if (!parent) return song;
+  const base = readSongRaw(parent.dir);
+  for (const k of INHERITED_FIELDS) if (song[k] === undefined && base[k] !== undefined) song[k] = base[k];
+  return song;
+}
 export const readHarvested = dir => {
   const out = {};
   const hymnary = path.join(dir, "sources", "hymnary.json");
@@ -201,23 +211,30 @@ export const isoDate = () => new Date().toISOString().slice(0, 10);
 // a submission's change note becomes the export commit message, and derivatives are
 // rebuilt in place.
 
-// work-level files a member inherits unless it has its own copy. The words are never
-// shared — a translation always has its own. The score is not shared either: each
-// member rebuilds it into output/ from the inherited tune.abc.
+// Translations. A translation is a full song package whose song.json names its parent
+// (`parent: { id }`, the base version — the original language when we have it). It owns its
+// words, timings, translator credit, rights and status; anything it leaves out it inherits
+// from the parent: the metadata in INHERITED_FIELDS and the files in SHARED_RELS, plus the
+// parent's built audio (output/audio/) since the recording is the parent's. Families are
+// flat: a parent is never itself a translation. `noInherit: ["output/audio", ...]` on the
+// translation suppresses a parent asset it cannot use (different verse order, say).
+// The words are never shared, and the score is rebuilt per package from the inherited
+// tune.abc so each language's sheet music carries its own words.
+export const INHERITED_FIELDS = ["writerRef", "themes", "key", "bpm", "timeSignature", "meter", "tune"];
 export const SHARED_RELS = ["sources/tune.mid", "sources/tune.abc", "sources/cover.webp"];
 
-// resolve a package-relative file (e.g. "sources/tune.mid"), song override then work, with flat-folder fallback
-export function resolveShared(rootRel, dir, work, rel, { inherit = true } = {}) {
+// resolve a package-relative file (e.g. "sources/tune.mid"), song override then parent, with flat-folder fallback.
+// `parent` is a songIndex entry ({ dir, rootRel }) or null.
+export function resolveShared(rootRel, dir, parent, rel, { inherit = true, noInherit = [] } = {}) {
   const name = rel.split("/").pop();
   const candidates = [
     { p: path.join(dir, rel), url: `${rootRel}/${rel}` },
     { p: path.join(dir, name), url: `${rootRel}/${name}` }
   ];
-  if (inherit && work) {
-    const workRel = `works/${work.folder}`;
+  if (inherit && parent && !noInherit.some(p => rel === p || rel.startsWith(p + "/"))) {
     candidates.push(
-      { p: path.join(work.dir, rel), url: `${workRel}/${rel}` },
-      { p: path.join(work.dir, name), url: `${workRel}/${name}` }
+      { p: path.join(parent.dir, rel), url: `${parent.rootRel}/${rel}` },
+      { p: path.join(parent.dir, name), url: `${parent.rootRel}/${name}` }
     );
   }
   for (const c of candidates) {
@@ -226,12 +243,30 @@ export function resolveShared(rootRel, dir, work, rel, { inherit = true } = {}) 
   return { path: null, url: null, bytes: null };
 }
 
+// id → { id, dir, rootRel, langDir, folder } for every package under <root>/songs, built once per root
+const indexCache = new Map();
+export function songIndex(root) {
+  const key = path.resolve(root);
+  if (!indexCache.has(key)) {
+    const m = new Map();
+    for (const e of songDirs(root)) {
+      const id = idFromFolder(e.folder);
+      if (id) m.set(id, { id, ...e, rootRel: `songs/${e.langDir}/${e.folder}` });
+    }
+    indexCache.set(key, m);
+  }
+  return indexCache.get(key);
+}
+
+// the parent package of a translation (song.json parent.id), or null for a base song
+export const parentOf = (root, song) => (song.parent?.id && songIndex(root).get(song.parent.id)) || null;
+
 const SONG_KEY_ORDER = [
   "id", "title", "writer", "writerRef", "year", "language", "themes",
   "key", "bpm", "timeSignature", "meter", "tune", "scripture", "scriptureText",
   "license", "licenseVersion", "licenseUrl", "licenseSource", "ccli", "attribution",
   "rights", "form", "chart", "pipeline", "recommendedKey",
-  "workRef", "relationLabel", "parent", "contributors", "uploads",
+  "parent", "relationLabel", "noInherit", "contributors", "uploads",
   "status", "submittedBy", "proAnswer", "certified"
 ];
 
@@ -454,7 +489,7 @@ export function renderSourcesTxt(dir, song, sources) {
     if (s?.attribution?.required) line += ` (attribution required)`;
     lines.push(line);
   }
-  // inherited work assets: rights still name the source even when the bytes live on the work
+  // inherited assets: rights still name the source even when the bytes live on the parent
   for (const [file, key] of [["tune.mid", song.rights?.tune?.basis], ["tune.abc", song.rights?.arrangement?.basis]]) {
     if (seen.has(file) || !key || !sources[key]) continue;
     const s = sources[key];
@@ -597,22 +632,6 @@ export function* songDirs(root) {
       yield { langDir, folder, dir: path.join(langRoot, folder) };
     }
   }
-}
-
-// read <root>/works/<slug>/work.json into a map by slug. A work groups a
-// translation family: shared assets live in the work package; member songs
-// point at it via song.json workRef and inherit any file they do not override.
-export function readWorks(root) {
-  const worksRoot = path.join(root, "works");
-  const works = new Map();
-  if (!fs.existsSync(worksRoot)) return works;
-  for (const slug of fs.readdirSync(worksRoot).filter(d => fs.statSync(path.join(worksRoot, d)).isDirectory()).sort()) {
-    const dir = path.join(worksRoot, slug);
-    const p = workJsonPath(dir);
-    if (!fs.existsSync(p)) continue;
-    works.set(slug, { ...JSON.parse(fs.readFileSync(p, "utf8")), dir, folder: slug });
-  }
-  return works;
 }
 
 export const readJson = p => JSON.parse(fs.readFileSync(p, "utf8"));

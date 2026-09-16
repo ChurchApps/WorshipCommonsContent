@@ -2,13 +2,8 @@
   "id": "T1GAOF8d44C",
   "title": "Por la Excelsa Majestad",
   "writer": "Folliott Pierpoint · tr. Federico Pagura",
-  "writerRef": "folliott-pierpoint",
   "year": 1864,
   "language": "Spanish",
-  "themes": "Creation,Praise",
-  "key": "F",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "Santiago 1:17",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "for-the-beauty-of-the-earth",
+  "parent": {
+    "id": "Umvqw0Kazrh"
+  },
   "relationLabel": "Spanish translation · tr. Federico Pagura"
 }

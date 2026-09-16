@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1744,
   "language": "Malayalam",
-  "themes": "Praise,Hope",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "ഫിലിപ്പിയർ 4:4",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "rejoice-the-lord-is-king",
+  "parent": {
+    "id": "IlEmJ2XjOpf"
+  },
   "relationLabel": "Malayalam translation"
 }

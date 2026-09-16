@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1719,
   "language": "Russian",
-  "themes": "Christmas,Praise",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "2/4",
   "scripture": "От Луки 2:10",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "joy-to-the-world",
+  "parent": {
+    "id": "_X94hS2ZTgf"
+  },
   "relationLabel": "Russian translation"
 }

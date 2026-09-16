@@ -2,14 +2,8 @@
   "id": "9ZGG4sLSIa4",
   "title": "Wohl Dem, Der in Gottesfurcht Steht",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1524,
   "language": "German",
-  "themes": null,
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "4/4",
-  "meter": "8.8.8.8",
   "scripture": "Psalm 128,1",
   "license": "PD",
   "rights": {
@@ -58,6 +52,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "happy-the-man-who-feareth-god",
+  "parent": {
+    "id": "4q9f3AkM-bP"
+  },
   "relationLabel": "German original · Martin Luther, 1524"
 }

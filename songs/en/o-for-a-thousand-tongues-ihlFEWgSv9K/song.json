@@ -2,13 +2,11 @@
   "id": "ihlFEWgSv9K",
   "title": "O For A Thousand Tongues",
   "writer": "Charles Wesley",
-  "writerRef": "charles-wesley",
   "year": 1740,
   "language": "English",
   "themes": "Assurance,Cross",
   "key": "Ab",
   "bpm": 200,
-  "timeSignature": "3/2",
   "meter": "8.6.8.6",
   "scripture": "Ps 96:1-3",
   "license": "PD",
@@ -65,5 +63,7 @@
       "Verse 5"
     ]
   },
-  "workRef": "o-for-a-thousand-tongues-to-sing"
+  "parent": {
+    "id": "3tR86sWVTNC"
+  }
 }

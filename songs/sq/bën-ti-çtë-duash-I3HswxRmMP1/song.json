@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1907,
   "language": "Albanian",
-  "themes": "Confession,Trust",
-  "key": "Eb",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "Isaia 64:8",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "have-thine-own-way-lord",
+  "parent": {
+    "id": "UR1ml-cz5-o"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

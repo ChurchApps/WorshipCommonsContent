@@ -2,13 +2,8 @@
   "id": "zda5sPpWT2z",
   "title": "യേശുവിന്റെ ആടു ഞാൻ",
   "writer": "ഹെന്രിയറ്റ് എൽ. വോൺ ഹെയ്ൻ",
-  "writerRef": null,
   "year": 1778,
   "language": "Malayalam",
-  "themes": "Assurance,Peace,Faith",
-  "key": "C",
-  "bpm": 112,
-  "timeSignature": "4/4",
   "scripture": "യെശ്ശയാവ് 40:11",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "i-am-jesus-little-lamb",
+  "parent": {
+    "id": "KhZ5IS8yzXN"
+  },
   "relationLabel": "Malayalam translation"
 }

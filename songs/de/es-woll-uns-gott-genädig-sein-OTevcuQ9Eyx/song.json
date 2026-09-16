@@ -2,14 +2,8 @@
   "id": "OTevcuQ9Eyx",
   "title": "Es Woll’ Uns Gott Genädig Sein",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1524,
   "language": "German",
-  "themes": "Hope,Salvation",
-  "key": "C",
-  "bpm": 120,
-  "timeSignature": "4/4",
-  "meter": "8.7.8.7.8.7.8.7.7",
   "scripture": "Psalm 67,2",
   "license": "PD",
   "rights": {
@@ -48,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "may-god-bestow-on-us-his-grace",
+  "parent": {
+    "id": "HQ-81DpSVuJ"
+  },
   "relationLabel": "German original · Martin Luther, 1524"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1876,
   "language": "Malayalam",
-  "themes": "Praise,Grace",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "ഗലാത്യർ 3:13",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "i-will-sing-of-my-redeemer",
+  "parent": {
+    "id": "K1RTwOmvx40"
+  },
   "relationLabel": "Malayalam translation"
 }

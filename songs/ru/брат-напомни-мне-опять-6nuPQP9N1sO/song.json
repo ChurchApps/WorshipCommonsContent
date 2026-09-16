@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1874,
   "language": "Russian",
-  "themes": "Providence,Praise",
-  "key": "F",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Послание Ефесянам5:2",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "wonderful-words-of-life",
+  "parent": {
+    "id": "2_wl1TRlmko"
+  },
   "relationLabel": "Russian translation"
 }

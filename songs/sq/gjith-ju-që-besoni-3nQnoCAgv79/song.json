@@ -2,13 +2,8 @@
   "id": "3nQnoCAgv79",
   "title": "Gjith’ Ju Që Besoni",
   "writer": "John F. Wade · tr. Jan Foss",
-  "writerRef": "john-f-wade",
   "year": 1743,
   "language": "Albanian",
-  "themes": "Christmas,Adoration",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "Lluka 2:15-16",
   "license": "PD",
   "rights": {
@@ -72,6 +67,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "adeste-fideles",
+  "parent": {
+    "id": "yGo9po6GLcI"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

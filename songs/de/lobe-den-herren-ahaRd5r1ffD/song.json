@@ -2,14 +2,8 @@
   "id": "ahaRd5r1ffD",
   "title": "Lobe den Herren",
   "writer": "Joachim Neander",
-  "writerRef": "joachim-neander",
   "year": 1680,
   "language": "German",
-  "themes": "Praise,Trust",
-  "key": "G",
-  "bpm": 100,
-  "timeSignature": "3/4",
-  "meter": "14.14.4.7.8",
   "scripture": "Psalm 150,1",
   "license": "PD",
   "rights": {
@@ -58,6 +52,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "praise-to-the-lord-the-almighty",
+  "parent": {
+    "id": "ThsV2EUH5G6"
+  },
   "relationLabel": "German original · Joachim Neander, 1680"
 }

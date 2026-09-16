@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2017,
   "language": "Malayalam",
-  "themes": "Trust,Assurance",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "ആവർത്തനം 33:27",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "leaning-on-the-everlasting-arms",
+  "parent": {
+    "id": "MRBzXWTgxx2"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
 }

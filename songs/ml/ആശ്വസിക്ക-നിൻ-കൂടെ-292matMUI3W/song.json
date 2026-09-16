@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2019,
   "language": "Malayalam",
-  "themes": "Comfort,Trust",
-  "key": "F",
-  "bpm": 63,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 46:10",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "be-still-my-soul",
+  "parent": {
+    "id": "4WROo6Jwv2f"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2019"
 }

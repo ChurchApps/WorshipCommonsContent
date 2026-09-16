@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Christmas,Praise",
-  "key": "Bb",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "ലൂക്കോസ് 2:13–14",
   "license": "PD",
   "rights": {
@@ -83,6 +79,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "angels-from-the-realms-of-glory",
+  "parent": {
+    "id": "fmyzdjIOJWK"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

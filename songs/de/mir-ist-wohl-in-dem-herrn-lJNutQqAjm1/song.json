@@ -5,10 +5,6 @@
   "writerRef": "horatio-g-spafford",
   "year": 1880,
   "language": "German",
-  "themes": "Comfort,Assurance",
-  "key": "C",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "Psalmen 146:1",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "it-is-well-with-my-soul",
+  "parent": {
+    "id": "_UFqNA48X8n"
+  },
   "relationLabel": "German translation · tr. Theodor Kübler, 1880"
 }

@@ -2,13 +2,8 @@
   "id": "HNnL3GMuJd3",
   "title": "Petite Ville, Bethléem",
   "writer": "Phillips Brooks",
-  "writerRef": "phillips-brooks",
   "year": 1867,
   "language": "French",
-  "themes": "Christmas,Hope",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Michée 5.1",
   "license": "PD",
   "rights": {
@@ -47,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "o-little-town-of-bethlehem",
+  "parent": {
+    "id": "a19OdmA8uPt"
+  },
   "relationLabel": "French translation"
 }

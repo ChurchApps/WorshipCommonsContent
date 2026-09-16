@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Cross,Communion",
-  "key": "F",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "ഹബക്കൂക്‍ 2:20",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "let-all-mortal-flesh-keep-silence",
+  "parent": {
+    "id": "-KE_obvPCxy"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

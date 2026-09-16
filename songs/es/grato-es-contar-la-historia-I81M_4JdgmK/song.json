@@ -2,13 +2,8 @@
   "id": "I81M_4JdgmK",
   "title": "Grato Es Contar la Historia",
   "writer": "Katherine Hankey",
-  "writerRef": "katherine-hankey",
   "year": 1866,
   "language": "Spanish",
-  "themes": "Mission,Praise",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Salmos 66:16",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "i-love-to-tell-the-story",
+  "parent": {
+    "id": "FfRhpTJHhew"
+  },
   "relationLabel": "Spanish translation"
 }

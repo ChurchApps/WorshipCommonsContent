@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1847,
   "language": "Malayalam",
-  "themes": "Comfort,Trust",
-  "key": "Eb",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "ലൂക്കൊസ് 24:29",
   "license": "PD",
   "rights": {
@@ -77,6 +73,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "abide-with-me",
+  "parent": {
+    "id": "Ft0nnpxQbbt"
+  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
 }

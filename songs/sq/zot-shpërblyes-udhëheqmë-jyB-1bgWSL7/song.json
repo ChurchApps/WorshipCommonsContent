@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1745,
   "language": "Albanian",
-  "themes": "Providence,Trust",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Eksodi 13:21",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "guide-me-o-thou-great-jehovah",
+  "parent": {
+    "id": "QnYa8cJdeLc"
+  },
   "relationLabel": "Albanian original · William Williams"
 }

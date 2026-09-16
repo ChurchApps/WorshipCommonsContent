@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2014,
   "language": "Malayalam",
-  "themes": "Grace,Comfort",
-  "key": "E",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "1 തിമൊഥെയൊസ് 2:5–6",
   "license": "PD",
   "rights": {
@@ -73,6 +69,8 @@
       "Verse 8"
     ]
   },
-  "workRef": "alas-and-did-my-savior-bleed",
+  "parent": {
+    "id": "4m8Ep0PePd0"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
 }

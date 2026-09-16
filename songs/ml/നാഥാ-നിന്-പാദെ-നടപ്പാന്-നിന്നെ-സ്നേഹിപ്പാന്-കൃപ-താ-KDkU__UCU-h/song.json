@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2010,
   "language": "Malayalam",
-  "themes": "Mission",
-  "key": "F",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "മീഖ, 6:8",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "o-master-let-me-walk-with-thee",
+  "parent": {
+    "id": "QZ5y5YTvCc7"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2010"
 }

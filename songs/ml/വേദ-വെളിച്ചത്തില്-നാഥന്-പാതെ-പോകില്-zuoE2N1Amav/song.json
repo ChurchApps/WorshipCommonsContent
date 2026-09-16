@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Trust,Assurance",
-  "key": "F",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 84:11–12",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "trust-and-obey",
+  "parent": {
+    "id": "tIzXwesquh0"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

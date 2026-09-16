@@ -5,10 +5,6 @@
   "writerRef": "cecil-frances-humphreys-alexander",
   "year": 1848,
   "language": "Albanian",
-  "themes": "Creation,Praise",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Zanafilla 1:31",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "all-things-bright-and-beautiful",
+  "parent": {
+    "id": "4LdUJ6NJqdP"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

@@ -2,14 +2,8 @@
   "id": "kYzJQ4dmij7",
   "title": "Nun Danket Alle Gott",
   "writer": "Martin Rinkart",
-  "writerRef": "martin-rinkart",
   "year": 1636,
   "language": "German",
-  "themes": "Praise,Providence",
-  "key": "F",
-  "bpm": 88,
-  "timeSignature": "4/4",
-  "meter": "6.7.6.7.6.6.6.6",
   "scripture": "2 Korinther 2,14",
   "license": "PD",
   "rights": {
@@ -48,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "now-thank-we-all-our-god",
+  "parent": {
+    "id": "O56iN1F_4rL"
+  },
   "relationLabel": "German translation"
 }

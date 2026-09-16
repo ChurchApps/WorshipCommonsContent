@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1878,
   "language": "Malayalam",
-  "themes": "Grace,Confession",
-  "key": "A",
-  "bpm": 104,
-  "timeSignature": "4/4",
   "scripture": "വെളിപ്പാടു 7:14",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "are-you-washed-in-the-blood",
+  "parent": {
+    "id": "OqDGwwFTMc3"
+  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
 }

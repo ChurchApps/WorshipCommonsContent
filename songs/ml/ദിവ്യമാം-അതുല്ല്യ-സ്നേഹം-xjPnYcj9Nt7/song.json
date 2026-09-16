@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2017,
   "language": "Malayalam",
-  "themes": "Adoration,Grace",
-  "key": "Bb",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "1 യോഹന്നാൻ 4:16",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "love-divine-all-loves-excelling",
+  "parent": {
+    "id": "yijDXfhY0Ou"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
 }

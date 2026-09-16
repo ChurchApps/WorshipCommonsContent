@@ -5,10 +5,6 @@
   "writerRef": "fanny-crosby",
   "year": 1875,
   "language": "Spanish",
-  "themes": "Confession,Trust",
-  "key": "G",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "Hebreos 10:22",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "i-am-thine-o-lord",
+  "parent": {
+    "id": "mxPKhsn413w"
+  },
   "relationLabel": "Spanish translation"
 }

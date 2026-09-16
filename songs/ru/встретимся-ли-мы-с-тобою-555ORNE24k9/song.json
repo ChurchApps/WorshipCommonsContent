@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1864,
   "language": "Russian",
-  "themes": "Hope,Comfort",
-  "key": "D",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Откровения 22:1",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "shall-we-gather-at-the-river",
+  "parent": {
+    "id": "_9Rr3_G8q33"
+  },
   "relationLabel": "Russian translation"
 }

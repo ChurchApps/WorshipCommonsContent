@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2014,
   "language": "Malayalam",
-  "themes": "Trust,Assurance",
-  "key": "C",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 46:1",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "ein-feste-burg-ist-unser-gott",
+  "parent": {
+    "id": "hL6IUnDadWy"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2014"
 }

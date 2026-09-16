@@ -2,13 +2,8 @@
   "id": "6CUAn8udm5P",
   "title": "നിൻ വിശ്വാ-സത്തിന്നായ്",
   "writer": "ജോൺ റിപ്പൺ · tr. സൈമണ്‍ സഖറിയ",
-  "writerRef": null,
   "year": 2016,
   "language": "Malayalam",
-  "themes": "Assurance,Trust",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "2/2",
   "scripture": "എബ്രായർ 13:5",
   "license": "PD",
   "rights": {
@@ -68,6 +63,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "how-firm-a-foundation",
+  "parent": {
+    "id": "WE26JDTfHyQ"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2016"
 }

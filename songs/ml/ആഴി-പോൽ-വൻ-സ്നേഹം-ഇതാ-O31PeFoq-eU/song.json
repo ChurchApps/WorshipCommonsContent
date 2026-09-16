@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2017,
   "language": "Malayalam",
-  "themes": "Grace,Adoration",
-  "key": "F",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "യോഹന്നാൻ 3:16",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "here-is-love",
+  "parent": {
+    "id": "uH9e0wPtYRC"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
 }

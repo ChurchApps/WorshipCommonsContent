@@ -2,13 +2,8 @@
   "id": "znT9qzI4lst",
   "title": "Niño Santo, Sufres Tanto",
   "writer": "Anónimo",
-  "writerRef": null,
   "year": 1921,
   "language": "Spanish",
-  "themes": "Christmas,Adoration",
-  "key": "F",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Lucas 2:7",
   "license": "PD",
   "rights": {
@@ -42,6 +37,8 @@
       "Verse 2"
     ]
   },
-  "workRef": "infant-holy-infant-lowly",
+  "parent": {
+    "id": "0odUo5MEeuU"
+  },
   "relationLabel": "Spanish translation"
 }

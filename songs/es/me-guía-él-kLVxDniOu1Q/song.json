@@ -2,13 +2,8 @@
   "id": "kLVxDniOu1Q",
   "title": "Me Guía Él",
   "writer": "Joseph Gilmore",
-  "writerRef": "joseph-gilmore",
   "year": 1862,
   "language": "Spanish",
-  "themes": "Trust,Providence",
-  "key": "D",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Salmo 23:1-2",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "he-leadeth-me",
+  "parent": {
+    "id": "GewWFBLDxRd"
+  },
   "relationLabel": "Spanish translation"
 }

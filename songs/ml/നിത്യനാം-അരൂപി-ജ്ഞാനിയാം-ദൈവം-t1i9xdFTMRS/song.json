@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2011,
   "language": "Malayalam",
-  "themes": "Adoration,Praise",
-  "key": "G",
-  "bpm": 108,
-  "timeSignature": "3/4",
   "scripture": "തിമോഥെയോസ് 1:17",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "immortal-invisible-god-only-wise",
+  "parent": {
+    "id": "buVDVg2gJ-H"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
 }

@@ -5,10 +5,6 @@
   "writerRef": "sabine-baring-gould",
   "year": 1878,
   "language": "Spanish",
-  "themes": "Mission,Trust",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "2 Timoteo 2:3",
   "license": "PD",
   "rights": {
@@ -34,6 +30,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "onward-christian-soldiers",
+  "parent": {
+    "id": "K864gyKDZh3"
+  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera"
 }

@@ -5,10 +5,6 @@
   "writerRef": "fanny-crosby",
   "year": 1869,
   "language": "Spanish",
-  "themes": "Grace,Trust",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Juan 10:14",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "near-the-cross",
+  "parent": {
+    "id": "ulOZk2Z-mRz"
+  },
   "relationLabel": "Spanish translation"
 }

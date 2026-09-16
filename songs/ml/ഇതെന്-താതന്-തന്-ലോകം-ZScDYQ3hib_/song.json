@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Creation,Trust",
-  "key": "Eb",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 50:12",
   "license": "PD",
   "rights": {
@@ -93,6 +89,8 @@
       "Verse 11"
     ]
   },
-  "workRef": "this-is-my-fathers-world",
+  "parent": {
+    "id": "w-xC_81LKUW"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

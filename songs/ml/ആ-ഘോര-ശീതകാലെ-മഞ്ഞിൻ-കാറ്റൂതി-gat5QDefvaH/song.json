@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Christmas,Advent,Grace",
-  "key": "F",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "ലൂക്കോസ് 2:7–8",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "in-the-bleak-midwinter",
+  "parent": {
+    "id": "9-22IDluvjc"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

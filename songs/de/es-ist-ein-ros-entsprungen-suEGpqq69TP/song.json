@@ -5,10 +5,6 @@
   "writerRef": "michael-praetorius",
   "year": 1894,
   "language": "German",
-  "themes": "Christmas,Hope",
-  "key": "F",
-  "bpm": 69,
-  "timeSignature": "4/4",
   "scripture": "Jesaja 11,10",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "lo-how-a-rose-eer-blooming",
+  "parent": {
+    "id": "8Q9yxDtlld_"
+  },
   "relationLabel": "German original · Michael Praetorius"
 }

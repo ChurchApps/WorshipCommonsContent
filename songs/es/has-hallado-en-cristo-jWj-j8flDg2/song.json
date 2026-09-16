@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1878,
   "language": "Spanish",
-  "themes": "Grace,Confession",
-  "key": "A",
-  "bpm": 104,
-  "timeSignature": "4/4",
   "scripture": "1 Juan 1:7",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "are-you-washed-in-the-blood",
+  "parent": {
+    "id": "OqDGwwFTMc3"
+  },
   "relationLabel": "Spanish translation"
 }

@@ -7,36 +7,39 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  idFor, splitChordpro, songDirs, readJson, readWorks, writeJson,
-  readSong, readHarvested, lyricsPath, resolveShared, readManifest
+  idFor, splitChordpro, songDirs, readJson, writeJson,
+  readSong, readHarvested, lyricsPath, resolveShared, readManifest, parentOf
 } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const rows = [];
 const writerSlugs = new Set();
-const works = readWorks(ROOT);
-const workSlugsUsed = new Set();
+let translations = 0;
 
 for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const song = readSong(dir);
   if (!song.id) throw new Error(`${dir}: song.json has no id — stamp one with idFor(title) = ${idFor(song.title)}`);
-  const work = song.workRef ? works.get(song.workRef) : null;
-  if (song.workRef && !work) throw new Error(`${dir}: workRef "${song.workRef}" has no works/ folder`);
-  if (work) workSlugsUsed.add(work.folder);
+  const parent = parentOf(ROOT, song);
+  if (song.parent?.id && !parent) throw new Error(`${dir}: parent ${song.parent.id} is not in songs/`);
+  if (parent) translations++;
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const rootRel = ["songs", langDir, folder].join("/");
   const harvested = readHarvested(dir);
-  const abc = resolveShared(rootRel, dir, work, "sources/tune.abc");
-  const sketchMidi = resolveShared(rootRel, dir, work, "output/composition/score.mid", { inherit: false });
+  // own file first, then the parent's for a translation (song.json noInherit opts out per path)
+  const shared = (rel, opts) => resolveShared(rootRel, dir, parent, rel, { noInherit: song.noInherit ?? [], ...opts });
+  const abc = shared("sources/tune.abc");
   // Stem sketch is the recording-timed MIDI. ABC hymns keep the harvested tune.mid.
-  const midi = (!abc.path && sketchMidi.path) ? sketchMidi : resolveShared(rootRel, dir, work, "sources/tune.mid");
-  const art = resolveShared(rootRel, dir, work, "sources/cover.webp");
-  const timing = resolveShared(rootRel, dir, work, "sources/timing.json", { inherit: false });
-  const scoreSource = resolveShared(rootRel, dir, work, "sources/score.musicxml");
-  const scoreBuilt = resolveShared(rootRel, dir, work, "output/composition/score.musicxml");
+  const sketchMidi = shared("output/composition/score.mid");
+  const midi = (!abc.path && sketchMidi.path) ? sketchMidi : shared("sources/tune.mid");
+  const art = shared("sources/cover.webp");
+  const timing = shared("sources/timing.json", { inherit: false });
+  const scoreSource = shared("sources/score.musicxml");
+  const scoreBuilt = shared("output/composition/score.musicxml");
   const sheetName = song.uploads?.sheetPdf ?? "sheetPdf.pdf";
-  const sheet = resolveShared(rootRel, dir, work, `sources/${sheetName}`, { inherit: false });
+  const sheet = shared(`sources/${sheetName}`, { inherit: false });
+  // the recording and everything built from it belong to whoever holds the master (the parent, for a translation)
+  const audio = shared("output/audio");
   const video = harvested.video ?? song.video;
 
   const row = {
@@ -57,8 +60,8 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     licenseUrl: song.licenseUrl ?? null,
     ccli: song.ccli ?? null,
     attribution: song.attribution?.text ?? null,
-    // Confidence is computed, never stored. A score inherited from the work counts:
-    // the tune is scored even if this member's own words are not yet underlaid.
+    // Confidence is computed, never stored. A score inherited from the parent counts:
+    // the tune is scored even if this translation's own words are not yet underlaid.
     // A score in sources/ was given to us or proofread; a built one is only as good
     // as what it came from — ABC is trusted, a MIDI transcription is not.
     confidence: scoreSource.path ? "proofread-score"
@@ -68,7 +71,7 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     churchCount: harvested.churchCount ?? song.churchCount ?? 0,
     hymnalCount: harvested.hymnalCount ?? song.hymnalCount ?? 0,
     chordPro: body,
-    parentSongId: song.parent ? song.parent.id : (work && work.canonicalSongId !== song.id ? work.canonicalSongId : null),
+    parentSongId: parent ? parent.id : null,
     relationLabel: song.relationLabel ?? null,
     status: song.status ?? "approved",
     submittedBy: song.submittedBy ?? null,
@@ -95,14 +98,13 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
       row[bytesCol] = sheet.bytes;
       continue;
     }
-    // the stems pack is built, not uploaded: whatever pack/build.py left behind
+    // the stems pack is built, not uploaded: whatever pack/build.py left behind (in the parent, for a translation)
     if (field === "stemsZip") {
-      const audio = path.join(dir, "output", "audio");
-      const zip = fs.existsSync(audio) ? fs.readdirSync(audio).find(f => f.endsWith(".zip")) : null;
-      row[urlCol] = zip ? `${rootRel}/output/audio/${zip}` : null;
-      row[bytesCol] = zip ? fs.statSync(path.join(audio, zip)).size : null;
+      const zip = audio.path ? fs.readdirSync(audio.path).find(f => f.endsWith(".zip")) : null;
+      row[urlCol] = zip ? `${audio.url}/${zip}` : null;
+      row[bytesCol] = zip ? fs.statSync(path.join(audio.path, zip)).size : null;
       // built beside the zip by pack/build.py: 30 s site preview, vocal-free karaoke bed
-      const sidecar = suffix => { const f = fs.existsSync(audio) ? fs.readdirSync(audio).find(x => x.endsWith(suffix)) : null; return f ? `${rootRel}/output/audio/${f}` : null; };
+      const sidecar = suffix => { const f = audio.path ? fs.readdirSync(audio.path).find(x => x.endsWith(suffix)) : null; return f ? `${audio.url}/${f}` : null; };
       row.previewUrl = sidecar("preview.m4a");
       row.instrumentalUrl = sidecar("instrumental.m4a");
       continue;
@@ -115,10 +117,10 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   }
 
   // prebuilt download packs: output/composition.zip (generate.mjs) and output/audio.zip (pack/build.py)
-  for (const [col, rel] of [["compositionZip", "output/composition.zip"], ["audioZip", "output/audio.zip"]]) {
-    const f = path.join(dir, rel);
-    row[`${col}Url`] = fs.existsSync(f) ? `${rootRel}/${rel}` : null;
-    row[`${col}Bytes`] = fs.existsSync(f) ? fs.statSync(f).size : null;
+  for (const [col, rel, opts] of [["compositionZip", "output/composition.zip", { inherit: false }], ["audioZip", "output/audio.zip"]]) {
+    const f = shared(rel, opts);
+    row[`${col}Url`] = f.url;
+    row[`${col}Bytes`] = f.bytes;
   }
 
   // granted-as-is extras (sources/extra/*): every manifest row that still exists on disk
@@ -138,4 +140,4 @@ const dupes = rows.map(r => r.id).filter((id, i, a) => a.indexOf(id) !== i);
 if (dupes.length) throw new Error(`Duplicate song ids: ${[...new Set(dupes)].join(", ")}`);
 
 writeJson(path.join(ROOT, "catalog.json"), { rows });
-console.log(`catalog.json: ${rows.length} songs, ${writerSlugs.size} writer portraits, ${workSlugsUsed.size} works`);
+console.log(`catalog.json: ${rows.length} songs (${translations} translations), ${writerSlugs.size} writer portraits`);

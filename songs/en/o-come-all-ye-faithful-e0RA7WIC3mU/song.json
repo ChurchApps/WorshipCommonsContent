@@ -2,13 +2,8 @@
   "id": "e0RA7WIC3mU",
   "title": "O Come, All Ye Faithful",
   "writer": "John F. Wade · tr. Frederick Oakeley",
-  "writerRef": "john-f-wade",
   "year": 1841,
   "language": "English",
-  "themes": "Christmas,Adoration",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "Luke 2:15",
   "license": "PD",
   "rights": {
@@ -49,6 +44,8 @@
       "Chorus"
     ]
   },
-  "workRef": "adeste-fideles",
+  "parent": {
+    "id": "yGo9po6GLcI"
+  },
   "relationLabel": "English translation"
 }

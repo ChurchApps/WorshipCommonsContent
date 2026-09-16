@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1851,
   "language": "Spanish",
-  "themes": "Easter,Adoration",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "Apocalipsis 19:12",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "crown-him-with-many-crowns",
+  "parent": {
+    "id": "zfrKD0J-OPJ"
+  },
   "relationLabel": "Spanish translation"
 }

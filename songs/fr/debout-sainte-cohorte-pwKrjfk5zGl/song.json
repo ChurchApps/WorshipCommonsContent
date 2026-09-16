@@ -5,10 +5,6 @@
   "writerRef": "ruben-saillens",
   "year": 1858,
   "language": "French",
-  "themes": "Mission,Trust",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Éphésiens 6.12",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "stand-up-stand-up-for-jesus",
+  "parent": {
+    "id": "k3nQG0DqnD8"
+  },
   "relationLabel": "French translation · tr. Ruben Saillens"
 }

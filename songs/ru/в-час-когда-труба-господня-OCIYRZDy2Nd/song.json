@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1893,
   "language": "Russian",
-  "themes": "Hope,Assurance",
-  "key": "D",
-  "bpm": 108,
-  "timeSignature": "4/4",
   "scripture": "Откровения 20:12",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "when-the-roll-is-called-up-yonder",
+  "parent": {
+    "id": "FvJ1-pBDj2R"
+  },
   "relationLabel": "Russian translation"
 }

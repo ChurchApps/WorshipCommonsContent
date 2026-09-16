@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Cross,Grace",
-  "key": "Db",
-  "bpm": 90,
-  "timeSignature": "3/4",
   "scripture": "റോമർ 8:35",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "the-love-of-god",
+  "parent": {
+    "id": "hICOjcxifEW"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

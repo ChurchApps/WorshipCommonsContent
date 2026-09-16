@@ -2,13 +2,8 @@
   "id": "ydmq6gN4gF8",
   "title": "Bon Sauveur, Berger Fidèle",
   "writer": "Dorothy A. Thrupp",
-  "writerRef": "dorothy-thrupp",
   "year": 1836,
   "language": "French",
-  "themes": "Trust,Providence",
-  "key": "D",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Jean 10:11",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "savior-like-a-shepherd-lead-us",
+  "parent": {
+    "id": "Uo8aHwRz1ez"
+  },
   "relationLabel": "French translation"
 }

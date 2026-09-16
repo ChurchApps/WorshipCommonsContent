@@ -2,13 +2,8 @@
   "id": "3M7_3zkci5d",
   "title": "Inmensa y sin Igual Piedad",
   "writer": "Isaac Watts · tr. Anonymous",
-  "writerRef": "isaac-watts",
   "year": null,
   "language": "Spanish",
-  "themes": "Grace,Comfort",
-  "key": "E",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Mateo 27:45-50",
   "license": "PD",
   "rights": {
@@ -49,6 +44,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "alas-and-did-my-savior-bleed",
+  "parent": {
+    "id": "4m8Ep0PePd0"
+  },
   "relationLabel": "Spanish translation · tr. Anonymous"
 }

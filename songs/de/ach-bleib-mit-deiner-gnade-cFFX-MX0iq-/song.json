@@ -2,13 +2,8 @@
   "id": "cFFX-MX0iq-",
   "title": "Ach Bleib mit Deiner Gnade",
   "writer": "Joshua Stegmann",
-  "writerRef": null,
   "year": 1628,
   "language": "German",
-  "themes": "Sending,Grace,Salvation",
-  "key": "Eb",
-  "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "Johannes 15,10",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "abide-o-dearest-jesus",
+  "parent": {
+    "id": "HEMmRmJr_7F"
+  },
   "relationLabel": "German original · Joshua Stegmann, 1628"
 }

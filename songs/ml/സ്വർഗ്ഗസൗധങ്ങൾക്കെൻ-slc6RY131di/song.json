@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1707,
   "language": "Malayalam",
-  "themes": "Hope,Assurance",
-  "key": "C",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "യെശയ്യാവ്‌ 25:8",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "when-i-can-read-my-title-clear",
+  "parent": {
+    "id": "sTPMcrj42wN"
+  },
   "relationLabel": "Malayalam translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1877,
   "language": "Malayalam",
-  "themes": "Communion,Providence",
-  "key": "D",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "യോഹന്നാന്‍ 6:35",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "break-thou-the-bread-of-life",
+  "parent": {
+    "id": "uGl0K262Hhd"
+  },
   "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Easter,Comfort",
-  "key": "C",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 27:28-29",
   "license": "PD",
   "rights": {
@@ -83,6 +79,8 @@
       "Verse 10"
     ]
   },
-  "workRef": "o-sacred-head-now-wounded",
+  "parent": {
+    "id": "aqNc75nXe-w"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

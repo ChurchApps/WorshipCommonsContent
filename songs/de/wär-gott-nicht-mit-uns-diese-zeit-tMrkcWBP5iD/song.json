@@ -2,14 +2,8 @@
   "id": "tMrkcWBP5iD",
   "title": "Wär’ Gott Nicht mit Uns Diese Zeit",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1524,
   "language": "German",
-  "themes": "Faith,Comfort,Assurance",
-  "key": "A",
-  "bpm": 120,
-  "timeSignature": "4/4",
-  "meter": "8.7.8.7.8.8.7",
   "scripture": "124,2-3",
   "license": "PD",
   "rights": {
@@ -48,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "if-god-had-not-been-on-our-side",
+  "parent": {
+    "id": "JlbYSn1uxEs"
+  },
   "relationLabel": "German original · Martin Luther, 1524"
 }

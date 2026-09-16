@@ -2,13 +2,8 @@
   "id": "bz3YL_-o8Ur",
   "title": "Wer Nur den Lieben Gott Lässt Walten",
   "writer": "Georg Neumark",
-  "writerRef": "georg-neumark",
   "year": 1641,
   "language": "German",
-  "themes": "Trust,Providence",
-  "key": "Dm",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "meter": "8.8.8.8.8",
   "scripture": "Psalm 48,15",
   "license": "PD",
@@ -53,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "if-thou-but-suffer-god-to-guide-thee",
+  "parent": {
+    "id": "6Uk704mgwbB"
+  },
   "relationLabel": "German original · Georg Neumark, 1641"
 }

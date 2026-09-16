@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1702,
   "language": "Malayalam",
-  "themes": "Praise,Assurance",
-  "key": "Bb",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "2 ദിനവൃ‍ത്താന്തം 15:12-14",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "o-happy-day",
+  "parent": {
+    "id": "rkI8Iz1TdSD"
+  },
   "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
 }

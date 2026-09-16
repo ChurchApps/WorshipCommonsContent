@@ -6,9 +6,6 @@
   "year": 1862,
   "language": "German",
   "themes": "Assurance,Trust",
-  "key": "C",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Lukas 18:16",
   "license": "PD",
   "rights": {
@@ -42,6 +39,8 @@
       "Verse 2"
     ]
   },
-  "workRef": "jesus-loves-me",
+  "parent": {
+    "id": "GZ9C6_0wlwv"
+  },
   "relationLabel": "German original"
 }

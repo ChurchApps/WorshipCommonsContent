@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1895,
   "language": "Spanish",
-  "themes": "Confession,Trust",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Salmos 119:18",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "open-my-eyes-that-i-may-see",
+  "parent": {
+    "id": "DEsNtozwo9I"
+  },
   "relationLabel": "Spanish translation"
 }

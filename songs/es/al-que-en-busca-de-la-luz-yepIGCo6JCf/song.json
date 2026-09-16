@@ -2,13 +2,8 @@
   "id": "yepIGCo6JCf",
   "title": "Al Que en Busca de la Luz",
   "writer": "Erdmann Neumeister · tr. Emma Bevan y Thomas Westrup",
-  "writerRef": "erdmann-neumeister",
   "year": 1718,
   "language": "Spanish",
-  "themes": "Grace,Confession",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Lucas 15:6",
   "license": "PD",
   "rights": {
@@ -57,6 +52,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "christ-receiveth-sinful-men",
+  "parent": {
+    "id": "9uB2V6YbG56"
+  },
   "relationLabel": "Spanish translation · tr. Emma Bevan y Thomas Westrup"
 }

@@ -2,13 +2,8 @@
   "id": "tqlnL4HSNxC",
   "title": "Ó Érthetetlen Kegyelem",
   "writer": "John Newton",
-  "writerRef": "john-newton",
   "year": 1779,
   "language": "Hungarian",
-  "themes": "Grace,Assurance",
-  "key": "G",
-  "bpm": 84,
-  "timeSignature": "3/4",
   "scripture": "János 9:25",
   "license": "PD",
   "rights": {
@@ -62,6 +57,8 @@
       "Verse 6"
     ]
   },
-  "workRef": "amazing-grace",
+  "parent": {
+    "id": "YxPfAFYWOaG"
+  },
   "relationLabel": "Hungarian translation"
 }

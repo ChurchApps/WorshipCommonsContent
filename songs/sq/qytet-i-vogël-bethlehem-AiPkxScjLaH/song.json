@@ -2,13 +2,8 @@
   "id": "AiPkxScjLaH",
   "title": "Qytet i Vogël, Bethlehem",
   "writer": "Phillips Brooks · tr. Jan Foss",
-  "writerRef": "phillips-brooks",
   "year": 1867,
   "language": "Albanian",
-  "themes": "Christmas,Hope",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Mikea 5:2",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "o-little-town-of-bethlehem",
+  "parent": {
+    "id": "a19OdmA8uPt"
+  },
   "relationLabel": "Albanian translation · tr. Jan Foss"
 }

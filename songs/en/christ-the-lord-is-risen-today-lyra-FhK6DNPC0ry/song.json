@@ -2,13 +2,11 @@
   "id": "FhK6DNPC0ry",
   "title": "Christ The Lord Is Risen Today (Lyra)",
   "writer": "Charles Wesley",
-  "writerRef": "charles-wesley",
   "year": 1739,
   "language": "English",
   "themes": "Cross",
   "key": "F",
   "bpm": 120,
-  "timeSignature": "4/4",
   "scripture": "Mt 28:5-6",
   "license": "PD",
   "rights": {
@@ -64,5 +62,7 @@
       "Verse 5"
     ]
   },
-  "workRef": "christ-the-lord-is-risen-today"
+  "parent": {
+    "id": "VOCnLtgeaBd"
+  }
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1561,
   "language": "Malayalam",
-  "themes": "Praise,Adoration",
-  "key": "G",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 100:1–2",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "all-people-that-on-earth-do-dwell",
+  "parent": {
+    "id": "XiGH8cIi8Gc"
+  },
   "relationLabel": "Malayalam translation"
 }

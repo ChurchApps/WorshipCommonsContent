@@ -2,13 +2,8 @@
   "id": "rWLjZEYBsn7",
   "title": "Mon Dieu, Plus Près de Toi",
   "writer": "Sarah F Adams",
-  "writerRef": "sarah-adams",
   "year": 1833,
   "language": "French",
-  "themes": "Trust,Comfort",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "6/4",
   "scripture": "Genèse 28.12",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "nearer-my-god-to-thee",
+  "parent": {
+    "id": "ggzFvLEr9mK"
+  },
   "relationLabel": "French translation"
 }

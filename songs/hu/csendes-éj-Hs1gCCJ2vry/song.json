@@ -5,10 +5,6 @@
   "writerRef": "josef-mohr",
   "year": 1816,
   "language": "Hungarian",
-  "themes": "Christmas,Comfort",
-  "key": "Bb",
-  "bpm": 60,
-  "timeSignature": "3/4",
   "scripture": "Lukács 2:8-9",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "stille-nacht",
+  "parent": {
+    "id": "CmGjWnGTSVW"
+  },
   "relationLabel": "Hungarian translation"
 }

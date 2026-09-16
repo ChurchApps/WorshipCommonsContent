@@ -2,13 +2,8 @@
   "id": "JbvXFQ9SKPH",
   "title": "Cristo, Eres Justo Rey",
   "writer": "Anónimo",
-  "writerRef": null,
   "year": 1873,
   "language": "Spanish",
-  "themes": "Adoration",
-  "key": "Eb",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Cantares de Salomón 6:10",
   "license": "PD",
   "rights": {
@@ -47,6 +42,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "fairest-lord-jesus",
+  "parent": {
+    "id": "efSPV6ob7E5"
+  },
   "relationLabel": "Spanish translation"
 }

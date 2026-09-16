@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Trust,Confession",
-  "key": "D",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "2 കൊരിന്ത്യര്‍ 5:7",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "my-faith-looks-up-to-thee",
+  "parent": {
+    "id": "jY7zZ5DB4YC"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

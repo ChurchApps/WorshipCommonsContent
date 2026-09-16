@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2018,
   "language": "Malayalam",
-  "themes": "Trust,Praise",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "1 ദിനവൃത്താന്തം 16:10",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "more-about-jesus",
+  "parent": {
+    "id": "HXV9tBaJvp3"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2018"
 }

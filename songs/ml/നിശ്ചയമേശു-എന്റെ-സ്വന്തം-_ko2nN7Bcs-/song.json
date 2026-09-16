@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1873,
   "language": "Malayalam",
-  "themes": "Assurance,Praise",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "9/8",
   "scripture": "എബ്രായര്‍ 10:22",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "blessed-assurance",
+  "parent": {
+    "id": "0YyJoAE9Ge4"
+  },
   "relationLabel": "Malayalam translation"
 }

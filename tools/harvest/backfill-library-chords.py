@@ -222,24 +222,18 @@ def split_chordpro(text: str):
     return "\n".join(lines[:i]).rstrip("\n"), "\n".join(lines[i:])
 
 
-def find_abc(song_dir: Path, work_ref: str | None, works: dict[str, Path]) -> Path | None:
+def find_abc(song_dir: Path, parent_id: str | None) -> Path | None:
+    """The song's own ABC, else its parent's (a translation shares the tune)."""
     own = song_dir / "sources" / "tune.abc"
     if own.exists():
         return own
-    if work_ref and work_ref in works:
-        w = works[work_ref] / "sources" / "tune.abc"
-        if w.exists():
-            return w
+    if parent_id:
+        for p in (ROOT / "songs").glob(f"*/*-{parent_id}/sources/tune.abc"):
+            return p
     return None
 
 
 def main():
-    works = {}
-    wr = ROOT / "works"
-    if wr.exists():
-        for d in wr.iterdir():
-            if d.is_dir():
-                works[d.name] = d
     stats = {"done": 0, "has_chords": 0, "no_abc": 0, "skip": 0, "fail": 0}
     fails = []
     songs = sorted((ROOT / "songs").rglob("lyrics.chordpro"))
@@ -256,7 +250,7 @@ def main():
         if CHORD.search(body):
             stats["has_chords"] += 1
             continue
-        abc = find_abc(d, song.get("workRef"), works)
+        abc = find_abc(d, (song.get("parent") or {}).get("id"))
         if not abc:
             stats["no_abc"] += 1
             continue

@@ -2,14 +2,8 @@
   "id": "WJXQDkS2kAr",
   "title": "Vom Himmel hoch da komm ich her",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1531,
   "language": "German",
-  "themes": "Assurance,Cross",
-  "key": "D",
-  "bpm": 100,
-  "timeSignature": "4/4",
-  "meter": "8.8.8.8",
   "scripture": "Lukas 2,10-11",
   "license": "PD",
   "rights": {
@@ -108,6 +102,8 @@
       "Verse 15"
     ]
   },
-  "workRef": "from-heaven-above-to-earth-i-come",
+  "parent": {
+    "id": "3QZGIUc6NAE"
+  },
   "relationLabel": "German original · Martin Luther, 1531"
 }

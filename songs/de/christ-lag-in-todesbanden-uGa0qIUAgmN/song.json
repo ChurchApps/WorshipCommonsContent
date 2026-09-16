@@ -2,14 +2,8 @@
   "id": "uGa0qIUAgmN",
   "title": "Christ Lag in Todesbanden",
   "writer": "Martin Luther",
-  "writerRef": "martin-luther",
   "year": 1524,
   "language": "German",
-  "themes": "Cross,Communion",
-  "key": "C",
-  "bpm": 110,
-  "timeSignature": "4/4",
-  "meter": "8.7.8.7.7.8.7.4",
   "scripture": "1 Korinther 15,55",
   "license": "PD",
   "rights": {
@@ -58,6 +52,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "christ-jesus-lay-in-deaths-strong-bands",
+  "parent": {
+    "id": "vZqeaPMAlfa"
+  },
   "relationLabel": "German original · Martin Luther, 1524"
 }

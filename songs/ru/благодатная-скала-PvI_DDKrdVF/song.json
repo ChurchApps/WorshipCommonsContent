@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1776,
   "language": "Russian",
-  "themes": "Grace,Trust",
-  "key": "Bb",
-  "bpm": 76,
-  "timeSignature": "6/4",
   "scripture": "Исайя 26:4",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "rock-of-ages",
+  "parent": {
+    "id": "b13IrZfZXWm"
+  },
   "relationLabel": "Russian translation"
 }

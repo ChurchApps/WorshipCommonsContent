@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1833,
   "language": "Malayalam",
-  "themes": "Trust,Comfort",
-  "key": "G",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 119:105",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "lead-kindly-light",
+  "parent": {
+    "id": "c2laLIwpFSI"
+  },
   "relationLabel": "Malayalam translation"
 }

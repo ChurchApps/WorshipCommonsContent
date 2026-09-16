@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1873,
   "language": "Malayalam",
-  "themes": "Mission",
-  "key": "Bb",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "യൂദാ: 23",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "rescue-the-perishing",
+  "parent": {
+    "id": "XR1cmwM8A94"
+  },
   "relationLabel": "Malayalam translation"
 }

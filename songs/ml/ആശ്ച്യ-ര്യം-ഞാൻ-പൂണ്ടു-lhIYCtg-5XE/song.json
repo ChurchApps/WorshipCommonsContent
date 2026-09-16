@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2016,
   "language": "Malayalam",
-  "themes": "Grace,Adoration",
-  "key": "G",
-  "bpm": 80,
-  "timeSignature": "4/4",
   "scripture": "ലൂക്കോസ് 22:44",
   "license": "PD",
   "rights": {
@@ -63,6 +59,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "i-stand-amazed-in-the-presence",
+  "parent": {
+    "id": "j_MZHyq0e2w"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2016"
 }

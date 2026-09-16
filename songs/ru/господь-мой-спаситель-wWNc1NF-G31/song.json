@@ -2,13 +2,8 @@
   "id": "wWNc1NF-G31",
   "title": "Господь, мой Спаситель",
   "writer": "Джеймс Николсон",
-  "writerRef": null,
   "year": 1872,
   "language": "Russian",
-  "themes": "Confession,Grace",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "3/4",
   "scripture": "Псалтирь 51:7",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "whiter-than-snow",
+  "parent": {
+    "id": "bVxrQdGHHXy"
+  },
   "relationLabel": "Russian translation"
 }

@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2013,
   "language": "Malayalam",
-  "themes": "Grace,Comfort",
-  "key": "Bb",
-  "bpm": 69,
-  "timeSignature": "6/4",
   "scripture": "ഗലാത്യർ 6:14",
   "license": "PD",
   "rights": {
@@ -58,6 +54,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "the-old-rugged-cross",
+  "parent": {
+    "id": "sdbr4rHG9yR"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2013"
 }

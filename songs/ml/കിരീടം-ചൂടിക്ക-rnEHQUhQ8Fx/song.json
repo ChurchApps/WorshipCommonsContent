@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2015,
   "language": "Malayalam",
-  "themes": "Easter,Adoration",
-  "key": "D",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "വെളിപ്പാട് 19:12",
   "license": "PD",
   "rights": {
@@ -78,6 +74,8 @@
       "Verse 9"
     ]
   },
-  "workRef": "crown-him-with-many-crowns",
+  "parent": {
+    "id": "zfrKD0J-OPJ"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2015"
 }

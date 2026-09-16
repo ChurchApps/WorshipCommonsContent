@@ -2,13 +2,8 @@
   "id": "4PmxeoHe5H2",
   "title": "Un Día",
   "writer": "Wilbur Chapman",
-  "writerRef": null,
   "year": 1908,
   "language": "Spanish",
-  "themes": "Hope,Grace",
-  "key": "Bb",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "Gálatas 4:4",
   "license": "PD",
   "rights": {
@@ -59,6 +54,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "one-day",
+  "parent": {
+    "id": "-G2gmV6hhA7"
+  },
   "relationLabel": "Spanish translation"
 }

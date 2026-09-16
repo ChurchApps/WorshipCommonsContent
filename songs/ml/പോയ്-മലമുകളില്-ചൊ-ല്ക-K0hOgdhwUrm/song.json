@@ -2,13 +2,8 @@
   "id": "K0hOgdhwUrm",
   "title": "പോയ്‌ മലമുകളില്‍ ചൊ-ല്ക",
   "writer": "ജോണ്‍ ഡബ്ലിയൂ. വര്‍ക്ക്. ജൂണിയര്‍ · tr. സൈമണ്‍ സഖറിയ",
-  "writerRef": null,
   "year": 2010,
   "language": "Malayalam",
-  "themes": "Christmas,Mission",
-  "key": "F",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "ലൂക്കോസ് 2:8–9",
   "license": "PD",
   "rights": {
@@ -58,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "go-tell-it-on-the-mountain",
+  "parent": {
+    "id": "zORl9J4kPPX"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2010"
 }

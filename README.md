@@ -37,7 +37,6 @@ songs/<lang>/<slug>-<id>/      one package per song
   output/
     composition/               charts, slides, score, slides.json, LICENSE.txt
     audio/                     pack zip + full mix + 30 s preview + instrumental — only with a master grant
-works/<slug>/                  translation families (work.json at the root)
 writers/<slug>/                portraits and bios, shared across songs
 licenses/                      full text of each song license
 sources.json                   where content came from, and any attribution we owe
@@ -168,7 +167,7 @@ file at the package root, because it is the only thing that is neither given to 
 
 - `rights` — text, tune, arrangement, recording and artwork each have their own license row. A hymn is not one blob. `"Amazing Grace"` words + tune can be public domain while a 2008 reharmonization is not.
 - `form` — verse/chorus map and default singing order. Drafted by tools (`status: "draft"`) until a reviewer sets `"approved"`.
-- `workRef` — which translation family this song belongs to, if any.
+- `parent` — `{ "id": "<song id>" }` on a translation: the song it inherits from (see Translations).
 
 ### `output/` — the machine wrote this
 
@@ -234,31 +233,38 @@ Required in `song.json` for a catalog song: `id`, `title`, `writer`, `language`,
 
 ---
 
-## Translations (`works/`)
+## Translations
 
-Translations of the same hymn are **separate songs** grouped by a work.
+A translation is a **separate song** that names the song it came from:
 
-```
-works/amazing-grace/
-  work.json                 { slug, title, canonicalSongId }
-  sources/tune.abc          shared tune
-  sources/tune.mid
-  sources/cover.webp        shared cover
+```json
+"parent": { "id": "DdnkGm4QMhD" },
+"relationLabel": "Spanish translation · tr. Federico Fliedner, 1871"
 ```
 
-Each language’s song points at it with `"workRef": "amazing-grace"` in `song.json`. A song inherits any file it does not override.
+The parent is the base version — the original language when we have it — and owns the shared
+musical assets. A translation's `song.json` holds only what differs: its title, writer/translator
+credit, year, language, scripture reference, rights, status, and its own `sources/lyrics.chordpro`
+and `timing.json`. Anything it leaves out it inherits from the parent:
 
-**The tune and the art are shared. The words are not.** A translation always has its own `sources/lyrics.chordpro`, and `timing.json` is always per song. The score is not shared either — each member rebuilds it into its own `output/` from the inherited `tune.abc`.
+| Inherited unless the translation has its own | Never inherited |
+|---|---|
+| `key`, `bpm`, `timeSignature`, `meter`, `tune`, `themes`, `writerRef` (`INHERITED_FIELDS` in `tools/lib.mjs`) | the words, `timing.json`, translator credit, rights, status |
+| `sources/tune.abc`, `sources/tune.mid`, `sources/cover.webp` | `score.musicxml` — rebuilt per package from the inherited `tune.abc` so each language's sheet carries its own words |
+| `sources/master/` and everything `pack/build.py` built from it (`output/audio/`, `audio.zip`) | `composition.zip` |
 
-If a member file is byte-identical to the work’s, `validate` errors — delete the copy so it inherits.
+The recording is processed **once, at the parent**; a translation's catalog row simply points at
+the parent's stems pack, preview and full mix. The vocal on that recording is in the parent's
+language, and the site says so. A translation that cannot use a parent asset (different verse
+order, say) opts out with `"noInherit": ["output/audio"]`; a translation with its own
+`sources/master/` gets its own pack and stops inheriting the parent's.
 
-**First translation of a song:** put `"parent": { "id": "<original id>", "title": "..." }` on the new song and run:
+Families are flat: a parent is never itself a translation. Two translations in the same language
+are fine — each has its own id and folder. If a translation's copy of a shared file is byte-identical
+to the parent's, `validate` errors; if an inherited field equals the parent's, it warns. Delete the
+copy so it inherits.
 
-```
-node tools/migrate-works.mjs
-```
-
-That creates (or adopts into) the work, moves shared files, and writes `workRef`. After that, do not keep a `parent` field; the catalog derives the family from the work.
+**First translation of a song:** add the `parent` line to the new song's `song.json`. Nothing moves.
 
 ---
 
@@ -275,7 +281,6 @@ Run from the repo root. Run `validate` before every commit.
 | `node tools/generate-scores.mjs [folder]` | Score step only: `output/composition/score.musicxml` from `sources/tune.abc` |
 | `node tools/build-catalog.mjs` | Regenerate `catalog.json` from the folders |
 | `node tools/find-duplicates.mjs` | Report the same hymn under variant titles (`--apply` links them) |
-| `node tools/migrate-works.mjs` | Create/adopt a work when a song gains its first translation |
 | `python tools/pack/build.py [folder]` | Multitracks bundle for every package with a granted master recording. Idempotent; see [tools/pack/README.md](tools/pack/README.md) |
 
 One-shot migrations (safe to re-run; they no-op when already done):

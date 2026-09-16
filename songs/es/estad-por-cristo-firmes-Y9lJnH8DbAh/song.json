@@ -5,10 +5,6 @@
   "writerRef": "juan-bautista-cabrera",
   "year": 1878,
   "language": "Spanish",
-  "themes": "Mission,Trust",
-  "key": "G",
-  "bpm": 96,
-  "timeSignature": "4/4",
   "scripture": "Efesios 6:14",
   "license": "PD",
   "rights": {
@@ -34,6 +30,8 @@
       "Verse 1"
     ]
   },
-  "workRef": "stand-up-stand-up-for-jesus",
+  "parent": {
+    "id": "k3nQG0DqnD8"
+  },
   "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera"
 }

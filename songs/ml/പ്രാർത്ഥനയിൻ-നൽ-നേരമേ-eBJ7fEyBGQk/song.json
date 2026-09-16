@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1845,
   "language": "Malayalam",
-  "themes": "Trust,Comfort",
-  "key": "D",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "1. തെസ്സലോനിക്യർ 5:17",
   "license": "PD",
   "rights": {
@@ -52,6 +48,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "sweet-hour-of-prayer",
+  "parent": {
+    "id": "MYPLBUJ6zEO"
+  },
   "relationLabel": "Malayalam original · വില്ല്യം വാൽഫോർഡ്, 1845"
 }

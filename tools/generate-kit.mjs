@@ -14,7 +14,7 @@ import * as path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import {
-  readWorks, readJson, readSong, lyricsPath, parseChordproStanzas, splitChordpro,
+  readJson, readSong, lyricsPath, parseChordproStanzas, splitChordpro,
   licenseNotice, ensurePkgDirs
 } from "./lib.mjs";
 import { generate as generateBase, resolveTargets } from "./generate.mjs";
@@ -95,7 +95,7 @@ export async function generateKit(root = ROOT, arg, flags = {}) {
     py(path.join(root, "tools", "harvest", "backfill-library-chords.py"), arg ? ["--only", arg] : []);
   }
 
-  const { songs, works } = resolveTargets(root, arg);
+  const { songs } = resolveTargets(root, arg);
   const stats = { charts: 0, stage: 0, engraved: 0, dropped: 0, fail: 0 };
 
   for (const { dir } of songs) {
@@ -118,20 +118,6 @@ export async function generateKit(root = ROOT, arg, flags = {}) {
   if (!flags.skipEngrave) {
     console.log("kit: engraving ABC → PDF");
     try {
-      const workList = works.length ? works : [...readWorks(root).values()].filter(w => !arg || w.folder.includes(arg) || path.basename(w.dir).includes(arg));
-      for (const w of workList) {
-        const abcFile = path.join(w.dir, "sources", "tune.abc");
-        if (!fs.existsSync(abcFile)) continue;
-        const abc = fs.readFileSync(abcFile, "utf8");
-        const meta = readJson(path.join(w.dir, "work.json"));
-        try {
-          await engravePackage(w.dir, meta.title || w.folder, "", "Public domain. Generated from the Open Hymnal SATB setting.", abc);
-          stats.engraved++;
-        } catch (e) {
-          stats.fail++;
-          console.error(`engrave work ${w.folder}: ${e.message}`);
-        }
-      }
       for (const { dir } of songs) {
         const song = readSong(dir);
         const abcFile = path.join(dir, "sources", "tune.abc");

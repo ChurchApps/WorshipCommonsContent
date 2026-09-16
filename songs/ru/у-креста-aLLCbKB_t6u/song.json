@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1869,
   "language": "Russian",
-  "themes": "Grace,Trust",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "4/4",
   "scripture": "Откровение 22:1-2",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "near-the-cross",
+  "parent": {
+    "id": "ulOZk2Z-mRz"
+  },
   "relationLabel": "Russian translation"
 }

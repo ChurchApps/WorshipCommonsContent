@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2017,
   "language": "Malayalam",
-  "themes": "Hope,Praise",
-  "key": "F",
-  "bpm": 100,
-  "timeSignature": "4/4",
   "scripture": "സങ്കീർത്തനങ്ങൾ 30:5",
   "license": "PD",
   "rights": {
@@ -73,6 +69,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "hark-hark-my-soul",
+  "parent": {
+    "id": "xN0vtmWoa0t"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
 }

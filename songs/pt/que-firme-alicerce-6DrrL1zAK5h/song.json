@@ -5,10 +5,6 @@
   "writerRef": "john-rippon",
   "year": 1787,
   "language": "Portuguese",
-  "themes": "Assurance,Trust",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "2/2",
   "scripture": "Hebreus 13:5",
   "license": "PD",
   "rights": {
@@ -67,6 +63,8 @@
       "Verse 7"
     ]
   },
-  "workRef": "how-firm-a-foundation",
+  "parent": {
+    "id": "WE26JDTfHyQ"
+  },
   "relationLabel": "Portuguese translation"
 }

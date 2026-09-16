@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 2000,
   "language": "Malayalam",
-  "themes": "Trust,Providence",
-  "key": "Eb",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "വിലാപങ്ങള്‍, 3:22–23",
   "license": "PD",
   "rights": {
@@ -53,6 +49,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "great-is-thy-faithfulness",
+  "parent": {
+    "id": "bV4J-230VsE"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2000"
 }

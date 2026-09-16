@@ -2,13 +2,8 @@
   "id": "uim6cLsIEfZ",
   "title": "Tú És Fiel, Senhor",
   "writer": "Thomas O. Chisholm",
-  "writerRef": "thomas-chisholm",
   "year": 1923,
   "language": "Portuguese",
-  "themes": "Trust,Providence",
-  "key": "Eb",
-  "bpm": 72,
-  "timeSignature": "4/4",
   "scripture": "Lamentações 3:22-23",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "great-is-thy-faithfulness",
+  "parent": {
+    "id": "bV4J-230VsE"
+  },
   "relationLabel": "Portuguese translation"
 }

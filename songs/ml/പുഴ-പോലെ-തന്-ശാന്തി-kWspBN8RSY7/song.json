@@ -2,13 +2,8 @@
   "id": "kWspBN8RSY7",
   "title": "പുഴ പോലെ തന്‍ ശാന്തി",
   "writer": "സൈമണ്‍ സഖറിയ · tr. സൈമണ്‍ സഖറിയ",
-  "writerRef": null,
   "year": 2012,
   "language": "Malayalam",
-  "themes": "Comfort,Assurance",
-  "key": "F",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "യെശയ്യാവു 66:12",
   "license": "PD",
   "rights": {
@@ -48,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "ive-got-peace-like-a-river",
+  "parent": {
+    "id": "nH1kEVPkeJw"
+  },
   "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2012"
 }

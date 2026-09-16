@@ -93,6 +93,13 @@ def gate(pkg: Path) -> tuple[dict, Path, dict]:
             raise Skip(f"manifest row for {rel} has no {field}")
     if not (pkg / "sources" / row["evidence"]).exists():
         raise Skip(f"grant evidence sources/{row['evidence']} is missing")
+    # a translation with its own master inherits bpm/key from the parent (tools/lib.mjs INHERITED_FIELDS)
+    pid = (song.get("parent") or {}).get("id")
+    if pid:
+        for p in ROOT.glob(f"songs/*/*-{pid}/song.json"):
+            base = read_json(p)
+            for k in ("bpm", "key", "timeSignature"):
+                song.setdefault(k, base.get(k))
     if not song.get("bpm"):
         raise Skip("song.json has no bpm; the click track needs it")
     return song, master, row

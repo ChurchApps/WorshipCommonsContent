@@ -2,13 +2,8 @@
   "id": "AMNvcTdStPx",
   "title": "Reste avec Moi",
   "writer": "Henry F. Lyte · tr. Ruben Saillens",
-  "writerRef": "henry-lyte",
   "year": 1847,
   "language": "French",
-  "themes": "Comfort,Trust",
-  "key": "Eb",
-  "bpm": 66,
-  "timeSignature": "4/4",
   "scripture": "Luc 24.29",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "abide-with-me",
+  "parent": {
+    "id": "Ft0nnpxQbbt"
+  },
   "relationLabel": "French translation · tr. Ruben Saillens"
 }

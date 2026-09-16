@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1841,
   "language": "Malayalam",
-  "themes": "Christmas,Adoration",
-  "key": "G",
-  "bpm": 92,
-  "timeSignature": "4/4",
   "scripture": "മത്തായി 2:9",
   "license": "PD",
   "rights": {
@@ -57,6 +53,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "adeste-fideles",
+  "parent": {
+    "id": "yGo9po6GLcI"
+  },
   "relationLabel": "Malayalam translation"
 }

@@ -6,9 +6,6 @@
   "year": 1880,
   "language": "Spanish",
   "themes": "Assurance,Trust",
-  "key": "C",
-  "bpm": 84,
-  "timeSignature": "4/4",
   "scripture": "1 Juan 4:19",
   "license": "PD",
   "rights": {
@@ -39,6 +36,8 @@
       "Chorus"
     ]
   },
-  "workRef": "jesus-loves-me",
+  "parent": {
+    "id": "GZ9C6_0wlwv"
+  },
   "relationLabel": "Spanish translation · anonymous"
 }

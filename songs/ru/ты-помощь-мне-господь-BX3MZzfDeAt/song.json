@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1872,
   "language": "Russian",
-  "themes": "Trust,Confession",
-  "key": "G",
-  "bpm": 76,
-  "timeSignature": "3/4",
   "scripture": "Послание к Евреям 4:16",
   "license": "PD",
   "rights": {
@@ -62,6 +58,8 @@
       "Verse 5"
     ]
   },
-  "workRef": "i-need-thee-every-hour",
+  "parent": {
+    "id": "_ALrpxFXZIG"
+  },
   "relationLabel": "Russian translation"
 }

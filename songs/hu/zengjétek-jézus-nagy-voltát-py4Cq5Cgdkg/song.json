@@ -2,13 +2,8 @@
   "id": "py4Cq5Cgdkg",
   "title": "Zengjétek Jézus Nagy Voltát!",
   "writer": "Edward Perronet",
-  "writerRef": "edward-perronet",
   "year": 1779,
   "language": "Hungarian",
-  "themes": "Adoration,Praise",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Filippi 2:9-11",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 4"
     ]
   },
-  "workRef": "all-hail-the-power-of-jesus-name",
+  "parent": {
+    "id": "T0B8i41oasf"
+  },
   "relationLabel": "Hungarian translation"
 }

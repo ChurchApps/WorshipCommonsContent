@@ -2,13 +2,8 @@
   "id": "WkCVj-VmN5t",
   "title": "Dulce Comunión",
   "writer": "Elisha Hoffman",
-  "writerRef": "elisha-hoffman",
   "year": 1887,
   "language": "Spanish",
-  "themes": "Trust,Assurance",
-  "key": "G",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "Deuteronomio 33:27",
   "license": "PD",
   "rights": {
@@ -52,6 +47,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "leaning-on-the-everlasting-arms",
+  "parent": {
+    "id": "MRBzXWTgxx2"
+  },
   "relationLabel": "Spanish translation"
 }

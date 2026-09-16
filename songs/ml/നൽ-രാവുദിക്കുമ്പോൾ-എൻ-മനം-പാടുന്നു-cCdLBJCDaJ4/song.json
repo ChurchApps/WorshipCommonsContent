@@ -5,10 +5,6 @@
   "writerRef": null,
   "year": 1744,
   "language": "Malayalam",
-  "themes": "Praise",
-  "key": "D",
-  "bpm": 88,
-  "timeSignature": "4/4",
   "scripture": "ഇയ്യോബ് 1:21",
   "license": "PD",
   "rights": {
@@ -107,6 +103,8 @@
       "Verse 15"
     ]
   },
-  "workRef": "when-morning-gilds-the-skies",
+  "parent": {
+    "id": "y8oQf2I_aSV"
+  },
   "relationLabel": "Malayalam original · എഡ്വേർഡ് കേസ്വെൽ, 1744"
 }

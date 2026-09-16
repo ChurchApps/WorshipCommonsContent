@@ -5,10 +5,6 @@
   "writerRef": "placide-cappeau",
   "year": 1843,
   "language": "French",
-  "themes": "Christmas,Adoration",
-  "key": "C",
-  "bpm": 60,
-  "timeSignature": "4/4",
   "scripture": "Luc 2.9-11",
   "license": "PD",
   "rights": {
@@ -47,6 +43,8 @@
       "Verse 3"
     ]
   },
-  "workRef": "o-holy-night",
+  "parent": {
+    "id": "ouS_znOIuUm"
+  },
   "relationLabel": "French original · Placide Cappeau, 1843"
 }
