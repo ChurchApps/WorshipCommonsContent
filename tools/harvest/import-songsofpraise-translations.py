@@ -107,7 +107,7 @@ def import_translation(parent_dir: Path, parent: dict, url: str, lang_label: str
         return f"skip {url}: no songs/<code> for {lang_name} — add it to tools/lib.mjs LANG_CODES"
     html = lh.fetch_text(url)
     title = htmlmod.unescape(re.sub(r"^Songs of Praise:\s*", "", re.search(r"<title>(.*?)</title>", html, re.S).group(1))).strip()
-    if not re.search(r"[A-Za-z]", title):
+    if re.fullmatch(r"[\s　-鿿＀-￯]+", title):
         title = title.replace(" ", "")  # the site spaces out CJK characters
     body = lh.lyrics_from_sop(html)
     if not body:

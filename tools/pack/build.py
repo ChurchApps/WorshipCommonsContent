@@ -31,6 +31,11 @@ import sys
 import zipfile
 from pathlib import Path
 
+# folder names carry every script; a cp1252 console must not kill the job
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(errors="replace")
+
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 AUDIO_EXT = {".wav", ".flac", ".m4a", ".mp3", ".aiff", ".aif", ".ogg", ".opus", ".mp4", ".mov"}
