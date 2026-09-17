@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "കഷ്ടമായ് നിന്ദയായ്, ദൂരെയാ കുന്നിന്മേൽ"
+
+Page:     http://www.hymntime.com/tch/non/ml/o/l/d/r/old_rugged_cross_ml.htm
+Archived: http://web.archive.org/web/20191110203450/http://www.hymntime.com:80/tch/non/ml/o/l/d/r/old_rugged_cross_ml.htm
+
+Words credit: ജോർജ്ജ് ബന്നാർഡ്, 1913 (The Old Rugged Cross) (🔊 pdf nwc). ദി ഓൾഡ്‌ റഗഡ് ക്രോസ്സ് എഴുതപ്പെട്ടതു മിഷിഗണിലെ ആൽബിയോണിൽ വച്ചോ അല്ലെങ്കിൽ മിഷിഗണിലെ പൊക്കഗോണിൽ വച്ചോ അല്ലെങ്കിൽ വിസ്കോണ്‍സിനിലെ സ്റ്റർജിയോണ്‍ തീരത്തിൽ വച്ചോ ആണ്. ഈ മൂന്നു പട്ടണങ്ങളും തങ്ങളെ ഈ ഗാനത്തിൻറെ ജന്മസ്ഥലമായി അവകാശപ്പെടുന്നു. സൈമണ്‍ സഖറിയ, 2013. public domain
+Music credit: 
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ദാന ദാധാവെ സ്തുതിക്കാം"
+
+Page:     http://www.hymntime.com/tch/non/ml/d/o/x/o/doxology_ml.htm
+Archived: http://web.archive.org/web/20180811101712/http://www.hymntime.com/tch/non/ml/d/o/x/o/doxology_ml.htm
+
+Words credit: തോമസ്സ് കെൻ, 1674 (Praise God, from Whom All Blessings Flow). നിരവധി ദേവാലയങ്ങളിലും 'സ്തോത്രങ്ങൾ' ആയി പാടുന്ന ഈ വരികൾ യഥാർത്ഥത്തിൽ എവെയ്ക്ക്, മൈ സോൾ, ആന്റ് വിത്ത് ദ സൺ എന്ന നീണ്ട ഒരു ഗാനത്തിന്റെ ഒടുവിലത്തെ ചരണമാണു. സൈമണ്‍ സഖറിയ, 2017. public domain
+Music credit: ഓൾഡ് 100 മതു ജനീവൻ സാൾട്ടർ 1551, കടപ്പാട് ലൂയി ബൂർഷ്വാ (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Érted-e, Mi a Tét?"
+
+Page:     http://www.hymntime.com/tch/non/hu/e/r/t/e/ertedemi.htm
+Archived: http://web.archive.org/web/20211226052243/http://www.hymntime.com/tch/non/hu/e/r/t/e/ertedemi.htm
+
+Words credit: H. F. James, 1901 (Are You Counting the Cost?). Anna Piroska Williams, 2012 (public domain). Ezt az éneket 2012-ben, a londoni olimpiai játékok évében fordítottam, és az első verset kissé módosítottam, hogy alkalmas legyen a magyar olimpikonok és paralimpikonok bátorítására, értékelve teljesítményüket, és felhívva figyelmüket a hervadhatatlan koszorú elnyerésének mindent felülmúló fontosságára, Pál apostol szavai szerint. (1 Korinthus 9:24.) Ezt az 1 versszakot, megelőzve néhány, a témához tartozó bibliaverssel, minden magyar olimpikonnak és paralimpikonnak átadtuk, egy magyar/angol Újszövetség kíséretében, amelyet a londoni Magyar Református Közösség bocsátott rendelkezésre és juttatott el hozzájuk.
+Music credit: William T. Dale (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

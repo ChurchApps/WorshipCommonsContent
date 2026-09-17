@@ -31,7 +31,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190412175409/http://www.hymntime.com/tch/non/ml/w/h/o/w/who_who_are_these_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "26c27dbe35529c15a0013f4f0f8e1240178a1268123c3eb3f1dc149706cd8ea9",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

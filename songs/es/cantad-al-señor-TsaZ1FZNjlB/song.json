@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 1958",
+      "basis": "Hymnary.org lists the Spanish text Public Domain (anonymous, traditional Brazilian)",
       "source": "wc-seed",
-      "review": "Published 1958, after the US PD cutoff; PD claim rests on wc-seed's dedication — verify"
+      "url": "https://hymnary.org/text/cantad_al_senor_un_cantico_nuevo_anonym",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": {
       "license": "PD",

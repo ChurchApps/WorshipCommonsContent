@@ -31,7 +31,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20180625012032/http://www.hymntime.com:80/tch/non/ml/k/e/e/p/keep_on_the_sunny_side_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "1a72fc3b55f6c250f9fa0b4a3e3613011965e0487a5ae414045793865b4925c6",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

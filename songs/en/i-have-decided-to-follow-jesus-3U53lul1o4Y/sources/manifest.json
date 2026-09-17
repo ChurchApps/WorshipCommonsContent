@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     {
       "file": "cover.webp",
@@ -41,6 +44,19 @@
       "licenseBasis": "cyber-hymnal",
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/hymnary-public-domain.txt",
+      "url": "https://hymnary.org/text/i_have_decided_to_follow_jesus",
+      "acquired": "2026-09-16",
+      "sha256": "1a486fab0490211a5aa3efa2a02c11047db66f963ad6a2a6e40b2baf35b8b999",
+      "licenseBasis": "wc-seed",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     }
   ]
 }

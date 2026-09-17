@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "കാതു തുളയ്ക്കും കരച്ചിൽ"
+
+Page:     http://www.hymntime.com/tch/non/ml/r/i/g/h/right_shall_rule_ml.htm
+Archived: http://web.archive.org/web/20190621135440/http://www.hymntime.com/tch/non/ml/r/i/g/h/right_shall_rule_ml.htm
+
+Words credit: ഫേനി ക്രോസ്ബി, ജനുവരി 27, 1915 (The Right Shall Rule). ഒന്നാം ലോകമഹാ യുദ്ധം കൊടുമ്പിരി കൊള്ളുമ്പോൾ, ഇതാണു ഫേനി ക്രോസ്ബിയുടെ അന്ത്യ ഗാനം- ഈ വരികൾ കുറിച്ചു രണ്ടു വാരങ്ങൾ കഴിഞ്ഞു അവർ ഈ ലോകത്തോട്‌ വിട പറഞ്ഞു. സൈമണ്‍ സഖറിയ, 2015. public domain
+Music credit: ഉതുപ്പ്, ജോ ഉതുപ്പ്, 2014 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows. UNRESOLVED: Words (Crosby 1915) and translation are public domain, but the tune is Joe Uthup, 2014, with no public-domain marker — confirm or drop the tune.
+
+Checked 2026-09-16 against the archived page.

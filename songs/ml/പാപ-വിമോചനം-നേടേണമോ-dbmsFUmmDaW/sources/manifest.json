@@ -19,7 +19,23 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190412175635/http://www.hymntime.com/tch/non/ml/t/h/e/r/there_is_power_in_the_blood_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "5f10587b1d4c3cb9b8631ebdb2338b78956ec1dacc67253c708aa005a98a97fd",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

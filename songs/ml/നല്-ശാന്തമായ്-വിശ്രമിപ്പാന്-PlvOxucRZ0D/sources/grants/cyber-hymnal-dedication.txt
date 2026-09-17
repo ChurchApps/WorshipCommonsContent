@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "നല്‍ ശാന്തമായ് വിശ്രമിപ്പാന്‍"
+
+Page:     http://www.hymntime.com/tch/non/ml/n/e/a/r/near_to_the_heart_of_God_ml.htm
+Archived: http://web.archive.org/web/20181130122323/http://www.hymntime.com:80/tch/non/ml/n/e/a/r/near_to_the_heart_of_God_ml.htm
+
+Words credit: ക്ലിലാണ്ട് ബി. മെക്കഫീ, 1903 (Near to the Heart of God). തന്റെ സഹോദരന്റെ രണ്ടു ചെറു പുത്രിമാര്‍ 'ഡിപ്ത്തീരിയ' ബാധയാല്‍ ഇരുപത്തിനാല് മണിക്കൂര്‍ ഇടവിട്ട്‌ മരിച്ചു പോയപ്പോള്‍ അദ്ദേഹം ഈ വരികള്‍ എഴുതി. മിസ്സൂറിയിലെ പാര്‍ക്ക് വില്‍, പാര്‍ക്ക് കോളേജ് ക്വയര്‍ ഈ ഗീതം അവരുടെ ശനിയാഴ്ചയിലെ പരിശീലനത്തിന് ആലപിച്ചപ്പോള്‍ വളരെ വികാരഭരിതരായി. അവര്‍ 'ഹോവേഡു മക്കഫീയുടെ' പകര്‍ച്ച രോഗത്താല്‍ പ്രവേശനം നിഷേധിക്കപ്പെട്ട ഭവനത്തിന്നു അടുത്തു പോയി ജാലകത്തിന്നു പുറത്തു നിന്നു ഈ ഗീതം ആലപിക്കയുണ്ടായി. സൈമണ്‍ സഖറിയ, 2012. public domain
+Music credit: ക്ലിലാണ്ട് ബി. മെക്കഫീ (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

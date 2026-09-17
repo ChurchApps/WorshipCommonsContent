@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Jöjj Jézushoz Még Ma"
+
+Page:     http://www.hymntime.com/tch/non/hu/j/o/j/j/jojjjezu.htm
+Archived: http://web.archive.org/web/20190412180009/http://www.hymntime.com/tch/non/hu/j/o/j/j/jojjjezu.htm
+
+Words credit: John M. Whyte, 1889 (Will You Come to Jesus?). Anna Piroska Williams, 2017; az első verset Anna Piroska Williams írta, 2017-ben (public domain).
+Music credit: John M. Whyte, 1889 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

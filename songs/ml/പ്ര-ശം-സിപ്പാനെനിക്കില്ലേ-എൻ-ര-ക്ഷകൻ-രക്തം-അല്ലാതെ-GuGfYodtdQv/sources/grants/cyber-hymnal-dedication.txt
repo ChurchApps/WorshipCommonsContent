@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "പ്ര-ശം-സിപ്പാനെനിക്കില്ലേ എൻ ര-ക്ഷകൻ രക്തം അല്ലാതെ"
+
+Page:     http://www.hymntime.com/tch/non/ml/a/n/d/c/and_can_it_be_ml.htm
+Archived: http://web.archive.org/web/20191031130444/http://www.hymntime.com:80/tch/non/ml/a/n/d/c/and_can_it_be_ml.htm
+
+Words credit: ചാൾസ് വെസ്ലി, സാംസ് ആൻഡ്‌ ഹിംസ്, 1738 (And Can It Be That I Should Gain?). സൈമണ്‍ സഖറിയ, 2013. public domain
+Music credit: സജിന, തോമസ് കാംബൽ, 1825 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

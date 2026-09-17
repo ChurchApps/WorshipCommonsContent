@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "സ്നേഹം ആനന്ദം തിങ്ങുമേ"
+
+Page:     http://www.hymntime.com/tch/non/ml/h/a/p/p/happy_the_home_ml.htm
+Archived: http://web.archive.org/web/20191031125436/http://www.hymntime.com:80/tch/non/ml/h/a/p/p/happy_the_home_ml.htm
+
+Words credit: ഹെൻറി വെയർ ജൂണിയർ (1794–1843) (Happy the Home When God Is There); അദ്ദേഹത്തിന്റെ മരണാനന്തരം പ്രസിദ്ധീകരിച്ച "സെലക്ഷൻ ഓഫ് ഹിംസ് ആന്റ് പോയട്രി ഫോർ യൂസ് ഓഫ് ഇൻഫന്റ്സ് ആൻഡ്‌ ജുവനൈൽ സണ്ടെസ്കൂൾ അന്റ് ഫാമലീസ്" ൽ നിന്നും, മൂന്നാം പതിപ്പ് 1846. സൈമണ്‍ സഖറിയ, 2015. public domain
+Music credit: സെന്റ്‌. ആഗ്നസ്, ജോൺ ബി. ഡൈക്ക്‌സ്, ഇംഗ്ലീഷ് ചർച്ചിന്റെ ഉപയോഗത്തിലേക്കായി ജോണ്‍ ഗ്രേ പ്രസിദ്ധീകരിച്ച ഗാന സമാഹാരത്തിൽ നിന്നും. 1866 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

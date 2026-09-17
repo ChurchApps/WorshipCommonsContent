@@ -31,7 +31,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203620/http://www.hymntime.com:80/tch/non/ml/y/e/m/u/ye_must_be_born_again_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "f03e9a9f1010f3ff445708d1abff88f1c23f0e0b0ab36a30de77f2126f6ad7e2",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

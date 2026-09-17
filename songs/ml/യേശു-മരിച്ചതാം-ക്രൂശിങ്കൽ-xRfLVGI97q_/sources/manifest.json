@@ -19,7 +19,23 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191031125934/http://www.hymntime.com:80/tch/non/ml/d/o/w/n/down_at_the_cross_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "a04ac6d5059ddb7715fa5e69f431dd5f3af2bb5a90b865d83bcd99aababaf652",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

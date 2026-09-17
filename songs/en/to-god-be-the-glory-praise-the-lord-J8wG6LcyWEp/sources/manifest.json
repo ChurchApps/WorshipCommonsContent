@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     },
     {
       "file": "sheetPdf.pdf",
@@ -30,6 +33,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy"
+    },
+    {
+      "file": "grants/cmpilato-public-domain.txt",
+      "url": "https://github.com/cmpilato/worship-music/blob/b09635b8887afab8a01936d22ddb1e9341f7b654/To_God_Be_the_Glory_Praise_the_Lord/README.md",
+      "acquired": "2026-09-16",
+      "sha256": "7ea15528ac7d67de8aa57f88f05be5d6c4a407d6d669ebb26865b6570f3ad702",
+      "licenseBasis": "cmpilato",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     }
   ]
 }

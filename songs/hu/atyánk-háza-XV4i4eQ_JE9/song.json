@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2010",
+      "basis": "2010 text dedicated to the public domain on its Cyber Hymnal page (\"szabadon felhasználható\")",
       "source": "cyber-hymnal",
-      "review": "Published 2010, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20181014153450/http://www.hymntime.com:80/tch/non/hu/a/t/y/a/atyank.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

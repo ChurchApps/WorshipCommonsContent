@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -30,6 +33,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20211226062957/http://www.hymntime.com/tch/non/ml/s/a/v/i/Savior_like_a_shepherd_lead_us_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "82beb5e71ad71dda6e532fa4ec446df655ed5df5117f744aed76de3ffe8b24ee",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

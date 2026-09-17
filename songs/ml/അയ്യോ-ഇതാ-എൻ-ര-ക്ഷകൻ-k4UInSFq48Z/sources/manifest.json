@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -30,6 +33,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190326004330/http://www.hymntime.com/tch/non/ml/a/l/a/s/alas_and_did_my_savior_bleed_2_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "b743a755bed12c2b526acce112e9a81a7b96e39e75bacd242e77d97cfbfa4a1c",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

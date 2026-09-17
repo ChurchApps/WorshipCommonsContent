@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2011",
+      "basis": "2011 text dedicated to the public domain on its Cyber Hymnal page (\"szabadon felhasználható\")",
       "source": "cyber-hymnal",
-      "review": "Published 2011, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20191018010409/http://www.hymntime.com/tch/non/hu/s/i/e/s/siesseln.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

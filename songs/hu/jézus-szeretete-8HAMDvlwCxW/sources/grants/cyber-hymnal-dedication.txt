@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Jézus Szeretete"
+
+Page:     http://www.hymntime.com/tch/non/hu/e/g/y/k/egykedves.htm
+Archived: http://web.archive.org/web/20211226070849/http://www.hymntime.com/tch/non/hu/e/g/y/k/egykedves.htm
+
+Words credit: Pauline F. Camp, 1912 (Jesus’ Love). Anna Piroska Williams, 2014 (public domain) (🔊 pdf nwc).
+Music credit: 
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

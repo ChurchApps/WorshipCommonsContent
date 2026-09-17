@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     },
     {
       "file": "sheetPdf.pdf",
@@ -51,6 +54,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cmpilato-public-domain.txt",
+      "url": "https://github.com/cmpilato/worship-music/blob/b09635b8887afab8a01936d22ddb1e9341f7b654/At_Calvary_I_Am_Free/README.md",
+      "acquired": "2026-09-16",
+      "sha256": "5b678495d4ee401d22c851b82518dad8eb096d7a1914c3282e7e231be54dd635",
+      "licenseBasis": "cmpilato",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     }
   ]
 }

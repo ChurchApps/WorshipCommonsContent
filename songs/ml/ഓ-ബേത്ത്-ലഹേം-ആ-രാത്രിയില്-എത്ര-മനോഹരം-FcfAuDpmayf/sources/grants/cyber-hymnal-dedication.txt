@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ഓ ബേത്ത് ലഹേം ആ രാത്രിയില്‍ എത്ര മനോഹരം!"
+
+Page:     http://www.hymntime.com/tch/non/ml/o/l/i/t/o_little_town_of_bethlehem_ml.htm
+Archived: http://web.archive.org/web/20181003231050/http://www.hymntime.com:80/tch/non/ml/o/l/i/t/o_little_town_of_bethlehem_ml.htm
+
+Words credit: ഫിലിപ്സ് ബ്രൂക്സ്, 1867 (O Little Town of Bethlehem). സൈമണ്‍ സഖറിയ, 2011. public domain
+Music credit: സെന്‍റ് ലൂയിസ്, ലൂയിസ് എച്ച്. റന്റെര്‍, 1868 (🔊 pdf nwc). റന്റെര്‍, പെന്‍സില്‍വാനിയയായിലെ ഫിലാഡല്‍ഫിയ ഹോളി ട്രിനിറ്റി എപ്പിസ്കോപ്പല്‍ പള്ളിയില്‍ ബ്രൂക്സിന്റെ ഓര്‍ഗന്‍ വായിക്കുന്ന ആളായിരുന്നു. ക്രിസ്തുമസ് സന്ധ്യയില്‍ മനസ്സില്‍ വന്ന ഈ രാഗം പിറ്റേന്ന് ആദ്യ ഗാനമായി ആലപിച്ചു.
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

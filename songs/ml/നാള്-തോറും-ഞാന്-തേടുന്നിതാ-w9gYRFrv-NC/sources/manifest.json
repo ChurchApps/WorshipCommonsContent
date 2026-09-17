@@ -19,7 +19,23 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20181201181212/http://www.hymntime.com/tch/non/ml/h/i/g/h/higher_ground_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "9ec80636825fb4f5af1baa526f91f1b9fb9d30eebc40b2b4a147b482f9d2e629",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2016",
+      "basis": "Text dedicated to the public domain on its Cyber Hymnal page (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\")",
       "source": "cyber-hymnal",
-      "review": "Published 2016, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20191031125939/http://www.hymntime.com:80/tch/non/ml/h/a/l/l/hallelujah_He_is_risen_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

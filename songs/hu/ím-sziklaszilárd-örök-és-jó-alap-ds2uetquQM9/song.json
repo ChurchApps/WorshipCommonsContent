@@ -10,9 +10,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 1976",
+      "basis": "1976 text dedicated to the public domain on its Cyber Hymnal page (\"szabadon felhasználható\")",
       "source": "cyber-hymnal",
-      "review": "Published 1976, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20190603153620/http://www.hymntime.com:80/tch/non/hu/i/m/s/z/imszikla.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

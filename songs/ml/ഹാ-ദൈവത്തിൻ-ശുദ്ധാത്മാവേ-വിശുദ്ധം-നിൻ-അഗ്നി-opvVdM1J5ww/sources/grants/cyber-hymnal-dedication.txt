@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ഹാ! ദൈവത്തിൻ ശുദ്ധാത്മാവേ, വിശുദ്ധം നിൻ അഗ്നി!"
+
+Page:     http://www.hymntime.com/tch/non/ml/o/s/p/i/o_Spirit_of_the_living_God_ml.htm
+Archived: http://web.archive.org/web/20191031002438/http://www.hymntime.com:80/tch/non/ml/o/s/p/i/o_Spirit_of_the_living_God_ml.htm
+
+Words credit: ഹെൻട്രി എച്ച്, റ്റ്വീറ്റി, 1933 (O Spirit of the Living God). സൈമണ്‍ സഖറിയ, 2013. public domain
+Music credit: ഫോറസ്റ്റ് ഗ്രീൻ, പുരാതന ഇംഗ്ലീഷ് രാഗം, ക്രമീകരണം ചെയ്തതു റാൽഫ് വോണ്‍ വില്ല്യംസ് (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows. UNRESOLVED: Translation of Henry H. Tweedy, O Spirit of the Living God (1933), still under copyright: the translator's public-domain dedication does not clear the original — needs the original owner's permission or takedown.
+
+Checked 2026-09-16 against the archived page.

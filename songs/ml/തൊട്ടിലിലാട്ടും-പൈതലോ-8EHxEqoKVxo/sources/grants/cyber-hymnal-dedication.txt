@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "തൊട്ടിലിലാട്ടും പൈതലോ"
+
+Page:     http://www.hymntime.com/tch/non/ml/t/h/o/t/thottililaattum.htm
+Archived: http://web.archive.org/web/20191031065649/http://www.hymntime.com:80/tch/non/ml/t/h/o/t/thottililaattum.htm
+
+Words credit: ചാൾസ് കോഫിൻ (1676–1749) (എക്സീറ്റ്‌ കുനീസ്‌ പ്രറ്റിയോസൂസ്‌ ഇൻഫാൺസ്‌). ലാറ്റിനിൽ നിന്നും ഇംഗ്ളീഷിലേക്ക് തർജ്ജിമ ചെയ്തതു ഐസക്ക് സി. വില്യംസ്, 'ഹിംസ് ട്രാൻസ്‌ലേറ്റഡ് ഫ്രം ദ പറിസ്യൻ ബ്രിവ്യറി' (ലണ്ടൻ: ജെ.ജി.എഫ്. & ജെ.റിവിങ്ങ്ടൺ 1839), പേജുകൾ, 209-10. സൈമണ്‍ സഖറിയ, 2017. public domain
+Music credit: ജോ ഉതുപ്പ്, 2017 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows. UNRESOLVED: Words and translation are public domain, but the tune is Joe Uthup, 2017, with no public-domain marker — confirm or drop the tune.
+
+Checked 2026-09-16 against the archived page.

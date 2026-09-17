@@ -15,9 +15,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2006",
+      "basis": "Text dedicated to the public domain on its Cyber Hymnal page (\"domínio público\")",
       "source": "cyber-hymnal",
-      "review": "Published 2006, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20211226100849/http://www.hymntime.com/tch/non/pt/c/o/n/s/consenho.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

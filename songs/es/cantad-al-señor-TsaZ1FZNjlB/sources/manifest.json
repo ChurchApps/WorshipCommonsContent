@@ -31,7 +31,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/hymnary-public-domain.txt",
+      "url": "https://hymnary.org/text/cantad_al_senor_un_cantico_nuevo_anonym",
+      "acquired": "2026-09-16",
+      "sha256": "900272c8f33aebd42f9eb5b4553d69adf293736272a7aea60e72bbafc18ecccb",
+      "licenseBasis": "wc-seed",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     }
   ]
 }

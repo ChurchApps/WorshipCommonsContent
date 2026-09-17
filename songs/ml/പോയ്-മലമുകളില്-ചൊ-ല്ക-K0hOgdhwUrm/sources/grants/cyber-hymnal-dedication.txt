@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "പോയ്‌ മലമുകളില്‍ ചൊ-ല്ക"
+
+Page:     http://www.hymntime.com/tch/non/ml/g/o/t/e/go_tell_it_on_the_mountain_ml.htm
+Archived: http://web.archive.org/web/20191031125430/http://www.hymntime.com:80/tch/non/ml/g/o/t/e/go_tell_it_on_the_mountain_ml.htm
+
+Words credit: ജോണ്‍ ഡബ്ലിയൂ. വര്‍ക്ക്. ജൂണിയര്‍ (Go, Tell It on the Mountain), ഫോക് സോങ്ങ്സ് ഓഫ് അമേരിക്കന്‍ നീഗ്രോ (നാഷ് വില്‍, ടെന്നിസീ, 1907); സൈമണ്‍ സഖറിയ, 2010. public domain
+Music credit: ആഫ്രിക്കന്‍-അമേരിക്കന്‍ സ്പിരിച്വല്‍ (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "വിസ്താരമാം ദൈവസ്നേഹം!"
+
+Page:     http://www.hymntime.com/tch/non/ml/l/o/v/e/love_of_God_ml.htm
+Archived: http://web.archive.org/web/20191031125213/http://www.hymntime.com:80/tch/non/ml/l/o/v/e/love_of_God_ml.htm
+
+Words credit: ഫ്രഡറിക് എം. ലെഹ് മേൻ, 1917 (The Love of God). കാലിഫോർണിയയിലെ പാസഡീനയിൽ വച്ച് അദ്ദേഹം ഇതു എഴുതുകയും, 1919 ൽ 'സോങ്ങ്സ് ദാറ്റ് ആർ ഡിഫ്രന്റ്' വാല്യം 2ൽ പ്രസിദ്ധീകരിക്കയും ചെയ്തു. 1050 ൽ വേംസ്, ജർമ്മനിയിലെ യഹൂദ കീർത്തന രചയിതാവായ മേയിർ ബെൻ ഐസക്ക് നെഹോരായ് ആരാമ്യ ഭാഷയിൽ എഴുതിയ 'ഹഡാമുട്ട്' എന്ന ഒരു യഹൂദ്യ കവിതയുടെ വരികളെ ആസ്പദമാക്കിയാണ് ഇതിന്റെ വരികൾ എഴുതിയിട്ടുള്ളത്. ഇവ ചുരുങ്ങിയതു 18 ഭാഷകളിലേക്കെങ്കിലും തർജ്ജിമ ചെയ്യപ്പെട്ടിട്ടുണ്ട്. സൈമണ്‍ സഖറിയ, 2012. public domain
+Music credit: ഫ്രഡറിക്ക് എം.ലെഹ് മേൻ; അദ്ദേഹത്തിന്റെ മകൾ, ക്ലോഡിയ എൽ. മേയ്സ് ക്രമീകരണം ചെയ്തതു (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

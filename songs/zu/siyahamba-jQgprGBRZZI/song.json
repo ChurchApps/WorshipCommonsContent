@@ -14,9 +14,11 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 1952",
+      "basis": "Zulu text traditional (transcribed 1952); Hymnary shows (c) 1984 Peace of Music/GIA on the Nyberg edition, whose English line we carry",
       "source": "wc-seed",
-      "review": "Published 1952, after the US PD cutoff; PD claim rests on wc-seed's dedication — verify"
+      "review": "Contested: Zulu text is traditional, but Hymnary shows (c) 1984 Peace of Music/GIA and our English verse comes from that edition — drop Verse 2 or get permission",
+      "url": "https://hymnary.org/text/siyahamb_ekukhanyen_kwenkos",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": null,
     "arrangement": null,

@@ -14,9 +14,11 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2012",
+      "basis": "Text dedicated to the public domain on its Cyber Hymnal page (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\")",
       "source": "cyber-hymnal",
-      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "review": "Translation of Kathleen Thomerson, I Want to Walk As a Child of the Light (1970, words and tune), still under copyright: the translator's public-domain dedication does not clear the original — needs the original owner's permission or takedown",
+      "url": "http://web.archive.org/web/20190621135422/http://www.hymntime.com/tch/non/ml/i/w/a/n/i_want_to_walk_as_a_child_of_the_light_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

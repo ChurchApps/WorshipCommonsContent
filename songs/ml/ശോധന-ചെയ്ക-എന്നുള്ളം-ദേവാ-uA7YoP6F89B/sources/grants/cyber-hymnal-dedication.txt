@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ശോധന ചെയ്ക എന്നുള്ളം ദേവാ"
+
+Page:     http://www.hymntime.com/tch/non/ml/s/e/a/r/search_me_o_God_ml.htm
+Archived: http://web.archive.org/web/20191031130254/http://www.hymntime.com:80/tch/non/ml/s/e/a/r/search_me_o_God_ml.htm
+
+Words credit: ജെ. എഡ്വിൻ ഓർ, 1936 (Search Me, O God). ന്യൂസീലാന്റിലെ ഗാര്വവാഹിയാ എന്ന സ്ഥലത്തെ ഒരു ഉണർവ്വ് യോഗത്തിൽ വച്ച് ഓർ അഞ്ചു മിനിട്ടു സമയം കൊണ്ട് ഈ ഗാനം കടലാസിൽ എഴുതി. സൈമണ്‍ സഖറിയ, 2018. public domain
+Music credit: മോർകാമ്പെ), ഫ്രെഡറിക്ക് സി. അട് കിൻസൺ, 1870 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows. UNRESOLVED: Translation of J. Edwin Orr, Search Me, O God (1936), still under copyright: the translator's public-domain dedication does not clear the original — needs the original owner's permission or takedown.
+
+Checked 2026-09-16 against the archived page.

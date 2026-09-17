@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "നിദ്ര കൊളളും വിത്തില്‍ നിന്നും പൂമരം ജനിക്കുന്നു"
+
+Page:     http://www.hymntime.com/tch/non/ml/h/y/m/n/hymn_of_promise_ml.htm
+Archived: http://web.archive.org/web/20180629181929/http://hymntime.com:80/tch/non/ml/h/y/m/n/hymn_of_promise_ml.htm
+
+Words credit: നേടലി എ. സ്ലീത്, 1986 (Hymn of Promise). സൈമണ്‍ സഖറിയ, 2010: 1996 ല്‍ എന്റെ മകന്‍ ജോ ഉതുപ്പ് 8 വയസ്സുള്ളപ്പോള്‍ ബ്ലൂമിങ്ങടന്‍ (ഇന്ത്യാന) യിലെ ഫസ്റ്റ്യുനൈറ്റടു മെത്തടിസ്റ്റ്പള്ളിയില്‍ ചെരൂബ് ഗായക സംഘത്തില്‍ നിന്നും പഠിച്ചു എന്നെ പഠിപ്പിച്ചതാണ് ഈ മനോഹര ഗാനം public domain
+Music credit: നേടലി എ. സ്ലീത് (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows. UNRESOLVED: Translation of Natalie Sleeth, Hymn of Promise (1986, words and tune), still under copyright: the translator's public-domain dedication does not clear the original — needs the original owner's permission or takedown.
+
+Checked 2026-09-16 against the archived page.

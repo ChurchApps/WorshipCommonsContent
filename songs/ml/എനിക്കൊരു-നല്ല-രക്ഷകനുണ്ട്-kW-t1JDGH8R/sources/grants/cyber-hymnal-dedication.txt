@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "എനിക്കൊരു നല്ല രക്ഷകനുണ്ട്"
+
+Page:     http://www.hymntime.com/tch/non/ml/e/v/e/r/everybody_may_know_ml.htm
+Archived: http://web.archive.org/web/20190909141104/http://www.hymntime.com/tch/non/ml/e/v/e/r/everybody_may_know_ml.htm
+
+Words credit: കേറി ഇ. ബ്രെക്ക്, "ഇന്റർ നാഷണൽ പ്രെയ്സ്" ൽ (ചിക്കാഗോ, ഇല്ലിനോയ്, ഇ.ഒ.എക്സെൽ, 1902), നമ്പർ 21, ആൾട്ടോ (Everybody May Know). സൈമണ്‍ സഖറിയ, 2014. public domain (പല്ലവി തർജ്ജിമ ചെയ്തത് അജ്ഞാതം)
+Music credit: എഡ്വേർഡ് ഒ. എക്സെൽ (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     },
     {
       "file": "sheetPdf.pdf",
@@ -51,6 +54,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cmpilato-public-domain.txt",
+      "url": "https://github.com/cmpilato/worship-music/blob/b09635b8887afab8a01936d22ddb1e9341f7b654/Christ_Is_Our_Cornerstone/README.md",
+      "acquired": "2026-09-16",
+      "sha256": "f559c0d63f12d025a55edbe20268a70062620e8d2b7ebb83ff923cbf18880633",
+      "licenseBasis": "cmpilato",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     }
   ]
 }

@@ -19,7 +19,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     },
     {
       "file": "sheetPdf.pdf",
@@ -30,6 +33,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy"
+    },
+    {
+      "file": "grants/cmpilato-public-domain.txt",
+      "url": "https://github.com/cmpilato/worship-music/blob/b09635b8887afab8a01936d22ddb1e9341f7b654/Where_You_Lead/README.md",
+      "acquired": "2026-09-16",
+      "sha256": "4ff5533ff45e811cd5921a25f549a96348d69478cb3010a9ad1fa5fa2af58853",
+      "licenseBasis": "cmpilato",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cmpilato-public-domain.txt"
     }
   ]
 }

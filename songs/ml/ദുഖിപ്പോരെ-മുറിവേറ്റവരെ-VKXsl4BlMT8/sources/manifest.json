@@ -19,7 +19,23 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20180517094421/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_ye_sinners_poor_and_needy_ml.htm",
+      "acquired": "2026-09-16",
+      "sha256": "60f84d096dc6e27bd0934d3538d76daa643b392d8ccb2300da041d8f1273f0c5",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

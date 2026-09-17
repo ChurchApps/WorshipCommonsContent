@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 1975",
+      "basis": "1975 text dedicated to the public domain on its Cyber Hymnal page (\"szabadon felhasználható\")",
       "source": "cyber-hymnal",
-      "review": "Published 1975, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20191114120745/http://www.hymntime.com:80/tch/non/hu/l/e/n/n/lennebar.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

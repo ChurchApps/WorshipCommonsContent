@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Kis Kezed, Kis Szíved"
+
+Page:     http://www.hymntime.com/tch/non/hu/k/i/s/k/kiskezed.htm
+Archived: http://web.archive.org/web/20211226070842/http://www.hymntime.com/tch/non/hu/k/i/s/k/kiskezed.htm
+
+Words credit: Augusta Larned, 1893 (Be Glad to Serve). Anna Piroska Williams, 2012 (public domain).
+Music credit: Solomon W. Straub (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

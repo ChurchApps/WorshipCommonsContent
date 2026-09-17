@@ -31,7 +31,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/open-hymnal-public-domain.txt"
     },
     {
       "file": "tune.abc",
@@ -62,6 +65,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/open-hymnal-public-domain.txt",
+      "url": "http://openhymnal.org/Abc/I_Place_My_Trust_In_God-Haly_Trust.abc",
+      "acquired": "2026-09-16",
+      "sha256": "3a047492d4e07e874055ff7bc3825a4b9d15a970c0bc17e9861d2640bfbec5fa",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/open-hymnal-public-domain.txt"
     }
   ]
 }

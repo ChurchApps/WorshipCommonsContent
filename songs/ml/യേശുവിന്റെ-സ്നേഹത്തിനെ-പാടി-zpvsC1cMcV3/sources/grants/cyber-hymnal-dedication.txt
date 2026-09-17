@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "യേശുവിന്റെ സ്നേഹത്തിനെ പാടി"
+
+Page:     http://www.hymntime.com/tch/non/ml/w/h/e/n/when_we_all_get_to_heaven_ml.htm
+Archived: http://web.archive.org/web/20191031130054/http://www.hymntime.com:80/tch/non/ml/w/h/e/n/when_we_all_get_to_heaven_ml.htm
+
+Words credit: ഇലൈസ്സ ഇ. ഹിവിറ്റ്, പെന്റിക്കൊസ്റ്റൽ പ്രെയ്സസ്-ൽ വില്ല്യം കിർക്ക്പാട്രിക്ക് & ഹെൻട്രി എൽ ഗിൽമോർ (ഫിയഫിലദൽഫിയ, പെൻസിൽവാനിയ: ഹാൾ-മേക്ക് കമ്പനി, 1898) (When We All Get to Heaven). സൈമണ്‍ സഖറിയ, 2014. public domain
+Music credit: എമിലി ഡി. വിത്സണ്‍ (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

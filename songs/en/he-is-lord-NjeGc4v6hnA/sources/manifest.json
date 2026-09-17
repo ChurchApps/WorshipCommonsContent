@@ -31,7 +31,23 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
+    },
+    {
+      "file": "grants/hymnary-public-domain.txt",
+      "url": "https://hymnary.org/text/he_is_lord_he_is_lord",
+      "acquired": "2026-09-16",
+      "sha256": "da6a8b9f60000198b24aa9ab40fcbac96bdfed6926c787a42affe82f8664c4fa",
+      "licenseBasis": "wc-seed",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     }
   ]
 }

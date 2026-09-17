@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ആരാണിവര്‍ ശൈത്യ തിരയിന്മേല്‍"
+
+Page:     http://www.hymntime.com/tch/non/ml/w/h/o/w/who_who_are_these_ml.htm
+Archived: http://web.archive.org/web/20190412175409/http://www.hymntime.com/tch/non/ml/w/h/o/w/who_who_are_these_ml.htm
+
+Words credit: ടുളിയസ് സി. ഒ' കെയിന്‍, പ്രഷ്യസ് ഹിംസില്‍ നിന്നും. (ഫിലദല്‍ഫിയ, പെന്‍സില്‍വാനിയ, ബഥനി സാബത്ത് സ്കൂള്‍, 1870) (Washed in the Blood of the Lamb). ഐറ സങ്കി യുടെ സേക്രഡ് സോങ്ങ് ആന്റ്; സോളോസില്‍ നിന്നും. റവ. ആല്‍ഫ്രെഡ് കുക്കുമേന്‍ ഈ ഗാനത്തിന്റെ തലവാചകമായി ഇങ്ങനെ എഴുതിയിട്ടുണ്ട്. കുഞ്ഞാടിന്റെ രക്തത്താല്‍ കഴുകപ്പെട്ടു ഞാന്‍ സ്വര്‍ഗ്ഗ കവാടത്തിലൂടെ ഉലാത്തുന്നു. സൈമണ്‍ സഖറിയ, 2013. public domain
+Music credit: ടുളിയസ് സി. ഒ' കെയിന്‍ (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

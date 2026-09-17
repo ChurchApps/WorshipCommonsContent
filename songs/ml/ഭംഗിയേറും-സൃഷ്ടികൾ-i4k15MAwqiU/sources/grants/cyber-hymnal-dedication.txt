@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ഭംഗിയേറും സൃഷ്ടികൾ"
+
+Page:     http://www.hymntime.com/tch/non/ml/a/l/l/t/all_things_bright_and_beautiful_ml.htm
+Archived: http://web.archive.org/web/20191110201429/http://www.hymntime.com:80/tch/non/ml/a/l/l/t/all_things_bright_and_beautiful_ml.htm
+
+Words credit: സിസിൽ എഫ്. അലക്സാണ്ടർ, ഹിംസ് ഫോർ ലിറ്റിൽ ചിൽഡ്രൻ, 1848 (All Things Bright and Beautiful). അയർലണ്ടിലെ സിൽഗൊ എന്ന സ്ഥലത്തിനടുത്തുള്ള മാർക്രീ കൊട്ടാരത്തിൽ വച്ച് ആണു അലക്സാണ്ടർ ഈ വരികൾ എഴുതിയത് എന്ന് കരുതപ്പെടുന്നു. സൈമണ്‍ സഖറിയ, 2015. public domain
+Music credit: ബ്രൈറ്റ് ആന്റ് ബ്യൂട്ടിഫുൾ, വില്ല്യം എച്ച്. മോങ്ക് (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

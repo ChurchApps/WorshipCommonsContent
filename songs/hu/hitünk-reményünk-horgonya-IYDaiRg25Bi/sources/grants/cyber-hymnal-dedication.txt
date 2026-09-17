@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Hitünk, Reményünk Horgonya"
+
+Page:     http://www.hymntime.com/tch/non/hu/h/i/t/u/hitunk.htm
+Archived: http://web.archive.org/web/20191021110312/http://www.hymntime.com:80/tch/non/hu/h/i/t/u/hitunk.htm
+
+Words credit: Priscilla J. Owens, 1882 (We Have an Anchor). Anna Piroska Williams, 2011 (public domain).
+Music credit: William J. Kirkpatrick (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

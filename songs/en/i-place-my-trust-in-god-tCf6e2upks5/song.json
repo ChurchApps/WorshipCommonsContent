@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2007",
+      "basis": "Writers' own public-domain verification (Dorothy Amstutz 2011-07-30, Loren J. Kropf 2011-08-19) in the Open Hymnal ABC header",
       "source": "open-hymnal",
-      "review": "Published 2007, after the US PD cutoff; PD claim rests on open-hymnal's dedication — verify"
+      "url": "http://openhymnal.org/Abc/I_Place_My_Trust_In_God-Haly_Trust.abc",
+      "evidence": "grants/open-hymnal-public-domain.txt"
     },
     "tune": {
       "license": "PD",

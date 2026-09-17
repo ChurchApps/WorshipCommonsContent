@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "യേശുവി-ലും തൻ വാക്കിലും"
+
+Page:     http://www.hymntime.com/tch/non/ml/t/i/s/s/tis_so_sweet_to_trust_in_Jesus_ml.htm
+Archived: http://web.archive.org/web/20211226051745/http://www.hymntime.com/tch/non/ml/t/i/s/s/tis_so_sweet_to_trust_in_Jesus_ml.htm
+
+Words credit: ലൂയീസ എം.ആർ. സ്റ്റെഡ് 'സോങ്ങ്‌സ് ഓഫ് ട്രയംഫ്'-ൽ നിന്നും 1882 (’Tis So Sweet to Trust in Jesus). സ്റ്റെഡ് തന്റെ ഭർത്താവ് മുങ്ങിമരിക്കുന്നതു നേരിൽ കണ്ടതിനു ശേഷം ഈ വരികൾ എഴുതി എന്നു പറയപ്പെടുന്നു. സൈമണ്‍ സഖറിയ, 2017. public domain
+Music credit: :വില്യം ജെ. കിർപേട്രിക് (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

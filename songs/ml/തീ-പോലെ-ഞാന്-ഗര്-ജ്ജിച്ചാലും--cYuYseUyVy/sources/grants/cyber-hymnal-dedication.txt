@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "തീ പോലെ ഞാന്‍ ഗര്‍ജ്ജിച്ചാലും"
+
+Page:     http://www.hymntime.com/tch/non/ml/g/i/f/t/gift_of_love_ml.htm
+Archived: http://web.archive.org/web/20191022102551/http://www.hymntime.com:80/tch/non/ml/g/i/f/t/gift_of_love_ml.htm
+
+Words credit: ഹാല്‍ എച്ച്. ഹോപ്‌സണ്‍, 1972 (The Gift of Love). സൈമണ്‍ സഖറിയ, 2012. public domain
+Music credit: പുരാതനമായ ഇംഗ്ലീഷ് രാഗം, ക്രമീകരണം ചെയ്തതു ഹാല്‍ എച്ച്. ഹോപ്‌സണ്‍, 1972 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows. UNRESOLVED: Translation of Hal H. Hopson, The Gift of Love (1972), still under copyright: the translator's public-domain dedication does not clear the original — needs the original owner's permission or takedown.
+
+Checked 2026-09-16 against the archived page.

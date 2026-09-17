@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Siess, El Ne Késs"
+
+Page:     http://www.hymntime.com/tch/non/hu/s/i/e/s/siesseln.htm
+Archived: http://web.archive.org/web/20191018010409/http://www.hymntime.com/tch/non/hu/s/i/e/s/siesseln.htm
+
+Words credit: Névtelen, 1892 (Life at Best Is Very Brief). Anna Piroska Williams, 2011 (public domain).
+Music credit: William J. Kirkpatrick, 1885 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Ó, Ember, Halld, Amíg Lehet"
+
+Page:     http://www.hymntime.com/tch/non/hu/o/e/m/b/oember.htm
+Archived: http://web.archive.org/web/20211226051530/http://www.hymntime.com/tch/non/hu/o/e/m/b/oember.htm
+
+Words credit: Orlando Grinnell, 1885 (Christ Is Waiting). Anna Piroska Williams, 2011 (public domain) (🔊 pdf nwc).
+Music credit: 
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

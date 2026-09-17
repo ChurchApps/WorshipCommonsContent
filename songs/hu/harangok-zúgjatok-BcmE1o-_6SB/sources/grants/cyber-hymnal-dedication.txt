@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Harangok, Zúgjatok!"
+
+Page:     http://www.hymntime.com/tch/non/hu/h/a/r/n/harngzug.htm
+Archived: http://web.archive.org/web/20181130122318/http://www.hymntime.com:80/tch/non/hu/h/a/r/n/harngzug.htm
+
+Words credit: S. Minerva Boyce, 1890 (Ring, Ye Bells). Anna Piroska Williams, 2011 (public domain).
+Music credit: Elisha A. Hoffman (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

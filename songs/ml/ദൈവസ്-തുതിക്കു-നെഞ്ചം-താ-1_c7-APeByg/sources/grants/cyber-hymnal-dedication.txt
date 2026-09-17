@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ദൈവസ്‌തുതിക്കു നെഞ്ചം താ"
+
+Page:     http://www.hymntime.com/tch/non/ml/o/f/o/r/o_for_a_heart_to_praise_my_God_ml.htm
+Archived: http://web.archive.org/web/20191031130729/http://www.hymntime.com:80/tch/non/ml/o/f/o/r/o_for_a_heart_to_praise_my_God_ml.htm
+
+Words credit: ചാൾസ് വെസ്ലി, ഹിംസ് ആന്റ് സേക്രഡ് പോംസ്, 1742 (O for a Heart to Praise My God). *5ഉം 6ഉം 7ഉം ചരണങ്ങൾ ഇംഗ്ലീഷില്‍ നിന്നും മലയാളത്തിലേക്ക് വിവര്‍ത്തനം ചെയ്തതു സൈമണ്‍ സഖറിയ, 2017. public domain
+Music credit: റിച്ച്മണ്ട് (ഹവീസ്) തോമസ് ഹാവീസ്, കാർമിന ക്രിസ്റ്റോ 1792 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -14,9 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2012",
+      "basis": "2012 text dedicated to the public domain on its Cyber Hymnal page (\"szabadon felhasználható\")",
       "source": "cyber-hymnal",
-      "review": "Published 2012, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "url": "http://web.archive.org/web/20211226052243/http://www.hymntime.com/tch/non/hu/e/r/t/e/ertedemi.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

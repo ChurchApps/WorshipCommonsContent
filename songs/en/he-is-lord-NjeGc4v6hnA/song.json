@@ -14,9 +14,11 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 1970",
+      "basis": "Hymnary.org lists Public Domain (anonymous); Marvin Frey claims copyright and Steve Vest claims authorship (1969)",
       "source": "wc-seed",
-      "review": "Published 1970, after the US PD cutoff; PD claim rests on wc-seed's dedication — verify"
+      "review": "Contested: Hymnary says Public Domain, but Marvin Frey claims copyright and Steve Vest claims authorship (1969) — decide",
+      "url": "https://hymnary.org/text/he_is_lord_he_is_lord",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": null,
     "arrangement": null,

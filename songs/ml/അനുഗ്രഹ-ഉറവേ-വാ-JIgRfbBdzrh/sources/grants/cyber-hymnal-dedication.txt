@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "അനുഗ്രഹ ഉറവേ വാ"
+
+Page:     http://www.hymntime.com/tch/non/ml/c/o/m/e/come_Thou_fount_of_every_blessing_ml.htm
+Archived: http://web.archive.org/web/20190401145527/http://hymntime.com/tch/non/ml/c/o/m/e/come_Thou_fount_of_every_blessing_ml.htm
+
+Words credit: റോബർട്ട് റോബിൻസണ്‍, 1758 (Come, Thou Fount of Every Blessing); അദ്ദേഹത്തിന്റെ 'എ കലക്ഷണ്‍ ഓഫ് ഹിംസ് യൂസ്ഡ് ബൈ ചർച്ച് ഓഫ് ക്രൈസ്റ്റ് ഇൻ ഏയ്ഞ്ചൽ വേലി, ബിഷോപ് ഗേയ്റ്റ്' -ൽ പ്രത്യക്ഷപ്പെട്ടു.1759. സൈമണ്‍ സഖറിയ, 2014. public domain
+Music credit: നെറ്റിൾട്ടണ്‍ വയറ്റ്സ് റിപോസിറ്ററി ഓഫ് സേക്രഡ് മ്യൂസിക്ക്, രണ്ടാം ഭാഗം ജോണ്‍ വയറ്റ്സ്, 1813 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

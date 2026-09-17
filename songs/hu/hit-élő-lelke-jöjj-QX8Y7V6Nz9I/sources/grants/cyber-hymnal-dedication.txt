@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Hit Élő Lelke, Jöjj!"
+
+Page:     http://www.hymntime.com/tch/non/hu/h/i/t/e/hitelole.htm
+Archived: http://web.archive.org/web/20190328154006/http://www.hymntime.com/tch/non/hu/h/i/t/e/hitelole.htm
+
+Words credit: Charles Wesley, 1746 (Spirit of Faith, Come Down). Anna Piroska Williams, 2009 (public domain).
+Music credit: Bealoth Lowell Mason, Sacred Harp, 1843 (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

@@ -14,9 +14,11 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2013",
+      "basis": "Text dedicated to the public domain on its Cyber Hymnal page (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\")",
       "source": "cyber-hymnal",
-      "review": "Published 2013, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "review": "Translation of Henry H. Tweedy, O Spirit of the Living God (1933), still under copyright: the translator's public-domain dedication does not clear the original — needs the original owner's permission or takedown",
+      "url": "http://web.archive.org/web/20191031002438/http://www.hymntime.com:80/tch/non/ml/o/s/p/i/o_Spirit_of_the_living_God_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

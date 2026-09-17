@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "ദൈവവാക്കിൽ വിശ്വസിച്ചു നില്കുന്നു"
+
+Page:     http://www.hymntime.com/tch/non/ml/s/t/a/n/standing_on_the_promises_ml.htm
+Archived: http://web.archive.org/web/20190412180027/http://www.hymntime.com/tch/non/ml/s/t/a/n/standing_on_the_promises_ml.htm
+
+Words credit: ആർ. കെൽസോ കാർട്ടർ, ജോണ്‍ സ്വേനി യുംകെൽസോ കാർട്ടറും ഒരുമിച്ച് രചിച്ച 'സോങ്ങ്സ് ഓഫ് പെർഫക്റ്റ് ലവ്' ൽ നിന്നും. പെൻസിൽവാനിയ: ജോണ്‍ ജെ.ഹൂഡ്, 1886) (Standing on the Promises) (🔊 pdf nwc). സൈമണ്‍ സഖറിയ, 2014. public domain
+Music credit: 
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

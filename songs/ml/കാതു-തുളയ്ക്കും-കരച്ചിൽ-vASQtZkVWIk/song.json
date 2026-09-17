@@ -14,9 +14,11 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "published 2015",
+      "basis": "Text dedicated to the public domain on its Cyber Hymnal page (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\")",
       "source": "cyber-hymnal",
-      "review": "Published 2015, after the US PD cutoff; PD claim rests on cyber-hymnal's dedication — verify"
+      "review": "Words (Crosby 1915) and translation are public domain, but the tune is Joe Uthup, 2014, with no public-domain marker — confirm or drop the tune",
+      "url": "http://web.archive.org/web/20190621135440/http://www.hymntime.com/tch/non/ml/r/i/g/h/right_shall_rule_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

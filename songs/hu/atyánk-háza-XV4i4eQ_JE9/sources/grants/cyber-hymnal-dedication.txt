@@ -1,0 +1,13 @@
+The Cyber Hymnal: public-domain dedication for "Atyánk Háza"
+
+Page:     http://www.hymntime.com/tch/non/hu/a/t/y/a/atyank.htm
+Archived: http://web.archive.org/web/20181014153450/http://www.hymntime.com:80/tch/non/hu/a/t/y/a/atyank.htm
+
+Words credit: Arthur T. Pierson, 1877 (Forever with Jesus There). Anna Piroska Williams, 2010 (public domain). Arthur T. Pierson Müller György életrajzírója volt, és ő helyettesítette C. H. Spurgeon néhány hónapig annak utolsó betegsége alatt a londoni Tabernákuulum imaházban.
+Music credit: James McGranahan (🔊 pdf nwc).
+
+"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
+fills it with the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable).
+The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+
+Checked 2026-09-16 against the archived page.

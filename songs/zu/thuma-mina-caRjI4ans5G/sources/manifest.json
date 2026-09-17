@@ -31,7 +31,23 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
+    },
+    {
+      "file": "grants/hymnary-public-domain.txt",
+      "url": "https://hymnary.org/text/thuma_mina_thuma_mina",
+      "acquired": "2026-09-16",
+      "sha256": "a78d9e86431f50efb451877a8b0300dc02a95d663aabcb686b173a9b7eaca115",
+      "licenseBasis": "wc-seed",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     }
   ]
 }
