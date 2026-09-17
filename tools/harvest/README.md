@@ -26,6 +26,7 @@ and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-
 | `import-mutopia.mjs` | Mutopia hymn SATB letter PDFs → sheetPdf on matching PD songs; Foundation as CC-BY-SA 2.0 |
 | `import-writer-portraits.ts` | Wikipedia/Commons portraits + bios |
 | `import-videos.ts` + `video-report.txt` | Curated YouTube performances |
+| `fill-lyrics-only-chords.py` | Legal chord-fill for remaining lyrics-only rows: inherit from a charted parent (or TCH-slug English original), attach Open Hymnal PD ABC (`C: public domain`; skip worship-only Dumont/Medcalf/Bird), then Cyber Hymnal MusicXML via Hymnary. Does not scrape SongSelect/UG or HymnSite sequences. `--dry-run`, `--skip-hymnary`. After a fill: `node tools/generate.mjs` then `node tools/build-catalog.mjs` && `node tools/validate.mjs` |
 | `backfill-chords.py`, `backfill-verses.ts` | Chords/verses derived from the ABC corpus |
 | `backfill-coverage.py` | MusicXML harmony → ChordPro + MIDI + karaoke; `--partial` copies verse-1 chords onto later verses (reflows syllable-broken lines) |
 | `scan-coverage.mjs` | Catalog report: chords / partial chords / MIDI / karaoke / PDF gaps |
