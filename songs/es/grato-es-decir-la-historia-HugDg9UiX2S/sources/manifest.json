@@ -31,7 +31,10 @@
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/hymnary-public-domain.txt",
+      "url": "https://hymnary.org/text/grato_es_contar_la_historia",
+      "acquired": "2026-09-17",
+      "sha256": "2ce76f7bb32c113eef1b95de0ec868436dd7dc9a09fb622cd154051c41e652d6",
+      "licenseBasis": "hymnary",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "public-domain",
+      "evidence": "grants/hymnary-public-domain.txt"
     }
   ]
 }

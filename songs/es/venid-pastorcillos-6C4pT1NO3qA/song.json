@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "hymnary",
-      "source": "hymnary"
+      "basis": "Francisco Martínez de la Rosa (1787-1862); Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/venid_pastorcillos_venid_a_adorar",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": {
       "license": "PD",

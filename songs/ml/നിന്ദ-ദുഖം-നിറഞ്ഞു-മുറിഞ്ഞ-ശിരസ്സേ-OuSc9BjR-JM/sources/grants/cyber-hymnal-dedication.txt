@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "നിന്ദ ദുഖം നിറഞ്ഞു മുറിഞ്ഞ ശിരസ്സേ!"
+The Cyber Hymnal: permission basis for "നിന്ദ ദുഖം നിറഞ്ഞു മുറിഞ്ഞ ശിരസ്സേ!"
 
 Page:     http://www.hymntime.com/tch/non/ml/o/s/a/c/o_sacred_head_now_wounded_ml.htm
 Archived: http://web.archive.org/web/20180825060713/http://www.hymntime.com:80/tch/non/ml/o/s/a/c/o_sacred_head_now_wounded_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20180825060713/http://www.hymntime.com:80/t
 Words credit: ബർണാർഡ് ഓഫ് ക്ലെയർ വൊ, 1153 ൽ എഴുതിയതു. (സാൽവെ ക്പൂട്ട് ക്രൂവൽതാറ്റും ); ലാറ്റിൻ ഭാഷയിൽ നിന്നും ജർമ്മൻ ഭാഷയിലേക്ക് തർജ്ജിമ ചെയ്തത് പോൾ ഗേർഹാർട്ട്, 1656 (ഓ ഹൌപ്റ്റ് ഫൊൽ ബ്ലൂറ്റ് ഉണ്റ്റ് വ്വുണ്ടൻ),ലാറ്റിനിൽ നിന്നും ഇംഗ്ലീഷിലേക്കു തർജ്ജിമ ചെയ്തത് ജെയിംസ് ഡബ്ല്യൂ. അലക്സാണ്ടർ, 1830. കുറിപ്പ്: അലക്സാണ്ടറുടെ വ്യത്യസ്ത തർജ്ജിമകൾ പ്രസിദ്ധീകരിക്കപ്പെട്ടിട്ടുണ്ട്. താഴെ കൊടുത്ത തർജ്ജിമ അദ്ദേഹത്തിന്റെ മരണാന്തരം 'ദി ബ്രെയ്ക്കിങ്ങ് ക്രൂസിബിൾ" ൽ നിന്നും ആണു. 1861, പേജുകൾ 7-10. സൈമണ്‍ സഖറിയ, 2013. public domain
 Music credit: പാഷൻ കൊരേൽ, ഐറാ ഡി. സാങ്കി ലുസ്റ്റ്ഗാർട്ടെൻ നോയ്ർ ട്വൈചെർ ഗിസേങ്ങ് 1601; ക്രമീകരണം ചെയ്തത് യൊഹാൻ എസ്സ്. ബാഹ് (🔊 pdf nwc). മയിൻ ഗമ്യൂട്ട് ഇസ്റ്റ് മീയർ ഫെർവിയർട്ട് അയിൻ യുങ്ങ് ഫ്രൗ സാർട്ട് " എന്ന മതേതരവരികൾക്കാണു ഹസലർ ആദ്യമായി ഈ രാഗം കൊടുത്തതു.
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

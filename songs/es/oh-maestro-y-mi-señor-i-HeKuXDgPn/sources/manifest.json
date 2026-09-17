@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190203202549/http://www.hymntime.com/tch/non/es/o/h/m/a/ohmaesms.htm",
       "acquired": null,
       "sha256": "70d203023565f9d06ad7262d25ac79aa4d6e09850907f748a745885e1460819d",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190203202549/http://www.hymntime.com/tch/non/es/o/h/m/a/ohmaesms.htm",
+      "acquired": "2026-09-17",
+      "sha256": "4eb0f2ce1dbf85b4da79a1f8fb68f1521bab9cf4d622f48d964c9bd0ea108dc2",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

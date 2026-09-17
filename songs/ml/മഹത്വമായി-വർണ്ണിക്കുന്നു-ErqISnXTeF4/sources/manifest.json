@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191021110327/http://www.hymntime.com:80/tch/non/ml/g/l/o/r/glorious_things_of_thee_are_spoken_ml.htm",
       "acquired": null,
       "sha256": "da15968f96326950de2df57afc0d84e03a1817f49881e49a0cf623083816f6c3",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191021110327/http://www.hymntime.com:80/tch/non/ml/g/l/o/r/glorious_things_of_thee_are_spoken_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "f2fe447520bd593bfbafef5521dfa19184811ae6f136f80cb06416d45d6baafe",
+      "acquired": "2026-09-17",
+      "sha256": "e69c06058b5f57f9ba0fa39de13baa7422255aecfe4b4befb8f7398c0ed7f566",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328153642/http://www.hymntime.com/tch/non/ml/a/l/l/t/all_the_way_my_savior_leads_me_ml.htm",
       "acquired": null,
       "sha256": "36397d07ad5c407c3609afde9d0e59961b272ece2a3a5b2bed78ba96294b8e5a",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190328153642/http://www.hymntime.com/tch/non/ml/a/l/l/t/all_the_way_my_savior_leads_me_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d7720aa831f08a82c31c61c45f64f9a65b091aa2aef1d80f70cf5ba3bf89115f",
+      "acquired": "2026-09-17",
+      "sha256": "2fd70074d483f8c001dbe419812c627ba8329cbe8608f132896217c364475ac1",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

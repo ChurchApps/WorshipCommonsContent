@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412180133/http://www.hymntime.com/tch/non/hu/a/t/e/n/atengerp.htm",
       "acquired": null,
       "sha256": "6eb98a8e169a8cc78cca6b31bdf41bbaf9205f4ff011cf98042e2a0661496747",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412180133/http://www.hymntime.com/tch/non/hu/a/t/e/n/atengerp.htm",
-      "acquired": "2026-09-16",
-      "sha256": "48d9f636d28cd53e9c9b73e1f0629a9714305d0e0fb276b98c6fee002ab5d3cb",
+      "acquired": "2026-09-17",
+      "sha256": "c593f16c03aa3a5a6ca329a5aac9b5207cb52f132d4701dded1f686b9a31c3c3",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

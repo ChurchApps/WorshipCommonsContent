@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175248/http://www.hymntime.com/tch/non/ml/c/h/i/l/child_in_the_manger_ml.htm",
       "acquired": null,
       "sha256": "de7d75f23874940a2b2913d3705c8d09a180c3dba266f473ae34208245489149",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175248/http://www.hymntime.com/tch/non/ml/c/h/i/l/child_in_the_manger_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "269455e0907328db85f1c0cdcb2d0def7f189cffc96c4105ab745a387e24aac2",
+      "acquired": "2026-09-17",
+      "sha256": "d888bf8e95407b4e4fb405fc9bc6045e94bf78e0fea2542afac1965e6a62d794",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

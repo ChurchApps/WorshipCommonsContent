@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125959/http://www.hymntime.com:80/tch/non/ml/l/e/a/d/lead_us_heavenly_father_edmeston_ml.htm",
       "acquired": null,
       "sha256": "83731e42b23d653316200bcdf8935e8c13ee09a85e692f187c9da6b861213db3",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125959/http://www.hymntime.com:80/tch/non/ml/l/e/a/d/lead_us_heavenly_father_edmeston_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "9258c65051a53dbd35ba9007df7703ae78f80caf24c8356420d5b02824ea8787",
+      "acquired": "2026-09-17",
+      "sha256": "b3b0859d4f794d17c7b057b9f826ab238e55c91a091ef489ec55f160a2bf84d9",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

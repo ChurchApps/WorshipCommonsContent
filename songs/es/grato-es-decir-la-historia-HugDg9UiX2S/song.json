@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "hymnary",
-      "source": "hymnary"
+      "basis": "Tr. J. B. Cabrera (1837-1916) of Kate Hankey's 1866 text; Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/grato_es_contar_la_historia",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": {
       "license": "PD",

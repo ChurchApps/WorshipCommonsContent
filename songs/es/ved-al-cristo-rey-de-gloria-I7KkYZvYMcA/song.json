@@ -3,7 +3,7 @@
   "title": "Ved al Cristo, Rey de Gloria",
   "writer": "Thomas Kelly",
   "writerRef": "thomas-kelly",
-  "year": null,
+  "year": 1921,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; Spanish of Thomas Kelly printed 1921; tune Stebbins 1878; Hymnary lists both Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190922203112/http://www.hymntime.com/tch/non/es/v/e/d/a/vedalcri.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

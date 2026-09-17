@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412173848/http://www.hymntime.com/tch/non/hu/h/a/l/l/halleluja.htm",
       "acquired": null,
       "sha256": "621fcbe095a8762440d97c80911e1431af720f3f9debff01c29df1eee49bfcfd",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412173848/http://www.hymntime.com/tch/non/hu/h/a/l/l/halleluja.htm",
-      "acquired": "2026-09-16",
-      "sha256": "dbe69c8fd9696818f9ecd9f2f53d9d3e1c733705f9a4697ea84ca05228ca1b66",
+      "acquired": "2026-09-17",
+      "sha256": "61d614cc19379143350fd4cda2b3d4e6ccdb08aa0647b40419fdb01664fb59e5",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181224090209/http://www.hymntime.com:80/tch/non/ml/i/n/t/h/in_the_bleak_midwinter_ml.htm",
       "acquired": null,
       "sha256": "06c317308e316f967a8e9ad3d227fd07c4228b9d030177bb647ca909c1bd63c5",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181224090209/http://www.hymntime.com:80/tch/non/ml/i/n/t/h/in_the_bleak_midwinter_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "98b7569afa5bff7820a0878b986b80549c4f727e1eb1f58fecedf5b2041bf2f7",
+      "acquired": "2026-09-17",
+      "sha256": "279bc0859fae887a48e09fd3d757741adf76f38ed7f3617aac004f11b3d6b834",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

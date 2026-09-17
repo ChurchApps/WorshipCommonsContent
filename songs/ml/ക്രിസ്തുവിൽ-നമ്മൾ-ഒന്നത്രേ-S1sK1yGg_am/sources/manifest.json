@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125657/http://www.hymntime.com:80/tch/non/ml/i/n/c/h/r/in_Christ_there_is_no_east_or_west_ml.htm",
       "acquired": null,
       "sha256": "0dda1f7d76b8195e7525e5834ed42968fd366ec4998096b54e37b7b3ae23b20d",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125657/http://www.hymntime.com:80/tch/non/ml/i/n/c/h/r/in_Christ_there_is_no_east_or_west_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "3c2c729e43544ca1a1c9dc210cecd1b03cbccdf95f742c74a50d40faf99e1e02",
+      "acquired": "2026-09-17",
+      "sha256": "d0de6398d142a1638b9c8d2b6a6da71e768f0cdce8eebd776dafcbc4b528d84a",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

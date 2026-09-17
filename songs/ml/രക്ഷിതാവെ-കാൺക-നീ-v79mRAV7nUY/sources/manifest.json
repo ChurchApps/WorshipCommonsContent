@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328153946/http://www.hymntime.com/tch/non/ml/g/o/t/o/go_to_dark_gethsemane_ml.htm",
       "acquired": null,
       "sha256": "d261ef44de8d0d71234110d280facb18f64cd98052768e6d79d3e3ca7ff7872c",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190328153946/http://www.hymntime.com/tch/non/ml/g/o/t/o/go_to_dark_gethsemane_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "2d5075a913a6d1b5e4fd00f4de584832450ed392e259884ebd47daf0604463ef",
+      "acquired": "2026-09-17",
+      "sha256": "9ab87f18a982f73d8269d3c05dcaf1c06f0b0c86bed0612d2259cba6e70a573d",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226070841/http://www.hymntime.com/tch/non/hu/i/t/m/e/itmester.htm",
       "acquired": null,
       "sha256": "cfddb457580a3efce37e327d9f160150e83975f70c7f30e699e4a72a2dc992d4",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226070841/http://www.hymntime.com/tch/non/hu/i/t/m/e/itmester.htm",
-      "acquired": "2026-09-16",
-      "sha256": "5471b28fc575f31a5e2117e22497d9aa6f246ba56f556a4ca4f76b0a0081af0f",
+      "acquired": "2026-09-17",
+      "sha256": "a24c944388960fa369cc0317a01271e6049b9c7a4461be7afb1a68e0010b881b",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125213/http://www.hymntime.com:80/tch/non/ml/l/o/v/e/love_of_God_ml.htm",
       "acquired": null,
       "sha256": "86eba0dffa1ccf14bea862273d1ed58170f1499a436a7417e500e2c2d09a3293",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125213/http://www.hymntime.com:80/tch/non/ml/l/o/v/e/love_of_God_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "a83db6fd2ca0a5ea89e1bfa81e1bba336242f2c07bbb72a8bd1b37a56b9ca1de",
+      "acquired": "2026-09-17",
+      "sha256": "3df68fcd44c2b9f4d482e367986569d2f7a90c23d5b910fdaca3505bb3a20388",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

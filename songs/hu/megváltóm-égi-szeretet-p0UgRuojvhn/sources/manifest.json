@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226062532/http://www.hymntime.com/tch/non/hu/m/e/g/v/megvegi.htm",
       "acquired": null,
       "sha256": "ad1ccb4ece8c2899d10c0e19cc1af0f4291b74e1cd0c2a9f6188d4e29375442a",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226062532/http://www.hymntime.com/tch/non/hu/m/e/g/v/megvegi.htm",
-      "acquired": "2026-09-16",
-      "sha256": "3d20ed6877517070dfbc771c93651a7751bc7df02358d62c82ca2b217a402c4c",
+      "acquired": "2026-09-17",
+      "sha256": "50c82647fe04b375fa7093a271fae2e67b4dcbe35c2b5b1281bc8aa3293b4e61",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

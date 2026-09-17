@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125113/http://www.hymntime.com:80/tch/non/ml/a/l/l/c/all_creatures_of_our_God_and_king_ml.htm",
       "acquired": null,
       "sha256": "a82cde5b390b2fdd9919ca69cd35d4a9cf352aa68b490900abaeecceac4d11ff",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125113/http://www.hymntime.com:80/tch/non/ml/a/l/l/c/all_creatures_of_our_God_and_king_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "a7b064e543490d8d5006926fd9dea06857e93a7a97f831c2358d1c27f7390d29",
+      "acquired": "2026-09-17",
+      "sha256": "ae7fd8487a7ce5dd46c3df83b433ddada6b4cfa3a205912d9298bedc862d50f3",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181003201431/http://www.hymntime.com:80/tch/non/ml/b/e/u/l/beulah_land_ml.htm",
       "acquired": null,
       "sha256": "1ed3c3e9d06344597547d0b69c407a6efed5e80f02828e2e02ed5b14808a4811",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181003201431/http://www.hymntime.com:80/tch/non/ml/b/e/u/l/beulah_land_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "617b254cfad3b256da3e450a9fb15d634d8b729344b2528ae278e6ece48d1ddd",
+      "acquired": "2026-09-17",
+      "sha256": "920cc7e50cc0ed4ac668dd49ed9a3ba3a9b2a2e8b8599e91d1ce802c7f8bbd52",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

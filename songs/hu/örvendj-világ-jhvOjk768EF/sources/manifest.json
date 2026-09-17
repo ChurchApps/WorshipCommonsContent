@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180918112621/http://www.hymntime.com:80/tch/non/hu/o/r/v/e/orvendj.htm",
       "acquired": null,
       "sha256": "8dd4ba82153e7eca4ebf4c8cfafd7d900eef02241f1a905509d6460e6e137358",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180918112621/http://www.hymntime.com:80/tch/non/hu/o/r/v/e/orvendj.htm",
-      "acquired": "2026-09-16",
-      "sha256": "77371ce5e04d249223f874b45f8186570c73ddc4d5250bca5d5d641eb0ff9644",
+      "acquired": "2026-09-17",
+      "sha256": "56dac01198113b3f69c77036faf6bce7b752ff01806f4a365546320a27d89b82",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

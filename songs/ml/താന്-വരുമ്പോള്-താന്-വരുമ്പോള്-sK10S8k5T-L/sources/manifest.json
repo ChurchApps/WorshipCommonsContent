@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191002235533/http://www.hymntime.com:80/tch/non/ml/w/h/e/n/when_He_cometh_ml.htm",
       "acquired": null,
       "sha256": "4b3bd35c5a44c87727970719a6a449799e5028e2ad0b06995a9a8b243ef16c46",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191002235533/http://www.hymntime.com:80/tch/non/ml/w/h/e/n/when_He_cometh_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "2ef533099764bb9464dad14a5aa6bcd52e79d1c8b8f7b02ad508afa8482391d4",
+      "acquired": "2026-09-17",
+      "sha256": "36e6a2945e0b84b418911872d20e58775287b7cd3e9fd6a87109bbaf13186281",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

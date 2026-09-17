@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191018010409/http://www.hymntime.com/tch/non/hu/s/i/e/s/siesseln.htm",
       "acquired": null,
       "sha256": "469564d07efcd8e3527efefb16191e3fd890685e1871e9b460d125ab3bee6721",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191018010409/http://www.hymntime.com/tch/non/hu/s/i/e/s/siesseln.htm",
-      "acquired": "2026-09-16",
-      "sha256": "35f06e63be5dfef3dca47b52611433a8ad4a292fb6c971777d435b5e4c18dd87",
+      "acquired": "2026-09-17",
+      "sha256": "043167814e47275e0e605fc38171607aa714ae6d702849475bdf1acd18a33754",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

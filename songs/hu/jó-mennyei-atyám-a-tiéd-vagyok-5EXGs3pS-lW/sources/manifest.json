@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191022051905/http://www.hymntime.com:80/tch/non/hu/j/o/m/e/jomennye.htm",
       "acquired": null,
       "sha256": "2dc5edb1f7089ca56a7a82d4c2b6322933eebe793cd22637e2350e832f239123",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191022051905/http://www.hymntime.com:80/tch/non/hu/j/o/m/e/jomennye.htm",
-      "acquired": "2026-09-16",
-      "sha256": "df140a2ff42b3aa74127578953e4659700e926efb3216a28abae7d66d55f765d",
+      "acquired": "2026-09-17",
+      "sha256": "bdfd41cbd6dbeb25dfa06247084faf0396315df1fc117ecbbfc03a4450e9a096",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

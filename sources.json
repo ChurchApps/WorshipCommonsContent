@@ -20,7 +20,7 @@
   "cyber-hymnal": {
     "name": "The Cyber Hymnal",
     "url": "http://www.hymntime.com/tch/",
-    "licenseBasis": "Its copyright page dedicates un-noticed material to the public domain and grants reposting with attribution; pages with copyright notices or post-1930 credit years without an explicit PD dedication were excluded at import time. Salvaged via the Wayback Machine (live site is dead).",
+    "licenseBasis": "Its copyright page treats un-noticed material as public domain (to the best of its knowledge) and posts newer material only with the copyright holder's permission, shown per page by a public-domain (\"freely usable\") marker; reposting is granted with attribution. Pages with copyright notices, or post-1930 credits without the marker, were excluded at import. Newer translations rest on that permission and are accepted only when the original they translate is public domain (rule 2026-09-17; evidence per song in sources/grants/cyber-hymnal-dedication.txt). Salvaged via the Wayback Machine.",
     "attribution": {
       "required": true,
       "text": "The Cyber Hymnal",

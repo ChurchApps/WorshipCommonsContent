@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125344/http://www.hymntime.com:80/tch/non/ml/a/r/o/u/around_the_throne_of_God_ml.htm",
       "acquired": null,
       "sha256": "eb0a6c1765f2e71fd659268655a829867b105e58b9b2675e621083d186094b64",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125344/http://www.hymntime.com:80/tch/non/ml/a/r/o/u/around_the_throne_of_God_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "77963b0178f036020793d27c71b71935aff9b6399484b504a99632e81eef096d",
+      "acquired": "2026-09-17",
+      "sha256": "366aae41c88c8247088d4a4e9484e0e08aee5735be621d1abce946b9867de428",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

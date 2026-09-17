@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226062343/http://www.hymntime.com/tch/non/hu/m/e/g/v/megvalto.htm",
       "acquired": null,
       "sha256": "d4ce69bf9fd4acf93695c064495d8de7af6d8bbd61fc81e695a184acd46a7804",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226062343/http://www.hymntime.com/tch/non/hu/m/e/g/v/megvalto.htm",
-      "acquired": "2026-09-16",
-      "sha256": "1d631f766db143db533c8f2953b0f050797b7fd374f74d90ac30562defe86216",
+      "acquired": "2026-09-17",
+      "sha256": "c9e2f2c1f87f2fd19864261452cdf409b01de6cae22e829301a1ba024fc5321d",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130034/http://www.hymntime.com:80/tch/non/ml/o/g/o/d/o_God_whose_love_is_over_all_ml.htm",
       "acquired": null,
       "sha256": "bf1c5ce5faa564f82589b6fbc8159ca5b012e0d2dfa146d4302c31db4d7f21e9",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130034/http://www.hymntime.com:80/tch/non/ml/o/g/o/d/o_God_whose_love_is_over_all_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "619d0c0204e941bb4ed4f41c5e3399dcd11f0b84f448f624a37a74388cca3c7c",
+      "acquired": "2026-09-17",
+      "sha256": "0673bbf3ec43c0fb7414aad6f4d89827c485cc30912bb0d3468d3c1a1b72a671",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

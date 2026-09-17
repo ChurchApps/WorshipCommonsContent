@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191114091638/http://www.hymntime.com:80/tch/non/hu/i/s/t/e/istenhat.htm",
       "acquired": null,
       "sha256": "961df6da667be159284876e2b2e27192da03ef5517a6e673de8b12a04f9dc6d6",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191114091638/http://www.hymntime.com:80/tch/non/hu/i/s/t/e/istenhat.htm",
-      "acquired": "2026-09-16",
-      "sha256": "1d82a35581a8a6b13035b2cf7a76def9e76eb4305a80fdf600f92555482b0730",
+      "acquired": "2026-09-17",
+      "sha256": "86357cf61df7740232c5aea3538f9efaddeb946be271babf53c23640aa369acb",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

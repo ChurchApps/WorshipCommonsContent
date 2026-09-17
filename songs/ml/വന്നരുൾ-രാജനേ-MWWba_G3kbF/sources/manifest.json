@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191021060238/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_Thou_almighty_King_ml.htm",
       "acquired": null,
       "sha256": "086a22ea995e59da836077545ef101c21d321e88e07f9c482470503e3269e163",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191021060238/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_Thou_almighty_King_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "e3e5a17e66334b9bff8e631ee5d125743b9d49d4de55aac5af8a4af1c0848b5e",
+      "acquired": "2026-09-17",
+      "sha256": "36e7a71594d69466b33d21e071f12340552b4f77a43d88ef88018e243c6ceebf",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

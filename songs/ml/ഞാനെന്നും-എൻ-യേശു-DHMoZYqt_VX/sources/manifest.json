@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203114/http://www.hymntime.com:80/tch/non/ml/n/j/a/a/njaanenn.htm",
       "acquired": null,
       "sha256": "7ed480c40b7aef7bf43dc8bbe99acabe2d15513ae6302fb5283c4d97e98182cb",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203114/http://www.hymntime.com:80/tch/non/ml/n/j/a/a/njaanenn.htm",
+      "acquired": "2026-09-17",
+      "sha256": "c956c96074810586203368f0d1df6c8ba882ea6e050e259926b7f7b8c73a2fae",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

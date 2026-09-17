@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130009/http://www.hymntime.com:80/tch/non/ml/l/o/r/d/lord_speak_to_me_ml.htm",
       "acquired": null,
       "sha256": "6ac22347de58d56fd8a38c397d5ef76b7f98aeeb759c663983a4c0c1271d9c22",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130009/http://www.hymntime.com:80/tch/non/ml/l/o/r/d/lord_speak_to_me_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "71b9bc2c44a9b3402d34274783b93f40499f2f3477b21a6a3465af7317ca10bf",
+      "acquired": "2026-09-17",
+      "sha256": "3e3d2527e98d3458c5cf3fc82487eeb7757a3190046bb28b9c75a3c83f2a9c7a",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

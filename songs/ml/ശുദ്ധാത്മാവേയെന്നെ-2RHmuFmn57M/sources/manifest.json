@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203034/http://www.hymntime.com:80/tch/non/ml/s/h/u/d/shuddaathmaaveyenne.htm",
       "acquired": null,
       "sha256": "acf587f622dde2f26ba9dc5727175b0fe7f7329d8633f147e6248fe86ebd23ff",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203034/http://www.hymntime.com:80/tch/non/ml/s/h/u/d/shuddaathmaaveyenne.htm",
+      "acquired": "2026-09-17",
+      "sha256": "e644bfc7e8c04a39497478a68fe45bc6e8ad4bf9832043947730df5feeaf3b3d",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

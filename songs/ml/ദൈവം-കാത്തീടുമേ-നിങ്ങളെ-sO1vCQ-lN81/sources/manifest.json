@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412174945/http://www.hymntime.com/tch/non/ml/g/o/d/w/god_will_take_care_of_you_martin_ml.htm",
       "acquired": null,
       "sha256": "811300ea788e857cee9c63d01a6acd5672fdccba16cffcd5d3aca4abe8373c90",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412174945/http://www.hymntime.com/tch/non/ml/g/o/d/w/god_will_take_care_of_you_martin_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "e5863515f26461b713c18cece9c251f8a6d869bcc32b0e06625c675aee3e8c75",
+      "acquired": "2026-09-17",
+      "sha256": "22b7dc3c0a554211b0e26a79ff31096537edad1ca92df6ce3c8d07055e0e87f3",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

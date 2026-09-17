@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110202056/http://www.hymntime.com:80/tch/non/ml/k/a/n/kanneerin.htm",
       "acquired": null,
       "sha256": "c2cab8e88dcaa93a22a26b968bee3a5e5750cdefb69d0358ab0fa549355442f5",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110202056/http://www.hymntime.com:80/tch/non/ml/k/a/n/kanneerin.htm",
+      "acquired": "2026-09-17",
+      "sha256": "70e8b7edd86f66a4a4a0dd339cb2e7c183a74cfa7df59544968ae7b75bfaa0fc",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190921110655/http://www.hymntime.com/tch/non/es/t/i/e/r/tierralv.htm",
       "acquired": null,
       "sha256": "a1f87d2b71b5b388bc29bc6b5d039cd274770d86ad71acc9a2ba7c38c31c4c0a",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190921110655/http://www.hymntime.com/tch/non/es/t/i/e/r/tierralv.htm",
+      "acquired": "2026-09-17",
+      "sha256": "bef675c845eff87ca90507c8e84503d6155aad81de430253932a45107c498064",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

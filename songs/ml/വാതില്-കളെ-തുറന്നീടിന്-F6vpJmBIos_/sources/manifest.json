@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180516213626/http://www.hymntime.com:80/tch/non/ml/l/i/f/t/lift_up_your_heads_ml.htm",
       "acquired": null,
       "sha256": "0c5c2e8dac3e2848b197149ec213f21ea70bffff620e87416d669e12e41cdf11",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180516213626/http://www.hymntime.com:80/tch/non/ml/l/i/f/t/lift_up_your_heads_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "3a074dbb510ec8fd9accd60ca339aad8e9d96e8b0edfb24defee747488d0589c",
+      "acquired": "2026-09-17",
+      "sha256": "257778054b19c2d1c5c3552c8ddd2e57f564f49244546dd6d51ca81ed33bc2a8",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

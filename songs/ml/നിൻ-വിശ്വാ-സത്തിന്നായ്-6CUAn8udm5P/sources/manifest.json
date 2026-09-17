@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175630/http://www.hymntime.com/tch/non/ml/h/o/w/f/how_firm_a_foundation_ml.htm",
       "acquired": null,
       "sha256": "5b9bc884b940833cac0234691aeead05ab19bfdca79e3f4651312a869b2ab345",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175630/http://www.hymntime.com/tch/non/ml/h/o/w/f/how_firm_a_foundation_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "4ea82ede40bcbabe1c45bd820a2cb177cefb32bfb18f96e45c719aa54da1d1de",
+      "acquired": "2026-09-17",
+      "sha256": "4bea285271dd5cf6863aaac6c809a02eb9d403f295c6c3a49a742c2a73ea50de",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

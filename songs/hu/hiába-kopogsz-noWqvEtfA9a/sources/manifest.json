@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328153704/http://www.hymntime.com/tch/non/hu/h/i/a/b/hiabakop.htm",
       "acquired": null,
       "sha256": "53b5b83c8db1e45b9d4e32c6a2df59c0972aa13e8cb11645bc6a3e01fc1c58c4",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190328153704/http://www.hymntime.com/tch/non/hu/h/i/a/b/hiabakop.htm",
-      "acquired": "2026-09-16",
-      "sha256": "341efc44446318b4f04dd36b966291e652575705a76e36bf127e381eaf1fb203",
+      "acquired": "2026-09-17",
+      "sha256": "4b5a0dda410b86e6ebe9d26b68443a3907977685c299de072cfefd7f08fe9565",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

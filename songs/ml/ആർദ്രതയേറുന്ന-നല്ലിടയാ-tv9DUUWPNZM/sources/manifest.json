@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190326004344/http://www.hymntime.com/tch/non/ml/n/e/v/e/never_from_Thee_will_we_stray_ml.htm",
       "acquired": null,
       "sha256": "39cbb3bb3f3b14c5b8723e653df0da2370df9db11bec5b7859ba23dd02314fa8",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190326004344/http://www.hymntime.com/tch/non/ml/n/e/v/e/never_from_Thee_will_we_stray_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "887cf4123befba7c98ab38315b4854ba827942f2f81c9549b41faff7fab1ee46",
+      "acquired": "2026-09-17",
+      "sha256": "0f6f2163b033a2a00793240590dd80402cacc78af56aed98d30045de254773ae",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

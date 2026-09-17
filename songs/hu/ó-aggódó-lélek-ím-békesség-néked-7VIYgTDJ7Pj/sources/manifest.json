@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226062725/http://www.hymntime.com/tch/non/hu/o/a/g/g/oaggodol.htm",
       "acquired": null,
       "sha256": "b6aa9d8126bb67d191e6e42f26342dc4f41be7d8244cbe62d4f01d2fac7a0808",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226062725/http://www.hymntime.com/tch/non/hu/o/a/g/g/oaggodol.htm",
-      "acquired": "2026-09-16",
-      "sha256": "cd474f0ed5981836b341bc15f44a824e248508036881c5d385620e26a25e8c23",
+      "acquired": "2026-09-17",
+      "sha256": "24c9ab6f982ca7db970e03aa25836945902bb1bc3118096d3d035fae51edc905",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

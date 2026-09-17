@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130744/http://www.hymntime.com:80/tch/non/ml/t/u/r/n/turn_back_o_man_ml.htm",
       "acquired": null,
       "sha256": "4040caf39c4fbff9eb2ee41241ae95636f8a63550bc811925b0a243372963141",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130744/http://www.hymntime.com:80/tch/non/ml/t/u/r/n/turn_back_o_man_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0490fd6c3731299b2bc056642f7933d0e0f7135e0878d609ebc109ace22c8c6a",
+      "acquired": "2026-09-17",
+      "sha256": "9559515626dd0a05d72da247563cbcbd2280478ad6a6957e554fcc66bb059348",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

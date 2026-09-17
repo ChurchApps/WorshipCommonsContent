@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20200303193210/http://www.hymntime.com/tch/non/hu/p/r/e/d/predikal.htm",
       "acquired": null,
       "sha256": "c5ffd47ac11c3433528897d8cda5b862e88971e0112241683a07a4d15494c6bc",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20200303193210/http://www.hymntime.com/tch/non/hu/p/r/e/d/predikal.htm",
-      "acquired": "2026-09-16",
-      "sha256": "a130c8ec06068894d454d655b8ba7765e8fc4b9b8bb00cb453db4913b109405a",
+      "acquired": "2026-09-17",
+      "sha256": "6f4cf2e94dc925cab2063544c6dbfafe9978e3d5314854db6858e5af3a59e76c",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181205201000/http://www.hymntime.com:80/tch/non/ml/g/o/o/d/good_christian_men_rejoice_ml.htm",
       "acquired": null,
       "sha256": "5230422ede1496bd348b2064b5ed0f83486e7e2a5e6a02f3917e3374425613ea",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181205201000/http://www.hymntime.com:80/tch/non/ml/g/o/o/d/good_christian_men_rejoice_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "2605b91888dd39e0b60c967eca0ed96c71e83b67e65a8c44992cb104e332462a",
+      "acquired": "2026-09-17",
+      "sha256": "fa91a990e6d1c53d44aa0b4fc0a5e0c94bfd0121166ae2228eb70724fb84afcf",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

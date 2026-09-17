@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203414/http://www.hymntime.com:80/tch/non/ml/v/i/s/h/vishudda.htm",
       "acquired": null,
       "sha256": "a150d289e127caf896e312aeec4dea8b9875113aed4f27f5a467dee40cb67bfc",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203414/http://www.hymntime.com:80/tch/non/ml/v/i/s/h/vishudda.htm",
+      "acquired": "2026-09-17",
+      "sha256": "9abe7e5556a3a292ffe61a5d9a1028f421126fcec86cc62a28026af530f91d65",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

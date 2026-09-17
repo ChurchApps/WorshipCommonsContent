@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031131015/http://www.hymntime.com:80/tch/non/ml/w/h/i/s/whispering_hope_ml.htm",
       "acquired": null,
       "sha256": "5e45205fd10a01de114234174573d92cfa3b04e91b575277dc9f70d9bca9f31b",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031131015/http://www.hymntime.com:80/tch/non/ml/w/h/i/s/whispering_hope_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "40cd75b0b7bb8bb6ce70bb311f02a77bab951a5db916e8ebfb8cc660ed0c8d3c",
+      "acquired": "2026-09-17",
+      "sha256": "5fab79f2e69087169dd8e357a5836dfbd61640c93074155171615a05fefe8c6d",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

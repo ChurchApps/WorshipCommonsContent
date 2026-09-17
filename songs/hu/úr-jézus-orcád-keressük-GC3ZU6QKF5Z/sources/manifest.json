@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226070846/http://www.hymntime.com/tch/non/hu/u/r/j/e/urjezuso.htm",
       "acquired": null,
       "sha256": "b59d5b36c12a1e1eca94d6798907473eee2ec246b171430bc366bee1551d54d5",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226070846/http://www.hymntime.com/tch/non/hu/u/r/j/e/urjezuso.htm",
-      "acquired": "2026-09-16",
-      "sha256": "7bd98d1af9aba10ed013d6cb1eaf37d5ff2074f2148ead158bcf1a35ff98980d",
+      "acquired": "2026-09-17",
+      "sha256": "05a6b83d342ffe25210f212dd7b7d6f659df016c42ac80c75160a4ad65183399",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180825060713/http://www.hymntime.com:80/tch/non/ml/o/s/a/c/o_sacred_head_now_wounded_ml.htm",
       "acquired": null,
       "sha256": "cbac76307c9baade89c8eea12a40ee3f4eec091a653065d42e53eeb6cc8f66e5",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180825060713/http://www.hymntime.com:80/tch/non/ml/o/s/a/c/o_sacred_head_now_wounded_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "6870092a771ef4b1e95b8efb3a581218bc2700390140d4eb836e554b8a919ab3",
+      "acquired": "2026-09-17",
+      "sha256": "d534a59687dbf6c22dc83d081c87255e676e88c119f1fae5830a9bb7fc9cbcca",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

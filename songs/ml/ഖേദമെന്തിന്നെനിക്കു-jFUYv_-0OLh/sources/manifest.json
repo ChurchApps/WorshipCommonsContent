@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125158/http://www.hymntime.com:80/tch/non/ml/h/i/s/e/His_eye_is_on_the_sparrow_ml.htm",
       "acquired": null,
       "sha256": "8ff43de1ce66d6e0e6884b755425aff47ba301005aa33d1637c7944ebe85b8de",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125158/http://www.hymntime.com:80/tch/non/ml/h/i/s/e/His_eye_is_on_the_sparrow_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "ee286e9eccbd907c8a1dfc637f14f7ebfc29be4ce1378a8061bd11b1427cf84e",
+      "acquired": "2026-09-17",
+      "sha256": "aac446b6c84300d4c5f1c66ecc7bf045b7f508f1e13c4f454fc1ce64ebf765e0",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

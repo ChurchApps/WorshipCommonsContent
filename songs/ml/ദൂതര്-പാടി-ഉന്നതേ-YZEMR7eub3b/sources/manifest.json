@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190701204851/http://www.hymntime.com/tch/non/ml/a/n/g/e/angels_we_have_heard_on_high_ml.htm",
       "acquired": null,
       "sha256": "b4795fc40aba7e222ed669d5e22b987febc5afda6b43fa5301e442a936f03d56",
       "licenseBasis": "cyber-hymnal",
@@ -21,30 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
-    },
-    {
-      "file": "tune.mid",
-      "url": null,
-      "acquired": null,
-      "sha256": "594cb17c99e425c449a2ce0d56f601a3b8d8ec258dd5f905869ea411da87650d",
-      "licenseBasis": "cyber-hymnal",
-      "original": false,
-      "submittedBy": null,
-      "note": "Existing catalog copy; original bytes not backfilled"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190701204851/http://www.hymntime.com/tch/non/ml/a/n/g/e/angels_we_have_heard_on_high_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "e2965ffab06fef1f24d5a9165a5fb45bc1a96f21cf16219df64ace165e88cb40",
+      "acquired": "2026-09-17",
+      "sha256": "69354311b6be23b937f28a17d9b3bff649039ebfc220f039865c5c69835bdb87",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

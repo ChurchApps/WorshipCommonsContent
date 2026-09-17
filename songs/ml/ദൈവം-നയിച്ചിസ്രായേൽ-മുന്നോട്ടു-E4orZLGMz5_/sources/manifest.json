@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191023034931/http://www.hymntime.com:80/tch/non/ml/v/i/c/t/victory_ahead_ml.htm",
       "acquired": null,
       "sha256": "d50f469f93a01a5746c35647ec4dfdcee67648b0c0d5113e2cd36374a8b102cc",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191023034931/http://www.hymntime.com:80/tch/non/ml/v/i/c/t/victory_ahead_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "4a09514d4c63ef3ac305b67c767087d137426a802838ecee5c6c28f6af65f2d7",
+      "acquired": "2026-09-17",
+      "sha256": "608888e53ef210edb7a1117dad7139d5533c2eeabd82cd20e5f8d548f02d30b7",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

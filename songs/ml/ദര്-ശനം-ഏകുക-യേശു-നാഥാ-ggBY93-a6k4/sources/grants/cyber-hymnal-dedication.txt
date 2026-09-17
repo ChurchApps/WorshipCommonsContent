@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "ദര്‍ശനം ഏകുക യേശു നാഥാ!"
+The Cyber Hymnal: permission basis for "ദര്‍ശനം ഏകുക യേശു നാഥാ!"
 
 Page:     http://www.hymntime.com/tch/non/ml/b/e/t/h/be_thou_my_vision_ml.htm
 Archived: http://web.archive.org/web/20180711234518/http://www.hymntime.com/tch/non/ml/b/e/t/h/be_thou_my_vision_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20180711234518/http://www.hymntime.com/tch/
 Words credit: 8 -മത്തെ നൂറ്റാണ്ടില്‍ ഡാല്ലന്‍ ഫോര്‍ഗൈല്‍ എഴുതിയതായി സങ്കല്‍പ്പിക്കപ്പെടുന്നു (റോബ് ടു മൊ ബോയില്‍, എ കോംഡി ക്രൈട്); പുരാതനമായ ഐറിഷ് ഭാഷയില്‍ നിന്നും ഇംഗ്ലീഷിലേക്ക് തര്‍ജ്ജിമ ചെയ്തതു മേരി ഇ. ബൈറന്‍, 1905 ല്‍ ജേര്‍ണല്‍ ഓഫ് സ്കൂള്‍ ഓഫ് ഐറിഷ് ലേര്‍ണിംഗ് ല്‍ 'ഐറു' വില്‍ കാണുന്നു. പ്രചരിപ്പിച്ചത് എലനോര്‍ എച്ച്. ഹള്‍, 1912 (Be Thou My Vision. സൈമണ്‍ സഖറിയ, 2012. public domain
 Music credit: അയര്‍ലണ്ടിലെ നാടോടി ഗാനത്തില്‍ നിന്നും ഉടലെടുത്ത 'സ്ലൈന്‍' എന്ന രാഗം. (🔊 pdf nwc). 'സ്ലൈന്‍' മലകള്‍ മീത്ത്‌ താലൂക്കിലെ തീര പ്രദേശത്തില്‍ നിന്നും ഏകദേശം പത്തു മൈലുകള്‍ അകലെ ആണ് സ്ഥിതി ചെയ്യുന്നത്. 433 AD ല്‍ 'സ്ലൈന്‍' മലയില്‍ ആയിരുന്നു വിശുദ്ധനായ പാട്രിക് ഒരു ഈസ്റര്‍ ദിനം സന്ധ്യയില്‍ മെഴുകുതിരികള്‍ തെളിയിച്ചു രാജകല്പനയെ വെല്ലുവിളിച്ചത്. ലോഗേയെര്‍ എന്ന ഗ്രീഷ്മത്തിലെ ഉല്‍ത്സവദീപം താന്‍ താര മലയില്‍ തെളിയിക്കുന്നതിനു മുന്‍പ് ആരും തന്നേ മറ്റൊരു ദീപവും തെളിയിക്കരുതെന്നു താരയിലെ ലോഗേയെര്‍ മഹാരാജാവ് ഉത്തരവ് പുറപ്പെടുവിച്ചിരുന്നു. ലോഗേയെര്‍ നിവാസികള്‍ വിശുദ്ധനായ പാട്രിക്കിന്റെ ഈ ധീരതയില്‍ അഭിമാനം കൊണ്ടു; (അതുകൊണ്ടായിരിക്കണം) അദ്ദേഹത്തിന്റെ മിഷ്യണറി പ്രവര്‍ത്തനം തുടരാന്‍ അവര്‍ അനുവദിച്ചു. ബാക്കി എല്ലാത്തിനും ചരിത്രം സാക്ഷി.
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

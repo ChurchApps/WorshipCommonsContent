@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190919185343/http://www.hymntime.com/tch/non/es/m/e/a/g/meagrada.htm",
       "acquired": null,
       "sha256": "f7b9016d7b4b9eee9591173244de10b6da6273c5351f2f71bfe8f79473c543a1",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190919185343/http://www.hymntime.com/tch/non/es/m/e/a/g/meagrada.htm",
+      "acquired": "2026-09-17",
+      "sha256": "9d8f82873fcbf805b105d242de98c6ccd59cf12f3874891d20a6fe26f19c1749",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181208014229/http://www.hymntime.com:80/tch/non/ml/r/e/v/i/revive_Thy_work_o_Lord_ml.htm",
       "acquired": null,
       "sha256": "627df78dd92ae1b1f178175452b4977c255199caa6fd9d99dbbd327d850aafc4",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181208014229/http://www.hymntime.com:80/tch/non/ml/r/e/v/i/revive_Thy_work_o_Lord_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "8bf640e8f5bdccf89afd7cb203050c823049eae7ca1677a5f7526d4f2ae25e40",
+      "acquired": "2026-09-17",
+      "sha256": "022e0564d75f244b5a793581d288c576bce25b1689eee4b0959ed664709986f9",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

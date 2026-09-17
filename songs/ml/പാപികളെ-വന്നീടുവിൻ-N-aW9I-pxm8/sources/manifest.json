@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031100030/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_sinners_to_the_gospel_feast_ml.htm",
       "acquired": null,
       "sha256": "8e51dc42e092a8b5576d7092bd6ae75b7363b7867bdcd3ffdb8d1d51f46c7ad2",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031100030/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_sinners_to_the_gospel_feast_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d7d9e057e309f2c1e94df81239cd8870533160cf22d6547fb3d5f3777c154dd2",
+      "acquired": "2026-09-17",
+      "sha256": "19c38cccc8a64af9d5f368ea35a5f229de0b58fbcb96ae294f0cd91452858f80",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -9,8 +9,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "hymnary",
-      "source": "hymnary"
+      "basis": "Anonymous Spanish translation of Isaac Watts; undated; Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/inmensa_y_sin_igual_piedad",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": null,
     "arrangement": null,

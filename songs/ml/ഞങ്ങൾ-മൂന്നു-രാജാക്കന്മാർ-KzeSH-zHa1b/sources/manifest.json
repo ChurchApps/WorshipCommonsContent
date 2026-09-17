@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20231130023826/http://www.hymntime.com/tch/non/ml/w/e/t/h/we_3_kings_ml.htm",
       "acquired": null,
       "sha256": "1767647b9e97360007daed237dfab0f1c0f4e76bb846266be86e84be526eef94",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20231130023826/http://www.hymntime.com/tch/non/ml/w/e/t/h/we_3_kings_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "fad9c9289fffa104f8f38781c3710c410aae8de3ce861ab7359be2a050433890",
+      "acquired": "2026-09-17",
+      "sha256": "c7547eca6e9d0dc9f90ce6667d9ee2b88f6ed3d52b53ec6308a5abf25acd3d2e",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

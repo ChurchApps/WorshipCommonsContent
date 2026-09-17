@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175419/http://www.hymntime.com/tch/non/ml/f/o/r/w/forward_thru_the_ages_ml.htm",
       "acquired": null,
       "sha256": "e481f18b79eca0737c516ab7a336243dffedf2311dece60258bedb5f5201985c",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175419/http://www.hymntime.com/tch/non/ml/f/o/r/w/forward_thru_the_ages_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "f864d515e59cb4f1fcdf51422ce484c432687d89d8bf183bca8789c40c085fec",
+      "acquired": "2026-09-17",
+      "sha256": "2bfe2ce90537b1dc0a5f985847441458a836c37aa958f129aa0d17bbbe0c953a",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

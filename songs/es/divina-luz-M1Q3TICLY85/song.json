@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "hymnary",
-      "source": "hymnary"
+      "basis": "Tr. J. B. Cabrera (1837-1916) of Newman's Lead, Kindly Light (1833); Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/divina_luz_con_tu_esplendor_benigno",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": null,
     "arrangement": null,

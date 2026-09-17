@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180922010847/http://www.hymntime.com:80/tch/non/ml/s/i/n/g/sing_with_all_the_saints_in_glory_ml.htm",
       "acquired": null,
       "sha256": "7b80851ad3c48dcbe8aae13b2197951778203bb9931ae5509df8208a4b6a0678",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180922010847/http://www.hymntime.com:80/tch/non/ml/s/i/n/g/sing_with_all_the_saints_in_glory_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "3b5678d2c589990a3563c76e1a9388553909cb7e48b28e4c3242b7823058878d",
+      "acquired": "2026-09-17",
+      "sha256": "92b82153c9aca553d3045e55d0d92bbb92496977ccad62ae5482aff5e7cbe5ca",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

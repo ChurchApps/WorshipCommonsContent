@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031131000/http://www.hymntime.com:80/tch/non/ml/s/e/n/d/send_the_light_ml.htm",
       "acquired": null,
       "sha256": "6b8ac7e390f00cec69aeac5f56addbc4140cd7b7f7b766a50e0396d1eec5ca12",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031131000/http://www.hymntime.com:80/tch/non/ml/s/e/n/d/send_the_light_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "5ce30240d044fc54a51ff851effd844da66377f84da5fca3c88d28c269eae6de",
+      "acquired": "2026-09-17",
+      "sha256": "27d06f40f1c11d953be7f2a42850a176e85532a5b65d48c8fed02910fdc853c5",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181121022205/http://www.hymntime.com:80/tch/non/hu/h/a/z/u/hazurral.htm",
       "acquired": null,
       "sha256": "d9bd3a6dd8d2d1aed1e98266c05fe6ac580839522bb6abd671b100f9e29c163d",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181121022205/http://www.hymntime.com:80/tch/non/hu/h/a/z/u/hazurral.htm",
-      "acquired": "2026-09-16",
-      "sha256": "f680818f66c78daefc2745eb68ca3ddb075d1b1f2b355429f9171445146a89e1",
+      "acquired": "2026-09-17",
+      "sha256": "06f6d39beb739bb08520effd110ace428b8f82780798a282c4dc8c5ffcf03933",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

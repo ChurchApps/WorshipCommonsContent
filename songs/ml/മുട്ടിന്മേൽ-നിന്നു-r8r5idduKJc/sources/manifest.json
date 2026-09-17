@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175345/http://www.hymntime.com/tch/non/ml/l/e/t/u/let_us_break_bread_together_ml.htm",
       "acquired": null,
       "sha256": "2c4d04d33b92b68a75f75b60ffc17046e142592a253bfd9babece84b6b06229a",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175345/http://www.hymntime.com/tch/non/ml/l/e/t/u/let_us_break_bread_together_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "4a6320b0f2da66f8d579dccb2eab4843505057abe8fb6e00e2913c62ee022350",
+      "acquired": "2026-09-17",
+      "sha256": "4a4b66e52a248e33fd01f6714250f0648afb6292b7fdde7229d1861c319e0c17",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

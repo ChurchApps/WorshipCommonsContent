@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031070444/http://www.hymntime.com:80/tch/non/hu/n/e/v/e/nevedben.htm",
       "acquired": null,
       "sha256": "325e95226c9228077e1eef0674f7f1d9af3a8c22ff17a2000ff17654271fb2e1",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031070444/http://www.hymntime.com:80/tch/non/hu/n/e/v/e/nevedben.htm",
-      "acquired": "2026-09-16",
-      "sha256": "5d8837bc4ad0b62ceaa0ad4576c9f77028977123375414ca12701c804cbf1af5",
+      "acquired": "2026-09-17",
+      "sha256": "d474ed1ae25f3fd63a5c55fa76ce0730c7618eade7a316b21413a86516f99dd4",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

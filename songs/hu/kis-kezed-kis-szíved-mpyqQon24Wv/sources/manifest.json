@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226070842/http://www.hymntime.com/tch/non/hu/k/i/s/k/kiskezed.htm",
       "acquired": null,
       "sha256": "dcf4e8a0fdc8cdf292bcced799441cde94b11ed5a07d70b4239ce5948c63d870",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226070842/http://www.hymntime.com/tch/non/hu/k/i/s/k/kiskezed.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d57348999bc10c5665b5e0bbe434fc4c5ba40cc28268adb9ed10a3160694570a",
+      "acquired": "2026-09-17",
+      "sha256": "4f6cd77d321ad49a6ada54ec5ae3861ded56c52d50d16b89a3b291483437cd2b",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

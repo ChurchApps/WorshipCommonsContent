@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "അടി-മയതാക്കെന്നെ, സ്വതന്ത്രനാകുവാന്‍"
+The Cyber Hymnal: permission basis for "അടി-മയതാക്കെന്നെ, സ്വതന്ത്രനാകുവാന്‍"
 
 Page:     http://www.hymntime.com/tch/non/ml/m/a/k/e/make_me_a_captive_ml.htm
 Archived: http://web.archive.org/web/20190412180014/http://www.hymntime.com/tch/non/ml/m/a/k/e/make_me_a_captive_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20190412180014/http://www.hymntime.com/tch/
 Words credit: ജോര്‍ജ്ജ് മത്തീസണ്‍, സേക്രഡ് സോങ്ങ്സ്, 1890 (Make Me a Captive, Lord). സൈമണ്‍ സഖറിയ, 2012. public domain
 Music credit: ഡയാട്മാറ്റ, ജോര്‍ജ്ജ് ജെ.എല്‍വി, ഹിംസ് ഏന്‍ഷ്യന്റ് ആന്റ് മോഡേര്‍ണ്‍, 1868 (🔊 pdf nwc).
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

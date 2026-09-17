@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110202909/http://www.hymntime.com:80/tch/non/ml/y/e/s/h/yeshumat.htm",
       "acquired": null,
       "sha256": "2793b238d8a5b55f4b3814b0952189a8db8061ef07d5ed636cc2981421bad8e9",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110202909/http://www.hymntime.com:80/tch/non/ml/y/e/s/h/yeshumat.htm",
+      "acquired": "2026-09-17",
+      "sha256": "dcee4c9bce977542f4b4ee6539d9d1edfc1752190535d2fc83b7b44407643d1a",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

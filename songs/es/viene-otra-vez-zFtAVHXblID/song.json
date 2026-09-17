@@ -3,7 +3,7 @@
   "title": "Viene Otra Vez",
   "writer": "Anónimo",
   "writerRef": null,
-  "year": null,
+  "year": 1921,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; printed in Himnos de Gloria (1921) #85; Hymnary lists it Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190922014206/http://www.hymntime.com/tch/non/es/v/i/e/n/vienotra.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

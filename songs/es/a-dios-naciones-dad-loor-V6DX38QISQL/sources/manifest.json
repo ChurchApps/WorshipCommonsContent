@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181223023439/http://www.hymntime.com:80/tch/non/es/a/d/i/o/adiosnac.htm",
       "acquired": null,
       "sha256": "4abb70eccf807050c992a5f70918884cf32b3de1266f0547c78322e2f332e5c8",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20181223023439/http://www.hymntime.com:80/tch/non/es/a/d/i/o/adiosnac.htm",
+      "acquired": "2026-09-17",
+      "sha256": "f2a9ff9f8e7d27bec43d6f3dd1df237960a1fc0c41f40db4f21d2fc2a42c7faa",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

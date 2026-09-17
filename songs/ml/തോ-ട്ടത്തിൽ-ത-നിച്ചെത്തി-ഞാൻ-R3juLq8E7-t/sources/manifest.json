@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190909135701/http://www.hymntime.com/tch/non/ml/i/n/t/h/in_the_garden_ml.htm",
       "acquired": null,
       "sha256": "c24d577367d4edf49b45b7a712ad0f900b37d9b4ee8e604725b49ed4a1d84182",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190909135701/http://www.hymntime.com/tch/non/ml/i/n/t/h/in_the_garden_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d81b561b812b57c12c212dc976c81f743db034f6f45bb32c0cb8021b66f653e9",
+      "acquired": "2026-09-17",
+      "sha256": "b85faddec5ddd3abe531a65c0dcb65d484e791a1c0511bb6baa0b19f28a8b8ad",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

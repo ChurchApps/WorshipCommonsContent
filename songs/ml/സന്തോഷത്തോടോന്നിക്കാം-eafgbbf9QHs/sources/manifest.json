@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125627/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_and_let_us_sweetly_join_ml.htm",
       "acquired": null,
       "sha256": "3920a575a1edb9e52fd44fcef77eab47247df530fe8a6ea41d6526b6ccbbc291",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125627/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_and_let_us_sweetly_join_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "e812f752c0d99871567c48cd44c5cd45187e99ba88d8f4e2f9e0394baa3812aa",
+      "acquired": "2026-09-17",
+      "sha256": "996d4b7773190a71525b43f414a4c8bf5e49fd5dadc3a1aea62d328e914ecbda",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

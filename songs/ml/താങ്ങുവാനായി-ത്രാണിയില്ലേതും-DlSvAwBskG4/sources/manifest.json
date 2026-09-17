@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031065640/http://www.hymntime.com:80/tch/non/ml/i/m/u/i_must_tell_Jesus_ml.htm",
       "acquired": null,
       "sha256": "528b01470e87116598968acb930d3f237c93dd137b2f7ac3a61a6789641cd985",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031065640/http://www.hymntime.com:80/tch/non/ml/i/m/u/i_must_tell_Jesus_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "28f798edf827df7f367ae59e3a111f0a16f7fd8b541b48788c33bbb892f3b8d1",
+      "acquired": "2026-09-17",
+      "sha256": "253a2e95a58ccf72d760c01c87311ded24e3601a4e07b9fa390b031b8b360c18",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191102072300/http://www.hymntime.com:80/tch/non/hu/f/e/l/s/felseges.htm",
       "acquired": null,
       "sha256": "ef7a76bc0ad964a3f0ed607c6193fd81ad5052eb08627ab545fda570a2a44b23",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191102072300/http://www.hymntime.com:80/tch/non/hu/f/e/l/s/felseges.htm",
-      "acquired": "2026-09-16",
-      "sha256": "32572e64dd053e8d923e604e97b7ca28fef18175a7d87af0c7461d445fbafa62",
+      "acquired": "2026-09-17",
+      "sha256": "0569005801d392f9c2eb0de115cee7ea483fd251a86a0fcdc5320bceacbab4c0",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

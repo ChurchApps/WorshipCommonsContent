@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180625012032/http://www.hymntime.com:80/tch/non/ml/k/e/e/p/keep_on_the_sunny_side_ml.htm",
       "acquired": null,
       "sha256": "5da6c52022c2c61e7e4d5a648881d7083aa137f34abe4d74d929da99d727f780",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180625012032/http://www.hymntime.com:80/tch/non/ml/k/e/e/p/keep_on_the_sunny_side_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "1a72fc3b55f6c250f9fa0b4a3e3613011965e0487a5ae414045793865b4925c6",
+      "acquired": "2026-09-17",
+      "sha256": "ace798765ab679633c5c3bda972121f62be40609301fc9c6d3ed37692593f898",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

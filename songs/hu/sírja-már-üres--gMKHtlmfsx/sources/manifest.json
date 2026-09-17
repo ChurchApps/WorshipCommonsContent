@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226070841/http://www.hymntime.com/tch/non/hu/s/i/r/j/sirjamar.htm",
       "acquired": null,
       "sha256": "ed8f2740deb19407dc0809794d66b191946f61f0f11e70338b49c583992b30cf",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226070841/http://www.hymntime.com/tch/non/hu/s/i/r/j/sirjamar.htm",
-      "acquired": "2026-09-16",
-      "sha256": "fa67810f30bbdc4db88e860bbf2732117dd0022bf3b910e40a3ad6fcc60a53f0",
+      "acquired": "2026-09-17",
+      "sha256": "b3ea2cb4a5ea6e6b1160cd6772193f2f67a1a19aae84267458ec7d36b6c3b4ca",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

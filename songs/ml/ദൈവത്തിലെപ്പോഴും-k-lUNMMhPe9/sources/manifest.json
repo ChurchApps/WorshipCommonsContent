@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203729/http://www.hymntime.com:80/tch/non/ml/d/a/i/v/daivatthileppozhum.htm",
       "acquired": null,
       "sha256": "5c4b35092bdd7dfd0a4139f5437d670937b3668cd6fd0d7c0851811dfcae1fec",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203729/http://www.hymntime.com:80/tch/non/ml/d/a/i/v/daivatthileppozhum.htm",
+      "acquired": "2026-09-17",
+      "sha256": "cf2a767ecfeb862e451a480c267ae1178ec5dcb7f1271dc80db2fb6e3a802bc7",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

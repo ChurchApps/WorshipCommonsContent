@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181025134613/http://www.hymntime.com:80/tch/non/ml/b/r/i/n/bring_a_torch_jeanette_isabella_ml.htm",
       "acquired": null,
       "sha256": "7edee199cf923e069cafc1a0dae90419b8516d61a40d8a3f2010e5138506dc85",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181025134613/http://www.hymntime.com:80/tch/non/ml/b/r/i/n/bring_a_torch_jeanette_isabella_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "a97762ed37d367ec6f86dda8168bd06f086b2b6f2b57360f44e45e4fdf1dc40b",
+      "acquired": "2026-09-17",
+      "sha256": "d9f069998bc03d090cf55e89accaa64187a56d4f908f425d43c38806265c9b2e",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20230326055907/http://hymntime.com/tch/non/ml/b/e/a/u/beautiful_beckoning_hands_ml.htm",
       "acquired": null,
       "sha256": "6909eefb0d6d5ac49ea4ec1ed2bb1b906ca5922fdbfdf485312e0975e2eea22d",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20230326055907/http://hymntime.com/tch/non/ml/b/e/a/u/beautiful_beckoning_hands_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "5814688315bfac7d71851d56beca6214803cb57e93e78c8a7c6ea477d7bd520f",
+      "acquired": "2026-09-17",
+      "sha256": "28ddb0bbc2d45260b62fcce30b08a929faae29406efa6b4d7d5a9b6a81acd800",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

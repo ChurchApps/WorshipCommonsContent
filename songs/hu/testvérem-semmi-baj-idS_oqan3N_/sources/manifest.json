@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190621140841/http://www.hymntime.com/tch/non/hu/t/s/t/v/tstvsbaj.htm",
       "acquired": null,
       "sha256": "70cc1683ad049519c97bf2e28bb52ab61cfa4f27a3c622dd27ef08232602cabb",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190621140841/http://www.hymntime.com/tch/non/hu/t/s/t/v/tstvsbaj.htm",
-      "acquired": "2026-09-16",
-      "sha256": "56efdbf729957cc911c2dabec36513c23e0232977eb790669f00843a5c86bb56",
+      "acquired": "2026-09-17",
+      "sha256": "56a903b7751d536d7555d6ed88e6cd6d337533440500b61df9465c399a098349",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

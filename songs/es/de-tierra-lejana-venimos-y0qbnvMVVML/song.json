@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; words anonymous or pre-1931, tune pre-1931",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190921110655/http://www.hymntime.com/tch/non/es/t/i/e/r/tierralv.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

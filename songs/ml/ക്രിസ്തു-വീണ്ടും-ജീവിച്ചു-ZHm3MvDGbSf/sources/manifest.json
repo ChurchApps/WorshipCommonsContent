@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203259/http://www.hymntime.com:80/tch/non/ml/c/h/r/i/Christ_the_Lord_is_risen_today_ml.htm",
       "acquired": null,
       "sha256": "84fc4af65d62a2322a01b3c1de5bdf090d29edb52209c898464da99f982d7e80",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203259/http://www.hymntime.com:80/tch/non/ml/c/h/r/i/Christ_the_Lord_is_risen_today_ml.htm",
+      "acquired": "2026-09-17",
+      "sha256": "b65cb06b0a53237e81e3696c8cf894e863993039dc8177831c0220314797b121",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191022021649/http://www.hymntime.com:80/tch/non/hu/m/e/l/y/melyseges.htm",
       "acquired": null,
       "sha256": "fb68a585946f4e6e99abd3cd36545b18e9c94146f0fd9fbc0df9b311a6af4797",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191022021649/http://www.hymntime.com:80/tch/non/hu/m/e/l/y/melyseges.htm",
-      "acquired": "2026-09-16",
-      "sha256": "cdb07339ae618e760b61120bcf156d327ba98e6cc9dec173c81be9f819e8b751",
+      "acquired": "2026-09-17",
+      "sha256": "79962d0edf61f7fd255c571f1f5be1028ed4826d03a4d0679cbdc795907ed0ff",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

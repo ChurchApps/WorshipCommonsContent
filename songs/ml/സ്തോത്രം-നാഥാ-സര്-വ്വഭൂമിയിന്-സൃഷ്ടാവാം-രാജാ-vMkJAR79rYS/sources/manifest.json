@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125738/http://www.hymntime.com:80/tch/non/ml/p/r/a/i/praise_to_the_Lord_the_Almighty_ml.htm",
       "acquired": null,
       "sha256": "70eccbd1edf33beb2c0c4ea4b6f6a4871b2029669302d67d862ef2048b3cc79a",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125738/http://www.hymntime.com:80/tch/non/ml/p/r/a/i/praise_to_the_Lord_the_Almighty_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "74833f7ca74cab3f00194279d326eec85ff87db21bc39fefdd78504a7a6bb0a9",
+      "acquired": "2026-09-17",
+      "sha256": "71e9423c67e3d24a9d7dfe860d6bbcc93901011a1517baeb36a1761ad8657ef6",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

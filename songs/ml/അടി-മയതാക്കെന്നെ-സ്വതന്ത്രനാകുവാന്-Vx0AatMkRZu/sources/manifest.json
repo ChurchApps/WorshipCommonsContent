@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412180014/http://www.hymntime.com/tch/non/ml/m/a/k/e/make_me_a_captive_ml.htm",
       "acquired": null,
       "sha256": "1ba4388b3c73befaa38fec416eea9fc4b9564a44560a61a5dfb7c983cc4cb8c7",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412180014/http://www.hymntime.com/tch/non/ml/m/a/k/e/make_me_a_captive_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "79f4870e77c185b2a9613bb8acc65f6b0819f27065bf841fcf7bcf11a14d64d4",
+      "acquired": "2026-09-17",
+      "sha256": "5c3a9339870a05e6426164871deafd5823c7d18552c37e67dd79417ad82e3631",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

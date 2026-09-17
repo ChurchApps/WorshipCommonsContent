@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226110045/http://www.hymntime.com/tch/non/pt/o/j/e/m/ojemguar.htm",
       "acquired": null,
       "sha256": "52d764e0f92a871898cb8d712524ab34b84ac78276a8653eb7a86795138b6509",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20211226110045/http://www.hymntime.com/tch/non/pt/o/j/e/m/ojemguar.htm",
+      "acquired": "2026-09-17",
+      "sha256": "625cc815c782ad05444e94ea3beeb222b19ddb91af861139f5c6957e5d3f7891",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190217074728/http://www.hymntime.com:80/tch/non/ml/g/o/d/o/God_of_grace_and_God_of_glory_ml.htm",
       "acquired": null,
       "sha256": "6902ea612fb6a4f0c6a99ea2b9f959a5eedfc8015fb765be7ae332fc93e86d32",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190217074728/http://www.hymntime.com:80/tch/non/ml/g/o/d/o/God_of_grace_and_God_of_glory_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "ca8e8ca47e689e03849fe94cfd5d9d0057805b0a83f529de9a3ce443ae5eb3c2",
+      "acquired": "2026-09-17",
+      "sha256": "f327e8ea973d535fe30e316fb7d6e939002db5647122d9d58f0c192fc13e27da",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

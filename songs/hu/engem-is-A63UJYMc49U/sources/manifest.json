@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175738/http://www.hymntime.com/tch/non/hu/e/n/g/e/engem_is.htm",
       "acquired": null,
       "sha256": "b949e855136b1c53675b5216c378d6b9c9e90f4fafaf4aa9f25eca8d4c9c2225",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175738/http://www.hymntime.com/tch/non/hu/e/n/g/e/engem_is.htm",
-      "acquired": "2026-09-16",
-      "sha256": "517732cad679947bbf60ff8343be205c3473c64c81848b973c34fba47451faf4",
+      "acquired": "2026-09-17",
+      "sha256": "d005f4b01bf5eed2d015b4ebd5348210f2980fc8a9e838b96df250fe9ce268dc",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

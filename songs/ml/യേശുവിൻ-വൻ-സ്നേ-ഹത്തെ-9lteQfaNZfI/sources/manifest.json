@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181007003542/http://www.hymntime.com:80/tch/non/ml/d/e/e/p/deeper_and_deeper_ml.htm",
       "acquired": null,
       "sha256": "39aa2d66121b0403aacb0e053e1b05519118ef4339fef45dd77de56571bd4b02",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181007003542/http://www.hymntime.com:80/tch/non/ml/d/e/e/p/deeper_and_deeper_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "f10844b5aad0286939075ec4416e6dcc74af7c8d2bac544b93aaa439f6480cfb",
+      "acquired": "2026-09-17",
+      "sha256": "3cad4c3ab4a8d41f57b83f711fc66860db36f41f470110fdb7bc9954174f27b0",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

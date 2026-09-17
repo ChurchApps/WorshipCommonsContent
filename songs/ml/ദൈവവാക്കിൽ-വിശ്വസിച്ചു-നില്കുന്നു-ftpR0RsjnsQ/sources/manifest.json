@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412180027/http://www.hymntime.com/tch/non/ml/s/t/a/n/standing_on_the_promises_ml.htm",
       "acquired": null,
       "sha256": "8ae4f40a246bdd377a5bf1e8ec6efa3867bc3a027035641f10334a50d476601f",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412180027/http://www.hymntime.com/tch/non/ml/s/t/a/n/standing_on_the_promises_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0e72c02baf6310f11dd7afe9dc6a922acdf653e7f8dd3f919aa5d8d86a2d34fc",
+      "acquired": "2026-09-17",
+      "sha256": "947de026651373cbb16a2d7f8bf31f8f7ed47679d66d4f4c1476334ce65ed915",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

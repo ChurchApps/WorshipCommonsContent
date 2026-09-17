@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190909141104/http://www.hymntime.com/tch/non/ml/e/v/e/r/everybody_may_know_ml.htm",
       "acquired": null,
       "sha256": "e4af03ce45c8b17e863b080ef2f7aba856101ffbea725854e587133969631233",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190909141104/http://www.hymntime.com/tch/non/ml/e/v/e/r/everybody_may_know_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "18f292e776f8767aee39db7edef94dcd59648e53b9b531d2cfc249b409ad215a",
+      "acquired": "2026-09-17",
+      "sha256": "65880656e2fbf759e18f814327b42d4e1af933ebf04eb47f2045544c356a72d8",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191022121134/http://www.hymntime.com:80/tch/non/ml/o/h/o/w/o_how_i_love_Jesus_ml.htm",
       "acquired": null,
       "sha256": "5f826b6025cc27a5b19550466479218d4bcc9f987104c1813727dc9a75cc4463",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191022121134/http://www.hymntime.com:80/tch/non/ml/o/h/o/w/o_how_i_love_Jesus_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "42b8a989bc4280a4072791f1a122535427565e99f7a04fe0b8f720cd4cfacc10",
+      "acquired": "2026-09-17",
+      "sha256": "24b97d9db69ec28a3bdf317d8656aa139b5baaa8eae6a0f0933d0c547b1af582",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

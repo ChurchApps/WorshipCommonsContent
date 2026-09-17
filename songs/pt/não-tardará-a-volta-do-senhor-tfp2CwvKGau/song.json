@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; anonymous Portuguese words; tune Charles H. Gabriel's Awakening Chorus (1905)",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190923091131/http://hymntime.com/tch/non/pt/n/a/o/t/naotarda.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

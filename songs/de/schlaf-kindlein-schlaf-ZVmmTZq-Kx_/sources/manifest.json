@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191030081016/http://www.hymntime.com:80/tch/non/de/s/c/h/l/schlafki.htm",
       "acquired": null,
       "sha256": "4fe680a104e68ae4d6e77e7a76475f2bc0d419e35dd878039fb464dce4aabd9f",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191030081016/http://www.hymntime.com:80/tch/non/de/s/c/h/l/schlafki.htm",
+      "acquired": "2026-09-17",
+      "sha256": "c222200c5b306274f794b9252d88ca7bafd8e3a1765e3b0ef6b962fe3dd0ad30",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

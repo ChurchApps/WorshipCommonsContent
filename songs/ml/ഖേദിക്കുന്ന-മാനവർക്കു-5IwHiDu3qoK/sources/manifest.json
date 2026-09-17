@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328153926/http://www.hymntime.com/tch/non/ml/k/e/d/h/kedhikku.htm",
       "acquired": null,
       "sha256": "6e943a3bc5ae9ff2104415db97f5d937c1f11837da58b40e834037a9188edc8b",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190328153926/http://www.hymntime.com/tch/non/ml/k/e/d/h/kedhikku.htm",
+      "acquired": "2026-09-17",
+      "sha256": "7b5a61992f65f83c9fe2958d02bdc3048538e34e15f111d0d1f0ddefb4842150",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181115095653/http://www.hymntime.com:80/tch/non/es/b/e/l/l/bellaspa.htm",
       "acquired": null,
       "sha256": "853cf417e1a2918337803353c417678c2100c306f5f2a88295257b97e44bef70",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20181115095653/http://www.hymntime.com:80/tch/non/es/b/e/l/l/bellaspa.htm",
+      "acquired": "2026-09-17",
+      "sha256": "89f97d7093c6f402fc956222d50a1337322cce03985edfc47fd852759aa02c43",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

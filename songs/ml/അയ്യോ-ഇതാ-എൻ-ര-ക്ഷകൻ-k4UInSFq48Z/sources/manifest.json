@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190326004330/http://www.hymntime.com/tch/non/ml/a/l/a/s/alas_and_did_my_savior_bleed_2_ml.htm",
       "acquired": null,
       "sha256": "004ec4e4562dadabd0c1baea4c66513b52b99035896a88610552e44378186cd4",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190326004330/http://www.hymntime.com/tch/non/ml/a/l/a/s/alas_and_did_my_savior_bleed_2_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "b743a755bed12c2b526acce112e9a81a7b96e39e75bacd242e77d97cfbfa4a1c",
+      "acquired": "2026-09-17",
+      "sha256": "d90c2d9d93f81260e9b919fdae7440ee464ea4befa5d519a28af3227237a0b5e",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

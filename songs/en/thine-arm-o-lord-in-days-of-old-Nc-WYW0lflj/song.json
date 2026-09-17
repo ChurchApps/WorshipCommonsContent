@@ -3,7 +3,7 @@
   "title": "Thine Arm, O Lord, in Days of Old",
   "writer": "Edward Hayes Plumptre",
   "writerRef": "edward-hayes-plumptre",
-  "year": null,
+  "year": 1864,
   "language": "English",
   "themes": "Comfort,Salvation",
   "key": "G",
@@ -15,8 +15,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "open-hymnal",
-      "source": "open-hymnal"
+      "basis": "Edward H. Plumptre (1821-1891), written 1864; Hymnary.org lists it Public Domain",
+      "source": "open-hymnal",
+      "url": "https://hymnary.org/text/thine_arm_o_lord_in_days_of_old",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": {
       "license": "PD",

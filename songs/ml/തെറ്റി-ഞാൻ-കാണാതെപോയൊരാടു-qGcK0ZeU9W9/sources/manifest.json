@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110202939/http://www.hymntime.com:80/tch/non/ml/t/h/e/n/thenjaan.htm",
       "acquired": null,
       "sha256": "91f4383b17485f0aca32390ab4fe9e40fe026c38b9a09c5eb676e79fb55471f4",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110202939/http://www.hymntime.com:80/tch/non/ml/t/h/e/n/thenjaan.htm",
+      "acquired": "2026-09-17",
+      "sha256": "72fa5c9942fb914d58eede141ffbf7a20c13aae5b7811f56d78747c58ee4dbef",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

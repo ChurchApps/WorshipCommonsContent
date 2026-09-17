@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031132246/http://www.hymntime.com:80/tch/non/hu/t/e/r/j/terjetek.htm",
       "acquired": null,
       "sha256": "1a65febfc6374296b606addc8f2528482dc9be2793c8a3c8d72a1a97afa5a1fc",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031132246/http://www.hymntime.com:80/tch/non/hu/t/e/r/j/terjetek.htm",
-      "acquired": "2026-09-16",
-      "sha256": "fca2067e9a850022b21c3ea3c598fdf5ca8d6c385254d2efcd5e4c1284024477",
+      "acquired": "2026-09-17",
+      "sha256": "b5bbbdb2d0b590af50028c275c101f86a51ec94672ba870631fe76989a8052a2",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

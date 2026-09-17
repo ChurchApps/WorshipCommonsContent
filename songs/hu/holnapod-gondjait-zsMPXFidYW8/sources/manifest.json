@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180718165126/http://www.hymntime.com:80/tch/non/hu/h/o/l/n/holnapod.htm",
       "acquired": null,
       "sha256": "bb045d98a72b3cfbd34784d21a164339b39d22d1a2a3ef312c21eca14ae0bc93",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180718165126/http://www.hymntime.com:80/tch/non/hu/h/o/l/n/holnapod.htm",
-      "acquired": "2026-09-16",
-      "sha256": "b473aa18fae681a80e38213d7c9019491df52c7da7ced9ca1ca58e5f8287c155",
+      "acquired": "2026-09-17",
+      "sha256": "325ebb6ccf09bd79e3fbf013bf78aefaae16e1b66cedb9e31656b6cdbd2d28e4",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

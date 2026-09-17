@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191103064019/http://www.hymntime.com:80/tch/non/fr/v/e/r/j/verjesus.htm",
       "acquired": null,
       "sha256": "d27096644f397ee1e2bbeec0210559a92d2575467821cedf74238b6fc163d1b3",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191103064019/http://www.hymntime.com:80/tch/non/fr/v/e/r/j/verjesus.htm",
+      "acquired": "2026-09-17",
+      "sha256": "39486fdc56127fbfc0bb47a1f8efcfa8781b0dad156abea4738464f02f2bf0c0",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

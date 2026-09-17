@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190923091131/http://hymntime.com/tch/non/pt/n/a/o/t/naotarda.htm",
       "acquired": null,
       "sha256": "44ac242e4fac799aa0da8b52e19bb2980ab6b6be4dde5d5549f58c8e3d5e0101",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190923091131/http://hymntime.com/tch/non/pt/n/a/o/t/naotarda.htm",
+      "acquired": "2026-09-17",
+      "sha256": "68224899eaed1ea6d56a0c32fb568d2a7e994538e2f909dce61fe85b1b36c343",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

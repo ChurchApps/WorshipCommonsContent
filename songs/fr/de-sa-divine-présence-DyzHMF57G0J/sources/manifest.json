@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328013213/http://www.hymntime.com:80/tch/non/fr/s/a/d/i/sadivinp.htm",
       "acquired": null,
       "sha256": "a0075e139e13d99a127fc5a45891ee105afd583d6f5eb3a66fed27160c2f4584",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190328013213/http://www.hymntime.com:80/tch/non/fr/s/a/d/i/sadivinp.htm",
+      "acquired": "2026-09-17",
+      "sha256": "989f04c100a25061d5bb98f812b97e9ceb685c47f8cad140ee02f6cf761942fb",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

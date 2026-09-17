@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226051832/http://www.hymntime.com/tch/non/hu/b/e/n/n/benned.htm",
       "acquired": null,
       "sha256": "1053a6844012dcfb50a9124d3542d06e55207aa85bd79dc7acb6862fab013254",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226051832/http://www.hymntime.com/tch/non/hu/b/e/n/n/benned.htm",
-      "acquired": "2026-09-16",
-      "sha256": "8db682ef6e91e3f9d99d6a39712a041b355f4ac470d4e0dbcecddd932adc3baa",
+      "acquired": "2026-09-17",
+      "sha256": "c99fbc01d0ca75fc1a09af0cafac2f3d6e8f9fd8978e82c116f1a7c4dab5a9d5",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

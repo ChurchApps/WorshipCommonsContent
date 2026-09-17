@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190406235815/http://www.hymntime.com:80/tch/non/ml/v/i/n/d/vindooth.htm",
       "acquired": null,
       "sha256": "828bb6a43d7f167bdf0f5536ca930a9937cb37364c010e5d2a5c6d81b9e3b1c2",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190406235815/http://www.hymntime.com:80/tch/non/ml/v/i/n/d/vindooth.htm",
-      "acquired": "2026-09-16",
-      "sha256": "2a33e2a5dd97b28afadb80aeeb699ad4003e7651e0433b6d67c0b61fd1061941",
+      "acquired": "2026-09-17",
+      "sha256": "476cccbe33ecdc09449a5b5cf7ed6f69674ebca1fe56ed8399d457b2e34e53fb",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

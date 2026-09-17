@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20200303191907/http://www.hymntime.com/tch/non/hu/a/z/u/r/azurvezet.htm",
       "acquired": null,
       "sha256": "a0b6437d6934974f8adeab10efb2db6020de59e360fdab98a60e77bc92846fce",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20200303191907/http://www.hymntime.com/tch/non/hu/a/z/u/r/azurvezet.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0d42161f630510cedfabf48469b54752881f1c53039193a5932bb1052a357e5b",
+      "acquired": "2026-09-17",
+      "sha256": "dd9fb34007a652b267a45d5c4e21b96f52524da7e977af4245a9045154cfee1e",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

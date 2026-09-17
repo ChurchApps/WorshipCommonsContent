@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "പട്ടണവാതിലപ്പുറം"
+The Cyber Hymnal: permission basis for "പട്ടണവാതിലപ്പുറം"
 
 Page:     http://www.hymntime.com/tch/non/ml/t/h/e/r/there_is_a_green_hill_ml.htm
 Archived: http://web.archive.org/web/20191110202904/http://www.hymntime.com:80/tch/non/ml/t/h/e/r/there_is_a_green_hill_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20191110202904/http://www.hymntime.com:80/t
 Words credit: സിസിൾ എഫ്. അലക്സാണ്ടർ, 1847 (There Is a Green Hill Far Away). തന്റെ അത്യാസന്ന രോഗിയായി കിടന്നിരുന്ന മകളൊത്തു ഒരു രാത്രി ഉണർന്നിരുന്നപ്പോൾ ആണു സിസിൾ അലക്സാണ്ടർ ഈ ഗാനം എഴുതിയത്. അവശ്യസാധനങ്ങൾ വാങ്ങുവാനായി അയർലണ്ടിലെ 'ഡെറി' പട്ടണത്തിലേക്ക് യാത്ര ചെയ്യും വഴി മദ്ധ്യേ പട്ടണ മതിലിന്നു പുറത്തായി പച്ചപുല്ലു വിരിച്ച ഒരു കുന്നു മിക്കവാറും അവർ തരണം ചെയ്യുമായിരുന്നു. ഇത് എപ്പോഴും കാൽവരിയെ അവരുടെ മനസ്സിൽ ഓർമ്മിപ്പിക്കുകയും ഈ ഗാന രചനാ വേളയിൽ അത് പൊന്തി വരികയും ചെയ്തു.1848 ൽ "ഹിംസ് ഫോർ ലിറ്റിൽ ചിൽഡ്രൻ" ൽ അവർ ഇത് പ്രസിദ്ധീകരിക്കയും ചെയ്തു. സൈമണ്‍ സഖറിയ, 2014. public domain
 Music credit: ഹോഴ് സ്ലി, വില്ല്യം ഹോഴ് സ്ലി, 1844 (🔊 pdf nwc).
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

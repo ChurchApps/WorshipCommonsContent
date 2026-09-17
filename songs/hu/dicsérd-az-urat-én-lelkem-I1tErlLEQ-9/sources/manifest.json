@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226023015/http://www.hymntime.com/tch/non/hu/d/i/c/s/dicserdaz.htm",
       "acquired": null,
       "sha256": "54255ebf606863922605cdc0c3ce4898eae9f44edf40b0c683dfd82e7e746eb6",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20211226023015/http://www.hymntime.com/tch/non/hu/d/i/c/s/dicserdaz.htm",
+      "acquired": "2026-09-17",
+      "sha256": "02018514dd7a97c568a7f98113d5ba2a821b0d226afc235954d2b8ac883e3d47",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

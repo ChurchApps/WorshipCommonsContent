@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226052243/http://www.hymntime.com/tch/non/hu/e/r/t/e/ertedemi.htm",
       "acquired": null,
       "sha256": "87b0bc5550f03e33b608e4f8ab251c1d98c7a7adfa254a47398f01ee8fd492b1",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226052243/http://www.hymntime.com/tch/non/hu/e/r/t/e/ertedemi.htm",
-      "acquired": "2026-09-16",
-      "sha256": "cc8f753eda963767477dfddb0b6f54d754b85535278218c6bab5099750cfe645",
+      "acquired": "2026-09-17",
+      "sha256": "c6e5f67de63616224f07bd494b83a64079e976edda743d1322fa2c35a6b0a440",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

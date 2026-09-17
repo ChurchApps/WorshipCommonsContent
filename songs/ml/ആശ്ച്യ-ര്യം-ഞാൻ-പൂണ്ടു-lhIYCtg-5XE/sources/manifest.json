@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191022103252/http://www.hymntime.com:80/tch/non/ml/i/s/t/a/i_stand_amazed_in_the_presence_ml.htm",
       "acquired": null,
       "sha256": "7bf4a9fd03b58985267e8741d9963f0a0d57b443808eb776643b5f2d49e485ba",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191022103252/http://www.hymntime.com:80/tch/non/ml/i/s/t/a/i_stand_amazed_in_the_presence_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "309edf90e5c2826df4717f70f0ffdf102c1c6a8dbb14bb8410242dbc03f79ac6",
+      "acquired": "2026-09-17",
+      "sha256": "06d08016bb1efb509f4b87a4d1522129ad585f5ce53fe4f99a2e75969fda2561",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

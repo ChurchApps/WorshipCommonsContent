@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226070844/http://www.hymntime.com/tch/non/hu/n/i/c/s/nincsen.htm",
       "acquired": null,
       "sha256": "6eee32e105b057964e038e56059514f36eb1fca69c9b0cfcbeed3755ce9283ab",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226070844/http://www.hymntime.com/tch/non/hu/n/i/c/s/nincsen.htm",
-      "acquired": "2026-09-16",
-      "sha256": "75c3d8666ba4a87e0f43daa3a6e4261cc426dbd085d9235f500056f6993889a5",
+      "acquired": "2026-09-17",
+      "sha256": "5b8f86688b615253bf8275766731b9161b5b154be5a56422b917735354c19057",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

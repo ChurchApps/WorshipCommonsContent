@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226062904/http://www.hymntime.com/tch/non/hu/o/b/a/r/obarmeg.htm",
       "acquired": null,
       "sha256": "b7f1e7607d1c23ba12ee188b845af3a50215f4f44e189008c6fd8e52559b2524",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226062904/http://www.hymntime.com/tch/non/hu/o/b/a/r/obarmeg.htm",
-      "acquired": "2026-09-16",
-      "sha256": "ce677fd5c0c05c70c1fb04641c3f70125140ceae53a116bc4af4a5da9d37d1d1",
+      "acquired": "2026-09-17",
+      "sha256": "bf293a33607b309fa7f93a08bc26f2b150fe7328beb3db1be2589053c4f5bcb2",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

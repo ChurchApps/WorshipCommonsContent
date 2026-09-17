@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226062632/http://www.hymntime.com/tch/non/hu/e/r/t/e/ertekesk.htm",
       "acquired": null,
       "sha256": "2fd2092ad2e753fdcdff1e3a8b39fa75a237d6db1cab435b2d2eb423d99d2a23",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226062632/http://www.hymntime.com/tch/non/hu/e/r/t/e/ertekesk.htm",
-      "acquired": "2026-09-16",
-      "sha256": "77d72963b2a9c301db8c35e43ad06871bf6f02a1605d68d4c89d0df5cffa6d82",
+      "acquired": "2026-09-17",
+      "sha256": "eab49f42b406a1277e4e91ef62de1ab66b20b5bec35094260c629b822a42558f",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

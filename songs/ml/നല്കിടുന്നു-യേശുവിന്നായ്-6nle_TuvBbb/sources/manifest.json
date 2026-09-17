@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180829043219/http://hymntime.com:80/tch/non/ml/i/s/u/i_surrender_all_ml.htm",
       "acquired": null,
       "sha256": "135c09f701d68ae855dc51463aad1f2e3dfa1a856156d1fee94ad17153efce40",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180829043219/http://hymntime.com:80/tch/non/ml/i/s/u/i_surrender_all_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d1df615ca1610f83c7698ba8e91911447576f4d037916ea29b979b5cca9bc47b",
+      "acquired": "2026-09-17",
+      "sha256": "f8ce5caa2cc75e6a7028861542e918ded047e2c1309ceeb971e48cb6f9b8cf52",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20210413150244/http://www.hymntime.com/tch/non/hu/n/a/p/r/naprolna.htm",
       "acquired": null,
       "sha256": "20c71680581a8cf56768e451343dad9d219cf0f7645e0980dc1b3c99e1bc3c3b",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20210413150244/http://www.hymntime.com/tch/non/hu/n/a/p/r/naprolna.htm",
-      "acquired": "2026-09-16",
-      "sha256": "4da66e1c581374464d2bb943cd92683a27f71fef7ae8b2548a16e89c909cf5c6",
+      "acquired": "2026-09-17",
+      "sha256": "f02cea34974d56fc718b21eebe63f8599f3550a615462a0629ca4a087e0e8e8a",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

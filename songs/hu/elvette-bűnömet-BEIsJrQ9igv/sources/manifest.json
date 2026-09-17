@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211003200445/http://www.hymntime.com/tch/non/hu/e/l/v/e/elvette.htm",
       "acquired": null,
       "sha256": "e6d231ce477e2994238d1d695da98799084b7921c0125ed1ee6f9a7e6373cab2",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211003200445/http://www.hymntime.com/tch/non/hu/e/l/v/e/elvette.htm",
-      "acquired": "2026-09-16",
-      "sha256": "8ec37fe3b2d389ab060298f19d5d9afff5b8a0307e0a45b922cc4160ab5a65d2",
+      "acquired": "2026-09-17",
+      "sha256": "4a4be363e241800594f75b60f59470e4742a33d4d4cd005f7867852b9b79ffd1",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

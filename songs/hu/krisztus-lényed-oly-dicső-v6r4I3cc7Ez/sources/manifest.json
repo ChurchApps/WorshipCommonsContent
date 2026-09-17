@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226062855/http://www.hymntime.com/tch/non/hu/k/r/i/s/krisztus.htm",
       "acquired": null,
       "sha256": "7743f92752808ccf7c2df2e6de4bb4916a0540686e2541f4049cc8f65093676f",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226062855/http://www.hymntime.com/tch/non/hu/k/r/i/s/krisztus.htm",
-      "acquired": "2026-09-16",
-      "sha256": "2465d910a6a0051bdc15165d2f128bd501b50f3a3ba1817fe4313b8bb248f3ad",
+      "acquired": "2026-09-17",
+      "sha256": "e2d546a62845ee87f9f0fe958bfe3953840a508650cfa81b420b2f761fd8f733",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

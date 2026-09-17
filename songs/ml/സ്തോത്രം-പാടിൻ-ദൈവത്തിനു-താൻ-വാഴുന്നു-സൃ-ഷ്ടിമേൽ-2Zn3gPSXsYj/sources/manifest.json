@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175455/http://www.hymntime.com/tch/non/ml/s/i/n/g/sing_praise_to_God_who_reigns_above_ml.htm",
       "acquired": null,
       "sha256": "e272e500799be699a4d1c676781bc3a0d299ec7d2bf94bccbc09998fd9be1862",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175455/http://www.hymntime.com/tch/non/ml/s/i/n/g/sing_praise_to_God_who_reigns_above_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "278a2764c1a6b21e8d74e66a2d2b6231c7b4d9fdfd39547a86743412c788741c",
+      "acquired": "2026-09-17",
+      "sha256": "317531d4ee804ab2ae6dcc83923555d025ea52bf84d0b96c6c99144ae449e48b",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "കര്‍ത്താവിങ്കല്‍ വിശ്രാമം കൊള്ളുന്ന"
+The Cyber Hymnal: permission basis for "കര്‍ത്താവിങ്കല്‍ വിശ്രാമം കൊള്ളുന്ന"
 
 Page:     http://www.hymntime.com/tch/non/ml/f/o/r/a/for_all_the_saints_ml.htm
 Archived: http://web.archive.org/web/20191031130209/http://www.hymntime.com:80/tch/non/ml/f/o/r/a/for_all_the_saints_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20191031130209/http://www.hymntime.com:80/t
 Words credit: വില്ല്യം ഡബ്ലിയു. ഹൊവ്, ഏള്‍ നെല്‍സന്‍ എഴുതിയ 'ഹിംസ് ഫോര്‍ സെയിന്റ്സ് ഡേയ്സ് ആന്‍ഡ് അദര്‍ ഹിംസ്' (1864) ല്‍ നിന്നും. ആദ്യ രൂപത്തില്‍ "നിന്‍ വിശുദ്ധന്മാര്‍ക്കെല്ലാം" എന്നു കാണപ്പെടുന്നു. സൈമണ്‍ സഖറിയ, 2011. public domain
 Music credit: സിനേ നോമിനേ റാല്‍ഫ് വെഗ്വാന്‍ വില്ലിയംസ്, ഇംഗ്ലീഷ് ഹിംനലില്‍ നിന്നും.(ലണ്ടന്‍: ഓക്സ്ഫോര്‍ഡ് യൂണിവേഴ്സിറ്റി പ്രസ്സ് 1906), നമ്പര്‍ 641 (🔊 pdf nwc).
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

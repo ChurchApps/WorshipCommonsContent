@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190909135008/http://www.hymntime.com/tch/non/ml/m/i/g/h/a_mighty_fortress_ml.htm",
       "acquired": null,
       "sha256": "0b26699d907174e4827b366e80808431e2b9a40af30f38a9ec3da37910af8e7c",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190909135008/http://www.hymntime.com/tch/non/ml/m/i/g/h/a_mighty_fortress_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "2e633ba87def109ca2995c694ef7aa401775cd354f2242a624f1982764f8600e",
+      "acquired": "2026-09-17",
+      "sha256": "a623ccab44a08ed3bfdc4f2da3c0008616c6e977eebd998bdeaef1f091e24af2",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

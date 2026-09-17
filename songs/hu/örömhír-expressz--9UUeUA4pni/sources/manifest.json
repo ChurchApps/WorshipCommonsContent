@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412180112/http://www.hymntime.com/tch/non/hu/o/r/o/m/oromhir.htm",
       "acquired": null,
       "sha256": "399dffde8fba5c82a78ad30031d628f9dd6684bd347875ec89fb4d33cd96d578",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412180112/http://www.hymntime.com/tch/non/hu/o/r/o/m/oromhir.htm",
-      "acquired": "2026-09-16",
-      "sha256": "364af4414133afcabec7bf5bfa8ea921cf8d3b3fb55a813813b8d754ce87cbb1",
+      "acquired": "2026-09-17",
+      "sha256": "5d0d0c275201c42b0f4d0fcba448a60c6d894c7df4a2384a143b5c7843c89775",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

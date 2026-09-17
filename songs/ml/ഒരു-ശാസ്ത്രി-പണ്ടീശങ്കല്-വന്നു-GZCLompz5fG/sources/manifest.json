@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203620/http://www.hymntime.com:80/tch/non/ml/y/e/m/u/ye_must_be_born_again_ml.htm",
       "acquired": null,
       "sha256": "2cfd86b0b2d0f9098f2d63e818ffbc32a3b36c365111ca92ed86690e915dca0d",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191110203620/http://www.hymntime.com:80/tch/non/ml/y/e/m/u/ye_must_be_born_again_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "f03e9a9f1010f3ff445708d1abff88f1c23f0e0b0ab36a30de77f2126f6ad7e2",
+      "acquired": "2026-09-17",
+      "sha256": "7ac12d010e1d935c4ce52f019e7c7a4accb47e615231a2b709cd1ef8543a6ecd",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

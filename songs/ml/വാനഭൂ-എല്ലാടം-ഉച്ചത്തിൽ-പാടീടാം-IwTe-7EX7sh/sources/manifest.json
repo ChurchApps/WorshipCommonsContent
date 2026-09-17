@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125445/http://www.hymntime.com:80/tch/non/ml/l/i/f/t/lift_every_voice_and_sing_ml.htm",
       "acquired": null,
       "sha256": "077f9881878033a88891157f099458261de0e868f5d62393f3092536995645d6",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125445/http://www.hymntime.com:80/tch/non/ml/l/i/f/t/lift_every_voice_and_sing_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "68d3f4c685d32dd3683e763b8d8ab253bba9064e44f389193104fad8d6b41182",
+      "acquired": "2026-09-17",
+      "sha256": "a97079c13e3f2602b383cb61357f93ef2c437b96154558cf760fc5a73609d520",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

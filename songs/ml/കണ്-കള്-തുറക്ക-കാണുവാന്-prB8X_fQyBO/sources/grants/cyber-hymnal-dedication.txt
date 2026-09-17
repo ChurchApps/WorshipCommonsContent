@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "കണ്‍കള്‍ തുറക്ക കാണുവാന്‍"
+The Cyber Hymnal: permission basis for "കണ്‍കള്‍ തുറക്ക കാണുവാന്‍"
 
 Page:     http://www.hymntime.com/tch/non/ml/o/p/e/n/open_my_eyes_ml.htm
 Archived: http://web.archive.org/web/20191031125233/http://www.hymntime.com:80/tch/non/ml/o/p/e/n/open_my_eyes_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20191031125233/http://www.hymntime.com:80/t
 Words credit: ക്ലാര എച്ച്. സ്കോട്ട്, ബെസ്റ്റ് ഹിംസ് നമ്പര്‍: 2; എലിഷ എ. ഹോഫ്മേന്‍ & ഹാരോള്‍ഡ്‌ എഫ്. സെയില്‍സ് എഴുതിയതു (ഷിക്കാഗോ, ഇല്ലിനോയ്: ഇവാഞ്ചലിക്കല്‍ പബ്ലിഷിംഗ് കമ്പനി, 1895) (Open My Eyes); സൈമണ്‍ സഖറിയ, 2012. public domain
 Music credit: ക്ലാര എച്ച്. സ്കോട്ട് (🔊 pdf nwc).
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

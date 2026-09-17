@@ -3,7 +3,7 @@
   "title": "Yo Escucho, Mi Jesús",
   "writer": "Lewis Hartsough · tr. Juan Bautista Cabrera Ivars",
   "writerRef": "lewis-hartsough",
-  "year": null,
+  "year": 1893,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "hymnary",
-      "source": "hymnary"
+      "basis": "Tr. Juan Bautista Cabrera (1837-1916), in El Himnario Evangélico 1893; Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/yo_escucho_buen_jesus",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": {
       "license": "PD",

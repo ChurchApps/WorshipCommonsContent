@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191103064559/http://www.hymntime.com:80/tch/non/fr/p/a/r/t/partout.htm",
       "acquired": null,
       "sha256": "05418cf2992d052abf2977264925da4cf26a9d274f65d9d6100df50be48939d1",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191103064559/http://www.hymntime.com:80/tch/non/fr/p/a/r/t/partout.htm",
+      "acquired": "2026-09-17",
+      "sha256": "bedb76dd482a58b498ab574e1a2e53cc73e8e3c20a05f2e29fa077f86b9e5119",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

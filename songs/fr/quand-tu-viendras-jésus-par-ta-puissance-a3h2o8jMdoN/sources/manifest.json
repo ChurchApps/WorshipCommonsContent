@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211128120756/http://www.hymntime.com/tch/non/fr/q/u/a/n/quandtuv.htm",
       "acquired": null,
       "sha256": "0d349f4d31fb2d0ebe720bba03ce7fc8363bf448af8d52b1f085aa77cc384b62",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20211128120756/http://www.hymntime.com/tch/non/fr/q/u/a/n/quandtuv.htm",
+      "acquired": "2026-09-17",
+      "sha256": "6287689cca842f5b77e4df0e75bc4f3dd37b4ad5b184a1be5b91cd445c5c92fd",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

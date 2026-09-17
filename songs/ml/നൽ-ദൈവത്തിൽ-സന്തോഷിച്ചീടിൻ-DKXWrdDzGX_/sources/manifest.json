@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190909140342/http://www.hymntime.com/tch/non/ml/g/o/d/r/God_rest_ye_merry_gentlemen_ml.htm",
       "acquired": null,
       "sha256": "6b74cfe54f852379af0ef316fc461d8ead815eb6670977d8f1d4dfe07687288a",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190909140342/http://www.hymntime.com/tch/non/ml/g/o/d/r/God_rest_ye_merry_gentlemen_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "aefc15f1007593aed18820498b3dbe0aad79cd4410a44d9ec0bc85134f9ab5ba",
+      "acquired": "2026-09-17",
+      "sha256": "eb025d644023f5aaef5cab36b771e8b4d74a501b8cca669b67bb94acd09582e0",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190916022220/http://www.hymntime.com/tch/non/es/d/e/l/q/dequiepa.htm",
       "acquired": null,
       "sha256": "e25159ff28f889a83138cc7bbfbe9bd0e5386fe40ed3160ff28b4997aa9bb63e",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190916022220/http://www.hymntime.com/tch/non/es/d/e/l/q/dequiepa.htm",
+      "acquired": "2026-09-17",
+      "sha256": "685f3a22f2d009b2584c6196ac731e268e734b9e1bf954df5d152d15f883e4eb",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

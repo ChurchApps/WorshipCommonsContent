@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181025134618/http://www.hymntime.com:80/tch/non/ml/o/l/d/t/old_time_religion_ml.htm",
       "acquired": null,
       "sha256": "57d3355aa78e4018b370f8774c641d5a446b26036c25e0e04d66cd8d6c2e5b31",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181025134618/http://www.hymntime.com:80/tch/non/ml/o/l/d/t/old_time_religion_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "a42344ec8369a54a3f30d67ddddd8c5a8a69a74334c1c865c226520e1493d372",
+      "acquired": "2026-09-17",
+      "sha256": "689fe8d58ce11f31c8fba8e0b54f3977daca2aef5325557edee4c7d74a9afe74",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

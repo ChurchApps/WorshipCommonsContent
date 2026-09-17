@@ -3,7 +3,7 @@
   "title": "Del Santo Amor de Cristo",
   "writer": "Anónimo",
   "writerRef": null,
-  "year": null,
+  "year": 1921,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; tr. Vicente Mendoza printed in Himnos de Gloria (1921) #87",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20180516204708/http://www.hymntime.com:80/tch/non/es/d/e/l/s/delsanac.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

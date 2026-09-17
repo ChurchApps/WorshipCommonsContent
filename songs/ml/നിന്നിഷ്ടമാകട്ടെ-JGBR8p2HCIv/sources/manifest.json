@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181011052607/http://www.hymntime.com:80/tch/non/ml/t/h/y/w/thy_way_not_mine_ml.htm",
       "acquired": null,
       "sha256": "fc5ad869640afcf91221838769c165a1b033909acf058c507521074b8f44620c",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181011052607/http://www.hymntime.com:80/tch/non/ml/t/h/y/w/thy_way_not_mine_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "fd1860b7ee06aeba2ae7d50cd07b9fa1ed10f3fdc7f90a0422588750bfec6c0d",
+      "acquired": "2026-09-17",
+      "sha256": "92475cf663be2ce894b4562e4421ef0da449e25e0078faf3becc826ce6b4d7bf",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -3,7 +3,7 @@
   "title": "¡Oh! Soldados, en los Cielos",
   "writer": "Anónimo",
   "writerRef": null,
-  "year": null,
+  "year": 1877,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; Spanish of P. P. Bliss (1870) printed 1877; Hymnary lists it Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190918030800/http://www.hymntime.com/tch/non/es/o/h/s/o/ohsoldad.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

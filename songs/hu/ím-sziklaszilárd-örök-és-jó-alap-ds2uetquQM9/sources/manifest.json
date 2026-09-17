@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190603153620/http://www.hymntime.com:80/tch/non/hu/i/m/s/z/imszikla.htm",
       "acquired": null,
       "sha256": "5be66092968d8605b607c8ab8c51016b2a8d20682ce5c5a796c6115257bc9614",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190603153620/http://www.hymntime.com:80/tch/non/hu/i/m/s/z/imszikla.htm",
-      "acquired": "2026-09-16",
-      "sha256": "14cc57feef103289de9ed438b5abccf8e30889ce2d91e06cf2af111121f17dc1",
+      "acquired": "2026-09-17",
+      "sha256": "214997129c3e22fbeb67a59a209991b4fff9006fa10c3ebdbd28e7a9d2061efc",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

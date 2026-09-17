@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203220/http://www.hymntime.com:80/tch/non/ml/r/a/k/s/rakshaka.htm",
       "acquired": null,
       "sha256": "35fb76408fd6a9879fcc2c8a07b3c2dd4091e1c547ff1f43ac69c1ea5a3c7fe4",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203220/http://www.hymntime.com:80/tch/non/ml/r/a/k/s/rakshaka.htm",
+      "acquired": "2026-09-17",
+      "sha256": "26852618f9cf36aa87e3735142081cdde006c3c9bb14e0b6a582ba209fa30f87",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

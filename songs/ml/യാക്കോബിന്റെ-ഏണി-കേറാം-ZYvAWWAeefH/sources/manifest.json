@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190126192357/http://www.hymntime.com:80/tch/non/ml/y/a/a/k/yaakkobinte.htm",
       "acquired": null,
       "sha256": "f2ef2bacf6644b3584d4e69b684fecc9c741460056f97156d2611ce081274783",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190126192357/http://www.hymntime.com:80/tch/non/ml/y/a/a/k/yaakkobinte.htm",
-      "acquired": "2026-09-16",
-      "sha256": "7234cadbee3128b8f6cdf5e25bf7397e4ed3ea86db8ca95caf438802ff252e32",
+      "acquired": "2026-09-17",
+      "sha256": "1c76e00c3fd0509317e213f0a92cfa36c53f36ebfb3ff4732e7457599791c910",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

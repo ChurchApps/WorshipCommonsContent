@@ -3,7 +3,7 @@
   "title": "¡Oh Padre, Eterno Dios!",
   "writer": "Vicente Mendoza",
   "writerRef": null,
-  "year": null,
+  "year": 1914,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; Vicente Mendoza text in El Nuevo Himnario Evangélico (1914) #47; Hymnary lists it Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20181201181142/http://www.hymntime.com/tch/non/es/o/p/e/t/opetdios.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

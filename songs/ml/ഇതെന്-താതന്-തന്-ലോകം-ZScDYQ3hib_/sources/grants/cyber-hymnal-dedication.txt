@@ -1,4 +1,4 @@
-The Cyber Hymnal: public-domain dedication for "ഇതെന്‍ താതന്‍ തന്‍ ലോകം"
+The Cyber Hymnal: permission basis for "ഇതെന്‍ താതന്‍ തന്‍ ലോകം"
 
 Page:     http://www.hymntime.com/tch/non/ml/t/h/i/s/this_is_my_fathers_world_ml.htm
 Archived: http://web.archive.org/web/20181014153346/http://www.hymntime.com:80/tch/non/ml/t/h/i/s/this_is_my_fathers_world_ml.htm
@@ -6,8 +6,14 @@ Archived: http://web.archive.org/web/20181014153346/http://www.hymntime.com:80/t
 Words credit: മാള്‍ട്ബി ഡി. ബാബ്കോക്, 1901 (This Is My Father’s World). ന്റെ ആരംഭത്തില്‍ ന്യൂ യോര്‍ക്ക്, ലോക്ക്പോര്ട്ടിലെ ബാബ്കോക്ക് എന്ന ഒരു പ്രാസംഗികന്‍ മലയുടെ താഴ്വാരം എന്നു പൊതുവെ അറിയപ്പെട്ട പ്രദേശത്തു പാര്‍ത്തിരുന്നു. 15 മൈലോളം നീണ്ടു കിടന്ന വയലുകളുടെയും, തോട്ടങ്ങളുടെയും ഒണ്ടാറിയോ തടാകത്തിന്റെയും മനോഹര കാഴ്ച അവിടെ നിന്നു ദൃശ്യമായിരുന്നു. ആ പ്രദേശത്തെ സായാഹ്ന സവാരികള്‍ ആയിരുന്നിരിക്കണം ഈ വരികള്‍ എഴുതുവാന്‍ പ്രചോദനം നല്‍കിയതെന്ന് കരുതപ്പെടുന്നു. ഈ ഗാനത്തിന്റെ തല വാചകം, ബാബ്കോക്ക് തന്റെ സായാന്ഹ സവാരിക്ക് പുറപ്പെടുമ്പോള്‍ പറയാറുണ്ടായിരുന്ന എന്റെ പിതാവിന്റെ പ്രപഞ്ചം ഒന്നു സന്ദര്‍ശ്ശിക്കട്ടെ എന്ന വാചകത്തെ ഓര്‍മ്മിപ്പിക്കുന്നതാണ്‌. സൈമണ്‍ സഖറിയ, 2012. public domain
 Music credit: ടെറാ ബീറ്റാ, എന്ന പഴക്കം ചെന്ന ഇംഗ്ലീഷ് രാഗം, ക്രമീകരണം ചെയ്തത്, ഹെന്‍റി ടി. സ്മാര്‍ട്ട്, ഹാലേലുയ്യാ എന്ന കൃതിയില്‍നിന്നും. (പ്രിസ്ബിറ്റേറിയന്‍ ബോര്‍ഡ് പബ്ലിക്കേഷന്‍ ആന്‍ഡ് സേബ്ബത്ത് സ്കൂള്‍ വര്‍ക്ക്, 1915), നമ്പര്‍: 180 (🔊 pdf nwc).
 
-"(public domain)" above is the page's <span class="public-domain"> marker. TCH's js/foreign.js
-fills it with the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public).
-The marker dedicates the dated work it follows; every other dated credit above is pre-1931.
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
 
-Checked 2026-09-16 against the archived page.
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

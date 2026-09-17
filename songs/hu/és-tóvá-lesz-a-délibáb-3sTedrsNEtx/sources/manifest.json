@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190621140912/http://www.hymntime.com/tch/non/hu/e/s/t/o/estovale.htm",
       "acquired": null,
       "sha256": "a8839f57caca3bec1ad13a25a4358efe78b33b3558062919b1228da8dbf8d9c8",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190621140912/http://www.hymntime.com/tch/non/hu/e/s/t/o/estovale.htm",
-      "acquired": "2026-09-16",
-      "sha256": "84544ae336d202994204caee7ffdc6215295943b2de7d28946117955e218d4d9",
+      "acquired": "2026-09-17",
+      "sha256": "c31e0dcb7e2ff1bf714b8aa65dc9cb5fc269b7503b99766ec90507229793b037",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

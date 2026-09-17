@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125722/http://www.hymntime.com:80/tch/non/ml/o/m/a/s/o_Master_let_me_walk_with_Thee_ml.htm",
       "acquired": null,
       "sha256": "d43a2c566f58cb541baaa6c9aefe06d93c6b98c93f39c068ec18bc2f24b6d7ea",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125722/http://www.hymntime.com:80/tch/non/ml/o/m/a/s/o_Master_let_me_walk_with_Thee_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "acc2b1576f14d7a9f50054bdde1669688edecda6410ccbd997d0270990627c0b",
+      "acquired": "2026-09-17",
+      "sha256": "5490d93f492b4411003cd7cf68e492d6e7f3da7950b302a6dcd7187b299923e8",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181025134608/http://www.hymntime.com:80/tch/non/fr/f/l/a/m/flambeau.htm",
       "acquired": null,
       "sha256": "53d23e3cc7359e97e89cdedfa5b031bb81e4dcfc186541796000523c4ce55826",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20181025134608/http://www.hymntime.com:80/tch/non/fr/f/l/a/m/flambeau.htm",
+      "acquired": "2026-09-17",
+      "sha256": "60cf0f73eaca9fe2cc976a3a1e4bd7813d594c634aa6d51531dcbc41b42d4922",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031040431/http://www.hymntime.com:80/tch/non/hu/e/g/y/n/egyneval.htm",
       "acquired": null,
       "sha256": "d4ec4373cf747b1875a815fafdfe37adac496faac88e25ea91c202dded0d3155",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031040431/http://www.hymntime.com:80/tch/non/hu/e/g/y/n/egyneval.htm",
-      "acquired": "2026-09-16",
-      "sha256": "e41aa35fd326a836f4a7c0b9ae2f2020c2b429edcc6f26baf3d0c8225de59f05",
+      "acquired": "2026-09-17",
+      "sha256": "7d2733846f728ad41ff67a164e61d892b019b4a6ad1f723d3cd7b1d2d1270c3c",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

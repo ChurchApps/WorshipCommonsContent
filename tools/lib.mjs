@@ -468,6 +468,12 @@ const NOT_CITED = new Set(["harvested.json", "hymnary.json", "video.json", "timi
 // sources.txt is generated from the package + sources.json — never hand-edited.
 const manifestHas = (dir, file) => readManifest(dir).some(r => r.file === file);
 
+// Public domain carries no legal credit condition: a source that asks for credit is a request,
+// and a song that says it needs none (a mixed PD/CC-BY source) prints nothing.
+const creditNote = (song, s) => !s?.attribution?.required ? ""
+  : song.license !== "PD" ? " (attribution required)"
+  : song.attribution?.required === false ? "" : " (credit requested)";
+
 export function renderSourcesTxt(dir, song, sources) {
   const lines = [
     `${song.title} — sources & attribution`,
@@ -480,7 +486,7 @@ export function renderSourcesTxt(dir, song, sources) {
     if (!s) throw new Error(`${song.title}: rights.text.source / licenseSource references unknown source "${textKey}"`);
     let line = `Text (lyrics.chordpro): ${s.name}`;
     if (s.url) line += ` — ${s.url}`;
-    if (s.attribution?.required) line += ` (attribution required)`;
+    line += creditNote(song, s);
     lines.push(line);
   }
   const mp = manifestPath(dir);
@@ -494,7 +500,7 @@ export function renderSourcesTxt(dir, song, sources) {
       throw new Error(`${song.title}: manifest ${row.file} references unknown source "${row.licenseBasis}"`);
     let line = `${SOURCE_FILE_LABELS[row.file] ?? row.file}: ${s?.name ?? row.licenseBasis ?? "unknown"}`;
     if (s?.url) line += ` — ${s.url}`;
-    if (s?.attribution?.required) line += ` (attribution required)`;
+    line += creditNote(song, s);
     lines.push(line);
   }
   // inherited assets: rights still name the source even when the bytes live on the parent
@@ -503,7 +509,7 @@ export function renderSourcesTxt(dir, song, sources) {
     const s = sources[key];
     let line = `${SOURCE_FILE_LABELS[file]}: ${s.name}`;
     if (s.url) line += ` — ${s.url}`;
-    if (s.attribution?.required) line += ` (attribution required)`;
+    line += creditNote(song, s);
     lines.push(line);
   }
   const harvested = readHarvested(dir);

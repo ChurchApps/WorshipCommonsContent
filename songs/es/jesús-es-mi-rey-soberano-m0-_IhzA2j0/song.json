@@ -3,7 +3,7 @@
   "title": "Jesús Es Mi Rey Soberano",
   "writer": "Anónimo",
   "writerRef": null,
-  "year": null,
+  "year": 1920,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; Vicente Mendoza, 1920 (per the page); Hymnary lists it Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190412175359/http://www.hymntime.com/tch/non/es/j/e/s/e/jesesmir.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

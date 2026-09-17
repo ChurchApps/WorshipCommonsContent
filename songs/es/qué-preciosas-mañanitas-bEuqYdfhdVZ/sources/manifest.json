@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328154059/http://www.hymntime.com/tch/non/es/q/u/e/p/quepreci.htm",
       "acquired": null,
       "sha256": "667e3958ff37d344118ff6363974fadd099a79af1beaa24d1eb73ffc85e32a74",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -52,6 +55,19 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190328154059/http://www.hymntime.com/tch/non/es/q/u/e/p/quepreci.htm",
+      "acquired": "2026-09-17",
+      "sha256": "cf545a89484d4b724ddc25c4cdc02f75f7e88d8d4ce85e213b9de755dc0d1b91",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

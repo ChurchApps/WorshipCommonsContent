@@ -3,7 +3,7 @@
   "title": "No Te Dé Temor Hablar por Cristo",
   "writer": "Anónimo",
   "writerRef": null,
-  "year": null,
+  "year": 1881,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; Fanny Crosby tr. T. M. Westrup, printed 1881; tune Bradbury (d. 1868); Hymnary lists it Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190921110817/http://www.hymntime.com/tch/non/es/n/o/t/e/notedete.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

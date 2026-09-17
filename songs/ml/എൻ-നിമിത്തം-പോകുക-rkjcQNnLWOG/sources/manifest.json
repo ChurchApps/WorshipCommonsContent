@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328154136/http://www.hymntime.com/tch/non/ml/e/n/n/i/ennimitt.htm",
       "acquired": null,
       "sha256": "4ad0e6857d7c48a32c5d0b414a7b36977ef942fda490a31d009a7d3fd7355d0a",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190328154136/http://www.hymntime.com/tch/non/ml/e/n/n/i/ennimitt.htm",
+      "acquired": "2026-09-17",
+      "sha256": "6a241a9e9663ea63a11c85b4e98d651858b0e0b7c65c2fca71e5c232298848bb",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

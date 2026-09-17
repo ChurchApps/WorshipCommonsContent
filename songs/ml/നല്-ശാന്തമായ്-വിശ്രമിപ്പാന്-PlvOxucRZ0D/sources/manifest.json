@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181130122323/http://www.hymntime.com:80/tch/non/ml/n/e/a/r/near_to_the_heart_of_God_ml.htm",
       "acquired": null,
       "sha256": "cdca5de2c7b561f167812e36ff1026d816fdac8a9cd6b52a079c42eb618c382b",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181130122323/http://www.hymntime.com:80/tch/non/ml/n/e/a/r/near_to_the_heart_of_God_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "8409cb9cefb8d1b50070243401e49b39daf55c37c82b4e9e139c238eaeeae7c8",
+      "acquired": "2026-09-17",
+      "sha256": "10b189408ef155e62294042b35813098b68983986574b21698492ed40d61b659",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

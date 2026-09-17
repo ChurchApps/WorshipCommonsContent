@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031071025/http://www.hymntime.com:80/tch/non/hu/a/z/e/n/azenanyam.htm",
       "acquired": null,
       "sha256": "5a4f3995a3a808c7eab9bdb11c41bf2f91edeaef5a7b9762182a508159160927",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031071025/http://www.hymntime.com:80/tch/non/hu/a/z/e/n/azenanyam.htm",
-      "acquired": "2026-09-16",
-      "sha256": "46b6944acc4da5c5762e85a9692551128de3472a4016fdb8ec0d14e9a070e8aa",
+      "acquired": "2026-09-17",
+      "sha256": "f0fe1c5f0023a29e6fdf914dd58452bf617ceb52adaec5eb6b23dad284ef38dc",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

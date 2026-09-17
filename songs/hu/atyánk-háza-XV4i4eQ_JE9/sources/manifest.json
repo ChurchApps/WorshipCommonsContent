@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181014153450/http://www.hymntime.com:80/tch/non/hu/a/t/y/a/atyank.htm",
       "acquired": null,
       "sha256": "25ea24a49fe9f882804c6ea3ae35607bb9bce6d56ed1bdb2e3029530345e21ce",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181014153450/http://www.hymntime.com:80/tch/non/hu/a/t/y/a/atyank.htm",
-      "acquired": "2026-09-16",
-      "sha256": "3c1a36172cd598032425ac4f9d86edf9d71285eba3c13d34d2ef2de972a2964f",
+      "acquired": "2026-09-17",
+      "sha256": "c89f7ad03a412000f92319b3a8eb6f8e1e4913dae61c800d54c8a45b7f9034c6",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

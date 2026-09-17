@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190401145527/http://hymntime.com/tch/non/ml/c/o/m/e/come_Thou_fount_of_every_blessing_ml.htm",
       "acquired": null,
       "sha256": "17ba390932cf9cc50267938e325b009e2a748f58e8f9d7ee882946fc413850a0",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190401145527/http://hymntime.com/tch/non/ml/c/o/m/e/come_Thou_fount_of_every_blessing_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d2d90b7e59c8c223155d01c33121d10fc30ad84978af53e8cd1765b38f1c1157",
+      "acquired": "2026-09-17",
+      "sha256": "b3e8296033ac6f5fb871ded28773e768e361cf6dbc886afce49066bcf95f5d09",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

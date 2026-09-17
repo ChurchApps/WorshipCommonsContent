@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412180005/http://www.hymntime.com/tch/non/ml/p/o/k/u/pokuving.htm",
       "acquired": null,
       "sha256": "17708cb4723f754371522c96b0724e96f0397a0a23c5fbd070ec0855c8205b11",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412180005/http://www.hymntime.com/tch/non/ml/p/o/k/u/pokuving.htm",
-      "acquired": "2026-09-16",
-      "sha256": "9220693047c6758b30c55b0b3f570782154535846d6d12b1adf1f68d4c04b72c",
+      "acquired": "2026-09-17",
+      "sha256": "e0d227faab6ff740e847e2c3b2bbc85dcde38a6f7d58aad7ab56665df9280afa",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031073355/http://www.hymntime.com:80/tch/non/ml/o/r/t/h/orthidane.htm",
       "acquired": null,
       "sha256": "ccb16c94ce6f95d2541229d714362c6c579822282cadaf07dc7549ffe44f4cf4",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031073355/http://www.hymntime.com:80/tch/non/ml/o/r/t/h/orthidane.htm",
-      "acquired": "2026-09-16",
-      "sha256": "e2c71caa1fca7c02b287c74d2211ce9be090b6db49d4f16f82087ca1bd443e97",
+      "acquired": "2026-09-17",
+      "sha256": "a45966cccab3e82e009582701222c2a541ce263d9bd9720b1a6e24e85a0123e2",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

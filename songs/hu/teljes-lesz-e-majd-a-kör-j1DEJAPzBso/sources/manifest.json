@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181017184444/http://www.hymntime.com:80/tch/non/hu/t/e/l/j/teljesko.htm",
       "acquired": null,
       "sha256": "819d4583cd22fb6fb94de15f35bcfcf2ff83a15e4319c5c0d81413fe31a92beb",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181017184444/http://www.hymntime.com:80/tch/non/hu/t/e/l/j/teljesko.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d6b4c41e8877b0b558a58537e14c296ae15dd9b60b51fa68a30336331da58364",
+      "acquired": "2026-09-17",
+      "sha256": "16c8a4ddb36db184cdcb449405e5cfddfd239954c97131a89a291e20cb85c481",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

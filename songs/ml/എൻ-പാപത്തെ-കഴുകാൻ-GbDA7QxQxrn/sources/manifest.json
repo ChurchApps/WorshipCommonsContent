@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190328153814/http://www.hymntime.com/tch/non/ml/n/o/t/h/nothing_but_the_blood_ml.htm",
       "acquired": null,
       "sha256": "946902d49e09e7ee552c7fb90ec41d27b9c4886ef964e0850827f910d76aab82",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190328153814/http://www.hymntime.com/tch/non/ml/n/o/t/h/nothing_but_the_blood_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "422377903f0c58f44c63c1c939391a42bac115420fe59fbc8ca5f263e337f9c9",
+      "acquired": "2026-09-17",
+      "sha256": "986bfc0249ffa84e6fe7e943d468d8771eece7569e427c6e7488de5cedefc909",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130719/http://www.hymntime.com:80/tch/non/ml/j/e/s/u/Jesus_Thine_all_victorious_love_ml.htm",
       "acquired": null,
       "sha256": "71363077cb17e1f2fc3a5df7fd7ece59a260856c2435ca639860f8acdb4ddae2",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130719/http://www.hymntime.com:80/tch/non/ml/j/e/s/u/Jesus_Thine_all_victorious_love_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "398f52b3b3ad22295e94e41b3a420336ccc3acae946add6df4fef43f6091165d",
+      "acquired": "2026-09-17",
+      "sha256": "d585183bc43ea0535ec4058fe6bbd5258c373de6eac02199b332ee3c3563e0a8",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

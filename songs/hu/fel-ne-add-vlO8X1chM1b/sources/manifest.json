@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226064054/http://www.hymntime.com/tch/non/hu/f/e/l/n/felneadd.htm",
       "acquired": null,
       "sha256": "b3ef6750080d9fd80894a75775217f1a487485e811df1a0ef9af8a9cb6f2327c",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226064054/http://www.hymntime.com/tch/non/hu/f/e/l/n/felneadd.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0f0aec5dab6dee8cbf454d5c37baaa5b5cdde11161d0c789044f0f8dd5471aab",
+      "acquired": "2026-09-17",
+      "sha256": "cd93cfe690c34b1a0f90e9042e58f7cd0c7813fe0cf3d3c2bffce1accee217d9",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

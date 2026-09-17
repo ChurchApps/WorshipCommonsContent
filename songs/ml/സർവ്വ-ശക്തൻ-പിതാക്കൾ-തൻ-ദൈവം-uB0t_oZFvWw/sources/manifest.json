@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125632/http://www.hymntime.com:80/tch/non/ml/g/o/d/o/God_of_our_fathers_ml.htm",
       "acquired": null,
       "sha256": "8c9b4248c10709980555ef0e2a4630803f37ed985c1029d8099c5fcf1e045ad1",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125632/http://www.hymntime.com:80/tch/non/ml/g/o/d/o/God_of_our_fathers_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "49abd4b072dba16172fa3ada9f77f7abff0f0e551fdf3416df301aac1305590e",
+      "acquired": "2026-09-17",
+      "sha256": "30b114f2cb4afaf2c39a95a6f5e8f2a885f12fd083493169bd3b87fdb8994c09",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

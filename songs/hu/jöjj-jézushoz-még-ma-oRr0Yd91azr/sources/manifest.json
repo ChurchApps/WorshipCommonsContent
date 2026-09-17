@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412180009/http://www.hymntime.com/tch/non/hu/j/o/j/j/jojjjezu.htm",
       "acquired": null,
       "sha256": "244b95873fbf9dcd2e41ae3a8027f5779fe6a08df7c1ec54226fe2b7b61c83ac",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412180009/http://www.hymntime.com/tch/non/hu/j/o/j/j/jojjjezu.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0105bceade669b2811aaddd2481ca052a8271dc5b80a36ce3a6d5e981db70ed9",
+      "acquired": "2026-09-17",
+      "sha256": "520844f60b28ed0654c0f5bc50b418413f1502049813d09db831d3c68bbe3078",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

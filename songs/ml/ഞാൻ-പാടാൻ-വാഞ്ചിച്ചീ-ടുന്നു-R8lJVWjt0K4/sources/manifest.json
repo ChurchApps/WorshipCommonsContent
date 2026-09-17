@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175046/http://www.hymntime.com/tch/non/ml/s/i/n/g/singing_all_the_time_ml.htm",
       "acquired": null,
       "sha256": "a6885944c6b4b3dedfc5cb7012714a5f155fe5026416e994e82ada0d7c0bd94d",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175046/http://www.hymntime.com/tch/non/ml/s/i/n/g/singing_all_the_time_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "21f1870411c23b8acbff356f8c7102a4253ed56a5daaac6727dac34e80988cf3",
+      "acquired": "2026-09-17",
+      "sha256": "14f68def09e7ede11f37903e0759871e0409263a9777d6785e162e96af200eff",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

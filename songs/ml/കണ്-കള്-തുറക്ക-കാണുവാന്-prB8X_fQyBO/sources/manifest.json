@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031125233/http://www.hymntime.com:80/tch/non/ml/o/p/e/n/open_my_eyes_ml.htm",
       "acquired": null,
       "sha256": "e88874f6028dda6eb13cd09ff5f0cde5001e44b1ae809c3449ecf5296a1c2b34",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031125233/http://www.hymntime.com:80/tch/non/ml/o/p/e/n/open_my_eyes_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "4b4e7d41d202f26b8fc872b9dd24a4c9ea2e01f675eab29f745fdde7455b9d08",
+      "acquired": "2026-09-17",
+      "sha256": "2dc2e41b3a2bee8fb83f36e64ba97f97920899202f2c47dd9cf3dea43472137c",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

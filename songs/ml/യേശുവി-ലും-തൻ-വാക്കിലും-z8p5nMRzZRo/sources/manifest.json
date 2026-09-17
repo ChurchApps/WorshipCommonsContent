@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226051745/http://www.hymntime.com/tch/non/ml/t/i/s/s/tis_so_sweet_to_trust_in_Jesus_ml.htm",
       "acquired": null,
       "sha256": "0666c4c51ef2e67817bd4dfab2f706fe1c9f30b3de443ad8884144206996a452",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226051745/http://www.hymntime.com/tch/non/ml/t/i/s/s/tis_so_sweet_to_trust_in_Jesus_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "a8a2130ad192ed7915d624da7b3d102917c9fe52319c678ca9adfdb41105aaec",
+      "acquired": "2026-09-17",
+      "sha256": "6b93084eb70489415138f99807ab3d6f6cf9bd83d2ee69f6b5a90669790dd8fb",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

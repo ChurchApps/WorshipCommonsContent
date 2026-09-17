@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130204/http://www.hymntime.com:80/tch/non/ml/b/e/s/t/be_still_my_soul_ml.htm",
       "acquired": null,
       "sha256": "9fa3a8bb8bb56494ad82770b63701a238d18059d73fdf0648e97605e3788e7c6",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130204/http://www.hymntime.com:80/tch/non/ml/b/e/s/t/be_still_my_soul_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "753f2c4bf17d0e943fe76241a48c5cb8b2263501ccd8d44971541dd275ac103c",
+      "acquired": "2026-09-17",
+      "sha256": "63009186f18c0d6b15a2cccef420d1ec8e5ee59c765af8657ed89e09ba96fd7e",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

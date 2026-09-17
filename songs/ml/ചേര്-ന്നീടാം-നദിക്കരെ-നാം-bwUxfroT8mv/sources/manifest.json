@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181026185311/http://www.hymntime.com:80/tch/non/ml/s/h/a/l/shall_we_gather_at_the_river_ml.htm",
       "acquired": null,
       "sha256": "102b9a8575762597d0509f74a8ae141afbdafd92e2714e6d1217d2ce77678d03",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181026185311/http://www.hymntime.com:80/tch/non/ml/s/h/a/l/shall_we_gather_at_the_river_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "138bc863645796b1277a0733fc784866baa907c2e7d5b4e49c3a8977b5474de2",
+      "acquired": "2026-09-17",
+      "sha256": "8d923909d7a1f7b8fe76e4c93baafc8570e1514b3f3588b73743756d49a23cea",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

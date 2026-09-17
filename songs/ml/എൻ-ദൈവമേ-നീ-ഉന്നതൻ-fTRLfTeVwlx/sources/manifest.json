@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031074558/http://www.hymntime.com:80/tch/non/ml/m/y/g/o/my_God_how_wonderful_Thou_art_ml.htm",
       "acquired": null,
       "sha256": "12583a6cc351a146b25237e58d872263a27c1274577362b31d6f1f9084daea02",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031074558/http://www.hymntime.com:80/tch/non/ml/m/y/g/o/my_God_how_wonderful_Thou_art_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "c08c91f889492eaa61b64da242b3a59a41b1695ff3b85e8d641ac711d6113c14",
+      "acquired": "2026-09-17",
+      "sha256": "d96437d36c51ae3b8e33c0db6777f5e55d73a64255b563316a6a3ca9f8b8857d",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

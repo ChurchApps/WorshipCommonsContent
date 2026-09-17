@@ -3,7 +3,7 @@
   "title": "Todas las promesas",
   "writer": "R. Kelso Carter · tr. Vicente Mendoza",
   "writerRef": "r-kelso-carter",
-  "year": null,
+  "year": 1908,
   "language": "Spanish",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "hymnary",
-      "source": "hymnary"
+      "basis": "Tr. Vicente Mendoza, in a 1908 hymnal (Hymnary scan HC1908 #228); Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/todas_las_promesas_del_senor_jesus",
+      "evidence": "grants/hymnary-public-domain.txt"
     },
     "tune": {
       "license": "PD",

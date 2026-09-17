@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130644/http://www.hymntime.com:80/tch/non/ml/a/h/h/o/ah_holy_Jesus_ml.htm",
       "acquired": null,
       "sha256": "feefeb9ddf550c1f2f7915a89775ddf45e405c5cd54ccf8a58918f5a6f2d26d6",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130644/http://www.hymntime.com:80/tch/non/ml/a/h/h/o/ah_holy_Jesus_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "d26ca4a6db5cb0e60c60d20b318db68ca5517f36406e8440b258b9496a474681",
+      "acquired": "2026-09-17",
+      "sha256": "ba04104976c36db4ef8c3a9cd1286025e6faadaec90c061339fe38c321458d42",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

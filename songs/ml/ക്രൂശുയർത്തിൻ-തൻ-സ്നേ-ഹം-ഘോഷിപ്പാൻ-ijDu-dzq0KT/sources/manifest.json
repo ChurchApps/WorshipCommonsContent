@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191031130004/http://www.hymntime.com:80/tch/non/ml/l/i/f/t/lift_high_the_cross_ml.htm",
       "acquired": null,
       "sha256": "23d5253be5658ef444c8685a7f878d1c2ab692ee647984cdc58b5345c80af47e",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191031130004/http://www.hymntime.com:80/tch/non/ml/l/i/f/t/lift_high_the_cross_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "eb51402a0ccda2c28076782c1fc8d8b379323e4d03453fb18419255a63d9707c",
+      "acquired": "2026-09-17",
+      "sha256": "a985e733eb86dbf5a141342ddcb09a4c2a938231fca8c915541d1673f9249b8c",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

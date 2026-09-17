@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226013136/http://www.hymntime.com/tch/non/hu/o/g/r/o/ogronlan.htm",
       "acquired": null,
       "sha256": "9eee7ef7b62ee29c98a4379a39a93df93f32feda97db0576774db1697a4ca838",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226013136/http://www.hymntime.com/tch/non/hu/o/g/r/o/ogronlan.htm",
-      "acquired": "2026-09-16",
-      "sha256": "3e40df544b7b94bed54f5665324dc0b37977b7d25e5e4b71c23d5e324899643a",
+      "acquired": "2026-09-17",
+      "sha256": "587c94725107c957f2b388fdf00facd80fb766f8eb3958386fe3c2d046cfc47c",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

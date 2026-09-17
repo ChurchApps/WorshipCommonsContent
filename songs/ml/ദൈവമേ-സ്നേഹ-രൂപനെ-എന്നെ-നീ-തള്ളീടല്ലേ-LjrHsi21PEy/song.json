@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "Text posted by The Cyber Hymnal with permission and marked freely usable (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191031070449/http://www.hymntime.com:80/tch/non/ml/d/a/i/v/daivame.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

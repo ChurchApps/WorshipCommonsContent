@@ -3,7 +3,7 @@
   "title": "Jamais Dieu Ne Délaisse",
   "writer": "Catherine Grossman",
   "writerRef": null,
-  "year": null,
+  "year": 1854,
   "language": "French",
   "themes": null,
   "key": null,
@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; printed in French Psalms, Hymns and Spiritual Songs (1854) #73; tune Teschner 1615",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191103063503/http://www.hymntime.com:80/tch/non/fr/j/a/m/a/jamadind.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

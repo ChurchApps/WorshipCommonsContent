@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190809093419/http://www.hymntime.com/tch/non/ml/a/d/d/h/addhwaan.htm",
       "acquired": null,
       "sha256": "c3397a9cd5d9a62a97829c6fc2af84fa8c7889a18a4fe5ad7ed0444cfeef560d",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190809093419/http://www.hymntime.com/tch/non/ml/a/d/d/h/addhwaan.htm",
+      "acquired": "2026-09-17",
+      "sha256": "45e6402b27bc6284cd7c1a22501b18fd6d75e6c734b877694de8210174347142",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

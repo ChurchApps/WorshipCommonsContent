@@ -14,8 +14,10 @@
   "rights": {
     "text": {
       "license": "PD",
-      "basis": "cyber-hymnal",
-      "source": "cyber-hymnal"
+      "basis": "No copyright notice on its Cyber Hymnal page; Juan N. de los Santos (1876-1944), listed Public Domain by Hymnary; tune Haydn 1797",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190909140748/http://www.hymntime.com/tch/non/es/g/r/a/c/gracidad.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     "tune": {
       "license": "PD",

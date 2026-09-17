@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20190412175057/http://www.hymntime.com/tch/non/hu/a/s/z/i/asziklal.htm",
       "acquired": null,
       "sha256": "c892767a65d12d6c360b20bed6012db5b811b20d08c3e2a99da77d6ad4957663",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20190412175057/http://www.hymntime.com/tch/non/hu/a/s/z/i/asziklal.htm",
-      "acquired": "2026-09-16",
-      "sha256": "395d06e288d68c08381abe4e5e4c06d4e5106f8c9b23745bb7d62bec12fc831d",
+      "acquired": "2026-09-17",
+      "sha256": "9d84de99bd4d010f0b3856be1fd6c379f8ed2d3ba6cb47c11df4541d2af98914",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

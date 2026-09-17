@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20180726084213/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_christians_join_to_sing_ml.htm",
       "acquired": null,
       "sha256": "69ac47a24fbef13f4edbbccc2d4db3ddcf15eb6ca0828ecbc32c5dfd07083b29",
       "licenseBasis": "cyber-hymnal",
@@ -21,20 +21,20 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20180726084213/http://www.hymntime.com:80/tch/non/ml/c/o/m/e/come_christians_join_to_sing_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0ca8a4a718c570e5ab29720d40d12a2c36bd94f68bb43e4efe14ed5c72679c91",
+      "acquired": "2026-09-17",
+      "sha256": "9ddc058222b58b20d7bab7dab049115bbbde69f6aff59fd9a834a027827aeba3",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

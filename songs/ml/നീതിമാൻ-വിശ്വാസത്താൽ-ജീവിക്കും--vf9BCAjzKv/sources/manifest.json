@@ -24,14 +24,17 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191110203904/http://www.hymntime.com:80/tch/non/ml/n/e/e/t/neethimaan.htm",
       "acquired": null,
       "sha256": "72b3f4eea275b65be1d1f018b67ef0f42e96f8720da1eab3f1e263c0df1f5d5d",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
       "note": "The words. Nothing in this repo rebuilds them",
-      "layer": "text"
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
       "file": "tune.mid",
@@ -42,6 +45,19 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191110203904/http://www.hymntime.com:80/tch/non/ml/n/e/e/t/neethimaan.htm",
+      "acquired": "2026-09-17",
+      "sha256": "493d9cbc8c359d8ea7ab76b1e07889d540a66d9f0027bf38c4fba1af8134f5ae",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
 }

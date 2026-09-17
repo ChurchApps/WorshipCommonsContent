@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181218113950/http://www.hymntime.com:80/tch/non/ml/c/h/r/i/Christ_for_the_world_we_sing_ml.htm",
       "acquired": null,
       "sha256": "a2e6f07603285ce273a0e4942b11534c28cef9fca5858e43c967c156cc417b3d",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181218113950/http://www.hymntime.com:80/tch/non/ml/c/h/r/i/Christ_for_the_world_we_sing_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "cfc396335802c6b90a67bdbdd5e71c33fce8d530ba35580080e3730dae5ba166",
+      "acquired": "2026-09-17",
+      "sha256": "79767b99062a63e781d573d48f4063d92dae96baffdfac3c46a4dda5fafa84e5",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

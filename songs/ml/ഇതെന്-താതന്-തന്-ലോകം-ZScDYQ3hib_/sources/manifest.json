@@ -12,7 +12,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20181014153346/http://www.hymntime.com:80/tch/non/ml/t/h/i/s/this_is_my_fathers_world_ml.htm",
       "acquired": null,
       "sha256": "2484f0717245fb65bd2f272364652a0f31a3a2fe5a0864cc9c4f96b9a7457279",
       "licenseBasis": "cyber-hymnal",
@@ -21,7 +21,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -37,14 +37,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20181014153346/http://www.hymntime.com:80/tch/non/ml/t/h/i/s/this_is_my_fathers_world_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "237cc2e43e13f17272d3409193fa3933f7ede7b6604d08b2b9f7d44c913789ac",
+      "acquired": "2026-09-17",
+      "sha256": "616cc808b8ef753e5714faf70d4af29cb97bdfafb4e7aac1b5b22d25a300d191",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20211226052622/http://www.hymntime.com/tch/non/hu/b/e/n/n/bennnyug.htm",
       "acquired": null,
       "sha256": "6b595da028b1b9a4152448464b031f9bbd842faaef0ec7bc8cf55dd23a452ab8",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20211226052622/http://www.hymntime.com/tch/non/hu/b/e/n/n/bennnyug.htm",
-      "acquired": "2026-09-16",
-      "sha256": "0a59a1960948c9ffe13416a57bbfd9bf06b0bec213e2ff14a4ddd160d7b47b90",
+      "acquired": "2026-09-17",
+      "sha256": "880548b8405f9331f426191af31a90e225ef24017a7411d4bf18f55b2451c20d",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]

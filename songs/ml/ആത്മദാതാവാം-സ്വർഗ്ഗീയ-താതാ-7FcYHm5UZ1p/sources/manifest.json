@@ -24,7 +24,7 @@
     },
     {
       "file": "lyrics.chordpro",
-      "url": null,
+      "url": "http://web.archive.org/web/20191020071917/http://www.hymntime.com/tch/non/ml/f/a/t/h/Father_of_spirits_ml.htm",
       "acquired": null,
       "sha256": "41b550b755e10b916a43fd5889002d2bb432ddf9d8ec1462b92cc373ae4b5fb1",
       "licenseBasis": "cyber-hymnal",
@@ -33,7 +33,7 @@
       "note": "The words. Nothing in this repo rebuilds them",
       "layer": "text",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     },
     {
@@ -49,14 +49,14 @@
     {
       "file": "grants/cyber-hymnal-dedication.txt",
       "url": "http://web.archive.org/web/20191020071917/http://www.hymntime.com/tch/non/ml/f/a/t/h/Father_of_spirits_ml.htm",
-      "acquired": "2026-09-16",
-      "sha256": "86be11ae9b09240d40955fbac5ffc6f8e17b5744883344f3504098e048714ea6",
+      "acquired": "2026-09-17",
+      "sha256": "a25de746b58f3ef8161223876156011d9d9c67ef1e01e1f9581e71b29b239d3e",
       "licenseBasis": "cyber-hymnal",
       "original": true,
       "submittedBy": null,
       "layer": "grant",
       "license": "PD",
-      "obtainedVia": "public-domain",
+      "obtainedVia": "harvest",
       "evidence": "grants/cyber-hymnal-dedication.txt"
     }
   ]
