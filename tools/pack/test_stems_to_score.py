@@ -11,10 +11,21 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from stems_to_score import drop_before, drop_doubles, drop_glides, find_stems, frames_to_notes, gate_quiet, playable_notes, quantize, transcribe_pitched, vocal_onset_time, write_midi
+from stems_to_score import clip_to, drop_before, drum_classes, drop_doubles, drop_glides, find_stems, frames_to_notes, gate_quiet, playable_notes, quantize, transcribe_pitched, vocal_onset_time, write_midi
 
 
 class PerformanceTiming(unittest.TestCase):
+    def test_notes_are_clipped_to_the_master(self):
+        notes = [(1.0, .5, 60, 80), (9.8, 1.0, 62, 80), (10.0, .3, 64, 80), (10.5, .1, 65)]
+        out = clip_to(notes, 10.0)
+        self.assertEqual([n[:1] + n[2:] for n in out], [(1.0, 60, 80), (9.8, 62, 80)])
+        self.assertAlmostEqual(out[1][1], .2)
+
+    def test_kick_and_hat_at_one_onset_are_two_events(self):
+        self.assertEqual(drum_classes(.45, .05, .30), [36, 42])
+        self.assertEqual(drum_classes(.05, .20, .10), [38])
+        self.assertEqual(drum_classes(.05, .05, .10), [42])  # nothing clears: sizzle beats body
+
     def test_polyphonic_transcription_preserves_arpeggio_and_reattacks(self):
         from unittest.mock import patch
 

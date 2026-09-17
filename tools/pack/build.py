@@ -273,6 +273,9 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
                 flush=True,
             )
             score_src = comp / "score.musicxml"
+            tune = pkg / "sources" / "tune.mid"
+            if tune.exists():  # policy: the writer's MIDI ships as score.mid; the sketch only feeds notation
+                shutil.copy2(tune, comp / "score.mid")
             _maybe_stamp_detected(pkg, song, info)
             shutil.copy2(pkg / "song.json", work / "masters" / "song.json")  # stamped key/bpm name the pack
         except Exception as e:

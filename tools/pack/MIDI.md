@@ -4,6 +4,14 @@ Run commands from the `WorshipCommonsContent` repository root. The worked exampl
 `for-the-wonder-of-gods-love-_6zv6iZLTT1`; change `$songSlug` for another song and
 use that package's actual master filename and vocal stem filename.
 
+## Scope: recording transcription versus authored scores
+
+This runbook primarily covers audio-to-MIDI transcription. For MIDI generated from
+an authored MusicXML or ABC score, preserve the written notes, voices, rhythms,
+repeats, and tempo changes. Do not apply audio-detector thresholds, vocal-range
+filters, or a recording-duration limit to that score unless it is explicitly being
+adapted to a recording. Acquired `sources/tune.mid` files remain unchanged.
+
 ## Conversion path and timing rules
 
 `sources/master/song.mp3` → `separate_stems.py` →
@@ -33,7 +41,60 @@ Preserve these rules when changing the implementation:
 
 `tools/generate/score.mjs` preserves the stem MIDI when there is no human score or
 ABC source. Converting the generated melody MusicXML back to MIDI would lose band parts
-and performance timing. `sources/tune.mid` remains the acquired source file.
+and performance timing. `sources/tune.mid` remains the acquired source file, and when
+it exists it is what ships as `output/composition/score.mid` (both `generate.mjs` and
+`build.py` copy it over any generated MIDI). The stem sketch still writes the notation.
+
+## Safeguards for every recording transcription
+
+Use these as generation and review requirements. The current implementation does
+not yet enforce all of them; the gaps below need checking when reviewing a candidate.
+
+- Bound detected note starts and ends to the decoded source recording's duration.
+  Separator padding is not evidence of additional music. Preserve the recording's
+  actual intro, rests, and audible ending.
+- Allow simultaneous drum classes: a kick and hi-hat at the same instant are two
+  events. Do not force each broadband onset to choose exactly one drum sound.
+- Use one identified lead-melody estimate for both the lead MIDI track and notation.
+  Notation may quantize that estimate; it should not independently guess different
+  pitches. Keep backing voices separate where they can be identified.
+- Preserve reference provenance. Align shared sections, key/register, and timing
+  before comparison; different arrangements can have different form and instruments.
+  Keep score key, recording key, and section-level key changes distinct. A global
+  detected key must not silently overwrite curated metadata or transpose every asset.
+- Validate musical content as well as serialization: missing/extra notes, octave
+  errors, false repeated attacks, voice separation, concurrent drums, and the ending.
+  Zero overlaps or a successful `--check` exit is not sufficient evidence of quality.
+
+Known gaps from the [All Of My Heart review](reviews/all-of-my-heart.md): the vocal
+MIDI uses polyphonic Basic Pitch while notation uses a separate pyin estimate;
+drum classification chooses one sound per onset; separator tails can produce notes
+beyond the master. Treat these as implementation work still to do, not features
+enabled by following this document. Adaptive vocal range is also not implemented.
+
+## Settings and decisions that depend on the recording
+
+| Decision | Guidance |
+|---|---|
+| Vocal pitch range | Estimate or configure it from the actual singer and check low/high phrases. Neither C3 nor the G2 trial below is a universal lower bound. Avoid mistaking harmonics for the lead. |
+| Monophonic lead | Appropriate for an identified solo lead. Choirs, backing vocals, and instrumental chords need separate voices or polyphonic tracks; do not flatten the whole stem. |
+| Same-pitch fragments | Join only when voicing and onset evidence support a sustained note. Preserve repeated syllables, deliberate reattacks, and instrumental repetitions. Overlap cleanup alone cannot distinguish these cases. |
+| Voicing/confidence thresholds | Balance missed notes against bleed/noise for the source and model. Keep silence/voicing checks; lowering a threshold on one passage does not justify a global change. |
+| Tempo and key | Check changes by section. Preserve performance timing in MIDI and use the tracked grid for notation; a single song-wide estimate can conceal modulation or tempo drift. |
+
+In the aligned first verse of All Of My Heart, a G2-floor pyin trial using its
+voiced/unvoiced flag without our additional 0.5 probability cutoff produced 52
+attacks against 55 in the reference, versus 99 in the generated MIDI. Pitch-time
+F1 rose from 72.2% to 75.7%. Lowering Basic Pitch's range alone barely improved F1
+and added detections. These are exploratory results from one fitted passage,
+not a new default, a note-onset accuracy score, or a universal target note count.
+
+Before adopting detector defaults, compare saved baselines and candidates across
+low and high solo voices, backing vocals/choirs, sparse accompaniment, and full
+bands. Include sustained vowels, repeated syllables, quiet passages, harmonized
+choruses, and endings. Record the model/runtime, settings, source hashes, alignment,
+and measurement windows. Use passages beyond those used to tune the settings and
+include listening; investigate regressions before applying a setting library-wide.
 
 ## Environment and normal rebuild
 
@@ -64,7 +125,10 @@ packed as `-C-` on its first build and `-E--` on the next. The stamped file is n
 The normal build checks master grant metadata, reuses fresh cached stems, transcribes
 when there is no `sources/score.musicxml`, and rebuilds the audio pack. `-f` forces a
 pack rebuild but still reuses fresh stems. Changing transcription code invalidates
-the pack's freshness check. A timing-only fix does not require separating the audio again.
+the pack's freshness check, but the sketch has its own reuse check. Use `-f` or the
+direct candidate command below when testing transcription-code changes so an old
+sketch is not mistaken for a new result. A timing-only fix does not require
+separating the audio again.
 
 ## Diagnose and regenerate from cached stems
 
@@ -116,7 +180,29 @@ commit the implementation, tests, and documentation to retain the reproducible p
 
 ## Validation and listening
 
-Inspect the opening separately from the whole song; an average can hide a broken intro.
+When a writer-supplied MIDI exists, compare shared passages after aligning the
+arrangement, tempo, and vocal register. It is a separate arrangement, not automatically
+a note-for-note target for the recording. See the measured
+[All Of My Heart comparison](reviews/all-of-my-heart.md) for vocal-range exclusion,
+false repeated attacks, concurrent drums, separator padding, and a controlled
+lead-detector experiment. Passing overlap/chroma checks alone missed these issues.
+
+Inspect the opening, a representative verse/chorus, and the ending separately from
+the whole song; an average can hide a broken passage. In addition to `--check`:
+
+- Compare master/stem duration and alignment. Check for any note starting after
+  the master ends or sustaining into separator padding.
+- Inspect the lead's register, missing low/high notes, simultaneous pitches, and
+  sustained-note fragmentation. Determine whether extra voices are real harmonies
+  before removing them. Compare lead MIDI pitches with the generated notation.
+- Inspect coincident drum hits against the drum stem. A sparse snare track or no
+  simultaneous hits merits investigation, not copying counts from another arrangement.
+- For a reference comparison, report the aligned section and transposition/time
+  mapping. Freeze that mapping when comparing detector candidates. Report pitch
+  precision/recall separately from onset and duration metrics; whole-file note counts
+  and chroma alone do not establish transcription accuracy.
+
+These additional checks are not all automated by the current `--check` command.
 For each generated track, expect `same_pitch_overlaps=0`. Investigate
 `notes_under_30ms` rather than treating zero as a universal musical requirement.
 Compare onset F1 and chroma with the same stems, window, and tool version. Chroma

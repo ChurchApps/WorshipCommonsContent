@@ -59,8 +59,8 @@ ${(r.stderr || r.stdout || "").trim().slice(-400)}`);
 
 const XML2MIDI = path.join(path.dirname(fileURLToPath(import.meta.url)), "xml2midi.py");
 
-// score.mid from whichever score.musicxml owns the notes. Playable in a DAW, and the
-// only MIDI we generate: sources/tune.mid is someone else's file, not ours.
+// score.mid: sources/tune.mid when the writer gave us one, else generated from
+// whichever score.musicxml owns the notes. Playable in a DAW.
 // returns "written" | "unchanged" | "no-score" | "skipped" | "failed"
 export function midiFor(dir) {
   const source = path.join(dir, "sources", "score.musicxml");
@@ -68,6 +68,16 @@ export function midiFor(dir) {
   const abc = path.join(dir, "sources", "tune.abc");
   const xml = fs.existsSync(source) ? source : fs.existsSync(built) ? built : null;
   const dest = path.join(dir, "output", "composition", "score.mid");
+  // Policy: a writer-supplied sources/tune.mid is the MIDI we ship, verbatim.
+  // Generated MIDI (score or stem sketch) only fills in when there is none.
+  const tune = path.join(dir, "sources", "tune.mid");
+  if (fs.existsSync(tune)) {
+    if (fs.existsSync(dest) && fs.statSync(dest).mtimeMs >= fs.statSync(tune).mtimeMs
+        && fs.readFileSync(dest).equals(fs.readFileSync(tune))) return "unchanged";
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.copyFileSync(tune, dest);
+    return "written";
+  }
   // Stem sketch MIDI is timed to the recording (multi-instrument, intro intact).
   // Flattening it through MusicXML would drop the band and the intro. ABC hymns
   // and a human sources/score.musicxml still go through xml2midi.

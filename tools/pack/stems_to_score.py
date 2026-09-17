@@ -11,8 +11,11 @@ bass, leftover other) through Basic Pitch (polyphonic; pyin fallback when it is
 not installed) plus a simple drum track, retaining detected performance timing, with the mix's
 intro left in place. `python tools/pack/stems_to_score.py --check <score.mid>
 <stems_dir>` prints a per-track chroma / onset match against the stems.
-MusicXML is still the melody + words (pyin, monophonic) — a person promotes it
-to sources/score.musicxml after checking it. sources/tune.mid is someone
+The Melody track and the MusicXML melody + words are one monophonic pyin lead
+(--vocal-range / --voiced-min tune it per singer); the polyphonic vocal stem is
+the separate Vocals track. Notes are clipped to the decoded master; drum onsets
+may carry several kit pieces. A person promotes the MusicXML to
+sources/score.musicxml after checking it. sources/tune.mid is someone
 else's file and is never written here.
 """
 from __future__ import annotations
@@ -36,7 +39,8 @@ PITCHED = ("vocals", "piano", "guitar", "bass", "other")
 # Notes are (start, dur, pitch) or (start, dur, pitch, velocity).
 SILENT_RMS = 0.003  # a separator stem below this is not in the mix
 GM = {
-    "vocals": (53, "Melody"),   # choir aahs — sits on top of the band sketch
+    "vocals": (53, "Melody"),   # one monophonic lead — the same pyin estimate notation uses
+    "harmony": (52, "Vocals"),  # polyphonic vocal stem: lead + harmonies + bleed, kept separate
     "piano": (0, "Piano"),
     "guitar": (25, "Guitar"),
     "bass": (33, "Bass"),
@@ -292,6 +296,16 @@ def drop_doubles(notes: list[tuple], against: list[tuple]) -> list[tuple]:
     return out
 
 
+def clip_to(notes: list[tuple], end: float) -> list[tuple]:
+    """Bound notes to the decoded recording: separator padding is not music."""
+    out = []
+    for start, dur, *rest in notes:
+        if start >= end:
+            continue
+        out.append((start, min(dur, end - start), *rest))
+    return out
+
+
 def drop_before(notes: list[tuple[float, float, int]], t: float) -> list[tuple[float, float, int]]:
     if t <= 0:
         return notes
@@ -429,8 +443,9 @@ def transcribe_pitched(
     bpm: float,
     origin: float,
     beats: np.ndarray | None = None,
+    rng: tuple[str, str] | None = None,
 ) -> list[tuple[float, float, int]]:
-    fmin, fmax = RANGE[kind]
+    fmin, fmax = rng or RANGE[kind]
     min_dur = 0.12 if kind == "vocals" else 0.07
     # Bass is one line; pyin holds its register where Basic Pitch jumps octaves.
     raw = None if kind == "bass" else _basic_pitch_notes(y, sr, fmin, fmax, min_dur)
@@ -449,17 +464,38 @@ def melody_line(
     origin: float,
     beats: np.ndarray | None = None,
     snap: bool = True,
+    rng: tuple[str, str] | None = None,
+    voiced_min: float | None = 0.5,
 ) -> list[tuple[float, float, int]]:
-    """One monophonic line (pyin) — what the MusicXML lyric underlay needs."""
-    fmin, fmax = RANGE[kind]
+    """One monophonic line (pyin) — the lead MIDI track and the MusicXML underlay."""
+    fmin, fmax = rng or RANGE[kind]
     min_dur = 0.12 if kind == "vocals" else 0.07
     raw = _pyin_notes(
         y, sr, fmin, fmax,
         min_dur=min_dur,
-        voiced_min=0.5 if kind == "vocals" else None,
+        voiced_min=voiced_min if kind == "vocals" else None,
     )
     notes = drop_glides(raw)
     return quantize(notes, bpm, origin, beats=beats) if snap else notes
+
+
+def drum_classes(low: float, mid: float, high: float) -> list[int]:
+    """Kit pieces sounding at one onset, from band energy shares of the frame.
+
+    A kick and a hat at the same instant are two events. Each class has its own
+    threshold; an onset that clears none keeps the old body-versus-sizzle guess.
+    """
+    # ponytail: fixed shares — per-recording calibration if a kit reads wrong
+    hits = []
+    if low > 0.35:
+        hits.append(36)
+    if mid > 0.12:
+        hits.append(38)
+    if high > 0.20:
+        hits.append(42)
+    if not hits:
+        hits.append(38 if mid >= high else 42)
+    return hits
 
 
 def transcribe_drums(
@@ -496,13 +532,8 @@ def transcribe_drums(
         low = float(frame[freqs < 120].sum())
         mid = float(frame[(freqs >= 120) & (freqs < 400)].sum())
         high = float(frame[freqs > 6000].sum())
-        if low / total > 0.35:
-            pitch = 36
-        elif mid >= high:
-            pitch = 38
-        else:
-            pitch = 42
-        notes.append((float(t), 0.12, pitch, vel))
+        for pitch in drum_classes(low / total, mid / total, high / total):
+            notes.append((float(t), 0.12, pitch, vel))
     return notes
 
 
@@ -622,7 +653,11 @@ def transcribe(
     bpm_hint: float | None = None,
     stems_dir: Path | None = None,
     mix: Path | None = None,
+    vocal_range: str | None = None,
+    voiced_min: float | None = 0.5,
 ) -> dict:
+    """vocal_range ("G2:C6") and voiced_min are per-recording lead settings; the
+    defaults are not tuned for any singer. See MIDI.md."""
     import librosa
 
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -632,6 +667,7 @@ def transcribe(
 
     grid_src = mix if mix and mix.exists() else stems.get("drums") or stems["vocals"]
     y_grid, sr = load_mono(grid_src)
+    end = len(y_grid) / sr if grid_src is mix else None  # decoded master length
     bpm, beats = detect_tempo(y_grid, sr, bpm_hint)
     origin = float(beats[0]) if len(beats) else 0.0
 
@@ -642,6 +678,7 @@ def transcribe(
     sung_at = vocal_onset_time(v_rms, v_times)
 
     silent_vocals = sung_at <= 0 and float(np.percentile(v_rms, 90)) < 1e-5
+    rng = tuple(vocal_range.split(":")) if vocal_range else None
     tracks: dict[str, list[tuple[float, float, int]]] = {}
     for kind in PITCHED:
         path = stems.get(kind)
@@ -650,7 +687,7 @@ def transcribe(
         y = y_v if kind == "vocals" else load_mono(path)[0]
         if float(np.sqrt(np.mean(y**2))) < SILENT_RMS:
             continue
-        notes = transcribe_pitched(y, sr, kind, bpm, origin, beats)
+        notes = transcribe_pitched(y, sr, kind, bpm, origin, beats, rng=rng if kind == "vocals" else None)
         rms = v_rms if kind == "vocals" else librosa.feature.rms(y=y, hop_length=hop)[0]
         notes = gate_quiet(notes, rms, librosa.times_like(rms, sr=sr, hop_length=hop))
         if kind == "vocals":
@@ -658,14 +695,22 @@ def transcribe(
         if kind == "other":  # MelBand leftover doubles piano/guitar where they play
             for src in ("piano", "guitar"):
                 notes = drop_doubles(notes, tracks.get(src, []))
-        tracks[kind] = notes
-    vocal_line = [] if silent_vocals else drop_before(melody_line(y_v, sr, "vocals", bpm, origin, beats), sung_at)
+        tracks["harmony" if kind == "vocals" else kind] = notes
+    vocal_line = [] if silent_vocals else drop_before(
+        melody_line(y_v, sr, "vocals", bpm, origin, beats, snap=False, rng=rng, voiced_min=voiced_min), sung_at
+    )
+    if vocal_line:
+        tracks = {"vocals": vocal_line, **tracks}  # lead MIDI and notation share one estimate
     if "drums" in stems:
         y_d, _ = load_mono(stems["drums"])
         if float(np.sqrt(np.mean(y_d**2))) >= SILENT_RMS:
             tracks["drums"] = transcribe_drums(y_d, sr, bpm, origin, beats)
 
+    if end is not None:
+        tracks = {k: clip_to(v, end) for k, v in tracks.items()}
+        vocal_line = clip_to(vocal_line, end)
     melody = vocal_line or tracks.get("piano") or tracks.get("guitar") or tracks.get("other") or []
+    melody = quantize(melody, bpm, origin, beats=beats)  # notation snaps; MIDI keeps performance timing
     if not melody and not any(tracks.values()):
         raise RuntimeError(f"no pitched notes in {vocals.name}")
 
@@ -728,7 +773,7 @@ def check(mid: Path, stems_dir: Path, seconds: float | None = None) -> dict[str,
     import pretty_midi
 
     sr = 22050
-    name2stem = {name: kind for kind, (_, name) in GM.items()} | {"Drums": "drums"}
+    name2stem = {name: kind for kind, (_, name) in GM.items()} | {"Drums": "drums", "Vocals": "vocals"}
     stems = find_stems(stems_dir)
     hop = 2048
 
@@ -804,6 +849,8 @@ def main() -> int:
     ap.add_argument("--bpm", type=float, default=None)
     ap.add_argument("--stems-dir", default=None)
     ap.add_argument("--mix", default=None)
+    ap.add_argument("--vocal-range", default=None, help="lead pyin range for this singer, e.g. G2:C6 (default C3:C6)")
+    ap.add_argument("--voiced-min", type=float, default=0.5, help="lead voiced-probability cutoff; 0 keeps pyin's own voicing flag")
     args = ap.parse_args()
     if args.seconds is not None and (not np.isfinite(args.seconds) or args.seconds <= 0 or not args.check):
         ap.error("--seconds requires --check and a positive finite duration")
@@ -820,6 +867,8 @@ def main() -> int:
         args.bpm,
         stems_dir=Path(args.stems_dir) if args.stems_dir else None,
         mix=Path(args.mix) if args.mix else None,
+        vocal_range=args.vocal_range,
+        voiced_min=args.voiced_min or None,
     )
     print(
         f"transcribed {info['notes']} melody notes, {info['midi_notes']} midi notes, "
