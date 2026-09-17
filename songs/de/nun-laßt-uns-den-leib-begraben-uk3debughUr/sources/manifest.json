@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "76a18abd21ff8ea3808cd4d271242ce51aa03291ab3a2d638d7336f02e798a83",
+      "sha256": "d3703edd5179b54e1641c1e0432135c9ffeb5f83c7ee50a5ee2f1127098bd65e",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (30 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/Take_Up_Thy_Cross_The_Savior_Said-Nun_Lasst_Uns_Den_Leib_Begraben.abc",
+      "acquired": "2026-09-17",
+      "sha256": "c92d9fbe728d667cc39d52234223ae8914ebb64b736b3a11e9272ee9a4f20fea",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }

@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "f24b1d76aaaeb5f49bad31097caa2e7d3efdf0ce3ec2d892afabc2b8c1da85d3",
+      "sha256": "cb3e922d8b3fb9b6b6b0a8755fdf9a4654471731851d4727b1715c4fe86c22af",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (43 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/From_God_Shall_Naught_Divide_Me-Von_Gott_Will_Ich_Nicht_Lassen.abc",
+      "acquired": "2026-09-17",
+      "sha256": "ed62f9aafdea4c52da9949c2ecef6f0e85f0033008a25b7af6cf218aabfd5c6b",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }

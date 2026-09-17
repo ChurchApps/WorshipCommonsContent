@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "6b48a47cd8574584138aebb8d888d6a83ec6d6f023868d41981c274750a16bb5",
+      "sha256": "1f970c3abe7606ad34430df44c31f16b5a8d6719bd0ccfc7d0aafcf8a36e789d",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (43 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/Take_Thou_My_Hand-So_Nimm_Denn_Meine_Hande.abc",
+      "acquired": "2026-09-17",
+      "sha256": "16b8cfa99570693e79c0f07d50407cbde1ab82d2db7014d9ff184e97b51c9297",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }

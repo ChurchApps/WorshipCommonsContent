@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "a47a07730732ca6b488cc33b6452a69aa21ff75634f0c5231817d851f34e1427",
+      "sha256": "bdde214d1d68cdb10f5ccf3723fbee910f48073a0470e81a37cb4af8733eb94f",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (61 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/O_Holy_Spirit_Enter_In-Wie_Schon_Leuchtet.abc",
+      "acquired": "2026-09-17",
+      "sha256": "714dd662750ba26baf04afaabf03d38f0e62250fd2040aa786e1e1882c06a84c",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }

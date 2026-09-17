@@ -19,7 +19,8 @@
     },
     "tune": {
       "license": "PD",
-      "basis": "cyber-hymnal"
+      "basis": "open-hymnal",
+      "source": "open-hymnal"
     },
     "arrangement": null,
     "recording": null,

@@ -14,11 +14,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "e90a7a4c8b7562d32afbf9f49d062acf515f12308633eddf821e6e23e091f4b3",
+      "sha256": "7ff8bc70186eb9974395b455c7355076d6f6973038a4cdd6c3b4298448b66198",
       "licenseBasis": "cmpilato",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (49 chords)",
       "layer": "text",
       "license": "PD",
       "obtainedVia": "public-domain",
@@ -46,6 +46,18 @@
       "license": "PD",
       "obtainedVia": "public-domain",
       "evidence": "grants/cmpilato-public-domain.txt"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/To_God_Be_the_Glory-To_God_Be_the_Glory.abc",
+      "acquired": "2026-09-17",
+      "sha256": "8b011e90c69c31962dd0938d5c6ae5d24a5573924a050c451972a9496fd109dd",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }
