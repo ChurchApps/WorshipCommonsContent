@@ -1,7 +1,7 @@
 {
   "id": "4m8Ep0PePd0",
-  "title": "Alas! and Did My Savior Bleed",
-  "writer": "Isaac Watts",
+  "title": "At the Cross",
+  "writer": "Isaac Watts & Ralph Hudson",
   "writerRef": "isaac-watts",
   "year": 1707,
   "language": "English",
@@ -32,10 +32,15 @@
       {
         "label": "Verse 1",
         "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
       }
     ],
     "defaultOrder": [
-      "Verse 1"
+      "Verse 1",
+      "Chorus"
     ]
   }
 }
