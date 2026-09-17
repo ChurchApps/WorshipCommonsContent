@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "a2d1e6c05188712d0d00bc6e5fd4fcc9b80463dd78263a94cefa63aa59a273dc",
+      "sha256": "1bd72c3842b2875243469e1fcb6841b571101fae9aca148260f4afd8441c66ce",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (52 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/Look_Down_O_Lord_From_Heaven_Behold-Ach_Gott_vom_Himmel.abc",
+      "acquired": "2026-09-17",
+      "sha256": "574a84119b21b963cd39e24d577b3c0a417fe540de89b1787fb2adf9f458f8c0",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }

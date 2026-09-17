@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "ff29064a40d7d83d1887822517654e73e6f112e1eaad564e87f295eefe5a0a8c",
+      "sha256": "75164e20c2c80a1d24fa565637899337d339b2cf333fc83d364bc3ac63d50a44",
       "licenseBasis": "open-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (26 chords)",
       "layer": "text"
     },
     {

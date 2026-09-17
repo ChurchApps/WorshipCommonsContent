@@ -14,11 +14,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "6a02685848db2210132e8fffa26b053f926319008f63968fc7be253e96d365ab",
+      "sha256": "5a11ce3b1a34e8e134034d6ad87901248b4459dd820404cc3002550f8f485302",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "inherited from hbn517-XyXn While Shepherds Watched Their Flocks",
       "layer": "text"
     },
     {

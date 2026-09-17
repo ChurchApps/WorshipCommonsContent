@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "83c15f2fa9c9fcd5ce8a33f8d6ce55ee9c841a8e29b4e065d002b68d41d22c3b",
+      "sha256": "149540cd733420770d308071eb00a5b4a65c04256f8709e4d41e0cb0e72d45f0",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (37 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/All_Praise_to_Jesus_Hallowed_Name-Gelobet_Seist_Du.abc",
+      "acquired": "2026-09-17",
+      "sha256": "2c0b3412dbd05275824d322f804495f186552d0ac6c50e2d4074ed3b7e0e027a",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }

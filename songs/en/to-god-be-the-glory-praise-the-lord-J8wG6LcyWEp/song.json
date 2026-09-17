@@ -22,7 +22,11 @@
       "url": "https://github.com/cmpilato/worship-music/blob/b09635b8887afab8a01936d22ddb1e9341f7b654/To_God_Be_the_Glory_Praise_the_Lord/README.md",
       "evidence": "grants/cmpilato-public-domain.txt"
     },
-    "tune": null,
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal",
+      "source": "open-hymnal"
+    },
     "arrangement": {
       "license": "PD",
       "basis": "cmpilato"

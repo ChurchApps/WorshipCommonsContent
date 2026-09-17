@@ -26,11 +26,11 @@
       "file": "lyrics.chordpro",
       "url": null,
       "acquired": null,
-      "sha256": "2cba401be65fb1c22ac7ef0f31ab57edddb12dc8dabf140876daf0b33c26357a",
+      "sha256": "e1d06e08e5d84bab46d782ffe3ab6d1b8abd124717269aebe1ad4a0ee4d3c30c",
       "licenseBasis": "cyber-hymnal",
       "original": false,
       "submittedBy": null,
-      "note": "The words. Nothing in this repo rebuilds them",
+      "note": "OH ABC SATB (42 chords)",
       "layer": "text"
     },
     {
@@ -42,6 +42,18 @@
       "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/All_Glory_Laud_And_Honor-Valet_Will_Ich_Dir_Geben-St_Theodulph.abc",
+      "acquired": "2026-09-17",
+      "sha256": "d9dbeae01855e637c714ba7c0a3a4bbbe3913288b7aa8696ba26984a68acb47a",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
     }
   ]
 }
