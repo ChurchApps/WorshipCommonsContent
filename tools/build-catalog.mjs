@@ -62,10 +62,11 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     attribution: song.attribution?.text ?? null,
     // Confidence is computed, never stored. A score inherited from the parent counts:
     // the tune is scored even if this translation's own words are not yet underlaid.
-    // A score in sources/ was given to us or proofread; a built one is only as good
-    // as what it came from — ABC is trusted, a MIDI transcription is not.
-    confidence: scoreSource.path ? "proofread-score"
-      : scoreBuilt.path ? (abc.path ? "proofread-score" : "generated-from-midi")
+    // ABC is typeset SATB (Open Hymnal) — same tier as an uploaded MusicXML master.
+    // Key off sources/tune.abc, not gitignored output/composition/score.musicxml.
+    // MIDI transcription is the sketch that still needs a check.
+    confidence: scoreSource.path || abc.path ? "score"
+      : scoreBuilt.path ? "generated-from-midi"
       : /\[[A-G][#b]?/.test(body) ? "chart-only"
       : "lyrics-only",
     churchCount: harvested.churchCount ?? song.churchCount ?? 0,

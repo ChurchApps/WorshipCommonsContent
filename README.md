@@ -123,8 +123,8 @@ does not exist as far as the tools are concerned.
 |---|---|
 | `lyrics.chordpro` | The **words**. Always present. Nothing in this repo rebuilds them |
 | `tune.abc` | Open Hymnal SATB score (often on the **work**, shared by translations) |
-| `tune.mid` | Cyber Hymnal / HymnSite MIDI (pitch sketch, not a proofread score) |
-| `score.musicxml` | The notes, when a person proofread them or someone gave them to us. Optional — `output/` holds the ABC conversion instead |
+| `tune.mid` | Cyber Hymnal / HymnSite MIDI (pitch sketch, not a distributed score) |
+| `score.musicxml` | The notes, when someone gave them to us. Optional — `output/` holds the ABC conversion instead |
 | `sheetPdf.pdf`, `*.ly` | Scanned or engraved sheet, plus LilyPond source when we have it |
 | `cover.webp` | The package image. Generated once; kept, never regenerated |
 | `timing.json` | Lyric timings for karaoke. Hymns: `tools/harvest/generate-lyric-timings.py` (ABC+MIDI). Writer recordings: `tools/harvest/align-vocal-timings.py` (MP3 vocal) |
