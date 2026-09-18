@@ -110,6 +110,11 @@ export const readHarvested = dir => {
   else if (fs.existsSync(legacy)) Object.assign(out, readJson(legacy));
   const video = path.join(dir, "sources", "video.json");
   if (fs.existsSync(video)) out.video = readJson(video);
+  const ccliFile = path.join(dir, "sources", "ccli.json");
+  if (fs.existsSync(ccliFile)) {
+    const rec = readJson(ccliFile);
+    if (rec?.ccli) out.ccli = String(rec.ccli);
+  }
   return out;
 };
 
@@ -334,6 +339,7 @@ const MANIFEST_BASIS = {
   "sheetPdf.pdf": rowProv => SHEET_SOURCES.has(rowProv.text) ? rowProv.text : SHEET_SOURCES.has(rowProv.tune) ? rowProv.tune : "mutopia",
   "hymnary.json": () => "hymnary",
   "harvested.json": () => "hymnary",
+  "ccli.json": () => "songselect",
   "video.json": () => "worshipcommons",
   "lyrics.chordpro": rowProv => rowProv.text,
   "cover.webp": () => "worshipcommons",
@@ -345,6 +351,7 @@ const MANIFEST_NOTE = {
   "tune.abc": "Existing catalog copy; original bytes not backfilled",
   "sheetPdf.pdf": "Existing catalog copy",
   "hymnary.json": "Harvested hymnal counts and churchCount snapshot — merged at catalog build",
+  "ccli.json": "Harvested CCLI SongSelect id for the public-domain work; reporting is optional",
   "video.json": "YouTube performance id; a link, not an audio asset",
   "lyrics.chordpro": "The words. Nothing in this repo rebuilds them",
   "cover.webp": "Generated once by WorshipCommons tooling; kept, never regenerated",
@@ -463,7 +470,7 @@ const SOURCE_FILE_LABELS = {
 };
 
 // internal bookkeeping, not a citable source
-const NOT_CITED = new Set(["harvested.json", "hymnary.json", "video.json", "timing.json"]);
+const NOT_CITED = new Set(["harvested.json", "hymnary.json", "ccli.json", "video.json", "timing.json"]);
 
 // sources.txt is generated from the package + sources.json — never hand-edited.
 const manifestHas = (dir, file) => readManifest(dir).some(r => r.file === file);
@@ -514,6 +521,8 @@ export function renderSourcesTxt(dir, song, sources) {
   }
   const harvested = readHarvested(dir);
   if (harvested.hymnalCount > 0) lines.push("Hymnal-count metadata: Hymnary.org — https://hymnary.org");
+  const ccli = song.ccli || harvested.ccli;
+  if (ccli) lines.push(`CCLI song id: ${ccli} — https://songselect.ccli.com/songs/${ccli} (reporting optional)`);
   const lic = LICENSES[song.license];
   if (!lic) throw new Error(`${song.title}: unknown license "${song.license}"`);
   const pdSource = song.license === "PD" && song.licenseSource ? sources[song.licenseSource] : null;

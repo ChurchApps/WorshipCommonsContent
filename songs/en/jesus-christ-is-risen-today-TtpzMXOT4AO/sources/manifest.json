@@ -1,6 +1,26 @@
 {
   "files": [
     {
+      "file": "Easter.ly",
+      "url": "https://www.mutopiaproject.org/ftp/Anonymous/Easter/Easter.ly",
+      "acquired": "2026-09-08",
+      "sha256": "7feb95f7b6feb12cadf84685d1efca32a428384c96e4789da743f00348d10bc8",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "ccli.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "23e53f4e61150e7031f266679aed48f4b627eb6b1e063b48028615d11b806c07",
+      "licenseBasis": "songselect",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested CCLI SongSelect id for the public-domain work; reporting is optional"
+    },
+    {
       "file": "cover.webp",
       "url": null,
       "acquired": null,
@@ -11,16 +31,6 @@
       "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
       "layer": "artwork",
       "obtainedVia": "generated"
-    },
-    {
-      "file": "Easter.ly",
-      "url": "https://www.mutopiaproject.org/ftp/Anonymous/Easter/Easter.ly",
-      "acquired": "2026-09-08",
-      "sha256": "7feb95f7b6feb12cadf84685d1efca32a428384c96e4789da743f00348d10bc8",
-      "licenseBasis": "mutopia",
-      "original": true,
-      "submittedBy": null,
-      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
     },
     {
       "file": "hymnary.json",

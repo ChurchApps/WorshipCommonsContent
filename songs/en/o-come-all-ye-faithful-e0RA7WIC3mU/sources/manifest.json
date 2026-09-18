@@ -1,6 +1,16 @@
 {
   "files": [
     {
+      "file": "ccli.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "b2512c8bb62d1abbfbae2597459bcf57a543e6d263f66a1f07a193e6ca66ca82",
+      "licenseBasis": "songselect",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested CCLI SongSelect id for the public-domain work; reporting is optional"
+    },
+    {
       "file": "cover.webp",
       "url": null,
       "acquired": null,

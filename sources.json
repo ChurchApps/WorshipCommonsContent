@@ -47,6 +47,16 @@
       "link": "https://hymnary.org"
     }
   },
+  "songselect": {
+    "name": "CCLI SongSelect (song id)",
+    "url": "https://songselect.ccli.com",
+    "licenseBasis": "Public SongSelect work identifier only — title, authors, and song number. Not lyrics, charts, or arrangements. Presence of a number does not mean churches must report a public-domain or WorshipCommons song.",
+    "attribution": {
+      "required": false,
+      "text": "CCLI SongSelect",
+      "link": "https://songselect.ccli.com"
+    }
+  },
   "worshipcommons": {
     "name": "WorshipCommons (generated)",
     "url": "https://worshipcommons.org",

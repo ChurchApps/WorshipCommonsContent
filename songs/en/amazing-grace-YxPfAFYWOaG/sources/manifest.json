@@ -1,6 +1,28 @@
 {
   "files": [
     {
+      "file": "ccli.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "311f00898898b74be10ab0295f5ee4eba11684dddbd19a0ee12440a596bf776b",
+      "licenseBasis": "songselect",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested CCLI SongSelect id for the public-domain work; reporting is optional"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "677b2798fb9d93e3a12af205086427979749bf7c76440a5f3585725491e7d633",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
       "file": "hymnary.json",
       "url": null,
       "acquired": null,
@@ -53,33 +75,12 @@
       "obtainedVia": "generated"
     },
     {
-      "file": "video.json",
-      "url": null,
-      "acquired": null,
-      "sha256": "e1c616b422b740b8c429c5caea64462e98444bb04427c8c096798965103f1a85",
-      "licenseBasis": "worshipcommons",
-      "original": false,
-      "submittedBy": null,
-      "note": "YouTube performance id; a link, not an audio asset"
-    },
-    {
-      "file": "cover.webp",
-      "url": null,
-      "acquired": null,
-      "sha256": "677b2798fb9d93e3a12af205086427979749bf7c76440a5f3585725491e7d633",
-      "licenseBasis": "worshipcommons",
-      "original": false,
-      "submittedBy": null,
-      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
-      "layer": "artwork",
-      "obtainedVia": "generated"
-    },
-    {
       "file": "tune.abc",
       "url": null,
       "acquired": null,
       "sha256": "095045a80c97478db7ae76f23f9f7353ffc9e642c457e266990aac18ec61d646",
       "licenseBasis": "open-hymnal",
+      "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
     },
@@ -89,8 +90,19 @@
       "acquired": null,
       "sha256": "0c14d682ac16f836a2c164ed79fbca81242c128a081e38caa61669ea53dde627",
       "licenseBasis": "open-hymnal",
+      "original": false,
       "submittedBy": null,
       "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "e1c616b422b740b8c429c5caea64462e98444bb04427c8c096798965103f1a85",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
     }
   ]
 }
