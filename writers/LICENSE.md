@@ -6,6 +6,8 @@
   article and is licensed **CC BY-SA** (https://creativecommons.org/licenses/by-sa/4.0/).
   Each `writer.json` carries the `article` URL for attribution. If you reuse
   the bios, credit Wikipedia and keep the CC BY-SA terms.
+- `links` and `supportLinks` are the writer's own URLs (site, store, support).
+  They are not Wikipedia text.
 
 This section sits outside `public-domain/` precisely because the bios are
 CC BY-SA, not public domain.
