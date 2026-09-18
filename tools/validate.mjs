@@ -63,7 +63,17 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
   const lic = LICENSES[song.license];
   if (!lic) errors.push(`${label}: unknown license "${song.license}" — must be one of ${Object.keys(LICENSES).join(", ")}`);
   if (lic?.attributionRequired && !song.licenseUrl) errors.push(`${label}: ${song.license} songs need "licenseUrl" (the exact license the writer applied)`);
-  if (song.ccli != null && song.ccli !== "" && !/^\d{5,8}$/.test(String(song.ccli))) errors.push(`${label}: ccli "${song.ccli}" is not a 5–8 digit song id`);
+  if (song.ccli != null && song.ccli !== "" && !/^\d{4,8}$/.test(String(song.ccli))) errors.push(`${label}: ccli "${song.ccli}" is not a 4–8 digit song id`);
+  const ccliFile = path.join(dir, "sources", "ccli.json");
+  if (fs.existsSync(ccliFile)) {
+    let rec;
+    try { rec = JSON.parse(fs.readFileSync(ccliFile, "utf8")); }
+    catch (e) { errors.push(`${label}: sources/ccli.json is not JSON — ${e.message}`); rec = null; }
+    if (rec) {
+      if (!/^\d{4,8}$/.test(String(rec.ccli || ""))) errors.push(`${label}: sources/ccli.json ccli "${rec.ccli}" is not a 4–8 digit song id`);
+      if (song.ccli && rec.ccli && String(song.ccli) !== String(rec.ccli)) errors.push(`${label}: song.json ccli ${song.ccli} != sources/ccli.json ${rec.ccli}`);
+    }
+  }
   if (lic?.attributionRequired && !song.attribution?.text && !submitted) errors.push(`${label}: ${song.license} songs need "attribution.text" (who to credit)`);
   licenseOf.set(song.id, song.license);
   if (song.meter !== undefined && song.meter !== null && !METER_RE.test(song.meter))

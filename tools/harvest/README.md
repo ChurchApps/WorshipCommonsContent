@@ -17,6 +17,7 @@ and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-
 | `import-tch-spanish.ts`, `import-tch-lang.ts` | Cyber Hymnal language sections → texts + MIDIs |
 | `import-hymnsite.ts` | HymnSite umh### MIDIs |
 | `import-hymnary-spanish.ts`, `import-hymnary-popularity.ts` | Hymnary PD Spanish texts, hymnal counts |
+| `import-ccli.mjs` | Conservative CCLI SongSelect ids into `sources/ccli.json` from `ccli-verified.json` (title + historical author; prefers the work whose SongSelect slug names the standard hymn tune). Does not scrape lyrics/charts. `--dry`. After apply: `node tools/build-catalog.mjs` && `node tools/validate.mjs` |
 | `import-hymnary-meter.mts` | Hymnary poetic meter into `song.json` (reworked for this layout — it runs) |
 | `import-cmpilato.mjs` | github.com/cmpilato/worship-music clone → CC-BY 3.0 / PD song folders |
 | `import-cmaa.mjs` | CMAA newly-composed PDFs whose *file* grant is CC BY 3.0 (skips ND, NC, "except commercial", CanticaNOVA) |
