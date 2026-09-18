@@ -334,3 +334,5 @@ Individual layers can differ from the song's headline license — `song.json` `r
 ## Writers
 
 `writers/<slug>/` holds a portrait and a short bio, shared by every song that sets `writerRef`. Portraits are Wikimedia-verified public domain / CC0. Bios are Wikipedia openings, CC BY-SA. See [writers/LICENSE.md](writers/LICENSE.md).
+
+Living writers may also set `supportLinks` and `links` (`{ "label", "url" }`). Catalog seed copies those onto the author row, so “Support the writer” survives `reset-commons` and `commons-sync-catalog`. Match is the writer credit: folder slug, `name`, or a person named in a composite credit (`Larry Holder / Elton Smith`).
