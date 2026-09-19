@@ -10,6 +10,7 @@ tracks, PD-hymn adaptations, and third-party photos are skipped.
   python tools/harvest/import-larry-holder.py --refresh   # re-parse existing packages
   python tools/harvest/import-larry-holder.py --selftest  # parser checks, no network
   python tools/harvest/import-larry-holder.py --chords [--only <slug>] [--dry-run]  # merge writer chord charts
+  python tools/harvest/import-larry-holder.py --strip-chrome [--dry-run]  # drop copyright/credit preamble from existing packages
 """
 from __future__ import annotations
 
@@ -293,17 +294,7 @@ def lyrics_from_text(text: str, title: str) -> str | None:
         body.append(ln)
     while body and not body[-1].strip():
         body.pop()
-    skip_line = re.compile(
-        r"^(words|music|arrangement|copyright|midi|mp3|for permissions|larry|lawrence keith|"
-        r"ccli|ascap|151 charles|\[|feedback|youtube|used by permission|photo)",
-        re.I,
-    )
-    while body:
-        if not body[0].strip() or skip_line.match(body[0]):
-            body.pop(0)
-            continue
-        break
-    text_body = "\n".join(body).strip()
+    text_body = drop_chrome_paragraphs("\n".join(body).strip(), title)
     if len(re.sub(r"\s+", "", text_body)) < 80:
         return None
     return label_stanzas(text_body)
@@ -371,6 +362,226 @@ def label_stanzas(text_body: str) -> str:
             n = max(n, int(label.split()[1]))
         out.append([label, *lines])
     return "\n\n".join("\n".join(st) for st in out).rstrip() + "\n"
+
+
+def bare_lyric(ln: str) -> str:
+    return re.sub(r"\[[^\]]*\]", "", ln).strip().strip("\"“”")
+
+
+CHROME_LINE = re.compile(
+    r"^(?:"
+    r"inspired by\b|based on\b|adapted from\b|"
+    r"words(?:\s*(?:,|&|and)\s*music)?(?:\s+by)\b|"
+    r"words(?:\s*(?:,|&|and)\s*music)\b|"
+    r"music(?:\s+and\s+additional\s+words)?\s+by\b|"
+    r"lyrics by\b|written by\b|arranged by\b|orchestrat|"
+    r"with thanks to\b|copyright\b|©|\(c\)|\(p\)|song copyright\b|"
+    r"ccli\b|ascap\b|larry holder music|larry'?s songs of praise|for permissions\b|"
+    r"151 charles|larry@|and let me know what you think|of outreach\.?$|"
+    r"new recording\b|live performance by\b|choir and piano:|"
+    r"orchestration track|full orchestral score|available by request|"
+    r"there is also a .+translation|"
+    r"midi sequence copyright|arrangement copyright|a musical for young voices|"
+    r"by (?:larry holder|lawrence keith holder|chuck brown|elton smith)|"
+    r"words music by\b|\(larry holder music|non-profit copying|for details,? see|"
+    r"click here\b|this zipped file|mp3 (?:files|recording|available)|"
+    r"may be heard|soundclick\.|tunesmithfiles|unzipped samples|dramatization text|"
+    r"song \d+,|for more good children|for anyone who has a lost|"
+    r"don'?t ever give up|thanks,\s+\w+,?\s+for providing|i'?ve also enhanced|"
+    r"this page and the youtube|used by permission|feedback is appreciated|"
+    r"photo ©|art courtesy|and (?:larry|lawrence|elton|chuck|lena|peter|mark|deborah)\b|"
+    r"recording copyright|additional words and music|^by [A-Z][a-z]+ [A-Z]"
+    r")",
+    re.I,
+)
+WRITER_ONLY = re.compile(
+    r"^(?:and )?(?:larry holder|lawrence keith holder|elton smith|chuck brown|"
+    r"lena kittrell|rh\w*a siregar|peter gringhuis|mark wilkinson|"
+    r"deborah johnson|dennis and deborah johnson|charlie pierson|"
+    r"johnson/?pierson/?holder)\.?$",
+    re.I,
+)
+ASSET_BRACKET = re.compile(
+    r"^\[(?:MIDI File|Lead Sheet|Choral arrangement|Sheet Music|Page \d+|\\).*$",
+    re.I,
+)
+CHORD_TOKEN = re.compile(r"^[A-G][#b]?(?:m|maj|min|dim|aug|sus|add)?\d*(?:/[A-G][#b]?)?$")
+NOTE_STANZA = re.compile(
+    r"(?is)(?:"
+    r"this song was written|this song has been arranged|this song is featured|"
+    r"another musical collaboration|this is an honest retrospective|"
+    r"this is another collaboration|this is my second collaboration|"
+    r"here is another song that originated|i wrote this|i wrote the words|"
+    r"may it be a blessing|flute arrangement dedicated|to celebrate the arrival|"
+    r"shepherd is referring to the minister|he wrote the music, and i added|"
+    r"i later added an optional|don't ever give up, don't ever stop praying|"
+    r"for anyone who has a lost family member|thanks, elton, for providing|"
+    r"this zipped file contains|for more good children's music|"
+    r"non-profit copying and use is encouraged|complete dramatization text|"
+    r"let me know what you think of this song|i originally composed this song|"
+    r"computer programmer and composer|this is (?:my|our) (?:first|second|another)|"
+    r"in hopes of playing|in the near future with my|it can also be played|"
+    r"the recording was done|here'?s an upbeat|visit (?:his|her|rhesa)'?s website|"
+    r"hang on, this one rocks|the answer, of course|i wrote the lyrics as|"
+    r"i wrote this song while|looking back now|host our collaborations|"
+    r"mark plans to build a website|you can visit his website|"
+    r"he writes wonderful melodies|be sure to visit|this is an adaptation|"
+    r"you can also email|of outreach|living in your own strength"
+    r")",
+)
+REPEAT_CUE = re.compile(r"^(?:repeat(?:ing)?\s+(?:the\s+)?(?:chorus|refrain|verse)\b|chorus again)\b", re.I)
+SECTION_LABEL = re.compile(rf"^(?:{SECTION})\b", re.I)
+
+
+def is_title_only(text: str, title: str) -> bool:
+    if not title:
+        return False
+    a = re.sub(r"[^a-z0-9]+", "", text.casefold())
+    b = re.sub(r"[^a-z0-9]+", "", title.casefold())
+    return bool(a) and a == b
+
+
+def is_chrome_line(ln: str, title: str = "") -> bool:
+    raw = ln.strip()
+    if ASSET_BRACKET.match(raw):
+        return True
+    t = bare_lyric(ln)
+    if not t:
+        inner = raw.strip("[]").strip()
+        return bool(inner) and not CHORD_TOKEN.match(inner) and not SECTION_LABEL.match(inner)
+    inner = t[1:-1].strip() if t.startswith("(") and t.endswith(")") else t
+    if SECTION_LABEL.match(t) or SECTION_LABEL.match(inner):
+        return False
+    if re.search(r"\bcopyright\b|\bascap\b|\bccli\b", inner, re.I):
+        return True
+    if re.search(r"words\s*(?:&|and)?\s*music\s+by", inner, re.I):
+        return True
+    if re.search(r"larry holder music", inner, re.I):
+        return True
+    if re.match(r"^by [A-Z]", inner, re.I) and re.search(
+        r"holder|siregar|kittrell|gringhuis|wilkinson|brown|elton smith", inner, re.I
+    ):
+        return True
+    if DROP_DIRECTION.match(inner) or re.search(r"\d+-measures?\s+intro|\bkey change\b", inner, re.I):
+        return True
+    if title:
+        ct = re.sub(r"[^a-z0-9]+", "", inner.casefold())
+        ctitle = re.sub(r"[^a-z0-9]+", "", title.casefold())
+        if ctitle and ct.startswith(ctitle) and re.search(r"words|copyright|music by|arranged", inner, re.I):
+            return True
+    return bool(
+        CHROME_LINE.match(inner) or WRITER_ONLY.match(inner) or REPEAT_CUE.match(inner)
+    )
+
+
+def split_stanzas(text: str) -> list[list[str]]:
+    chunks, cur = [], []
+    for ln in text.split("\n"):
+        if ln.strip():
+            cur.append(ln.rstrip())
+        elif cur:
+            chunks.append(cur)
+            cur = []
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
+def drop_chrome_paragraphs(text: str, title: str = "") -> str:
+    """Remove credit/copyright/site-note paragraphs from unlabeled page text."""
+    out: list[list[str]] = []
+    for st in split_stanzas(text):
+        kept = [ln for ln in st if ln.strip() and not is_chrome_line(ln, title)]
+        if not kept:
+            continue
+        if all(is_title_only(bare_lyric(x), title) for x in kept):
+            continue
+        joined = " ".join(bare_lyric(x) for x in kept)
+        if NOTE_STANZA.search(joined):
+            continue
+        out.append(kept)
+    return "\n\n".join("\n".join(st) for st in out)
+
+
+def strip_labeled_chrome(body: str, title: str = "") -> str:
+    """Drop credit/copyright stanzas from an already-labelled ChordPro body.
+
+    Returns the original body unchanged when nothing was chrome, so clean
+    packages (and translations whose first line is the title) are left alone.
+    """
+    out: list[tuple[str, list[str]]] = []
+    dropped = False
+    verse_n = 0
+    for st in split_stanzas(body):
+        orig_label: str | None = None
+        lines = list(st)
+        head = bare_lyric(lines[0])
+        bracket = re.match(rf"^\[((?:{SECTION})\s*\d*)\]$", lines[0].strip(), re.I)
+        if bracket:
+            orig_label = bracket.group(1)
+            lines = lines[1:]
+        elif SECTION_LABEL.match(head) and not re.search(r"\[[^\]]+\]", lines[0]):
+            orig_label = lines[0].strip()
+            lines = lines[1:]
+        kept: list[str] = []
+        for ln in lines:
+            if not ln.strip():
+                continue
+            if is_chrome_line(ln, title):
+                dropped = True
+                continue
+            kept.append(ln)
+        if kept:
+            t0 = bare_lyric(kept[0])
+            m = re.match(r"^\((.+?)\)?:?$", t0)
+            if m:
+                inner = m.group(1).strip()
+                if SECTION_LABEL.match(inner) or re.match(r"^first verse\b", inner, re.I):
+                    orig_label = inner.rstrip(":")
+                    kept = kept[1:]
+                    dropped = True
+                elif (
+                    REPEAT_CUE.match(inner)
+                    or re.match(r"^\d+$", inner)
+                    or DROP_DIRECTION.match(inner)
+                    or DROP_DIRECTION.match(t0)
+                ):
+                    kept = kept[1:]
+                    dropped = True
+        if kept and all(is_title_only(bare_lyric(x), title) for x in kept):
+            dropped = True
+            kept = []
+        while (
+            kept
+            and len(kept) > 1
+            and is_title_only(bare_lyric(kept[0]), title)
+            and re.match(r"^\d+\.", bare_lyric(kept[1]))
+        ):
+            kept.pop(0)
+            dropped = True
+        if not kept:
+            if orig_label:
+                dropped = True
+            continue
+        joined = " ".join(bare_lyric(x) for x in kept if not bare_lyric(x).startswith("{c:"))
+        if NOTE_STANZA.search(joined):
+            dropped = True
+            continue
+        if not any(not bare_lyric(x).startswith("{c:") for x in kept):
+            dropped = True
+            continue
+        if orig_label is None or re.match(r"^verse\b", orig_label, re.I) or re.match(r"^first verse\b", orig_label, re.I):
+            verse_n += 1
+            if orig_label and re.match(rf"^verse\s+{verse_n}:?$", orig_label, re.I):
+                pass  # keep "Verse 1:" when the number is already right
+            else:
+                orig_label = f"Verse {verse_n}"
+        out.append((orig_label, kept))
+    if not dropped:
+        return body if body.endswith("\n") else body + "\n"
+    if not out:
+        return ""
+    return "\n\n".join(lab + "\n" + "\n".join(ls) for lab, ls in out) + "\n"
 
 
 def midi_meta(p: Path) -> dict:
@@ -499,7 +710,7 @@ def lyrics_from_sop(html: str) -> str | None:
     chunk = re.sub(r"(?is)<[^>]+>", "", chunk)
     chunk = htmlmod.unescape(chunk)
     lines = [re.sub(r"[ \t]+", " ", ln).strip() for ln in chunk.replace("\r", "").split("\n")]
-    text_body = "\n".join(lines).strip()
+    text_body = drop_chrome_paragraphs("\n".join(lines).strip(), "")
     if len(re.sub(r"\s+", "", text_body)) < 80:
         return None
     return label_stanzas(text_body)
@@ -811,13 +1022,68 @@ def backfill_chords(dry_run: bool, only: str | None) -> int:
         header = [ln for ln in lp.read_text(encoding="utf-8").splitlines() if ln.startswith("{") and not ln.startswith("{key:")]
         if key:
             header.insert(2, f"{{key: {key}}}")
-        body = "\n\n".join("\n".join([label, *lines]) for label, lines in sections)
-        lp.write_text("\n".join(header) + "\n\n" + body + "\n", encoding="utf-8", newline="\n")
+        body = strip_labeled_chrome(
+            "\n\n".join("\n".join([label, *lines]) for label, lines in sections),
+            song.get("title") or "",
+        )
+        lp.write_text("\n".join(header) + "\n\n" + body.rstrip() + "\n", encoding="utf-8", newline="\n")
         row["chords"] = chart_url
         row["sha256"] = sha256(lp)
         write_json(man_path, manifest)
         n += 1
     print(f"updated {n} lyrics.chordpro files")
+    return 0
+
+
+def split_header(text: str) -> tuple[list[str], str]:
+    lines = text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
+    i = 0
+    while i < len(lines) and lines[i].startswith("{"):
+        i += 1
+    if i < len(lines) and lines[i] == "":
+        i += 1
+    return lines[:i], "\n".join(lines[i:])
+
+
+def strip_existing(dry_run: bool) -> int:
+    n = 0
+    for song_path in sorted((ROOT / "songs").glob("*/*/song.json")):
+        song = json.loads(song_path.read_text(encoding="utf-8"))
+        if song.get("license") != "larry-holder":
+            continue
+        lp = song_path.parent / "sources" / "lyrics.chordpro"
+        if not lp.exists():
+            continue
+        raw = lp.read_text(encoding="utf-8")
+        header, body = split_header(raw)
+        cleaned = strip_labeled_chrome(body, song.get("title") or "")
+        if cleaned.rstrip("\n") == body.rstrip("\n"):
+            continue
+        if len(re.sub(r"\s+", "", re.sub(r"\{[^}]+\}", "", cleaned))) < 80:
+            print(f"  skip {song.get('title')}: would leave too little lyric text")
+            continue
+        first = next((bare_lyric(ln) for ln in cleaned.splitlines() if bare_lyric(ln) and not SECTION_LABEL.match(bare_lyric(ln))), "")
+        print(f"  {song.get('title')}: {first[:80]}")
+        if dry_run:
+            n += 1
+            continue
+        header = [ln for ln in header if ln.startswith("{")]
+        lp.write_text("\n".join(header) + "\n\n" + cleaned.lstrip("\n"), encoding="utf-8", newline="\n")
+        form = draft_form(cleaned)
+        if form:
+            song["form"] = form
+        elif "form" in song:
+            del song["form"]
+        write_json(song_path, song)
+        man_path = song_path.parent / "sources" / "manifest.json"
+        if man_path.exists():
+            manifest = json.loads(man_path.read_text(encoding="utf-8"))
+            row = next((f for f in manifest.get("files") or [] if f.get("file") == "lyrics.chordpro"), None)
+            if row:
+                row["sha256"] = sha256(lp)
+                write_json(man_path, manifest)
+        n += 1
+    print(f"stripped {n} lyrics.chordpro files")
     return 0
 
 
@@ -848,6 +1114,40 @@ def selftest() -> None:
     assert key == "A", key
     assert secs[0] == ("Chorus", ["Praise to [A]You, God A-[F#m]bove,"]), secs
     assert secs[1:] == [("Chorus", ["Praise to [A]You, God A-[F#m]bove,"]), ("Ending", ["[Bm]You Lord my [A/C#]God"])], secs
+    victory = strip_labeled_chrome(
+        "Verse 1\n[Gm7]Inspired by Romans 8:38-39\nWords and Music by\nLawrence Keith Holder\n"
+        "Copyright 1992 Lawrence Keith Holder\nOur Song of Victory\n"
+        "1. The [Eb]Lord provides for me always,\nFor each and ev'ry care.\n\n"
+        "Chorus\n[Cm]For I'm sure that neither death, nor life,\nWe have won!\n",
+        "Our Song of Victory",
+    )
+    assert "Copyright" not in victory and "Inspired by" not in victory, victory
+    assert victory.startswith("Verse 1\n1. The [Eb]Lord provides"), victory
+    assert "Chorus\n[Cm]For I'm sure" in victory, victory
+    still = strip_labeled_chrome(
+        "Verse 1\nInspired by Psalm 46\n\nVerse 2\nLawrence Keith Holder\n\n"
+        "Verse 3\nCopyright © 1998 Lawrence Keith Holder\n\n"
+        "Verse 4\nand let me know what you think of this song or this method\nof outreach.\n\n"
+        "Verse 5\n1. Be still and know that He is God:\nHe breaks the mighty bow,\n",
+        "Be Still And Know",
+    )
+    assert still.startswith("Verse 1\n1. Be still and know"), still
+    assert "Copyright" not in still and "outreach" not in still, still
+    you_are = strip_labeled_chrome(
+        "Verse 1\nChuck Brown\n\nVerse 2\nCopyright © 2003 Chuck Brown and Larry Holder\n\n"
+        "Verse 3\n1. You, O Lord, are the Word of Life,\nPerfect are Your ways.\n\n"
+        "Chorus:\nOur eyes longing to see You,\n",
+        "You Are",
+    )
+    assert "Chuck Brown" not in you_are and "Copyright" not in you_are, you_are
+    assert "1. You, O Lord, are the Word of Life," in you_are, you_are
+    heart = (
+        "Verse 1\n[A]All of my heart [F#m]here to love You,\nAnd [G]all of my soul [D]here to praise You,\n\n"
+        "Chorus\nPraise to [A]You, God A-[F#m]bove,\n"
+    )
+    assert strip_labeled_chrome(heart, "All Of My Heart").strip() == heart.strip()
+    child = "Verse 1\nMais que um menino,\nenvolto em palhas\nJesus meu Senhor,\n"
+    assert strip_labeled_chrome(child, "Mais Que Um Menino").strip() == child.strip()
     print("selftest ok")
 
 
@@ -858,6 +1158,7 @@ def main() -> int:
     ap.add_argument("--refresh", action="store_true", help="rewrite lyrics/song.json/manifest of packages that already exist")
     ap.add_argument("--ccli", action="store_true", help="re-fetch source pages and stamp song.json ccli")
     ap.add_argument("--chords", action="store_true", help="merge the writer's chord chart into lyrics.chordpro")
+    ap.add_argument("--strip-chrome", action="store_true", help="drop copyright/credit preamble from existing larry-holder lyrics")
     ap.add_argument("--only", help="--chords: restrict to packages whose folder name contains this")
     args = ap.parse_args()
     if args.selftest:
@@ -867,6 +1168,8 @@ def main() -> int:
         return backfill_ccli(args.dry_run)
     if args.chords:
         return backfill_chords(args.dry_run, args.only)
+    if args.strip_chrome:
+        return strip_existing(args.dry_run)
     STAGING.mkdir(parents=True, exist_ok=True)
 
     urls = collect_song_urls()

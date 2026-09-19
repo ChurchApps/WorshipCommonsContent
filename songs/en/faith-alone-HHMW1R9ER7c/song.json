@@ -36,7 +36,7 @@
     "status": "draft",
     "sections": [
       {
-        "label": "Verse 1",
+        "label": "verse 1",
         "lyric": 1
       },
       {
@@ -58,55 +58,15 @@
       {
         "label": "Verse 6",
         "lyric": 6
-      },
-      {
-        "label": "verse 1",
-        "lyric": 7
-      },
-      {
-        "label": "Verse 7",
-        "lyric": 8
-      },
-      {
-        "label": "Verse 8",
-        "lyric": 9
-      },
-      {
-        "label": "verse 2",
-        "lyric": 10
-      },
-      {
-        "label": "Verse 9",
-        "lyric": 11
-      },
-      {
-        "label": "Verse 10",
-        "lyric": 12
-      },
-      {
-        "label": "Verse 11",
-        "lyric": 13
-      },
-      {
-        "label": "Verse 12",
-        "lyric": 14
       }
     ],
     "defaultOrder": [
-      "Verse 1",
+      "verse 1",
       "Verse 2",
       "Verse 3",
       "Verse 4",
       "Verse 5",
-      "Verse 6",
-      "verse 1",
-      "Verse 7",
-      "Verse 8",
-      "verse 2",
-      "Verse 9",
-      "Verse 10",
-      "Verse 11",
-      "Verse 12"
+      "Verse 6"
     ]
   }
 }
