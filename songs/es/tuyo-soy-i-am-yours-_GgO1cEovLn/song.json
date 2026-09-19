@@ -58,10 +58,6 @@
       {
         "label": "Verse 6",
         "lyric": 6
-      },
-      {
-        "label": "Verse 7",
-        "lyric": 7
       }
     ],
     "defaultOrder": [
@@ -70,8 +66,7 @@
       "Verse 3",
       "Verse 4",
       "Verse 5",
-      "Verse 6",
-      "Verse 7"
+      "Verse 6"
     ]
   }
 }

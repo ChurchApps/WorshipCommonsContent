@@ -48,35 +48,25 @@
         "lyric": 3
       },
       {
-        "label": "verse 2",
+        "label": "Verse 3",
         "lyric": 4
       },
       {
-        "label": "Verse 3",
+        "label": "Verse 4",
         "lyric": 5
       },
       {
-        "label": "Verse 4",
-        "lyric": 6
-      },
-      {
         "label": "bridge",
-        "lyric": 7
-      },
-      {
-        "label": "Verse 5",
-        "lyric": 8
+        "lyric": 6
       }
     ],
     "defaultOrder": [
       "Verse 1",
       "Verse 2",
       "chorus",
-      "verse 2",
       "Verse 3",
       "Verse 4",
-      "bridge",
-      "Verse 5"
+      "bridge"
     ]
   }
 }

@@ -44,64 +44,51 @@
         "lyric": 2
       },
       {
-        "label": "Verse 3",
+        "label": "refrain",
         "lyric": 3
       },
       {
-        "label": "Verse 4",
+        "label": "Verse 3",
         "lyric": 4
       },
       {
-        "label": "Verse 5",
+        "label": "Verse 4",
         "lyric": 5
       },
       {
-        "label": "Verse 6",
+        "label": "Verse 5",
         "lyric": 6
       },
       {
-        "label": "Verse 7",
+        "label": "Verse 6",
         "lyric": 7
       },
       {
-        "label": "Verse 8",
+        "label": "Bridge",
         "lyric": 8
       },
       {
-        "label": "Verse 9",
+        "label": "Verse 7",
         "lyric": 9
       },
       {
-        "label": "Verse 10",
+        "label": "Verse 8",
         "lyric": 10
-      },
-      {
-        "label": "Verse 11",
-        "lyric": 11
-      },
-      {
-        "label": "Verse 12",
-        "lyric": 12
-      },
-      {
-        "label": "Verse 13",
-        "lyric": 13
       }
     ],
     "defaultOrder": [
       "Verse 1",
       "Verse 2",
+      "refrain",
       "Verse 3",
       "Verse 4",
       "Verse 5",
+      "refrain",
       "Verse 6",
+      "Bridge",
+      "refrain",
       "Verse 7",
-      "Verse 8",
-      "Verse 9",
-      "Verse 10",
-      "Verse 11",
-      "Verse 12",
-      "Verse 13"
+      "Verse 8"
     ]
   }
 }

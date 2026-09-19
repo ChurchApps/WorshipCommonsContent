@@ -36,7 +36,7 @@
     "status": "draft",
     "sections": [
       {
-        "label": "Verse 1",
+        "label": "verse 1",
         "lyric": 1
       },
       {
@@ -72,12 +72,12 @@
         "lyric": 9
       },
       {
-        "label": "Verse 10",
+        "label": "ending",
         "lyric": 10
       }
     ],
     "defaultOrder": [
-      "Verse 1",
+      "verse 1",
       "Verse 2",
       "Verse 3",
       "Verse 4",
@@ -86,7 +86,7 @@
       "Verse 7",
       "Verse 8",
       "Verse 9",
-      "Verse 10"
+      "ending"
     ]
   }
 }
