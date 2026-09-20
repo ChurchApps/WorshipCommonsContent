@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "d7f46175c59708a93e6862f7439c7afc585ad57f1c202d74356c75e6454a19d6",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "15fe0eaa55730f98a40bbd7efa7b4e5e6355f217aebf8cee65bf8e05da74b4a1",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "5b3466c1ffd49d5f25daadc53faead17110e2b201adae1e7d6d28362448f0564",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "bb4eaf4d79bd998046fec130a32bf187c92dddb5caed596a4eb30cd1212e9ebd",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gspxyxVctNx",
+  "title": "Come, Thou Almighty King",
+  "writer": "Anonymous & Felice de Giardini",
+  "writerRef": "felice-de-giardini",
+  "year": 1757,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "F",
+  "bpm": 92,
+  "timeSignature": "3/4",
+  "meter": "6.6.4.6.6.6.4",
+  "scripture": "Psalm 95:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1757",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

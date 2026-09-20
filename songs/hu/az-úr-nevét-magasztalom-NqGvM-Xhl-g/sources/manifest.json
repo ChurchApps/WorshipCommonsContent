@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "f5fa2fe42d3c948f35a02d603c81eb014301c1aba24b7b6ef0987807d663cab0",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "1597817debf3a6ab7f4fb1d02759e7ffe926f7416d0ff92f300f682c29cfac4e",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20200303191902/http://www.hymntime.com/tch/non/hu/a/z/u/r/azurneve.htm",
+      "acquired": "2026-09-17",
+      "sha256": "f64c4dba4fa84f5e31c81e93252cea92a0cc95db19225337ccd7028996bc5f15",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "http://web.archive.org/web/20200303191902/http://www.hymntime.com/tch/non/hu/a/z/u/r/azurneve.htm",
+      "acquired": null,
+      "sha256": "dde6a2eb8d2b25e7d1377ceacc91728269d02caeb822959cc6114408a02e2bbe",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "650e70ba16a1df56f6d976ba67cdbe699558fcf6fd007faa048b5091de485859",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

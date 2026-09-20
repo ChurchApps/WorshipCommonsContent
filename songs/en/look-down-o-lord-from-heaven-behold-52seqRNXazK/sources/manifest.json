@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "2335e5f1a6156a9505bc9c98b1e1344bda0cf2e1e5f0c2a5107e4f62eec66189",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "485fa551300ad2df979db36df0c0adab227d6dd17860a5de340fb7b85006199b",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "72156b0624497052241bb0bd6c05bcca9ceef3e2e14b5b90ab3f85147386c5b1",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "1bd6e74971f3459d178f9fe44a6587cc29b068a0cd76c42b551d6f7ee176ac9b",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Lyric timings; the generator does not live in this repo",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "e2c8538d71250a4aa644b232d1edfba16ce5e921dbd89a09ed536f2d950b917a",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "0b50891baac53ec4b41b2127d92f1da40c3f78523966b70f1194465f460eb1f8",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "znT9qzI4lst",
+  "title": "Niño Santo, Sufres Tanto",
+  "writer": "Anónimo",
+  "year": 1921,
+  "language": "Spanish",
+  "scripture": "Lucas 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1921",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "parent": {
+    "id": "0odUo5MEeuU"
+  },
+  "relationLabel": "Spanish translation"
+}

@@ -1,0 +1,19 @@
+The Cyber Hymnal: permission basis for "നാഥാ നിന്‍ പാദെ നടപ്പാന്‍ നിന്നെ സ്നേഹിപ്പാന്‍ കൃപ താ"
+
+Page:     http://www.hymntime.com/tch/non/ml/o/m/a/s/o_Master_let_me_walk_with_Thee_ml.htm
+Archived: http://web.archive.org/web/20191031125722/http://www.hymntime.com:80/tch/non/ml/o/m/a/s/o_Master_let_me_walk_with_Thee_ml.htm
+
+Words credit: വാഷിങ്ങ്ടണ്ണ്‍ ഗ്ലേടെന്‍, 1879 (O Master, Let Me Walk with Thee). സൈമണ്‍ സഖറിയ, 2010. public domain
+Music credit: എച്ച്. പേഴ്സി സ്മിത്ത്, 1874 (🔊 pdf nwc).
+
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
+
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

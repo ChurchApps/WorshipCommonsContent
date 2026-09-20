@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "be16fa0300ba011982542c3a01748b7f167430e4a53d07966a5276b93690e9fd",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "extra/AllOfMyHeart2021_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeart2021_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "c9d6d7be3030145be52a7fa9400beb94a346bc9214c711c1786b80fff4ee61d0",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Granted alongside the song; kept as-is, not processed",
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=397",
+      "acquired": "2026-09-16",
+      "sha256": "64dac45dbc79a55b3a11625b88df7386046bfb5866bbf2345153670a8941ef79",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/HeelMijnHart.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "4ec68121dd2028834666531ac43af93e7122811a26800e8851ff08785a1f426c",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "verses": {
+    "have": 8,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Invitation"
+    ],
+    "confidence": [
+      0.95,
+      0.91,
+      0.9
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 8
+  },
+  "checkedAt": "2026-09-20"
+}

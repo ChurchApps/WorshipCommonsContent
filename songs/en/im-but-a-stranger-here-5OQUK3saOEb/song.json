@@ -1,0 +1,59 @@
+{
+  "id": "5OQUK3saOEb",
+  "title": "I'm But A Stranger Here",
+  "writer": "Thomas Rawson Taylor",
+  "writerRef": "thomas-rawson-taylor",
+  "year": 1836,
+  "language": "English",
+  "themes": "Assurance,Funeral,Church",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "6.4.6.4.6.6.6.4",
+  "scripture": "Heb 11:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1836",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

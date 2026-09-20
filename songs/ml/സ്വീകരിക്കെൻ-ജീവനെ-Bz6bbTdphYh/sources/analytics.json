@@ -1,0 +1,29 @@
+{
+  "verses": {
+    "have": 4,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6
+    ],
+    "firstVerseMatchesAbc": true,
+    "missing": true,
+    "hint": "python tools/harvest/backfill-library-chords.py --expand --only സ്വീകരിക്കെൻ-ജീവനെ"
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 110 vs chart 84",
+      "time midi 4/4 vs chart 3/4"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 4
+  },
+  "checkedAt": "2026-09-20"
+}

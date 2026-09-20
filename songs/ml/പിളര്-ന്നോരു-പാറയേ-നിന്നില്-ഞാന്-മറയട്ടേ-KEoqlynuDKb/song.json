@@ -1,0 +1,55 @@
+{
+  "id": "KEoqlynuDKb",
+  "title": "പിളര്‍ന്നോരു പാറയേ! നിന്നില്‍ ഞാന്‍ മറയട്ടേ",
+  "writer": "ഒഗസ്ടുസ് എം. ടോപാല്ടി · tr. റവ. തോമസ്‌ കോശി",
+  "writerRef": null,
+  "year": 1776,
+  "language": "Malayalam",
+  "scripture": "സങ്കീര്‍ത്തനങ്ങള്‍ 18:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1776",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "b13IrZfZXWm"
+  },
+  "relationLabel": "Malayalam translation · tr. റവ. തോമസ്‌ കോശി"
+}

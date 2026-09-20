@@ -1,0 +1,53 @@
+{
+  "id": "3U53lul1o4Y",
+  "title": "I Have Decided to Follow Jesus",
+  "writer": "Traditional · Assam, India",
+  "writerRef": null,
+  "year": 1959,
+  "language": "English",
+  "themes": "Trust,Mission",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.8",
+  "scripture": "Luke 9:57",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "Hymnary.org lists the text Public Domain (Simon K. Marak, Assam, 19th c.); 1959 is Norman Johnson's arrangement, not used",
+      "source": "wc-seed",
+      "url": "https://hymnary.org/text/i_have_decided_to_follow_jesus",
+      "evidence": "grants/hymnary-public-domain.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

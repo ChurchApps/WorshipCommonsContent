@@ -1,0 +1,64 @@
+{
+  "id": "w2WwueVCM-Y",
+  "title": "Beneath the Cross of Jesus",
+  "writer": "Elizabeth Clephane & Frederick Maker",
+  "writerRef": "elizabeth-clephane",
+  "year": 1868,
+  "language": "English",
+  "themes": "Grace,Comfort",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "7.6.8.6.8.6.8.6",
+  "scripture": "Galatians 6:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1868",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

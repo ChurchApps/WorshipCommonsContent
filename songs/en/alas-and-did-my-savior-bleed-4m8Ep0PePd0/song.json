@@ -1,0 +1,46 @@
+{
+  "id": "4m8Ep0PePd0",
+  "title": "At the Cross",
+  "writer": "Isaac Watts & Ralph Hudson",
+  "writerRef": "isaac-watts",
+  "year": 1707,
+  "language": "English",
+  "themes": "Grace,Comfort",
+  "key": "E",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "8.6.8.6",
+  "scripture": "Romans 5:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1707",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

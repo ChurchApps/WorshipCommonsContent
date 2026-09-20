@@ -1,0 +1,32 @@
+{
+  "verses": {
+    "have": 5,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "time midi 3/4 vs chart 4/4"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Easter"
+    ],
+    "confidence": [
+      1,
+      0.99,
+      1
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 5
+  },
+  "checkedAt": "2026-09-20"
+}

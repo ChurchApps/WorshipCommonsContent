@@ -1,0 +1,49 @@
+{
+  "id": "LeNraMP2D7m",
+  "title": "Por la Justicia de Jesús",
+  "writer": "Edward Mote",
+  "year": 1834,
+  "language": "Spanish",
+  "scripture": "Mateo 7:25-26",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1834",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "wy7meh0qqDc"
+  },
+  "relationLabel": "Spanish translation"
+}

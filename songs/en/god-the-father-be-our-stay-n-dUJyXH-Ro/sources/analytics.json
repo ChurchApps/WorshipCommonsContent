@@ -1,0 +1,30 @@
+{
+  "verses": {
+    "have": 4,
+    "abcUnderlaid": 3,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Trinity"
+    ],
+    "confidence": [
+      0.73
+    ]
+  },
+  "chordpro": {
+    "ok": false,
+    "issues": [
+      "form labels missing from chart: Chorus"
+    ],
+    "stanzas": 4
+  },
+  "checkedAt": "2026-09-20"
+}

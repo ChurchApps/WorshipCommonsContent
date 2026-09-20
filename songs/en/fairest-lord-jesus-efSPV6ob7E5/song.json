@@ -1,0 +1,44 @@
+{
+  "id": "efSPV6ob7E5",
+  "title": "Fairest Lord Jesus",
+  "writer": "German hymn · tr. anonymous",
+  "writerRef": null,
+  "year": 1873,
+  "language": "English",
+  "themes": "Adoration",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "5.6.8.5.5.8",
+  "scripture": "Psalm 45:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1873",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "tIzXwesquh0",
+  "title": "Trust and Obey",
+  "writer": "John Sammis & Daniel Towner",
+  "writerRef": "john-sammis",
+  "year": 1887,
+  "language": "English",
+  "themes": "Trust,Assurance",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "scripture": "1 John 1:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1887",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

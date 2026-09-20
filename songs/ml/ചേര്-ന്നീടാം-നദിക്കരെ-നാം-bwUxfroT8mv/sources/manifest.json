@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "40eefbb834e8c095677526cee29588990ef7a7c52dca0592d68c3a38b103996f",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20181026185311/http://www.hymntime.com:80/tch/non/ml/s/h/a/l/shall_we_gather_at_the_river_ml.htm",
+      "acquired": "2026-09-17",
+      "sha256": "8d923909d7a1f7b8fe76e4c93baafc8570e1514b3f3588b73743756d49a23cea",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "http://web.archive.org/web/20181026185311/http://www.hymntime.com:80/tch/non/ml/s/h/a/l/shall_we_gather_at_the_river_ml.htm",
+      "acquired": null,
+      "sha256": "3d81d1a84c4a2658143bda0781178dbc6ac8eef8ed786b87501a38895b24f893",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "inherited from _9Rr3_G8q33 Shall We Gather at the River",
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "f64c27499914b81fddb9baf07a08826fd77bef1b382ce968e3bb34b05abb5da0",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "58p5F1XHI3w",
+  "title": "എന്നാത്മാവേ കേൾക്ക",
+  "writer": "ഫ്രെഡറിക്ക് ഡബ്ള്യു. ഫാബർ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2017,
+  "language": "Malayalam",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 30:5",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2017 translation posted by The Cyber Hymnal with permission and marked freely usable (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191025034112/http://www.hymntime.com:80/tch/non/ml/h/a/r/k/hark_hark_my_soul_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7"
+    ]
+  },
+  "parent": {
+    "id": "xN0vtmWoa0t"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
+}

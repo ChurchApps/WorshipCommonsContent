@@ -1,0 +1,41 @@
+{
+  "id": "MYPLBUJ6zEO",
+  "title": "Sweet Hour of Prayer",
+  "writer": "William Walford & William Bradbury",
+  "writerRef": "william-bradbury",
+  "year": 1845,
+  "language": "English",
+  "themes": "Trust,Comfort",
+  "key": "D",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8 D",
+  "scripture": "Matthew 6:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1845",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

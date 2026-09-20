@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "a432c3ef7d4dbe121431eb11ec6fe9f267a65223b5aac1758138b61b446f564d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "04816957cad311a57ae2b4f92def7393bf1702a80b06e2fdda7d09af1f8cbff8",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://larryholdermusic.org/watchagonnado.html",
+      "acquired": "2026-09-14",
+      "sha256": "573e4576730c2d7cf6232d6bc75a27836a79a0da182e9b80171ec1df01ff62e8",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://larryholdermusic.org/mp3/watchagonnado.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "ced91f19e97ba3b08a87055d8a81008f241332bf6cdb063928ff3a8637e6da30",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://larryholdermusic.org/scores/watchagonnado.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "a0a254cf26e529be14306ceef1243f37697ec24f9d7b30538dfda72dece6c576",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "Existing catalog copy",
+      "license": "larry-holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

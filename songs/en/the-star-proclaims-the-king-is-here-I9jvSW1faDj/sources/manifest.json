@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fb45f7a84f4c19eccdf1ab00ea99e46d52a9729a5032ed9cc09cc0e7a3b6f791",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "8c4fe4221d5188ef5e5052da48106210e40e1ef9fc6992399473818831c32b65",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "509e42b669e7539ce69c03b99819fd8c093087bdd694e8bd21a1c7201e1d62c8",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "43da100175d875ec6d67bd93e9fdf7b5f96023adc4af1f254b449cce6834ee94",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "7cdc56316ae347fb0c29dad6a15a3a0bed80d250c4ac8664754141e9e0054b34",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Lyric timings; the generator does not live in this repo",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "674d76dee39cfaf1fb590d41ee34535a27bc19a77bad87cf2168692a95cc47ab",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "9ae6175c38751940e6562e84e94ddeb0f5622b266d9dd6ddbb9dab439643c7f6",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "512bc8071c0318a28402f773026257c796fb36799cd76daf0dfbb7a3fad6db54",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

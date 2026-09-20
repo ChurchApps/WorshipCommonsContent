@@ -1,0 +1,27 @@
+{
+  "verses": {
+    "have": 5,
+    "abcUnderlaid": 4,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": false,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 110 vs chart 80",
+      "key midi Ab vs chart G"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 5
+  },
+  "checkedAt": "2026-09-20"
+}

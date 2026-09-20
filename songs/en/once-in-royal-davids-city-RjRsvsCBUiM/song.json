@@ -1,0 +1,41 @@
+{
+  "id": "RjRsvsCBUiM",
+  "title": "Once in Royal David's City",
+  "writer": "Cecil Frances Alexander & Henry Gauntlett",
+  "writerRef": "cecil-frances-alexander",
+  "year": 1848,
+  "language": "English",
+  "themes": "Christmas",
+  "key": "F",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.7.7",
+  "scripture": "Luke 2:4-7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1848",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

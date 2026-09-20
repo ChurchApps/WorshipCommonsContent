@@ -1,0 +1,79 @@
+{
+  "id": "ccZPwHZ9sf5",
+  "title": "At Calvary (I Am Free)",
+  "writer": "William Reed Newell, Daniel Brink Towner, C. Michael Pilato",
+  "year": 2014,
+  "language": "English",
+  "themes": null,
+  "key": "Bb",
+  "bpm": 98,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "PD",
+  "licenseSource": "cmpilato",
+  "attribution": {
+    "required": false,
+    "text": "William Reed Newell, Daniel Brink Towner, C. Michael Pilato",
+    "link": "https://github.com/cmpilato/worship-music/tree/main/At_Calvary_I_Am_Free"
+  },
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2014 setting marked Public Domain by C. Michael Pilato in the song README; words and tune pre-1931",
+      "source": "cmpilato",
+      "url": "https://github.com/cmpilato/worship-music/blob/b09635b8887afab8a01936d22ddb1e9341f7b654/At_Calvary_I_Am_Free/README.md",
+      "evidence": "grants/cmpilato-public-domain.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cmpilato"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "cmpilato"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Chorus",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

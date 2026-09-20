@@ -1,0 +1,45 @@
+{
+  "id": "OqDGwwFTMc3",
+  "title": "Are You Washed in the Blood?",
+  "writer": "Elisha Hoffman",
+  "writerRef": "elisha-hoffman",
+  "year": 1878,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "A",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 7:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1878",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

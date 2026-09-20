@@ -1,0 +1,45 @@
+{
+  "id": "odrW2-MWmES",
+  "title": "Let Us Break Bread Together",
+  "writer": "African American spiritual",
+  "writerRef": null,
+  "year": 1925,
+  "language": "English",
+  "themes": "Communion,Grace",
+  "key": "Eb",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 10:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1925",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

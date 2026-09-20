@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "56410ba58b71fa5a1483b9801044418fa5859fdb58832d55dd486b899878faf1",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191031125722/http://www.hymntime.com:80/tch/non/ml/o/m/a/s/o_Master_let_me_walk_with_Thee_ml.htm",
+      "acquired": "2026-09-17",
+      "sha256": "5490d93f492b4411003cd7cf68e492d6e7f3da7950b302a6dcd7187b299923e8",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "http://web.archive.org/web/20191031125722/http://www.hymntime.com:80/tch/non/ml/o/m/a/s/o_Master_let_me_walk_with_Thee_ml.htm",
+      "acquired": null,
+      "sha256": "5ae7155b1282efe9de5fcd643b22f14e42aeed1aa91e927e7278896aa92c2fa6",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "inherited from QZ5y5YTvCc7 O Master, Let Me Walk with Thee",
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "072d9304228b5edcc96e53d78a9111a1b50ba90586d6695ec92811699f6c08ad",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

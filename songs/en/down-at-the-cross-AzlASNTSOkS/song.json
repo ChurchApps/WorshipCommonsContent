@@ -1,0 +1,45 @@
+{
+  "id": "AzlASNTSOkS",
+  "title": "Down at the Cross",
+  "writer": "Elisha Hoffman & John Stockton",
+  "writerRef": "elisha-hoffman",
+  "year": 1878,
+  "language": "English",
+  "themes": "Grace,Praise",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "1 John 1:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1878",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

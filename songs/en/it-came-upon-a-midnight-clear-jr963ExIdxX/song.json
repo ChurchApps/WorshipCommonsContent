@@ -1,0 +1,64 @@
+{
+  "id": "jr963ExIdxX",
+  "title": "It Came Upon A Midnight Clear",
+  "writer": "Edmund Hamilton Sears",
+  "writerRef": "edmund-hamilton-sears",
+  "year": 1849,
+  "language": "English",
+  "themes": "Peace,Christmas,Advent",
+  "key": "Bb",
+  "bpm": 60,
+  "timeSignature": "6/8",
+  "meter": "8.6.8.6 D",
+  "scripture": "Lk 2:8-14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1849",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

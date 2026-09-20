@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "71c729874c3911b6cff72b7e724095f94cb6738e53b404ff13c32aa18db51253",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20191031125657/http://www.hymntime.com:80/tch/non/ml/i/n/c/h/r/in_Christ_there_is_no_east_or_west_ml.htm",
+      "acquired": "2026-09-17",
+      "sha256": "d0de6398d142a1638b9c8d2b6a6da71e768f0cdce8eebd776dafcbc4b528d84a",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "http://web.archive.org/web/20191031125657/http://www.hymntime.com:80/tch/non/ml/i/n/c/h/r/in_Christ_there_is_no_east_or_west_ml.htm",
+      "acquired": null,
+      "sha256": "0093df284827f5095442e8475dbe38cfdcdad2724d6f19f44bc81254ea02bc87",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "inherited from KqeA7Ti1fof In Christ There Is No East or West",
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "1ab491ef84730f71c2dfc5f2862677bbe63a7dd3d5e5e304675748f922ca985c",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

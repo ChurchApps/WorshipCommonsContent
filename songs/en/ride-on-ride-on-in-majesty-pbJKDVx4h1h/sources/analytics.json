@@ -1,0 +1,33 @@
+{
+  "verses": {
+    "have": 1,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 113 vs chart 84",
+      "key midi Bb vs chart C"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Palm Sunday"
+    ],
+    "confidence": [
+      0.93,
+      0.92,
+      0.93
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 1
+  },
+  "checkedAt": "2026-09-20"
+}

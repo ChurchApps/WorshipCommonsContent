@@ -1,0 +1,34 @@
+{
+  "verses": {
+    "have": 6,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 117 vs chart 76",
+      "key midi Eb vs chart E",
+      "midi 33.21s looks like fewer verses than chart (~79s)"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Cross"
+    ],
+    "confidence": [
+      0.92,
+      0.92,
+      0.9
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 6
+  },
+  "checkedAt": "2026-09-20"
+}

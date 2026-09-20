@@ -1,0 +1,36 @@
+{
+  "id": "9TNnsFzTZb4",
+  "title": "Sublime Gracia",
+  "writer": "John Newton · tr. anónimo",
+  "year": 1905,
+  "language": "Spanish",
+  "scripture": "Juan 9:25",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1905",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "YxPfAFYWOaG"
+  },
+  "relationLabel": "Spanish translation · anonymous, early 20th c."
+}

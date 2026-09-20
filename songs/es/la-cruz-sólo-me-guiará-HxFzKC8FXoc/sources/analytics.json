@@ -1,0 +1,29 @@
+{
+  "verses": {
+    "have": 4,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Cross"
+    ],
+    "confidence": [
+      0.86,
+      0.84
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 4
+  },
+  "checkedAt": "2026-09-20"
+}

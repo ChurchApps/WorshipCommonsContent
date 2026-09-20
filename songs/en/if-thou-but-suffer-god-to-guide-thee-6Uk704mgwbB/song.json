@@ -1,0 +1,41 @@
+{
+  "id": "6Uk704mgwbB",
+  "title": "If Thou But Suffer God to Guide Thee",
+  "writer": "Georg Neumark · tr. Catherine Winkworth",
+  "writerRef": "georg-neumark",
+  "year": 1863,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "Dm",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "9.8.9.8.8.8",
+  "scripture": "Psalm 55:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1863",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

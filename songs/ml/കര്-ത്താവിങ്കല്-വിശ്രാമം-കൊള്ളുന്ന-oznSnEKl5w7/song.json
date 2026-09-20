@@ -1,0 +1,92 @@
+{
+  "id": "oznSnEKl5w7",
+  "title": "കര്‍ത്താവിങ്കല്‍ വിശ്രാമം കൊള്ളുന്ന",
+  "writer": "വില്ല്യം ഡബ്ലിയു. ഹൊവ് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "scripture": "വെളിപ്പാട് 14:13",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2011 translation posted by The Cyber Hymnal with permission and marked freely usable (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191031130209/http://www.hymntime.com:80/tch/non/ml/f/o/r/a/for_all_the_saints_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      },
+      {
+        "label": "Verse 8",
+        "lyric": 8
+      },
+      {
+        "label": "Verse 9",
+        "lyric": 9
+      },
+      {
+        "label": "Verse 10",
+        "lyric": 10
+      },
+      {
+        "label": "Verse 11",
+        "lyric": 11
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7",
+      "Verse 8",
+      "Verse 9",
+      "Verse 10",
+      "Verse 11"
+    ]
+  },
+  "parent": {
+    "id": "MHG5BeaFhHD"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
+}

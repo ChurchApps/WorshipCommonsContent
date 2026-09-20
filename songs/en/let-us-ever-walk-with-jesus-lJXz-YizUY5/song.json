@@ -1,0 +1,59 @@
+{
+  "id": "lJXz-YizUY5",
+  "title": "Let Us Ever Walk With Jesus",
+  "writer": "Sigmund von Birken · tr. J. Adam Rimbach",
+  "year": 1652,
+  "language": "English",
+  "themes": "Hope,Faith,Church",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.8.7.7.8.7.7",
+  "scripture": "1Pt 2:21",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1652",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

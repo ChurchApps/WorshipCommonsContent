@@ -1,0 +1,64 @@
+{
+  "id": "buVDVg2gJ-H",
+  "title": "Immortal, Invisible, God Only Wise",
+  "writer": "Walter Chalmers Smith",
+  "writerRef": "walter-chalmers-smith",
+  "year": 1867,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "G",
+  "bpm": 108,
+  "timeSignature": "3/4",
+  "meter": "11.11.11.11",
+  "scripture": "1 Timothy 1:17",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1867",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

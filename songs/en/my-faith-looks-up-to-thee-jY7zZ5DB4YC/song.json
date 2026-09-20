@@ -1,0 +1,59 @@
+{
+  "id": "jY7zZ5DB4YC",
+  "title": "My Faith Looks Up to Thee",
+  "writer": "Ray Palmer & Lowell Mason",
+  "writerRef": "ray-palmer",
+  "year": 1830,
+  "language": "English",
+  "themes": "Trust,Confession",
+  "key": "D",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "6.6.4.6.6.6.4",
+  "scripture": "Hebrews 12:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1830",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

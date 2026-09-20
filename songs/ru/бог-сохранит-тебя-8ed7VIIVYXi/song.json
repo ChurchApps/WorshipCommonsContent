@@ -1,0 +1,55 @@
+{
+  "id": "8ed7VIIVYXi",
+  "title": "Бог Сохранит Тебя",
+  "writer": "Сивилия Мартин",
+  "writerRef": null,
+  "year": 1904,
+  "language": "Russian",
+  "scripture": "Псалом 120:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1904",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "uj5N6KdGjkI"
+  },
+  "relationLabel": "Russian translation"
+}

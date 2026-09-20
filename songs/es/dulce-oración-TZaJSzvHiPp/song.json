@@ -1,0 +1,37 @@
+{
+  "id": "TZaJSzvHiPp",
+  "title": "Dulce Oración",
+  "writer": "William Walford · tr. anónimo",
+  "writerRef": null,
+  "year": 1900,
+  "language": "Spanish",
+  "scripture": "Mateo 6:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1900",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "MYPLBUJ6zEO"
+  },
+  "relationLabel": "Spanish translation · anonymous"
+}

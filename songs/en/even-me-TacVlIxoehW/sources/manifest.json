@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "33cbc6c218be4f6ffd27d1b033a65faa92caf23f0e2df03b991f78e89686136d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://larryholdermusic.org/evenme.html",
+      "acquired": "2026-09-14",
+      "sha256": "65c6c324bb132bbbbfe1610c0e352f5f0cf18e9bdeb7523cb81facdf6dc38e40",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt",
+      "chords": "derived from output/composition/score.mid"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://larryholdermusic.org/mp3/evenme.mp3",
+      "acquired": "2026-09-14",
+      "sha256": "3194d34b32dd38cab95614da9f8294e7fc984b6c32c7a072afd64981b96b2352",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://larryholdermusic.org/scores/evenme_with_piano.pdf",
+      "acquired": "2026-09-14",
+      "sha256": "67f8f5f52f14ce260e2750db0ea71f2398994af3701740e8368c1cfcf6b16c28",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "Existing catalog copy",
+      "license": "larry-holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-15",
+      "sha256": "edb9c5774c1818c0b6fd832783752502f6d28a291ed2afc9647d31c9cd1b3a68",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://larryholdermusic.org/midi/evenme.mid",
+      "acquired": "2026-09-14",
+      "sha256": "4a1ac006a903edf319131d70ed91e6d03e6c828226c1a5c57667558580c90fcb",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "Existing catalog copy; original bytes not backfilled",
+      "license": "larry-holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "9ab72bf9dd7e79fde99d7a001bf77609d1f57bc5114904a31531bbfca7734ee5",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

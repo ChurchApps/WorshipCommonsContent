@@ -1,0 +1,118 @@
+{
+  "files": [
+    {
+      "file": "Diademata.ly",
+      "url": "https://www.mutopiaproject.org/ftp/ElveyGJ/Diademata/Diademata.ly",
+      "acquired": "2026-09-08",
+      "sha256": "f29e418a05ae71cd90bd902efb161e2ea2a031d4964e26fa8b0faa4e515762a9",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    },
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "eec7493a7a7a6b5e4dd2d54b88230dedd49ac99e8b65f05617d4ea414c138b15",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "ccli.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "82bd393d2f187730677445b2d0a0d39fb8799813f2f2cbdbb645bf17af74665e",
+      "licenseBasis": "songselect",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested CCLI song id; presence does not require reporting"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "93b11c7634bc413e37d17a04ae4c1125ed1ac80861d7b87e9887ef421f7e1dcf",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "ca2aa33c6273b3c1b63ef0e30d4ccbb4fd7eb4db4c856e34fb6ed37384ed48c5",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "86ebb67e7d79cd38a4f36cb5d9b3bf6f6f987c897ccad9a70871e65e6d877c89",
+      "licenseBasis": "wc-seed",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "25843a20642dcd9b9c1e799b9df004ee2f92901ed1d414ed7de878c536c46138",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "932ed86720c233075508630af739b38482dde688ad984441ede1af2f0224a1d1",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Lyric timings; the generator does not live in this repo",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "ceaf30d1033c8340aa626011fa2a811ca8b2df96c7ff9aefe2d926391aab53eb",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "9c1db22d1f23a828c77ee831ab366096a2a84b961dddd99d1e85987c019d21b2",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "ba7801ece9a865ccf573795f4a71f8d4ab0220bcc8522636f101fa95f2b1baeb",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "SvEvb5vrQYJ",
+  "title": "Revive Us Again",
+  "writer": "William Mackay",
+  "writerRef": "william-mackay",
+  "year": 1863,
+  "language": "English",
+  "themes": "Praise,Confession",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "meter": "6.6.6.6.8.6.8.6",
+  "scripture": "Psalm 85:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1863",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

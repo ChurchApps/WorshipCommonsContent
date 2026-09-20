@@ -1,0 +1,45 @@
+{
+  "id": "80eybgVFc-J",
+  "title": "Bringing in the Sheaves",
+  "writer": "Knowles Shaw & George Minor",
+  "writerRef": "knowles-shaw",
+  "year": 1874,
+  "language": "English",
+  "themes": "Mission,Providence",
+  "key": "G",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 126:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1874",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

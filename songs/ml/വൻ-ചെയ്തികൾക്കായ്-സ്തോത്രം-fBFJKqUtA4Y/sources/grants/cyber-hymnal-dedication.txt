@@ -1,0 +1,19 @@
+The Cyber Hymnal: permission basis for "വൻ ചെയ്തികൾക്കായ് സ്തോത്രം"
+
+Page:     http://www.hymntime.com/tch/non/ml/t/o/g/to_God_be_the_glory_ml.htm
+Archived: http://web.archive.org/web/20190412175120/http://www.hymntime.com/tch/non/ml/t/o/g/to_God_be_the_glory_ml.htm
+
+Words credit: ഫേനി ക്രോസ്ബി, 'ബ്രൈറ്റസ്റ്റ് ആന്റ് ബസ്റ്റ്'- ൽ ഡബ്ല്യൂ . എച്ച്. ഡോണ & റോബർട്ട് ലോറി (ഷിക്കാഗോ, ഇല്ലിനോയ്: ബീഗലോ & മെയിൻ, 1875), നമ്പർ 118 (To God Be the Glory). സൈമണ്‍ സഖറിയ, 2015. public domain
+Music credit: ഡബ്ല്യൂ ഹോവേർഡ് ഡോണ (🔊 pdf nwc).
+
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
+
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

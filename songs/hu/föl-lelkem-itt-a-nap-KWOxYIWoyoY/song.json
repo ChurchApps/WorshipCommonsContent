@@ -1,0 +1,61 @@
+{
+  "id": "KWOxYIWoyoY",
+  "title": "Föl, Lelkem, Itt a Nap",
+  "writer": "Charles Wesley · tr. Anna Piroska Williams",
+  "year": 1975,
+  "language": "Hungarian",
+  "scripture": "Róma 8:34",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "1975 translation posted by The Cyber Hymnal with permission and marked freely usable (\"szabadon felhasználható\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20200725100727/http://www.hymntime.com/tch/non/hu/f/o/l/e/folelkem.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "parent": {
+    "id": "AmR3I3-LM0h"
+  },
+  "relationLabel": "Hungarian translation · tr. Anna Piroska Williams, 1975"
+}

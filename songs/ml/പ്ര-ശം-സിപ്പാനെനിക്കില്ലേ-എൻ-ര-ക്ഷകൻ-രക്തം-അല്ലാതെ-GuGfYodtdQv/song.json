@@ -1,0 +1,71 @@
+{
+  "id": "GuGfYodtdQv",
+  "title": "പ്ര-ശം-സിപ്പാനെനിക്കില്ലേ എൻ ര-ക്ഷകൻ രക്തം അല്ലാതെ",
+  "writer": "ചാൾസ് വെസ്ലി · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2013,
+  "language": "Malayalam",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "അപ്പോസ്തോലപ്രവർത്തികൾ 12:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2013 translation posted by The Cyber Hymnal with permission and marked freely usable (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191031130444/http://www.hymntime.com:80/tch/non/ml/a/n/d/c/and_can_it_be_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ulcjUje9H_p",
+  "title": "La Cruz Excelsa",
+  "writer": "Isaac Watts · tr. anónimo",
+  "year": 1905,
+  "language": "Spanish",
+  "scripture": "Gálatas 6:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1905",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "5XkXjIIePgD"
+  },
+  "relationLabel": "Spanish translation · anonymous"
+}

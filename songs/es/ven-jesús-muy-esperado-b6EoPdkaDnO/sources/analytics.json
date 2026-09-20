@@ -1,0 +1,33 @@
+{
+  "verses": {
+    "have": 2,
+    "abcUnderlaid": 2,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": false,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 140 vs chart 84",
+      "time midi 3/4 vs chart 2/4"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Advent"
+    ],
+    "confidence": [
+      0.93,
+      0.9,
+      0.94
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 2
+  },
+  "checkedAt": "2026-09-20"
+}

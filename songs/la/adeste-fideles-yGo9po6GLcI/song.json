@@ -1,0 +1,48 @@
+{
+  "id": "yGo9po6GLcI",
+  "title": "Adeste Fideles",
+  "writer": "John F. Wade",
+  "writerRef": "john-f-wade",
+  "year": 1751,
+  "language": "Latin",
+  "themes": "Christmas,Adoration",
+  "key": "G",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Lucas 2:15",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1751",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

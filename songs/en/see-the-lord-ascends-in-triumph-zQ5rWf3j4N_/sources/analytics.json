@@ -1,0 +1,24 @@
+{
+  "verses": {
+    "have": 5,
+    "abcUnderlaid": 10,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": true,
+    "hint": "python tools/harvest/backfill-library-chords.py --expand --only see-the-lord-ascends-in-triumph"
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 5
+  },
+  "checkedAt": "2026-09-20"
+}

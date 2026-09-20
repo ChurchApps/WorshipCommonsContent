@@ -1,0 +1,60 @@
+{
+  "id": "PtW0VFNVbrv",
+  "title": "Что Вину Мне Может Смыть?",
+  "writer": "Роберт Лоури · tr. Иван С. Проханов",
+  "writerRef": null,
+  "year": 1876,
+  "language": "Russian",
+  "scripture": "Послание Евреям 9:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1876",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "3A7uOIvq4zf"
+  },
+  "relationLabel": "Russian translation · tr. Иван С. Проханов"
+}

@@ -1,0 +1,19 @@
+The Cyber Hymnal: permission basis for "മഹത്വമായി വർണ്ണിക്കുന്നു"
+
+Page:     http://www.hymntime.com/tch/non/ml/g/l/o/r/glorious_things_of_thee_are_spoken_ml.htm
+Archived: http://web.archive.org/web/20191021110327/http://www.hymntime.com:80/tch/non/ml/g/l/o/r/glorious_things_of_thee_are_spoken_ml.htm
+
+Words credit: ജോണ്‍ ന്യൂട്ടണ്‍, ഓൾനി ഹിംസ് (ലണ്ടൻ: വെസ്റ്റ്‌ ഒലിവർ, 1779) (Glorious Things of Thee Are Spoken). സൈമണ്‍ സഖറിയ, 2013. public domain
+Music credit: ഓസ്ട്രിയ ഹൈഡൻ, കരമീകരണം തോമസ് കാംബൽ, 1797, മിക്കവാറും ക്രോയേഷ്യൻ നാടോടി രാഗത്തിൽ നിന്നും (🔊 pdf nwc).
+
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
+
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

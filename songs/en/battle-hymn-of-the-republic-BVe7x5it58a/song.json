@@ -1,0 +1,45 @@
+{
+  "id": "BVe7x5it58a",
+  "title": "Battle Hymn of the Republic",
+  "writer": "Julia Ward Howe",
+  "writerRef": "julia-ward-howe",
+  "year": 1862,
+  "language": "English",
+  "themes": "Mission,Hope",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 19:15",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1862",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

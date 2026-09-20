@@ -1,0 +1,61 @@
+{
+  "id": "N_Cwkk-Uax-",
+  "title": "Con Cánticos, Señor",
+  "writer": "Charles Wesley, tr · tr. Merrill Hutchinson",
+  "writerRef": "charles-wesley",
+  "year": null,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 145:5",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "No copyright notice on its Cyber Hymnal page; words anonymous or pre-1931, tune pre-1931",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190412175513/http://www.hymntime.com/tch/non/es/c/o/c/a/cocantic.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

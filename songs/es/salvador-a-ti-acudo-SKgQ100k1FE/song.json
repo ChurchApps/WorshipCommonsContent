@@ -1,0 +1,55 @@
+{
+  "id": "SKgQ100k1FE",
+  "title": "Salvador, a Ti Acudo",
+  "writer": "Fanny Crosby",
+  "writerRef": "fanny-crosby",
+  "year": 1868,
+  "language": "Spanish",
+  "scripture": "Juan 6:37",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1868",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "2zMeQ2kdb2n"
+  },
+  "relationLabel": "Spanish translation"
+}

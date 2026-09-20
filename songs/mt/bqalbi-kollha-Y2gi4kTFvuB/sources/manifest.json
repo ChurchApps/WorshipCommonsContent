@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "682b0a17a4df7f29570efb57a34188005e7239087f388ae81da2c11bb03ed0b8",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "extra/AllOfMyHeartMaltese_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeartMaltese_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "940ba17a8edd1de0693faf4a39891afe7f867a642013c8d424edfeaf45038f07",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Granted alongside the song; kept as-is, not processed",
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=5",
+      "acquired": "2026-09-16",
+      "sha256": "ad5f172083db5f0ba884ba727d399973840fc9e322401d9d3d17803196e273bc",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeartMaltese.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "184808705094c9fcd59718dd913d69f88e11b0c1097638b04051b8578e10346d",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

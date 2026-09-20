@@ -1,0 +1,44 @@
+{
+  "id": "K0xGMwyoGsB",
+  "title": "Gloria Patri",
+  "writer": "Traditional · Henry Greatorex",
+  "writerRef": "henry-greatorex",
+  "year": 1851,
+  "language": "English",
+  "themes": "Adoration,Praise",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Luke 2:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1851",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mpyqQon24Wv",
+  "title": "Kis Kezed, Kis Szíved",
+  "writer": "Augusta Larned · tr. Anna Piroska Williams",
+  "writerRef": null,
+  "year": 2012,
+  "language": "Hungarian",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "2 Korinthus 9:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2012 translation posted by The Cyber Hymnal with permission and marked freely usable (\"szabadon felhasználható\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20211226070842/http://www.hymntime.com/tch/non/hu/k/i/s/k/kiskezed.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

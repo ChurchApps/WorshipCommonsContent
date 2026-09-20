@@ -1,0 +1,49 @@
+{
+  "id": "DpmgFB0Zev0",
+  "title": "Sa e Thellë Është Dashuria",
+  "writer": "Samuel T. Francis · tr. Jan Foss",
+  "year": 1875,
+  "language": "Albanian",
+  "scripture": "Efesianëve 3:17-18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1875",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "tqc4aKCrQ8k"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss"
+}

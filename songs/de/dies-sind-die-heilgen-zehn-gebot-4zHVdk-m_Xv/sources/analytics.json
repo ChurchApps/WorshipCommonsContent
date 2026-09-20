@@ -1,0 +1,30 @@
+{
+  "verses": {
+    "have": 12,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Scripture"
+    ],
+    "confidence": [
+      0.76,
+      0.75,
+      0.78
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 12
+  },
+  "checkedAt": "2026-09-20"
+}

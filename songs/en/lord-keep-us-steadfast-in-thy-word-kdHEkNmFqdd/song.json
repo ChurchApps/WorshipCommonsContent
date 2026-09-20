@@ -1,0 +1,54 @@
+{
+  "id": "kdHEkNmFqdd",
+  "title": "Lord, Keep Us Steadfast in Thy Word",
+  "writer": "Martin Luther · tr. Catherine Winkworth",
+  "writerRef": "martin-luther",
+  "year": 1541,
+  "language": "English",
+  "themes": "Faith,Church,Providence",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Ps 119:5-10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1541",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

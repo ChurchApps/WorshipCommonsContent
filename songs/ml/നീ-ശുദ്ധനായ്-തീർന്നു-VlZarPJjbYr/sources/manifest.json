@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "75c34c11e8abf576f474227b9e8ae8b4f614eecbfcdd8cc74de201932ca8a97b",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20181123163519/http://www.hymntime.com:80/tch/non/ml/t/a/k/e/take_time_to_be_holy_ml.htm",
+      "acquired": "2026-09-17",
+      "sha256": "317e05e2e704d66c6b1d6a1e874015d23dd02fefbca5f5489c51616a25c4958d",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "http://web.archive.org/web/20181123163519/http://www.hymntime.com:80/tch/non/ml/t/a/k/e/take_time_to_be_holy_ml.htm",
+      "acquired": null,
+      "sha256": "97725db6599bcb710636bf48de1d42ef6912d0e2b6afc281e5f4bfc68fa3a7ec",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "inherited from HM3Uk-SkVXr Take Time to Be Holy",
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "b6133b13d0aeae623e422cb501ec1d07ee108a8324a626cfcb46c97c2aa6c7d7",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    }
+  ]
+}

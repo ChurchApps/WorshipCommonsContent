@@ -1,0 +1,30 @@
+{
+  "verses": {
+    "have": 5,
+    "abcUnderlaid": 4,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "key midi A vs chart G"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Confession"
+    ],
+    "confidence": [
+      0.79
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 5
+  },
+  "checkedAt": "2026-09-20"
+}

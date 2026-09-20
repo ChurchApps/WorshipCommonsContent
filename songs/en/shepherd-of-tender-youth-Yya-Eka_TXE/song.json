@@ -1,0 +1,64 @@
+{
+  "id": "Yya-Eka_TXE",
+  "title": "Shepherd of Tender Youth",
+  "writer": "Clement of Alexandria · tr. Henry Martyn Dexter",
+  "year": 1846,
+  "language": "English",
+  "themes": "Providence,Comfort",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "meter": "6.6.4.6.6.6.4",
+  "scripture": "Is 40:11",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1846",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

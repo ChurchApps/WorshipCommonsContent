@@ -1,0 +1,63 @@
+{
+  "id": "CigKhoWNvan",
+  "title": "Blessed Jesus at Thy Word",
+  "writer": "Tobias Clausnitzer · tr. Catherine Winkworth",
+  "writerRef": "tobias-clausnitzer",
+  "year": 1663,
+  "language": "English",
+  "themes": "Church,Comfort",
+  "key": "G",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "7.8.7.8.8.8",
+  "scripture": "Jn 6:67-68",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1663",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

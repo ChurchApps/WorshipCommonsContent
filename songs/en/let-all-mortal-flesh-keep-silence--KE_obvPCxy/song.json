@@ -1,0 +1,59 @@
+{
+  "id": "-KE_obvPCxy",
+  "title": "Let All Mortal Flesh Keep Silence",
+  "writer": "from Liturgy of St. James · tr. Gerard Moultrie",
+  "writerRef": "gerard-moultrie",
+  "year": 1864,
+  "language": "English",
+  "themes": "Cross,Communion",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.8.7",
+  "scripture": "Hab 2:20",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "verses": {
+    "have": 5,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6
+    ],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Advent"
+    ],
+    "confidence": [
+      0.93,
+      0.95,
+      0.97
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 5
+  },
+  "checkedAt": "2026-09-20"
+}

@@ -1,0 +1,34 @@
+{
+  "verses": {
+    "have": 15,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 125 vs chart 72",
+      "time midi 3/4 vs chart 4/4",
+      "midi 20.52s looks like fewer verses than chart (~100s)"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Adoration"
+    ],
+    "confidence": [
+      0.96,
+      0.89,
+      0.91
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 15
+  },
+  "checkedAt": "2026-09-20"
+}

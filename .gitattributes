@@ -1,0 +1,3 @@
+# Never normalize line endings — chordpro/abc/json bodies must roundtrip
+# byte-identical into the WorshipCommons catalog.
+* -text

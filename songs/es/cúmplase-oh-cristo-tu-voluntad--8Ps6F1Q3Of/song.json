@@ -1,0 +1,55 @@
+{
+  "id": "-8Ps6F1Q3Of",
+  "title": "Cúmplase, Oh Cristo, Tu Voluntad",
+  "writer": "Adelaide Pollard",
+  "writerRef": null,
+  "year": 1907,
+  "language": "Spanish",
+  "scripture": "Isaías 64:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1907",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "UR1ml-cz5-o"
+  },
+  "relationLabel": "Spanish translation"
+}

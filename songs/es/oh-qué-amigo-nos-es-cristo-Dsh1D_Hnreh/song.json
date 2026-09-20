@@ -1,0 +1,37 @@
+{
+  "id": "Dsh1D_Hnreh",
+  "title": "¡Oh, Qué Amigo Nos Es Cristo!",
+  "writer": "Joseph Scriven · tr. Leandro Garza Mora",
+  "writerRef": "joseph-scriven",
+  "year": 1904,
+  "language": "Spanish",
+  "scripture": "Filipenses 4:6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1904",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "DmZMgNX0L6p"
+  },
+  "relationLabel": "Spanish translation · tr. Leandro Garza Mora, 1904"
+}

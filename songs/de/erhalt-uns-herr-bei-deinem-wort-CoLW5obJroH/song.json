@@ -1,0 +1,49 @@
+{
+  "id": "CoLW5obJroH",
+  "title": "Erhalt’ uns, Herr, bei deinem Wort",
+  "writer": "Martin Luther",
+  "year": 1541,
+  "language": "German",
+  "scripture": "Johannes 17,11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1541",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "kdHEkNmFqdd"
+  },
+  "relationLabel": "German original · Martin Luther, 1541"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "eBJ7fEyBGQk",
+  "title": "പ്രാർത്ഥനയിൻ നൽ നേരമേ",
+  "writer": "വില്ല്യം വാൽഫോർഡ്",
+  "writerRef": null,
+  "year": 1845,
+  "language": "Malayalam",
+  "scripture": "1. തെസ്സലോനിക്യർ 5:17",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1845",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "MYPLBUJ6zEO"
+  },
+  "relationLabel": "Malayalam original · വില്ല്യം വാൽഫോർഡ്, 1845"
+}

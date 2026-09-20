@@ -1,0 +1,60 @@
+{
+  "id": "ZXl4dEPqRCQ",
+  "title": "Quel Ami Fidèle et Tendre",
+  "writer": "Joseph M. Scriven · tr. Emile Bonnard",
+  "writerRef": "joseph-scriven",
+  "year": 1855,
+  "language": "French",
+  "scripture": "Jean 15.13",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1855",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "parent": {
+    "id": "DmZMgNX0L6p"
+  },
+  "relationLabel": "French translation · tr. Emile Bonnard"
+}

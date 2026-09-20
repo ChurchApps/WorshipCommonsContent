@@ -1,0 +1,64 @@
+{
+  "id": "yyqsUMtuB1N",
+  "title": "From All Thy Saints in Warfare",
+  "writer": "Horatio Bolton Nelson",
+  "year": 1864,
+  "language": "English",
+  "themes": "Hope,Faith,Assurance",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "7.6.7.6.7.6.7.6",
+  "scripture": "Heb 12:1-2",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Chorus"
+    ]
+  }
+}

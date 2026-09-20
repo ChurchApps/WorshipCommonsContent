@@ -1,0 +1,26 @@
+{
+  "verses": {
+    "have": 3,
+    "abcUnderlaid": 3,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  },
+  "chordpro": {
+    "ok": false,
+    "issues": [
+      "form labels missing from chart: Verse 3"
+    ],
+    "stanzas": 3
+  },
+  "checkedAt": "2026-09-20"
+}

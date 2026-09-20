@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "8141a1871df804e134a1bd84b94d4150aa485cfcc7e0e20ba04b594800e9f1af",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "extra/DeToutMonC%C5%93ur_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/DeToutMonC%C5%93ur_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "632e95b5a2bfe4cf1399de87a5fabe9f9ff5129a552dbec75780eddb4a7ca699",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Granted alongside the song; kept as-is, not processed",
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=10",
+      "acquired": "2026-09-16",
+      "sha256": "15d69dfd898e0631cf635fdc7e99ae2f508c8750e66f794a22c149fc8c821857",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/DeToutMonC%C5%93ur.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "0df4e14949e558b537e3200de05ff41263d721d2e5ff4611b6cccf385f86a924",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://songsofpraise.org/pdf/DeToutMonC%C5%93ur.pdf",
+      "acquired": "2026-09-16",
+      "sha256": "63295dd178d38c95131016e092c99682b7cad446e6b7475719b33d050556406d",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Existing catalog copy",
+      "license": "larry-holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

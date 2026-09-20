@@ -1,0 +1,54 @@
+{
+  "id": "T1GAOF8d44C",
+  "title": "Por la Excelsa Majestad",
+  "writer": "Folliott Pierpoint · tr. Federico Pagura",
+  "year": 1864,
+  "language": "Spanish",
+  "scripture": "Santiago 1:17",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "Umvqw0Kazrh"
+  },
+  "relationLabel": "Spanish translation · tr. Federico Pagura"
+}

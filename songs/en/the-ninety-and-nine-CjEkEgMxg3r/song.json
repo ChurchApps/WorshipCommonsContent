@@ -1,0 +1,41 @@
+{
+  "id": "CjEkEgMxg3r",
+  "title": "The Ninety and Nine",
+  "writer": "Elizabeth Clephane & Ira Sankey",
+  "writerRef": "elizabeth-clephane-ira-sankey",
+  "year": 1874,
+  "language": "English",
+  "themes": "Grace,Providence",
+  "key": "Eb",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "meter": "8.6.8.6.8.8.8",
+  "scripture": "Luke 15:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1874",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

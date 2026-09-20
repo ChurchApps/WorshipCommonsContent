@@ -1,0 +1,28 @@
+{
+  "verses": {
+    "have": 4,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6
+    ],
+    "firstVerseMatchesAbc": true,
+    "missing": true,
+    "hint": "python tools/harvest/backfill-library-chords.py --expand --only ക്രിസ്തു-വിന്-സ്നേ-ഹത്തില്-ചിത്ത-ങ്ങളിന്-ബന്ധം"
+  },
+  "midi": {
+    "drift": [
+      "time midi 4/4 vs chart 3/4"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 4
+  },
+  "checkedAt": "2026-09-20"
+}

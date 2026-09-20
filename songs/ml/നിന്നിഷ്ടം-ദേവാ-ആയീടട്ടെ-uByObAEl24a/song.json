@@ -1,0 +1,55 @@
+{
+  "id": "uByObAEl24a",
+  "title": "നിന്നിഷ്ടം ദേവാ ആയീടട്ടെ",
+  "writer": "എഡിലെയ്ഡ് എ. പൊള്ളാർഡ് · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍",
+  "writerRef": null,
+  "year": 1907,
+  "language": "Malayalam",
+  "scripture": "യെശയ്യാവു 64:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1907",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "UR1ml-cz5-o"
+  },
+  "relationLabel": "Malayalam translation · tr. വോല്‍ബ്രീറ്റ് നാഗല്‍"
+}

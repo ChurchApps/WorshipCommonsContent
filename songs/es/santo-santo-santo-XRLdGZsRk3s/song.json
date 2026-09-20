@@ -1,0 +1,42 @@
+{
+  "id": "XRLdGZsRk3s",
+  "title": "Santo, Santo, Santo",
+  "writer": "Reginald Heber · tr. Juan Bautista Cabrera",
+  "year": 1871,
+  "language": "Spanish",
+  "scripture": "Apocalipsis 4:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1871",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "Z8zZ1SBRMoo"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1871"
+}

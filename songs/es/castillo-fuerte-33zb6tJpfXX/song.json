@@ -1,0 +1,44 @@
+{
+  "id": "33zb6tJpfXX",
+  "title": "Castillo Fuerte",
+  "writer": "Martín Lutero · tr. Juan Bautista Cabrera",
+  "writerRef": "juan-bautista-cabrera",
+  "year": 1885,
+  "language": "Spanish",
+  "bpm": 92,
+  "scripture": "Salmo 46",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "hL6IUnDadWy"
+  },
+  "relationLabel": "Spanish translation · tr. Juan Bautista Cabrera, 1885"
+}

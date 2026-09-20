@@ -1,0 +1,49 @@
+{
+  "id": "YYBp_jksUgs",
+  "title": "Fuente de la Vida Eterna",
+  "writer": "Robert Robinson",
+  "year": 1758,
+  "language": "Spanish",
+  "scripture": "Salmos 68:19",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1758",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "FMd8ryghVRb"
+  },
+  "relationLabel": "Spanish translation"
+}

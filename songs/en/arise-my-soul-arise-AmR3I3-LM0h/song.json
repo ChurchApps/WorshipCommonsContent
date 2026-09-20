@@ -1,0 +1,41 @@
+{
+  "id": "AmR3I3-LM0h",
+  "title": "Arise, My Soul, Arise",
+  "writer": "Charles Wesley",
+  "writerRef": "charles-wesley",
+  "year": 1742,
+  "language": "English",
+  "themes": "Assurance,Grace",
+  "key": "F",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "6.6.6.6.8.8",
+  "scripture": "Hebrews 7:25",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1742",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

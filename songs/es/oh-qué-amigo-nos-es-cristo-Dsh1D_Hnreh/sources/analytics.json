@@ -1,0 +1,29 @@
+{
+  "verses": {
+    "have": 1,
+    "abcUnderlaid": 4,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": false,
+    "missing": false,
+    "hint": null,
+    "skipped": "first verse does not match ABC (borrowed tune?)"
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Comfort"
+    ],
+    "confidence": [
+      0.71
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 1
+  },
+  "checkedAt": "2026-09-20"
+}

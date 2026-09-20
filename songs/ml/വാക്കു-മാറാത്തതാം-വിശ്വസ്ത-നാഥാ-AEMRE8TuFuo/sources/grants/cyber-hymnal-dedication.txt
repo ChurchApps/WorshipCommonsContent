@@ -1,0 +1,19 @@
+The Cyber Hymnal: permission basis for "വാക്കു മാറാത്തതാം വിശ്വസ്ത നാഥാ"
+
+Page:     http://www.hymntime.com/tch/non/ml/g/r/e/a/great_is_thy_faithfulness_ml.htm
+Archived: http://web.archive.org/web/20180810223212/http://www.hymntime.com:80/tch/non/ml/g/r/e/a/great_is_thy_faithfulness_ml.htm
+
+Words credit: തോമസ്‌ എം ചിസ്സോം 1923 (Great Is Thy Faithfulness). സൈമണ്‍ സഖറിയ, 2000. public domain
+Music credit: വില്ല്യം എം. റണ്ണ്യന്‍, 1923 (🔊 pdf nwc) (© 1923 Hope Publishing Company).
+
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
+
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

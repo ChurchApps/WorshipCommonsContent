@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "67cfe864c714d73394aa5e082a8b1aceb4c83ff23d24aaa5c6edccd7d6014f6e",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "0cb5d9735c7f99a3ce031e5f62498d30350add3a6d91834fac2f42acbb7b157d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "grants/cyber-hymnal-dedication.txt",
+      "url": "http://web.archive.org/web/20190302180440/http://www.hymntime.com:80/tch/non/es/n/u/c/nuncadio.htm",
+      "acquired": "2026-09-17",
+      "sha256": "85610a7bdac908c4775d29b029dfa9650716a0742357c7ae7f563d98c0f21bb2",
+      "licenseBasis": "cyber-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": null,
+      "layer": "grant",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "8cdb3aabba60ebdfd3bb2a251abe7f3703053b451e7ba268c5022fabfd37d111",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "http://web.archive.org/web/20190302180440/http://www.hymntime.com:80/tch/non/es/n/u/c/nuncadio.htm",
+      "acquired": null,
+      "sha256": "adbe942c072c10d8cb8ab34634ddce058bcd662f66a43bb263ccc40772842693",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "The words. Nothing in this repo rebuilds them",
+      "layer": "text",
+      "license": "PD",
+      "obtainedVia": "harvest",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "6664de39f0c36c1b76ccfa6c07627c810be597ddd241ec7c7b94e1968c921e31",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "efba84099ed0d6d0d785e19605f6bae6bcb6703ee8b3025d19e1510f835d3d71",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

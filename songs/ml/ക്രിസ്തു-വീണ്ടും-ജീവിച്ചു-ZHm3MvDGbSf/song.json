@@ -1,0 +1,61 @@
+{
+  "id": "ZHm3MvDGbSf",
+  "title": "ക്രിസ്തു വീണ്ടും ജീവിച്ചു",
+  "writer": "ഈസ്റ്റർ",
+  "writerRef": null,
+  "year": null,
+  "language": "Malayalam",
+  "themes": "Easter",
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "മത്തായി 28:5–6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "No copyright notice on its Cyber Hymnal page; words anonymous or pre-1931, tune pre-1931",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191110203259/http://www.hymntime.com:80/tch/non/ml/c/h/r/i/Christ_the_Lord_is_risen_today_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

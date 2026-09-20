@@ -1,0 +1,22 @@
+{
+  "verses": {
+    "have": 8,
+    "abcUnderlaid": 5,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": false,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "midi 39.38s looks like fewer verses than chart (~82s)"
+    ],
+    "fill": {}
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 8
+  },
+  "checkedAt": "2026-09-20"
+}

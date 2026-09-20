@@ -1,0 +1,45 @@
+{
+  "id": "bV4J-230VsE",
+  "title": "Great Is Thy Faithfulness",
+  "writer": "Thomas Chisholm & William Runyan",
+  "writerRef": "thomas-chisholm",
+  "year": 1923,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "scripture": "Lamentations 3:22-23",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1923",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

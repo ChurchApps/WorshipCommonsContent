@@ -1,0 +1,41 @@
+{
+  "id": "w-xC_81LKUW",
+  "title": "This Is My Father's World",
+  "writer": "Maltbie Babcock",
+  "writerRef": "maltbie-babcock",
+  "year": 1901,
+  "language": "English",
+  "themes": "Creation,Trust",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "6.6.8.6 D",
+  "scripture": "Psalm 24:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1901",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

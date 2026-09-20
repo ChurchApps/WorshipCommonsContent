@@ -1,0 +1,66 @@
+{
+  "id": "CzS37g_v5aM",
+  "title": "Padre, Tu Palabra Es",
+  "writer": "Juan Cabrera",
+  "writerRef": "juan-bautista-cabrera",
+  "year": null,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Salmo 119:133",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "No copyright notice on its Cyber Hymnal page; words anonymous or pre-1931, tune pre-1931",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190302180445/http://www.hymntime.com:80/tch/non/es/p/a/t/u/patupale.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

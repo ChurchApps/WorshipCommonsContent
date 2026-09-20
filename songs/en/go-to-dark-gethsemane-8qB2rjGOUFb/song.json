@@ -1,0 +1,59 @@
+{
+  "id": "8qB2rjGOUFb",
+  "title": "Go to Dark Gethsemane",
+  "writer": "James Montgomery",
+  "writerRef": "james-montgomery",
+  "year": 1825,
+  "language": "English",
+  "themes": "Easter,Comfort",
+  "key": "Em",
+  "bpm": 66,
+  "timeSignature": "4/4",
+  "meter": "7.7.7.7.7.7",
+  "scripture": "Matthew 26:36",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1825",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "t1i9xdFTMRS",
+  "title": "നിത്യനാം അരൂപി, ജ്ഞാനിയാം ദൈവം",
+  "writer": "വോള്‍ട്ടെര്‍ സി. സ്മിത്ത് · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2011,
+  "language": "Malayalam",
+  "scripture": "തിമോഥെയോസ് 1:17",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2011 translation posted by The Cyber Hymnal with permission and marked freely usable (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20191022115833/http://www.hymntime.com:80/tch/non/ml/i/m/m/o/immortal_invisible_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "parent": {
+    "id": "buVDVg2gJ-H"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2011"
+}

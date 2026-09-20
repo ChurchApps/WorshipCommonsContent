@@ -1,0 +1,70 @@
+{
+  "id": "94a21VySU3F",
+  "title": "സഭാക്കേകാടിസ്ഥാനം",
+  "writer": "സാമുവേൽ ജെ. സ്‌റ്റോൺ",
+  "writerRef": null,
+  "year": 1866,
+  "language": "Malayalam",
+  "scripture": "1 കൊരിന്ത്യർ 3:11",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1866",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 7",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6",
+      "Verse 7"
+    ]
+  },
+  "parent": {
+    "id": "mp8_CK_E5qS"
+  },
+  "relationLabel": "Malayalam translation"
+}

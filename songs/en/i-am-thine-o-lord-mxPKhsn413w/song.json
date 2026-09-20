@@ -1,0 +1,45 @@
+{
+  "id": "mxPKhsn413w",
+  "title": "I Am Thine, O Lord",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1875,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Hebrews 10:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1875",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

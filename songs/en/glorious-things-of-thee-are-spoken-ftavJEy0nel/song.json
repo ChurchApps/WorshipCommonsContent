@@ -1,0 +1,59 @@
+{
+  "id": "ftavJEy0nel",
+  "title": "Glorious Things of Thee are Spoken",
+  "writer": "John Newton",
+  "writerRef": "john-newton",
+  "year": 1779,
+  "language": "English",
+  "themes": "Hope,Church,Providence",
+  "key": "F",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7 D",
+  "scripture": "Ps 87:1-7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1779",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

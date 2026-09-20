@@ -1,0 +1,49 @@
+{
+  "id": "Aak5VAYUh97",
+  "title": "Redeemed, How I Love to Proclaim It",
+  "writer": "Fanny Crosby & William Kirkpatrick",
+  "writerRef": "fanny-crosby-william-kirkpatrick",
+  "year": 1882,
+  "language": "English",
+  "themes": "Praise,Grace",
+  "key": "A",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 107:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1882",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

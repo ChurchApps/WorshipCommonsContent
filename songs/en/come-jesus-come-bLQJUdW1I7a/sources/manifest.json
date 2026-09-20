@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "f5ca74c865f2ed93eadb1c1646bf434b87bc9240add94e68d109d9bd9520fb1b",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://www.khmerworship.com/song/kevin-kwon/come-jesus-come-4768441",
+      "acquired": "2026-09-14",
+      "sha256": "801588054cb66e59d46bfabe0d2d82f0834850fb16a7265d3bc85174c59ab80a",
+      "licenseBasis": "kevin-kwon",
+      "original": true,
+      "submittedBy": null,
+      "note": "Harvested from https://www.khmerworship.com/song/kevin-kwon/come-jesus-come-4768441; writer dedicated the composition to the public domain (CC0 / copy.church/free)",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "text"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "ab4ac74b2be16bf9fcb36a39c2dd0688f0f297e4a8faac9b55908bf7fba4e252",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

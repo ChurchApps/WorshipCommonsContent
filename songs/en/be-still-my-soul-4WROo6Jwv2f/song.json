@@ -1,0 +1,64 @@
+{
+  "id": "4WROo6Jwv2f",
+  "title": "Be Still, My Soul",
+  "writer": "Katharina von Schlegel · tr. Jane Borthwick",
+  "writerRef": "katharina-von-schlegel",
+  "year": 1855,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "F",
+  "bpm": 63,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.10.10.10",
+  "scripture": "Psalm 46:10",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1855",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

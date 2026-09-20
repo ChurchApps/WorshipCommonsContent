@@ -1,0 +1,41 @@
+{
+  "id": "hPzmmzBAKpz",
+  "title": "Come, Christians, Join to Sing",
+  "writer": "Christian Bateman",
+  "writerRef": "christian-bateman",
+  "year": 1843,
+  "language": "English",
+  "themes": "Praise",
+  "key": "G",
+  "bpm": 104,
+  "timeSignature": "4/4",
+  "meter": "6.6.6.6 D",
+  "scripture": "Psalm 95:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1843",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

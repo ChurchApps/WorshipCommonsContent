@@ -1,0 +1,36 @@
+{
+  "id": "xfExG0mWGxu",
+  "title": "Al Mundo Paz",
+  "writer": "Isaac Watts · tr. anónimo",
+  "year": 1915,
+  "language": "Spanish",
+  "scripture": "Salmos 98:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1915",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "_X94hS2ZTgf"
+  },
+  "relationLabel": "Spanish translation · anonymous"
+}

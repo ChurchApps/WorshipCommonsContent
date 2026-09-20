@@ -1,0 +1,64 @@
+{
+  "id": "Cimm_OHgQ_r",
+  "title": "ചൊല്ലെന്നോടേശുവിൻ കാ-ര്യം",
+  "writer": "വില്യം എച്ച്.പാർക്കർ",
+  "year": 1885,
+  "language": "Malayalam",
+  "scripture": "മത്തായി 19:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "parent": {
+    "id": "KiS6tOdKb6n"
+  },
+  "relationLabel": "Malayalam translation"
+}

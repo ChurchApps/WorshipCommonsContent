@@ -1,0 +1,45 @@
+{
+  "id": "FMffPYxulvd",
+  "title": "Count Your Blessings",
+  "writer": "Johnson Oatman & Edwin Excell",
+  "writerRef": "johnson-oatman-edwin-excell",
+  "year": 1897,
+  "language": "English",
+  "themes": "Providence,Praise",
+  "key": "Eb",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "scripture": "Ephesians 1:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1897",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

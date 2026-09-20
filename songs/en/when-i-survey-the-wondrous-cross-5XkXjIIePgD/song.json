@@ -1,0 +1,64 @@
+{
+  "id": "5XkXjIIePgD",
+  "title": "When I Survey the Wondrous Cross",
+  "writer": "Isaac Watts",
+  "writerRef": "isaac-watts",
+  "year": 1707,
+  "language": "English",
+  "themes": "Grace,Confession",
+  "key": "Eb",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Galatians 6:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1707",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "JlbYSn1uxEs",
+  "title": "If God Had Not Been on Our Side",
+  "writer": "Martin Luther · tr. composite",
+  "writerRef": "martin-luther",
+  "year": 1524,
+  "language": "English",
+  "themes": "Faith,Comfort,Assurance",
+  "key": "A",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7.8.8.7",
+  "scripture": "Ps 124:1-8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1524",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

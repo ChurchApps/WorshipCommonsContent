@@ -1,0 +1,41 @@
+{
+  "id": "bfu9Z27BcwC",
+  "title": "Holy Spirit, Faithful Guide",
+  "writer": "Marcus Wells",
+  "writerRef": null,
+  "year": 1858,
+  "language": "English",
+  "themes": "Comfort,Trust",
+  "key": "G",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "7.7.7.7 D",
+  "scripture": "John 16:13",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1858",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

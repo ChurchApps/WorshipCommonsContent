@@ -1,0 +1,41 @@
+{
+  "id": "5CIUkAe-PHb",
+  "title": "O Worship the King",
+  "writer": "Robert Grant",
+  "writerRef": "robert-grant",
+  "year": 1833,
+  "language": "English",
+  "themes": "Praise,Creation",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "meter": "10.10.11.11",
+  "scripture": "Psalm 104:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1833",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

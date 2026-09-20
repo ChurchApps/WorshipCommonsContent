@@ -1,0 +1,59 @@
+{
+  "id": "Qrxmop8DMtt",
+  "title": "Ouço o Clamor do Bom Pastor",
+  "writer": "Alexcenah Thomas",
+  "writerRef": null,
+  "year": 1885,
+  "language": "Portuguese",
+  "themes": "Mission",
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "João 10:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1885",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

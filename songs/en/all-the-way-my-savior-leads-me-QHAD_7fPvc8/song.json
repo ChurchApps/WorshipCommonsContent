@@ -1,0 +1,41 @@
+{
+  "id": "QHAD_7fPvc8",
+  "title": "All the Way My Savior Leads Me",
+  "writer": "Fanny Crosby & Robert Lowry",
+  "writerRef": "fanny-crosby",
+  "year": 1875,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "8.7.8.7 D",
+  "scripture": "Deuteronomy 8:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1875",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

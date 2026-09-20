@@ -1,0 +1,41 @@
+{
+  "id": "RpixcP49jtd",
+  "title": "My Jesus, I Love Thee",
+  "writer": "William Featherston & Adoniram Gordon",
+  "writerRef": "william-featherston",
+  "year": 1864,
+  "language": "English",
+  "themes": "Adoration,Trust",
+  "key": "F",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": "11.11.11.11",
+  "scripture": "1 John 4:19",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1864",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

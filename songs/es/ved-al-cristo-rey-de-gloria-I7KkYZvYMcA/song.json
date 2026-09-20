@@ -1,0 +1,66 @@
+{
+  "id": "I7KkYZvYMcA",
+  "title": "Ved al Cristo, Rey de Gloria",
+  "writer": "Thomas Kelly",
+  "writerRef": "thomas-kelly",
+  "year": 1921,
+  "language": "Spanish",
+  "themes": "Easter",
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Hechos 2:36",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "No copyright notice on its Cyber Hymnal page; Spanish of Thomas Kelly printed 1921; tune Stebbins 1878; Hymnary lists both Public Domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190922203112/http://www.hymntime.com/tch/non/es/v/e/d/a/vedalcri.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

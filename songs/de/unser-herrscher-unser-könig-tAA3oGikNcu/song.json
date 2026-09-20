@@ -1,0 +1,45 @@
+{
+  "id": "tAA3oGikNcu",
+  "title": "Unser Herrscher, Unser König",
+  "writer": "Joachim Neander",
+  "year": 1680,
+  "language": "German",
+  "meter": "8.7.8.7.7.7",
+  "scripture": "Psalm 8,9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1680",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "parent": {
+    "id": "ThsV2EUH5G6"
+  },
+  "relationLabel": "German original · Joachim Neander, 1680"
+}

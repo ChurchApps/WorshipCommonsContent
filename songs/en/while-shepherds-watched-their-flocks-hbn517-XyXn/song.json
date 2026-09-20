@@ -1,0 +1,41 @@
+{
+  "id": "hbn517-XyXn",
+  "title": "While Shepherds Watched Their Flocks",
+  "writer": "Nahum Tate",
+  "writerRef": "nahum-tate",
+  "year": 1700,
+  "language": "English",
+  "themes": "Christmas",
+  "key": "C",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "8.6.8.6",
+  "scripture": "Luke 2:8-9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1700",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

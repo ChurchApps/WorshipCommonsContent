@@ -1,0 +1,49 @@
+{
+  "id": "OoJPO2R9dQd",
+  "title": "He Hideth My Soul",
+  "writer": "Fanny Crosby & William Kirkpatrick",
+  "writerRef": "fanny-crosby-william-kirkpatrick",
+  "year": 1890,
+  "language": "English",
+  "themes": "Assurance,Comfort",
+  "key": "Bb",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "scripture": "Exodus 33:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1890",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

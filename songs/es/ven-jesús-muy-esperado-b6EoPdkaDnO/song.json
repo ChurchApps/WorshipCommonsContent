@@ -1,0 +1,44 @@
+{
+  "id": "b6EoPdkaDnO",
+  "title": "Ven, Jesús Muy Esperado",
+  "writer": "Charles Wesley, tr · tr. Lorenzo Alvarez",
+  "year": 1744,
+  "language": "Spanish",
+  "scripture": "Hageo 2:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1744",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "parent": {
+    "id": "Nt5Jv5g_alj"
+  },
+  "relationLabel": "Spanish translation · tr. Lorenzo Alvarez"
+}

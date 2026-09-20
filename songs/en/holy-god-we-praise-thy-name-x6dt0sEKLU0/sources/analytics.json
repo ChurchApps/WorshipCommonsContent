@@ -1,0 +1,26 @@
+{
+  "verses": {
+    "have": 4,
+    "abcUnderlaid": 4,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  },
+  "chordpro": {
+    "ok": false,
+    "issues": [
+      "form labels missing from chart: refrain, And the white robed martyrs follow; And from morn to set of"
+    ],
+    "stanzas": 4
+  },
+  "checkedAt": "2026-09-20"
+}

@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "3959906fcd37cf52f889ee7c0202da8f2c14b72c65d43408d7741f177c3dbb13",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://www.khmerworship.com/song/kevin-kwon/run-run-run-2973726",
+      "acquired": "2026-09-14",
+      "sha256": "c7f6a4c69eb8ff318151c8e4a87cfeb21a32dfe30cb89f478e238c828a46caa1",
+      "licenseBasis": "kevin-kwon",
+      "original": true,
+      "submittedBy": null,
+      "note": "Harvested from KhmerWorship; section order aligned to the writer's official recording captions",
+      "obtainedVia": "harvest",
+      "license": "PD",
+      "licenseVersion": "CC0",
+      "layer": "text"
+    },
+    {
+      "file": "video.json",
+      "url": "https://www.youtube.com/watch?v=Bdzs0zSQ0lw",
+      "acquired": "2026-09-14",
+      "sha256": "4850d7a0e38d76b4cb34a7bf9cc2b5f7638a7c4746f2103c23aae471bda5fc77",
+      "licenseBasis": "kevin-kwon",
+      "original": true,
+      "submittedBy": null,
+      "note": "Writer's own recording (Mr. Edification). Description dedicates the song PD via copy.church/free. Same recording on SoundCloud/Spotify/Apple. A link, not a ripped master.",
+      "obtainedVia": "harvest",
+      "layer": "extra"
+    }
+  ]
+}

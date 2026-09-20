@@ -1,0 +1,36 @@
+{
+  "verses": {
+    "have": 8,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6,
+      7,
+      8
+    ],
+    "firstVerseMatchesAbc": false,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 115 vs chart 130"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Christmas"
+    ],
+    "confidence": [
+      0.99,
+      0.98,
+      0.98
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 8
+  },
+  "checkedAt": "2026-09-20"
+}

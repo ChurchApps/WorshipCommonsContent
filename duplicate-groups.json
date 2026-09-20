@@ -1,0 +1,62 @@
+[
+  {
+    "match": "first-line",
+    "canonical": {
+      "id": "jr963ExIdxX",
+      "title": "It Came Upon A Midnight Clear",
+      "label": "songs/en/public-domain/it-came-upon-a-midnight-clear",
+      "hymnalCount": 977,
+      "workRef": "it-came-upon-a-midnight-clear"
+    },
+    "duplicates": [
+      {
+        "id": "r8Ybhn-Xl_b",
+        "title": "It Came Upon the Midnight Clear",
+        "label": "songs/en/public-domain/it-came-upon-the-midnight-clear",
+        "hymnalCount": 977,
+        "workRef": "it-came-upon-the-midnight-clear",
+        "match": "first-line"
+      }
+    ]
+  },
+  {
+    "match": "title-prefix",
+    "canonical": {
+      "id": "wy7meh0qqDc",
+      "title": "My Hope Is Built",
+      "label": "songs/en/public-domain/my-hope-is-built",
+      "hymnalCount": 1253,
+      "workRef": "my-hope-is-built"
+    },
+    "duplicates": [
+      {
+        "id": "3A7DVh2sbI1",
+        "title": "My Hope Is Built on Nothing Less",
+        "label": "songs/en/public-domain/my-hope-is-built-on-nothing-less",
+        "hymnalCount": 1253,
+        "workRef": null,
+        "match": "title-prefix"
+      }
+    ]
+  },
+  {
+    "match": "title-prefix",
+    "canonical": {
+      "id": "qZQDR25XEha",
+      "title": "The Strife Is O'er, The Battle Done",
+      "label": "songs/en/public-domain/the-strife-is-oer-the-battle-done",
+      "hymnalCount": 540,
+      "workRef": "the-strife-is-oer-the-battle-done"
+    },
+    "duplicates": [
+      {
+        "id": "MKlAtWuuUz_",
+        "title": "The Strife Is O'er",
+        "label": "songs/en/public-domain/the-strife-is-oer",
+        "hymnalCount": 540,
+        "workRef": null,
+        "match": "title-prefix"
+      }
+    ]
+  }
+]

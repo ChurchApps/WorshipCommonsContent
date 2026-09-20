@@ -1,0 +1,32 @@
+{
+  "verses": {
+    "have": 1,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "firstVerseMatchesAbc": false,
+    "missing": false,
+    "hint": null,
+    "skipped": "first verse does not match ABC (borrowed tune?)"
+  },
+  "midi": {
+    "drift": [],
+    "fill": {}
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 1
+  },
+  "checkedAt": "2026-09-20",
+  "labels": {
+    "proposed": [],
+    "confidence": []
+  }
+}

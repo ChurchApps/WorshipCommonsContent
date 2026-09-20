@@ -1,0 +1,52 @@
+{
+  "id": "7r_VH-84gCA",
+  "title": "മോദം! മോദം! ആരാധിക്കാം",
+  "writer": "ഹെന്രി ജെ. വേൻ ഡൈക്ക്‌ · tr. സൈമണ്‍ സഖറിയ",
+  "writerRef": null,
+  "year": 2017,
+  "language": "Malayalam",
+  "scripture": "സങ്കീർത്തനങ്ങൾ 71:23",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "2017 translation posted by The Cyber Hymnal with permission and marked freely usable (\"എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു.\"); the original words and tune are public domain",
+      "source": "cyber-hymnal",
+      "url": "http://web.archive.org/web/20190118012729/http://www.hymntime.com:80/tch/non/ml/j/o/y/f/joyful_joyful_we_adore_Thee_ml.htm",
+      "evidence": "grants/cyber-hymnal-dedication.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "Pgwkq6hKvEa"
+  },
+  "relationLabel": "Malayalam translation · tr. സൈമണ്‍ സഖറിയ, 2017"
+}

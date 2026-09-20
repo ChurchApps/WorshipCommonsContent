@@ -1,0 +1,55 @@
+{
+  "id": "jPCm9je05bH",
+  "title": "O Du Fröhliche",
+  "writer": "Johannes D. Falk",
+  "writerRef": null,
+  "year": 1816,
+  "language": "German",
+  "themes": "Christmas",
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": "5.5.7.4.4.7",
+  "scripture": "Jesaja 9:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1816",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  }
+}

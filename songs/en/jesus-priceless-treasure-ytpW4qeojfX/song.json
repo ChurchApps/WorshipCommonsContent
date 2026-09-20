@@ -1,0 +1,45 @@
+{
+  "id": "ytpW4qeojfX",
+  "title": "Jesus, Priceless Treasure",
+  "writer": "Johann Franck · tr. Catherine Winkworth",
+  "writerRef": "johann-franck",
+  "year": 1863,
+  "language": "English",
+  "themes": "Adoration,Comfort",
+  "key": "Em",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "meter": "6.6.5.6.6.5.7.8.6",
+  "scripture": "Philippians 3:8",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1863",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

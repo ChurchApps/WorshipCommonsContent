@@ -1,0 +1,51 @@
+{
+  "id": "3X7NRPe-fMU",
+  "title": "Yo Escucho, Mi Jesús",
+  "writer": "Lewis Hartsough · tr. Juan Bautista Cabrera Ivars",
+  "writerRef": "lewis-hartsough",
+  "year": 1893,
+  "language": "Spanish",
+  "themes": null,
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Salmos 25:7",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "Tr. Juan Bautista Cabrera (1837-1916), in El Himnario Evangélico 1893; Hymnary.org lists it Public Domain",
+      "source": "hymnary",
+      "url": "https://hymnary.org/text/yo_escucho_buen_jesus",
+      "evidence": "grants/hymnary-public-domain.txt"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  }
+}

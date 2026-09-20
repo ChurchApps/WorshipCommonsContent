@@ -1,0 +1,46 @@
+{
+  "id": "4ywZcq98xoX",
+  "title": "Thine Be the Glory",
+  "writer": "Edmond Budry · tr. Richard Hoyle",
+  "writerRef": "edmond-budry",
+  "year": 1923,
+  "language": "English",
+  "themes": "Easter,Praise",
+  "key": "D",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Matthew 28:5-6",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1923",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

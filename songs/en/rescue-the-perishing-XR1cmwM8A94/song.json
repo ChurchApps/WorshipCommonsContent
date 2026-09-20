@@ -1,0 +1,63 @@
+{
+  "id": "XR1cmwM8A94",
+  "title": "Rescue the Perishing",
+  "writer": "Fanny Crosby & William Doane",
+  "writerRef": "fanny-crosby-william-doane",
+  "year": 1869,
+  "language": "English",
+  "themes": "Mission",
+  "key": "Bb",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "scripture": "Luke 14:23",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1869",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  }
+}

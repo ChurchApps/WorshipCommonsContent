@@ -1,0 +1,67 @@
+{
+  "id": "zfrKD0J-OPJ",
+  "title": "Crown Him with Many Crowns",
+  "writer": "Matthew Bridges & George Elvey",
+  "writerRef": "matthew-bridges",
+  "year": 1851,
+  "language": "English",
+  "themes": "Easter,Adoration",
+  "key": "D",
+  "bpm": 92,
+  "timeSignature": "4/4",
+  "meter": "6.6.8.6 D",
+  "scripture": "Revelation 19:12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1851",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

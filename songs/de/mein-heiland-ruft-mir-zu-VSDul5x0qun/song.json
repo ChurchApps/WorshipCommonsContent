@@ -1,0 +1,56 @@
+{
+  "id": "VSDul5x0qun",
+  "title": "Mein Heiland Ruft Mir Zu",
+  "writer": "Elvina M. Hall · tr. Theodor Kübler",
+  "year": 1865,
+  "language": "German",
+  "scripture": "Jesaja 1:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1865",
+      "source": "cyber-hymnal"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "jezxVGT-AB_"
+  },
+  "relationLabel": "German translation · tr. Theodor Kübler"
+}

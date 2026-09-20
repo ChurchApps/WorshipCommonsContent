@@ -1,0 +1,44 @@
+{
+  "id": "V6SATFlVGNv",
+  "title": "¡Gloria! ¡Gloria!",
+  "writer": "Fanny Crosby",
+  "year": 1869,
+  "language": "Spanish",
+  "scripture": "Salmos 146:2",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1869",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2"
+    ]
+  },
+  "parent": {
+    "id": "yB0FPr_vwGH"
+  },
+  "relationLabel": "Spanish translation"
+}

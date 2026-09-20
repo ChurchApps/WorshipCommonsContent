@@ -1,0 +1,49 @@
+{
+  "id": "tMrkcWBP5iD",
+  "title": "Wär’ Gott Nicht mit Uns Diese Zeit",
+  "writer": "Martin Luther",
+  "year": 1524,
+  "language": "German",
+  "scripture": "124,2-3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1524",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "JlbYSn1uxEs"
+  },
+  "relationLabel": "German original · Martin Luther, 1524"
+}

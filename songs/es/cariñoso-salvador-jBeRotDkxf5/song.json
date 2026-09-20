@@ -1,0 +1,36 @@
+{
+  "id": "jBeRotDkxf5",
+  "title": "Cariñoso Salvador",
+  "writer": "Charles Wesley · tr. Vicente Mendoza",
+  "year": 1904,
+  "language": "Spanish",
+  "scripture": "Salmos 61:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1904",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "PBT2FmuhgUL"
+  },
+  "relationLabel": "Spanish translation · tr. Vicente Mendoza"
+}

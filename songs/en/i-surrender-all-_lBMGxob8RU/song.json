@@ -1,0 +1,45 @@
+{
+  "id": "_lBMGxob8RU",
+  "title": "I Surrender All",
+  "writer": "Judson Van DeVenter & Winfield Weeden",
+  "writerRef": null,
+  "year": 1896,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "D",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "scripture": "Romans 12:1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1896",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "MQniwI8BXq3",
+  "title": "O That Will Be Glory",
+  "writer": "Charles Gabriel",
+  "writerRef": "charles-gabriel",
+  "year": 1900,
+  "language": "English",
+  "themes": "Hope,Praise",
+  "key": "Bb",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "scripture": "1 Corinthians 2:9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1900",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bz3YL_-o8Ur",
+  "title": "Wer Nur den Lieben Gott Lässt Walten",
+  "writer": "Georg Neumark",
+  "year": 1641,
+  "language": "German",
+  "meter": "8.8.8.8.8",
+  "scripture": "Psalm 48,15",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1641",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "6Uk704mgwbB"
+  },
+  "relationLabel": "German original · Georg Neumark, 1641"
+}

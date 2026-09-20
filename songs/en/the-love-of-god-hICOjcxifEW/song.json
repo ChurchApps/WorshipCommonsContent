@@ -1,0 +1,59 @@
+{
+  "id": "hICOjcxifEW",
+  "title": "The Love of God",
+  "writer": "Frederick Martin Lehman",
+  "writerRef": "frederick-martin-lehman",
+  "year": 1917,
+  "language": "English",
+  "themes": "Cross,Grace",
+  "key": "Db",
+  "bpm": 90,
+  "timeSignature": "3/4",
+  "meter": "6.6.6.6.8.8.8",
+  "scripture": "Rom 8:35-39",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1917",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Chorus"
+    ]
+  }
+}

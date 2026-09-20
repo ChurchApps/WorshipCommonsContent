@@ -1,0 +1,36 @@
+{
+  "id": "VHBus3zLP84",
+  "title": "Roca de la Eternidad",
+  "writer": "Augustus Toplady · tr. Thomas M. Westrup",
+  "year": 1875,
+  "language": "Spanish",
+  "scripture": "Salmos 94:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1875",
+      "source": "wc-seed"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  },
+  "parent": {
+    "id": "b13IrZfZXWm"
+  },
+  "relationLabel": "Spanish translation · tr. Thomas M. Westrup"
+}

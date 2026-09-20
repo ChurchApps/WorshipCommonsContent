@@ -1,0 +1,64 @@
+{
+  "id": "egPMz42Ts8h",
+  "title": "Look, Ye Saints, The Sight Is Glorious",
+  "writer": "Thomas Kelly",
+  "year": 1809,
+  "language": "English",
+  "themes": "Praise,Adoration,Thanksgiving",
+  "key": "Bb",
+  "bpm": 150,
+  "timeSignature": "6/4",
+  "meter": "8.7.8.7.2.2.2.7.7",
+  "scripture": "Rev 4:2-11",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1809",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Chorus"
+    ]
+  }
+}

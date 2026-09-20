@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a freely 
+% distributable, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont (editor 
+% at openhymnal dot org).  I have gone through serious efforts 
+% to make sure that no copyright mistakes make it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software.  Undoubtedly, I am also indebted 
+% to all of the great Christians who wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain or freely distributable
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2026 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.6900000
+%%staffsep	0.0000cm
+%%lineskipfac 1.0
+%%exprabove	false
+%%measurebox	false
+%OHSCRIP 1Pt 2:21, Jn 13:15, Jn 11:16, Eph 5:1-2
+%OHTOPICS {Anticipation}, {Aspiration}, {Christian Life}, {Church on Earth (Church Militant)}, {Discipleship}, {Example, Christ's}, {Following Jesus, In Action}, {Following Jesus, In Faith}, {Following Jesus, Sanctification}, {Holiness}, {Jesus}, {Obedience}, {Presence}, {Submission (see also Following Jesus, God - Providence of, Trust)}, {Temperance &amp; Moral Reform (see also Law)}
+%OHCATEGORY NEW OBEDIENCE
+%OHMETRICAL 8 7 8 7 8 7 7 8 7 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER Boltze, Gabriel Gottlieb (1721-1794)
+%OHARRANGER unknown
+%OHAUTHOR Birken, Sigmund von (1626-1681)
+%OHTRANSLATOR Rimbach, J. Adam (1871-1941)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+%%setfont-1 Symbol 13
+%%setfont-2 Times-Roman 13
+
+X: 1
+T: Let Us Ever Walk With Jesus
+C: Words: Sigmund von Birken, 1652.  Translated by J. Adam Rimbach, 1900.
+C: Music: 'Lasset Uns Mit Jesu Ziehen (Boltze)' or 'Walk With Jesus' or 'Let Us Ever Walk With Jesus'
+C: Gabriel Gottlieb Boltze, 1788.  Setting: "The American Lutheran Hymnal", 1930.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2026 Revision.
+S: Music source: "The American Lutheran Hymnal", 1930 Hymn 220
+S: Lyrics source: from The Handbook to the Lutheran Hymnal, 1942  https://www.projectwittenberg.org/etext/hymnals/tlh/ever_walk.txt  Note that the text of this hymn from the Handbook to the Lutheran Hymnal is available on Project Wittenberg, operated by the Walther Library of Concordia Theological Seminary Fort Wayne and the text is listed as public domain.  
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] A D E F | G F E E | D E F G | F E D2 | 
+w: 1.~Let us e- ver walk with Je- sus, Fol- low His e- xam- ple pure, 
+w: 2.~Let us suf- fer here with Je- sus, To His i- mage, e'er con- form; 
+w: 3.~Let us al- so die with Je- sus. His death from the se- cond death, 
+w: 4.~Let us glad- ly live with Je- sus; Since He's ri- sen from the dead, 
+[V: S1V2]  D D C D | D D D C | B, C D D | D C D2 | 
+[V: S2V1]  F, A, G, A, | B, A, A, A, | F, A, A, A, | A, A, F,2 | 
+[V: S2V2]  D, F, E, D, | G,, D, A,, A,, | B,, A,, D, G,, | A,, A,, D,2 | 
+% 5
+[V: S1V1] A D E F | G F E E | D E F G | F E D2 | 
+w: Flee the world, which would de- ceive us And to sin our souls al- lure. 
+w: Hea- ven's glo- ry soon will please us, Sun- shine fol- low on the storm. 
+w: From our soul's de- struc- tion, frees us, Qui- ckens us with life's glad breath. 
+w: Death and grave must soon re- lease us. Je- sus, Thou art now our Head, 
+[V: S1V2] D D C D | D D D C | B, C D D | D C D2 | 
+[V: S2V1] F, A, G, A, | B, A, A, A, | F, A, A, B, | A, A, F,2 | 
+[V: S2V2] D, F,  E, D, | G,, D, A,, A,, | B,, A,, D, G,, | A,, A,, D,2 | 
+% 9
+[V: S1V1]  A A d c | B B c A | B A G F | E D E2 | 
+w: E- ver in His foot- steps trea- ding, Bo- dy here, yet soul a- bove, 
+w: Though we sow in tears of sor- row, We shall reap with heav'n- ly joy; 
+w: Let us mor- ti- fy, while li- ving, Flesh and blood and die to sin; 
+w: We are tru- ly Thine own mem- bers; Where Thou li- vest, there live we. 
+[V: S1V2]  F E D E | F E E C | D D B,/C/ D | C D C2 | 
+[V: S2V1]  A, A, F, A, | A, ^G, A, E, | G, F, G, A, | A, F, A,2 | 
+[V: S2V2]  D, C, B,, C, | D, E, A,, A,, | G,, D, E, F,/D,/ | A,, B,, A,,2 | 
+% 13
+[V: S1V1]  A F B A | G F E2 | A A d c | B B c A | 
+w: Full of faith and hope and love, Let us do the Fa- ther's bid- ding. 
+w: And the fears that now an- noy Shall be lau- ghter on the mor- row. 
+w: And the grave that shuts us in Shall but prove the gate to hea- ven. 
+w: Take and own us con- stant- ly, Faith- ful Friend, as Thy dear bre- thren. 
+[V: S1V2]  C D D E | D D C2 | C C D E | F E E C | 
+[V: S2V1]  E, D, G, C | B, A, A,2 | E, F, F, A, | A, ^G, A, E, | 
+[V: S2V2]  A,, B,,/A,,/ G,, A,, | B,, D, A,,2 | A,, F,, B,, C, | D, E, A,, A,, | 
+% 17
+[V: S1V1]  B A G F | E D E2 | !sintro!D E F G | F E D2 !eintro!|] 
+w: Faith- ful Lord, a- bide with me; Sa- vior, lead, I fol- low Thee. 
+w: Christ, I suf- fer here with Thee; There, oh, share Thy joy with me! 
+w: Je- sus, here I die to Thee There to live e- ter- nal- ly. 
+w: Je- sus, here I live to Thee, Al- so there e- ter- nal- ly. 
+[V: S1V2]  D C D D | C B, C2 | B, E D D | D C D2 |] 
+[V: S2V1]  G, E, B, A, | A, F, A,2 | F, A, A, B, | A, A, F,2 |] 
+[V: S2V2]  G,, A,, B,, D, | A,, B,, A,,2 | B,, C, D, G,, | A,, A,, D,2 |] 
+% 20
+
+
+

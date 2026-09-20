@@ -1,0 +1,64 @@
+{
+  "id": "hz7uuQlEuyo",
+  "title": "What Is the World to Me?",
+  "writer": "Georg Michael Pfefferkorn · tr. August Crull",
+  "year": 1667,
+  "language": "English",
+  "themes": "Funeral,Faith,Hope",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "6.7.6.7.6.6.6.6",
+  "scripture": "Mt 6:25-34",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1667",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

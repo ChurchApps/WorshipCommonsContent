@@ -1,0 +1,31 @@
+{
+  "verses": {
+    "have": 7,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "time midi 6/8 vs chart 4/4"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Return"
+    ],
+    "confidence": [
+      0.73,
+      0.71
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 7
+  },
+  "checkedAt": "2026-09-20"
+}

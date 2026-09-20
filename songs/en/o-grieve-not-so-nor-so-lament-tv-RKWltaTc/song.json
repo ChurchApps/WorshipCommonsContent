@@ -1,0 +1,64 @@
+{
+  "id": "tv-RKWltaTc",
+  "title": "O Grieve Not So, Nor So Lament",
+  "writer": "Paul Gerhardt · tr. Sarah Laurie Findlater",
+  "year": 1923,
+  "language": "English",
+  "themes": "Hope,Faith,Trinity",
+  "key": "Ab",
+  "bpm": 100,
+  "timeSignature": "4/4",
+  "meter": "8.6.8.6.8.8",
+  "scripture": "Mt 6:30-34",
+  "license": "PD",
+  "licenseSource": "open-hymnal",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1923",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

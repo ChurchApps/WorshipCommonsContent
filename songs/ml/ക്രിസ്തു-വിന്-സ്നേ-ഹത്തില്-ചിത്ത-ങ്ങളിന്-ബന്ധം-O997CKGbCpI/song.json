@@ -1,0 +1,55 @@
+{
+  "id": "O997CKGbCpI",
+  "title": "ക്രിസ്തു-വിന്‍ സ്നേ-ഹത്തില്‍ ചിത്ത-ങ്ങളിന്‍ ബന്ധം",
+  "writer": "ജോണ്‍ ഫോസെറ്റ്",
+  "writerRef": null,
+  "year": 1782,
+  "language": "Malayalam",
+  "scripture": "ഹോശേയ 11:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1782",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "PcwqBQ0pxuT"
+  },
+  "relationLabel": "Malayalam translation"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kYzJQ4dmij7",
+  "title": "Nun Danket Alle Gott",
+  "writer": "Martin Rinkart",
+  "year": 1636,
+  "language": "German",
+  "scripture": "2 Korinther 2,14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1636",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "O56iN1F_4rL"
+  },
+  "relationLabel": "German translation"
+}

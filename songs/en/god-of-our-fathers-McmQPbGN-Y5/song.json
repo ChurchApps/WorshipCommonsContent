@@ -1,0 +1,41 @@
+{
+  "id": "McmQPbGN-Y5",
+  "title": "God of Our Fathers",
+  "writer": "Daniel Roberts & George Warren",
+  "writerRef": null,
+  "year": 1876,
+  "language": "English",
+  "themes": "Trust,Providence",
+  "key": "Eb",
+  "bpm": 88,
+  "timeSignature": "4/4",
+  "meter": "10.10.10.10",
+  "scripture": "Psalm 33:12",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1876",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

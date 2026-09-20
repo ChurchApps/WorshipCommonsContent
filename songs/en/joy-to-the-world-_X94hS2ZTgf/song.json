@@ -1,0 +1,62 @@
+{
+  "id": "_X94hS2ZTgf",
+  "title": "Joy to the World",
+  "writer": "Isaac Watts & Lowell Mason",
+  "writerRef": "isaac-watts",
+  "year": 1719,
+  "language": "English",
+  "themes": "Christmas,Praise",
+  "key": "D",
+  "bpm": 100,
+  "timeSignature": "2/4",
+  "meter": "8.6.8.6",
+  "scripture": "Psalm 98:4",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1719",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

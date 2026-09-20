@@ -1,0 +1,49 @@
+{
+  "id": "HNnL3GMuJd3",
+  "title": "Petite Ville, Bethléem",
+  "writer": "Phillips Brooks",
+  "year": 1867,
+  "language": "French",
+  "scripture": "Michée 5.1",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1867",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "parent": {
+    "id": "a19OdmA8uPt"
+  },
+  "relationLabel": "French translation"
+}

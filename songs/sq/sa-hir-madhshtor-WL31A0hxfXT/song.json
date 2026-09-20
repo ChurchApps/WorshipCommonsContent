@@ -1,0 +1,54 @@
+{
+  "id": "WL31A0hxfXT",
+  "title": "Sa Hir Madh’shtor",
+  "writer": "John Newton · tr. Jan Foss",
+  "year": 1779,
+  "language": "Albanian",
+  "scripture": "Gjoni 9:25",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1779",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "YxPfAFYWOaG"
+  },
+  "relationLabel": "Albanian translation · tr. Jan Foss"
+}

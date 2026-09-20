@@ -1,0 +1,65 @@
+{
+  "id": "xyPKUETRftU",
+  "title": "യേശു എന്‍ ആത്മ സഖേ നിന്‍ മാര്‍വില്‍ ഞാന്‍ ചേരട്ടെ",
+  "writer": "ചാള്‍സ് വെസ്ലി · tr. മോശ വത്സലം",
+  "writerRef": null,
+  "year": 1740,
+  "language": "Malayalam",
+  "scripture": "കൊരിന്ത്യര്‍ 1:3,5",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1740",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "parent": {
+    "id": "PBT2FmuhgUL"
+  },
+  "relationLabel": "Malayalam translation · tr. മോശ വത്സലം"
+}

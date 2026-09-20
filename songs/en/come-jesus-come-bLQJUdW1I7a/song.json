@@ -1,0 +1,67 @@
+{
+  "id": "bLQJUdW1I7a",
+  "title": "Come Jesus Come",
+  "writer": "Kevin Kwon",
+  "year": 2020,
+  "language": "English",
+  "themes": "Hope,Adoration,Cross",
+  "key": "G",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Revelation 22:20",
+  "license": "PD",
+  "licenseVersion": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseSource": "kevin-kwon",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 2020",
+      "version": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "kevin-kwon"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "kevin-kwon",
+      "version": "CC0"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Pre-Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Pre-Chorus",
+      "Chorus",
+      "Verse 2",
+      "Pre-Chorus",
+      "Chorus",
+      "Bridge"
+    ]
+  }
+}

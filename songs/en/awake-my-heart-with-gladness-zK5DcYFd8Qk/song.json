@@ -1,0 +1,64 @@
+{
+  "id": "zK5DcYFd8Qk",
+  "title": "Awake, My Heart, With Gladness",
+  "writer": "Paul Gerhardt · tr. John Kelly",
+  "writerRef": "paul-gerhardt",
+  "year": 1648,
+  "language": "English",
+  "themes": "Assurance,Cross,Funeral",
+  "key": "Eb",
+  "bpm": 140,
+  "timeSignature": "3/4",
+  "meter": "7.6.7.6.6.6.6.6",
+  "scripture": "Col 2:13-15",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1648",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "7ff63489807bbf95656f5bd97e5d07e3fc1cc8b7eafe09383d790d520fbe4123",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "extra/AllOfMyHeartAfrikaans_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeartAfrikaans_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "997d36f211c412fdd743daea409244e1b9c2a1b5b6513877c17944c4433751b6",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Granted alongside the song; kept as-is, not processed",
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=9",
+      "acquired": "2026-09-16",
+      "sha256": "3a9824bacdf09a40fb346f53aa2c1100f5dc0a0c66987c7ad5060bde528fcde9",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/AllOfMyHeartAfrikaans.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "e65b95d8612cc960e90e5d6da3c4817e1ca33fa2e532fb1ba27ee3e3e9e5df86",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": "https://songsofpraise.org/pdf/MetMyHeleHart.pdf",
+      "acquired": "2026-09-16",
+      "sha256": "c9840de55bb58eb5c5a6c3dff0944143fab116526b0dd9ceb799053bc5a34f5d",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Existing catalog copy",
+      "license": "larry-holder",
+      "layer": "arrangement",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

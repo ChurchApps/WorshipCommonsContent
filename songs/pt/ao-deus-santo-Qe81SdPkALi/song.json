@@ -1,0 +1,44 @@
+{
+  "id": "Qe81SdPkALi",
+  "title": "Ao Deus Santo",
+  "writer": "Mary A. Lathbury · tr. William E. Entzminger",
+  "writerRef": "mary-lathbury",
+  "year": 1877,
+  "language": "Portuguese",
+  "themes": "Adoration",
+  "key": null,
+  "bpm": null,
+  "timeSignature": "4/4",
+  "scripture": "Isaías 6:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1877",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1hnEmwE1b17",
+  "title": "Hallelujah! What a Savior",
+  "writer": "Philip Bliss",
+  "writerRef": "philip-bliss",
+  "year": 1875,
+  "language": "English",
+  "themes": "Grace,Adoration",
+  "key": "Bb",
+  "bpm": 69,
+  "timeSignature": "4/4",
+  "meter": "7.7.7.8",
+  "scripture": "Isaiah 53:3",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1875",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "k3nQG0DqnD8",
+  "title": "Stand Up, Stand Up for Jesus",
+  "writer": "George Duffield & George Webb",
+  "writerRef": "george-webb",
+  "year": 1858,
+  "language": "English",
+  "themes": "Mission,Trust",
+  "key": "G",
+  "bpm": 96,
+  "timeSignature": "4/4",
+  "meter": "7.6.7.6 D",
+  "scripture": "Ephesians 6:14",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1858",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

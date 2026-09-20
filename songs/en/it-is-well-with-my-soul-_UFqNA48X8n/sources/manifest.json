@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "6cb44d9f74bb0472f7da8c44d7b753b616e9b87f1ec02bb1f86bcbb89ab34607",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "ccli.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "eac4364d5a82256e458881fc2e4cbcaee3f1ddd444d6de3549543012ac7f54dc",
+      "licenseBasis": "songselect",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested CCLI song id; presence does not require reporting"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "ed2ece4091d818f05853a3425c86c2a1f880523e845b4fdf8709c021cbeebfd3",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "d28b1efda528721a37b8bb868ececb116189a973c3f06095218e468b34f0e3f1",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "364ab83d8f200d64ad3036d23ef8241309a0e54c16733b35cff3b3c80abfbf15",
+      "licenseBasis": "wc-seed",
+      "original": false,
+      "submittedBy": null,
+      "note": "Expanded remaining verses from the package's Open Hymnal ABC",
+      "layer": "text"
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": null,
+      "sha256": "6f9254bfab7667c422b3039be1ac15081accfaea469bf94d7a42f068a2e68402",
+      "licenseBasis": "mutopia",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy"
+    },
+    {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": null,
+      "sha256": "ab0e8eeb841e7b30f2b9494b8ed068cf30e22233e6975b72827f49de53e39bb7",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "dce7df1cdf31a104b4230774a3603c1fc7a1c554756f857d7310826d67be9bff",
+      "licenseBasis": "open-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "4a60fba35bdff2a770f14ea4e23562578fee14bb2896ad92c6f2850a1e90f283",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "villeduh.ly",
+      "url": "https://www.mutopiaproject.org/ftp/BlissPP/villeduh/villeduh.ly",
+      "acquired": "2026-09-08",
+      "sha256": "5804c3713f792404e2a85efc7207b5467bcee5e511739320eabed65d2f1bb0cc",
+      "licenseBasis": "mutopia",
+      "original": true,
+      "submittedBy": null,
+      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
+    }
+  ]
+}

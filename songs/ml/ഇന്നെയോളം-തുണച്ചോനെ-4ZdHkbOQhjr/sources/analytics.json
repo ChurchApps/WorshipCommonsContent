@@ -1,0 +1,38 @@
+{
+  "verses": {
+    "have": 10,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 110 vs chart 100",
+      "midi 17.86s looks like fewer verses than chart (~89s)"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Funeral"
+    ],
+    "confidence": [
+      0.76,
+      0.83,
+      0.82
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 10
+  },
+  "checkedAt": "2026-09-20"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "kQbeB0gQd7e",
+  "title": "O, Welch ein Heilig Werk",
+  "writer": "Charles Wesley · tr. Herbert von Berge",
+  "year": 1762,
+  "language": "German",
+  "scripture": "Mose 8:35",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1762",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "YqbVgJUReZy"
+  },
+  "relationLabel": "German translation · tr. Herbert von Berge"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "pbJKDVx4h1h",
+  "title": "Ride On, Ride On in Majesty",
+  "writer": "Henry Milman",
+  "writerRef": "henry-milman",
+  "year": 1827,
+  "language": "English",
+  "themes": "Easter,Adoration",
+  "key": "C",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": "8.8.8.8",
+  "scripture": "Zechariah 9:9",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1827",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+The Cyber Hymnal: permission basis for "ക്രിസ്തുവിൽ നമ്മൾ ഒന്നത്രേ"
+
+Page:     http://www.hymntime.com/tch/non/ml/i/n/c/h/r/in_Christ_there_is_no_east_or_west_ml.htm
+Archived: http://web.archive.org/web/20191031125657/http://www.hymntime.com:80/tch/non/ml/i/n/c/h/r/in_Christ_there_is_no_east_or_west_ml.htm
+
+Words credit: വില്യം ഡങ്കേർലി, 1908 (In Christ There Is No East or West). 1908 മുതൽ 1914 വരെ നടത്തപ്പെട്ട ലണ്ടൻ മിഷ്യണറി സൊസൈറ്റിയുടെ "ദി ഓറിയൻറ് ഇൻ ലണ്ടൻ" എന്ന പ്രദർശനവേദിയിലെ പേജന്റ് 'ഡാർക്ക്നസ് ആൻറ് ലൈറ്റ്' നു വേണ്ടി ഡങ്കേർലി ഈ വരികൾ രചിച്ചു. നിരവധി കീർത്തനപുസ്തകങ്ങളിൽ ഡങ്കേർലി എന്നു അപര നാമത്തിൽ അറിയപ്പെട്ടിരുന്ന ജോൺ ഓക്സൻഹാം ആണ് ഈ വരികൾ എഴുതിയതു എന്നു ചേർത്തിരിക്കുന്നു. സൈമണ്‍ സഖറിയ, 2016. public domain
+Music credit: സെന്റ് പീറ്റർ (റൈനാഗിൾ) അലക്സണ്ടർ ആർ. റൈനാഗിൾ, 1836 (🔊 pdf nwc).
+
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/ml/ml.js): "എല്ലാ പകര്‍പ്പവകാശങ്ങളും പൊതുജനത്തിനു വിട്ടുകൊടുത്തിരിക്കുന്നു." (all copyrights released to the public). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
+
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

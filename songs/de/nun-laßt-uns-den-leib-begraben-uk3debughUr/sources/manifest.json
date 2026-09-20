@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "a9d4c33ab0d47ac418e0585aa44a334b71d914a9b136e39918ea5fe03403c436",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": null,
+      "sha256": "8761477d40e17cb4c11e9ca325f9879f85c4aec7edf246be01080c0f30fb3d28",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Generated once by WorshipCommons tooling; kept, never regenerated",
+      "layer": "artwork",
+      "obtainedVia": "generated"
+    },
+    {
+      "file": "hymnary.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "fe25fc347e174605ea70c56f937dd0be3b4839ab5ba09e1c1f3fa33f23b6dbae",
+      "licenseBasis": "hymnary",
+      "original": false,
+      "submittedBy": null,
+      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": null,
+      "acquired": null,
+      "sha256": "d3703edd5179b54e1641c1e0432135c9ffeb5f83c7ee50a5ee2f1127098bd65e",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "OH ABC SATB (30 chords)",
+      "layer": "text"
+    },
+    {
+      "file": "tune.abc",
+      "url": "http://openhymnal.org/Abc/Take_Up_Thy_Cross_The_Savior_Said-Nun_Lasst_Uns_Den_Leib_Begraben.abc",
+      "acquired": "2026-09-17",
+      "sha256": "c92d9fbe728d667cc39d52234223ae8914ebb64b736b3a11e9272ee9a4f20fea",
+      "licenseBasis": "open-hymnal",
+      "original": true,
+      "submittedBy": null,
+      "note": "Open Hymnal ABC; C: public domain verified at attach",
+      "layer": "tune",
+      "obtainedVia": "harvest"
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": null,
+      "sha256": "7ce3226dfd2bfd7d50cc54e8ad3a66cf30f7e81f7db18cb6cd2d59b3c479ceaa",
+      "licenseBasis": "cyber-hymnal",
+      "original": false,
+      "submittedBy": null,
+      "note": "Existing catalog copy; original bytes not backfilled"
+    },
+    {
+      "file": "video.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "9250e6e542d553fca750155ba55e68ea857a2770d4eb4fad9061ec222fadc5b5",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "YouTube performance id; a link, not an audio asset"
+    }
+  ]
+}

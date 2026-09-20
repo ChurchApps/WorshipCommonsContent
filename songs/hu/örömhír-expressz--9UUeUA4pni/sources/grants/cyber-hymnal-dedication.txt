@@ -1,0 +1,19 @@
+The Cyber Hymnal: permission basis for "Örömhír-Expressz"
+
+Page:     http://www.hymntime.com/tch/non/hu/o/r/o/m/oromhir.htm
+Archived: http://web.archive.org/web/20190412180112/http://www.hymntime.com/tch/non/hu/o/r/o/m/oromhir.htm
+
+Words credit: Johnson Oatman, Jr., 1898 (The Gospel Train). Anna Piroska Williams, 2010 (public domain).
+Music credit: George C. Hugg (🔊 pdf nwc).
+
+"public domain" above is the page's <span class="public-domain"> marker; TCH's js/foreign.js renders it
+as the language's publicDomainPhrase (non/hu/hu.js): "szabadon felhasználható" (freely usable). It is TCH's statement
+that the marked work is free to use, posted with the translator's permission — not a signed dedication
+by the translator.
+
+The Cyber Hymnal, Copyrights page (http://www.hymntime.com/tch/misc/copyrite.htm): "Material on our site which does not have a copyright notice is, to the best of our knowledge, in the public domain." It posts only material "Which is in the public domain" or "For which we have the copyright holder's permission. Permissions are shown on the individual hymn pages."
+
+WorshipCommons rule (2026-09-17): TCH's permission is accepted for the translation only when the
+original it translates is public domain. Original: every original words/tune credit above is pre-1931, traditional, or by a writer who died before 1931.
+
+Checked 2026-09-17.

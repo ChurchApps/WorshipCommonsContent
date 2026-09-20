@@ -1,0 +1,55 @@
+{
+  "id": "_ko2nN7Bcs-",
+  "title": "നിശ്ചയമേശു എന്റെ സ്വന്തം",
+  "writer": "ഫേനി ക്രോസ്ബി",
+  "writerRef": null,
+  "year": 1873,
+  "language": "Malayalam",
+  "scripture": "എബ്രായര്‍ 10:22",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1873",
+      "source": "cyber-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "cyber-hymnal"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "parent": {
+    "id": "0YyJoAE9Ge4"
+  },
+  "relationLabel": "Malayalam translation"
+}

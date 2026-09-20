@@ -1,0 +1,36 @@
+{
+  "verses": {
+    "have": 7,
+    "abcUnderlaid": 5,
+    "abcExtra": [
+      6,
+      7
+    ],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "bpm midi 110 vs chart 88",
+      "key midi Eb vs chart D",
+      "midi 35.32s looks like fewer verses than chart (~76s)"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Church"
+    ],
+    "confidence": [
+      0.7,
+      0.7
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 7
+  },
+  "checkedAt": "2026-09-20"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "FfRhpTJHhew",
+  "title": "I Love to Tell the Story",
+  "writer": "Katherine Hankey & William Fischer",
+  "writerRef": "katherine-hankey",
+  "year": 1866,
+  "language": "English",
+  "themes": "Mission,Praise",
+  "key": "G",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 66:16",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1866",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus"
+    ]
+  }
+}

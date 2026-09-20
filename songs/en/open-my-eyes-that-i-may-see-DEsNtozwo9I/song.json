@@ -1,0 +1,40 @@
+{
+  "id": "DEsNtozwo9I",
+  "title": "Open My Eyes, That I May See",
+  "writer": "Clara Scott",
+  "writerRef": "clara-scott",
+  "year": 1895,
+  "language": "English",
+  "themes": "Confession,Trust",
+  "key": "G",
+  "bpm": 76,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 119:18",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1895",
+      "source": "wc-seed"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "hymnsite"
+    },
+    "arrangement": null,
+    "recording": null,
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1"
+    ]
+  }
+}

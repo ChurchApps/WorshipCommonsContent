@@ -1,0 +1,158 @@
+{
+  "wc-seed": {
+    "name": "WorshipCommons seed transcription",
+    "url": "https://worshipcommons.org",
+    "licenseBasis": "Public-domain hymn texts (words and music published pre-1931) transcribed into ChordPro with inline chords for the original library — generated/imported during development, not taken from a single external source.",
+    "attribution": {
+      "required": false
+    }
+  },
+  "open-hymnal": {
+    "name": "Open Hymnal Project",
+    "url": "https://openhymnal.org",
+    "licenseBasis": "Each ABC source's copyright line verified public domain at import time; only fully-PD scores taken. 2014.06 bulk zip plus live http://openhymnal.org/Abc/ files not in that zip (snapshot 2026-09-03). Dumont/Medcalf/Bird worship-only texts excluded.",
+    "attribution": {
+      "required": false,
+      "text": "Open Hymnal Project",
+      "link": "https://openhymnal.org"
+    }
+  },
+  "cyber-hymnal": {
+    "name": "The Cyber Hymnal",
+    "url": "http://www.hymntime.com/tch/",
+    "licenseBasis": "Its copyright page treats un-noticed material as public domain (to the best of its knowledge) and posts newer material only with the copyright holder's permission, shown per page by a public-domain (\"freely usable\") marker; reposting is granted with attribution. Pages with copyright notices, or post-1930 credits without the marker, were excluded at import. Newer translations rest on that permission and are accepted only when the original they translate is public domain (rule 2026-09-17; evidence per song in sources/grants/cyber-hymnal-dedication.txt). Salvaged via the Wayback Machine.",
+    "attribution": {
+      "required": true,
+      "text": "The Cyber Hymnal",
+      "link": "http://www.hymntime.com/tch/"
+    }
+  },
+  "hymnsite": {
+    "name": "HymnSite.com",
+    "url": "https://www.hymnsite.com",
+    "licenseBasis": "The site's FAQ (hymnsite.com/faq.htm) releases its umh### MIDI files with \"NO RESTRICTIONS\".",
+    "attribution": {
+      "required": false,
+      "text": "HymnSite.com",
+      "link": "https://www.hymnsite.com"
+    }
+  },
+  "hymnary": {
+    "name": "Hymnary.org",
+    "url": "https://hymnary.org",
+    "licenseBasis": "Only texts hymnary.org marks \"Copyright: Public Domain\"; also the source of the hymnal-count popularity metadata.",
+    "attribution": {
+      "required": false,
+      "text": "Hymnary.org",
+      "link": "https://hymnary.org"
+    }
+  },
+  "songselect": {
+    "name": "CCLI SongSelect (song id)",
+    "url": "https://songselect.ccli.com",
+    "licenseBasis": "Public SongSelect work identifier only — title, authors, and song number. Not lyrics, charts, or arrangements. Presence of a number does not mean churches must report a public-domain or WorshipCommons song.",
+    "attribution": {
+      "required": false,
+      "text": "CCLI SongSelect",
+      "link": "https://songselect.ccli.com"
+    }
+  },
+  "worshipcommons": {
+    "name": "WorshipCommons (generated)",
+    "url": "https://worshipcommons.org",
+    "licenseBasis": "Produced by WorshipCommons tooling — cover art, and lyric timings derived from the public-domain tune sources.",
+    "attribution": {
+      "required": false
+    }
+  },
+  "wikimedia-commons": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org",
+    "licenseBasis": "CC0 1.0 public-domain dedication MIDI settings of traditional / public-domain hymn melodies (Peter Gerloff / Rabanus Flavus).",
+    "attribution": {
+      "required": false,
+      "text": "Wikimedia Commons",
+      "link": "https://commons.wikimedia.org"
+    }
+  },
+  "cmaa": {
+    "name": "Church Music Association of America — English Hymns in the Commons",
+    "url": "https://musicasacra.com/music/english-hymns-in-the-commons/",
+    "licenseBasis": "Newly composed English hymns the CMAA publishes under CC BY 3.0 on the linked page; each song.json carries the per-file licenseVersion and licenseUrl.",
+    "attribution": {
+      "required": true,
+      "text": "Church Music Association of America",
+      "link": "https://musicasacra.com/music/english-hymns-in-the-commons/"
+    }
+  },
+  "cmpilato": {
+    "name": "C. Michael Pilato — worship-music",
+    "url": "https://github.com/cmpilato/worship-music",
+    "licenseBasis": "Repository README and each song README state CC BY 3.0 Unported or Public Domain per composition; imported per file with the README license line as the row license.",
+    "attribution": {
+      "required": true,
+      "text": "C. Michael Pilato",
+      "link": "https://github.com/cmpilato/worship-music"
+    }
+  },
+  "mutopia": {
+    "name": "Mutopia Project",
+    "url": "https://www.mutopiaproject.org",
+    "licenseBasis": "Per-file SPDX on the Mutopia hymn listing. SATB hymntunes marked CC-PDDC (public-domain dedication of the typesetting) are attached as sheet PDFs to matching public-domain catalog songs. The Foundation SATB is CC BY-SA 2.0 and is a separate catalog row.",
+    "attribution": {
+      "required": true,
+      "text": "Mutopia Project",
+      "link": "https://www.mutopiaproject.org"
+    }
+  },
+  "kevin-kwon": {
+    "name": "Kevin Kwon (Mr. Edification)",
+    "url": "https://www.khmerworship.com/artists/1145388",
+    "licenseBasis": "Writer comments on each KhmerWorship song page dedicate the composition to the public domain and point at https://copy.church/free (the CC0-style legal text). Thank You For My Wife also says on the page 'This song is for the Public Domain'. Listed at https://freely.giving/music.",
+    "attribution": {
+      "required": false,
+      "text": "Kevin Kwon",
+      "link": "https://www.khmerworship.com/artists/1145388"
+    }
+  },
+  "mark-feezell": {
+    "name": "Mark Feezell — DrFeezell.com",
+    "url": "https://drfeezell.com/",
+    "licenseBasis": "Per-work CC0 1.0 public-domain dedication on the composition page and on the score itself (Holy is the Lord 2024-04-10; Hallelujah No. 1 2024-03-16, also copy.church/free). Instrumental arrangements of already-catalogued hymns are not imported as new songs.",
+    "attribution": {
+      "required": false,
+      "text": "Mark Feezell",
+      "link": "https://drfeezell.com/"
+    }
+  },
+  "andrew-case": {
+    "name": "Andrew Case — His Magnificence",
+    "url": "https://hismagnificence.com/music/",
+    "licenseBasis": "Author confirmed 2026-09-14 that original songs at hismagnificence.com/music/ are dedicated to the public domain (CC0), superseding 2008 All Rights Reserved footers on lyric PDFs. Covers of other writers, ESV psalm sheets, and Sing Hebrew were not taken.",
+    "attribution": {
+      "required": false,
+      "text": "Andrew Case",
+      "link": "https://hismagnificence.com/music/"
+    }
+  },
+  "larry-holder": {
+    "name": "Larry Holder Music",
+    "url": "https://larryholdermusic.org/",
+    "licenseBasis": "Copyright retained. The site's permissions page (larryholdermusic.org/copyright.html) grants non-profit copy, worship use, internal arrangements, and non-profit recordings, with original credits kept. Translation and lyric/melody changes are not granted. CCLI reporting is optional. Elton Smith co-writes are included under the same grant; other co-writers and novelty tracks were not taken.",
+    "attribution": {
+      "required": true,
+      "text": "Larry Holder",
+      "link": "https://larryholdermusic.org/"
+    }
+  },
+  "songs-of-praise": {
+    "name": "Songs of Praise (Elton Smith)",
+    "url": "https://songsofpraise.org/",
+    "licenseBasis": "Translations of Larry Holder / Elton Smith songs hosted by Elton Smith. On 2026-09-16 Elton confirmed they are available under Larry Holder Music's non-profit permissions (larryholdermusic.org/copyright.html), translator credit kept. Only translations of songs already in the library under larry-holder are taken.",
+    "attribution": {
+      "required": true,
+      "text": "Larry Holder / Elton Smith, Songs of Praise",
+      "link": "https://songsofpraise.org/"
+    }
+  }
+}

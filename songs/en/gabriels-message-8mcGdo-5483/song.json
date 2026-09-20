@@ -1,0 +1,68 @@
+{
+  "id": "8mcGdo-5483",
+  "title": "Gabriel's Message",
+  "writer": "Basque · tr. Sabine Baring Gould",
+  "writerRef": "sabine-baring-gould",
+  "year": 1834,
+  "language": "English",
+  "themes": "Christmas,Advent,Holy Spirit",
+  "key": "C",
+  "bpm": 200,
+  "timeSignature": "3/4",
+  "meter": "10.10.12.10",
+  "scripture": "Lk 1:26-38",
+  "license": "PD",
+  "rights": {
+    "text": {
+      "license": "PD",
+      "basis": "published 1834",
+      "source": "open-hymnal"
+    },
+    "tune": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "arrangement": {
+      "license": "PD",
+      "basis": "open-hymnal"
+    },
+    "recording": null,
+    "artwork": {
+      "license": "PD",
+      "basis": "worshipcommons",
+      "note": "Generated cover kept as the package's approved image; not regenerated"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Chorus"
+    ]
+  }
+}
