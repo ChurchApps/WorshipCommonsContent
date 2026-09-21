@@ -107,8 +107,11 @@ export function generateSong(dir, { sources }) {
 }
 
 // output/composition.zip: the print/notation set as one download (root-level entries, no folder).
-// Rebuilt only when an input is newer than the zip; python's zipfile CLI keeps this dependency-free.
+// Rebuilt only when an input is newer than the zip. tools/generate/zip.py fixes entry timestamps so
+// the archive is byte-identical wherever and whenever it is rebuilt — the bucket copy must match a
+// fresh clone's build.
 const ZIP_SKIP = new Set(["slides.json", "duration.json", "cover-thumb.webp"]);
+const ZIP_PY = path.join(path.dirname(fileURLToPath(import.meta.url)), "generate", "zip.py");
 function writeCompositionZip(dir) {
   const comp = path.join(dir, "output", "composition");
   const files = [
@@ -119,7 +122,7 @@ function writeCompositionZip(dir) {
   const newest = Math.max(...files.map(f => fs.statSync(f).mtimeMs));
   if (fs.existsSync(zip) && fs.statSync(zip).mtimeMs >= newest) return "unchanged";
   if (!pythonAvailable()) return "skipped";
-  const r = spawnSync(process.env.PYTHON || "python", ["-m", "zipfile", "-c", zip, ...files], { encoding: "utf8" });
+  const r = spawnSync(process.env.PYTHON || "python", [ZIP_PY, zip, ...files], { encoding: "utf8" });
   return r.status === 0 ? "written" : "failed";
 }
 

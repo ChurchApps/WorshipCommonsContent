@@ -2326,9 +2326,8 @@ class MusicXml:
         if s.supports_tag:  # avoids interference of auto-flowing and explicit linebreaks
             suports = E.Element ('supports', attribute="new-system", element="print", type="yes", value="yes")
             addElem (encoding, suports, lev + 3)
-        encodingDate = E.Element ('encoding-date')
-        encodingDate.text = str (datetime.date.today ())
-        addElem (encoding, encodingDate, lev + 3)
+        # WorshipCommons: no encoding-date. The score is an output that must rebuild
+        # byte-for-byte on any machine on any day; a date makes every rebuild differ.
         s.addMeta (ident, lev + 2)
 
     def mkDefaults (s, score, lev):
