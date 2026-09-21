@@ -179,15 +179,17 @@ gitignored. Delete the folder and you lose nothing.
 |---|---|
 | `composition/score.musicxml` | `sources/tune.abc`, via the vendored abc2xml. A score in `sources/` wins and this one is removed |
 | `composition/chart.chordpro` | Copy of the lyrics, until a score-driven chart generator exists |
-| `composition/score.mid` | The score played out, via music21. Ours — `sources/tune.mid` is someone else's file |
-| `composition/chart.pdf`, `stage.pdf` | Printed chart and stage chart, **original key only** — other keys are transposed on demand |
+| `composition/score.mid` | A copy of `sources/tune.mid` when the package has one. Otherwise music21 plays the score. A stem-sketch MIDI is left alone when the package has neither `tune.mid` nor `tune.abc` |
+| `composition/chart.pdf` | Chord chart in the original key, when the text encodes as WinAnsi. Other keys are transposed on demand. Non-Latin text is skipped |
 | `composition/slides.json` | Projection slides from the lyric sections |
-| `composition/duration.json` | Sing time, from `sources/timing.json` or estimated |
+| `composition/duration.json` | Sing time. A leftover `output/composition/timing.json` wins; otherwise the master via ffprobe; otherwise lines × beats at the song's bpm. `sources/timing.json` is not read |
 | `composition/attribution.txt` | Pasteable credit line |
 | `composition/sources.txt` | Human-readable provenance |
 | `composition/LICENSE.txt` | What was granted, by whom, what a church may do. Travels inside every bundle |
-| `composition/cover-thumb.webp` | Thumbnail of `sources/cover.webp` |
-| `audio/<pack>.zip` + `-fullmix.m4a` + `-preview.m4a` | Multitracks bundle from the granted master — see [tools/pack/README.md](tools/pack/README.md) |
+| `composition/cover-thumb.webp` | Thumbnail of this package's `sources/cover.webp`. No cover in this folder means no thumbnail |
+| `audio/<pack>.zip`, `-fullmix.m4a`, `-preview.m4a`, `instrumental.m4a`, and `audio.zip` | From a granted master, after `generate.mjs` has written `LICENSE.txt`. `instrumental.m4a` appears when a vocal stem was separated. See [tools/pack/README.md](tools/pack/README.md) |
+
+`stage.pdf`, engraved part PDFs, and `piano.mp3` / `organ.mp3` / `click.mp3` are `node tools/generate-kit.mjs`, not this rebuild. See Tools.
 
 **One owner per kind of fact.** The words are either `sources/lyrics.chordpro` or
 `output/composition/lyrics.chordpro`, never both — `validate` errors if two files claim the same
@@ -251,11 +253,17 @@ and `timing.json`. Anything it leaves out it inherits from the parent:
 | Inherited unless the translation has its own | Never inherited |
 |---|---|
 | `key`, `bpm`, `timeSignature`, `meter`, `tune`, `themes`, `writerRef` (`INHERITED_FIELDS` in `tools/lib.mjs`) | the words, `timing.json`, translator credit, rights, status |
-| `sources/tune.abc`, `sources/tune.mid`, `sources/cover.webp` | `score.musicxml` — rebuilt per package from the inherited `tune.abc` so each language's sheet carries its own words |
-| `sources/master/` and everything `pack/build.py` built from it (`output/audio/`, `audio.zip`) | `composition.zip` |
+| `sources/tune.abc`, `sources/tune.mid`, `sources/cover.webp` | `output/composition.zip` |
+| `sources/master/` and everything `pack/build.py` built from it (`output/audio/`, `audio.zip`) | — |
 
-The recording is processed **once, at the parent**; a translation's catalog row simply points at
-the parent's stems pack, preview and full mix. The vocal on that recording is in the parent's
+The generators open only the package they were given. A translation's rebuild writes its chart,
+slides, and license from its own words. It does not open the parent's `tune.abc`, `tune.mid`, or
+`cover.webp`, so it does not write a `score.musicxml`, a cover thumbnail, or a piano/organ render
+for those files. `build-catalog.mjs` points `abcUrl`, `midiUrl`, and `artUrl` at the parent and
+counts the parent's tune as this song's score.
+
+The recording is processed **once, at the parent**. The catalog row points at the parent's stems
+pack, preview, full mix, and instrumental bed. The vocal on that recording is in the parent's
 language, and the site says so. A translation that cannot use a parent asset (different verse
 order, say) opts out with `"noInherit": ["output/audio"]`; a translation with its own
 `sources/master/` gets its own pack and stops inheriting the parent's.
@@ -271,18 +279,17 @@ copy so it inherits.
 
 ## Tools
 
-Plain Node ≥ 18, no `npm install`. Python 3 on PATH is needed for ABC → MusicXML (`generate.mjs` warns and skips that step otherwise). The converter is vendored at `tools/vendor/abc2xml.py`.
+Run from the repo root. Run `validate` before every commit. There is no `requirements.txt`.
 
-Run from the repo root. Run `validate` before every commit.
-
-| Command | What it does |
-|---|---|
-| `node tools/validate.mjs` | Schema and consistency checks. Exit 1 on errors |
-| `node tools/generate.mjs [folder]` | Rebuild `output/composition/` for one package or the whole library |
-| `node tools/generate-scores.mjs [folder]` | Score step only: `output/composition/score.musicxml` from `sources/tune.abc` |
-| `node tools/build-catalog.mjs` | Regenerate `catalog.json` from the folders |
-| `node tools/find-duplicates.mjs` | Report the same hymn under variant titles (`--apply` links them) |
-| `python tools/pack/build.py [folder]` | Multitracks bundle for every package with a granted master recording. Idempotent; see [tools/pack/README.md](tools/pack/README.md) |
+| Command | What it does | Installed software |
+|---|---|---|
+| `node tools/validate.mjs` | Schema and consistency checks. Exit 1 on errors | Node.js 18 or newer. No `npm install` in this repo |
+| `node tools/generate.mjs [folder]` | Rebuild `output/composition/` for one package, a language folder, a slug, or the whole library | Node.js 18+. Python 3 on PATH (`python`, or `PYTHON=`) for ABC → MusicXML; the step is skipped with a warning when Python is missing. The converter is vendored at `tools/vendor/abc2xml.py`. `pip install music21` to write `score.mid` when the package has no `sources/tune.mid`. `ffprobe` on PATH to take a length from `sources/master/` |
+| `node tools/generate-scores.mjs [folder]` | Score step only: `output/composition/score.musicxml` from this package's `sources/tune.abc` | Same Python and vendored abc2xml as `generate.mjs` |
+| `node tools/build-catalog.mjs` | Regenerate `catalog.json` from the folders. Follows a translation's `parent` link | Node.js 18+ |
+| `node tools/find-duplicates.mjs` | Report the same hymn under variant titles (`--apply` links them) | Node.js 18+ |
+| `python tools/pack/build.py [folder]` | Multitracks for every package with one granted file in `sources/master/`. Run `generate.mjs` first; the pack stops without `output/composition/LICENSE.txt`. Idempotent | Python 3.13, ffmpeg and ffprobe, CUDA PyTorch, `audio-separator`, `music21`, `pillow`, `soundfile`, `scipy`, `numpy`. Transcription also needs `librosa`, `pretty_midi`, `basic-pitch`, `mir_eval`, and an ONNX runtime. Section callouts use Windows SAPI. `lead-sheet.pdf` is written when MuseScore 3 or 4 is on PATH (`MuseScore4`, `mscore`, or `C:\Program Files\MuseScore 4\bin\MuseScore4.exe`). Full list and the fresh-machine caveat: [tools/pack/README.md](tools/pack/README.md#requirements) and [tools/pack/MIDI.md](tools/pack/MIDI.md#environment-and-normal-rebuild) |
+| `node tools/generate-kit.mjs [slug]` | Optional. `stage.pdf`, engraved `satb.pdf` / part PDFs / `lead.pdf`, and `piano.mp3` / `organ.mp3` / `click.mp3`, plus a 12-key pad set in `assets/pads/`. Runs `generate.mjs` first, then may rewrite `sources/lyrics.chordpro` with chord backfill. Reads only this package's `tune.abc` and `tune.mid` | Node.js 18+. A sibling `WorshipCommons` checkout with its dependencies installed (`abcjs` and Playwright for engraving, `public/soundfonts` for piano and organ). ffmpeg for the mp3s. Flags: `--skip-audio`, `--skip-engrave`, `--skip-chords`, `--skip-lead-abc`, `--skip-pads`, `--skip-base` |
 
 One-shot migrations (safe to re-run; they no-op when already done):
 

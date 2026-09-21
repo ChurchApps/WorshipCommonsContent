@@ -60,8 +60,8 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     licenseUrl: song.licenseUrl ?? null,
     ccli: song.ccli ?? harvested.ccli ?? null,
     attribution: song.attribution?.text ?? null,
-    // Confidence is computed, never stored. A score inherited from the parent counts:
-    // the tune is scored even if this translation's own words are not yet underlaid.
+    // Confidence is computed, never stored. A parent's tune.abc or score.musicxml
+    // counts for the translation. The translation's words stay in its own chart.
     // ABC is typeset SATB (Open Hymnal) — same tier as an uploaded MusicXML master.
     // Key off sources/tune.abc, not gitignored output/composition/score.musicxml.
     // MIDI transcription is the sketch that still needs a check.

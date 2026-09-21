@@ -40,4 +40,4 @@ and do not run unmodified. Reworked importers (`import-openhymnal.mjs`, `import-
 | `trim-midi-tails.py` | MIDI cleanup |
 | `sync-cover-art.ts` | Matched loose cover-art files to songs by title (obsolete: drop `cover.webp` into `masters/`) |
 
-Python tools need `mido`, `music21`, and abc2xml (not vendored — see each file's header).
+Python tools that read MIDI need `mido` and `music21`. ABC conversion uses the vendored `tools/vendor/abc2xml.py`.

@@ -232,8 +232,9 @@ export const isoDate = () => new Date().toISOString().slice(0, 10);
 // parent's built audio (output/audio/) since the recording is the parent's. Families are
 // flat: a parent is never itself a translation. `noInherit: ["output/audio", ...]` on the
 // translation suppresses a parent asset it cannot use (different verse order, say).
-// The words are never shared, and the score is rebuilt per package from the inherited
-// tune.abc so each language's sheet music carries its own words.
+// The words and timing.json are never shared. The generators do not follow the parent
+// link: a translation's score, thumbnail, and rehearsal audio come only from files in
+// that package. The catalog points abc, midi, cover, and the recording at the parent.
 export const INHERITED_FIELDS = ["writerRef", "themes", "key", "bpm", "timeSignature", "meter", "tune"];
 export const SHARED_RELS = ["sources/tune.mid", "sources/tune.abc", "sources/cover.webp"];
 

@@ -1,6 +1,6 @@
 # Everything under output/ is rebuilt from song.json + sources/ by
 #   node tools/generate.mjs [folder]      output/composition/
-#   python tools/pack/build.py [folder]   output/stems/
+#   python tools/pack/build.py [folder]   output/audio/
 # Nothing in here is tracked: if a file cannot be rebuilt, it is a source.
 **/output/
 tools/.cache/

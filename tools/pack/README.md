@@ -15,8 +15,8 @@ transcribed to MIDI and MusicXML (`stems_to_score.py`): every stem with energy (
 guitar, bass, other) with velocities, plus a simple drum track. MIDI retains detected
 performance timing and the recording's intro. Words from `sources/lyrics.chordpro` are underlaid on the melody.
 That generated score is a sketch (same class as a MIDI import). It lives in
-`output/composition/` (`score.mid`, `score.musicxml`, `lead-sheet.pdf` when MuseScore or
-Verovio is present). A person promoting it copies the MusicXML to `sources/score.musicxml`.
+`output/composition/` (`score.mid`, `score.musicxml`, and `lead-sheet.pdf` when MuseScore
+3 or 4 is on PATH). A person promoting it copies the MusicXML to `sources/score.musicxml`.
 `sources/tune.mid` is never rewritten.
 
 ```powershell
@@ -106,8 +106,10 @@ Python 3.13, `ffmpeg`/`ffprobe` on PATH, CUDA PyTorch, `audio-separator`, `music
 MelBand vocals (~913 MB) and BS-Roformer SW (~700 MB) into
 `%USERPROFILE%\.cache\audio-separator-models`. Speech for the callouts is Windows SAPI.
 
-`output/audio/` holds exactly three files: the pack `.zip`, `-fullmix.m4a` and
-`-preview.m4a`. The extracted pack folder is an intermediate and never lands in the
+`output/audio/` holds the pack `.zip`, `-fullmix.m4a`, `-preview.m4a`, and
+`instrumental.m4a` when a vocal stem was separated. `output/audio.zip` sits beside that
+folder: master, full mix, instrumental, `sources/extra/*`, license, and attribution.
+The extracted pack folder is an intermediate and never lands in the
 package. `output/` is gitignored — bundles ship to the content bucket, not to git.
 
 Scratch lives in `tools/.cache/pack/<package>/`, outside the package. After a successful
