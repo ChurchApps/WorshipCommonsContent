@@ -1,0 +1,94 @@
+{
+  "id": "5clFeniLcRf",
+  "title": "He Brings The Sunshine",
+  "writer": "Elton Smith / Larry Holder / Steve Israel",
+  "year": 1998,
+  "language": "English",
+  "themes": "Praise, Salvation",
+  "key": "C#m",
+  "bpm": 142,
+  "timeSignature": "4/4",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2445218",
+  "attribution": {
+    "required": true,
+    "text": "Elton Smith / Larry Holder / Steve Israel",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "published on songsofpraise.org; Steve Israel co-write included by permission with All Of My Heart",
+      "source": "larry-holder",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "tune": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "basis": "Recording by Steve Israel. The 2026 broadcast recording is in extra and is not the master.",
+      "source": "larry-holder"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus One",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus Two",
+        "lyric": 7
+      },
+      {
+        "label": "Ending",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus One",
+      "Verse 2",
+      "Chorus",
+      "Bridge",
+      "Verse 3",
+      "Chorus Two",
+      "Ending"
+    ]
+  },
+  "uploads": {
+    "demoAudio": "song.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
