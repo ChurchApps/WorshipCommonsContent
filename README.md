@@ -21,7 +21,7 @@ sources even though we produced some of them: nothing in here regenerates them.
 **If a chart is wrong, fix the source (or the generator). Never patch the output.** `output/` is
 gitignored in full, with no exceptions — that is only safe because nothing unrebuildable lives there.
 
-`catalog.json` is the index of the library. It is generated from the folders and must match a fresh build.
+`catalog.json` is the index of the library. It is generated from the folders and must match a fresh build — build it after `output/` exists (`generate.mjs`, and `pack/build.py` for the packages with a master), or the zip and audio columns come out null.
 
 ---
 
@@ -288,7 +288,7 @@ Run from the repo root. Run `validate` before every commit. There is no `require
 | `node tools/generate-scores.mjs [folder]` | Score step only: `output/composition/score.musicxml` from this package's `sources/tune.abc` | Same Python and vendored abc2xml as `generate.mjs` |
 | `node tools/build-catalog.mjs` | Regenerate `catalog.json` from the folders. Follows a translation's `parent` link | Node.js 18+ |
 | `node tools/find-duplicates.mjs` | Report the same hymn under variant titles (`--apply` links them) | Node.js 18+ |
-| `python tools/pack/build.py [folder]` | Multitracks for every package with one granted file in `sources/master/`. Run `generate.mjs` first; the pack stops without `output/composition/LICENSE.txt`. Idempotent | Python 3.13, ffmpeg and ffprobe, CUDA PyTorch, `audio-separator`, `music21`, `pillow`, `soundfile`, `scipy`, `numpy`. Transcription also needs `librosa`, `pretty_midi`, `basic-pitch`, `mir_eval`, and an ONNX runtime. Section callouts use Windows SAPI. `lead-sheet.pdf` is written when MuseScore 3 or 4 is on PATH (`MuseScore4`, `mscore`, or `C:\Program Files\MuseScore 4\bin\MuseScore4.exe`). Full list and the fresh-machine caveat: [tools/pack/README.md](tools/pack/README.md#requirements) and [tools/pack/MIDI.md](tools/pack/MIDI.md#environment-and-normal-rebuild) |
+| `python tools/pack/build.py [folder]` | Multitracks for every package with one granted file in `sources/master/`. Run `generate.mjs` first; the pack stops without `output/composition/LICENSE.txt`. Ends by re-running `generate.mjs` on the package so `composition.zip` picks up the sketch score. Idempotent | Python 3.13, ffmpeg and ffprobe, CUDA PyTorch, `audio-separator`, `music21`, `pillow`, `soundfile`, `scipy`, `numpy`. Transcription also needs `librosa`, `pretty_midi`, `basic-pitch`, `mir_eval`, and an ONNX runtime. Section callouts use Windows SAPI. `lead-sheet.pdf` is written when MuseScore 3 or 4 is on PATH (`MuseScore4`, `mscore`, or `C:\Program Files\MuseScore 4\bin\MuseScore4.exe`). Full list and the fresh-machine caveat: [tools/pack/README.md](tools/pack/README.md#requirements) and [tools/pack/MIDI.md](tools/pack/MIDI.md#environment-and-normal-rebuild) |
 | `node tools/generate-kit.mjs [slug]` | Optional. `stage.pdf`, engraved `satb.pdf` / part PDFs / `lead.pdf`, and `piano.mp3` / `organ.mp3` / `click.mp3`, plus a 12-key pad set in `assets/pads/`. Runs `generate.mjs` first, then may rewrite `sources/lyrics.chordpro` with chord backfill. Reads only this package's `tune.abc` and `tune.mid` | Node.js 18+. A sibling `WorshipCommons` checkout with its dependencies installed (`abcjs` and Playwright for engraving, `public/soundfonts` for piano and organ). ffmpeg for the mp3s. Flags: `--skip-audio`, `--skip-engrave`, `--skip-chords`, `--skip-lead-abc`, `--skip-pads`, `--skip-base` |
 
 One-shot migrations (safe to re-run; they no-op when already done):

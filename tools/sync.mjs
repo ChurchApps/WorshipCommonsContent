@@ -6,7 +6,7 @@
 //   node tools/sync.mjs push [--delete] [--dry]   checkout → bucket (after generate + build-catalog + validate)
 //
 // After a pull:  node tools/build-catalog.mjs && node tools/validate.mjs, then commit.
-// After a push:  the API reseeds from <bucket>/catalog.json (the index).
+// After a push:  run `yarn commons-up` in the Api against the checkout (the bucket copy of catalog.json is a mirror, nothing reads it).
 // --delete removes files on the receiving side that the sending side no longer has;
 // it is off by default and should stay off for push unless you mean it.
 // Needs the AWS CLI on PATH with credentials. Bucket: WC_CONTENT_BUCKET (default below).
@@ -44,4 +44,4 @@ for (const f of FILES) {
 }
 console.log(mode === "pull"
   ? "pulled. next: node tools/build-catalog.mjs && node tools/validate.mjs, then commit"
-  : "pushed. the API reseeds from catalog.json in the bucket");
+  : "pushed. next: yarn commons-up in the Api (COMMONS_CONTENT_REPO=this checkout)");

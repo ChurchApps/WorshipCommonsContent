@@ -384,6 +384,8 @@ def main() -> int:
             print(f"  {write_audio_zip(pkg, master)}", flush=True)
             # chords: the writer's chart when the harvest found one, else derived from the sketch MIDI
             run([sys.executable, str(HERE / "derive_chords.py"), str(pkg), "--write"], dict(os.environ))
+            # the sketch score and any derived chords belong in composition.zip: rebuild it
+            run(["node", str(ROOT / "tools" / "generate.mjs"), str(pkg)], dict(os.environ))
             built += 1
         except Exception as e:
             print(f"ERROR {label}: {type(e).__name__}: {e}", flush=True)
