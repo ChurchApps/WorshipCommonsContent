@@ -162,6 +162,7 @@ def import_translation(parent_dir: Path, parent: dict, url: str, lang_label: str
         "license": "larry-holder",
         "licenseVersion": "permissions",
         "licenseUrl": lh.LICENSE_URL,
+        **({"copyright": "\n".join(lh.copyright_lines(html))} if lh.copyright_lines(html) else {}),
         "attribution": {"required": True, "text": writer, "link": "https://larryholdermusic.org/copyright.html"},
         "rights": {
             "text": {"license": "larry-holder", "basis": f"translation published on songsofpraise.org{f'; tr. {translator}' if translator else ''}", "source": SOURCE, "url": lh.LICENSE_URL},

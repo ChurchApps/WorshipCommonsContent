@@ -222,6 +222,18 @@ def copyright_year(text: str) -> int | None:
     return max(years) if years else None
 
 
+def copyright_lines(html: str) -> list[str]:
+    """The page's own copyright notice, verbatim, one line per notice (a translation adds its own).
+    Goes into song.json `copyright`; never composed from writer + year."""
+    text = htmlmod.unescape(re.sub(r"<[^>]+>", "\n", re.sub(r"(?is)<(script|style)\b.*?</\1>", "", html)))
+    lines = [re.sub(r"\s+", " ", ln).strip() for ln in text.splitlines()]
+    end = next((i for i, ln in enumerate(lines) if re.match(r"Website Copyright|Copyright\s*©\s*\d{4}-\d{4}", ln, re.I)), len(lines))
+    out = [ln for ln in lines[:end] if re.match(r"(Translation )?Copyright\s*©", ln)]
+    if not any(ln.startswith("Translation Copyright") for ln in out):
+        out += [ln for ln in lines[:end] if ln.startswith("Translation by")]
+    return [part for ln in out for part in re.split(r"\s+(?=Additional translation by)", ln)]
+
+
 def file_links(html: str, page_url: str) -> dict[str, str]:
     p = LinkCollector()
     p.feed(html)
@@ -883,6 +895,7 @@ def write_song(url: str, html: str, text: str, files: dict, title: str, year: in
         "licenseVersion": "permissions",
         "licenseUrl": LICENSE_URL,
         "ccli": parse_ccli(html, text),
+        **({"copyright": "\n".join(copyright_lines(html))} if copyright_lines(html) else {}),
         "attribution": {
             "required": True,
             "text": writer,

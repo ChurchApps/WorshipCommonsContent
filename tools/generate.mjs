@@ -19,7 +19,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import {
   songDirs, readJson, readSong, idFromFolder, lyricsPath, splitChordpro,
-  renderSourcesTxt, renderLicenseTxt, ensurePkgDirs, licenseNotice, parseChordproStanzas, stripChords
+  renderSourcesTxt, renderLicenseTxt, ensurePkgDirs, licenseNotice, attributionText, parseChordproStanzas, stripChords
 } from "./lib.mjs";
 import { chartPdf } from "./generate/pdf.mjs";
 import { writeThumb } from "./generate/thumb.mjs";
@@ -83,7 +83,7 @@ export function generateSong(dir, { sources }) {
   wrote.midi = midiFor(dir);
   wrote.sources = writeIfChanged(out("sources.txt"), renderSourcesTxt(dir, song, sources));
   wrote.license = writeIfChanged(out("LICENSE.txt"), renderLicenseTxt(dir, song, sources));
-  wrote.attribution = writeIfChanged(out("attribution.txt"), `${song.title}\n${song.writer ?? ""}${song.year ? `, ${song.year}` : ""}\n${notice}\n`);
+  wrote.attribution = writeIfChanged(out("attribution.txt"), attributionText(song));
   wrote.slides = writeIfChanged(out("slides.json"), JSON.stringify(slidesOf(stanzas), null, 2) + "\n");
   wrote.duration = writeIfChanged(out("duration.json"), JSON.stringify(durationOf(song, stanzas, timing, dir), null, 2) + "\n");
   wrote.chart = writeIfChanged(out("chart.chordpro"), fs.readFileSync(lyricsPath(dir)));

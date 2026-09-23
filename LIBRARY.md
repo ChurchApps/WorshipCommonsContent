@@ -171,6 +171,7 @@ file at the package root, because it is the only thing that is neither given to 
 - `rights` — text, tune, arrangement, recording and artwork each have their own license row. A hymn is not one blob. `"Amazing Grace"` words + tune can be public domain while a 2008 reharmonization is not.
 - `form` — verse/chorus map and default singing order. Drafted by tools (`status: "draft"`) until a reviewer sets `"approved"`.
 - `parent` — `{ "id": "<song id>" }` on a translation: the song it inherits from (see Translations).
+- `copyright` — the copyright notice exactly as the writer publishes it, one line per notice (a translation adds its own line), e.g. `"Copyright © 1997 by Elton Smith and Larry Holder"`. Copy it from the writer's page or sheet; never compose it. Without it, the notice is `© <year> <writer>`.
 
 ### `output/` — the machine wrote this
 
@@ -185,7 +186,7 @@ gitignored. Delete the folder and you lose nothing.
 | `composition/chart.pdf` | Chord chart in the original key, when the text encodes as WinAnsi. Other keys are transposed on demand. Non-Latin text is skipped |
 | `composition/slides.json` | Projection slides from the lyric sections |
 | `composition/duration.json` | Sing time. A leftover `output/composition/timing.json` wins; otherwise the master via ffprobe; otherwise lines × beats at the song's bpm. `sources/timing.json` is not read |
-| `composition/attribution.txt` | Pasteable credit line |
+| `composition/attribution.txt` | What a church prints under the lyrics: the title, then the copyright (`song.json` `copyright`, else `© year writer`; PD songs get `writer, year`), then any credit or source the license asks for that the copyright does not already say, then the license terms (`licenses/licenses.json` `notice`). The song page shows every line after the title under the last verse |
 | `composition/sources.txt` | Human-readable provenance |
 | `composition/LICENSE.txt` | What was granted, by whom, what a church may do. Travels inside every bundle |
 | `composition/cover-thumb.webp` | Thumbnail of this package's `sources/cover.webp`. No cover in this folder means no thumbnail |
