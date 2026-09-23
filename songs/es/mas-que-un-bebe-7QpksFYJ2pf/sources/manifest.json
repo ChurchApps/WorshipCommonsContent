@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "3e8391f9fa8f024cb8e3c20405e07745238f08e7e0aa8292ba1e3aef4d13b824",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "extra/MasQueUnBebe2026_acc.mp3",
+      "url": "https://songsofpraise.org/mp3/MasQueUnBebe2026_acc.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "85205ebdfb922133161c95853dd67aa99de706d3969144e487aac1ccb77a72bb",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "Granted alongside the song; kept as-is, not processed",
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-16",
+      "sha256": "19236ca216794c0429babfe5a4ac67bdbe0af79d89a44c2a7ed33406cdb9e420",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://songsofpraise.org/song.php?songid=351",
+      "acquired": "2026-09-16",
+      "sha256": "20f92a3b2d3c25dfbe65addb6eef5170bdaaf5068e04ec2c43f03aaf8ccc8378",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "master/song.mp3",
+      "url": "https://songsofpraise.org/mp3/MasQueUnBebe2026.mp3",
+      "acquired": "2026-09-16",
+      "sha256": "85a9e5ef9c058e20a428a319233ac9b070da9ed89796a8b4cf02edd57d1feb27",
+      "licenseBasis": "songs-of-praise",
+      "original": true,
+      "submittedBy": "Elton Smith",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "recording",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

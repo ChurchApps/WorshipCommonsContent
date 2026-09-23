@@ -1,0 +1,32 @@
+{
+  "verses": {
+    "have": 4,
+    "abcUnderlaid": 0,
+    "abcExtra": [],
+    "firstVerseMatchesAbc": true,
+    "missing": false,
+    "hint": null
+  },
+  "midi": {
+    "drift": [
+      "time midi 3/4 vs chart 4/4"
+    ],
+    "fill": {}
+  },
+  "labels": {
+    "proposed": [
+      "Wedding"
+    ],
+    "confidence": [
+      0.93,
+      0.93,
+      0.95
+    ]
+  },
+  "chordpro": {
+    "ok": true,
+    "issues": [],
+    "stanzas": 4
+  },
+  "checkedAt": "2026-09-20"
+}

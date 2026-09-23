@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "a7c02a4cac4d536fce80dfd1487951102fe704833c477de8d9d11bc3f09429b3",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "04816957cad311a57ae2b4f92def7393bf1702a80b06e2fdda7d09af1f8cbff8",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://larryholdermusic.org/faithalone.html",
+      "acquired": "2026-09-14",
+      "sha256": "2112d9cfa9b4407551a0fe8cea529e2f48797009614d3c4f8287d9d647a5d781",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://larryholdermusic.org/midi/faithalone.mid",
+      "acquired": "2026-09-14",
+      "sha256": "06666f1ea87147ef274a8d6982b7e4cb63c7a56758c643e6e5ab102c660e89ee",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "Existing catalog copy; original bytes not backfilled",
+      "license": "larry-holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

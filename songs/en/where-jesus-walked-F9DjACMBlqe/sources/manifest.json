@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "c369eeec5472c692a5d083270a80da0e922a9c174575334e941cda9525b94fba",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "ecb4f34a5cfdbc9abea363ecb65b44cc67b07ef0df41638d4682146241234c16",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://larryholdermusic.org/walked.html",
+      "acquired": "2026-09-14",
+      "sha256": "ec6abcd6e4264b01db53243767056f79dc8283ca7fcc1939be3150daf5ba815c",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://larryholdermusic.org/midi/walked.mid",
+      "acquired": "2026-09-14",
+      "sha256": "0583b30e4d7c8d785ed218ed7e2c96dd2a96054dc06d443a700a8b1f4c99bdff",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "Existing catalog copy; original bytes not backfilled",
+      "license": "larry-holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

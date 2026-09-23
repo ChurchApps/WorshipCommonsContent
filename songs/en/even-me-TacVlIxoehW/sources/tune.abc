@@ -1,0 +1,53 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writer's own lead sheet,
+% sources/sheetPdf.pdf (larryholdermusic.org/scores/evenme_with_piano.pdf), bar for
+% bar, in the PDF's key (A) and metre (6/8). Bar numbers match the PDF. The piano left
+% hand and the inner voices are not transcribed.
+% Form as printed: the repeat runs from bar 22 to the first ending (bars 58-59); the
+% writer's MIDI plays verse 1, refrain, verse 2, refrain, then takes the second ending
+% (bar 60) in place of bar 37 on the second refrain.
+% Checked against the melody track of sources/tune.mid (tools/check-abc-midi.py).
+% Where the two differ the PDF wins: the MIDI sings "by" / "til" (bars 14, 52), one note of
+% "sure that God's" (bar 30) on E and "and" (bar 24) on B, where the PDF has F#; it drops
+% the C# of "in-side" (bar 28) and the F# of "love" (bar 31), and splits "heav'n" and
+% "giv'n" (bars 45, 49) into two notes. The MIDI is in A, like the PDF.
+X:1
+T:Even Me
+C:Words and Music by Larry Holder
+Z:Transcribed from the writer's lead sheet (2000, 2011)
+M:6/8
+L:1/8
+K:A
+%%MIDI program 0
+"A"z6 | "D"z6 | "A"z6 | "D"z3 z A,B, ||
+w: Tho' I
+"A"C/C/- C C C3- | C C C/C/- C D E | "C#m"C3- C3 | z3 z B,C |
+w: can-not_ ex-plain _ all the full-_ ness of God, _ How he
+"D"D D D D3- | D2 A, A,/B,/- B, C | "A"C3- C3 | z3 z D E |
+w: sent His own Son _ to suf-fer_ and die, _ Tho' for
+"D"F F F F E F/G/- | "E"G G G G F E | "C#7"^E E E E F G | "F#m"F3 z F G |
+w: man there's no way to the king-_ dom of God by his own help-less pow-er or deed, Still I
+"D"A A A A A A | "A"A E C/E/- E3 | "Bm"z D D/D/- D C D | "Esus4"B,3- B,3 | "E"z3 z C E/F/- |
+w: know it is true, He can reach e-ven you, _ for He reached _ e-ven me. _ E-ven me,
+|: "D"F3- "D/C#"F3 | "Bm"z3 "Bm/A"F/E/- E D | "E/G#"F2 E "E"E2 F | "A"C3 z B,C/D/- |
+w: _ _ with all _ my bro-ken-ness and pride. E-ven me,
+"D"D3- "D/C#"D3 | "Bm"z D D "Bm/A"D2 D | "E/G#"F2 E "E"E2 C/B,/ | "A"C2 z C D E |
+w: _ _ tho' my soul was torn a-part in-_ side. Yes, I am
+"D"F3- F F F | "E"G G/G/- G G/F/- F E | "C#7"^E E E E F G | "F#m"F3 "F#m/E"z F G/A/- |
+w: sure _ that God's in-fi-nite _ love _ _ is all that they say it will be: In the midst
+"D"A A A/A/- A A A | "A"A/E/- E C E3 | "Bm"z2 D D C D/B,/- | "Esus4"B,3- B,3- |
+w: _ of the night, _ Je-sus sent out _ the Light that reached e-ven me, _ _
+"E"B,3 z C B,/A,/- | "A"A,3- A,3 | "D"z6 | "A"z6 | "D"z3 z A,B, ||
+w: _ E-ven me. _ _ Tho' your
+"A"C C C C3- | C C C/C/- C D E | "C#m"C3- C3 | z3 z B,C |
+w: eyes have no sight _ of the glo-_ ries of heav'n, _ Tho' your
+"D"D D/D/- D D3- | D A, A,/A,/- A, B, C | "A"C3- C3 | z3 z D E |
+w: heart re-main _ hard _ to the hope _ God has giv'n, _ I will
+"D"F F F/F/- F E F | "E"G G G G F E | "C#7"^E E E E F G | "F#m"F3 "F#m/E"z F G |
+w: not see des-pair _ as I lift you in prayer til my earth-ly life ceas-es to be, For I
+"D"A A A A A A | "A"A E C/E/- E3 | "Bm"z D D/D/- D C D |
+w: know it is true, He can save e-ven you, _ for He saved _ e-ven
+[1 "Esus4"B,3- B,3 | "E"z3 z C E/F/- :| [2 "Esus4"B,3- B,3 | "E"z3 z C B,/A,/- |
+w: me. _ E-ven me, me, _ E-ven me,
+"A"A,3- A,3 | "D"z3 z C B,/A,/- | "A"A,3- A,3 | "D"z3 z C B, | "A"!fermata!A,3 |]
+w: _ _ E-ven me, _ _ E-ven me.

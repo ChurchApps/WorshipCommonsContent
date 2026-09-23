@@ -1,0 +1,36 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writer's own lead sheet,
+% sources/sheetPdf.pdf (larryholdermusic.org/scores/fordad_C.pdf), bar for bar. Bar
+% numbers match the PDF. The piano left hand and the inner voices are not transcribed;
+% the rolled closing chord is reduced to its top note.
+% Checked against sources/tune.mid (tools/check-abc-midi.py). The MIDI is a single piano
+% track with the melody an octave up on top; read that way it agrees with the PDF note for
+% note. It differs only in form: it plays the verse section once more than the PDF, so the
+% PDF's form wins.
+X:1
+T:For Dad
+C:Words and Music by Lawrence Keith Holder
+Z:Transcribed from the writer's lead sheet (2003)
+M:4/4
+L:1/8
+K:C
+%%MIDI program 0
+z6 C D |: "C"E3 C C2 G,2 | "F"A,6 C D |
+w: I have grown to know you more as the
+w: * * fam-'ly bond is love, strong-er
+"C"E3 C C2 E2 | "Em"G6 G2 | "F"G3 F F2 G2 | "C"F2 E4 E2 |
+w: years have seen us through, and things I took for grant-ed are
+w: than the world's tra-vail. Though test-ed by the temp-est, a
+"F"F3 E D2 C2 |1 "G"D4- D B, C D :|
+w: clear-er now, and true. _ We know our
+w: bond that will not
+[2 "G"D6 E F | "C"G3 E E2 G2 | "F"c6 B A | "G"G3 D E2 F2 |
+w: fail. And the jour-ney leads us on 'Til the day we stand com-
+"C"E6 D E | "F"F3 E D2 C2 | "G"A, G,- G,4 A, B, | "F"C3 C D2 E2 |
+w: plete, then as bro-ther un-to bro-ther _ as our Lord at last we
+"G"D6 C B, | "F"A,3 B, C2 A,2 | "C"G,6 C B, | "F"A,3 B, C2 D2 |
+w: meet. May these greet-ings find you well, May the bles-sings nev-er
+"C"E6 D E | "Dm"F3 E D2 C2 | "G"D6 C B, | "F"A,3 B, C2 D2 |
+w: end. I am rich be-yond com-pare, for in you I have a
+"G"C2 B,2 A,2 B,2 | "C"C6 |]
+w: fa-ther and a friend.

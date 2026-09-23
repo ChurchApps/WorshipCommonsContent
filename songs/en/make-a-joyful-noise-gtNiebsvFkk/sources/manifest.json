@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "file": "analytics.json",
+      "url": null,
+      "acquired": null,
+      "sha256": "8ec015d241a3cce74838b896742e307f75f1e361aeee0fa036994cdecab114c6",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Catalog audit notes and judgments; not a citable source"
+    },
+    {
+      "file": "grants/larry-holder-permissions.txt",
+      "url": "https://larryholdermusic.org/copyright.html",
+      "acquired": "2026-09-14",
+      "sha256": "04816957cad311a57ae2b4f92def7393bf1702a80b06e2fdda7d09af1f8cbff8",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": null,
+      "license": "larry-holder",
+      "layer": "grant",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "lyrics.chordpro",
+      "url": "https://larryholdermusic.org/joyful.html",
+      "acquired": "2026-09-14",
+      "sha256": "a94059ef718e200a7cdcf6a48d2b6b93f44041d449f984b664b0f4fea5e82218",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "The words. Nothing in this repo rebuilds them",
+      "license": "larry-holder",
+      "layer": "text",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "tune.mid",
+      "url": "https://larryholdermusic.org/midi/joyful.mid",
+      "acquired": "2026-09-14",
+      "sha256": "288a8341d0d0eafe07507e6e864545be809d1b79a6e69e4679efb40848c64859",
+      "licenseBasis": "larry-holder",
+      "original": true,
+      "submittedBy": "Larry Holder",
+      "note": "Existing catalog copy; original bytes not backfilled",
+      "license": "larry-holder",
+      "layer": "tune",
+      "obtainedVia": "harvest",
+      "evidence": "grants/larry-holder-permissions.txt"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writer's own lead sheet,
+% sources/sheetPdf.pdf (larryholdermusic.org/scores/Christ_Alive_in_Me.pdf), bar for
+% bar. Bar numbers match the PDF, which counts the pickup as bar 1. The piano left
+% hand and the inner voices are not transcribed (the PDF is a melody-only lead sheet).
+% There is no tune.mid for this song, so nothing to cross-check; the PDF is the only
+% source. Where lyrics.chordpro disagrees the PDF wins: its chords (derived from a
+% machine transcription) are replaced by the PDF's, and its "Verse 4" (the last line
+% sung again as a tag on the recording) is not in the PDF, so it is not written here.
+% The PDF repeats bars 1-17 with three verses printed; verse 3 stops after bar 15 and
+% ends on bars 18-19, written here as endings [1,2 and [3. The PDF draws an arc from
+% the E ending bar 8 into bar 9, but every verse puts a new syllable on bar 9
+% ("bide", "soul"), so it is read as a slur on the preceding eighths, not a tie.
+% Bar 19 is a dotted half, as printed.
+X:1
+T:Christ Alive in Me
+C:Words and Music by Lawrence Keith Holder
+Z:Transcribed from the writer's lead sheet (2026)
+M:4/4
+L:1/8
+K:D
+%%MIDI program 0
+A, |: "D"D2 D2 "Em"E2 E F- | "D/F#"F A- A4 D D- | "G"D2 E D- D2 B,2 |
+w: I do not fear to-mor-_ row;_ the Lord_ is by_ my
+w: * world tries to sur-round_ me_ with dark-_ ness, fear_ and
+w: * world is not the glor-_ y;_ e-ter-_ ni-ty's_ the
+"D"A,6 z A, | "Bm"D2 D2 D2 E F- | "D"F2 A4- A A | A2 B2 A2 (F E) |
+w: side. In Him I find re-demp-_ tion,_ in Him I will a-_
+w: cold. And yet the Lord is with_ me;_ His pres-ence warms my_
+w: goal. And in the Lord's pros-vi-_ sion,_ there's peace with-in my_
+"A"E6 z A | "G"B2 B2 B2 A A- | "D"A2 F4 A A- | A2 B A- A2 F2 | "A"E6 A,2 |
+w: bide. The fu-ture is a ve-_ il, yet I_ can plain-_ ly see my
+w: soul. Each mor-ning, ev'-ry ev-_ 'ning, in trial_ and vic-_ tor-y, there
+w: soul. With joy dis-plac-ing sor-_ row, I'm all_ I'm meant_ to be, not
+"G"B,2 D2 "A"E2 G2 | "D"F2 D B,- "G"B,3 A, |
+w: hopes, my dreams, my ev-ry-thing_ are
+w: is a plan; I un-der-stand_ it's
+w: by a thing that I have done;_ it's
+[1,2 "Em"B,2 D E- "A"E D C D- | "D"D6 z A, :|
+w: Christ a-live_ _ in me._ The
+w: Christ a-live_ _ in me._ This
+[3 "Em"B,2 D E- "A"E D C D- | "D"D6 |]
+w: * * * * * * *
+w: * * * * * * *
+w: Christ a-live_ _ in me._

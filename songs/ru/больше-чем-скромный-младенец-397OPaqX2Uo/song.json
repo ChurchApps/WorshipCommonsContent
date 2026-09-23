@@ -1,0 +1,90 @@
+{
+  "id": "397OPaqX2Uo",
+  "title": "Больше, чем скромный Младенец",
+  "writer": "Larry Holder · tr. Timothy Ha",
+  "year": 1997,
+  "language": "Russian",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "copyright": "Copyright © 1997 Lawrence Keith Holder\nTranslation Copyright © 2005 Timothy Ha",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder · tr. Timothy Ha",
+    "link": "https://larryholdermusic.org/copyright.html"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "translation published on songsofpraise.org; tr. Timothy Ha",
+      "source": "songs-of-praise",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "translation": {
+      "license": "larry-holder",
+      "basis": "songs-of-praise",
+      "holder": "Timothy Ha"
+    },
+    "tune": null,
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "recording posted for free download on songsofpraise.org; non-profit grant",
+      "source": "songs-of-praise"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 5",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 6",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Chorus",
+      "Chorus",
+      "Chorus",
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4",
+      "Verse 5",
+      "Verse 6"
+    ]
+  },
+  "parent": {
+    "id": "UE9a1aQZN-3"
+  },
+  "relationLabel": "Russian translation · tr. Timothy Ha",
+  "uploads": {
+    "demoAudio": "song.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

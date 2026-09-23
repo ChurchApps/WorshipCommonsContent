@@ -1,0 +1,69 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writer's own score,
+% sources/sheetPdf.pdf (larryholdermusic.org/scores/ariseandbuild_withpiano.pdf), bar for
+% bar. Bar numbers match the PDF (94 bars), and its road map (segno, "To Coda",
+% "D.S. al Coda", coda) is kept as written, not unfolded. The PDF is a choir score for
+% Ladies, Men and piano: the Ladies sing bars 5-20 and 55-70, the Men bars 21-36 and
+% 71-86, and both sing the refrain in harmony. The tune is written here as one line at
+% the Ladies' pitch: the Men's lines sound an octave lower than written, and in the
+% refrain the tune is the Ladies' top note. The piano, the harmony voices and the
+% Ladies' descant in bars 83-84 are not transcribed.
+% Checked against the Ladies and Men tracks of sources/tune.mid (tools/check-abc-midi.py
+% --track 1 and --track 2; the MIDI has no single melody track, and its refrain tracks
+% are chords). Taking the Men's notes an octave up in their bars and the Ladies' top
+% note elsewhere, every melody pitch and rhythm agrees with the PDF, road map unfolded;
+% the MIDI's only extra notes are inner-voice moves under held tune notes (bars 40, 44,
+% 52 and the coda), which the PDF also has. There was nothing to resolve for the PDF.
+X:1
+T:Arise and Build!
+C:Words and Music by Lawrence Keith Holder (Larry Holder)
+Z:Transcribed from the writer's choir score (1998)
+M:2/2
+L:1/8
+K:C
+%%MIDI program 0
+"C"z8 | z8 | "F/C"z8 | z8 ||
+"C"z2 C2 E2 F G- | G2 F E- E2 D2 | "F/C"D2 C6- | C6 z2 |
+w: The Lord has laid _ the firm _ Found-a-tion, _
+"C"z2 C2 E2 F2 | G2 F E- E2 D C- | "F"C8- | C6 z2 |
+w: and He has gi-ven us _ the goal _ _
+"Dm"z2 F2 F2 G F- | "Dm7"F2 E D- D2 C E- | "G"E2 D6- | D6 z2 |
+w: to bring the Light _ to ev-_ 'ry na-_ tion, _
+"Em"z2 E2 E2 F G- | "Em7"G2 F E- E2 D2 | "Am"C8- | C6 z2 |
+w: to share the Hope _ with ev-_ 'ry soul. _
+"C"z2 C2 E2 F G- | G2 F2 E2 D2 | "F/C"D2 C6- | C6 z2 |
+w: The One who calls _ is our Pro-vi-der; _
+"C"z2 C2 E2 F2 | G2 F2 E2 D C- | "F"C8- | C6 z2 |
+w: we do not join this task a-lone, _ _
+"Dm"z2 F2 F2 G F- | "Dm7"F2 E2 D2 C E- | "G"E2 D6- | D6 z2 |
+w: for He who brings _ each new be-gin-_ ning _
+"Em"z2 E2 E2 F G- | "Em7"G2 F2 E D2 C- | "Am"C8- | C4 z2 A2 ||
+w: will give us strength _ to see it done. _ _ So
+!segno!"Bb"_B2 _B2 _B2 _B _B- | "F"_B2 A G- G2 F A- | "Csus4"A2 G6- | "C"G6 z C |
+w: reach out to the hand _ that is _ be-side _ you. _ To-
+"Bb"_B2 _B2 _B2 c _B- | "F"_B2 A2 G F2 G- | "Gsus4"G8- | "G"G4 z2 C2 |
+w: ge-ther let us hold _ His ban-ner high. _ _ That
+"F"F2 F2 F2 F G- | "G"G2 G2 G2 G ^G- | "E/G#"^G2 A2 B2 ^G A- | "Am"A4 z2 A B |
+w: Christ may be ex-alt-_ ed, His com-mis-_ sion be ful-filled, _ let us
+"F"c2 c2 c2 c c- | "Gsus4"c2 c c- c2 "G""^To Coda"B2 || "F/C"c8- | "C"c8 | z8 | "F/C"z8 ||
+w: heark-en to the call: _ A-rise _ and Build! _
+"C"z2 C2 E2 F G- | G2 F E- E2 D2 | "F/C"D2 C6- | C6 z2 |
+w: For Je-sus Christ _ is our _ Found-a-tion; _
+"C"z2 C2 E2 F G- | G2 F2 E2 D C- | "F"C8- | C6 z2 |
+w: In Him a-lone _ our plans are laid, _ _
+"Dm"z2 F2 F2 G F- | "Dm7"F2 E D- D2 C E- | "G"E2 D6- | D6 z2 |
+w: to count our-selves _ a-mong _ the faith-_ ful, _
+"Em"z2 E2 E2 F2 | "Em7"G2 F E- E2 D2 | "Am"C8- | C6 z2 |
+w: to have God's ho-ly Word _ o-beyed. _
+"C"z2 C2 E2 F G- | G2 F2 E2 D D- | "F/C"D2 C6- | C6 z2 |
+w: Now as we join _ this task to-ge-_ ther, _
+"C"z2 C2 E2 F G- | G2 F2 E D2 C- | "F"C8- | C6 z2 |
+w: we trust in Him _ to see us on. _ _
+"Dm"z2 F2 F2 G F- | "Dm7"F2 E2 D2 C E- | "G"E2 D6- | D6 z2 |
+w: The gates of hell _ can-not with-stand _ us: _
+"Em"z2 E2 E2 F G- | "Em7"G2 F2 E2 D C- | "Am"C8- | C4 z2 "^D.S. al Coda"A2 |]
+w: We shall pre-va-_ il til we're done! _ _ So
+!coda!"Am"c8- | "Am/G"c4 z2 A B | "F"c2 c2 c2 c c- | "Gsus4"c2 c c- c2 "G"B2 |
+w: Build! _ Let us heark-en to the call: _ A-rise _ and
+"F/C"c8- | c8- | "C"c8- | !fermata!c8 |]
+w: Build! _ _ _

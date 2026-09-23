@@ -1,0 +1,70 @@
+{
+  "id": "VS1UwdjeoT4",
+  "title": "Til Jesus Is All",
+  "writer": "Larry Holder",
+  "year": 2000,
+  "language": "English",
+  "themes": "Praise",
+  "key": "F",
+  "bpm": 83,
+  "timeSignature": "4/4",
+  "scripture": "Psalm 119:11",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "copyright": "Copyright © 2000 Lawrence Keith Holder",
+  "attribution": {
+    "required": true,
+    "text": "Larry Holder",
+    "link": "https://larryholdermusic.org/"
+  },
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "basis": "published on larryholdermusic.org",
+      "source": "larry-holder",
+      "url": "https://larryholdermusic.org/copyright.html"
+    },
+    "tune": {
+      "license": "larry-holder",
+      "basis": "larry-holder"
+    },
+    "arrangement": null,
+    "recording": {
+      "license": "larry-holder",
+      "basis": "writer MP3 posted on larryholdermusic.org; non-profit grant",
+      "source": "larry-holder"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Verse 4"
+    ]
+  },
+  "uploads": {
+    "demoAudio": "song.mp3"
+  }
+}
