@@ -186,7 +186,7 @@ gitignored. Delete the folder and you lose nothing.
 | `composition/chart.pdf` | Chord chart in the original key, when the text encodes as WinAnsi. Other keys are transposed on demand. Non-Latin text is skipped |
 | `composition/slides.json` | Projection slides from the lyric sections |
 | `composition/duration.json` | Sing time. A leftover `output/composition/timing.json` wins; otherwise the master via ffprobe; otherwise lines × beats at the song's bpm. `sources/timing.json` is not read |
-| `composition/attribution.txt` | What a church prints under the lyrics: the title, then the copyright (`song.json` `copyright`, else `© year writer`; PD songs get `writer, year`), then any credit or source the license asks for that the copyright does not already say, then the license terms (`licenses/licenses.json` `notice`). The song page shows every line after the title under the last verse |
+| `composition/attribution.txt` | What a church prints under the lyrics: the title, then the copyright (`song.json` `copyright`, else `© year writer`; PD songs get `writer, year`), then any credit or source the license asks for that the copyright does not already say, then the license terms (`licenses/licenses.json` `notice`; empty for a writer grant like `larry-holder`, where the copyright line is all we print). The song page shows every line after the title under the last verse |
 | `composition/sources.txt` | Human-readable provenance |
 | `composition/LICENSE.txt` | What was granted, by whom, what a church may do. Travels inside every bundle |
 | `composition/cover-thumb.webp` | Thumbnail of this package's `sources/cover.webp`. No cover in this folder means no thumbnail |
