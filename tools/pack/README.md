@@ -10,13 +10,13 @@ A song without a master grant is still a complete song — it just has no pack.
 **A granted mix always packs.** After `node tools/generate.mjs <pkg>`, run
 `python tools/pack/build.py <pkg>`. That is the standard rebuild, not an optional extra.
 
-After stem separation, if the package has no `sources/score.musicxml`, the mix is
+After stem separation, if the package has no `sources/score.musicxml` or `sources/tune.abc`, the mix is
 transcribed to MIDI and MusicXML (`stems_to_score.py`): every stem with energy (vocals, piano,
 guitar, bass, other) with velocities, plus a simple drum track. MIDI retains detected
 performance timing and the recording's intro. Words from `sources/lyrics.chordpro` are underlaid on the melody.
 That generated score is a sketch (same class as a MIDI import). It lives in
 `output/composition/` (`score.mid`, `score.musicxml`, and `lead-sheet.pdf` when MuseScore
-3 or 4 is on PATH). A person promoting it copies the MusicXML to `sources/score.musicxml`.
+3 or 4 is on PATH). A person promoting it copies the MusicXML to `sources/score.musicxml`. When the writer gave us a sheet PDF, transcribe that into `sources/tune.abc` instead (see LIBRARY.md).
 `sources/tune.mid` is never rewritten.
 
 ```powershell
