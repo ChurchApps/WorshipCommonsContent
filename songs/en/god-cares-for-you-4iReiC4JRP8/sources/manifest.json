@@ -25,20 +25,6 @@
       "evidence": "grants/larry-holder-permissions.txt"
     },
     {
-      "file": "extra/father.mid",
-      "url": "https://songsofpraise.org/musicfiles/father.mid",
-      "acquired": "2026-09-14",
-      "sha256": "70ac2852cfedc003ddb8e5a11b25626a805c3afdd0d90952fad8f52679576eb2",
-      "licenseBasis": "larry-holder",
-      "original": true,
-      "submittedBy": "Larry Holder",
-      "note": "Granted alongside the song; kept as-is, not processed",
-      "license": "larry-holder",
-      "layer": "tune",
-      "obtainedVia": "harvest",
-      "evidence": "grants/larry-holder-permissions.txt"
-    },
-    {
       "file": "extra/godcares.mid",
       "url": "https://larryholdermusic.org/midi/godcares.mid",
       "acquired": "2026-09-14",

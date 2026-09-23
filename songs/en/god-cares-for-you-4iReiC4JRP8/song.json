@@ -12,7 +12,7 @@
   "license": "larry-holder",
   "licenseVersion": "permissions",
   "licenseUrl": "https://larryholdermusic.org/copyright.html",
-  "copyright": "Copyright © 1996 Lawrence Keith Holder",
+  "copyright": "Copyright © (P) 1996 Lawrence Keith Holder",
   "attribution": {
     "required": true,
     "text": "Larry Holder",
@@ -21,7 +21,7 @@
   "rights": {
     "text": {
       "license": "larry-holder",
-      "basis": "published on larryholdermusic.org / songsofpraise.org",
+      "basis": "published on larryholdermusic.org",
       "source": "larry-holder",
       "url": "https://larryholdermusic.org/copyright.html"
     },

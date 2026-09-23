@@ -5,9 +5,9 @@
   "year": 2000,
   "language": "English",
   "themes": "Praise",
-  "key": "Ab",
+  "key": "A",
   "bpm": 152,
-  "timeSignature": "4/4",
+  "timeSignature": "6/8",
   "scripture": null,
   "license": "larry-holder",
   "licenseVersion": "permissions",
@@ -21,7 +21,7 @@
   "rights": {
     "text": {
       "license": "larry-holder",
-      "basis": "published on larryholdermusic.org / songsofpraise.org",
+      "basis": "published on larryholdermusic.org",
       "source": "larry-holder",
       "url": "https://larryholdermusic.org/copyright.html"
     },
