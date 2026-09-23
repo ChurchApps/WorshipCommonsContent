@@ -1,0 +1,43 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writers' own lead sheet,
+% sources/sheetPdf.pdf (songsofpraise.org/pdf/myheart.pdf), bar for bar. Bar numbers
+% match the PDF. The piano left hand and the inner voices are not transcribed.
+% Checked against the melody track of sources/tune.mid (tools/check-abc-midi.py).
+% Where the two differ the PDF wins: the MIDI anticipates beat 2 by an eighth in the
+% "here to love You" bars, and sings "Sur-" on B, where the PDF has D.
+X:1
+T:All Of My Heart
+C:Music by Elton Smith
+C:Words by Larry Holder and Elton Smith
+Z:Transcribed from the writers' lead sheet (1997)
+M:4/4
+L:1/8
+K:A
+%%MIDI program 0
+"A"z8 | "F#m"z8 | "E"z8 |: "E7"z8 |
+"A"C E B A- A4 | "F#m"A2 G F- F E- E C | "G"B, D A =G- =G3 =G | "D"=G2 F E- E D- D D |
+w: All of my heart _ here to love _ You, _ And all of my soul, _ * here to praise _ You, _ *
+w: I have re-ceived _ life e-ter-_ nal. _ * Saved by Your grace, _ I live for-ev-_ er; _ Sur-
+"A"C E B A- A3 A | "F#m"A2 G F- F2 C E- | "C#m"E8 | "E"z8 |
+w: All of my life _ I lay be-fore _ Your throne. _
+w: round-ed by love, _ I know that You _ are there. _
+"A"C E B A- A3 A | "F#m"A2 G F- F E- E C | "G"B, D A =G- =G3 =G | "D"=G2 F E- E D- D2 |
+w: Glo-ry to You, _ * lov-ing Fath-_ er, _ And prais-es to You, _ my Lord and Sav-_ ior, _
+w: Free of my sin, _ I'm free to serve _ You, _ * free to be-gin _ a life to please _ You. _
+"A"C E B A- A3 A | "F#m"A2 G F- F2 C E- | "C#m"E8 ||
+w: Mer-cy and grace _ to me You have _ made known. _
+w: All of my days _ I'm ev-er in _ Your care. _
+"E"z4 A2 G A- | "A"A4 A2 G A- | "F#m"A4 A2 G A- | "D"A4 A2 B c- |
+w: Praise to You, _ God A-bove, _ My Re-deem-_ er and Fath-
+"E"c2 B2 A B- B A- | "A"A4 A2 G A- | "F#m"A3 A F2 C E- | "C#m"E8 |
+w: _ er that I _ love; _ You're the One _ to whom I cry. _
+"E"z4 A2 G A- | "A"A4 A2 G A- | "F#m"A4 A2 G A- | "D"A4 A2 B c- |
+w: You a-lone, _ God A-bove, _ My Re-deem-_ er and Fath-
+"E"c2 B2 A B- B A- | "A"A4 A2 G A- | "F#m"A3 A A2 A e- | "C#m"e8 ||
+w: _ er that I _ love; _ Now in praise _ be lift-ed high. _
+"E"z8 | "Bm"B4 B2 A B- | "E"B3 E c2 B A- | "A"A8 :|
+w: You, Lord my God, _ are ov-er all! _
+"F#m"z8 | "Bm"B4 B2 A B- | "E"B3 E c2 B A- | "A"A8 |
+w: You, Lord my God, _ are ov-er all! _
+"F#m"z8 | "Bm"B4 B2 A B- | "E"B3 E c2 B A- | "A"A8 |]
+w: You, Lord my God, _ are ov-er all! _

@@ -178,6 +178,20 @@
       "obtainedVia": "generated"
     },
     {
+      "file": "tune.abc",
+      "url": null,
+      "acquired": "2026-09-22",
+      "sha256": "d6633fc072434ef15eb525bf7a5340418c346adcd19485290401e5fc182fbe68",
+      "licenseBasis": "larry-holder",
+      "original": false,
+      "submittedBy": null,
+      "note": "Melody, chords and words transcribed by hand from sheetPdf.pdf; checked against tune.mid with tools/check-abc-midi.py",
+      "license": "larry-holder",
+      "layer": "tune",
+      "obtainedVia": "transcription",
+      "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
       "file": "tune.mid",
       "url": "https://songsofpraise.org/musicfiles/myheart.mid",
       "acquired": "2026-09-14",
