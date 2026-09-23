@@ -68,7 +68,7 @@ and this path is the bucket key and the asset URL. The license lives in `song.js
 flowchart LR
   subgraph src["sources/ — what we cannot rebuild"]
     words["lyrics.chordpro<br/>the words"]
-    abc["tune.abc<br/>written hymn score"]
+    abc["tune.abc<br/>written score"]
     sheet["sheetPdf.pdf<br/>printed sheet music"]
     pic["cover.webp<br/>cover art"]
     rec["master/song.wav<br/>a granted recording"]
@@ -124,10 +124,10 @@ does not exist as far as the tools are concerned.
 | File | What it is |
 |---|---|
 | `lyrics.chordpro` | The **words**. Always present. Nothing in this repo rebuilds them |
-| `tune.abc` | Open Hymnal SATB score (often on the **work**, shared by translations) |
+| `tune.abc` | A written score: an Open Hymnal SATB, or a hand transcription of the writer's `sheetPdf.pdf` (melody, chords, every verse) checked with `tools/check-abc-midi.py`. A parent's copy is shared by its translations |
 | `tune.mid` | Cyber Hymnal / HymnSite MIDI (pitch sketch, not a distributed score) |
 | `score.musicxml` | The notes, when someone gave them to us. Optional — `output/` holds the ABC conversion instead |
-| `sheetPdf.pdf`, `*.ly` | Scanned or engraved sheet, plus LilyPond source when we have it |
+| `sheetPdf.pdf`, `*.ly` | Scanned or engraved sheet, plus LilyPond source when we have it. Served as-is, never re-engraved. To give the song a score, transcribe it into `tune.abc` |
 | `cover.webp` | The package image. Generated once; kept, never regenerated |
 | `timing.json` | Lyric timings for karaoke. Hymns: `tools/harvest/generate-lyric-timings.py` (ABC+MIDI). Writer recordings: `tools/harvest/align-vocal-timings.py` (MP3 vocal) |
 | `master/<name>.wav` | A granted master recording. One per song. A YouTube id is a link, not a master |
@@ -288,6 +288,7 @@ Run from the repo root. Run `validate` before every commit. There is no `require
 | `node tools/validate.mjs` | Schema and consistency checks. Exit 1 on errors | Node.js 18 or newer. No `npm install` in this repo |
 | `node tools/generate.mjs [folder]` | Rebuild `output/composition/` for one package, a language folder, a slug, or the whole library | Node.js 18+. Python 3 on PATH (`python`, or `PYTHON=`) for ABC → MusicXML; the step is skipped with a warning when Python is missing. The converter is vendored at `tools/vendor/abc2xml.py`. `pip install music21` to write `score.mid` when the package has no `sources/tune.mid`. `ffprobe` on PATH to take a length from `sources/master/` |
 | `node tools/generate-scores.mjs [folder]` | Score step only: `output/composition/score.musicxml` from this package's `sources/tune.abc` | Same Python and vendored abc2xml as `generate.mjs` |
+| `python tools/check-abc-midi.py <folder> [--track N]` | Proofread a hand-transcribed `tune.abc` against the melody track of `sources/tune.mid`: prints every pitch stretch where they differ. Unfolds `:\|` repeats, not D.C./D.S. | Python 3 with `mido` and `music21` |
 | `node tools/build-catalog.mjs` | Regenerate `catalog.json` from the folders. Follows a translation's `parent` link | Node.js 18+ |
 | `node tools/find-duplicates.mjs` | Report the same hymn under variant titles (`--apply` links them) | Node.js 18+ |
 | `python tools/pack/build.py [folder]` | Multitracks for every package with one granted file in `sources/master/`. Run `generate.mjs` first; the pack stops without `output/composition/LICENSE.txt`. Ends by re-running `generate.mjs` on the package so `composition.zip` picks up the sketch score. Idempotent | Python 3.13, ffmpeg and ffprobe, CUDA PyTorch, `audio-separator`, `music21`, `pillow`, `soundfile`, `scipy`, `numpy`. Transcription also needs `librosa`, `pretty_midi`, `basic-pitch`, `mir_eval`, and an ONNX runtime. Section callouts use Windows SAPI. `lead-sheet.pdf` is written when MuseScore 3 or 4 is on PATH (`MuseScore4`, `mscore`, or `C:\Program Files\MuseScore 4\bin\MuseScore4.exe`). Full list and the fresh-machine caveat: [tools/pack/README.md](tools/pack/README.md#requirements) and [tools/pack/MIDI.md](tools/pack/MIDI.md#environment-and-normal-rebuild) |
