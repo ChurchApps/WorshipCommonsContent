@@ -1,0 +1,70 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writers' own lead sheet,
+% sources/sheetPdf.pdf (songsofpraise.org/pdf/fill.pdf), bar for bar. Bar numbers
+% match the PDF. The piano left hand and the inner voices are not transcribed.
+% Checked against the melody track of sources/tune.mid (tools/check-abc-midi.py).
+% Where the two differ the PDF wins. In verse 3 the MIDI sings "my life I owe" with
+% "I" on C#5 an eighth early, where the PDF has F#4 on beat 4; sings "One who saves"
+% with "who" on C#5 on beat 4, where the PDF has A4 on the and of 3; and moves "to"
+% ("Lord, to You") and "is" ("that is why") by an eighth. The MIDI's first melody
+% note is in its bar 9; the PDF's intro is seven bars, so the voice enters in bar 8.
+X:1
+T:Come Fill My Heart
+C:Music by Elton Smith
+C:Words by Elton Smith, Larry Holder and Steve Israel
+Z:Transcribed from the writers' lead sheet (2000)
+M:4/4
+L:1/8
+K:G
+%%MIDI program 0
+"NC"z8 | z8 || "G"z4 "G/F#"z4 | "Em"z4 "Em/D"z4 | "C"z8 | "Dsus4"z8 | "D"z8 ||
+|: "G"B, D D B, "G/F#"D2 D E- | "Em"E4 "Em/D"D D- D E- | "C"E2 D2 C B,- B, A,- |
+w: Come in-to my heart to-day, _ come and _ fill _ my ver-y _ soul.
+w: Come in-to my heart to-day, _ I have _ wait-_ ed for so _ long.
+"Dsus4"A,6 "D"z2 | "G"B, D D B, "G/F#"D2 D E- | "Em"E4 "Em/D"D D- D E- |
+w: _ Come in-to my heart and stay; _ You are _ all
+w: _ Drive the sin and doubt a-way, _ give me _ hope
+"C"E3 E G2 E A- | "Dsus4"A6 "D"z2 | "C"E G G E G G2 A- |
+w: _ I need to know. _ No one else in heav'n and earth
+w: _ to car-ry on. _ Show-er down on me Your grace
+"D"A4 G2 A B- | "G"B2 A2 "G/F#"G F- F E- | "Em"E6 "Em/D"z D |
+w: _ shows Your mer-_ cy, grace and _ love. _ I
+w: _ till my cup _ will o-ver-_ flow. _ *
+"C"E G G E G G- G A- | "D"A4 D2 D E- | "C"E2 E2 G B- B A- ||
+w: turn to You and humb-ly _ pray, _ pour Your bles-_ sings from a-_ bove.
+w: Take me to a ho-ly _ place, _ let the faith _ with-in me _ grow.
+"D"A2 z D B2 A G- | "G"G3 D B2- B A/ G/ | "B"F3 B, B2 A G- |
+w: _ Come fill my heart, _ come live _ in my soul, re-store the peace,
+"Em"G3 E B2 A G- | "G7"G6 z2 | "C"E G G E G G- G A- |
+w: _ Lord, make me whole. _ Might-y Sav-ior, Lord most _ high,
+"D"A4 D D- D E- | "C"E2 E2 G B- B A- | "D"A2 z D B2 A G- |
+w: _ hear my _ yearn-_ ing, hear my _ cry: _ Come fill my heart,
+"G"G3 D B2- B A/ G/ | "B"F3 B, B2 A G- | "Em"G3 E B2 A G- | "G7"G6 z2 |
+w: _ come live _ in my soul, re-store the peace, _ Lord, make me whole. _
+"C"E G G E G G- G A- | "D"A4 D D- D E- | "C"E2 E2 G B- B A- |
+w: All I am I give to _ You; _ in Your _ grace, _ You'll see me _ through.
+"D"A2 z D "D7"B2 A G- | "G"G4 "G/F#"z4 |[1 "Em"z4 "D"z4 :|[2 "Em"z4 "Em/D"z4 | "C"z8 | "D"z8 | "E"z8 ||
+w: _ Come fill my heart! _
+K:A
+"A"C E E C "A/G#"E2 E F- | "F#m"F4 "F#m/E"E E- E F- | "D"F2 E2 D C- C B,- |
+w: Come in-to my heart to-day, _ come and _ heal _ my wound-ed _ soul.
+"Esus4"B,6 "E"z2 | "A"C E E C "A/G#"E2 E F- | "F#m"F4 "F#m/E"E E- E F- | "D"F3 F A2 F B- |
+w: _ Come in-to my heart, I pray; _ Lord, to _ You, _ my life I owe.
+"Esus4"B6 "E"z2 | "D"F A A F A A2 B- | "E"B4 A2 B c- | "A"c2 B2 "A/G#"A G- G F- |
+w: _ You're the on-ly One who saves, _ there is no-_ thing I can _ do.
+"F#m"F6 "F#m/E"z E | "D"F A A F A A- A B- | "E"B4 E2 E F- | "D"F2 F2 A c- c B- ||
+w: _ I want to fol-low in Your _ Way, _ that is why _ I ask of _ You:
+"E"B2 z E c2 B A- | "A"A3 E c2- c B/ A/ | "C#"G3 C c2 B A- |
+w: _ Come fill my heart, _ come live _ in my soul, re-store the peace,
+"F#m"A3 F c2 B A- | "A7"A6 z2 | "D"F A A F A A- A B- |
+w: _ Lord, make me whole. _ Might-y Sav-ior, Lord most _ high,
+"E"B4 E E- E F- | "D"F2 F2 A c- c B- | "E"B2 z E c2 B A- |
+w: _ hear my _ yearn-_ ing, hear my _ cry: _ Come fill my heart,
+"A"A3 E c2- c B/ A/ | "C#"G3 C c2 B A- | "F#m"A3 F c2 B A- |
+w: _ come live _ in my soul, re-store the peace, _ Lord, make me whole.
+"A7"A6 z2 | "D"F A A F A A- A B- | "E"B4 E E- E F- |
+w: _ All I am I give to _ You; _ In Your _ grace,
+"D"F2 F2 A c- c B- | "E"B2 z E c2 B A- | "A"A4- "A/G#"A4 |
+w: _ You'll see me _ through. _ Come fill my heart! _ _
+"F#m"z2 E c- "E"c2 B A- | "A"A4- "A/G#"A4 | "F#m"z2 E c- "E"c2 B2 | "A"A8- | !fermata!A2 z6 |]
+w: Come fill _ my heart! _ _ Come fill _ my heart! _

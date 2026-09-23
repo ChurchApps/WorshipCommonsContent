@@ -249,7 +249,9 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
 
     # A granted mix always yields a generated score unless a human score already
     # lives in sources/. Sketch MIDI/MusicXML/lead-sheet go in output/composition/.
-    human_score = pkg / "sources" / "score.musicxml"
+    # a transcribed tune.abc is a human score too: generate.mjs owns output/composition/score.musicxml then
+    human_score = next((p for p in (pkg / "sources" / "score.musicxml", pkg / "sources" / "tune.abc") if p.exists()),
+                       pkg / "sources" / "score.musicxml")
     comp = pkg / "output" / "composition"
     lyrics = pkg / "sources" / "lyrics.chordpro"
     vocals = next(iter(stems_dir.glob("*_vocals.m4a")), None) or next(iter(stems_dir.glob("*vocals*")), None)

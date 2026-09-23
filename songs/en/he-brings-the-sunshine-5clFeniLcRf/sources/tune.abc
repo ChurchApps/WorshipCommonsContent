@@ -1,0 +1,66 @@
+%abc-2.1
+% Melody, chords and words transcribed by hand from the writers' own lead sheet,
+% sources/sheetPdf.pdf (songsofpraise.org/pdf/brings.pdf), bar for bar. The PDF has no
+% printed bar numbers; bars here count from 1 in the PDF's order, and its road map
+% (D.C., D.S., "Last to Coda") is kept as written, not unfolded. The piano part is not
+% transcribed. Where the PDF puts two chords over one whole note or whole rest, the bar
+% is split into two tied halves so the second chord lands on beat 3.
+% Checked against the melody track of sources/tune.mid (tools/check-abc-midi.py --track 6):
+% every pitch agrees. The MIDI plays the eighths swung; the PDF writes them straight.
+X:1
+T:He Brings The Sunshine
+C:Music by Elton Smith and Steve Israel
+C:Words by Elton Smith, Larry Holder, and Steve Israel
+Z:Transcribed from the writers' lead sheet (1998)
+M:4/4
+L:1/8
+K:C#m
+%%MIDI program 0
+"G#7"z2 G,2 C2 E G- | "C#m"G G- G6- | "G#7"G z G2 G2 F E- | "C#m"E8- |
+w: He brings the sun-_ shine, _ _ He brings the rain. _
+w: He is my Sav-_ ior, _ _ He is my Friend. _
+w: So bring the sun-_ shine, _ _ and bring the rain. _
+"E"E z E2 G2 B c- | "A"c2 B2 A2 G A- | "F#m"A2 G2 F2 E G- |
+w: _ He brings the joy _ and in-spi-ra-_ tion that re-news
+w: _ He is the Giv-_ er of all life, _ and by His grace
+w: _ Bring us the joy _ and in-spi-ra-_ tion that re-news
+"G#7"G2 G2 "F#7"G2 F G- | "G#7"G z G,2 C2 E G- | "C#m"G G- G6- |
+w: _ my heart a-gain. _ He is my Sav-_ ior, _
+w: _ I live a-gain. _ Through-out my life-_ time, _
+w: _ our hearts a-gain. _ O bles-sed Sav-_ ior, _
+"G#7"G2 G2 G2 F E- | "C#m"E8- | "F#m"E z F2 F2 E D- |
+w: _ my Lord and King; _ _ His gen-tle voice
+w: _ for all my days, _ _ I can-not help
+w: _ our Lord and King, _ _ Your gen-tle voice
+"G#7"D2 D2 D2 D D- | D2 F2 E2 D C- | "C#m"C4- "G#7"C4- |
+w: _ of wis-dom stirs _ my heart to sing... _ _
+w: _ but sing this song _ of end-less praise... _ _
+w: _ of wis-dom stirs _ our hearts to sing... _ _
+!segno!"C#m"C z c2 c2 B B- | "F#m"B A- A6- | "B"A2 B2 B2 A G- | "E"G8- |
+w: _ Sing ha-le-lu-_ ja, _ _ O praise His Name: _
+w: _ Sing ha-le-lu-_ ja, _ _ O praise His Name: _
+w: _ Sing ha-le-lu-_ ja, _ _ we praise Your Name. _
+"A"G z A2 A2 G F- | "F#m"F F3 F2 F F- | "G#7"F A3 G2 F G- | "C#m"G8- |
+w: _ The King of Glo-_ ry on His throne _ for-e-ver reigns! _
+w: _ The King of Glo-_ ry on His throne _ for-e-ver reigns! _
+w: _ As King of Glo-_ ry, in our hearts _ for-e-ver reign! _
+"C#"G z c2 c2 B B- | "F#m"B A- A6- | "B"A B3 B2 A G- | "E"G8- |
+w: _ Our great Re-deem-_ er, _ _ our Ju-bi-lee, _
+w: _ Our great Re-deem-_ er, _ _ our Ju-bi-lee, _
+w: _ O great Re-deem-_ er, _ _ our Ju-bi-lee: _
+"A"G z A2 A2 G F- | "F#m"F A3 G2 F G- | "G#7"G2 F2 E2 D C- | "C#m"C4- "G#7""^Last to Coda"!coda!"^1: D.C.  2: continue  3: D.S. al Coda"C4 |]
+w: _ Our Lord and Sav-_ ior paid the price _ to set us free! _ _
+w: _ Our Lord and Sav-_ ior paid the price _ to set us free! _ _
+w: _ O Lamb of God, _ You gave Your all _ to set us free! _ _
+"C#m"z4 "B"z4 | "A"z2 c2 c3 c | "B"c2 B4 B B | "C#m"c2 G2 G2 F G- | "B"G8- |
+w: And though the dark-ness grows a-round us ev-ery day, _
+"A"G z c2 c3 c | "B"B3 B B2 F2 | "C#m"G8- | G4- "B"G4 | "F#m"z2 c2 c3 c |
+w: _ it ne-ver shall put out the Light. _ _ We are His
+"B"c2 B4 c d | "C#m"e2 d2 "B"c2 B G- | "A"G4- "G#m7"G4- | "F#m7"G z A2 A3 G |
+w: tem-ple, and His Spi-rit lives in us, _ _ _ and we are
+"F#m6"F2 F2- F G A G- | "G#sus4""^D.C. al Coda (to verse 3)"G8 |]
+w: right-eous _ in His sight. _
+!coda!"C#m"z2 G2 "B"A2 B c- | "A"c c3 d2 c ^B- |
+w: O Lamb of God, _ You gave Your all
+"G#7"^B2 ^B2 c2 d e- | "C#m"(e d c6-) | c6- c z |]
+w: _ to set us free! _ _ _ _ _
