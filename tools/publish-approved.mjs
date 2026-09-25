@@ -118,6 +118,8 @@ async function main() {
     // a pack is optional: build.py refuses (and says why) when there is no master or no recording grant
     run(PYTHON, ["tools/pack/build.py", d], { allowFail: true });
     run(PYTHON, ["tools/harvest/align-vocal-timings.py", d], { allowFail: true });
+    // again, now that timing.json exists: duration.json takes the recording's length from it instead of an estimate
+    run("node", ["tools/generate.mjs", d]);
   }
   run("node", ["tools/build-catalog.mjs"]);
   run("node", ["tools/validate.mjs"]);
