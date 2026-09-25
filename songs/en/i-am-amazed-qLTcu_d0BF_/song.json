@@ -1,0 +1,96 @@
+{
+  "id": "qLTcu_d0BF_",
+  "title": "I Am Amazed",
+  "writer": "Matt Voss",
+  "year": 2002,
+  "themes": "Grace, Trust, Adoration, Faith",
+  "key": "G",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "pJSl6ITVvG4",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Matt Voss"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Matt Voss"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Matt Voss"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Matt Voss"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Matt Voss"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "VERSE 1",
+        "lyric": 1
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 2
+      },
+      {
+        "label": "TAG 1",
+        "lyric": 3
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 4
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 5
+      },
+      {
+        "label": "TAG 2",
+        "lyric": 6
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 7
+      },
+      {
+        "label": "TAG 2",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "VERSE 1",
+      "CHORUS",
+      "TAG 1",
+      "VERSE 2",
+      "CHORUS",
+      "TAG 2",
+      "CHORUS",
+      "TAG 2"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.m4a"
+  }
+}

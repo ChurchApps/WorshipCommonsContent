@@ -1,0 +1,92 @@
+{
+  "id": "fQHOwzKwjr2",
+  "title": "Heavenly Places",
+  "writer": "Michael Erhart",
+  "year": 2017,
+  "themes": "",
+  "key": "C",
+  "bpm": 128,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Ephesians 2:6",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "kBL4kaMXVV8",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Michael Erhart"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Michael Erhart"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Michael Erhart"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Michael Erhart"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Michael Erhart"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge 1",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 6
+      },
+      {
+        "label": "Bridge 2",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus 1",
+      "Verse 2",
+      "Chorus 1",
+      "Bridge 1",
+      "Chorus 2",
+      "Bridge 2"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.m4a",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
