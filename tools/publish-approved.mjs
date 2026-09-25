@@ -8,9 +8,12 @@
 //    newer one. Nothing else is pulled — never `sync.mjs pull` wholesale.
 // 2. Pulls song.json + sources/ of those packages (sources/ with --delete: for an approved package the bucket is
 //    the master).
-// 3. node tools/generate.mjs <pkg>, then python tools/pack/build.py <pkg> (a no-op without a granted master).
+// 3. node tools/generate.mjs <pkg>, then python tools/pack/build.py <pkg> (a no-op without a granted master), then
+//    python tools/harvest/align-vocal-timings.py <pkg>: sources/timing.json from the recording's vocals, so Lead
+//    Worship waits out the intro (skipped without a master or when the words do not match the singing).
 // 4. build-catalog + validate. A failure stops here with nothing uploaded; `git checkout -- songs` undoes the pull.
-// 5. Pushes each package's output/ (--delete: output/ is rebuildable by definition).
+// 5. Pushes each package's output/ (--delete: output/ is rebuildable by definition), and sources/timing.json with the
+//    manifest that lists it.
 // 6. The API registers the new files so the site serves them: its 30-minute timer does it for every song approved in
 //    the last week, or right away with COMMONS_TOKEN set (POST /commons/admin/sync-output).
 // 7. Commits the packages, catalog.json and the new stamp. Does not push the commit.
@@ -114,11 +117,17 @@ async function main() {
     run("node", ["tools/generate.mjs", d]);
     // a pack is optional: build.py refuses (and says why) when there is no master or no recording grant
     run(PYTHON, ["tools/pack/build.py", d], { allowFail: true });
+    run(PYTHON, ["tools/harvest/align-vocal-timings.py", d], { allowFail: true });
   }
   run("node", ["tools/build-catalog.mjs"]);
   run("node", ["tools/validate.mjs"]);
 
-  for (const d of dirs) aws(["s3", "sync", path.join(ROOT, d, "output"), `${BUCKET}/${d}/output`, "--delete", "--only-show-errors"]);
+  for (const d of dirs) {
+    aws(["s3", "sync", path.join(ROOT, d, "output"), `${BUCKET}/${d}/output`, "--delete", "--only-show-errors"]);
+    // the one file this job adds to sources/; the manifest row came with it
+    if (fs.existsSync(path.join(ROOT, d, "sources", "timing.json")))
+      for (const f of ["timing.json", "manifest.json"]) aws(["s3", "cp", path.join(ROOT, d, "sources", f), `${BUCKET}/${d}/sources/${f}`, "--content-type", "application/json", "--only-show-errors"]);
+  }
   if (TOKEN) {
     const registered = await syncOutput(dirs.map(d => d.slice(-11)));
     for (const [id, r] of Object.entries(registered)) console.log(`  ${id}: ${r ? `+${r.added} -${r.removed} files` : "no pipeline package in the API — check it by hand"}`);
