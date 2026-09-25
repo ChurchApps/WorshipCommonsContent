@@ -131,15 +131,23 @@ export function writeHarvested(dir, harvested) {
   if (fs.existsSync(legacy)) fs.unlinkSync(legacy);
 }
 
-export const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|estrofa|coro|estribillo|strophe|kehrvers)\b/i;
+// "Chorus3" counts too: the heading word may run straight into its number
+export const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|estrofa|coro|estribillo|strophe|kehrvers)(?:\b|(?=\d))/i;
+const COMMENT_DIRECTIVE = /^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$/i;
+// "Verse 1:" and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"
+const tidyLabel = label => label.replace(/:(?=\s|$)/g, "").replace(/\s+/g, " ").trim();
 
-// A stanza label: a known heading ("Verse 2", "Chorus") or, as writers often chart it, any chord-free line wholly in
-// parentheses ("(Chorus x2)", "(Intro/Instrumental)", "(Turnaround)") — labelled by the text inside. Null for a lyric.
+// A stanza label: a known heading ("Verse 2", "Chorus3", "Verse 1:"), a ChordPro comment ("{c: Intro}"), or, as
+// writers often chart it, any chord-free line wholly in parentheses ("(Chorus x2)", "(Intro/Instrumental)") —
+// labelled by the text inside, without a trailing colon. Null for a lyric. The API's DuplicateHelper.sectionLabel
+// and the site's chordpro.ts sectionLabel apply the same rule.
 export function sectionLabelOf(line) {
+  const comment = line.match(COMMENT_DIRECTIVE);
+  if (comment) return tidyLabel(comment[1]) || null;
   const plain = line.replace(/\[[^\]]*\]/g, "").trim();
   const paren = !/\[[^\]]+\]/.test(line) && plain.match(/^\((.+)\)$/);
-  if (paren) return paren[1].trim();
-  return SECTION_LABEL.test(plain) ? plain : null;
+  if (paren) return tidyLabel(paren[1]);
+  return SECTION_LABEL.test(plain) ? tidyLabel(plain) : null;
 }
 
 // The copyright notice the writer publishes, verbatim (song.json `copyright`, one line per notice —
@@ -190,8 +198,8 @@ export function parseChordproStanzas(body) {
   for (const raw of body.split("\n")) {
     const line = raw.replace(/\s+$/, "");
     if (!line.trim()) { push(); continue; }
-    if (/^\s*\{/.test(line)) continue; // {c: Mary} and other directives are cues, not lyrics (the site drops them too)
     const label = !/\[[^\]]+\]/.test(line) && sectionLabelOf(line);
+    if (!label && /^\s*\{/.test(line)) continue; // {c: Mary} and other directives are cues, not lyrics (the site drops them too)
     if (label) {
       push();
       cur = { label, lines: [] };
