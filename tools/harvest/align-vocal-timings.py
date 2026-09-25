@@ -10,7 +10,8 @@ from the vocal track instead.
   python tools/harvest/align-vocal-timings.py --only "Christ Alive in Me"
   python tools/harvest/align-vocal-timings.py --force
 
-The recording is the package's sources/master/ file (any format); when pack/build.py
+The recording is the package's sources/master/ file (any format), else the writer's
+demo (sources/demoAudio.*); when pack/build.py
 has separated it, the cached vocal stem is transcribed instead (no band under the
 words). English uses small.en, other languages the multilingual small model with
 the language from the package folder. tools/publish-approved.mjs runs this for every
@@ -229,13 +230,17 @@ AUDIO_EXT = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".aiff", ".aif", ".opus"}
 
 
 def package_mp3(dir: Path, song: dict) -> Path | None:
-    """The package's recording: sources/master/<demoAudio> if named, else the one audio file there."""
-    master = dir / "sources" / "master"
+    """The recording Lead Worship plays: the master in sources/master/, else the writer's demo (sources/demoAudio.*)."""
+    src, master = dir / "sources", dir / "sources" / "master"
     name = (song.get("uploads") or {}).get("demoAudio")
-    if name and (master / name).exists():
-        return master / name
+    for p in ([master / name, src / name] if name else []):
+        if p.exists():
+            return p
     for p in sorted(master.glob("*")) if master.exists() else []:
         if p.is_file() and p.suffix.lower() in AUDIO_EXT:
+            return p
+    for p in sorted(src.glob("demoAudio.*")):
+        if p.suffix.lower() in AUDIO_EXT:
             return p
     return None
 
