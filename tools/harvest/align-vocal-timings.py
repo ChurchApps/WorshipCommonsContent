@@ -36,6 +36,14 @@ SECTION_HEADING = re.compile(
     r"intro(?:duction)?|outro|tag|interlude|ending|coda|instrumental)$",
     re.I,
 )
+# tools/lib.mjs SECTION_LABEL: a heading word at the start ("Chorus3", "CHORUS (2x)")
+LABEL_START = re.compile(r"^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|instrumental)(?:\b|(?=\d))", re.I)
+COMMENT_DIRECTIVE = re.compile(r"^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$", re.I)
+
+
+def tidy_label(label: str) -> str:
+    """"Verse 1:" and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"."""
+    return re.sub(r"\s+", " ", re.sub(r":(?=\s|$)", "", label)).strip()
 CHORD = re.compile(r"\[[^\]]*\]")
 TODAY = date.today().isoformat()
 
@@ -45,21 +53,26 @@ def norm(w: str) -> str:
 
 
 def label_of(line: str) -> str | None:
-    """A stanza label (tools/lib.mjs sectionLabelOf): a known heading, or a chord-free line wholly in parentheses
-    ("(Chorus x2)"), labelled by the text inside. None for a sung line."""
+    """A stanza label (tools/lib.mjs sectionLabelOf): a known heading ("Chorus3", "Verse 1:"), a ChordPro comment
+    ("{c: Intro}"), or a chord-free line wholly in parentheses ("(Chorus x2)"), labelled by the text inside without a
+    trailing colon. None for a sung line."""
+    comment = COMMENT_DIRECTIVE.match(line)
+    if comment:
+        return tidy_label(comment.group(1)) or None
     plain = CHORD.sub("", line).strip()
     if not CHORD.search(line):
         m = re.fullmatch(r"\((.+)\)", plain)
         if m:
-            return m.group(1).strip()
-    return plain if SECTION_HEADING.match(plain) else None
+            return tidy_label(m.group(1))
+    return tidy_label(plain) if LABEL_START.match(plain) else None
 
 
 def parse_stanzas(chordpro: str) -> list[dict]:
     blocks = re.split(r"\r?\n\s*\r?\n", chordpro or "")
     stanzas: list[dict] = []
     for block in blocks:
-        lines = [ln for ln in block.splitlines() if ln.strip() and not ln.strip().startswith("{")]
+        # {directives} are cues, not lyrics — except a {c: Chorus} comment, which labels its stanza
+        lines = [ln for ln in block.splitlines() if ln.strip() and (not ln.strip().startswith("{") or label_of(ln))]
         if not lines:
             continue
         # a block that opens with a sung line has no label: never spend a lyric on one
