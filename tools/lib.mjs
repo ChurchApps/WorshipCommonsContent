@@ -443,7 +443,7 @@ export function writeManifest(dir, provenance = {}, { urls = {}, notes = {}, bas
   return files;
 }
 
-// harvest importers: write a new song in the three-folder layout
+// harvest importers: write a new song in the package layout (song.json at the root, lyrics in sources/)
 export function writeNewSong(dir, { song, body, files = {}, urls = {} }) {
   ensurePkgDirs(dir);
   const { masters, harvested, provenance } = splitHarvested(song);
@@ -452,8 +452,8 @@ export function writeNewSong(dir, { song, body, files = {}, urls = {} }) {
     const form = draftForm(splitChordpro(lyrics).body);
     if (form) masters.form = form;
   }
-  writeJson(path.join(dir, "masters", "song.json"), orderSong(masters));
-  fs.writeFileSync(path.join(dir, "masters", "lyrics.chordpro"), lyrics);
+  writeJson(songJsonPath(dir), orderSong(masters));
+  fs.writeFileSync(path.join(dir, "sources", "lyrics.chordpro"), lyrics);
   for (const [name, src] of Object.entries(files)) {
     if (!src || !fs.existsSync(src)) continue;
     fs.copyFileSync(src, path.join(dir, "sources", name));
