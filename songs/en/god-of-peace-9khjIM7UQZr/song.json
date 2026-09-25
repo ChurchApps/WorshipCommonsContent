@@ -1,0 +1,103 @@
+{
+  "id": "9khjIM7UQZr",
+  "title": "God of Peace",
+  "writer": "Wendell Paul Angeles Salumbides",
+  "year": 2024,
+  "themes": "Adoration, Cross, Faith, Grace, Hope, Trust, Comfort",
+  "key": "Eb",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "John 20:19-22",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "db8lgKs9ATp",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Wendell Paul Angeles Salumbides, Jessa Mury Bonita, Jairah Mercado & Joycey de Leon"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Wendell Paul Angeles Salumbides, Jessa Mury Bonita, Jairah Mercado & Joycey de Leon"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Wendell Paul Angeles Salumbides, Jessa Mury Bonita, Jairah Mercado & Joycey de Leon"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Wendell Paul Angeles Salumbides, Jessa Mury Bonita, Jairah Mercado & Joycey de Leon"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus 1:",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1:",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2:",
+        "lyric": 3
+      },
+      {
+        "label": "Pre-Chorus 1:",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus 2:",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 3:",
+        "lyric": 6
+      },
+      {
+        "label": "Pre-Chorus 2:",
+        "lyric": 7
+      },
+      {
+        "label": "Bridge:",
+        "lyric": 8
+      },
+      {
+        "label": "Chorus 4:",
+        "lyric": 9
+      },
+      {
+        "label": "Chorus 5:",
+        "lyric": 10
+      }
+    ],
+    "defaultOrder": [
+      "Chorus 1:",
+      "Verse 1:",
+      "Verse 2:",
+      "Pre-Chorus 1:",
+      "Chorus 2:",
+      "Verse 3:",
+      "Pre-Chorus 2:",
+      "Bridge:",
+      "Chorus 4:",
+      "Chorus 5:"
+    ]
+  },
+  "publishedKeys": [
+    "Eb"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

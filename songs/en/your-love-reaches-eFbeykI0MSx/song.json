@@ -1,0 +1,48 @@
+{
+  "id": "eFbeykI0MSx",
+  "title": "Your Love Reaches",
+  "writer": "Words by Joy Marquéz • Music by Doug Gregan",
+  "year": 1999,
+  "themes": "Grace",
+  "key": "F",
+  "bpm": 115,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Philippians 3:9, Romans 8:1",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "cIBGGuImiRy",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+    },
+    "artwork": null
+  },
+  "form": null,
+  "publishedKeys": [
+    "F"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

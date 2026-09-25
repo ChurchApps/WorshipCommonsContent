@@ -1,0 +1,48 @@
+{
+  "id": "uisFZtyY4Ai",
+  "title": "I'm Going To Praise You",
+  "writer": "Doug Gregan",
+  "year": 1994,
+  "themes": "Praise, Cross",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 29",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "cIBGGuImiRy",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Doug Gregan"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Doug Gregan"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Doug Gregan"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Doug Gregan"
+    },
+    "artwork": null
+  },
+  "form": null,
+  "publishedKeys": [
+    "F"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
