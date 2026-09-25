@@ -11,14 +11,15 @@
 // 3. node tools/generate.mjs <pkg>, then python tools/pack/build.py <pkg> (a no-op without a granted master).
 // 4. build-catalog + validate. A failure stops here with nothing uploaded; `git checkout -- songs` undoes the pull.
 // 5. Pushes each package's output/ (--delete: output/ is rebuildable by definition).
-// 6. POST /commons/admin/sync-output so the API registers the new files and the site serves them.
+// 6. The API registers the new files so the site serves them: its 30-minute timer does it for every song approved in
+//    the last week, or right away with COMMONS_TOKEN set (POST /commons/admin/sync-output).
 // 7. Commits the packages, catalog.json and the new stamp. Does not push the commit.
 //
 // Needs: the AWS CLI with bucket credentials; python for scores and packs; a checkout whose output/ is complete
 // (build-catalog reads every package's output/ — run generate.mjs first on a fresh clone).
 // Env: WC_CONTENT_BUCKET (default s3://churchapps-content/commons), COMMONS_API (default
-// https://api.churchapps.org/commons), COMMONS_TOKEN — a server-admin JWT for the Commons API (B1 Admin's
-// CommonsApi token); not needed with --dry.
+// https://api.churchapps.org/commons), COMMONS_TOKEN — optional server-admin JWT (B1 Admin's CommonsApi token)
+// to register the files now instead of on the API's next 30-minute timer.
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -92,7 +93,6 @@ async function main() {
 
   const dirty = run("git", ["status", "--porcelain", "--", "songs", "catalog.json", "tools/publish-approved.json"], { capture: true }).stdout.trim();
   if (dirty && !dry) throw new Error(`uncommitted changes under songs/ or catalog.json — commit or stash them first:\n${dirty}`);
-  if (!TOKEN && !dry) throw new Error("COMMONS_TOKEN is not set (a server-admin JWT for the Commons API)");
 
   const { dirs, legacy } = changedPackages(since);
   console.log(`approved since ${since.toISOString()}: ${dirs.length} package(s)`);
@@ -119,9 +119,10 @@ async function main() {
   run("node", ["tools/validate.mjs"]);
 
   for (const d of dirs) aws(["s3", "sync", path.join(ROOT, d, "output"), `${BUCKET}/${d}/output`, "--delete", "--only-show-errors"]);
-  const ids = dirs.map(d => d.slice(-11));
-  const registered = await syncOutput(ids);
-  for (const [id, r] of Object.entries(registered)) console.log(`  ${id}: ${r ? `+${r.added} -${r.removed} files` : "no pipeline package in the API — check it by hand"}`);
+  if (TOKEN) {
+    const registered = await syncOutput(dirs.map(d => d.slice(-11)));
+    for (const [id, r] of Object.entries(registered)) console.log(`  ${id}: ${r ? `+${r.added} -${r.removed} files` : "no pipeline package in the API — check it by hand"}`);
+  } else console.log("output/ pushed; the API registers it within 30 minutes (set COMMONS_TOKEN to do it now)");
 
   fs.writeFileSync(STATE, JSON.stringify({ since: startedAt.toISOString() }, null, 2) + "\n");
   if (noCommit) return console.log("done; not committed (--no-commit)");
