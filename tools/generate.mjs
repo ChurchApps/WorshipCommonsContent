@@ -69,7 +69,6 @@ function durationOf(song, stanzas, existingTiming, dir) {
 
 export function generateSong(dir, { sources }) {
   const song = readSong(dir);
-  if (song.submittedBy) return { skipped: true };
   ensurePkgDirs(dir);
   const out = name => path.join(dir, "output", "composition", name);
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
