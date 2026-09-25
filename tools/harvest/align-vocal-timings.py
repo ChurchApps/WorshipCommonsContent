@@ -37,7 +37,7 @@ SECTION_HEADING = re.compile(
     re.I,
 )
 # tools/lib.mjs SECTION_LABEL: a heading word at the start ("Chorus3", "CHORUS (2x)")
-LABEL_START = re.compile(r"^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|instrumental)(?:\b|(?=\d))", re.I)
+LABEL_START = re.compile(r"^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|interlude|instrumental|turnaround)(?:\b|(?=\d))", re.I)
 COMMENT_DIRECTIVE = re.compile(r"^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$", re.I)
 
 
