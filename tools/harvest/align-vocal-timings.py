@@ -6,11 +6,18 @@ does not share, so Lead worship drifted 10–15s. This stamps sources/timing.jso
 from the vocal track instead.
 
   python tools/harvest/align-vocal-timings.py
+  python tools/harvest/align-vocal-timings.py songs/en/current-pEDCgbBehcH
   python tools/harvest/align-vocal-timings.py --only "Christ Alive in Me"
   python tools/harvest/align-vocal-timings.py --force
 
-Needs: faster-whisper (small.en), and the MP3 on disk. Skips a song rather than
-write a bad file when too few lyric words match the transcription.
+The recording is the package's sources/master/ file (any format); when pack/build.py
+has separated it, the cached vocal stem is transcribed instead (no band under the
+words). English uses small.en, other languages the multilingual small model with
+the language from the package folder. tools/publish-approved.mjs runs this for every
+approved song with a master.
+
+Needs: faster-whisper, ffprobe. Skips a song rather than write a bad file when too
+few lyric words match the transcription.
 """
 from __future__ import annotations
 
@@ -74,8 +81,8 @@ def lyric_tokens(stanzas: list[dict]) -> list[dict]:
     return tokens
 
 
-def transcribe(model, mp3: Path) -> list[dict]:
-    segs, _ = model.transcribe(str(mp3), language="en", word_timestamps=True, vad_filter=False)
+def transcribe(model, mp3: Path, lang: str) -> list[dict]:
+    segs, _ = model.transcribe(str(mp3), language=lang, word_timestamps=True, vad_filter=False)
     out = []
     for seg in segs:
         for w in seg.words or []:
@@ -218,15 +225,36 @@ def stamp_manifest(src: Path, timing: Path) -> None:
     man_path.write_text(json.dumps(man, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
 
 
+AUDIO_EXT = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".aiff", ".aif", ".opus"}
+
+
 def package_mp3(dir: Path, song: dict) -> Path | None:
+    """The package's recording: sources/master/<demoAudio> if named, else the one audio file there."""
+    master = dir / "sources" / "master"
     name = (song.get("uploads") or {}).get("demoAudio")
-    if name:
-        p = dir / "sources" / "master" / name
-        if p.exists():
+    if name and (master / name).exists():
+        return master / name
+    for p in sorted(master.glob("*")) if master.exists() else []:
+        if p.is_file() and p.suffix.lower() in AUDIO_EXT:
             return p
-    for p in (dir / "sources" / "master").glob("*.mp3") if (dir / "sources" / "master").exists() else []:
+    return None
+
+
+def vocal_stem(dir: Path) -> Path | None:
+    """pack/build.py's separated vocals for this package, when its cache still holds them (same timeline as the master)."""
+    for p in sorted((ROOT / "tools" / ".cache" / "pack" / dir.name / "stems_out").glob("*_vocals.*")):
         return p
     return None
+
+
+def whisper_for(lang: str, holder: dict):
+    """small.en for English, the multilingual small model for anything else; each loaded once."""
+    key = "small.en" if lang == "en" else "small"
+    if key not in holder:
+        print(f"  loading whisper {key}…")
+        from faster_whisper import WhisperModel
+        holder[key] = WhisperModel(key, device="cpu", compute_type="int8")
+    return holder[key]
 
 
 def lyrics_body(dir: Path) -> str:
@@ -245,7 +273,7 @@ def lyrics_body(dir: Path) -> str:
     return "\n".join(lines[i:])
 
 
-def process(dir: Path, song: dict, model_holder: list, force: bool) -> str:
+def process(dir: Path, song: dict, model_holder: dict, force: bool) -> str:
     timing_path = dir / "sources" / "timing.json"
     if timing_path.exists() and not force:
         data = json.loads(timing_path.read_text(encoding="utf-8"))
@@ -260,12 +288,9 @@ def process(dir: Path, song: dict, model_holder: list, force: bool) -> str:
     sung = [t for t in tokens if not t["dir"]]
     if len(sung) < 8:
         return "too-few-lyrics"
-    if not model_holder:
-        print("  loading whisper small.en…")
-        from faster_whisper import WhisperModel
-        model_holder.append(WhisperModel("small.en", device="cpu", compute_type="int8"))
+    lang = dir.parent.name  # songs/<lang>/<slug>-<id>
     dur = mp3_duration(mp3)
-    asr = transcribe(model_holder[0], mp3)
+    asr = transcribe(whisper_for(lang, model_holder), vocal_stem(dir) or mp3, lang)
     if len(asr) < 8:
         return "no-asr"
     mapped = align(tokens, asr)
@@ -284,12 +309,14 @@ def process(dir: Path, song: dict, model_holder: list, force: bool) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("target", nargs="?", help="one song package (songs/<lang>/<slug>-<id>); default every package")
     ap.add_argument("--only", help="song title substring")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
-    model_holder: list = []
+    model_holder: dict = {}
     stats: dict[str, int] = {}
-    for song_path in sorted((ROOT / "songs").glob("*/*/song.json")):
+    paths = [Path(args.target).resolve() / "song.json"] if args.target else sorted((ROOT / "songs").glob("*/*/song.json"))
+    for song_path in paths:
         if not song_path.exists():
             continue
         song = json.loads(song_path.read_text(encoding="utf-8"))
