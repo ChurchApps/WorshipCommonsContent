@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "file": "art.png",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "vroQDo4ojZs",
+      "submission": "i9qf_DrXm7W",
+      "note": null
+    },
+    {
+      "file": "demoAudio.m4a",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "vroQDo4ojZs",
+      "submission": "i9qf_DrXm7W",
+      "note": null
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": "d286de767a88a7afaae1346345b1038bdfa1a8dde5b53b1a79b1131f01d03ac5",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

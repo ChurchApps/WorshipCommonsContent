@@ -1,0 +1,101 @@
+{
+  "id": "6YNGyBUZ6cX",
+  "title": "By Our Side",
+  "writer": "Dustin Kleinschmidt",
+  "year": 2025,
+  "themes": "Adoration, Praise, Sending",
+  "key": "A",
+  "bpm": 103,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Exodus 33:14–15",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "vroQDo4ojZs",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Dustin Kleinschmidt"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Dustin Kleinschmidt"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Dustin Kleinschmidt"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Dustin Kleinschmidt"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Dustin Kleinschmidt"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "(Intro)",
+        "lyric": 1
+      },
+      {
+        "label": "(Verse 1)",
+        "lyric": 2
+      },
+      {
+        "label": "(Chorus)",
+        "lyric": 3
+      },
+      {
+        "label": "(Turnaround)",
+        "lyric": 4
+      },
+      {
+        "label": "(Verse 2)",
+        "lyric": 5
+      },
+      {
+        "label": "(Chorus x2)",
+        "lyric": 6
+      },
+      {
+        "label": "(Bridge)",
+        "lyric": 7
+      },
+      {
+        "label": "When the music fades   Still by our side",
+        "lyric": 8
+      },
+      {
+        "label": "(Chorus x2)",
+        "lyric": 9
+      }
+    ],
+    "defaultOrder": [
+      "(Intro)",
+      "(Verse 1)",
+      "(Chorus)",
+      "(Turnaround)",
+      "(Verse 2)",
+      "(Chorus x2)",
+      "(Bridge)",
+      "When the music fades   Still by our side",
+      "(Chorus x2)"
+    ]
+  },
+  "publishedKeys": [
+    "A"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.m4a"
+  }
+}
