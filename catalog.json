@@ -9841,7 +9841,7 @@
       "certified": true,
       "midiUrl": "songs/en/current-pEDCgbBehcH/output/composition/score.mid",
       "midiBytes": 26290,
-      "lyricsUrl": null,
+      "lyricsUrl": "songs/en/current-pEDCgbBehcH/sources/timing.json",
       "abcUrl": null,
       "videoUrl": null,
       "artUrl": null,

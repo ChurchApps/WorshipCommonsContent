@@ -40,6 +40,18 @@
       "license": "CC-BY",
       "obtainedVia": "upload-form",
       "evidence": "grants/recording-LfDn14FOiEr.txt"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": "9ef8db4c21074318dd58ddcdc75b289ce85e5e9a8350b14fe34ee1f929f84fd7",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
     }
   ]
 }
