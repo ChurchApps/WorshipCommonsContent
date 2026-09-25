@@ -26,6 +26,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { spawnSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -52,20 +53,28 @@ function run(cmd, cmdArgs, { capture = false, allowFail = false } = {}) {
 // no shell: arguments (keys with spaces, the JMESPath query) reach the CLI verbatim
 const aws = (a, opts) => run("aws", a, opts);
 
-/** Package dirs (songs/<lang>/<slug>-<id>) whose bucket song.json is newer than `since`, plus pre-2026-09 ones found. */
+/**
+ * Package dirs (songs/<lang>/<slug>-<id>) whose bucket song.json is newer than `since` and differs from the committed
+ * one, plus pre-2026-09 ones found, and the newest LastModified seen — the next stamp, in S3's clock, not this one's.
+ */
 function changedPackages(since) {
   const [, bucket, prefix = ""] = BUCKET.match(/^s3:\/\/([^/]+)\/?(.*)$/);
   const pre = prefix ? `${prefix}/` : "";
-  const out = aws(["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${pre}songs/`, "--query", "Contents[?ends_with(Key, 'song.json')].[Key,LastModified]", "--output", "json"], { capture: true }).stdout;
+  const out = aws(["s3api", "list-objects-v2", "--bucket", bucket, "--prefix", `${pre}songs/`, "--query", "Contents[?ends_with(Key, 'song.json')].[Key,LastModified,ETag]", "--output", "json"], { capture: true }).stdout;
   const rows = JSON.parse(out || "null") || [];
   const dirs = [], legacy = [];
-  for (const [key, modified] of rows) {
+  let newest = since;
+  for (const [key, modified, etag] of rows) {
     if (new Date(modified) <= since) continue;
+    if (new Date(modified) > newest) newest = new Date(modified);
     const rel = key.slice(pre.length);
+    const local = path.join(ROOT, rel);
+    // an edit this checkout already holds (pushed from here, or a clock-skewed stamp) is nothing to publish
+    if (fs.existsSync(local) && `"${createHash("md5").update(fs.readFileSync(local)).digest("hex")}"` === etag) continue;
     if (rel.endsWith("/masters/song.json")) legacy.push(rel.replace(/\/masters\/song\.json$/, ""));
     else if (/^songs\/[^/]+\/[^/]+\/song\.json$/.test(rel)) dirs.push(rel.replace(/\/song\.json$/, ""));
   }
-  return { dirs: dirs.sort(), legacy };
+  return { dirs: dirs.sort(), legacy, newest };
 }
 
 function missingOutput(except) {
@@ -92,12 +101,11 @@ async function syncOutput(ids) {
 async function main() {
   const state = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, "utf8")) : {};
   const since = new Date(sinceArg || state.since || 0);
-  const startedAt = new Date();
 
   const dirty = run("git", ["status", "--porcelain", "--", "songs", "catalog.json", "tools/publish-approved.json"], { capture: true }).stdout.trim();
   if (dirty && !dry) throw new Error(`uncommitted changes under songs/ or catalog.json — commit or stash them first:\n${dirty}`);
 
-  const { dirs, legacy } = changedPackages(since);
+  const { dirs, legacy, newest } = changedPackages(since);
   console.log(`approved since ${since.toISOString()}: ${dirs.length} package(s)`);
   for (const d of dirs) console.log(`  ${d}`);
   for (const d of legacy) console.warn(`  SKIPPED ${d}: pre-2026-09 layout (masters/). Move it into songs/<lang>/<slug>-<id>/ by hand.`);
@@ -135,7 +143,7 @@ async function main() {
     for (const [id, r] of Object.entries(registered)) console.log(`  ${id}: ${r ? `+${r.added} -${r.removed} files` : "no pipeline package in the API — check it by hand"}`);
   } else console.log("output/ pushed; the API registers it within 30 minutes (set COMMONS_TOKEN to do it now)");
 
-  fs.writeFileSync(STATE, JSON.stringify({ since: startedAt.toISOString() }, null, 2) + "\n");
+  fs.writeFileSync(STATE, JSON.stringify({ since: newest.toISOString() }, null, 2) + "\n");
   if (noCommit) return console.log("done; not committed (--no-commit)");
   run("git", ["add", "--", ...dirs, "catalog.json", "tools/publish-approved.json"]);
   const titles = dirs.map(d => JSON.parse(fs.readFileSync(path.join(ROOT, d, "song.json"), "utf8")).title);
