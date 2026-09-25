@@ -385,8 +385,10 @@ def main() -> int:
         try:
             print(f"  {build(pkg, song, master, args.force, args.format)}", flush=True)
             print(f"  {write_audio_zip(pkg, master)}", flush=True)
-            # chords: the writer's chart when the harvest found one, else derived from the sketch MIDI
-            run([sys.executable, str(HERE / "derive_chords.py"), str(pkg), "--write"], dict(os.environ))
+            # chords: the writer's chart when the harvest found one, else derived from the sketch MIDI. A song approved
+            # through the site keeps its writer's chart as approved — the database holds it; the pack never rewrites it
+            if not song.get("submittedBy"):
+                run([sys.executable, str(HERE / "derive_chords.py"), str(pkg), "--write"], dict(os.environ))
             # the sketch score and any derived chords belong in composition.zip: rebuild it
             run(["node", str(ROOT / "tools" / "generate.mjs"), str(pkg)], dict(os.environ))
             built += 1
