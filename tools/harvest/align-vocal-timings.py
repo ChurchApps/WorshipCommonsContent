@@ -38,6 +38,7 @@ SECTION_HEADING = re.compile(
 )
 # tools/lib.mjs SECTION_LABEL: a heading word at the start ("Chorus3", "CHORUS (2x)")
 LABEL_START = re.compile(r"^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|interlude|instrumental|turnaround)(?:\b|(?=\d))", re.I)
+REPEAT_MARK = re.compile(r"^\(?\s*(?:x\s*\d+|\d+\s*x|repeat\b.*)\s*\)?$", re.I)
 COMMENT_DIRECTIVE = re.compile(r"^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$", re.I)
 
 
@@ -104,7 +105,8 @@ def lyric_tokens(stanzas: list[dict]) -> list[dict]:
     tokens = []
     for si, st in enumerate(stanzas):
         for li, line in enumerate(st["lines"]):
-            if line.strip().startswith("(") and line.strip().endswith(")"):
+            # a stage direction in parentheses, or a repeat mark ("4x", "x2", "Repeat"): not sung
+            if (line.strip().startswith("(") and line.strip().endswith(")")) or REPEAT_MARK.match(CHORD.sub("", line).strip()):
                 tokens.append({"si": si, "li": li, "text": line.strip(), "n": "", "dir": True})
                 continue
             for w in CHORD.sub("", line).split():
