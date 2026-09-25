@@ -35,11 +35,14 @@ function writeIfChanged(file, data) {
   return true;
 }
 
+// "4x", "x2", "(2x)", "Repeat": a direction for the band, not words for the room (the site's slides.ts too)
+const REPEAT_MARK = /^\(?\s*(?:x\s*\d+|\d+\s*x|repeat\b.*)\s*\)?$/i;
+
 function slidesOf(stanzas) {
   return {
     slides: stanzas.map(st => ({
       label: st.label || "Verse",
-      lines: st.lines.map(stripChords).filter(Boolean)
+      lines: st.lines.map(stripChords).filter(l => l && !REPEAT_MARK.test(l.trim()))
     })).filter(s => s.lines.length)
   };
 }
