@@ -57,22 +57,27 @@
         "lyric": 3
       },
       {
-        "label": "Verse 3",
+        "label": "Instrumental",
         "lyric": 4
       },
       {
-        "label": "Verse 1",
+        "label": "Verse 3",
         "lyric": 5
       },
       {
-        "label": "Tag",
+        "label": "Verse 1",
         "lyric": 6
+      },
+      {
+        "label": "Tag",
+        "lyric": 7
       }
     ],
     "defaultOrder": [
       "Intro",
       "Verse 1",
       "Verse 2",
+      "Instrumental",
       "Verse 3",
       "Verse 1",
       "Tag"

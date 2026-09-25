@@ -1,17 +1,6 @@
 {
   "files": [
     {
-      "file": "output/composition/cover-thumb.webp",
-      "url": null,
-      "acquired": "2026-09-25",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "ozIW4dgu7Wi",
-      "submission": "vfSSM012zXb",
-      "note": null
-    },
-    {
       "file": "art.webp",
       "url": null,
       "acquired": "2026-09-25",
@@ -37,7 +26,7 @@
       "file": "timing.json",
       "url": null,
       "acquired": "2026-09-25",
-      "sha256": "102b7a84d6c791573d0f10c3824e48965cac7c0982a2538d70faf716e7ff3909",
+      "sha256": "d66fb721332acc22ba8ceb9db876e87e57484a332f1ad4c08adf72b17ff6f42e",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,
