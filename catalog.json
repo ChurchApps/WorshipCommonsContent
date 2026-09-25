@@ -10414,7 +10414,7 @@
     {
       "id": "RP9CdLBwpa1",
       "title": "Doxology",
-      "writer": "Thomas Ken",
+      "writer": "Thomas Ken, Jonathan Allen Wright",
       "year": 2020,
       "themes": "Adoration, Communion, Praise",
       "songKey": "C",
@@ -10432,7 +10432,7 @@
       "confidence": "chart-only",
       "churchCount": 0,
       "hymnalCount": 0,
-      "chordPro": "Intro\n[C]\n\nVerse 1\nPraise God from whom all  [Am]bless-ings [Gsus][C]flow\nPraise Him all creatures [F]here [Gsus]below\n[Am]Praise Him above ye [F]heavenly [G][Am]hosts\nPraise [F]Father, Son and [Gsus]Holy [Am]Ghost\nInstrumental\n[F] | [Gsus] | [C]\n\nVerse 2\nPraise God who made the earth and sky\nPraise Him in the day and night\nPraise Him for our heavenly home\nOh praise Him for the gifts below\n\nInstrumental\n\nVerse 3\nArise oh sleeper oh arise\nChrist has bought you with a price\nPraise Him for He has come and died\nTo resurrect and bring new life\n\nVerse 1\n\nTag\nPraise [F]Father, Son and [Gsus]Holy [Am]Ghost\n[F][C]A-men",
+      "chordPro": "Intro\n[C]\n\nVerse 1\nPraise God from whom all  [Am]bless-ings [Gsus] [C]flow\nPraise Him all creatures [F]here [Gsus]below\n[Am]Praise Him above ye [F]heavenly [G] [Am]hosts\nPraise [F]Father, Son and [Gsus]Holy [Am]Ghost\nInstrumental\n[F] [Gsus] [C]\n\nVerse 2\nPraise God who made the earth and sky\nPraise Him in the day and night\nPraise Him for our heavenly home\nOh praise Him for the gifts below\n\nInstrumental\n\nVerse 3\nArise oh sleeper oh arise\nChrist has bought you with a price\nPraise Him for He has come and died\nTo resurrect and bring new life\n\nVerse 1\n\nTag\nPraise [F]Father, Son and [Gsus]Holy [Am]Ghost\n[F] [C]A-men",
       "parentSongId": null,
       "relationLabel": null,
       "status": "approved",
@@ -10456,7 +10456,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/doxology-RP9CdLBwpa1/output/composition.zip",
-      "compositionZipBytes": 2604,
+      "compositionZipBytes": 2650,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []
