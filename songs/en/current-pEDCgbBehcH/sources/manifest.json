@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "file": "art.jpg",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "dQEGhRzHeJo",
+      "submission": "LfDn14FOiEr",
+      "note": null
+    },
+    {
+      "file": "master/master.wav",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "dQEGhRzHeJo",
+      "submission": "LfDn14FOiEr",
+      "note": null,
+      "layer": "recording",
+      "license": "CC-BY",
+      "obtainedVia": "upload-form",
+      "evidence": "grants/recording-LfDn14FOiEr.txt"
+    },
+    {
+      "file": "grants/recording-LfDn14FOiEr.txt",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": "e2af15792d7da34116b81e977d641469608e7251c6f5773a0962454f71284893",
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "dQEGhRzHeJo",
+      "submission": "LfDn14FOiEr",
+      "note": null,
+      "layer": "grant",
+      "license": "CC-BY",
+      "obtainedVia": "upload-form",
+      "evidence": "grants/recording-LfDn14FOiEr.txt"
+    }
+  ]
+}

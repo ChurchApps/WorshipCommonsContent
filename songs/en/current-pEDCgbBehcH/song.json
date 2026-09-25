@@ -1,0 +1,106 @@
+{
+  "id": "pEDCgbBehcH",
+  "title": "Current",
+  "writer": "EZTHER J",
+  "year": 2025,
+  "themes": "Assurance, Comfort, Hope, Return, Trust, Scripture, Salvation, Praise, Providence, Faith, Peace",
+  "key": "F",
+  "bpm": 90,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 91:4, Isaiah 43:2",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "dQEGhRzHeJo",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "EZTHER J"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "EZTHER J"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "EZTHER J"
+    },
+    "recording": {
+      "license": "CC-BY",
+      "holder": "EZTHER J"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "EZTHER J"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "(Intro/Instrumental)",
+        "lyric": 1
+      },
+      {
+        "label": "(Verse 1)",
+        "lyric": 2
+      },
+      {
+        "label": "(Pre-Chorus 1)",
+        "lyric": 3
+      },
+      {
+        "label": "(Chorus)",
+        "lyric": 4
+      },
+      {
+        "label": "(Instrumental)",
+        "lyric": 5
+      },
+      {
+        "label": "(Verse 2)",
+        "lyric": 6
+      },
+      {
+        "label": "(Pre-Chorus 2)",
+        "lyric": 7
+      },
+      {
+        "label": "(Chorus)",
+        "lyric": 8
+      },
+      {
+        "label": "(Bridge)",
+        "lyric": 9
+      },
+      {
+        "label": "(Instrumental Outro)",
+        "lyric": 10
+      }
+    ],
+    "defaultOrder": [
+      "(Intro/Instrumental)",
+      "(Verse 1)",
+      "(Pre-Chorus 1)",
+      "(Chorus)",
+      "(Instrumental)",
+      "(Verse 2)",
+      "(Pre-Chorus 2)",
+      "(Chorus)",
+      "(Bridge)",
+      "(Instrumental Outro)"
+    ]
+  },
+  "publishedKeys": [
+    "F"
+  ],
+  "uploads": {
+    "master": "master.wav"
+  }
+}
