@@ -44,11 +44,15 @@ function slidesOf(stanzas) {
   };
 }
 
+// the recording's length: the master, else the writer's demo (sources/demoAudio.*) — what Lead Worship plays
 function masterSeconds(dir) {
   const master = path.join(dir, "sources", "master");
-  const file = fs.existsSync(master) && fs.readdirSync(master).find(f => /\.(wav|m4a|mp3|flac|mp4)$/i.test(f));
+  const audio = /\.(wav|m4a|mp3|flac|mp4|ogg)$/i;
+  const inMaster = fs.existsSync(master) && fs.readdirSync(master).find(f => audio.test(f));
+  const demo = !inMaster && fs.readdirSync(path.join(dir, "sources")).find(f => /^demoAudio\./.test(f) && audio.test(f));
+  const file = inMaster ? path.join("master", inMaster) : demo;
   if (!file) return null;
-  const r = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(master, file)], { encoding: "utf8" });
+  const r = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path.join(dir, "sources", file)], { encoding: "utf8" });
   const s = Number(r.stdout);
   return r.status === 0 && s > 0 ? Math.round(s) : null;
 }
@@ -56,7 +60,7 @@ function masterSeconds(dir) {
 function durationOf(song, stanzas, existingTiming, dir) {
   if (existingTiming?.duration) return { seconds: existingTiming.duration, basis: "timing.json" };
   const fromMaster = masterSeconds(dir);
-  if (fromMaster) return { seconds: fromMaster, basis: "sources/master (ffprobe)" };
+  if (fromMaster) return { seconds: fromMaster, basis: "recording (ffprobe)" };
   const bpm = Number(song.bpm);
   const [beats] = String(song.timeSignature || "4/4").split("/").map(Number);
   const lines = stanzas.reduce((n, st) => n + st.lines.filter(l => stripChords(l)).length, 0);
@@ -97,7 +101,8 @@ export function generateSong(dir, { sources }) {
   if (pdf) { writeIfChanged(out("chart.pdf"), pdf); wrote.pdf = true; }
   else wrote.skipPdf = true;
 
-  const ownCover = path.join(dir, "sources", "cover.webp");
+  // the catalog's cover.webp, else the art a writer uploaded with the song (sources/art.png|jpg|webp)
+  const ownCover = [path.join(dir, "sources", "cover.webp"), ...["png", "jpg", "jpeg", "webp"].map(e => path.join(dir, "sources", `art.${e}`))].find(p => fs.existsSync(p)) || "";
   const thumb = out("cover-thumb.webp");
   if (fs.existsSync(ownCover)) { writeThumb(ownCover, thumb); wrote.thumb = true; }
   else if (fs.existsSync(thumb)) fs.unlinkSync(thumb);
