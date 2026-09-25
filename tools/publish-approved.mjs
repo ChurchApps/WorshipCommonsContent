@@ -12,8 +12,8 @@
 //    python tools/harvest/align-vocal-timings.py <pkg>: sources/timing.json from the recording's vocals, so Lead
 //    Worship waits out the intro (skipped without a master or when the words do not match the singing).
 // 4. build-catalog + validate. A failure stops here with nothing uploaded; `git checkout -- songs` undoes the pull.
-// 5. Pushes each package's output/ (--delete: output/ is rebuildable by definition), and sources/timing.json with the
-//    manifest that lists it.
+// 5. Pushes each package's output/ (--delete: output/ is rebuildable by definition), and every file in song.json or
+//    sources/ that processing changed or added: timing.json and its manifest row, a bpm pack/build.py detected.
 // 6. The API registers the new files so the site serves them: its 30-minute timer does it for every song approved in
 //    the last week, or right away with COMMONS_TOKEN set (POST /commons/admin/sync-output).
 // 7. Commits the packages, catalog.json and the new stamp. Does not push the commit.
@@ -88,6 +88,14 @@ function missingOutput(except) {
   return missing;
 }
 
+/** md5 of song.json and every file under sources/, by package-relative path: what processing may change. */
+function sourceHashes(d) {
+  const dir = path.join(ROOT, d);
+  const rels = ["song.json", ...fs.readdirSync(path.join(dir, "sources"), { recursive: true }).map(String)
+    .filter(r => fs.statSync(path.join(dir, "sources", r)).isFile()).map(r => `sources/${r.split(path.sep).join("/")}`)];
+  return Object.fromEntries(rels.map(r => [r, createHash("md5").update(fs.readFileSync(path.join(dir, r))).digest("hex")]));
+}
+
 async function syncOutput(ids) {
   const results = {};
   for (let i = 0; i < ids.length; i += 20) {
@@ -115,11 +123,13 @@ async function main() {
   const missing = missingOutput(new Set(dirs));
   if (missing.length) throw new Error(`${missing.length} package(s) have no output/composition (e.g. ${missing[0]}) — run node tools/generate.mjs first`);
 
+  const pulled = {};
   for (const d of dirs) {
     const local = path.join(ROOT, d);
     fs.mkdirSync(local, { recursive: true });
     aws(["s3", "cp", `${BUCKET}/${d}/song.json`, path.join(local, "song.json"), "--only-show-errors"]);
     aws(["s3", "sync", `${BUCKET}/${d}/sources`, path.join(local, "sources"), "--delete", "--only-show-errors"]);
+    pulled[d] = sourceHashes(d);
   }
   for (const d of dirs) {
     run("node", ["tools/generate.mjs", d]);
@@ -134,9 +144,11 @@ async function main() {
 
   for (const d of dirs) {
     aws(["s3", "sync", path.join(ROOT, d, "output"), `${BUCKET}/${d}/output`, "--delete", "--only-show-errors"]);
-    // the one file this job adds to sources/; the manifest row came with it
-    if (fs.existsSync(path.join(ROOT, d, "sources", "timing.json")))
-      for (const f of ["timing.json", "manifest.json"]) aws(["s3", "cp", path.join(ROOT, d, "sources", f), `${BUCKET}/${d}/sources/${f}`, "--content-type", "application/json", "--only-show-errors"]);
+    for (const [rel, hash] of Object.entries(sourceHashes(d))) {
+      if (pulled[d][rel] === hash) continue;
+      const type = rel.endsWith(".json") ? "application/json" : rel.endsWith(".chordpro") ? "text/plain; charset=utf-8" : null;
+      aws(["s3", "cp", path.join(ROOT, d, rel), `${BUCKET}/${d}/${rel}`, ...(type ? ["--content-type", type] : []), "--only-show-errors"]);
+    }
   }
   if (TOKEN) {
     const registered = await syncOutput(dirs.map(d => d.slice(-11)));

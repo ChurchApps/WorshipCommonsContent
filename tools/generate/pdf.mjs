@@ -4,6 +4,8 @@ import { chordLyricPair } from "../lib.mjs";
 const WINANSI = {
   "\u2018": "'", "\u2019": "'", "\u201C": '"', "\u201D": '"',
   "\u2013": "-", "\u2014": "-", "\u2026": "...", "\u00A0": " ",
+  // in WinAnsi's 0x80-0x9F block: written as that byte ("Words by … • Music by …" dropped the whole chart.pdf)
+  "\u2022": "\x95", "\u2122": "\x99", "\u20AC": "\x80", "\u2020": "\x86", "\u2021": "\x87", "\u2030": "\x89",
   "\u0152": "OE", "\u0153": "oe", "\u0160": "S", "\u0161": "s",
   "\u0178": "Y", "\u017D": "Z", "\u017E": "z",
   "\u0150": "O", "\u0151": "o", "\u0170": "U", "\u0171": "u"
