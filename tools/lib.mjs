@@ -132,7 +132,7 @@ export function writeHarvested(dir, harvested) {
 }
 
 // "Chorus3" counts too: the heading word may run straight into its number
-export const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|estrofa|coro|estribillo|strophe|kehrvers)(?:\b|(?=\d))/i;
+export const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|interlude|instrumental|turnaround|estrofa|coro|estribillo|strophe|kehrvers)(?:\b|(?=\d))/i;
 const COMMENT_DIRECTIVE = /^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$/i;
 // "Verse 1:" and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"
 const tidyLabel = label => label.replace(/:(?=\s|$)/g, "").replace(/\s+/g, " ").trim();
