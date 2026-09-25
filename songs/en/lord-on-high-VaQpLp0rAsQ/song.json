@@ -5,7 +5,7 @@
   "year": 2002,
   "themes": "Praise",
   "key": "E",
-  "bpm": null,
+  "bpm": 129,
   "timeSignature": "4/4",
   "meter": null,
   "language": "English",
@@ -41,47 +41,47 @@
     "status": "draft",
     "sections": [
       {
-        "label": "INTRO:  E  B  A  E – B  E  A  B – E  B  ",
+        "label": "INTRO E B A E – B E A B – E B (C#m) (Bsu",
         "lyric": 1
       },
       {
-        "label": "VERSE 1:",
+        "label": "VERSE 1",
         "lyric": 2
       },
       {
-        "label": "CHORUS: (2x)",
+        "label": "CHORUS (2x)",
         "lyric": 3
       },
       {
-        "label": "VERSE 2:",
+        "label": "VERSE 2",
         "lyric": 4
       },
       {
-        "label": "CHORUS: (2x)",
+        "label": "CHORUS (2x)",
         "lyric": 5
       },
       {
-        "label": "BRIDGE:",
+        "label": "BRIDGE",
         "lyric": 6
       },
       {
-        "label": "CHORUS: (2x)",
+        "label": "CHORUS (2x)",
         "lyric": 7
       },
       {
-        "label": "TAG OUT: (2x)   E/g#  A  B  E",
+        "label": "TAG OUT (2x) E/g# A B E",
         "lyric": 8
       }
     ],
     "defaultOrder": [
-      "INTRO:  E  B  A  E – B  E  A  B – E  B  ",
-      "VERSE 1:",
-      "CHORUS: (2x)",
-      "VERSE 2:",
-      "CHORUS: (2x)",
-      "BRIDGE:",
-      "CHORUS: (2x)",
-      "TAG OUT: (2x)   E/g#  A  B  E"
+      "INTRO E B A E – B E A B – E B (C#m) (Bsu",
+      "VERSE 1",
+      "CHORUS (2x)",
+      "VERSE 2",
+      "CHORUS (2x)",
+      "BRIDGE",
+      "CHORUS (2x)",
+      "TAG OUT (2x) E/g# A B E"
     ]
   },
   "publishedKeys": [

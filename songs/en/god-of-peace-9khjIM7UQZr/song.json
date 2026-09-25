@@ -41,57 +41,62 @@
     "status": "draft",
     "sections": [
       {
-        "label": "Chorus 1:",
+        "label": "Chorus 1",
         "lyric": 1
       },
       {
-        "label": "Verse 1:",
+        "label": "Verse 1",
         "lyric": 2
       },
       {
-        "label": "Verse 2:",
+        "label": "Verse 2",
         "lyric": 3
       },
       {
-        "label": "Pre-Chorus 1:",
+        "label": "Pre-Chorus 1",
         "lyric": 4
       },
       {
-        "label": "Chorus 2:",
+        "label": "Chorus 2",
         "lyric": 5
       },
       {
-        "label": "Verse 3:",
+        "label": "Verse 3",
         "lyric": 6
       },
       {
-        "label": "Pre-Chorus 2:",
+        "label": "Pre-Chorus 2",
         "lyric": 7
       },
       {
-        "label": "Bridge:",
+        "label": "Chorus3",
         "lyric": 8
       },
       {
-        "label": "Chorus 4:",
+        "label": "Bridge",
         "lyric": 9
       },
       {
-        "label": "Chorus 5:",
+        "label": "Chorus 4",
         "lyric": 10
+      },
+      {
+        "label": "Chorus 5",
+        "lyric": 11
       }
     ],
     "defaultOrder": [
-      "Chorus 1:",
-      "Verse 1:",
-      "Verse 2:",
-      "Pre-Chorus 1:",
-      "Chorus 2:",
-      "Verse 3:",
-      "Pre-Chorus 2:",
-      "Bridge:",
-      "Chorus 4:",
-      "Chorus 5:"
+      "Chorus 1",
+      "Verse 1",
+      "Verse 2",
+      "Pre-Chorus 1",
+      "Chorus 2",
+      "Verse 3",
+      "Pre-Chorus 2",
+      "Chorus3",
+      "Bridge",
+      "Chorus 4",
+      "Chorus 5"
     ]
   },
   "publishedKeys": [

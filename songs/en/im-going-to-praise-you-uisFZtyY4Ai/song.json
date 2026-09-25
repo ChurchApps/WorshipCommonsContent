@@ -37,7 +37,43 @@
     },
     "artwork": null
   },
-  "form": null,
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 4
+      },
+      {
+        "label": "Verse",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus 3",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Chorus",
+      "Verse",
+      "Chorus 2",
+      "Verse",
+      "Chorus 3"
+    ]
+  },
   "publishedKeys": [
     "F"
   ],
