@@ -4896,7 +4896,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/a-new-covenant-IOMIxGkU-qe/output/composition.zip",
-      "compositionZipBytes": 6504,
+      "compositionZipBytes": 6503,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []
@@ -8154,7 +8154,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/by-our-side-6YNGyBUZ6cX/output/composition.zip",
-      "compositionZipBytes": 3208,
+      "compositionZipBytes": 3166,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []
@@ -9906,7 +9906,7 @@
       "previewUrl": "songs/en/current-pEDCgbBehcH/output/audio/preview.m4a",
       "instrumentalUrl": "songs/en/current-pEDCgbBehcH/output/audio/instrumental.m4a",
       "compositionZipUrl": "songs/en/current-pEDCgbBehcH/output/composition.zip",
-      "compositionZipBytes": 21594,
+      "compositionZipBytes": 21543,
       "audioZipUrl": "songs/en/current-pEDCgbBehcH/output/audio.zip",
       "audioZipBytes": 44764934,
       "extraUrls": []
@@ -20885,7 +20885,7 @@
     },
     {
       "id": "-fU10ve-8Xm",
-      "title": "My Father My Friend ",
+      "title": "My Father My Friend",
       "writer": "Dustin Kleinschmidt",
       "year": 1995,
       "themes": "Adoration, Peace, Grace, Assurance, Praise, Prayer",
@@ -20928,7 +20928,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/my-father-my-friend--fU10ve-8Xm/output/composition.zip",
-      "compositionZipBytes": 3112,
+      "compositionZipBytes": 3069,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []
@@ -20978,7 +20978,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/my-heart-sings-qaNnHnR5TsC/output/composition.zip",
-      "compositionZipBytes": 3104,
+      "compositionZipBytes": 3049,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []
@@ -30081,7 +30081,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/this-is-the-prayer-that-i-pray-k1VIYH3rkf3/output/composition.zip",
-      "compositionZipBytes": 5973,
+      "compositionZipBytes": 5965,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []
@@ -30131,7 +30131,7 @@
       "previewUrl": null,
       "instrumentalUrl": null,
       "compositionZipUrl": "songs/en/this-is-the-prayer-that-we-pray-OOalLa0jCuV/output/composition.zip",
-      "compositionZipBytes": 5978,
+      "compositionZipBytes": 5969,
       "audioZipUrl": null,
       "audioZipBytes": null,
       "extraUrls": []

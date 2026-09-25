@@ -44,57 +44,57 @@
     "status": "draft",
     "sections": [
       {
-        "label": "(Intro/Instrumental)",
+        "label": "Intro/Instrumental",
         "lyric": 1
       },
       {
-        "label": "(Verse 1)",
+        "label": "Verse 1",
         "lyric": 2
       },
       {
-        "label": "(Pre-Chorus 1)",
+        "label": "Pre-Chorus 1",
         "lyric": 3
       },
       {
-        "label": "(Chorus)",
+        "label": "Chorus",
         "lyric": 4
       },
       {
-        "label": "(Instrumental)",
+        "label": "Instrumental",
         "lyric": 5
       },
       {
-        "label": "(Verse 2)",
+        "label": "Verse 2",
         "lyric": 6
       },
       {
-        "label": "(Pre-Chorus 2)",
+        "label": "Pre-Chorus 2",
         "lyric": 7
       },
       {
-        "label": "(Chorus)",
+        "label": "Chorus",
         "lyric": 8
       },
       {
-        "label": "(Bridge)",
+        "label": "Bridge",
         "lyric": 9
       },
       {
-        "label": "(Instrumental Outro)",
+        "label": "Instrumental Outro",
         "lyric": 10
       }
     ],
     "defaultOrder": [
-      "(Intro/Instrumental)",
-      "(Verse 1)",
-      "(Pre-Chorus 1)",
-      "(Chorus)",
-      "(Instrumental)",
-      "(Verse 2)",
-      "(Pre-Chorus 2)",
-      "(Chorus)",
-      "(Bridge)",
-      "(Instrumental Outro)"
+      "Intro/Instrumental",
+      "Verse 1",
+      "Pre-Chorus 1",
+      "Chorus",
+      "Instrumental",
+      "Verse 2",
+      "Pre-Chorus 2",
+      "Chorus",
+      "Bridge",
+      "Instrumental Outro"
     ]
   },
   "publishedKeys": [

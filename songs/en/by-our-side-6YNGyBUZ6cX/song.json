@@ -44,52 +44,47 @@
     "status": "draft",
     "sections": [
       {
-        "label": "(Intro)",
+        "label": "Intro",
         "lyric": 1
       },
       {
-        "label": "(Verse 1)",
+        "label": "Verse 1",
         "lyric": 2
       },
       {
-        "label": "(Chorus)",
+        "label": "Chorus",
         "lyric": 3
       },
       {
-        "label": "(Turnaround)",
+        "label": "Turnaround",
         "lyric": 4
       },
       {
-        "label": "(Verse 2)",
+        "label": "Verse 2",
         "lyric": 5
       },
       {
-        "label": "(Chorus x2)",
+        "label": "Chorus x2",
         "lyric": 6
       },
       {
-        "label": "(Bridge)",
+        "label": "Bridge",
         "lyric": 7
       },
       {
-        "label": "When the music fades   Still by our side",
+        "label": "Chorus x2",
         "lyric": 8
-      },
-      {
-        "label": "(Chorus x2)",
-        "lyric": 9
       }
     ],
     "defaultOrder": [
-      "(Intro)",
-      "(Verse 1)",
-      "(Chorus)",
-      "(Turnaround)",
-      "(Verse 2)",
-      "(Chorus x2)",
-      "(Bridge)",
-      "When the music fades   Still by our side",
-      "(Chorus x2)"
+      "Intro",
+      "Verse 1",
+      "Chorus",
+      "Turnaround",
+      "Verse 2",
+      "Chorus x2",
+      "Bridge",
+      "Chorus x2"
     ]
   },
   "publishedKeys": [

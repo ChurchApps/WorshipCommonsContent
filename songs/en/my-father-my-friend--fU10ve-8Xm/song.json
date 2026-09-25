@@ -1,6 +1,6 @@
 {
   "id": "-fU10ve-8Xm",
-  "title": "My Father My Friend ",
+  "title": "My Father My Friend",
   "writer": "Dustin Kleinschmidt",
   "year": 1995,
   "themes": "Adoration, Peace, Grace, Assurance, Praise, Prayer",
@@ -44,32 +44,32 @@
     "status": "draft",
     "sections": [
       {
-        "label": "(Verse 1)",
+        "label": "Verse 1",
         "lyric": 1
       },
       {
-        "label": "(Chorus)",
+        "label": "Chorus",
         "lyric": 2
       },
       {
-        "label": "(Verse 2)",
+        "label": "Verse 2",
         "lyric": 3
       },
       {
-        "label": "(Chorus)",
+        "label": "Chorus",
         "lyric": 4
       },
       {
-        "label": "(Bridge x2)",
+        "label": "Bridge x2",
         "lyric": 5
       }
     ],
     "defaultOrder": [
-      "(Verse 1)",
-      "(Chorus)",
-      "(Verse 2)",
-      "(Chorus)",
-      "(Bridge x2)"
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Bridge x2"
     ]
   },
   "publishedKeys": [
