@@ -44,14 +44,33 @@ def norm(w: str) -> str:
     return re.sub(r"[^a-z0-9]", "", w.lower())
 
 
+def label_of(line: str) -> str | None:
+    """A stanza label (tools/lib.mjs sectionLabelOf): a known heading, or a chord-free line wholly in parentheses
+    ("(Chorus x2)"), labelled by the text inside. None for a sung line."""
+    plain = CHORD.sub("", line).strip()
+    if not CHORD.search(line):
+        m = re.fullmatch(r"\((.+)\)", plain)
+        if m:
+            return m.group(1).strip()
+    return plain if SECTION_HEADING.match(plain) else None
+
+
 def parse_stanzas(chordpro: str) -> list[dict]:
     blocks = re.split(r"\r?\n\s*\r?\n", chordpro or "")
     stanzas: list[dict] = []
     for block in blocks:
-        lines = [ln for ln in block.splitlines() if ln.strip()]
+        lines = [ln for ln in block.splitlines() if ln.strip() and not ln.strip().startswith("{")]
         if not lines:
             continue
-        stanzas.append({"label": lines[0].strip(), "lines": lines[1:]})
+        # a block that opens with a sung line has no label: never spend a lyric on one
+        label = label_of(lines[0])
+        body = lines[1:] if label else lines
+        prev = stanzas[-1] if stanzas else None
+        # "(Bridge)" over a chord line, a blank line, then the bridge's words: the unlabelled block is that section's
+        if not label and prev and prev["label"] and not any(CHORD.sub("", ln).strip() for ln in prev["lines"]):
+            prev["lines"].extend(body)
+        else:
+            stanzas.append({"label": label or "", "lines": body})
     if any(s["lines"] for s in stanzas):
         return stanzas
     out: list[dict] = []

@@ -133,6 +133,15 @@ export function writeHarvested(dir, harvested) {
 
 export const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|estrofa|coro|estribillo|strophe|kehrvers)\b/i;
 
+// A stanza label: a known heading ("Verse 2", "Chorus") or, as writers often chart it, any chord-free line wholly in
+// parentheses ("(Chorus x2)", "(Intro/Instrumental)", "(Turnaround)") — labelled by the text inside. Null for a lyric.
+export function sectionLabelOf(line) {
+  const plain = line.replace(/\[[^\]]*\]/g, "").trim();
+  const paren = !/\[[^\]]+\]/.test(line) && plain.match(/^\((.+)\)$/);
+  if (paren) return paren[1].trim();
+  return SECTION_LABEL.test(plain) ? plain : null;
+}
+
 // The copyright notice the writer publishes, verbatim (song.json `copyright`, one line per notice —
 // a translation adds its own), else "© year writer". PD has none.
 export function copyrightLines(song) {
@@ -171,15 +180,21 @@ export function attributionText(song) {
 export function parseChordproStanzas(body) {
   const stanzas = [];
   let cur = null;
-  const push = () => { if (cur && (cur.lines.length || cur.label)) stanzas.push(cur); cur = null; };
+  const push = () => {
+    const prev = stanzas[stanzas.length - 1];
+    // "(Bridge)" over a chord line, a blank line, then the bridge's words: the unlabelled block is that section's
+    if (cur && !cur.label && prev?.label && prev.lines.every(l => !stripChords(l).trim())) prev.lines.push(...cur.lines);
+    else if (cur && (cur.lines.length || cur.label)) stanzas.push(cur);
+    cur = null;
+  };
   for (const raw of body.split("\n")) {
     const line = raw.replace(/\s+$/, "");
-    const plain = line.replace(/\[[^\]]*\]/g, "").trim();
     if (!line.trim()) { push(); continue; }
     if (/^\s*\{/.test(line)) continue; // {c: Mary} and other directives are cues, not lyrics (the site drops them too)
-    if (SECTION_LABEL.test(plain) && !/\[[^\]]+\]/.test(line)) {
+    const label = !/\[[^\]]+\]/.test(line) && sectionLabelOf(line);
+    if (label) {
       push();
-      cur = { label: plain, lines: [] };
+      cur = { label, lines: [] };
       continue;
     }
     if (!cur) cur = { label: null, lines: [] };
@@ -214,7 +229,8 @@ export function draftForm(body) {
   for (const line of body.split("\n")) {
     const t = line.replace(/\[[^\]]*\]/g, "").trim();
     if (!t || t.startsWith("{") || t.startsWith("#")) continue;
-    if (SECTION_LABEL.test(t)) labels.push(t);
+    const label = sectionLabelOf(line);
+    if (label) labels.push(label);
   }
   if (!labels.length) return undefined;
   const seen = new Map();
