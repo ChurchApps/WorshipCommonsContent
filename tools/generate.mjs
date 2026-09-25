@@ -74,8 +74,9 @@ export function generateSong(dir, { sources }) {
   const { body } = splitChordpro(fs.readFileSync(lyricsPath(dir), "utf8"));
   const stanzas = parseChordproStanzas(body);
   const notice = licenseNotice(song);
-  const timingPath = out("timing.json");
-  const timing = fs.existsSync(timingPath) ? readJson(timingPath) : null;
+  // lyric timings live in sources/ (aligned to the recording); an older package may still hold one in output/
+  const timingPath = [path.join(dir, "sources", "timing.json"), out("timing.json")].find(p => fs.existsSync(p));
+  const timing = timingPath ? readJson(timingPath) : null;
   const wrote = {};
 
   wrote.score = scoreFor(dir);
