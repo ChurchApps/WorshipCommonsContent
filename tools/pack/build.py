@@ -105,8 +105,7 @@ def gate(pkg: Path) -> tuple[dict, Path, dict]:
             base = read_json(p)
             for k in ("bpm", "key", "timeSignature"):
                 song.setdefault(k, base.get(k))
-    if not song.get("bpm"):
-        raise Skip("song.json has no bpm; the click track needs it")
+    # no bpm is not a refusal: the transcription below reads the tempo off the recording and stamps it
     return song, master, row
 
 
@@ -282,6 +281,8 @@ def build(pkg: Path, song: dict, master: Path, force: bool = False, fmt: str = "
             shutil.copy2(pkg / "song.json", work / "masters" / "song.json")  # stamped key/bpm name the pack
         except Exception as e:
             print(f"  transcribe failed ({type(e).__name__}: {e}); pack continues without a score", flush=True)
+    if not song.get("bpm"):
+        raise Skip("song.json has no bpm and none was detected from the recording; the click track needs it")
     if score_src:
         shutil.copy2(score_src, work / "masters" / "score.musicxml")
     else:
