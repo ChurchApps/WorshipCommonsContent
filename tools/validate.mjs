@@ -7,7 +7,7 @@ import {
   idFor, LANG_CODES, LICENSES, splitChordpro, renderSourcesTxt, songDirs, readJson,
   readSong, readSongRaw, parentOf, lyricsPath, sourcesTxtPath, manifestPath,
   SHARED_RELS, INHERITED_FIELDS, ROOT_FILES, EITHER_RELS, sha256File, idFromFolder,
-  sourceFiles, masterAudio, GRANT_LAYERS, OBTAINED_VIA
+  sourceFiles, masterAudio, GRANT_LAYERS, OBTAINED_VIA, stripChords
 } from "./lib.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -31,6 +31,28 @@ function checkOneOwner(dir, label) {
     if (fs.existsSync(path.join(dir, "sources", rel)) && fs.existsSync(path.join(dir, "output", "composition", rel)))
       errors.push(`${label}: ${rel} exists in both sources/ and output/composition/ — the source wins, delete the other`);
   }
+}
+
+// Import defects that keep coming back. Warnings only, so the next harvest surfaces them.
+// U+FFFD, C1 controls, and UTF-8 read as cp1252/Latin-1 (Ã© for é, â€™ for ’, Â· for ·).
+const MOJIBAKE = /\uFFFD|[\u0080-\u009F]|\u00C3[\u0080-\u00BF]|\u00E2\u20AC|\u00C2[\u00A0-\u00BF]/;
+const DIRECTION = /^\((?:[^)]*\b(?:\d+(?:st|nd|rd|th)|verse|chorus|refrain|repeat|twice|last time|x\d|\d+x|key|instrumental|bridge|tag|coda|ending|spoken|optional)\b[^)]*)\)$/i;
+function lyricDefects(lines) {
+  const out = [];
+  const first = (re, why) => {
+    const i = lines.findIndex((l, j) => re(l.trim(), (lines[j - 1] || "").trim()));
+    if (i >= 0) out.push(`line ${i + 1} ${why}: "${lines[i].trim().slice(0, 60)}"`);
+  };
+  first(l => /^\d{1,2}\.\s/.test(l), "starts with a verse number");
+  first(l => DIRECTION.test(l), "is an editorial direction, not a sung line");
+  first(l => MOJIBAKE.test(l), "has a bad character (U+FFFD / mojibake)");
+  // "…all my concerns / cerns she forgot": a wrapped harvest repeated the tail of the last word
+  first((l, prev) => {
+    const tail = (prev.match(/(\p{L}+)\P{L}*$/u) || [])[1] || "", head = (l.match(/^(\p{Ll}+)/u) || [])[1] || "";
+    return head.length >= 3 && tail.length >= head.length + 2 && tail.toLowerCase().endsWith(head)
+      && !/^(all|sing|art|one|own|ring|king|here|hear|rest|end)$/.test(head); // "small / all things", "blessing / sing"
+  }, "repeats the end of the previous line's last word");
+  return out;
 }
 
 const ids = new Map(); // id → dir
@@ -124,6 +146,14 @@ for (const { langDir, folder, dir } of songDirs(ROOT)) {
     if (ls.length > 8 && blank / ls.length > 0.34) warnings.push(`${label}: lyrics.chordpro is mostly blank lines (${blank}/${ls.length}) — double-spaced harvest?`);
     const chrome = ls.find(l => /^\s*>/.test(l) || /^\s*\(?(introduction|instrumental|change keys?)\)?\s*$/i.test(l));
     if (chrome) warnings.push(`${label}: lyrics.chordpro has a non-lyric line "${chrome.trim()}"`);
+    lyricDefects(ls.map(stripChords)).forEach(w => warnings.push(`${label}: lyrics.chordpro ${w}`));
+  }
+  {
+    const strings = [];
+    const walk = v => typeof v === "string" ? strings.push(v) : v && typeof v === "object" && Object.values(v).forEach(walk);
+    walk(readSongRaw(dir));
+    const bad = strings.find(s => MOJIBAKE.test(s));
+    if (bad) warnings.push(`${label}: song.json text has a bad character (U+FFFD / mojibake) in "${bad.slice(0, 60)}"`);
   }
   const expect = { title: song.title, artist: song.writer, key: song.key, time: song.timeSignature, tempo: song.bpm };
   for (const [k, v] of Object.entries(expect)) {
