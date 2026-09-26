@@ -1,4 +1,7 @@
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+  NotoSansMono-Regular.ttf, NotoSansMono-Bold.ttf
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/malayalam)
+  NotoSansMalayalam-Regular.ttf, NotoSansMalayalam-Bold.ttf (version 2.104)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
