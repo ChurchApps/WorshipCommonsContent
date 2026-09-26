@@ -1156,8 +1156,9 @@ def build_als(
 
 
 def pack_name(title: str, key: str, bpm: float) -> str:
-    safe = re.sub(r'[<>:"/\\|?*]', "", title).strip()
-    return f"{safe}-{safe}-{key}-{bpm:.2f}bpm"
+    # the name becomes a URL path segment: no '#' (fragment) or '%' (escape); C#m -> Csharpm
+    safe = re.sub(r'[<>:"/\\|?*#%]', "", title).strip()
+    return f"{safe}-{safe}-{key.replace('#', 'sharp')}-{bpm:.2f}bpm"
 
 
 def write_album(dest: Path, title: str, subtitle: str):

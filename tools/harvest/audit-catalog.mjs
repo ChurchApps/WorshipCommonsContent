@@ -5,7 +5,7 @@
 //   node tools/harvest/audit-catalog.mjs --only amazing-grace --tasks verses,chordpro,midi,lyrics
 //
 // --apply writes safe fixes only (lyric chrome, empty key/bpm/time from the ChordPro
-// header, empty scripture from ABC %OHSCRIP, video.json on a high-confidence YouTube
+// header, a placeholder key / 4/4 from ABC K:/M: or an unambiguous MIDI, empty scripture from ABC %OHSCRIP, video.json on a high-confidence YouTube
 // hit, labels when JEV is above the floor and --relabel or themes are empty).
 // MIDI 120 / missing key-signature is a Cyber Hymnal sketch, not a reason to overwrite.
 import * as fs from "node:fs";
@@ -69,9 +69,14 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 function abcMeta(text) {
   const field = re => { const m = text.match(re); return m ? m[1].trim() : ""; };
   const keyRaw = field(/^K:\s*([^%\r\n]+)/m);
-  const km = keyRaw.match(/^([A-G][#b]?)\s*(m\b|min\w*)?/i);
-  const key = km ? km[1] + (km[2] ? "m" : "") : null;
-  const meterRaw = field(/^M:\s*([^%\r\n]+)/m);
+  // a mode other than major/minor (K:D dor) is not a key song.json can carry
+  const km = keyRaw.match(/^([A-G][#b]?)\s*([A-Za-z]+(?!\s*=|[A-Za-z]))?/);
+  const mode = (km?.[2] || "").toLowerCase();
+  const key = km && /^(m|min\w*|aeo\w*|maj\w*|ion\w*)?$/.test(mode) ? km[1] + (/^(m$|min|aeo)/.test(mode) ? "m" : "") : null;
+  // one meter for the whole tune, or none: a mid-tune M: change is not a time signature
+  const meters = new Set([...text.matchAll(/(?:^|\[)M:\s*([^%\]\r\n]+)/gm)]
+    .map(m => ({ C: "4/4", "C|": "2/2" })[m[1].trim()] || m[1].trim()));
+  const meterRaw = meters.size === 1 ? [...meters][0] : "";
   const timeSignature = /^\d+\/\d+$/.test(meterRaw) ? meterRaw : null;
   const qm = text.match(/Q:\s*(\d+)\/(\d+)\s*=\s*(\d+)/);
   const bpm = qm
@@ -307,6 +312,18 @@ function writeAnalytics(dir, patch) {
   return next;
 }
 
+// {name: value} in the ChordPro header (validate: key/time/tempo must equal song.json)
+function setDirective(text, name, value) {
+  const lines = text.split("\n");
+  let end = 0;
+  while (end < lines.length && lines[end].startsWith("{")) end++;
+  const line = `{${name}: ${value}}`;
+  const at = lines.slice(0, end).findIndex(l => l.startsWith(`{${name}:`));
+  if (at >= 0) lines[at] = line;
+  else lines.splice(end, 0, ...(end ? [line] : [line, ""]));
+  return lines.join("\n");
+}
+
 function writeSongFile(dir, song) {
   writeJson(songJsonPath(dir), orderSong(song));
 }
@@ -347,6 +364,7 @@ for (const pkg of packages) {
   let songDirty = false;
   let lyricsDirty = false;
   let nextBody = body;
+  const directives = {}; // ChordPro header lines to match what song.json was given
 
   if (tasks.has("chordpro")) {
     const { issues, stanzas } = chordIssues(body, song);
@@ -407,25 +425,37 @@ for (const pkg of packages) {
       duration: { timing: timing?.duration ?? null, estimate: est, midiSeconds: probed?.seconds ?? null },
       fill: {},
     };
-    const fillIfEmpty = (field, value, source) => {
-      if (raw[field] != null && raw[field] !== "") return;
-      if (value == null || value === "") return;
+    // a placeholder is what an import writes when it knows nothing: no key, the "4/4" default
+    const current = field => notes.fill[field]?.value ?? raw[field];
+    const isPlaceholder = (field, v) => v == null || v === "" || (field === "timeSignature" && String(v) === "4/4");
+    const fill = (field, value, source, overPlaceholder = false) => {
+      const have = current(field);
+      if (overPlaceholder ? !isPlaceholder(field, have) : have != null && have !== "") return;
+      if (value == null || value === "" || String(value) === String(have ?? "")) return;
       // Translations inherit key/bpm/time; stamping the same value is a validate warning.
       if (raw.parent?.id && ["key", "bpm", "timeSignature", "meter", "tune"].includes(field)) return;
       notes.fill[field] = { value, source };
       row.actions.push(`fill ${field}=${value} from ${source}`);
-      if (apply) { raw[field] = value; songDirty = true; }
+      if (apply) {
+        raw[field] = value; songDirty = true;
+        const directive = { key: "key", timeSignature: "time", bpm: "tempo" }[field];
+        if (directive) directives[directive] = value;
+      }
     };
-    // This package's chart header is the congregational key/tempo. ABC/MIDI fill only
-    // when the header is also empty. Cyber Hymnal MIDI 120 is not a tempo source.
+    const fillIfEmpty = (field, value, source) => fill(field, value, source);
+    // This package's chart header is the congregational key/tempo.
     fillIfEmpty("key", header.key, "chordpro");
     fillIfEmpty("timeSignature", header.time, "chordpro");
     fillIfEmpty("bpm", header.tempo ? Number(header.tempo) : null, "chordpro");
-    if (!header.key && !header.time && !header.tempo && probed && !abcUse && song.license !== "PD") {
-      fillIfEmpty("key", probed.key, "midi");
-      fillIfEmpty("timeSignature", probed.time, "midi");
-      if (probed.bpm && probed.bpm !== 120) fillIfEmpty("bpm", probed.bpm, "midi");
-    }
+    // A placeholder key/time gives way to the tune: ABC K:/M: win, else a MIDI with a single
+    // time signature, and a single key signature its notes fit (>= 90% diatonic). PD songs
+    // too: only the tempo of a PD (Cyber Hymnal) MIDI is the sequencer's, not the hymn's.
+    const midiKey = probed?.keys?.length === 1 && probed.diatonic >= 0.9 ? probed.keys[0].replace(/maj$/i, "") : null;
+    const midiTime = probed?.times?.length === 1 ? probed.times[0] : null;
+    fill("key", abcUse?.key || midiKey, abcUse?.key ? "abc" : "midi", true);
+    fill("timeSignature", abcUse?.timeSignature || midiTime, abcUse?.timeSignature ? "abc" : "midi", true);
+    if (!header.tempo && probed?.bpm && probed.bpm !== 120 && !abcUse && song.license !== "PD")
+      fillIfEmpty("bpm", probed.bpm, "midi");
     const midiBpm = probed?.bpm;
     if (midiBpm && chartBpm && Math.abs(midiBpm - Number(chartBpm)) > 5 && midiBpm !== 120)
       notes.drift = [...(notes.drift || []), `bpm midi ${midiBpm} vs chart ${chartBpm}`];
@@ -474,15 +504,18 @@ for (const pkg of packages) {
     });
   }
 
-  if (lyricsDirty && apply) {
+  if ((lyricsDirty || Object.keys(directives).length) && apply && chordpro) {
     const origBody = splitChordpro(chordpro).body;
     const idx = chordpro.indexOf(origBody);
-    const text = idx >= 0
+    let text = !lyricsDirty ? chordpro : idx >= 0
       ? chordpro.slice(0, idx) + nextBody.replace(/\n+$/, "") + "\n"
       : nextBody.replace(/\n+$/, "") + "\n";
-    fs.writeFileSync(lyricsFile, text);
-    writeManifest(dir);
-    changed.push(label + " lyrics");
+    for (const [name, value] of Object.entries(directives)) text = setDirective(text, name, value);
+    if (text !== chordpro) {
+      fs.writeFileSync(lyricsFile, text);
+      writeManifest(dir);
+      changed.push(label + " lyrics");
+    }
   }
   if (songDirty && apply) {
     writeSongFile(dir, raw);

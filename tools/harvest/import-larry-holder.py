@@ -597,20 +597,33 @@ def strip_labeled_chrome(body: str, title: str = "") -> str:
 
 
 def midi_meta(p: Path) -> dict:
-    """tempo / key / time from the writer's MIDI, else {}."""
+    """tempo / key / time from the writer's MIDI, else {}. Time only when the file has one time
+    signature; key only when it has one key signature and >= 90% of its notes are in that scale
+    (same rule as tools/harvest/audit-midi.py + audit-catalog.mjs)."""
     try:
         mf = mido.MidiFile(p)
     except Exception:
         return {}
     out: dict = {}
+    keys, times, pcs = [], [], []
     for tr in mf.tracks:
         for msg in tr:
             if msg.type == "set_tempo" and "bpm" not in out:
                 out["bpm"] = int(round(mido.tempo2bpm(msg.tempo)))
-            elif msg.type == "key_signature" and "key" not in out:
-                out["key"] = msg.key
-            elif msg.type == "time_signature" and "time" not in out:
-                out["time"] = f"{msg.numerator}/{msg.denominator}"
+            elif msg.type == "key_signature" and msg.key not in keys:
+                keys.append(msg.key)
+            elif msg.type == "time_signature" and f"{msg.numerator}/{msg.denominator}" not in times:
+                times.append(f"{msg.numerator}/{msg.denominator}")
+            elif msg.type == "note_on" and msg.velocity and msg.channel != 9:
+                pcs.append(msg.note % 12)
+    if len(times) == 1:
+        out["time"] = times[0]
+    if len(keys) == 1 and pcs:
+        k = keys[0]
+        tonic = ({"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}[k[0]] + k.count("#") - k[1:].count("b")) % 12
+        scale = {(tonic + i) % 12 for i in ((0, 2, 3, 5, 7, 8, 10) if k.endswith("m") else (0, 2, 4, 5, 7, 9, 11))}
+        if sum(pc in scale for pc in pcs) >= 0.9 * len(pcs):
+            out["key"] = k
     return out
 
 
@@ -757,15 +770,17 @@ def write_song(url: str, html: str, text: str, files: dict, title: str, year: in
     if files.get("midi"):
         download(files["midi"], src / "tune.mid")
         meta = midi_meta(src / "tune.mid")
-    bpm = meta.get("bpm") or 80  # ponytail: 80 is the catalog default when nothing says otherwise
-    key = meta.get("key")
+    # the writer's MIDI, else what a re-import already has (build.py stamps bpm/key from the
+    # recording; 80 was this importer's old invented default), else unknown
+    bpm = meta.get("bpm") or (prev.get("bpm") if prev.get("bpm") != 80 else None)
+    key = meta.get("key") or prev.get("key")
     time_sig = meta.get("time") or "4/4"
     lyrics = "\n".join([
         f"{{title: {title}}}",
         f"{{artist: {writer}}}",
         *([f"{{key: {key}}}"] if key else []),
         f"{{time: {time_sig}}}",
-        f"{{tempo: {bpm}}}",
+        *([f"{{tempo: {bpm}}}"] if bpm else []),
         "",
         body.rstrip(),
         "",
