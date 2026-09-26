@@ -24,6 +24,7 @@ import {
 import { chartPdf } from "./generate/pdf.mjs";
 import { writeThumb } from "./generate/thumb.mjs";
 import { scoreFor, midiFor, pythonAvailable } from "./generate/score.mjs";
+import { estimateFromNotes } from "./generate/duration.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -60,10 +61,14 @@ function masterSeconds(dir) {
   return r.status === 0 && s > 0 ? Math.round(s) : null;
 }
 
-function durationOf(song, stanzas, existingTiming, dir) {
+export function durationOf(song, stanzas, existingTiming, dir) {
   if (existingTiming?.duration) return { seconds: existingTiming.duration, basis: "timing.json" };
   const fromMaster = masterSeconds(dir);
   if (fromMaster) return { seconds: fromMaster, basis: "recording (ffprobe)" };
+  // the notes: bars × beats per bar @ bpm × the stanzas sung (tools/generate/duration.mjs)
+  const sung = stanzas.map(st => ({ label: st.label, lines: st.lines.map(stripChords).filter(l => l && !REPEAT_MARK.test(l)) }));
+  const fromNotes = estimateFromNotes(dir, song, sung);
+  if (fromNotes) return { seconds: fromNotes.seconds, basis: fromNotes.basis };
   const bpm = Number(song.bpm);
   const [beats] = String(song.timeSignature || "4/4").split("/").map(Number);
   const lines = stanzas.reduce((n, st) => n + st.lines.filter(l => stripChords(l)).length, 0);
