@@ -135,7 +135,9 @@ async function main() {
     run("node", ["tools/generate.mjs", d]);
     // a pack is optional: build.py refuses (and says why) when there is no master or no recording grant
     run(PYTHON, ["tools/pack/build.py", d], { allowFail: true });
-    run(PYTHON, ["tools/harvest/align-vocal-timings.py", d], { allowFail: true });
+    // a lyrics edit (words, labels) leaves the old timing.json naming the old words: re-align instead of keeping it
+    const lyricsEdited = run("git", ["diff", "--quiet", "HEAD", "--", `${d}/sources/lyrics.chordpro`], { allowFail: true }).status === 1;
+    run(PYTHON, ["tools/harvest/align-vocal-timings.py", d, ...(lyricsEdited ? ["--force"] : [])], { allowFail: true });
     // again, now that timing.json exists: duration.json takes the recording's length from it instead of an estimate
     run("node", ["tools/generate.mjs", d]);
   }
