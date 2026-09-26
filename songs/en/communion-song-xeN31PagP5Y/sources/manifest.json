@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-09-26",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "FE00_iHE0pD",
+      "submission": "M_zrkLgj2uN",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-09-26",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "FE00_iHE0pD",
+      "submission": "M_zrkLgj2uN",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "nNp_Exeky_J",
+  "title": "Child of God",
+  "writer": "Melinda Fletcher",
+  "year": 2019,
+  "themes": "Kids",
+  "key": "D",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "FE00_iHE0pD",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "lyrics-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Melinda Fletcher"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Melinda Fletcher"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Melinda Fletcher"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Melinda Fletcher"
+    },
+    "artwork": null
+  },
+  "form": null,
+  "publishedKeys": [
+    "D"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

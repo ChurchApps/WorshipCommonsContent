@@ -33,6 +33,17 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-09-26",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "cIBGGuImiRy",
+      "submission": "GAFbvrFvXuq",
+      "note": "Adding cover art"
     }
   ]
 }

@@ -19,23 +19,26 @@
   "confidence": "chart-only",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Words by Joy Marquéz • Music by Doug Gregan"
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan",
+      "license": "WC"
     },
     "recording": {
+      "holder": "Words by Joy Marquéz • Music by Doug Gregan",
+      "license": "WC"
+    },
+    "artwork": {
       "license": "WC",
       "holder": "Words by Joy Marquéz • Music by Doug Gregan"
-    },
-    "artwork": null
+    }
   },
   "form": {
     "status": "draft",

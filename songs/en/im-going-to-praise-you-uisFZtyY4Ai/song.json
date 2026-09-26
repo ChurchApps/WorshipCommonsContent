@@ -19,23 +19,26 @@
   "confidence": "chart-only",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Doug Gregan"
+      "holder": "Doug Gregan",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Doug Gregan"
+      "holder": "Doug Gregan",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Doug Gregan"
+      "holder": "Doug Gregan",
+      "license": "WC"
     },
     "recording": {
+      "holder": "Doug Gregan",
+      "license": "WC"
+    },
+    "artwork": {
       "license": "WC",
       "holder": "Doug Gregan"
-    },
-    "artwork": null
+    }
   },
   "form": {
     "status": "draft",

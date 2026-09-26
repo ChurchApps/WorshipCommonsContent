@@ -3,47 +3,36 @@
     {
       "file": "demoAudio.mp3",
       "url": null,
-      "acquired": "2026-09-25",
+      "acquired": "2026-09-26",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "cIBGGuImiRy",
-      "submission": "cEUH23ZgSZe",
+      "submittedBy": "FE00_iHE0pD",
+      "submission": "NMSCCyyIFJT",
       "note": null
     },
     {
       "file": "sheetPdf.pdf",
       "url": null,
-      "acquired": "2026-09-25",
+      "acquired": "2026-09-26",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "cIBGGuImiRy",
-      "submission": "cEUH23ZgSZe",
+      "submittedBy": "FE00_iHE0pD",
+      "submission": "NMSCCyyIFJT",
       "note": null
     },
     {
       "file": "timing.json",
       "url": null,
-      "acquired": "2026-09-25",
-      "sha256": "e2e275144733ba61c205abf24c3bbd1a9aad65918aa1bf44217243b32063f27a",
+      "acquired": "2026-09-26",
+      "sha256": "71245e22d7d76942632081940a04a7915923be8e663d68bde30882f0674f26c4",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
-    },
-    {
-      "file": "art.webp",
-      "url": null,
-      "acquired": "2026-09-26",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "cIBGGuImiRy",
-      "submission": "5ylXX8Q_2eX",
-      "note": "New Cover Art"
     }
   ]
 }
