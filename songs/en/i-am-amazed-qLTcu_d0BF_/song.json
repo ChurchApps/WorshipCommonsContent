@@ -19,25 +19,25 @@
   "confidence": "chart-only",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Matt Voss"
+      "holder": "Matt Voss",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Matt Voss"
+      "holder": "Matt Voss",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Matt Voss"
+      "holder": "Matt Voss",
+      "license": "WC"
     },
     "recording": {
-      "license": "WC",
-      "holder": "Matt Voss"
+      "holder": "Matt Voss",
+      "license": "WC"
     },
     "artwork": {
-      "license": "WC",
-      "holder": "Matt Voss"
+      "holder": "Matt Voss",
+      "license": "WC"
     }
   },
   "form": {
@@ -68,12 +68,16 @@
         "lyric": 6
       },
       {
-        "label": "CHORUS",
+        "label": "INSTRUMENTAL",
         "lyric": 7
       },
       {
-        "label": "TAG 2",
+        "label": "CHORUS",
         "lyric": 8
+      },
+      {
+        "label": "TAG 2",
+        "lyric": 9
       }
     ],
     "defaultOrder": [
@@ -83,6 +87,7 @@
       "VERSE 2",
       "CHORUS",
       "TAG 2",
+      "INSTRUMENTAL",
       "CHORUS",
       "TAG 2"
     ]
