@@ -124,7 +124,9 @@ for (const r of rows) {
   }
 }
 
-const CHORUS_LABEL = /^(coro|estribillo|chorus|refrain|refrão|refrén|refreni|kórus|kar|kehrvers|припев)[:.]?$/iu;
+// Heading-only lines, skipped. Malayalam pages mark പല്ലവി ("refrain") and sometimes ചരണങ്ങൾ ("stanzas")
+// class="chorus" ahead of the real chorus paragraph; unlisted, the heading became the whole chorus.
+const CHORUS_LABEL = /^(coro|estribillo|chorus|refrain|refrão|refrén|refreni|kórus|kar|kehrvers|припев|പല്ലവി|ചരണങ്ങൾ|ചരണങ്ങള്‍)[:.]?$/iu;
 
 interface LangSong {
   t: string; a: string; y: number | null; th: string | null; k: string | null; bpm: number | null;
@@ -186,9 +188,17 @@ for (const L of langs) {
       if (!lines.length) continue;
       const isChorusClass = /class="[^"]*chorus/i.test(attrs);
       if (lines.length === 1 && CHORUS_LABEL.test(lines[0])) continue;
-      if (isChorusClass) { if (!chorus) chorus = lines.join("\n"); continue; }
+      if (CHORUS_LABEL.test(lines[0])) lines.shift(); // heading glued to the top of a stanza
+      if (isChorusClass) {
+        const text = lines.join("\n");
+        if (!chorus) chorus = text;
+        else if (text !== chorus) console.error(`  warn ${file}: second, different chorus dropped: ${lines[0]}`);
+        continue;
+      }
       verses.push(lines.join("\n"));
     }
+    // A one-word chorus is a heading the label list doesn't know yet, never a refrain.
+    if (chorus && /^\S+[:.]?$/u.test(chorus)) { console.error(`  skip ${file}: chorus is a lone heading "${chorus}" - add it to CHORUS_LABEL`); skipped++; continue; }
     if (!verses.length && !chorus) { console.error(`  skip ${file}: no stanzas`); skipped++; continue; }
 
     const stanzas: string[] = [];
