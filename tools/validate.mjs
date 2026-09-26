@@ -44,7 +44,8 @@ function lyricDefects(lines) {
     if (i >= 0) out.push(`line ${i + 1} ${why}: "${lines[i].trim().slice(0, 60)}"`);
   };
   first(l => /^\d{1,2}\.\s/.test(l), "starts with a verse number");
-  first(l => DIRECTION.test(l), "is an editorial direction, not a sung line");
+  // "(Verse 1)", "(Chorus x2)" are section labels to every parser (lib.mjs sectionLabelOf), not directions
+  first(l => DIRECTION.test(l) && !/^\((?:verse|chorus|refrain|bridge|pre-?chorus|intro|outro|tag|ending|coda)\b[^)]*\)$/i.test(l), "is an editorial direction, not a sung line");
   first(l => MOJIBAKE.test(l), "has a bad character (U+FFFD / mojibake)");
   // "…all my concerns / cerns she forgot": a wrapped harvest repeated the tail of the last word
   first((l, prev) => {
