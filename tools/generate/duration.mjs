@@ -113,7 +113,8 @@ export function estimateFromNotes(dir, song, stanzas) {
 
   // meter: the notes' own time signature before song.json's (often a default 4/4)
   const [n, d] = String(song.timeSignature || "").split("/").map(Number);
-  const sig = score?.sig || midi?.sig || (n && d ? { num: n, den: d } : null) || (guesses.push("meter"), { num: 4, den: 4 });
+  const valid = s => (s?.num > 0 && s?.den > 0 ? s : null); // some MIDIs declare 0/4
+  const sig = valid(score?.sig) || valid(midi?.sig) || (n && d ? { num: n, den: d } : null) || (guesses.push("meter"), { num: 4, den: 4 });
   const perBar = sig.num * 4 / sig.den; // quarter notes
   const compound = sig.den === 8 && sig.num % 3 === 0 && sig.num > 3;
   const unit = compound ? 1.5 : sig.den === 2 ? 2 : 1; // quarters in the beat a bpm may count
