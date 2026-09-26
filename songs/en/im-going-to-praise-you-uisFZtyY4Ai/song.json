@@ -60,12 +60,16 @@
         "lyric": 4
       },
       {
-        "label": "Verse",
+        "label": "Flute Solo",
         "lyric": 5
       },
       {
-        "label": "Chorus 3",
+        "label": "Verse",
         "lyric": 6
+      },
+      {
+        "label": "Chorus 3",
+        "lyric": 7
       }
     ],
     "defaultOrder": [
@@ -73,6 +77,7 @@
       "Chorus",
       "Verse",
       "Chorus 2",
+      "Flute Solo",
       "Verse",
       "Chorus 3"
     ]
