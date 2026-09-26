@@ -435,9 +435,12 @@ export function chartPdf({ title, subtitle, footer, stanzas }) {
           continue;
         }
         const pair = chordLyricPair(line);
-        const chords = enc.encode(pair.chords), lyrics = enc.encode(pair.lyrics);
-        if (chords == null || lyrics == null) return null;
-        lines.push({ chords, lyrics });
+        // each chord keeps the lyric column it sits over: drawn at 8pt in one string, the columns shrank
+        // to 8pt ones and the chords drifted left of their syllables along the line
+        const chords = [...pair.chords.matchAll(/\S+/g)].map(m => ({ col: m.index, s: enc.encode(m[0]) }));
+        const lyrics = enc.encode(pair.lyrics);
+        if (chords.some(c => c.s == null) || lyrics == null) return null;
+        lines.push({ chords: chords.length ? chords : "", lyrics });
       }
       blocks.push({ label, lines });
     }
@@ -447,7 +450,7 @@ export function chartPdf({ title, subtitle, footer, stanzas }) {
       for (const block of blocks) {
         text("F2", 9, block.label.toUpperCase(), 16);
         for (const line of block.lines) {
-          if (line.chords) text("F2", 8, line.chords, 10);
+          if (line.chords) text("F2", 8, line.chords, 10, 11);
           text("F1", 11, line.lyrics || " ", line.chords ? 11 : 13);
         }
       }
@@ -489,10 +492,16 @@ function paginateText(draw, enc = COURIER) {
   let ops = [];
   let y = 720;
   const flush = () => { if (ops.length) pages.push(ops); ops = []; y = 720; };
-  const text = (font, size, str, gap) => {
+  // str: text, or [{ col, s }] placed at the columns of a monospace `colSize` line (0.6 em per character)
+  const text = (font, size, str, gap, colSize) => {
     if (y - gap < 56) flush();
     y -= gap;
     if (enc.op) { const op = enc.op(font, size, y, str); if (op) ops.push(op); }
+    else if (Array.isArray(str)) {
+      let x = 0, run = "";
+      for (const { col, s } of str) { const cx = +(col * 0.6 * colSize).toFixed(2); run += ` ${cx - x} 0 Td ${enc.show(s, font)} Tj`; x = cx; }
+      ops.push(`BT /${font} ${size} Tf 72 ${y} Td${run} ET`);
+    }
     else ops.push(`BT /${font} ${size} Tf 72 ${y} Td ${enc.show(str, font)} Tj ET`);
   };
   draw({ text, y: () => y });
