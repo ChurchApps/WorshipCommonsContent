@@ -66,6 +66,12 @@ const norm = s => String(s || "").toLowerCase().replace(/['’]/g, "").replace(/
 const alnum = s => norm(s).replace(/ /g, "");
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// the tune.mid is the writer's own file, not a third-party sequence of the tune
+function writersOwnMidi(dir) {
+  const m = path.join(dir, "sources", "manifest.json");
+  return fs.existsSync(m) && (readJson(m).files || []).some(f => f.file === "tune.mid" && f.original === true);
+}
+
 function abcMeta(text) {
   const field = re => { const m = text.match(re); return m ? m[1].trim() : ""; };
   const keyRaw = field(/^K:\s*([^%\r\n]+)/m);
@@ -448,13 +454,14 @@ for (const pkg of packages) {
     fillIfEmpty("timeSignature", header.time, "chordpro");
     fillIfEmpty("bpm", header.tempo ? Number(header.tempo) : null, "chordpro");
     // A placeholder key/time gives way to the tune: ABC K:/M: win, else a MIDI with a single
-    // time signature, and a single key signature its notes fit (>= 90% diatonic). PD songs
-    // too: only the tempo of a PD (Cyber Hymnal) MIDI is the sequencer's, not the hymn's.
+    // time signature, and a single key signature its notes fit (>= 90% diatonic). A MIDI's tempo
+    // counts only when the file is the writer's own (manifest original: true); a third-party
+    // sequence (Cyber Hymnal, Open Hymnal...) carries the sequencer's tempo, not the song's.
     const midiKey = probed?.keys?.length === 1 && probed.diatonic >= 0.9 ? probed.keys[0].replace(/maj$/i, "") : null;
     const midiTime = probed?.times?.length === 1 ? probed.times[0] : null;
     fill("key", abcUse?.key || midiKey, abcUse?.key ? "abc" : "midi", true);
     fill("timeSignature", abcUse?.timeSignature || midiTime, abcUse?.timeSignature ? "abc" : "midi", true);
-    if (!header.tempo && probed?.bpm && probed.bpm !== 120 && !abcUse && song.license !== "PD")
+    if (!header.tempo && probed?.bpm && probed.bpm !== 120 && !abcUse && writersOwnMidi(dir))
       fillIfEmpty("bpm", probed.bpm, "midi");
     const midiBpm = probed?.bpm;
     if (midiBpm && chartBpm && Math.abs(midiBpm - Number(chartBpm)) > 5 && midiBpm !== 120)
