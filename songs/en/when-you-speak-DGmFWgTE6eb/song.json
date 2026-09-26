@@ -1,0 +1,137 @@
+{
+  "id": "DGmFWgTE6eb",
+  "title": "When You Speak",
+  "writer": "Evan Jonathan Bryant",
+  "year": 2024,
+  "themes": "Holy Spirit, Invitation, Hope, Faith, Comfort, Trust",
+  "key": "G",
+  "bpm": 70,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Genesis 1",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "t2Vy9_4SlXY",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Evan Jonathan Bryant"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Evan Jonathan Bryant"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Evan Jonathan Bryant"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Evan Jonathan Bryant"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Evan Jonathan Bryant"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Tag 1",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Tag 2",
+        "lyric": 8
+      },
+      {
+        "label": "Instrumental",
+        "lyric": 9
+      },
+      {
+        "label": "Bridge 1",
+        "lyric": 10
+      },
+      {
+        "label": "Bridge 2",
+        "lyric": 11
+      },
+      {
+        "label": "Bridge Tag",
+        "lyric": 12
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 13
+      },
+      {
+        "label": "Chorus",
+        "lyric": 14
+      },
+      {
+        "label": "Tag 1",
+        "lyric": 15
+      },
+      {
+        "label": "Instrumental",
+        "lyric": 16
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Tag 1",
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Tag 2",
+      "Instrumental",
+      "Bridge 1",
+      "Bridge 2",
+      "Bridge Tag",
+      "Chorus 2",
+      "Chorus",
+      "Tag 1",
+      "Instrumental"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "stemsZip": "stemsZip.zip"
+  }
+}
