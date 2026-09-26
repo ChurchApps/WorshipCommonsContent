@@ -1,0 +1,83 @@
+{
+  "id": "-y6Qf_j6kqW",
+  "title": "Seated In The Heavens",
+  "writer": "Oswald Quek",
+  "year": 2025,
+  "themes": "Hope, Confession",
+  "key": "Ab",
+  "bpm": 79,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Ephesians 2:6",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "MfRd9oklJD4",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "lyrics-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Oswald Quek"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Oswald Quek"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Oswald Quek"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Oswald Quek"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "VERSE",
+        "lyric": 1
+      },
+      {
+        "label": "PRE",
+        "lyric": 2
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 3
+      },
+      {
+        "label": "VERSE",
+        "lyric": 4
+      },
+      {
+        "label": "PRE",
+        "lyric": 5
+      },
+      {
+        "label": "BRIDGE",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "VERSE",
+      "PRE",
+      "CHORUS",
+      "VERSE",
+      "PRE",
+      "BRIDGE"
+    ]
+  },
+  "publishedKeys": [
+    "Ab"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}
