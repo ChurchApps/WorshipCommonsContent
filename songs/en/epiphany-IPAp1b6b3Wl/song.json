@@ -41,12 +41,32 @@
     "status": "draft",
     "sections": [
       {
-        "label": "Verse 1,",
+        "label": "Verse 1",
         "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
       }
     ],
     "defaultOrder": [
-      "Verse 1,"
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Bridge"
     ]
   },
   "publishedKeys": [
