@@ -1,0 +1,72 @@
+{
+  "id": "p9ZuzQDsCLD",
+  "title": "Good Morning, Holy Spirit",
+  "writer": "Doug Gregan",
+  "year": 1998,
+  "themes": "Praise, Faith, Prayer, Scripture, Trust, Holy Spirit",
+  "key": "F",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "1  Thessalonians 5:16-23",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "cIBGGuImiRy",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse",
+        "lyric": 1
+      },
+      {
+        "label": "Pre-Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse",
+      "Pre-Chorus",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "F"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.m4a",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

@@ -1,32 +1,43 @@
 {
   "files": [
     {
-      "file": "demoAudio.mp3",
-      "url": null,
-      "acquired": "2026-09-27",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "__xUY4ynnk0",
-      "submission": "IDIa-PUreuJ",
-      "note": null
-    },
-    {
       "file": "art.webp",
       "url": null,
       "acquired": "2026-09-27",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "__xUY4ynnk0",
-      "submission": "eoJJQ2y60Ko",
-      "note": "https://youtu.be/oEtE6v9XIkE\n\nthere is a thumb nail that was added above that is specific to the title and this youtube link will take a person to a helpful video for learning the fingerings"
+      "submittedBy": "cIBGGuImiRy",
+      "submission": "A9pLe3OMp-i",
+      "note": null
+    },
+    {
+      "file": "demoAudio.m4a",
+      "url": null,
+      "acquired": "2026-09-27",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "cIBGGuImiRy",
+      "submission": "A9pLe3OMp-i",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-09-27",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "cIBGGuImiRy",
+      "submission": "A9pLe3OMp-i",
+      "note": null
     },
     {
       "file": "timing.json",
       "url": null,
       "acquired": "2026-09-27",
-      "sha256": "d2b56edc357aabc6ea17260a6fb7edf97b2d34171d1ef29f2371e5e728d07214",
+      "sha256": "953460c5fb6903fb85a6333e65c7e9b434f3f697ce59c4cb4542114655a4f956",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,
