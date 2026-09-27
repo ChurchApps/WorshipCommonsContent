@@ -40,12 +40,14 @@ SECTION_HEADING = re.compile(
 # a bare "PRE" (or "Pre 2:") shortens the pre-chorus; only alone, so "Precious" stays a lyric
 LABEL_START = re.compile(r"^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|pre(?=\s*\d*\s*:?\s*$)|interlude|instrumental|turnaround)(?:\b|(?=\d))", re.I)
 REPEAT_MARK = re.compile(r"^\(?\s*(?:x\s*\d+|\d+\s*x|repeat\b.*)\s*\)?$", re.I)
+# "The Great I Am (2x)": the mark ending a sung line is not sung (generate.mjs slidesOf)
+TRAILING_REPEAT = re.compile(r"\s*\((?:x\s*\d+|\d+\s*x)\)\s*$", re.I)
 COMMENT_DIRECTIVE = re.compile(r"^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$", re.I)
 
 
 def tidy_label(label: str) -> str:
-    """"Verse 1:" and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"."""
-    return re.sub(r"\s+", " ", re.sub(r":(?=\s|$)", "", label)).strip()
+    """"Verse 1:", "Verse 1," and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"."""
+    return re.sub(r"\s+", " ", re.sub(r":(?=\s|$)|,\s*$", "", label)).strip()
 CHORD = re.compile(r"\[[^\]]*\]")
 TODAY = date.today().isoformat()
 
@@ -110,7 +112,7 @@ def lyric_tokens(stanzas: list[dict]) -> list[dict]:
             if (line.strip().startswith("(") and line.strip().endswith(")")) or REPEAT_MARK.match(CHORD.sub("", line).strip()):
                 tokens.append({"si": si, "li": li, "text": line.strip(), "n": "", "dir": True})
                 continue
-            for w in CHORD.sub("", line).split():
+            for w in TRAILING_REPEAT.sub("", CHORD.sub("", line)).split():
                 n = norm(w)
                 if n:
                     tokens.append({"si": si, "li": li, "text": w, "n": n, "dir": False})

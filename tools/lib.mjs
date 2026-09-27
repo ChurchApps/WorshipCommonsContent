@@ -135,8 +135,8 @@ export function writeHarvested(dir, harvested) {
 // a bare "PRE" (or "Pre 2:") shortens the pre-chorus; only alone, so "Precious" or "Pre-ordained" stay lyrics
 export const SECTION_LABEL = /^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|pre(?=\s*\d*\s*:?\s*$)|interlude|instrumental|turnaround|estrofa|coro|estribillo|strophe|kehrvers)(?:\b|(?=\d))/i;
 const COMMENT_DIRECTIVE = /^\s*\{\s*(?:c|ci|comment|comment_italic)\s*:\s*(.+?)\s*\}\s*$/i;
-// "Verse 1:" and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"
-const tidyLabel = label => label.replace(/:(?=\s|$)/g, "").replace(/\s+/g, " ").trim();
+// "Verse 1:", "Verse 1," and "CHORUS: (2x)" name the same sections as "Verse 1" and "CHORUS (2x)"
+const tidyLabel = label => label.replace(/:(?=\s|$)|,\s*$/g, "").replace(/\s+/g, " ").trim();
 
 // A stanza label: a known heading ("Verse 2", "Chorus3", "Verse 1:"), a ChordPro comment ("{c: Intro}"), or, as
 // writers often chart it, any chord-free line wholly in parentheses ("(Chorus x2)", "(Intro/Instrumental)") —
