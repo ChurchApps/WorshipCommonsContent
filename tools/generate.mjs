@@ -38,12 +38,14 @@ function writeIfChanged(file, data) {
 
 // "4x", "x2", "(2x)", "Repeat": a direction for the band, not words for the room (the site's slides.ts too)
 const REPEAT_MARK = /^\(?\s*(?:x\s*\d+|\d+\s*x|repeat\b.*)\s*\)?$/i;
+// "The Great I Am (2x)": the mark at the end of a sung line goes, the words stay
+const TRAILING_REPEAT = /\s*\((?:x\s*\d+|\d+\s*x)\)\s*$/i;
 
 function slidesOf(stanzas) {
   return {
     slides: stanzas.map(st => ({
       label: st.label || "Verse",
-      lines: st.lines.map(stripChords).filter(l => l && !REPEAT_MARK.test(l.trim()))
+      lines: st.lines.map(stripChords).filter(l => l && !REPEAT_MARK.test(l.trim())).map(l => l.replace(TRAILING_REPEAT, ""))
     })).filter(s => s.lines.length)
   };
 }
