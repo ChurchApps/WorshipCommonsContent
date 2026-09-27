@@ -3,30 +3,19 @@
     {
       "file": "demoAudio.mp3",
       "url": null,
-      "acquired": "2026-09-26",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "MfRd9oklJD4",
-      "submission": "BgbBSFKiHYt",
-      "note": null
-    },
-    {
-      "file": "art.webp",
-      "url": null,
       "acquired": "2026-09-27",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "MfRd9oklJD4",
-      "submission": "u9E12bskadr",
-      "note": "Just adding cover art!"
+      "submittedBy": "__xUY4ynnk0",
+      "submission": "IDIa-PUreuJ",
+      "note": null
     },
     {
       "file": "timing.json",
       "url": null,
       "acquired": "2026-09-26",
-      "sha256": "04d6a9ea05586baae7f5ece5e4e229934222b940ea4caf506a6801b2d707a7ac",
+      "sha256": "2549a5025d662c16c85c29f40bd30609d29ce898ebbc3e89e12685827bef474e",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,

@@ -1,32 +1,32 @@
 {
   "files": [
     {
-      "file": "demoAudio.mp3",
-      "url": null,
-      "acquired": "2026-09-26",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "MfRd9oklJD4",
-      "submission": "BgbBSFKiHYt",
-      "note": null
-    },
-    {
       "file": "art.webp",
       "url": null,
       "acquired": "2026-09-27",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "MfRd9oklJD4",
-      "submission": "u9E12bskadr",
-      "note": "Just adding cover art!"
+      "submittedBy": "G3vmzXWb2p3",
+      "submission": "0ctpBghg9mF",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-09-27",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "G3vmzXWb2p3",
+      "submission": "0ctpBghg9mF",
+      "note": null
     },
     {
       "file": "timing.json",
       "url": null,
       "acquired": "2026-09-26",
-      "sha256": "04d6a9ea05586baae7f5ece5e4e229934222b940ea4caf506a6801b2d707a7ac",
+      "sha256": "e1812ce9fa60f54d68b58d9a98c9d21d6e180ac9b96edc10d2037be7595bfa5d",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,

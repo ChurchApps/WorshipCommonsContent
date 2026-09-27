@@ -19,23 +19,26 @@
   "confidence": "chart-only",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Oswald Quek"
+      "holder": "Oswald Quek",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Oswald Quek"
+      "holder": "Oswald Quek",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Oswald Quek"
+      "holder": "Oswald Quek",
+      "license": "WC"
     },
     "recording": {
+      "holder": "Oswald Quek",
+      "license": "WC"
+    },
+    "artwork": {
       "license": "WC",
       "holder": "Oswald Quek"
-    },
-    "artwork": null
+    }
   },
   "form": {
     "status": "draft",

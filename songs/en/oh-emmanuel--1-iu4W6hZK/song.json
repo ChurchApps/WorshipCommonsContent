@@ -1,0 +1,101 @@
+{
+  "id": "-1-iu4W6hZK",
+  "title": "Oh Emmanuel",
+  "writer": "Michael Angelo Encarnacion",
+  "year": 2023,
+  "themes": "Adoration, Christmas, Cross, Faith, Hope, Praise",
+  "key": "Am",
+  "bpm": 91,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "John 1:1 ",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "G3vmzXWb2p3",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Michael Angelo Encarnacion"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Michael Angelo Encarnacion"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Michael Angelo Encarnacion"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Michael Angelo Encarnacion"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Michael Angelo Encarnacion"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Interlude",
+        "lyric": 4
+      },
+      {
+        "label": "Verse II",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Bridge",
+        "lyric": 7
+      },
+      {
+        "label": "Chorus",
+        "lyric": 8
+      },
+      {
+        "label": "Tag",
+        "lyric": 9
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse 1",
+      "Chorus",
+      "Interlude",
+      "Verse II",
+      "Chorus",
+      "Bridge",
+      "Chorus",
+      "Tag"
+    ]
+  },
+  "publishedKeys": [
+    "Am"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

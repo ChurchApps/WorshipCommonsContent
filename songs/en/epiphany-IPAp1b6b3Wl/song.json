@@ -1,0 +1,58 @@
+{
+  "id": "IPAp1b6b3Wl",
+  "title": "Epiphany",
+  "writer": "Rich Lang",
+  "year": 2017,
+  "themes": "Hope, Epiphany, Easter, Sending",
+  "key": "E",
+  "bpm": 67,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Luke 24:32    Isaiah 6:6-8",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "__xUY4ynnk0",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Rich Lang"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Rich Lang"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Rich Lang"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Rich Lang"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1,",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1,"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}
