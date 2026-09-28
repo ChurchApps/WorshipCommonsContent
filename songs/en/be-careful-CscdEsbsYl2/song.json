@@ -1,0 +1,96 @@
+{
+  "id": "CscdEsbsYl2",
+  "title": "Be Careful",
+  "writer": "Doug Gregan",
+  "year": 2000,
+  "themes": "Praise, Holy Spirit, Confession, Prayer, Salvation, Scripture",
+  "key": "E",
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Matthew 18:8-9",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "cIBGGuImiRy",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Words & Music by Doug Gregan"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro Vamp, 4 beats each",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 7
+      },
+      {
+        "label": "Bridge",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Intro Vamp, 4 beats each",
+      "Verse 1",
+      "Verse 2",
+      "Chorus 1",
+      "Verse 3",
+      "Verse 4",
+      "Chorus 2",
+      "Bridge"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

@@ -1,28 +1,6 @@
 {
   "files": [
     {
-      "file": "demoAudio.mp3",
-      "url": null,
-      "acquired": "2026-09-25",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "cIBGGuImiRy",
-      "submission": "cEUH23ZgSZe",
-      "note": null
-    },
-    {
-      "file": "sheetPdf.pdf",
-      "url": null,
-      "acquired": "2026-09-25",
-      "sha256": null,
-      "licenseBasis": "contributor",
-      "original": true,
-      "submittedBy": "cIBGGuImiRy",
-      "submission": "cEUH23ZgSZe",
-      "note": null
-    },
-    {
       "file": "art.webp",
       "url": null,
       "acquired": "2026-09-28",
@@ -30,14 +8,25 @@
       "licenseBasis": "contributor",
       "original": true,
       "submittedBy": "cIBGGuImiRy",
-      "submission": "Yvw88LpjX70",
-      "note": "Change Cover Art"
+      "submission": "wRXUFregWWb",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-09-28",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "cIBGGuImiRy",
+      "submission": "wRXUFregWWb",
+      "note": null
     },
     {
       "file": "timing.json",
       "url": null,
-      "acquired": "2026-09-26",
-      "sha256": "e3e3ad122d91c83c91ced13368912d7ec67bc604c630cb6063e82acb690bfd55",
+      "acquired": "2026-09-28",
+      "sha256": "4fc15ba264e41c5fa160558b0c8102f92bce8e8f13255961ef14888a8632c5be",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,
