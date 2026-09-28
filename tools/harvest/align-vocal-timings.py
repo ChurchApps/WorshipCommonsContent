@@ -108,8 +108,13 @@ def lyric_tokens(stanzas: list[dict]) -> list[dict]:
     tokens = []
     for si, st in enumerate(stanzas):
         for li, line in enumerate(st["lines"]):
-            # a stage direction in parentheses, or a repeat mark ("4x", "x2", "Repeat"): not sung
-            if (line.strip().startswith("(") and line.strip().endswith(")")) or REPEAT_MARK.match(CHORD.sub("", line).strip()):
+            # a stage direction in parentheses ("(Larry Holder Music, ASCAP)") or a bare "4x": left out, so Lead
+            # Worship never shows it as a line. Other repeat marks ("Repeat Chorus") stay as untimed cues, since
+            # "Repeat the sounding joy" is sung.
+            plain = CHORD.sub("", line).strip()
+            if (plain.startswith("(") and plain.endswith(")") and not CHORD.search(line)) or re.fullmatch(r"(?i)x\s*\d+|\d+\s*x", plain):
+                continue
+            if REPEAT_MARK.match(plain):
                 tokens.append({"si": si, "li": li, "text": line.strip(), "n": "", "dir": True})
                 continue
             for w in TRAILING_REPEAT.sub("", CHORD.sub("", line)).split():
