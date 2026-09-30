@@ -54,18 +54,6 @@
       "evidence": "grants/larry-holder-permissions.txt"
     },
     {
-      "file": "timing.json",
-      "url": null,
-      "acquired": "2026-09-15",
-      "sha256": "5b3c355475576df5cf0ef18f0cf338fba1f252ad3701a68fe3cfe2bf083bb8ea",
-      "licenseBasis": "worshipcommons",
-      "original": false,
-      "submittedBy": null,
-      "note": "Word timings aligned to the writer recording (faster-whisper)",
-      "layer": "text",
-      "obtainedVia": "generated"
-    },
-    {
       "file": "tune.mid",
       "url": "https://larryholdermusic.org/midi/outpour.mid",
       "acquired": "2026-09-14",
@@ -78,6 +66,18 @@
       "layer": "tune",
       "obtainedVia": "harvest",
       "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-29",
+      "sha256": "848a64b85156e7f8baa22f6622eb81d7485f93d580946fe2ebd2cbbb71e9cf64",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
     }
   ]
 }

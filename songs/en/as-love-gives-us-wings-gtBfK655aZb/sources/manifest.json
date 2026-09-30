@@ -54,18 +54,6 @@
       "evidence": "grants/larry-holder-permissions.txt"
     },
     {
-      "file": "timing.json",
-      "url": null,
-      "acquired": "2026-09-15",
-      "sha256": "4fc0c5850ada94cb87261a560aab3d888314b3f2d2ca8f9075e35e4bca61f2f1",
-      "licenseBasis": "worshipcommons",
-      "original": false,
-      "submittedBy": null,
-      "note": "Word timings aligned to the writer recording (faster-whisper)",
-      "layer": "text",
-      "obtainedVia": "generated"
-    },
-    {
       "file": "tune.mid",
       "url": "https://larryholdermusic.org/midi/wings.mid",
       "acquired": "2026-09-14",
@@ -78,6 +66,18 @@
       "layer": "tune",
       "obtainedVia": "harvest",
       "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-29",
+      "sha256": "1018fa2c8ab9af0da3e6d3e559c96c1748e44cc5ba97d8cbe60a0b80c2609049",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
     }
   ]
 }

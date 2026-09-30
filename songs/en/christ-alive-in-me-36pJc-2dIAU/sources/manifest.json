@@ -68,18 +68,6 @@
       "evidence": "grants/larry-holder-permissions.txt"
     },
     {
-      "file": "timing.json",
-      "url": null,
-      "acquired": "2026-09-15",
-      "sha256": "f405aa28c21ec3c01d9d90f5f229ff78736205b86ec9c0cddfb5add40de80aba",
-      "licenseBasis": "worshipcommons",
-      "original": false,
-      "submittedBy": null,
-      "note": "Word timings aligned to the writer recording (faster-whisper)",
-      "layer": "text",
-      "obtainedVia": "generated"
-    },
-    {
       "file": "tune.abc",
       "url": null,
       "acquired": "2026-09-23",
@@ -92,6 +80,18 @@
       "layer": "tune",
       "obtainedVia": "transcription",
       "evidence": "grants/larry-holder-permissions.txt"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-29",
+      "sha256": "a05c73c4e5eababbf7ca44c8a23c15afd630aec47b566903618484f4ebd95d28",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
     }
   ]
 }

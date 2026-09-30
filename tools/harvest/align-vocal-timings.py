@@ -138,47 +138,102 @@ def transcribe(model, mp3: Path, lang: str) -> list[dict]:
     return out
 
 
-def align(lyrics: list[dict], asr: list[dict]) -> list[int | None]:
-    """Map each sung lyric token to an ASR index. Stage directions stay None."""
-    sung = [(i, tok) for i, tok in enumerate(lyrics) if not tok["dir"]]
-    if not sung or not asr:
-        return [None] * len(lyrics)
-    n, m = len(sung), len(asr)
-    # cost[i][j] = best for first i sung words vs first j asr words
-    INF = 10**9
-    cost = [[INF] * (m + 1) for _ in range(n + 1)]
-    bt = [[None] * (m + 1) for _ in range(n + 1)]  # ("m",) ("s",) ("a",)
-    cost[0][0] = 0
-    for j in range(1, m + 1):
-        cost[0][j] = j
-        bt[0][j] = "a"
-    for i in range(1, n + 1):
-        cost[i][0] = i * 2
-        bt[i][0] = "s"
-        a = sung[i - 1][1]["n"]
-        for j in range(1, m + 1):
-            b = asr[j - 1]["n"]
-            match = cost[i - 1][j - 1] + (0 if a == b else (1 if a[:3] == b[:3] else 3))
-            skip_s = cost[i - 1][j] + 2
-            skip_a = cost[i][j - 1] + 1
-            best = min(match, skip_s, skip_a)
-            cost[i][j] = best
-            bt[i][j] = "m" if best == match else ("s" if best == skip_s else "a")
-    i, j = n, m
-    asr_of = [None] * n
-    while i > 0 or j > 0:
-        op = bt[i][j]
-        if op == "m":
-            asr_of[i - 1] = j - 1
-            i, j = i - 1, j - 1
-        elif op == "s":
-            i -= 1
-        else:
-            j -= 1
-    mapped: list[int | None] = [None] * len(lyrics)
-    for k, (li, _) in enumerate(sung):
-        mapped[li] = asr_of[k]
-    return mapped
+# A jump back to an earlier stanza (the recording sings a chorus the chart writes once, or a verse twice): cheap next
+# to the heard words a repeat explains (1 each), dear next to one stray word
+REPEAT_COST = 4
+
+
+def align(lyrics: list[dict], asr: list[dict], stanzas: list[dict] | None = None) -> list[list[tuple[int, int | None]]]:
+    """Map the chart onto the recording as passes over its stanzas, in the order they are sung: each pass is a list of
+    (lyric token index, ASR index or None), stage directions None. The chart runs top to bottom as one pass each, but
+    after any stanza the recording may go back to an earlier one (REPEAT_COST), so a chorus sung three times where the
+    chart writes it once is timed three times instead of smeared over the song. With no repeat this is the plain
+    edit-distance alignment: match 0 (1 on the same first three letters, 3 otherwise), skip a lyric word 2, a heard
+    word 1."""
+    stanza_tokens: dict[int, list[int]] = {}
+    for i, tok in enumerate(lyrics):
+        stanza_tokens.setdefault(tok["si"], []).append(i)
+    units = [(si, idx, [i for i in idx if not lyrics[i]["dir"]]) for si, idx in sorted(stanza_tokens.items())]
+    units = [u for u in units if u[2]]
+    if not units or not asr:
+        return [[(i, None) for i in range(len(lyrics))]] if lyrics else []
+    m, INF = len(asr), 10**9
+    words = [[lyrics[i]["n"] for i in u[2]] for u in units]
+    heard = [a["n"] for a in asr]
+    C = [[[INF] * (m + 1) for _ in range(len(w) + 1)] for w in words]
+    B = [[[None] * (m + 1) for _ in range(len(w) + 1)] for w in words]
+
+    def skips(v: int, j: int) -> None:
+        # skipping lyric words moves along a column without hearing anything
+        for k in range(1, len(words[v]) + 1):
+            if C[v][k - 1][j] + 2 < C[v][k][j]:
+                C[v][k][j], B[v][k][j] = C[v][k - 1][j] + 2, ("s",)
+
+    for j in range(m + 1):
+        for v, w in enumerate(words):
+            col = C[v]
+            if v == 0 and j == 0:
+                col[0][0], B[v][0][0] = 0, ("start",)
+            elif v > 0 and C[v - 1][len(words[v - 1])][j] < col[0][j]:
+                col[0][j], B[v][0][j] = C[v - 1][len(words[v - 1])][j], ("next",)
+            if j > 0 and col[0][j - 1] + 1 < col[0][j]:
+                col[0][j], B[v][0][j] = col[0][j - 1] + 1, ("a",)
+            for k in range(1, len(w) + 1):
+                best, op = col[k - 1][j] + 2, ("s",)
+                if j > 0:
+                    a, b = w[k - 1], heard[j - 1]
+                    match = col[k - 1][j - 1] + (0 if a == b else (1 if a[:3] == b[:3] else 3))
+                    if match <= best:
+                        best, op = match, ("m",)
+                    if col[k][j - 1] + 1 < best:
+                        best, op = col[k][j - 1] + 1, ("a",)
+                col[k][j], B[v][k][j] = best, op
+        # a repeat: once any stanza ends here, any stanza at or before it may start again
+        best_u, best_c = None, INF
+        for v in range(len(words) - 1, -1, -1):
+            end = C[v][len(words[v])][j]
+            if end < best_c:
+                best_u, best_c = v, end
+            if best_c + REPEAT_COST < C[v][0][j]:
+                C[v][0][j], B[v][0][j] = best_c + REPEAT_COST, ("back", best_u)
+                skips(v, j)
+
+    def trace(v: int) -> list[tuple[int, dict[int, int]]]:
+        k, j = len(words[v]), m
+        passes: list[tuple[int, dict[int, int]]] = []
+        cur: dict[int, int] = {}
+        while True:
+            op = B[v][k][j]
+            if op[0] == "m":
+                cur[units[v][2][k - 1]] = j - 1
+                k, j = k - 1, j - 1
+            elif op[0] == "s":
+                k -= 1
+            elif op[0] == "a":
+                j -= 1
+            else:
+                passes.append((v, cur))
+                cur = {}
+                if op[0] == "start":
+                    return passes[::-1]
+                v = v - 1 if op[0] == "next" else op[1]
+                k = len(words[v])
+
+    # the run ends on the chart's last stanza with words (ending anywhere would drop every stanza after it), or, once
+    # past it, on a stanza a wordless heading after it names: "CHORUS: (2x)" closing the chart ends on that chorus
+    last = len(words) - 1
+    base = lambda label: re.sub(r"\(?\s*(?:x\s*\d+|\d+\s*x)\s*\)?", "", label or "").strip().lower()
+    tail = {base(st["label"]) for st in (stanzas or [])[units[-1][0] + 1:]} - {""}
+    ends = [u for u in range(last) if tail and base(stanzas[units[u][0]]["label"]) in tail]
+    passes = trace(last)
+    for u in sorted(ends, key=lambda u: C[u][len(words[u])][m]):
+        if C[u][len(words[u])][m] >= C[last][len(words[last])][m]:
+            break
+        tried = trace(u)
+        if any(v == last for v, _ in tried):
+            passes = tried
+            break
+    return [[(i, got.get(i)) for i in units[v][1]] for v, got in passes]
 
 
 def fill_times(lyrics: list[dict], asr: list[dict], mapped: list[int | None], duration: float) -> None:
@@ -220,20 +275,20 @@ def fill_times(lyrics: list[dict], asr: list[dict], mapped: list[int | None], du
 
 
 def build_json(stanzas: list[dict], lyrics: list[dict], duration: float) -> dict:
+    """One stanza per pass (tok["pi"], see align), in the order sung, so a repeated chorus appears once per time it is
+    sung; Lead Worship finds each stanza of its run by label, in order."""
     by: dict[tuple[int, int], list] = {}
+    label_of_pass: dict[int, str] = {}
     for tok in lyrics:
-        by.setdefault((tok["si"], tok["li"]), []).append(
+        label_of_pass[tok["pi"]] = stanzas[tok["si"]]["label"]
+        by.setdefault((tok["pi"], tok["li"]), []).append(
             {"t": round(tok["t"], 3), "d": round(max(0.05, tok["d"]), 3), "text": tok["text"]}
         )
     out = []
-    for si, st in enumerate(stanzas):
-        lines = []
-        for li, _ in enumerate(st["lines"]):
-            words = by.get((si, li), [])
-            if words:
-                lines.append(words)
+    for pi in sorted(label_of_pass):
+        lines = [by[key] for key in sorted(k for k in by if k[0] == pi)]
         if lines:
-            out.append({"label": st["label"], "lines": lines})
+            out.append({"label": label_of_pass[pi], "lines": lines})
     return {"duration": round(duration, 3), "stanzas": out, "basis": "vocal"}
 
 
@@ -287,11 +342,28 @@ def package_mp3(dir: Path, song: dict) -> Path | None:
     return None
 
 
-def vocal_stem(dir: Path) -> Path | None:
-    """pack/build.py's separated vocals for this package, when its cache still holds them (same timeline as the master)."""
+def vocal_stem(dir: Path, song: dict, duration: float) -> Path | None:
+    """pack/build.py's separated vocals for this package, when its cache still holds them (same timeline as the master),
+    else the vocal track of the writer's own stems zip (sources/stemsZip.*), read, never changed: a demo's band can
+    bury whole lines, the bare vocal never does. A lead vocal wins over backing vocals."""
     for p in sorted((ROOT / "tools" / ".cache" / "pack" / dir.name / "stems_out").glob("*_vocals.*")):
         return p
-    return None
+    name = (song.get("uploads") or {}).get("stemsZip")
+    zp = dir / "sources" / name if name else None
+    if not zp or not zp.exists() or zp.suffix.lower() != ".zip":
+        return None
+    import zipfile
+    with zipfile.ZipFile(zp) as z:
+        vocals = [n for n in z.namelist() if Path(n).suffix.lower() in AUDIO_EXT and re.search(r"vocal|vox", Path(n).name, re.I)]
+        vocals.sort(key=lambda n: (not re.search(r"lead|main", Path(n).name, re.I), bool(re.search(r"backing|bgv|harmony", n, re.I)), n))
+        if not vocals:
+            return None
+        out = ROOT / "tools" / ".cache" / "stems" / dir.name / ("vocals" + Path(vocals[0]).suffix.lower())
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_bytes(z.read(vocals[0]))
+    # ponytail: a stem exported from the same session starts with the recording; the length check only catches another
+    # take or edit (a stem only a tail longer is the same take). Cross-correlate with the mix if an offset stem turns up.
+    return out if abs(mp3_duration(out) - duration) <= 10 else None
 
 
 def whisper_for(lang: str, holder: dict):
@@ -337,16 +409,19 @@ def process(dir: Path, song: dict, model_holder: dict, force: bool) -> str:
         return "too-few-lyrics"
     lang = dir.parent.name  # songs/<lang>/<slug>-<id>
     dur = mp3_duration(mp3)
-    asr = transcribe(whisper_for(lang, model_holder), vocal_stem(dir) or mp3, lang)
+    asr = transcribe(whisper_for(lang, model_holder), vocal_stem(dir, song, dur) or mp3, lang)
     if len(asr) < 8:
         return "no-asr"
-    mapped = align(tokens, asr)
-    hits = sum(1 for t, j in zip(tokens, mapped) if not t["dir"] and j is not None)
+    passes = align(tokens, asr, stanzas)
+    # one timed copy of a stanza's words per time it is sung
+    timed = [{**tokens[i], "pi": pi} for pi, p in enumerate(passes) for i, _ in p]
+    mapped = [j for p in passes for _, j in p]
+    hits = len({i for p in passes for i, j in p if j is not None})
     ratio = hits / max(1, len(sung))
     if ratio < 0.45:
         return f"low-match {ratio:.0%}"
-    fill_times(tokens, asr, mapped, dur)
-    payload = build_json(stanzas, tokens, dur)
+    fill_times(timed, asr, mapped, dur)
+    payload = build_json(stanzas, timed, dur)
     if not payload["stanzas"]:
         return "empty"
     timing_path.write_text(json.dumps(payload, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
