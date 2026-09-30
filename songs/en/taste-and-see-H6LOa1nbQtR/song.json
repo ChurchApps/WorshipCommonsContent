@@ -1,0 +1,93 @@
+{
+  "id": "H6LOa1nbQtR",
+  "title": "Taste and See",
+  "writer": "Dave Simpfendorfer",
+  "year": 2021,
+  "themes": "Adoration, Thanksgiving, Trust, Praise, Comfort",
+  "key": "G",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 34",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "uWEJgVA4NYN",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "lyrics-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      },
+      {
+        "label": "Bridge",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Bridge",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf",
+    "stemsZip": "stemsZip.zip"
+  }
+}

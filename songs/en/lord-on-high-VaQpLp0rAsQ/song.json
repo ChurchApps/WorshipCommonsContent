@@ -16,24 +16,24 @@
   "submittedBy": "2f33JcdVkh5",
   "proAnswer": null,
   "certified": true,
-  "confidence": "lyrics-only",
+  "confidence": "generated-from-midi",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "David Costello"
+      "holder": "David Costello",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "David Costello"
+      "holder": "David Costello",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "David Costello"
+      "holder": "David Costello",
+      "license": "WC"
     },
     "recording": {
-      "license": "WC",
-      "holder": "David Costello"
+      "holder": "David Costello",
+      "license": "WC"
     },
     "artwork": null
   },
@@ -41,7 +41,7 @@
     "status": "draft",
     "sections": [
       {
-        "label": "INTRO E B A E – B E A B – E B (C#m) (Bsu",
+        "label": "INTRO",
         "lyric": 1
       },
       {
@@ -69,25 +69,27 @@
         "lyric": 7
       },
       {
-        "label": "TAG OUT (2x) E/g# A B E",
+        "label": "TAG OUT (2x)",
         "lyric": 8
       }
     ],
     "defaultOrder": [
-      "INTRO E B A E – B E A B – E B (C#m) (Bsu",
+      "INTRO",
       "VERSE 1",
       "CHORUS (2x)",
       "VERSE 2",
       "CHORUS (2x)",
       "BRIDGE",
       "CHORUS (2x)",
-      "TAG OUT (2x) E/g# A B E"
+      "TAG OUT (2x)"
     ]
   },
   "publishedKeys": [
     "E"
   ],
+  "scoreSource": "midi",
   "uploads": {
+    "stemsZip": "Lord on High-Lord on High-E-129.00bpm.zip",
     "demoAudio": "demoAudio.mp3",
     "master": "master.mp3",
     "sheetPdf": "sheetPdf.pdf"

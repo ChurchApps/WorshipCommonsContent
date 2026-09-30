@@ -1,0 +1,89 @@
+{
+  "id": "1_To58etmdS",
+  "title": "Do a New Work",
+  "writer": "David Costello",
+  "year": 2007,
+  "themes": "Praise",
+  "key": "G",
+  "bpm": 110,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "2f33JcdVkh5",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Bridge",
+        "lyric": 4
+      },
+      {
+        "label": "Solo",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Outro",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse",
+      "Chorus",
+      "Bridge",
+      "Solo",
+      "Chorus",
+      "Outro"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

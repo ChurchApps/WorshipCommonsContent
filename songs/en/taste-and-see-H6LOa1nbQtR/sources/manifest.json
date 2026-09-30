@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-09-30",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "1UfolUdiXIO",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-09-30",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "1UfolUdiXIO",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-09-30",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "1UfolUdiXIO",
+      "note": null
+    },
+    {
+      "file": "stemsZip.zip",
+      "url": null,
+      "acquired": "2026-09-30",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "1UfolUdiXIO",
+      "note": null
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-09-29",
+      "sha256": "accdc39325e877389b7a1bfd721c2908e537331d43ae1ef41a9029d243d35653",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}
