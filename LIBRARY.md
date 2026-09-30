@@ -128,7 +128,7 @@ does not exist as far as the tools are concerned.
 | `tune.mid` | Cyber Hymnal / HymnSite MIDI (pitch sketch, not a distributed score) |
 | `score.musicxml` | The notes, when someone gave them to us. Optional — `output/` holds the ABC conversion instead |
 | `sheetPdf.pdf`, `*.ly` | Scanned or engraved sheet, plus LilyPond source when we have it. Served as-is, never re-engraved. To give the song a score, transcribe it into `tune.abc` |
-| `cover.webp` | The package image. Generated once; kept, never regenerated |
+| `cover.webp` | The package image. Generated once (for an upload, from `art.*` by generate.mjs); kept, never regenerated |
 | `timing.json` | Lyric timings for karaoke. Hymns: `tools/harvest/generate-lyric-timings.py` (ABC+MIDI). Writer recordings: `tools/harvest/align-vocal-timings.py` (MP3 vocal) |
 | `master/<name>.wav` | A granted master recording. One per song. A YouTube id is a link, not a master |
 | `grants/<date>-<who>.<ext>` | The grant itself — what a manifest row's `evidence` points at |

@@ -52,6 +52,16 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-09-25",
+      "sha256": "98a5832fc6d049c646041c4128f70b17c1ff70ce6120e274f413949481376324",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "dQEGhRzHeJo",
+      "note": "Made from art.jpg; kept, never regenerated"
     }
   ]
 }

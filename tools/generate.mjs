@@ -19,10 +19,10 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import {
   songDirs, readJson, readSong, idFromFolder, lyricsPath, splitChordpro,
-  renderSourcesTxt, renderLicenseTxt, ensurePkgDirs, licenseNotice, attributionText, parseChordproStanzas, stripChords
+  renderSourcesTxt, renderLicenseTxt, writeJson, sha256File, ensurePkgDirs, licenseNotice, attributionText, parseChordproStanzas, stripChords
 } from "./lib.mjs";
 import { chartPdf } from "./generate/pdf.mjs";
-import { writeThumb } from "./generate/thumb.mjs";
+import { writeThumb, writeCover } from "./generate/thumb.mjs";
 import { scoreFor, midiFor, pythonAvailable } from "./generate/score.mjs";
 import { estimateFromNotes } from "./generate/duration.mjs";
 
@@ -111,8 +111,19 @@ export function generateSong(dir, { sources }) {
   if (pdf) { writeIfChanged(out("chart.pdf"), pdf); wrote.pdf = true; }
   else wrote.skipPdf = true;
 
-  // the catalog's cover.webp, else the art a writer uploaded with the song (sources/art.png|jpg|webp)
-  const ownCover = [path.join(dir, "sources", "cover.webp"), ...["png", "jpg", "jpeg", "webp"].map(e => path.join(dir, "sources", `art.${e}`))].find(p => fs.existsSync(p)) || "";
+  // the catalog's cover.webp, else one made once from the art a writer uploaded (sources/art.png|jpg|webp)
+  const coverPath = path.join(dir, "sources", "cover.webp");
+  const art = ["png", "jpg", "jpeg", "webp"].map(e => path.join(dir, "sources", `art.${e}`)).find(p => fs.existsSync(p));
+  if (writeCover(art, coverPath)) {
+    // one manifest row for the new file; the upload rows stay as the API wrote them
+    const mp = path.join(dir, "sources", "manifest.json");
+    const manifest = fs.existsSync(mp) ? readJson(mp) : { files: [] };
+    const artRow = manifest.files.find(r => r.file === path.basename(art)) || {};
+    manifest.files.push({ file: "cover.webp", url: null, acquired: artRow.acquired ?? null, sha256: sha256File(coverPath), licenseBasis: artRow.licenseBasis || "contributor", original: false, submittedBy: artRow.submittedBy ?? null, note: `Made from ${path.basename(art)}; kept, never regenerated` });
+    writeJson(mp, manifest);
+    wrote.cover = true;
+  }
+  const ownCover = fs.existsSync(coverPath) ? coverPath : art || "";
   const thumb = out("cover-thumb.webp");
   if (fs.existsSync(ownCover)) { writeThumb(ownCover, thumb); wrote.thumb = true; }
   else if (fs.existsSync(thumb)) fs.unlinkSync(thumb);
