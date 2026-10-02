@@ -128,7 +128,10 @@ async function main() {
     const local = path.join(ROOT, d);
     fs.mkdirSync(local, { recursive: true });
     aws(["s3", "cp", `${BUCKET}/${d}/song.json`, path.join(local, "song.json"), "--only-show-errors"]);
-    aws(["s3", "sync", `${BUCKET}/${d}/sources`, path.join(local, "sources"), "--delete", "--only-show-errors"]);
+    // --exact-timestamps: without it sync skips a same-size file, so a re-approve that changes one word for another
+    // of the same length ("For" -> "How") kept the old chart. A clean checkout's mtimes differ from S3's, so this
+    // re-downloads an unchanged file too: only for the packages being published.
+    aws(["s3", "sync", `${BUCKET}/${d}/sources`, path.join(local, "sources"), "--delete", "--exact-timestamps", "--only-show-errors"]);
     pulled[d] = sourceHashes(d);
   }
   for (const d of dirs) {
