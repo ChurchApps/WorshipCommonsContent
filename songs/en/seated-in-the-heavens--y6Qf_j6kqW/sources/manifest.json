@@ -23,18 +23,6 @@
       "note": "Just adding cover art!"
     },
     {
-      "file": "timing.json",
-      "url": null,
-      "acquired": "2026-09-26",
-      "sha256": "04d6a9ea05586baae7f5ece5e4e229934222b940ea4caf506a6801b2d707a7ac",
-      "licenseBasis": "worshipcommons",
-      "original": false,
-      "submittedBy": null,
-      "note": "Word timings aligned to the writer recording (faster-whisper)",
-      "layer": "text",
-      "obtainedVia": "generated"
-    },
-    {
       "file": "cover.webp",
       "url": null,
       "acquired": "2026-09-27",
@@ -43,6 +31,18 @@
       "original": false,
       "submittedBy": "MfRd9oklJD4",
       "note": "Made from art.webp; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": "7b089f065ff18db71d6d307d06c900d3aa5e874e5ae12673407980560422da15",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
     }
   ]
 }
