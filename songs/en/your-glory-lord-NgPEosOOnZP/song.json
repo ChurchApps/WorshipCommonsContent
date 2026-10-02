@@ -1,0 +1,74 @@
+{
+  "id": "NgPEosOOnZP",
+  "title": "Your Glory Lord",
+  "writer": "Liam Chilton",
+  "year": 2026,
+  "themes": "",
+  "key": "B",
+  "bpm": 77,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "XfVQWRkWpFv",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Liam Chilton"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Liam Chilton"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Liam Chilton"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Liam Chilton"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 3
+      },
+      {
+        "label": "Tag",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Verse 3",
+      "Tag"
+    ]
+  },
+  "publishedKeys": [
+    "B"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

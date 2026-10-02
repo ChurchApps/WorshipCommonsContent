@@ -1,0 +1,98 @@
+{
+  "id": "3hqqAp6ppwH",
+  "title": "Let It Be Me",
+  "writer": "Dave Simpfendorfer",
+  "year": 2019,
+  "themes": "Church, Sending, Prayer",
+  "key": "E",
+  "bpm": 90,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Isaiah 40: 1-5, 9",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "uWEJgVA4NYN",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "lyrics-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Dave Simpfendorfer"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      },
+      {
+        "label": "Bridge",
+        "lyric": 6
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 7
+      },
+      {
+        "label": "Chorus",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Chorus",
+      "Bridge",
+      "Verse 4",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf",
+    "stemsZip": "stemsZip.zip"
+  }
+}

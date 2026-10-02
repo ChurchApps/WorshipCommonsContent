@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "uRPHJD6D6Si",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "uRPHJD6D6Si",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "uRPHJD6D6Si",
+      "note": null
+    },
+    {
+      "file": "stemsZip.zip",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "uWEJgVA4NYN",
+      "submission": "uRPHJD6D6Si",
+      "note": null
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": "191b94d9c7a0f07c789acb9399ddc23bfec310755cc8be1909c2bc91bc29a6ea",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "uWEJgVA4NYN",
+      "note": "Made from art.webp; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-02",
+      "sha256": "c8bdacb2dd8cfd562f3dc11b4891e034b0fb217dbb107f64a5ff9654d26bde44",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

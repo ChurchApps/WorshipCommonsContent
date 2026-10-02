@@ -1,0 +1,104 @@
+{
+  "id": "wx7B1crEPJh",
+  "title": "Wings of the Wind",
+  "writer": "David Costello",
+  "year": 2008,
+  "themes": "Adoration",
+  "key": "D",
+  "bpm": 70,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 104",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "2f33JcdVkh5",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "David Costello"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse (2x)",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse (2x)",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus (2X)",
+        "lyric": 5
+      },
+      {
+        "label": "Bridge",
+        "lyric": 6
+      },
+      {
+        "label": "Solo",
+        "lyric": 7
+      },
+      {
+        "label": "Verse",
+        "lyric": 8
+      },
+      {
+        "label": "Chorus",
+        "lyric": 9
+      },
+      {
+        "label": "Bridge",
+        "lyric": 10
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse (2x)",
+      "Chorus",
+      "Verse (2x)",
+      "Chorus (2X)",
+      "Bridge",
+      "Solo",
+      "Verse",
+      "Chorus",
+      "Bridge"
+    ]
+  },
+  "publishedKeys": [
+    "D"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
