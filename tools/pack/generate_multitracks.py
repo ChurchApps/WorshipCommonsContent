@@ -621,6 +621,7 @@ def load_meta(xml: Path) -> dict:
             meta["title"] = j.get("title") or meta["title"]
             meta["key"] = j.get("key") or meta["key"]
             meta["bpm"] = float(j.get("bpm") or meta["bpm"])
+            meta["stated_bpm"] = bool(j.get("bpm"))
             meta["writer"] = j.get("writer") or ""
             break
     return meta
@@ -637,7 +638,9 @@ def parse_score(xml: Path) -> Score:
     if s.metadata and s.metadata.title:
         title = s.metadata.title
     mm = list(s.recurse().getElementsByClass(tempo.MetronomeMark))
-    bpm = float(mm[0].number) if mm and mm[0].number else meta["bpm"]
+    # the song's bpm wins over a score transcribed from the recording, whose tempo mark is one estimate (Living Water:
+    # 96 against the stated and measured 95); the click track (make_bounce) already counts the song's bpm
+    bpm = meta["bpm"] if meta.get("stated_bpm") else float(mm[0].number) if mm and mm[0].number else meta["bpm"]
     ts = list(s.recurse().getElementsByClass(meter.TimeSignature))
     bpb = int(ts[0].numerator) if ts else 4
     key_name = meta["key"]

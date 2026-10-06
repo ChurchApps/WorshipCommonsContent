@@ -124,8 +124,8 @@ def lyric_tokens(stanzas: list[dict]) -> list[dict]:
     return tokens
 
 
-def transcribe(model, mp3: Path, lang: str) -> list[dict]:
-    segs, _ = model.transcribe(str(mp3), language=lang, word_timestamps=True, vad_filter=False)
+def transcribe(model, mp3: Path, lang: str, condition: bool = True) -> list[dict]:
+    segs, _ = model.transcribe(str(mp3), language=lang, word_timestamps=True, vad_filter=False, condition_on_previous_text=condition)
     out = []
     for seg in segs:
         for w in seg.words or []:
@@ -409,15 +409,26 @@ def process(dir: Path, song: dict, model_holder: dict, force: bool) -> str:
         return "too-few-lyrics"
     lang = dir.parent.name  # songs/<lang>/<slug>-<id>
     dur = mp3_duration(mp3)
-    asr = transcribe(whisper_for(lang, model_holder), vocal_stem(dir, song, dur) or mp3, lang)
+    audio = vocal_stem(dir, song, dur) or mp3
+
+    def attempt(condition: bool):
+        asr = transcribe(whisper_for(lang, model_holder), audio, lang, condition)
+        passes = align(tokens, asr, stanzas) if len(asr) >= 8 else []
+        return asr, passes, len({i for p in passes for i, j in p if j is not None}) / max(1, len(sung))
+
+    asr, passes, ratio = attempt(True)
+    # a word hallucinated over an intro ("You") can steer Whisper's next windows until whole lines go missing (Let Your
+    # Heart Revive: 68%); unconditioned decoding recovers them, but loses others (I'm Going to Praise You: 88 -> 54%),
+    # so it is only a second try, kept when it matches more
+    if ratio < 0.85:
+        retry = attempt(False)
+        if retry[2] > ratio:
+            asr, passes, ratio = retry
     if len(asr) < 8:
         return "no-asr"
-    passes = align(tokens, asr, stanzas)
     # one timed copy of a stanza's words per time it is sung
     timed = [{**tokens[i], "pi": pi} for pi, p in enumerate(passes) for i, _ in p]
     mapped = [j for p in passes for _, j in p]
-    hits = len({i for p in passes for i, j in p if j is not None})
-    ratio = hits / max(1, len(sung))
     if ratio < 0.45:
         return f"low-match {ratio:.0%}"
     fill_times(timed, asr, mapped, dur)
