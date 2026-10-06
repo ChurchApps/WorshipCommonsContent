@@ -1,7 +1,7 @@
 {
   "id": "zFPJfgHkmVu",
   "title": "Living Water",
-  "writer": "Aaron",
+  "writer": "Heidi Robertson, Aaron Robertson",
   "year": 2025,
   "themes": "Holy Spirit, Hope",
   "key": "C",
@@ -16,28 +16,28 @@
   "submittedBy": "cXC3mt3GNym",
   "proAnswer": null,
   "certified": true,
-  "confidence": "chart-only",
+  "confidence": "generated-from-midi",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Aaron and Heidi Robertson"
+      "holder": "Aaron and Heidi Robertson",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Aaron and Heidi Robertson"
+      "holder": "Aaron and Heidi Robertson",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Aaron and Heidi Robertson"
+      "holder": "Aaron and Heidi Robertson",
+      "license": "WC"
     },
     "recording": {
-      "license": "WC",
-      "holder": "Aaron and Heidi Robertson"
+      "holder": "Aaron and Heidi Robertson",
+      "license": "WC"
     },
     "artwork": {
-      "license": "WC",
-      "holder": "Aaron and Heidi Robertson"
+      "holder": "Aaron and Heidi Robertson",
+      "license": "WC"
     }
   },
   "form": {
@@ -75,7 +75,9 @@
   "publishedKeys": [
     "C"
   ],
+  "scoreSource": "midi",
   "uploads": {
+    "stemsZip": "Living Water-Living Water-C-95.00bpm.zip",
     "demoAudio": "demoAudio.mp3",
     "master": "master.mp3"
   }

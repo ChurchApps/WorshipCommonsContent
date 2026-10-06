@@ -1,0 +1,98 @@
+{
+  "id": "eRCVzXiOY_U",
+  "title": "Reign in Our Hearts",
+  "writer": "Amy Denson",
+  "year": 2008,
+  "themes": "Adoration, Church, Communion, Faith, Gathering, Holy Spirit, Mission, Praise, Prayer, Scripture, Sending",
+  "key": "G",
+  "bpm": 85,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Matt 6; Psalm 8",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "I4LPnemP9M0",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Pre Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 5
+      },
+      {
+        "label": "Pre Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Bridge",
+        "lyric": 8
+      },
+      {
+        "label": "Chorus",
+        "lyric": 9
+      }
+    ],
+    "defaultOrder": [
+      "Introduction",
+      "Verse 1",
+      "Pre Chorus",
+      "Chorus",
+      "Verse 2",
+      "Pre Chorus",
+      "Chorus",
+      "Bridge",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

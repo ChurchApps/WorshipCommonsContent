@@ -1,14 +1,14 @@
 {
   "files": [
     {
-      "file": "art.jpeg",
+      "file": "art.webp",
       "url": null,
       "acquired": "2026-10-06",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "cXC3mt3GNym",
-      "submission": "1enagEJ49Nk",
+      "submittedBy": "squlbh74qTW",
+      "submission": "OVSbKPdEE4K",
       "note": null
     },
     {
@@ -18,55 +18,58 @@
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "cXC3mt3GNym",
-      "submission": "1enagEJ49Nk",
+      "submittedBy": "squlbh74qTW",
+      "submission": "OVSbKPdEE4K",
       "note": null
     },
     {
-      "file": "master/master.mp3",
+      "file": "extra/accompaniment.mp3",
       "url": null,
       "acquired": "2026-10-06",
       "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "cXC3mt3GNym",
-      "submission": "1enagEJ49Nk",
-      "note": null,
-      "layer": "recording",
-      "license": "WC",
-      "obtainedVia": "upload-form",
-      "evidence": "grants/recording-1enagEJ49Nk.txt"
+      "submittedBy": "squlbh74qTW",
+      "submission": "OVSbKPdEE4K",
+      "note": null
     },
     {
-      "file": "grants/recording-1enagEJ49Nk.txt",
+      "file": "sheetPdf.pdf",
       "url": null,
       "acquired": "2026-10-06",
-      "sha256": "113c62c61517e79800f5fe3f5ee254e7cf11aac05a2b664e3ab435d3175c0561",
+      "sha256": null,
       "licenseBasis": "contributor",
       "original": true,
-      "submittedBy": "cXC3mt3GNym",
-      "submission": "1enagEJ49Nk",
-      "note": null,
-      "layer": "grant",
-      "license": "WC",
-      "obtainedVia": "upload-form",
-      "evidence": "grants/recording-1enagEJ49Nk.txt"
+      "submittedBy": "squlbh74qTW",
+      "submission": "OVSbKPdEE4K",
+      "note": null
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "OVSbKPdEE4K",
+      "note": null
     },
     {
       "file": "cover.webp",
       "url": null,
       "acquired": "2026-10-06",
-      "sha256": "70841a081ac6ad76750e4074297abf8914e7d0d90c7166c2b54bc77667e7bbe3",
+      "sha256": "94ea163a730203ee65d7b903f370eab979d81922c2e42faecaca42ca053a1bdd",
       "licenseBasis": "contributor",
       "original": false,
-      "submittedBy": "cXC3mt3GNym",
-      "note": "Made from art.jpeg; kept, never regenerated"
+      "submittedBy": "squlbh74qTW",
+      "note": "Made from art.webp; kept, never regenerated"
     },
     {
       "file": "timing.json",
       "url": null,
       "acquired": "2026-10-06",
-      "sha256": "abd5b9cf28c92c639683f182edbd61112c0085b93f7f80bcd48782fc0e5cfde7",
+      "sha256": "45f283cf1adaa9f16fd9b05d37d0b442b3d71b643a0373b6aaf8b68b12515dae",
       "licenseBasis": "worshipcommons",
       "original": false,
       "submittedBy": null,

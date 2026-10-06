@@ -1,0 +1,93 @@
+{
+  "id": "vxKovMtX3-h",
+  "title": "Hiding Place (Hear my Prayer)",
+  "writer": "Josiah Poh",
+  "year": 2026,
+  "themes": "Confession, Cross, Lent, Prayer",
+  "key": "B",
+  "bpm": 78,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Ps 32, Isa 53:5, Rom 3:24-25, 2 Cor 5:21",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "ccli": "7293179",
+  "status": "approved",
+  "submittedBy": "KqotwFvRL5r",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "lyrics-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Josiah Poh"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Josiah Poh"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Josiah Poh"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Josiah Poh"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Josiah Poh"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Refrain",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Refrain",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
+      },
+      {
+        "label": "Refrain",
+        "lyric": 6
+      },
+      {
+        "label": "Outro",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Refrain",
+      "Verse 2",
+      "Refrain",
+      "Bridge",
+      "Refrain",
+      "Outro"
+    ]
+  },
+  "publishedKeys": [
+    "B"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.m4a",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

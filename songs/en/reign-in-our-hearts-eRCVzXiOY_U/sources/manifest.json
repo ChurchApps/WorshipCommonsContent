@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "I4LPnemP9M0",
+      "submission": "fCKSEOQuZUR",
+      "note": null
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": "aed6005cf66e158a7db6233a7f1149ca0c31c56b422dfed66b7ec8c7fd2f145c",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}
