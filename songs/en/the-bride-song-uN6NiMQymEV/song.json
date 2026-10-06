@@ -1,0 +1,68 @@
+{
+  "id": "uN6NiMQymEV",
+  "title": "The Bride Song",
+  "writer": "Amy Denson",
+  "year": 1993,
+  "themes": "Adoration, Church, Cross, Faith, Grace, Holy Spirit, Hope, Invitation, Prayer, Return, Salvation, Scripture, Wedding",
+  "key": "A",
+  "bpm": 90,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Matt. 22; Rev. 19;  Jude 24; Matt. 25; James 5; Col. 1; Rom. 12",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "I4LPnemP9M0",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "A"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

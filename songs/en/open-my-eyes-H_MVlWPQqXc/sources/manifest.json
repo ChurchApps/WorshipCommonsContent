@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "file": "art.jpg",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "rqNvikl2T9D",
+      "submission": "Na-KSPjsb2q",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "rqNvikl2T9D",
+      "submission": "Na-KSPjsb2q",
+      "note": null
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": "3d7d1d0c95a48e3ab873ac8aff4c70b7b429bc6b97867ed4a06bacad36f403a9",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "rqNvikl2T9D",
+      "note": "Made from art.jpg; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-06",
+      "sha256": "5fbc48905adca73fecafa51c4b1c41c28bb5514beeea9d6ac6d88384ba19a3b0",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

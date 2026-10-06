@@ -1,0 +1,93 @@
+{
+  "id": "oON17MbCOyV",
+  "title": "Let Your Heart Revive",
+  "writer": "Amy Denson",
+  "year": 1995,
+  "themes": "Adoration, Comfort, Communion, Faith, Grace, Peace, Hope, Holy Spirit, Prayer, Scripture, Thanksgiving, Trust",
+  "key": "C",
+  "bpm": 83,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 69",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "I4LPnemP9M0",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Chorus",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Bridge",
+      "Verse 3",
+      "Chorus",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

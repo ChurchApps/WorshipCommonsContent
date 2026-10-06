@@ -1,0 +1,93 @@
+{
+  "id": "bQThg8R1Grk",
+  "title": "Adonai",
+  "writer": "Amy Denson",
+  "year": 2008,
+  "themes": "Adoration, Faith, Holy Spirit, Prayer, Salvation, Grace, Cross",
+  "key": "D",
+  "bpm": 84,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "2 Cor. 3; Col. 1; Gal. 2; 1 Peter 1",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "I4LPnemP9M0",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Amy Denson"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Pre Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 5
+      },
+      {
+        "label": "Pre Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Outro A Capella",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Pre Chorus",
+      "Chorus",
+      "Verse 3",
+      "Pre Chorus",
+      "Chorus",
+      "Outro A Capella"
+    ]
+  },
+  "publishedKeys": [
+    "D"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

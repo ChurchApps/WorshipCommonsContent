@@ -1,0 +1,82 @@
+{
+  "id": "zFPJfgHkmVu",
+  "title": "Living Water",
+  "writer": "Aaron",
+  "year": 2025,
+  "themes": "Holy Spirit, Hope",
+  "key": "C",
+  "bpm": 95,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalms 63:1,2",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "cXC3mt3GNym",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Aaron and Heidi Robertson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Aaron and Heidi Robertson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Aaron and Heidi Robertson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Aaron and Heidi Robertson"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Aaron and Heidi Robertson"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "INTRO",
+        "lyric": 1
+      },
+      {
+        "label": "VERSE 1",
+        "lyric": 2
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 3
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 4
+      },
+      {
+        "label": "BRIDGE",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "INTRO",
+      "VERSE 1",
+      "VERSE 2",
+      "CHORUS",
+      "BRIDGE"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "master": "master.mp3"
+  }
+}

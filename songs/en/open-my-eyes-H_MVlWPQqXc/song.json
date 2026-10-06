@@ -1,0 +1,66 @@
+{
+  "id": "H_MVlWPQqXc",
+  "title": "Open My Eyes",
+  "writer": "Matt Burmeister",
+  "year": 2026,
+  "themes": "",
+  "key": "E",
+  "bpm": 72,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "rqNvikl2T9D",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Matt Burmeister, Braylen Burmeister"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Matt Burmeister, Braylen Burmeister"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Matt Burmeister, Braylen Burmeister"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Matt Burmeister, Braylen Burmeister"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Matt Burmeister, Braylen Burmeister"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse 1"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}
