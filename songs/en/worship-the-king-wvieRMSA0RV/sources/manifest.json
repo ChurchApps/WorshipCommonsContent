@@ -1,0 +1,78 @@
+{
+  "files": [
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "IU66K3VgMQ5",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "IU66K3VgMQ5",
+      "note": null
+    },
+    {
+      "file": "master/master.mp3",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "IU66K3VgMQ5",
+      "note": null,
+      "layer": "recording",
+      "license": "WC",
+      "obtainedVia": "upload-form",
+      "evidence": "grants/recording-IU66K3VgMQ5.txt"
+    },
+    {
+      "file": "grants/recording-IU66K3VgMQ5.txt",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": "3ac82f8288908397697b5df120b5caf76340b3115ef15dea6938f1b2eb819e90",
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "IU66K3VgMQ5",
+      "note": null,
+      "layer": "grant",
+      "license": "WC",
+      "obtainedVia": "upload-form",
+      "evidence": "grants/recording-IU66K3VgMQ5.txt"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": "6194fcb59319ae7fd45c7707717d5ebbde73672759ca78b59fab405e344ef04d",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "_3RWmLKmmbH",
+      "note": "Made from art.webp; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": "96ab419b6dd62607e276290362e11a075fb643f01b25c03c3a31c0381a8cc3c6",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

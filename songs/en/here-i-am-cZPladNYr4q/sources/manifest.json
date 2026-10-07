@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "W5sT-CD_aJW",
+      "note": null
+    },
+    {
+      "file": "master/master.mp3",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "W5sT-CD_aJW",
+      "note": null,
+      "layer": "recording",
+      "license": "WC",
+      "obtainedVia": "upload-form",
+      "evidence": "grants/recording-W5sT-CD_aJW.txt"
+    },
+    {
+      "file": "grants/recording-W5sT-CD_aJW.txt",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": "6d9fbad7211476b91cb6c9981d8cab25e64524d8f42e8beaffc6e03701c2be72",
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "_3RWmLKmmbH",
+      "submission": "W5sT-CD_aJW",
+      "note": null,
+      "layer": "grant",
+      "license": "WC",
+      "obtainedVia": "upload-form",
+      "evidence": "grants/recording-W5sT-CD_aJW.txt"
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": "fb2c28b8e77f5dbddedf685426d30768038e402106eba7372495728f5637e994",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "_3RWmLKmmbH",
+      "note": "Made from art.webp; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-07",
+      "sha256": "5ff13410e6325d5ce86434a942ecfd7736862337c29da327e91720088e89a8dc",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "wvieRMSA0RV",
+  "title": "Worship the King",
+  "writer": "Dionne Stratton",
+  "year": 2026,
+  "themes": "Adoration, Praise, Invitation, Scripture",
+  "key": "Gm",
+  "bpm": 144,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "_3RWmLKmmbH",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "lyrics-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Dionne Stratton"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Dionne Stratton"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Dionne Stratton"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Dionne Stratton"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Dionne Stratton"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Outro",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Bridge",
+      "Chorus",
+      "Chorus",
+      "Outro"
+    ]
+  },
+  "publishedKeys": [
+    "Gm"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "master": "master.mp3"
+  }
+}
