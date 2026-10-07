@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import shutil
 import json
 import re
 import subprocess
@@ -25,6 +26,8 @@ from mt_mix import SR, first_music_time
 
 HERE = Path(os.environ.get("MT_ROOT") or Path(__file__).resolve().parent)
 TTS_CACHE = HERE / "_mt_cache" / "tts_words"
+# build.py points MT_ROOT at a per-package work dir and prunes it afterwards, so words recorded once live here too
+SHARED_TTS = Path(__file__).resolve().parent / "_mt_cache" / "tts_words"
 COUNT_WORDS = ("one", "two", "three", "four")
 
 
@@ -105,8 +108,16 @@ def tts_word(word: str, beat: float, long_word: bool) -> np.ndarray:
     raw = TTS_CACHE / f"{key}_r-2.wav"
     TTS_CACHE.mkdir(parents=True, exist_ok=True)
     if not raw.exists() or raw.stat().st_size < 1000:
-        print(f"  tts {word}")
-        _sapi_speak(word, raw)
+        shared = SHARED_TTS / raw.name
+        if shared.exists() and shared.stat().st_size >= 1000:
+            shutil.copyfile(shared, raw)
+        elif os.name == "nt":
+            print(f"  tts {word}")
+            _sapi_speak(word, raw)
+        else:
+            # SAPI is Windows-only: without a recorded word the callout is left out, the click still plays
+            print(f"  tts {word}: no recording in {SHARED_TTS}, callout skipped")
+            return np.zeros(0, dtype=np.float32)
     y, sr = sf.read(str(raw), dtype="float32")
     if y.ndim > 1:
         y = y.mean(axis=1)
