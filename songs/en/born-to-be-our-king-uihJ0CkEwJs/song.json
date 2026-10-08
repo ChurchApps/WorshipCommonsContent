@@ -1,0 +1,99 @@
+{
+  "id": "uihJ0CkEwJs",
+  "title": "Born To Be Our King",
+  "writer": "Gilberto Barreto",
+  "year": 1996,
+  "themes": "Christmas",
+  "key": "Am",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2444075",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Elton Smith"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Elton Smith"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Elton Smith"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Elton Smith"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Elton Smith"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "VERSE 1",
+        "lyric": 1
+      },
+      {
+        "label": "CHORUS 1",
+        "lyric": 2
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 3
+      },
+      {
+        "label": "CHORUS 2",
+        "lyric": 4
+      },
+      {
+        "label": "VERSE 3",
+        "lyric": 5
+      },
+      {
+        "label": "CHORUS 1",
+        "lyric": 6
+      },
+      {
+        "label": "CHORUS 2",
+        "lyric": 7
+      },
+      {
+        "label": "ENDING",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "VERSE 1",
+      "CHORUS 1",
+      "VERSE 2",
+      "CHORUS 2",
+      "VERSE 3",
+      "CHORUS 1",
+      "CHORUS 2",
+      "ENDING"
+    ]
+  },
+  "publishedKeys": [
+    "Am"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

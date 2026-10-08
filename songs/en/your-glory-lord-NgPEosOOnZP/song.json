@@ -3,13 +3,13 @@
   "title": "Your Glory Lord",
   "writer": "Liam Chilton",
   "year": 2026,
-  "themes": "",
+  "themes": "Cross, Return, Creation",
   "key": "B",
   "bpm": 77,
   "timeSignature": "4/4",
   "meter": null,
   "language": "English",
-  "scripture": null,
+  "scripture": "Gen 1; 2 Cor 4:6; Rev 21:5",
   "license": "WC",
   "licenseVersion": "1.0",
   "status": "approved",
@@ -19,21 +19,21 @@
   "confidence": "chart-only",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Liam Chilton"
+      "holder": "Liam Chilton",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Liam Chilton"
+      "holder": "Liam Chilton",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Liam Chilton"
+      "holder": "Liam Chilton",
+      "license": "WC"
     },
     "recording": {
-      "license": "WC",
-      "holder": "Liam Chilton"
+      "holder": "Liam Chilton",
+      "license": "WC"
     },
     "artwork": null
   },

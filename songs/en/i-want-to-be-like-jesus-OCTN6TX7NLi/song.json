@@ -1,0 +1,84 @@
+{
+  "id": "OCTN6TX7NLi",
+  "title": "I Want To Be Like Jesus",
+  "writer": "Elton Smith",
+  "year": 1997,
+  "themes": "Kids",
+  "key": "C",
+  "bpm": 115,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2445744",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      },
+      {
+        "label": "Verse",
+        "lyric": 2
+      },
+      {
+        "label": "Verse (key of D)",
+        "lyric": 3
+      },
+      {
+        "label": "Verse (key of E)",
+        "lyric": 4
+      },
+      {
+        "label": "Ending",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Introduction",
+      "Verse",
+      "Verse (key of D)",
+      "Verse (key of E)",
+      "Ending"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

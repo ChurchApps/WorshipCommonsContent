@@ -4,7 +4,7 @@
   "writer": "Josiah Poh",
   "year": 2026,
   "themes": "Confession, Cross, Lent, Prayer",
-  "key": "B",
+  "key": "Am",
   "bpm": 78,
   "timeSignature": "4/4",
   "meter": null,
@@ -20,25 +20,25 @@
   "confidence": "lyrics-only",
   "rights": {
     "text": {
-      "license": "WC",
-      "holder": "Josiah Poh"
+      "holder": "Josiah Poh",
+      "license": "WC"
     },
     "translation": null,
     "tune": {
-      "license": "WC",
-      "holder": "Josiah Poh"
+      "holder": "Josiah Poh",
+      "license": "WC"
     },
     "arrangement": {
-      "license": "WC",
-      "holder": "Josiah Poh"
+      "holder": "Josiah Poh",
+      "license": "WC"
     },
     "recording": {
-      "license": "WC",
-      "holder": "Josiah Poh"
+      "holder": "Josiah Poh",
+      "license": "WC"
     },
     "artwork": {
-      "license": "WC",
-      "holder": "Josiah Poh"
+      "holder": "Josiah Poh",
+      "license": "WC"
     }
   },
   "form": {
@@ -84,7 +84,7 @@
     ]
   },
   "publishedKeys": [
-    "B"
+    "Am"
   ],
   "uploads": {
     "demoAudio": "demoAudio.m4a",
