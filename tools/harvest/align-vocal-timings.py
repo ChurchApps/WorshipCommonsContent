@@ -38,7 +38,7 @@ SECTION_HEADING = re.compile(
 )
 # tools/lib.mjs SECTION_LABEL: a heading word at the start ("Chorus3", "CHORUS (2x)")
 # a bare "PRE" (or "Pre 2:") shortens the pre-chorus; only alone, so "Precious" stays a lyric
-LABEL_START = re.compile(r"^(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|pre(?=\s*\d*\s*:?\s*$)|interlude|instrumental|turnaround)(?:\b|(?=\d))", re.I)
+LABEL_START = re.compile(r"^(?:repeat\s+)?(?:verse|chorus|refrain|bridge|coda|tag|intro|outro|ending|pre-?chorus|pre(?=\s*\d*\s*:?\s*$)|interlude|instrumental|turnaround)(?:\b|(?=\d))", re.I)
 REPEAT_MARK = re.compile(r"^\(?\s*(?:x\s*\d+|\d+\s*x|repeat\b.*|(?:to|from) the top|d\.\s?[cs]\.(?:\s*al\b.*)?|da capo\b.*|dal segno\b.*|to coda|fine)\s*\)?$", re.I)
 # "The Great I Am (2x)": the mark ending a sung line is not sung (generate.mjs slidesOf)
 TRAILING_REPEAT = re.compile(r"\s*\((?:x\s*\d+|\d+\s*x)\)\s*$", re.I)
