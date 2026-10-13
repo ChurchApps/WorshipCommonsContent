@@ -1,0 +1,99 @@
+{
+  "id": "5Ne-mp232IY",
+  "title": "The Shelter of Your Wings",
+  "writer": "Elton Smith and Gilberto Barreto",
+  "year": 1997,
+  "themes": "Salvation",
+  "key": "C",
+  "bpm": 123,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 91 and Matthew 23:37",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2450856",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Gilberto Barreto"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Outro",
+        "lyric": 8
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Chorus",
+      "Outro"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

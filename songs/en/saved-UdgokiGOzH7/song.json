@@ -1,0 +1,78 @@
+{
+  "id": "UdgokiGOzH7",
+  "title": "Saved",
+  "writer": "David J. Ferguson",
+  "year": 2005,
+  "themes": "Salvation, Faith, Grace",
+  "key": "D",
+  "bpm": 90,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Ephesians 2:8-9",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "v8tyz-BZqCc",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Link to chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Link to chorus",
+      "Chorus",
+      "Verse 2",
+      "Verse 3"
+    ]
+  },
+  "publishedKeys": [
+    "D"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

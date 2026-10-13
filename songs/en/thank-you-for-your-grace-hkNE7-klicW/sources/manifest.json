@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-10-13",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "k-sWlbFoAlf",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-10-13",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "k-sWlbFoAlf",
+      "note": null
+    },
+    {
+      "file": "extra/accompaniment.mp3",
+      "url": null,
+      "acquired": "2026-10-13",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "k-sWlbFoAlf",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-10-13",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "k-sWlbFoAlf",
+      "note": null
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-10-13",
+      "sha256": "8222f8a74ec4203014aa04f63b0cd9725090f67dc74b899c662d6af2ca8eba56",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "squlbh74qTW",
+      "note": "Made from art.webp; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-13",
+      "sha256": "56b60ea812a900cdaf32d3420ba9b8110f4c59d3cab51a2c23e59f544408106d",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}
