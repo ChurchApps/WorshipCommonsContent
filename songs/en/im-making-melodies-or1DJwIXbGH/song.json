@@ -1,0 +1,78 @@
+{
+  "id": "or1DJwIXbGH",
+  "title": "I'm Making Melodies",
+  "writer": "Tori Revoir",
+  "year": 2026,
+  "themes": "Praise, Salvation",
+  "key": "G",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "yR3mEVgU-Ll",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Tori Revoir"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Tori Revoir"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Tori Revoir"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Tori Revoir"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Chorus",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Chorus",
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}
