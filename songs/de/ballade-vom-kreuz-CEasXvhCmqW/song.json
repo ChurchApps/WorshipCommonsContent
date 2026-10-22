@@ -1,0 +1,72 @@
+{
+  "id": "CEasXvhCmqW",
+  "title": "Ballade vom Kreuz",
+  "writer": "Elton Smith, Larry Holder and Waldemar Mitulla",
+  "year": 1999,
+  "themes": "Cross, Easter, Salvation",
+  "key": "Dm",
+  "bpm": 124,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "German",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "7186017",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "parent": {
+    "id": "4_jJyeFltMn"
+  },
+  "relationLabel": "Translation (German)",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Waldemar Mitulla"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Waldemar Mitulla"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Waldemar Mitulla"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Waldemar Mitulla"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Waldemar Mitulla"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Refrain 1",
+        "lyric": 1
+      },
+      {
+        "label": "Refrain 2",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Refrain 1",
+      "Refrain 2"
+    ]
+  },
+  "publishedKeys": [
+    "Dm"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

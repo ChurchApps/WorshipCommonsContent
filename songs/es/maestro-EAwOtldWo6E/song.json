@@ -1,0 +1,121 @@
+{
+  "id": "EAwOtldWo6E",
+  "title": "Maestro",
+  "writer": "Cristian Alejandro Lopez, Joel David Galan Toledo",
+  "year": 2025,
+  "themes": "Prayer, Assurance, Comfort",
+  "key": "G",
+  "bpm": 144,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "Spanish",
+  "scripture": "Jeremiah 18:6",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "vCLDZ1Rf4Nm",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Cristian Alejandro Lopez, Joel David Galan Toledo"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Cristian Alejandro Lopez, Joel David Galan Toledo"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Cristian Alejandro Lopez, Joel David Galan Toledo"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Cristian Alejandro Lopez, Joel David Galan Toledo"
+    },
+    "artwork": {
+      "license": "WC",
+      "holder": "Cristian Alejandro Lopez, Joel David Galan Toledo"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Pre-Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 5
+      },
+      {
+        "label": "Pre-Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus",
+        "lyric": 7
+      },
+      {
+        "label": "Bridge",
+        "lyric": 8
+      },
+      {
+        "label": "Bridge",
+        "lyric": 9
+      },
+      {
+        "label": "Bridge 2",
+        "lyric": 10
+      },
+      {
+        "label": "Chorus",
+        "lyric": 11
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 12
+      },
+      {
+        "label": "Outro",
+        "lyric": 13
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse 1",
+      "Pre-Chorus",
+      "Chorus",
+      "Verse 2",
+      "Pre-Chorus",
+      "Chorus",
+      "Bridge",
+      "Bridge",
+      "Bridge 2",
+      "Chorus",
+      "Chorus 2",
+      "Outro"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "master": "master.flac"
+  }
+}

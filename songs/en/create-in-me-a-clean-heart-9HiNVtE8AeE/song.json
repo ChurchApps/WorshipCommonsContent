@@ -1,0 +1,79 @@
+{
+  "id": "9HiNVtE8AeE",
+  "title": "Create In Me A Clean Heart",
+  "writer": "Gilberto Barreto",
+  "year": 1996,
+  "themes": "Prayer, Holy Spirit",
+  "key": "G",
+  "bpm": 73,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 51",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2444910",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "VERSE 1",
+        "lyric": 1
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 2
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 3
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "VERSE 1",
+      "CHORUS",
+      "VERSE 2",
+      "CHORUS"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

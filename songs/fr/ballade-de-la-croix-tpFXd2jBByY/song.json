@@ -1,0 +1,87 @@
+{
+  "id": "tpFXd2jBByY",
+  "title": "Ballade de la Croix",
+  "writer": "Elton Smith, Larry Holder and Sylvain Turcotte",
+  "year": 2005,
+  "themes": "Easter, Cross, Salvation",
+  "key": "Dm",
+  "bpm": 124,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "French",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "7186016",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "parent": {
+    "id": "4_jJyeFltMn"
+  },
+  "relationLabel": "Translation (French)",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Sylvain Turcotte"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Sylvain Turcotte"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Sylvain Turcotte"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Sylvain Turcotte"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and Sylvain Turcotte"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus 1",
+      "Verse 3",
+      "Chorus 2"
+    ]
+  },
+  "publishedKeys": [
+    "Dm"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

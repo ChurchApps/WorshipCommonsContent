@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-10-22",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "dg_G4WH2CrN",
+      "note": null
+    },
+    {
+      "file": "extra/accompaniment.mp3",
+      "url": null,
+      "acquired": "2026-10-22",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "dg_G4WH2CrN",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-10-22",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "dg_G4WH2CrN",
+      "note": null
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-10-22",
+      "sha256": "d2d12fa2ab5977f1da9b97be6e853f5a5752df94c2b60297f5a9ff18f752a113",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

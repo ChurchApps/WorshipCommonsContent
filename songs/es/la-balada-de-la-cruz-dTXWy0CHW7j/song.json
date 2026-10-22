@@ -1,0 +1,57 @@
+{
+  "id": "dTXWy0CHW7j",
+  "title": "La Balada de la Cruz",
+  "writer": "Elton Smith, Larry Holder and David Surpless",
+  "year": 1998,
+  "themes": "Cross, Easter, Salvation",
+  "key": "Dm",
+  "bpm": 124,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "Spanish",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "7186019",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "parent": {
+    "id": "4_jJyeFltMn"
+  },
+  "relationLabel": "Translation (Spanish)",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and David Surpless"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and David Surpless"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and David Surpless"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and David Surpless"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Larry Holder and David Surpless"
+    }
+  },
+  "form": null,
+  "publishedKeys": [
+    "Dm"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
