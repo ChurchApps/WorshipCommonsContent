@@ -1,0 +1,102 @@
+{
+  "id": "A-wDXmIW9VI",
+  "title": "Here I Am",
+  "writer": "Keith T Hopkins",
+  "year": 2002,
+  "themes": "Adoration, Prayer",
+  "key": "Eb",
+  "bpm": 64,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Isaiah 6:8",
+  "license": "CC-BY",
+  "licenseVersion": "4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "approved",
+  "submittedBy": "KkQovC-hl6o",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "CC-BY",
+      "holder": "Keith T Hopkins"
+    },
+    "translation": null,
+    "tune": {
+      "license": "CC-BY",
+      "holder": "Keith T Hopkins"
+    },
+    "arrangement": {
+      "license": "CC-BY",
+      "holder": "Keith T Hopkins"
+    },
+    "recording": {
+      "license": "CC-BY",
+      "holder": "Keith T Hopkins"
+    },
+    "artwork": {
+      "license": "CC-BY",
+      "holder": "Keith T Hopkins"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Pre-Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Pre-Chorus",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus Instrumental",
+        "lyric": 7
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 8
+      },
+      {
+        "label": "Outro",
+        "lyric": 9
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Pre-Chorus",
+      "Chorus",
+      "Verse 2",
+      "Pre-Chorus",
+      "Chorus 2",
+      "Chorus Instrumental",
+      "Chorus 2",
+      "Outro"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}
