@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "a5QAhsW6FNW",
+      "note": null
+    },
+    {
+      "file": "demoAudio.mp3",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "a5QAhsW6FNW",
+      "note": null
+    },
+    {
+      "file": "extra/accompaniment.mp3",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "a5QAhsW6FNW",
+      "note": null
+    },
+    {
+      "file": "sheetPdf.pdf",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "a5QAhsW6FNW",
+      "note": null
+    },
+    {
+      "file": "tune.mid",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "a5QAhsW6FNW",
+      "note": null
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": "0a9370f2c438770393dbfc32f5b765f2a5eb08fdc1f3c8aa707fd534f3c642bc",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "squlbh74qTW",
+      "note": "Made from art.webp; kept, never regenerated"
+    },
+    {
+      "file": "timing.json",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": "7b3fe4edb2357406cd1838a61d3600c08b74c23eb2ecf8638f046f5b1da65f22",
+      "licenseBasis": "worshipcommons",
+      "original": false,
+      "submittedBy": null,
+      "note": "Word timings aligned to the writer recording (faster-whisper)",
+      "layer": "text",
+      "obtainedVia": "generated"
+    }
+  ]
+}

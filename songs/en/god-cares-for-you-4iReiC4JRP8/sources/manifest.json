@@ -185,6 +185,17 @@
       "note": "Word timings aligned to the writer recording (faster-whisper)",
       "layer": "text",
       "obtainedVia": "generated"
+    },
+    {
+      "file": "extra/accompaniment.mp3",
+      "url": null,
+      "acquired": "2026-11-01",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "_iB64Icc6Ke",
+      "note": "I created the accompaniment recording but forgot to share it with you."
     }
   ]
 }

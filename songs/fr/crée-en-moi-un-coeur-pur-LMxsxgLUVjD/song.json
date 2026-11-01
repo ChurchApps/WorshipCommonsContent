@@ -1,0 +1,83 @@
+{
+  "id": "LMxsxgLUVjD",
+  "title": "Crée en moi un coeur pur",
+  "writer": "Gilberto Barreto and Raymond Masse",
+  "year": 2014,
+  "themes": "Prayer, Praise, Salvation",
+  "key": "G",
+  "bpm": 179,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "French",
+  "scripture": "Psalm 51",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2444910",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "parent": {
+    "id": "9HiNVtE8AeE"
+  },
+  "relationLabel": "Translation (French)",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Raymond Masse"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Raymond Masse"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Raymond Masse"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Raymond Masse"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Raymond Masse"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

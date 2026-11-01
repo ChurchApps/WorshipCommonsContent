@@ -1,0 +1,84 @@
+{
+  "id": "kQeiw2b3X5O",
+  "title": "Mercy and Grace",
+  "writer": "Elton Smith and Larry Holder",
+  "year": 2004,
+  "themes": "Grace, Salvation",
+  "key": "C",
+  "bpm": 116,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "4319335",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Bridge",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Bridge",
+      "Verse 2",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

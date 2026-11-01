@@ -1,0 +1,84 @@
+{
+  "id": "9SfHSBbc2ib",
+  "title": "The Rain Is Falling",
+  "writer": "Elton Smith, Steve Israel and Larry Holder",
+  "year": 2000,
+  "themes": "Communion, Invitation",
+  "key": "E",
+  "bpm": 123,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "John 6:35",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "7297704",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Steve Israel and Larry Holder"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Steve Israel and Larry Holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Steve Israel and Larry Holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Steve Israel and Larry Holder"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith, Steve Israel and Larry Holder"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Ending",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Verse",
+      "Chorus",
+      "Verse",
+      "Chorus",
+      "Ending"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
