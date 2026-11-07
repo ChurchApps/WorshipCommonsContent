@@ -1,0 +1,94 @@
+{
+  "id": "MOW4jIY_0D7",
+  "title": "You Open Up Your Hand",
+  "writer": "Lenny Smith and Elton Smith",
+  "year": 1999,
+  "themes": "Praise, Creation, Providence",
+  "key": "C",
+  "bpm": 128,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 145:16",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2909871",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith and Elton Smith"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith and Elton Smith"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith and Elton Smith"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith and Elton Smith"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith and Elton Smith"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "INTRODUCTION",
+        "lyric": 1
+      },
+      {
+        "label": "VERSE 1",
+        "lyric": 2
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 3
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 4
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 5
+      },
+      {
+        "label": "Bridge",
+        "lyric": 6
+      },
+      {
+        "label": "Chorus and Ending)",
+        "lyric": 7
+      }
+    ],
+    "defaultOrder": [
+      "INTRODUCTION",
+      "VERSE 1",
+      "CHORUS",
+      "VERSE 2",
+      "CHORUS",
+      "Bridge",
+      "Chorus and Ending)"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
