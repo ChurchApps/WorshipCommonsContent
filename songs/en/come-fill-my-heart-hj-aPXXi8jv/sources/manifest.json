@@ -144,6 +144,38 @@
       "original": false,
       "submittedBy": null,
       "note": "YouTube performance id; a link, not an audio asset"
+    },
+    {
+      "file": "art.webp",
+      "url": null,
+      "acquired": "2026-11-12",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "HZTdCacncoT",
+      "note": "I don't have an accompaniment track to match the recording you chose, but I do have this one.  I have also provided an image for this song."
+    },
+    {
+      "file": "extra/accompaniment.mp3",
+      "url": null,
+      "acquired": "2026-11-12",
+      "sha256": null,
+      "licenseBasis": "contributor",
+      "original": true,
+      "submittedBy": "squlbh74qTW",
+      "submission": "HZTdCacncoT",
+      "note": "I don't have an accompaniment track to match the recording you chose, but I do have this one.  I have also provided an image for this song."
+    },
+    {
+      "file": "cover.webp",
+      "url": null,
+      "acquired": "2026-11-12",
+      "sha256": "121ed0e3c42aeed16928ca78989bf83a7eafb98c299adc75ba30648440cf17fc",
+      "licenseBasis": "contributor",
+      "original": false,
+      "submittedBy": "squlbh74qTW",
+      "note": "Made from art.webp; kept, never regenerated"
     }
   ]
 }
