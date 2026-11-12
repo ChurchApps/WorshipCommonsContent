@@ -1,0 +1,84 @@
+{
+  "id": "zpathVC9tIr",
+  "title": "Sing Hosanna",
+  "writer": "David J. Ferguson",
+  "year": 2016,
+  "themes": "Adoration, Grace",
+  "key": "E",
+  "bpm": 98,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Luke 14:13-23",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "v8tyz-BZqCc",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "David J. Ferguson"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus x4 - harmonies build with each re",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Break x4 - building with each repeat",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus x4 - harmonies build with each re",
+      "Verse 2",
+      "Chorus",
+      "Break x4 - building with each repeat",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "baZtsaOIgEg",
+  "title": "By These Things",
+  "writer": "Elton Smith and Larry Holder",
+  "year": 2022,
+  "themes": "Comfort, Faith",
+  "key": "E",
+  "bpm": 118,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "John 13:35",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "7200971",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "VERSE 1",
+        "lyric": 1
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 2
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 3
+      },
+      {
+        "label": "REPEAT CHORUS",
+        "lyric": 4
+      },
+      {
+        "label": "ENDING",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "VERSE 1",
+      "CHORUS",
+      "VERSE 2",
+      "REPEAT CHORUS",
+      "ENDING"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

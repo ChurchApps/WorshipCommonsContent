@@ -1,0 +1,84 @@
+{
+  "id": "Fm0S7vMFNyE",
+  "title": "Oh What A Wonder",
+  "writer": "Steve Israel, Larry Holder and Elton Smith",
+  "year": 1998,
+  "themes": "Christmas",
+  "key": "Dm",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2637796",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Steve Israel, Larry Holder and Elton Smith"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Steve Israel, Larry Holder and Elton Smith"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Steve Israel, Larry Holder and Elton Smith"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Steve Israel, Larry Holder and Elton Smith"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Steve Israel, Larry Holder and Elton Smith"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "INTRODUCTION",
+        "lyric": 1
+      },
+      {
+        "label": "VERSE 1",
+        "lyric": 2
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 3
+      },
+      {
+        "label": "VERSE 3",
+        "lyric": 4
+      },
+      {
+        "label": "ENDING",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "INTRODUCTION",
+      "VERSE 1",
+      "VERSE 2",
+      "VERSE 3",
+      "ENDING"
+    ]
+  },
+  "publishedKeys": [
+    "Dm"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
