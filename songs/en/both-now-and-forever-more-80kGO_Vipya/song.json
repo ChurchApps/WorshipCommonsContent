@@ -1,0 +1,74 @@
+{
+  "id": "80kGO_Vipya",
+  "title": "Both Now and Forever More",
+  "writer": "Gilberto Barreto",
+  "year": 1996,
+  "themes": "Comfort, Praise",
+  "key": "E",
+  "bpm": 122,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Psalm 121",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2444642",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "INTRODUCTION",
+        "lyric": 1
+      },
+      {
+        "label": "VERSE 1",
+        "lyric": 2
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 3
+      }
+    ],
+    "defaultOrder": [
+      "INTRODUCTION",
+      "VERSE 1",
+      "VERSE 2"
+    ]
+  },
+  "publishedKeys": [
+    "E"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

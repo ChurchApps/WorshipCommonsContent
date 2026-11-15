@@ -1,0 +1,104 @@
+{
+  "id": "pmdJM8uuv_h",
+  "title": "Adoration",
+  "writer": "Rick Founds, Rhesa Siregar, Paul Gentry and Elton Smith",
+  "year": 2004,
+  "themes": "Adoration, Praise, Creation",
+  "key": "A",
+  "bpm": 77,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "4319373",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Rick Founds, Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Rick Founds, Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Rick Founds, Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Rick Founds, Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Rick Founds, Rhesa Siregar, Paul Gentry and Elton Smith"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "INTRODUCTION",
+        "lyric": 1
+      },
+      {
+        "label": "VERSE 1",
+        "lyric": 2
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 3
+      },
+      {
+        "label": "REPEAT INTRODUCTION",
+        "lyric": 4
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 5
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 6
+      },
+      {
+        "label": "BRIDGE",
+        "lyric": 7
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 8
+      },
+      {
+        "label": "ENDING",
+        "lyric": 9
+      }
+    ],
+    "defaultOrder": [
+      "INTRODUCTION",
+      "VERSE 1",
+      "CHORUS",
+      "REPEAT INTRODUCTION",
+      "VERSE 2",
+      "CHORUS",
+      "BRIDGE",
+      "CHORUS",
+      "ENDING"
+    ]
+  },
+  "publishedKeys": [
+    "A"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

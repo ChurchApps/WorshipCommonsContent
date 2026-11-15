@@ -3,43 +3,46 @@
   "title": "Come Fill My Heart",
   "writer": "Elton Smith / Larry Holder / Steve Israel",
   "year": 2000,
-  "language": "English",
   "themes": "Invitation, Prayer",
   "key": "G",
   "bpm": 101,
   "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
   "scripture": null,
   "license": "larry-holder",
   "licenseVersion": "permissions",
   "licenseUrl": "https://larryholdermusic.org/copyright.html",
   "ccli": "3642144",
-  "copyright": "Copyright © 2000 Elton Smith, Larry Holder and Steve Israel",
-  "attribution": {
-    "required": true,
-    "text": "Elton Smith / Larry Holder / Steve Israel",
-    "link": "https://larryholdermusic.org/copyright.html"
-  },
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "score",
   "rights": {
     "text": {
+      "holder": "Elton Smith / Larry Holder / Steve Israel",
       "license": "larry-holder",
       "basis": "published on songsofpraise.org; Steve Israel co-write included by permission with All Of My Heart",
       "source": "larry-holder",
       "url": "https://larryholdermusic.org/copyright.html"
     },
+    "translation": null,
     "tune": {
+      "holder": "Elton Smith / Larry Holder / Steve Israel",
       "license": "larry-holder",
       "basis": "larry-holder"
     },
     "arrangement": {
+      "holder": "Elton Smith / Larry Holder / Steve Israel",
       "license": "larry-holder",
       "basis": "larry-holder"
     },
-    "recording": {
+    "recording": null,
+    "artwork": {
       "license": "larry-holder",
-      "basis": "Tina Arseneau and Steve Israel. The 2026 Suno broadcast is in extra and is not the master.",
-      "source": "larry-holder"
-    },
-    "artwork": null
+      "holder": "Elton Smith / Larry Holder / Steve Israel"
+    }
   },
   "form": {
     "status": "draft",
@@ -57,12 +60,20 @@
         "lyric": 3
       },
       {
-        "label": "Verse 3",
+        "label": "Chorus",
         "lyric": 4
       },
       {
-        "label": "Ending",
+        "label": "Verse 3",
         "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      },
+      {
+        "label": "Ending",
+        "lyric": 7
       }
     ],
     "defaultOrder": [
@@ -75,7 +86,12 @@
       "Ending"
     ]
   },
+  "publishedKeys": [
+    "G"
+  ],
+  "scoreSource": "abc",
   "uploads": {
+    "stemsZip": "Come Fill My Heart-Come Fill My Heart-G-103.00bpm.zip",
     "demoAudio": "song.mp3",
     "sheetPdf": "sheetPdf.pdf"
   }
