@@ -1,0 +1,64 @@
+{
+  "id": "w1ubZitsjAH",
+  "title": "Mary's Song",
+  "writer": "Lynn Cooper",
+  "year": 1998,
+  "themes": "Christmas, Advent",
+  "key": "C",
+  "bpm": 118,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "3032307",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      }
+    ],
+    "defaultOrder": [
+      "Introduction"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
