@@ -1,0 +1,84 @@
+{
+  "id": "_CvQjw_WVv9",
+  "title": "Christmas Is Your Birthday Lord",
+  "writer": "Gilberto Barreto and Janet Goh",
+  "year": 1997,
+  "themes": "Christmas",
+  "key": "F",
+  "bpm": 120,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2444659",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Janet Goh"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Janet Goh"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Janet Goh"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Janet Goh"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Gilberto Barreto and Janet Goh"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Introduction",
+      "Verse 1",
+      "Chorus 1",
+      "Verse 2",
+      "Chorus 2"
+    ]
+  },
+  "publishedKeys": [
+    "F"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
