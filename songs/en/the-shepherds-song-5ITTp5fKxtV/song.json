@@ -1,0 +1,89 @@
+{
+  "id": "5ITTp5fKxtV",
+  "title": "The Shepherd's Song",
+  "writer": "Rhesa Siregar, Paul Gentry and Elton Smith",
+  "year": 2004,
+  "themes": "Christmas",
+  "key": "C",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "5097773",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Rhesa Siregar, Paul Gentry and Elton Smith"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Rhesa Siregar, Paul Gentry and Elton Smith"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus 1",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Chorus 2",
+        "lyric": 5
+      },
+      {
+        "label": "Ending",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus 1",
+      "Verse 3",
+      "Chorus 2",
+      "Ending"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

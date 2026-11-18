@@ -1,0 +1,92 @@
+{
+  "id": "SU7bxCTjCKe",
+  "title": "Abres tu mano Señor",
+  "writer": "Lenny Smith, Elton Smith and Pablo Requena",
+  "year": 2005,
+  "themes": "Praise, Providence, Comfort, Creation",
+  "key": "C",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "Spanish",
+  "scripture": "Psalm 145:16",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2909871",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "parent": {
+    "id": "MOW4jIY_0D7"
+  },
+  "relationLabel": "Translation (Spanish)",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith, Elton Smith and Pablo Requena"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith, Elton Smith and Pablo Requena"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith, Elton Smith and Pablo Requena"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith, Elton Smith and Pablo Requena"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Lenny Smith, Elton Smith and Pablo Requena"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Chorus",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Bridge",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus and Ending",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Chorus",
+      "Verse 2",
+      "Chorus",
+      "Bridge",
+      "Chorus and Ending"
+    ]
+  },
+  "publishedKeys": [
+    "C"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}
