@@ -1,7 +1,7 @@
 {
   "id": "ouS_znOIuUm",
   "title": "O Holy Night",
-  "writer": "Adolphe Adam · tr. John S. Dwight",
+  "writer": "Adolphe Adam \u00b7 tr. John S. Dwight",
   "writerRef": "adolphe-adam",
   "year": 1847,
   "language": "English",
@@ -22,7 +22,12 @@
       "license": "PD",
       "basis": "cyber-hymnal"
     },
-    "arrangement": null,
+    "arrangement": {
+      "license": "permission",
+      "basis": "patsy-stevens",
+      "holder": "Patsy Stevens",
+      "note": "Permission to use relayed by her son Elton Smith via email, 2026-11-17."
+    },
     "recording": null,
     "artwork": null
   },
@@ -37,5 +42,8 @@
     "defaultOrder": [
       "Verse 1"
     ]
+  },
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
   }
 }

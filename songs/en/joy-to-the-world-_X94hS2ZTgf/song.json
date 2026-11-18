@@ -23,8 +23,10 @@
       "basis": "open-hymnal"
     },
     "arrangement": {
-      "license": "PD",
-      "basis": "open-hymnal"
+      "license": "permission",
+      "basis": "patsy-stevens",
+      "holder": "Patsy Stevens",
+      "note": "Permission to use relayed by her son Elton Smith via email, 2026-11-17."
     },
     "recording": null,
     "artwork": null

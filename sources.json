@@ -2,7 +2,7 @@
   "wc-seed": {
     "name": "WorshipCommons seed transcription",
     "url": "https://worshipcommons.org",
-    "licenseBasis": "Public-domain hymn texts (words and music published pre-1931) transcribed into ChordPro with inline chords for the original library — generated/imported during development, not taken from a single external source.",
+    "licenseBasis": "Public-domain hymn texts (words and music published pre-1931) transcribed into ChordPro with inline chords for the original library \u2014 generated/imported during development, not taken from a single external source.",
     "attribution": {
       "required": false
     }
@@ -50,7 +50,7 @@
   "songselect": {
     "name": "CCLI SongSelect (song id)",
     "url": "https://songselect.ccli.com",
-    "licenseBasis": "Public SongSelect work identifier only — title, authors, and song number. Not lyrics, charts, or arrangements. Presence of a number does not mean churches must report a public-domain or WorshipCommons song.",
+    "licenseBasis": "Public SongSelect work identifier only \u2014 title, authors, and song number. Not lyrics, charts, or arrangements. Presence of a number does not mean churches must report a public-domain or WorshipCommons song.",
     "attribution": {
       "required": false,
       "text": "CCLI SongSelect",
@@ -60,7 +60,7 @@
   "worshipcommons": {
     "name": "WorshipCommons (generated)",
     "url": "https://worshipcommons.org",
-    "licenseBasis": "Produced by WorshipCommons tooling — cover art, and lyric timings derived from the public-domain tune sources.",
+    "licenseBasis": "Produced by WorshipCommons tooling \u2014 cover art, and lyric timings derived from the public-domain tune sources.",
     "attribution": {
       "required": false
     }
@@ -76,7 +76,7 @@
     }
   },
   "cmaa": {
-    "name": "Church Music Association of America — English Hymns in the Commons",
+    "name": "Church Music Association of America \u2014 English Hymns in the Commons",
     "url": "https://musicasacra.com/music/english-hymns-in-the-commons/",
     "licenseBasis": "Newly composed English hymns the CMAA publishes under CC BY 3.0 on the linked page; each song.json carries the per-file licenseVersion and licenseUrl.",
     "attribution": {
@@ -86,7 +86,7 @@
     }
   },
   "cmpilato": {
-    "name": "C. Michael Pilato — worship-music",
+    "name": "C. Michael Pilato \u2014 worship-music",
     "url": "https://github.com/cmpilato/worship-music",
     "licenseBasis": "Repository README and each song README state CC BY 3.0 Unported or Public Domain per composition; imported per file with the README license line as the row license.",
     "attribution": {
@@ -116,7 +116,7 @@
     }
   },
   "mark-feezell": {
-    "name": "Mark Feezell — DrFeezell.com",
+    "name": "Mark Feezell \u2014 DrFeezell.com",
     "url": "https://drfeezell.com/",
     "licenseBasis": "Per-work CC0 1.0 public-domain dedication on the composition page and on the score itself (Holy is the Lord 2024-04-10; Hallelujah No. 1 2024-03-16, also copy.church/free). Instrumental arrangements of already-catalogued hymns are not imported as new songs.",
     "attribution": {
@@ -126,7 +126,7 @@
     }
   },
   "andrew-case": {
-    "name": "Andrew Case — His Magnificence",
+    "name": "Andrew Case \u2014 His Magnificence",
     "url": "https://hismagnificence.com/music/",
     "licenseBasis": "Author confirmed 2026-09-14 that original songs at hismagnificence.com/music/ are dedicated to the public domain (CC0), superseding 2008 All Rights Reserved footers on lyric PDFs. Covers of other writers, ESV psalm sheets, and Sing Hebrew were not taken.",
     "attribution": {
@@ -153,6 +153,16 @@
       "required": true,
       "text": "Larry Holder / Elton Smith, Songs of Praise",
       "link": "https://songsofpraise.org/"
+    }
+  },
+  "patsy-stevens": {
+    "name": "Patsy Stevens (piano arrangements)",
+    "url": "https://songsofpraise.org",
+    "licenseBasis": "Piano arrangements (lyrics + chords) of public-domain Christmas hymns, made by Patsy Stevens and hosted on her son Elton Smith's site (songsofpraise.org). Used on WorshipCommons by permission relayed by Elton Smith via email, 2026-11-17; the underlying hymn text and tune remain public domain.",
+    "attribution": {
+      "required": true,
+      "text": "Arranged by Patsy Stevens",
+      "link": "http://gardenofpraise.com"
     }
   }
 }
