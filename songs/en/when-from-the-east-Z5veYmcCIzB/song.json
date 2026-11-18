@@ -1,0 +1,83 @@
+{
+  "id": "Z5veYmcCIzB",
+  "title": "When From the East",
+  "writer": "Paul Lytle, Dan Gelok, and John H. Hopkins",
+  "year": null,
+  "themes": "",
+  "key": "Dm",
+  "bpm": 75,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Matthew 2:1-12",
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "status": "approved",
+  "submittedBy": "kBXr8w1Sjw4",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "Paul Lytle, Dan Gelok, and John H. Hopkins"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "Paul Lytle, Dan Gelok, and John H. Hopkins"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "Paul Lytle, Dan Gelok, and John H. Hopkins"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "Paul Lytle, Dan Gelok, and John H. Hopkins"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Verse 1",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 4
+      },
+      {
+        "label": "Verse 4",
+        "lyric": 5
+      },
+      {
+        "label": "Chorus",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Verse 3",
+      "Verse 4",
+      "Chorus"
+    ]
+  },
+  "publishedKeys": [
+    "Dm"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

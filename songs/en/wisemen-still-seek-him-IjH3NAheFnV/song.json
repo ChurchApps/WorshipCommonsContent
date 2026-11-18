@@ -1,0 +1,104 @@
+{
+  "id": "IjH3NAheFnV",
+  "title": "Wisemen Still Seek Him",
+  "writer": "Lynn Cooper",
+  "year": 1998,
+  "themes": "Christmas",
+  "key": "B",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "3032125",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Lynn Cooper"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "INTRODUCTION",
+        "lyric": 1
+      },
+      {
+        "label": "VERSE 1",
+        "lyric": 2
+      },
+      {
+        "label": "CHORUS",
+        "lyric": 3
+      },
+      {
+        "label": "VERSE 2",
+        "lyric": 4
+      },
+      {
+        "label": "REPEAT CHORUS",
+        "lyric": 5
+      },
+      {
+        "label": "BRIDGE",
+        "lyric": 6
+      },
+      {
+        "label": "VERSE 3",
+        "lyric": 7
+      },
+      {
+        "label": "REPEAT CHORUS",
+        "lyric": 8
+      },
+      {
+        "label": "ENDING",
+        "lyric": 9
+      }
+    ],
+    "defaultOrder": [
+      "INTRODUCTION",
+      "VERSE 1",
+      "CHORUS",
+      "VERSE 2",
+      "REPEAT CHORUS",
+      "BRIDGE",
+      "VERSE 3",
+      "REPEAT CHORUS",
+      "ENDING"
+    ]
+  },
+  "publishedKeys": [
+    "B"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
