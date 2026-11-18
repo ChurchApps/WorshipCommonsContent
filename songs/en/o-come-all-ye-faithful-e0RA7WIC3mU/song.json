@@ -1,7 +1,7 @@
 {
   "id": "e0RA7WIC3mU",
   "title": "O Come, All Ye Faithful",
-  "writer": "John F. Wade · tr. Frederick Oakeley",
+  "writer": "John F. Wade \u00b7 tr. Frederick Oakeley",
   "year": 1841,
   "language": "English",
   "scripture": "Luke 2:15",
@@ -17,8 +17,10 @@
       "basis": "open-hymnal"
     },
     "arrangement": {
-      "license": "PD",
-      "basis": "open-hymnal"
+      "license": "permission",
+      "basis": "patsy-stevens",
+      "holder": "Patsy Stevens",
+      "note": "Permission to use relayed by her son Elton Smith via email, 2026-11-17."
     },
     "recording": null,
     "artwork": {
@@ -47,5 +49,8 @@
   "parent": {
     "id": "yGo9po6GLcI"
   },
-  "relationLabel": "English translation"
+  "relationLabel": "English translation",
+  "uploads": {
+    "sheetPdf": "sheetPdf.pdf"
+  }
 }

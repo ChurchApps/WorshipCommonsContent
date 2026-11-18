@@ -11,16 +11,6 @@
       "note": "Catalog audit notes and judgments; not a citable source"
     },
     {
-      "file": "antioch.ly",
-      "url": "https://www.mutopiaproject.org/ftp/HandelGF/antioch/antioch.ly",
-      "acquired": "2026-09-08",
-      "sha256": "ecd34e100586b875d39ef2989d62af7c8a4f1b89f39e52f44ddb3f2d28fc8761",
-      "licenseBasis": "mutopia",
-      "original": true,
-      "submittedBy": null,
-      "note": "LilyPond engraving source behind sheetPdf.pdf; original bytes as fetched"
-    },
-    {
       "file": "ccli.json",
       "url": null,
       "acquired": null,
@@ -50,7 +40,7 @@
       "licenseBasis": "hymnary",
       "original": false,
       "submittedBy": null,
-      "note": "Harvested hymnal counts and churchCount snapshot — merged at catalog build"
+      "note": "Harvested hymnal counts and churchCount snapshot \u2014 merged at catalog build"
     },
     {
       "file": "lyrics.chordpro",
@@ -65,13 +55,13 @@
     },
     {
       "file": "sheetPdf.pdf",
-      "url": null,
-      "acquired": null,
-      "sha256": "3190f5562a14850b9365c31b8cb7d6aaa906ea7adb70c6a27e58b01882010cf0",
-      "licenseBasis": "mutopia",
-      "original": false,
+      "url": "https://songsofpraise.org/pdf/joy.pdf",
+      "acquired": "2026-11-17",
+      "sha256": "3977b361ac1058659835df779d0492430835a63ad5166a0f387b0d99fec2ab13",
+      "licenseBasis": "patsy-stevens",
+      "original": true,
       "submittedBy": null,
-      "note": "Existing catalog copy"
+      "note": "Arranged by Patsy Stevens; permission to use relayed by her son Elton Smith via email, 2026-11-17."
     },
     {
       "file": "timing.json",
