@@ -1,0 +1,74 @@
+{
+  "id": "ez-ENbkOBif",
+  "title": "Sing To The Lord",
+  "writer": "George Hillman",
+  "year": 2014,
+  "themes": "Praise, Gathering, Thanksgiving, Church",
+  "key": "G",
+  "bpm": 98,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "WC",
+  "licenseVersion": "1.0",
+  "ccli": "7044735",
+  "status": "approved",
+  "submittedBy": "4LzJ6UYuTk0",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "WC",
+      "holder": "George Hillman"
+    },
+    "translation": null,
+    "tune": {
+      "license": "WC",
+      "holder": "George Hillman"
+    },
+    "arrangement": {
+      "license": "WC",
+      "holder": "George Hillman"
+    },
+    "recording": {
+      "license": "WC",
+      "holder": "George Hillman"
+    },
+    "artwork": null
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Intro",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Chorus",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      }
+    ],
+    "defaultOrder": [
+      "Intro",
+      "Verse 1",
+      "Chorus",
+      "Verse 2"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3"
+  }
+}

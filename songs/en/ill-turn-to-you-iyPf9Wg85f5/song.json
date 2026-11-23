@@ -1,0 +1,84 @@
+{
+  "id": "iyPf9Wg85f5",
+  "title": "I'll Turn To You",
+  "writer": "Elton Smith and Larry Holder",
+  "year": 1997,
+  "themes": "Peace, Grace",
+  "key": "G",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": null,
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2445830",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 3
+      },
+      {
+        "label": "Chorus",
+        "lyric": 4
+      },
+      {
+        "label": "Ending",
+        "lyric": 5
+      }
+    ],
+    "defaultOrder": [
+      "Introduction",
+      "Verse 1",
+      "Verse 2",
+      "Chorus",
+      "Ending"
+    ]
+  },
+  "publishedKeys": [
+    "G"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
