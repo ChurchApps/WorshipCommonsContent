@@ -1,0 +1,69 @@
+{
+  "id": "b8T3g133TBe",
+  "title": "There Is Nothing In All Creation",
+  "writer": "Steve Israel and Elton Smith",
+  "year": 1997,
+  "themes": "Salvation, Assurance, Scripture",
+  "key": "D",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Romans 8:35-39",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "2450911",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Steve Israel and Elton Smith"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Steve Israel and Elton Smith"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Steve Israel and Elton Smith"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Steve Israel and Elton Smith"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Steve Israel and Elton Smith"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      },
+      {
+        "label": "Bridge",
+        "lyric": 2
+      }
+    ],
+    "defaultOrder": [
+      "Introduction",
+      "Bridge"
+    ]
+  },
+  "publishedKeys": [
+    "D"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}

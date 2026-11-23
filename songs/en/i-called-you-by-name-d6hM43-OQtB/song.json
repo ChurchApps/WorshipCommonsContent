@@ -1,0 +1,89 @@
+{
+  "id": "d6hM43-OQtB",
+  "title": "I Called You By Name",
+  "writer": "Elton Smith and Larry Holder",
+  "year": 2024,
+  "themes": "Invitation, Salvation",
+  "key": "Em",
+  "bpm": null,
+  "timeSignature": "4/4",
+  "meter": null,
+  "language": "English",
+  "scripture": "Isaiah 43:1",
+  "license": "larry-holder",
+  "licenseVersion": "permissions",
+  "licenseUrl": "https://larryholdermusic.org/copyright.html",
+  "ccli": "7246247",
+  "status": "approved",
+  "submittedBy": "squlbh74qTW",
+  "proAnswer": null,
+  "certified": true,
+  "confidence": "chart-only",
+  "rights": {
+    "text": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "translation": null,
+    "tune": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "arrangement": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "recording": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    },
+    "artwork": {
+      "license": "larry-holder",
+      "holder": "Elton Smith and Larry Holder"
+    }
+  },
+  "form": {
+    "status": "draft",
+    "sections": [
+      {
+        "label": "Introduction",
+        "lyric": 1
+      },
+      {
+        "label": "Verse 1",
+        "lyric": 2
+      },
+      {
+        "label": "Repeat Introduction",
+        "lyric": 3
+      },
+      {
+        "label": "Verse 2",
+        "lyric": 4
+      },
+      {
+        "label": "Repeat Introduction",
+        "lyric": 5
+      },
+      {
+        "label": "Verse 3",
+        "lyric": 6
+      }
+    ],
+    "defaultOrder": [
+      "Introduction",
+      "Verse 1",
+      "Repeat Introduction",
+      "Verse 2",
+      "Repeat Introduction",
+      "Verse 3"
+    ]
+  },
+  "publishedKeys": [
+    "Em"
+  ],
+  "uploads": {
+    "demoAudio": "demoAudio.mp3",
+    "sheetPdf": "sheetPdf.pdf"
+  }
+}
